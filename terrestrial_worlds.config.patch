@@ -1,0 +1,32 @@
+[
+	{
+		"op" : "add",
+		"path" : "/planetTypes/blackened",
+		"value" : {
+			"threatRange" : [5, 6],
+			"layers" : {
+				"surface" : {
+					"primaryRegion" : [ "blackened" ],
+					"secondaryRegions" : [ ],
+					"dungeons" : [ ]
+				}
+			}
+		}
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/regionTypes/blackened",
+		"value" : {
+			"caveLiquid" : [ "liquidnoxeumfuel" ],
+			"encloseLiquids" : true,
+			"blockSelector" : [ "remixedMildSurface" ],
+			"fgCaveSelector" : [ "surfaceCaves" ],
+			"bgCaveSelector" : [ "empty" ],
+			"biome" : [
+				[0, [ "blackened" ]]
+			],
+			"subRegion" : [ "midnight", "volcanic" ]
+		}
+	}
+]

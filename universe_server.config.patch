@@ -1,0 +1,7 @@
+[ 
+  {
+	"op" : "add",
+	"path" : "/speciesShips/nightar",
+	"value" : ["/ships/nightar/nightarT0.structure", "/ships/nightar/nightarT1.structure", "/ships/nightar/nightarT2.structure", "/ships/nightar/nightarT3.structure", "/ships/nightar/nightarT4.structure", "/ships/nightar/nightarT5.structure", "/ships/nightar/nightarT6.structure", "/ships/nightar/nightarT7.structure", "/ships/nightar/nightarT8.structure"]
+   }
+]

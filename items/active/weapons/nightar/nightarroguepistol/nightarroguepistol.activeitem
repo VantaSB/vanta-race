@@ -1,0 +1,82 @@
+{
+  "itemName" : "nightarroguepistol",
+  "level" : 6,
+  "price" : 855,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A handgun built with Nightar technologies.",
+  "shortdescription" : "^cyan;Rogue-C9 Handgun^reset;",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : false,
+  "itemTags" : [ "pistol", "weapon", "ranged" ],
+  
+  "inventoryIcon" : "nightarroguepistol.png",
+  
+  "animation" : "nightarroguepistol.animation",
+  "animationParts" : {
+    "middle" : "nightarroguepistol.png",
+    "middleFullbright" : "nightarroguepistolfullbright.png",
+	"muzzleFlash" : "/items/active/weapons/ranged/unrand/spaceplasmarifle/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_ar4.ogg"]
+    }
+  },
+  
+  "muzzleOffset" : [1.5625, 0.375],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+  
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.3,
+    "baseDps" : 28,
+    "energyUsage" : 17,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.015,
+
+    "projectileType" : "spaceplasma",
+    "projectileParameters" : {
+      "knockbackRange" : [4,8]
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+	  
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+	  
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

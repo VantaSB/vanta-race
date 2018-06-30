@@ -1,0 +1,9 @@
+{
+  "name" : "nightardragonbosshead",
+  "category" : "nightardragonboss",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "head.png"
+  }
+}

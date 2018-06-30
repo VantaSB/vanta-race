@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "nightiumcrystal", "count" : 8 },
+    { "item" : "solariumstar", "count" : 8 }
+  ],
+  "output" : { "item" : "yorunoha", "count" : 1 },
+  "groups" : [ "nightaranvil4", "weapons", "all" ]
+}

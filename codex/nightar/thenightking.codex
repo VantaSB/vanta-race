@@ -1,0 +1,19 @@
+{
+  "id" : "thenightking",
+  "title" : "The Night king",
+  "species" : "nightar",
+  "description" : "Written by a loyalist to the Night King.",
+  "icon" : "thenightking.png",
+  "contentPages" : [ 
+  
+  "Our current king is Gin Yorukishi, the third of his name, the 15th king of the Nightars, also known as the Night King. He has lead the Nightars for the last 2 decades, he lived in the nightfort for his whole life, and became the king of the Nightars after his victory over his 2 elder brothers in combat.",
+  
+  "For years, he has defended Nightfort from every intruder, be it monsters or anything else, and does not tolerate any who would not put the survival of our race first. His authority is absolute; any who oppose the King's word will find themselves before the King's mercy."
+  
+  ],
+  
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 300
+  }
+}

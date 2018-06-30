@@ -1,0 +1,31 @@
+{
+  "itemName" : "stealthdagger",
+  "price" : 500,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A dagger crafted and put to use by the Nightar shadowguard.",
+  "shortdescription" : "Nightar Stealth Dagger",
+  "tooltipKind" : "base",
+  "category" : "Knife",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger"],
+  "animation": "stealthdagger.animation",
+  "inventoryIcon" : "stealthdagger.png", 
+  "animationParts" : {
+    "handle": "",
+    "blade" : "stealthdagger.png"
+  },
+  "animationCustom" : {},
+
+   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "primaryAbilityType": "stealthdaggercombo",
+  "primaryAbility" : {
+    "fireTime" : 0.4,
+    "baseDps" : 7.5
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

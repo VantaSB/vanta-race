@@ -1,0 +1,10 @@
+{
+  "itemName" : "kaisergem",
+  "price" : 500,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "kaisergem.png",
+  "description" : "This cool, blue gemstone is used for decorating armor and weapons.",
+  "shortdescription" : "Kaiser Gem",
+  "itemTags" : [ "reagent" ]
+}

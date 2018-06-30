@@ -1,0 +1,32 @@
+[
+	{
+		"op" : "add",
+		"path" : "/visitableTypeDescription/blackened",
+		"value" : [
+			"This ^#3e5455;blackened ^white;planet is the result of a devastating war years ago. Readings indicate the presence of liquid ^#5e7475;Noxeum ^white;fuel .",
+			"The ravages of war have left this ^#3e5455;blackened ^white;planet uninhabitable for the most part; as a result, a perpetual ^#9d9d9d;fog ^white; surrounds the planet.",
+			"A dense ^#9d9d9d;fog ^white;covers the surface of this ^#3e5455;blackened ^white;planet; deposits of liquid ^#5e7475;Noxeum ^white;fuel have been detected."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/displayOres/nightium",
+		"value" : {
+			"displayName" : "Nightium",
+			"icon" : "/items/generic/crafting/nightiumshard.png"
+		}
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/planetTypeNames/blackened",
+		"value" : "Blackened"
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/planetTypeColors/blackened",
+		"value" : [29, 68, 83]
+	}
+]

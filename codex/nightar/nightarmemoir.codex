@@ -1,0 +1,23 @@
+{
+  "id" : "nightarmemoir",
+  "title" : "Memoir of an Outcast",
+  "species" : "other",
+  "description" : "Written by a Nightar who opposed the Night King.",
+  "icon" : "nightardoc.png",
+  "contentPages" : [ 
+  
+  "We Nightars, though tossed aside by the humans who created us, are a race of honor. Many of us learned the value of life because of our plight, though the royal family has other intentions. Our current monarch, Gin Yorukishi, third of His name, is especially ruthless.",
+  
+  "With each passing day, the Night King amasses more troops and loyalists to his cause; many of us have begun organizing an exodus from Nightfort in an effort to live in solace. Those of us who do not actively show support for the King have been taken from their homes...",
+  
+  "It began with the conquest of many inhabited planets, those whose defenses were only local militias of the various settlements and colonies. With each orbital bombardment, many systems became uninhabitable on the surface, leaving mostly just the natural wildlife.",
+  
+  "We can no longer sit in silence as the King massacres entire planets for the sake of childish revenge against our creators. We, the Shadowguard, will make our stand against the King and his men so that those who wish to live in peace may find their own homes."
+  
+  ],
+  
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 300
+  }
+}

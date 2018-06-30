@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenore", "count" : 25 }
+
+  ],
+  "output" : { "item" : "nightarthrowingknife", "count" : 10 },
+  "groups" : [ "nightaranvil1", "weapons", "all" ]
+}

@@ -1,0 +1,61 @@
+{
+  "type" : "nightarkingslayer",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Attack!"
+          ]
+        },
+        "nightar" : {
+          "default" : [
+            "You want a fight? Very well!",
+            "Our swordsmanship is unparalleled!",
+            "This is our territory, and ours alone!",
+            "I've been trained by the best! You have no chance against me!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "nightartier6head" } ],
+            "chest" : [ { "name" : "nightartier6chest" } ],
+            "legs" : [ { "name" : "nightartier6pants" } ],
+            "primary" : [ "nightar_violiumbroadsword2" ],
+            "sheathedprimary" : [ "yorunoyumi" ]
+          }
+        ] ]
+    ]
+  },
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.2
+      },
+      "protection" : {
+        "baseValue" : 1.1
+      },
+      "fireStatusImmunity" : {
+        "baseValue" : 1.0
+      },
+      "lavaImmunity" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

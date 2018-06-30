@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 1 },
+	{ "item" : "feroziumore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "kaisergem",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}

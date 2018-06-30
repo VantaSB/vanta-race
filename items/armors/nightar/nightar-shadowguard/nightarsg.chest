@@ -1,0 +1,24 @@
+{
+  "itemName" : "nightarsgchest",
+  "price" : 2910,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestarmour",
+  "description" : "Regal garments by Nightar standards, fit for an assassin of the night.",
+  "shortdescription" : "Shadowguard Cloak",
+  "tooltipKind" : "armor",
+  
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+	},
+	
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "itemName" : "nightfortlocation",
+  "price" : 1000,
+  "rarity" : "legendary",
+  "category" : "quest",
+  "inventoryIcon" : "nightfortlocation.png",
+  "description" : "The location to Nightfort, the Nightar king's castle.",
+  "shortdescription" : "Nightfort location",
+  "pickupQuestTemplates" : [ "nightfortlocation" ]
+}

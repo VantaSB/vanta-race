@@ -1,0 +1,13 @@
+{
+  "itemName" : "liquidnoxeum",
+  "rarity" : "Legendary",
+  "category" : "liquid",
+  "inventoryIcon" : "liquidnoxeumicon.png",
+  "shortdescription" : "Liquid Noxeum Fuel",
+  "description" : "Like liquid Erchius, this can be used as FTL fuel.",
+  
+  "liquid" : "liquidnoxeumfuel",
+  
+  "fuelAmount" : 10,
+  "price" : 3000
+}

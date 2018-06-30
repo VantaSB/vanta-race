@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "nightiumcrystal", "count" : 1 }
+  ],
+  "output" : { "item" : "nightarheatprotectionback", "count" : 1 },
+  "groups" : [ "nightaranvil3", "hazardgear", "all" ]
+}

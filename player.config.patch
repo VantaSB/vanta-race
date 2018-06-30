@@ -1,0 +1,4 @@
+[ 
+{"op":"add","path":"/species/-","value":"nightar" },
+{"op":"add","path":"/defaultCodexes/nightar","value":  [ "protectorate1","protectorate2","nightardoc1","nightardoc2","nightardoc3","nightardoc4" ] }
+]

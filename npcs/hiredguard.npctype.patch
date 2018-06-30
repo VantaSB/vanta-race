@@ -1,0 +1,75 @@
+[
+	{
+		"op": "add",
+		"path": "/items/nightar",
+		"value": [
+			[0, [
+					{
+						"head" : [ { "name" : "nightartier1head", "parameters" : { "colorIndex" : 1 } } ],
+						"chest" : [ { "name" : "nightartier1chest", "parameters" : { "colorIndex" : 1 } } ],
+						"legs" : [ { "name" : "nightartier1pants", "parameters" : { "colorIndex" : 1 } } ],
+						"primary": [
+							"nightar_ironbroadsword",
+							"nightar_tungstenbroadsword"
+						],
+						"alt" : [
+						  { "name" : "nightarshield" }
+						]
+					}
+				]
+			],
+			[2, [
+			        {
+						"head" : [ { "name" : "nightartier2head", "parameters" : { "colorIndex" : 1 } } ],
+						"chest" : [ { "name" : "nightartier2chest", "parameters" : { "colorIndex" : 1 } } ],
+						"legs" : [ { "name" : "nightartier2pants", "parameters" : { "colorIndex" : 1 } } ],
+						"primary": [
+							"nightar_ironbroadsword",
+							"nightar_tungstenbroadsword"
+						],
+						"alt" : [
+						  { "name" : "nightarshield" }
+						]
+					}
+				]
+			],
+			[3, [
+			        {
+						"head" : [ { "name" : "nightartier3head", "parameters" : { "colorIndex" : 1 } } ],
+						"chest" : [ { "name" : "nightartier3chest", "parameters" : { "colorIndex" : 1 } } ],
+						"legs" : [ { "name" : "nightartier3pants", "parameters" : { "colorIndex" : 1 } } ],
+						"primary": [
+							"nightar_ironbroadsword",
+							"nightar_tungstenbroadsword",
+							"nightar_titaniumbroadsword",
+							"nightar_titaniumspear"
+						],
+						"alt" : [
+						  { "name" : "nightarshield" }
+						]
+					}
+			    ]   
+			],
+			[4, [
+			        {
+						"head" : [ { "name" : "nightartier4head", "parameters" : { "colorIndex" : 1 } } ],
+						"chest" : [ { "name" : "nightartier4chest", "parameters" : { "colorIndex" : 1 } } ],
+						"legs" : [ { "name" : "nightartier4pants", "parameters" : { "colorIndex" : 1 } } ],
+						"primary": [
+							"nightar_ironbroadsword",
+							"nightar_tungstenbroadsword",
+							"nightar_titaniumbroadsword",
+							"nightar_titaniumspear",
+							"nightar_durasteelbroadsword",
+							"nightar_durasteelshortsword"
+							
+						],
+						"alt" : [
+						  { "name" : "nightarshield" }
+						]
+					}
+			    ]   
+			]
+		]
+	}
+]

@@ -1,0 +1,28 @@
+{
+  "id" : "nightfortlocation",
+  "mainQuest" : true,
+  "title" : "The Nightfort",
+  "prerequisites" : [ ],
+  "text" : "This mysterious map shows the location to ^orange;Nightfort^reset;. I've sent the location coordinates to ^green;your SAIL^reset;.",
+  "completionText" : "Nightfort location. Some say it is abandoned, and others refuse to belive that the king left it. I've marked the location and I can ^green; access it via my ships SAIL^reset;.",
+
+  "moneyRange" : [50, 50],
+  "rewards" : [ ],
+  "canBeAbandoned" : false,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver"
+    },
+
+    "descriptions" : {
+      "NightFort" : "^green;Investigate the^orange;Nightfort^reset;.;",
+      "turnIn" : "^green;Investigate the^reset; ^orange;Nightfort^reset;."
+    },
+
+    "compassUpdate" : 0.2,
+
+    "associatedMission" : "nightfort"
+  }
+}

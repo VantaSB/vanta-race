@@ -1,0 +1,133 @@
+ { 
+ "nightarkingtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "pool" : "money"}, 
+		{"weight" : 0.2, "item" : [ "nightiumcrystal", 1]},
+        {"weight" : 0.2, "item" : "nightarcrown"},
+        {"weight" : 0.1, "item" : "yonaga"}
+      ],
+      "poolRounds" : [
+        [0.10, 0],
+        [0.90, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+
+  
+  
+  "nightfortBasic" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.7, "pool" : "basicTreasure"},
+		{"weight" : 0.2, "item" : [ "potato", 1]},
+		{"weight" : 0.1, "item" : [ "nightiumshard", 1]}
+
+      ],
+      "poolRounds" : [
+        [0.50, 0],
+        [0.30, 1],
+        [0.10, 2],
+        [0.05, 3],
+        [0.05, 4]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "nightfortCodex1" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "nightiumshard", 1]},
+        {"item" : [ "nightarhistory1-codex", 1]}
+      ]
+    }]
+  ],
+  
+  "nightfortCodex2" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "nightiumshard", 1]},
+        {"item" : [ "nightarhistory2-codex", 1]}
+      ]
+    }]
+  ],
+  
+  "nightfortCodex3" : [
+    [1, {
+      "fill" : [
+        {"item" : [ "nightiumshard", 1]},
+        {"item" : [ "nightarhistory3-codex", 1]}
+      ]
+    }]
+  ],
+  
+  "nightfortCodex4" : [
+    [1, {
+      "fill" : [
+        {"item" : "nightarcapeback"},
+        {"item" : [ "nightarhistory4-codex", 1]}
+      ]
+    }]
+  ],
+  
+  "nightfortReward" : [
+    [1, {
+      "fill" : [
+	    {"item" : [ "thenightking-codex", 1]},
+        {"item" : [ "nightiumcrystal", 1]}
+      ],
+      "pool" : [
+        {"weight" : 0.1, "item" : [ "techcard", 1]},
+        {"weight" : 0.1, "item" : [ "ironbar", 25]},
+        {"weight" : 0.2, "item" : [ "diamond", 2]},
+        {"weight" : 0.1, "item" : [ "money", 1500]},
+        {"weight" : 0.1, "pool" : "uncommonGun"},
+        {"weight" : 0.15, "item" : [ "capturepod", 2]},
+        {"weight" : 0.15, "pool" : "uncommonMelee"},
+        {"weight" : 0.1, "pool" : "shield"}
+      ],
+      "poolRounds" : [
+        [0.5, 5],
+        [0.5, 6]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "nightarStarterTreasure" : [
+    [0, {
+      "fill" : [
+	    {"pool" : "starterTreasure"},
+		{"item" : "brokennightarsaber"}
+      ]
+    }]
+  ],
+  
+  "nightarSettlementLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "item" : "nightarmemoir-codex"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "nightarSettlementTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.30, 0],
+        [0.20, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+ }

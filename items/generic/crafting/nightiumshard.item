@@ -1,0 +1,8 @@
+{
+  "itemName" : "nightiumshard",
+  "rarity" : "legendary",
+  "inventoryIcon" : "nightiumshard.png",
+  "description" : "A pitch black, shiny, mysterious shard. There is no way this is a natural ocuring material.",
+  "shortdescription" : "Nightium Shard",
+  "learnBlueprintsOnPickup" : [ "nightiumcrystal" ]
+}

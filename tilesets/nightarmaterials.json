@@ -1,0 +1,112 @@
+{
+  "margin" : 0,
+  "name" : "nightarmaterials",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 9,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "3601" : {
+      "//description" : "Mysterious castle blocks.",
+      "//name" : "nightarcastleblock",
+      "//shortdescription" : "Nightar Castle Block",
+      "material" : "nightarcastleblock"
+    },
+	
+	"3602" : {
+      "//description" : "Mysterious castle blocks.",
+      "//name" : "nightarcastleblock2",
+      "//shortdescription" : "Nightar Castle Block",
+      "material" : "nightarcastleblock2"
+    },
+	
+	"3603" : {
+      "//description" : "Traditional Nightar flooring.",
+      "//name" : "nightarfloor",
+      "//shortdescription" : "Nightar Flooring",
+      "material" : "nightarfloor"
+    },
+	
+	"3604" : {
+      "//description" : "Mysterious ship blocks.",
+      "//name" : "nightarshipblock",
+      "//shortdescription" : "Nightar Ship Block",
+      "material" : "nightarshipblock"
+    },
+	
+	"3605" : {
+      "//description" : "A reinforced support beam.",
+      "//name" : "nightarsupport",
+      "//shortdescription" : "Nightar Support Beam",
+      "material" : "nightarsupport"
+    },
+	
+    "3606" : {
+      "//description" : "A reinforced support beam.",
+      "//name" : "nightarsupport2",
+      "//shortdescription" : "Nightar Support Beam",
+      "material" : "nightarsupport2"
+    },
+	
+	"3607" : {
+      "//description" : "Nightars plain concrete.",
+      "//name" : "nightarswall1",
+      "//shortdescription" : "Nightar Concrete",
+      "material" : "nightarswall1"
+    },
+	
+	"3608" : {
+      "//description" : "Blocks made from unknown Nightar technology.",
+      "//name" : "nightartechblock",
+      "//shortdescription" : "Nightar Tech Block",
+      "material" : "nightartechblock"
+    },
+	
+	"3609" : {
+      "//description" : "A black wall infused with unknown Nightar technology.",
+      "//name" : "nightarwall2",
+      "//shortdescription" : "Nightar Tech Wall",
+      "material" : "nightarwall2"
+    }
+  },
+  
+  "tiles" : {
+    "3601" : {
+      "image" : "icons-tmx/nightarcastleblock.png"
+    },
+	
+	"3602" : {
+      "image" : "icons-tmx/nightarcastleblock2.png"
+    },
+	
+	"3603" : {
+      "image" : "icons-tmx/nightarfloor.png"
+    },
+	
+	"3604" : {
+      "image" : "icons-tmx/nightarshipblock.png"
+    },
+	
+	"3605" : {
+      "image" : "icons-tmx/nightarsupport.png"
+    },
+	
+	"3606" : {
+      "image" : "icons-tmx/nightarsupport2.png"
+    },
+	
+	"3607" : {
+      "image" : "icons-tmx/nightarswall1.png"
+    },
+	
+	"3608" : {
+      "image" : "icons-tmx/nightartechblock.png"
+    },
+	
+	"3609" : {
+      "image" : "icons-tmx/nightarwall2.png"
+    }
+  },
+  "tilewidth" : 8
+}

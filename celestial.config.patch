@@ -1,0 +1,34 @@
+[
+	{
+		"op" : "add",
+		"path" : "/terrestrialHorizonGraphics/blackened",
+		"value" : {
+			"baseImages" : "/celestial/system/terrestrial/horizon/textures/blackened_<selector>.png",
+			"maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+			"maskRange" : [1, 25],
+			"maskPerPlanetRange" : [3, 3]
+		}
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/terrestrialGraphics/blackened",
+		"value" : {
+			"baseImages" : "/celestial/system/terrestrial/biomes/blackened/maskie<num>.png",
+			"dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+			"dynamicsRange" : [1, 30]
+		}
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+		"value" : "blackened"
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+		"value" : "blackened"
+	}
+]

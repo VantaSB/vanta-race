@@ -1,0 +1,42 @@
+{
+  "objectName" : "nightarbladealtar",
+  "colonyTags" : ["nightar"],
+  "rarity" : "Common",
+  "category" : "decorative",
+
+
+  "description" : "An altar holding the ultimate nightar blade.. which looks kinda broken.",
+  "shortdescription" : "Nightar Blade Altar",
+  "printable" : false,
+  "race" : "nightar",
+
+  "apexDescription" : "This decrepit sword is supposedly the Nightars' sacred treasure, but...",
+  "avianDescription" : "This sword is in dire need of repair. I wonder...",
+  "floranDescription" : "Floran should take thisss blade and fix it.",
+  "glitchDescription" : "Disheartened. To see such a blade in a state of disrepair, it begs me to take it with me.",
+  "humanDescription" : "An altar holding the ultimate nightar blade.. which looks kinda broken.",
+  "hylotlDescription" : "This ancient blade supposedly rivals the power of the Protectorate Blade.",
+  "novakidDescription" : "What a piece of junk... I oughta take this and get it fixed.",
+
+  "inventoryIcon" : "nightarbladealtaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "nightarbladealtar.png:<color>.<frame>",
+	  "frames" : 12,
+	  "animationCycle" : 1,
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+ 
+
+  "scripts" : ["/objects/scripts/breakoninteract.lua"],
+  "scriptDelta" : 0,
+
+  "breakDropOptions" : [
+    [ [ "brokennightarblade", 1, { } ] ]
+  ]
+}

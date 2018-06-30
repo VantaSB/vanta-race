@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "nightiumcrystal", "count" : 3 }
+
+	
+  ],
+  "output" : { "item" : "bunshoki", "count" : 1 },
+  "groups" : [ "nightaranvil3", "weapons", "all" ]
+}

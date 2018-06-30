@@ -1,0 +1,13 @@
+[
+	{ "op" : "add",
+		"path" : "/scriptConfig/dialog/hail/nightar",
+		"value" : {
+			"default" : [
+				"What brings you here, stranger?",
+				"Do you have any business here?",
+				"How did you find this place?",
+				"Okay."
+			]
+		}
+	}
+]

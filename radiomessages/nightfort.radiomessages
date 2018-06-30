@@ -1,0 +1,29 @@
+
+{
+  "nightfort01" : {
+    "type" : "mission",
+    "text" : "There appears to be a ruined, old, abandoned castle ahead of you, but there are some unclear life readings from below."
+  },
+
+  "nightfort02" : {
+    "type" : "mission",
+    "text" : "My scanners are working properly now, there appears to be an underground castle with Nightar knights, they won't hesitate to kill, proceed with caution."
+  },
+
+  "nightfort03" : {
+    "type" : "mission",
+    "senderName" : "Gin III Yorukishi",
+    "portraitImage" : "/interface/chatbubbles/nightarking.png:<frame>",
+    "persistTime" : 2.0,
+    "text" : "I, Gin Yorukishi, the third of his name, the 15th king of the nightars, order you to bow down before me then leave, or you shall perish."
+  },
+  
+  "nightfort04" : {
+    "type" : "mission",
+    "senderName" : "Gin III Yorukishi",
+    "portraitImage" : "/interface/chatbubbles/nightarking2.png:<frame>",
+    "persistTime" : 2.0,
+    "text" : "Arghh, you win this fight, but this is not the end. come to the top of my castle and you shall see my true power.."
+  }
+
+}

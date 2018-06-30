@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 6 },
+    { "item" : "solariumstar", "count" : 6 },
+    { "item" : "battery", "count" : 1 }
+  ],
+  "output" : { "item" : "yorunoyumi", "count" : 1 },
+  "groups" : [ "nightaranvil4", "weapons", "all" ]
+}

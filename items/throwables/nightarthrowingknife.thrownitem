@@ -1,0 +1,31 @@
+{
+  "itemName" : "nightarthrowingknife",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "nightarthrowingknife.png",
+  "image" : "nightarthrowingknife.png",
+  "shortdescription" : "Nightar Throwing Knife",
+  "description" : "A carefully-crafted throwing knife, fit for an assassin of the night.",
+  
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.5,
+
+  "projectileType" : "nightarthrowingknife",
+  "projectileConfig" : {
+    "speed" : 100,
+    "power" : 50,
+    "knockback" : 12,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

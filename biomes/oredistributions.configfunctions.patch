@@ -1,0 +1,27 @@
+[
+  {
+    "op" : "add",
+    "path" : "/blackenedSurface",
+    "value" : [
+      [0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.60 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], ["nightium", 0.15] ] ],
+	  [1.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.60 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], ["nightium", 0.15] ] ],
+	  [2.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], ["nightium", 0.15] ] ],
+  	  [3.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], ["nightium", 0.15] ] ],
+	  [4.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], ["nightium", 0.15] ] ],
+	  [5.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ], ["nightium", 0.15] ] ]
+    ]
+  },
+  
+  {
+    "op" : "add",
+    "path" : "/blackenedDepth2",
+    "value" : [
+      [0.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.15 ], [ "titanium", 0.20 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.25 ], [ "nightium", 0.90 ] ] ],
+      [1.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.25 ], [ "titanium", 0.20 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.30 ], [ "nightium", 0.90 ] ] ],
+      [2.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.30 ], [ "titanium", 0.35 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.35 ], [ "nightium", 0.90 ] ] ],
+      [3.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.30 ], [ "titanium", 0.40 ], [ "durasteel", 0.90 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.40 ], [ "nightium", 0.90 ] ] ],
+      [4.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.45 ], [ "titanium", 0.65 ], [ "durasteel", 0.65 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.45 ], [ "nightium", 0.90 ] ] ],
+      [5.5, [ [ "coal", 0.90 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.45 ], [ "titanium", 0.70 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.50 ], [ "nightium", 0.90 ] ] ]
+    ]
+  }
+]

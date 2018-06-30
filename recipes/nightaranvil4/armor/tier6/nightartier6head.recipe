@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 12 },
+    { "item" : "nightartier5head", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "nightartier6head", "count" : 1 },
+  "groups" : [ "nightaranvil4", "armours", "all" ]
+}

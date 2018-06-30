@@ -1,0 +1,36 @@
+{
+  "itemName" : "nightar_tungstenbroadsword",
+  "price" : 960,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "It's tungsten Nightar broadsword.",
+  "shortdescription" : "Nightar Tungsten Sword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","nightar"],
+
+  "inventoryIcon" : "nightar_tungstenbroadsword.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "nightar_tungstenbroadsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.84,
+    "baseDps" : 11.6
+  },
+
+  "altAbilityType" : "bladecharge",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

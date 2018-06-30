@@ -1,0 +1,46 @@
+{
+  "objectName" : "nightarsbannersmall",
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 150,
+  "printable" : true,
+
+  "description" : "A small Nightar wall banner.",
+  "shortdescription" : "Nightar Wall Banner",
+  "race" : "nightars",
+
+  "apexDescription" : "Nightars banner.",
+  "avianDescription" : "Nightars banner.",
+  "floranDescription" : "Nightars banner.",
+  "glitchDescription" : "Nightars banner.",
+  "humanDescription" : "Nightars banner.",
+  "hylotlDescription" : "Nightars banner.",
+  "novakidDescription" : "Nightars banner.",
+
+
+  "inventoryIcon" : "nightarsbannersmallicon.png",
+  "orientations" : [
+    {
+      "image" : "nightarsbannersmall.png:<color>",
+	  "flipImages" : true,
+	  "direction" : "left",
+      "imagePosition" : [-5, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+    },
+	
+	{
+      "image" : "nightarsbannersmall.png:<color>",
+	  "direction" : "right",
+      "imagePosition" : [5, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}

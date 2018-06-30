@@ -1,0 +1,80 @@
+{
+  "itemName" : "nightarhandgun",
+  "level" : 6,
+  "price" : 855,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A handgun built with Nightar technologies.",
+  "shortdescription" : "^cyan;Nightar Handgun^reset;",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : false,
+  "itemTags" : [ "pistol", "weapon", "ranged" ],
+  
+  "inventoryIcon" : "nightarhandgun.png",
+  
+  "animation" : "nightarhandgun.animation",
+  "animationParts" : {
+    "middle" : "nightarhandgun.png",
+    "middleFullbright" : "nightarhandgunfullbright.png",
+	"muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_ar4.ogg"]
+    }
+  },
+  
+  "muzzleOffset" : [1.5625, 0.375],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+  
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.33,
+    "baseDps" : 22,
+    "energyUsage" : 17,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.015,
+
+    "projectileType" : "plasmabullet",
+    "projectileParameters" : { },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+	  
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+	  
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildweapon.lua"
+}

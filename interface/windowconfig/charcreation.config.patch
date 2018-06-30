@@ -1,0 +1,27 @@
+[
+  {
+    "op" : "add",
+	"path" : "/speciesOrdering/-",
+	"value" : "nightar"
+  },
+  
+  {
+    "op" : "add",
+	"path" : "/paneLayout/labelBrandy",
+	"value" : {
+	  "type" : "label",
+	  "position" : [125, 139],
+	  "zlevel" : 1
+	}
+  },
+  
+  {
+    "op" : "add",
+	"path" : "/paneLayout/brandy",
+	"value" : {
+	  "type" : "spinner",
+	  "position" : [192, 139],
+	  "zlevel" : 1
+	}
+  }
+]

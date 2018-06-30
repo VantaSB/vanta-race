@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "canvas", "count" : 2 },
+	{ "item" : "cottonwool", "count" : 2 },
+    { "item" : "syntheticmaterial", "count" : 2 }
+  ],
+  "duration" : 2,
+  "output" : { "item" : "nightarsghead", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}
