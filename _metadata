@@ -1,12 +1,12 @@
 {
   "author" : "Absolute Xero",
   "dependencies" : [],
-  "description" : "The Nightar Race, originally created by the incredibly talented iMisterX, revived and brought back with some minor updates! I talked briefly with the original author, and they agreed to let me continue working on this mod. Once I get the advanced modding aspects down, I'll be adding more dynamic, Nightar-centric content. Stay posted!\n\nIMPORTANT: You MUST have a character creation extension mod in order to use additional races outside of Starbound's default set. I personally use Kawa's Xbawks Character Extension mod, which can be found in the link below:\n\nhttp://steamcommunity.com/sharedfiles/filedetails/?id=729426722&searchtext=xbawks",
+  "description" : "The Nightar Race, revived and brought back with some updates! Always tweaking things (and fixing mistakes too, apparently), but dedicated to making sure everyone can still enjoy this thing. More updates will definitely come, so stay tuned!\n\n(Be sure to check the \"Required DLC\" section)",
   "friendlyName" : "The Nightars (Revived)",
   "link" : "steam://url/CommunityFilePage/1325968658",
   "name" : "The Nightars",
   "priority" : 1,
   "steamContentId" : "1325968658",
-  "tags" : "Crafting and Building|Planets and Environments|Weapons|Species|Armor and Clothes",
-  "version" : "0.4.1"
+  "tags" : "Crafting and Building|Planets and Environments|Weapons|Species|Furniture and Objects|Armor and Clothes",
+  "version" : "0.4.2"
 }
