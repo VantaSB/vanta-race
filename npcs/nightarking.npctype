@@ -3,7 +3,7 @@
   "baseType" : "hostile",
 
   "identity" : {
-    "name" : "Gin_III_Yorukishi",
+    "name" : "Gin_Yorukishi_III",
     "gender" : "male",
     "race" : "nightar"
   },
@@ -16,38 +16,37 @@
       "attack" : {
         "default" : {
           "default" : [
-           "Face my wrath!",
-           "Kneel before me!",
-           "I will have your head on a stake!",
-           "I am Gin Yorukishi, the third of his name, the king of the nightars; kneel before me!"
+	    "Your head will make for an excellent trophy!",
+            "I am the king of the Nightars, none can fell me!"
           ]
         }
       },
       "reattack" : {
         "default" : {
           "default" : [
-            "Once again, face my wrath!"
+            "You'll not evade me this time!",
+	    "Feel the might of the Night King!"
           ]
         }
       },
       "killedTarget" : {
         "default" : {
           "default" : [
-            "Is that the best you can do, challenger?"
+            "Crushed like the insect you are."
           ]
         }
       },
       "lostTarget" : {
         "default" : {
           "default" : [
-            "There is no where to hide."
+            "It is pointless to hide!"
           ]
         }
       },
       "outOfSight" : {
         "default" : {
           "default" : [
-            "It is pointless to hide!"
+            "You really believe the darkness to be your ally, challenger...?"
           ]
         }
       },
@@ -61,7 +60,7 @@
       "cantReach" : {
         "default" : {
           "default" : [
-            "You cannot escape the darkness."
+            "You cannot escape my wrath!"
           ]
         }
       }
@@ -84,7 +83,7 @@
             "head" : [ { "name" : "nightarkinghead", "parameters" : { "colorIndex" : 1 } } ],
             "chest" : [ { "name" : "nightartier6chest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "nightartier6pants", "parameters" : { "colorIndex" : 1 } } ],
-			"back" : [ { "name" : "nightarcapeback", "parameters" : { "colorIndex" : 1 } } ],
+	    "back" : [ { "name" : "nightarcapeback", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [ "yonaga" ],
             "sheathedprimary" : [ "yonaga" ]
           }
