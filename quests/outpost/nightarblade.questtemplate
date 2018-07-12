@@ -3,7 +3,7 @@
   "prerequisites" : [ "nightfort" ],
   "requiredItems" : [ "replicanightarsword" ],
   "title" : "^green;Long Live The Night",
-  "text" : "Impetuous. Give me your ^orange;Legendary Nightar Blade^reset; so that I may bring out its full potential! Esther has taught me how to repair ancient weapons, and my repairing skills are top-notch! ^white;However, ^green;I will need ^orange;5 Nightium Crystals and 5 Kaiser Gems ^green;to get the job done^reset;.",
+  "text" : "Impetuous. Give me your ^orange;Legendary Nightar Blade^reset; so that I may bring out its full potential! Esther has taught me how to repair ancient weapons, and my repairing skills are top-notch! ^green;I will also need ^orange;5 Nightium Crystals and 5 Kaiser Gems ^green;to get the job done^reset;.",
   "completionText" : "Proud. I must say, this is one of the finest weapons I've laid my eyes upon! As promised, here it is!",
   "moneyRange" : [100, 100],
   "rewards" : [

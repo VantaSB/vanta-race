@@ -1,21 +1,20 @@
- [
+[
   {
-    "op": "add",
-    "path": "/nightfort",
-    "value": 
-      {
+    "op" : "add",
+    "path" : "/nightfort",
+    "value" : {
       "primaryDungeon":"nightfort",
       "weatherPool" : [
-        [1.0, "snowstorm"]
+        [1.0, "fog"]
       ],
       "threatLevel":7,
-      "gravity":90,
+      "gravity":80,
       "worldSize":[2000,2000],
       "dungeonBaseHeight" : 1000,
       "ambientLightLevel" : [32, 32, 32],
-      "biome" : "snow",
+      "biome" : "blackened",
       "musicTrack" : "/music/nightfort2.ogg",
       "environmentStatusEffects" : ["dontstarve"]
-      }
+    }
   }
- ]
+]

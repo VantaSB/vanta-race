@@ -66,8 +66,7 @@
 	  { "item" : "nightarfridge"},
 	  { "item" : "nightarthrone" },
 	  { "item" : "nightarteleporter" },
-	  { "item" : "nightarchest"},
-	  { "item" : "nightfortlocation"}
+	  { "item" : "nightarchest"}
 	 
     ]
   },
@@ -125,16 +124,5 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  "soundEffect" : "/sfx/objects/hubbub.ogg",
-  
-  "scripts" : [ "ran.lua" ],
-  "scriptDelta" : 20,
-  
-  "chatRadius" : 10,
-  "chatCooldown" : 30,
-  "chatOptions" : [
-    "Come one, come all, to Ran's Castle, the ONLY place to get exclusive materials and furniture made by the Nightars!",
-	"Looking for some truly exotic materials? Stop on by! We've got what you need to give your home a touch of dark elegance!",
-	"You heard it here first, folks! If you want some Nightar materials and furniture, don't be a stranger!"
-  ]
+  "soundEffect" : "/sfx/objects/hubbub.ogg"
 }

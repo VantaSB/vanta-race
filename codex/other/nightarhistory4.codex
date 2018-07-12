@@ -1,0 +1,25 @@
+{
+  "id" : "nightarhistory4",
+  "title" : "Nightar history  part 4",
+  "species" : "other",
+  "description" : "Written by a friendly Nightar to a human.",
+  "icon" : "nightarhistory4.png",
+  "contentPages" : [ 
+    "When he assumed the throne, Gin Yorukishi III forbade any contact at all with outsiders, and effectively legislated the entire Nightar race into seclusion. He began building a massive army, such that he would retain ultimate power in his palms, and executed anyone who did not swear undying loyalty to him. Many Nightars wanted no part of his conquest, and began fleeing the kingdom in search of solitary planets.",
+	
+	"The Night King, however, saw this as treason, and ordered his forces to pursue any who left, track them down, and exterminate them if they refused to return. Though not explicitly part of the Night King's orders, many deployed vessels simply bombarded entire planets to ensure that defectors and traitors were exterminated. When word of this was brought to the Night King, he simply shrugged, stating the issue was resolved.",
+	
+	"Because of the evolution of Nightar technology had grew to be more advanced than even the ^orange;Terrene Protectorate's^reset;, Nightar bombardment ships were able to remain undercover and escape their tracking, until the Night King himself took to space on his personal dreadnought. He engaged the Protectorate's space forces in a massive battle, and his ship ended up crashing through the surface of another dark planet.",
+	
+	"With both forces battered and broken, Gin Yorukishi III, self-proclaimed king of the Nightars, converted the remainder of his ship into an underground lair which would later become known as Nightfort. Realizing the folly of his ambition, he now sits and lives out the rest of his days in solitude with what's left of his loyalist soldiers, defending the Nightfort from all manner of attacks.",
+	
+	"It is said that even forces from within have attempted to overthrow or otherwise fell Nightfort, all in vain. The most recent attempt was by a once-loyal elite group within the king's forces, the Shadowguard, though they have gone into hiding or have otherwise been eliminated since then. I'm sure it won't be long until the resurface again, ready to take the Night King with them to the grave.",
+	
+	"This is the most accurate account of the Nightars' history that I could compile, and I end with this: we Nightars have been told many stories of our history, and I'm sure that any loyalist will claim that we were rejected by humanity. We ^yellow;chose ^reset; to dissociate ourselves from humans, but even I have to admit that I hope that none are subject to the fury of the Night King.\n    - Lucia Hydrus"
+  ],
+  
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 300
+  }
+}

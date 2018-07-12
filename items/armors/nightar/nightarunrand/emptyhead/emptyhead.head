@@ -1,0 +1,15 @@
+{
+  "itemName" : "emptyhead",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "category" : "headwear",
+  "description" : "Simple helmet hider.",
+  "shortdescription" : "Helmet Hider",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png"
+}

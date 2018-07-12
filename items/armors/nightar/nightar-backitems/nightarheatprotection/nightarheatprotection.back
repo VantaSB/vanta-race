@@ -1,0 +1,37 @@
+{
+  "itemName" : "nightarheatprotectionback",
+  "price" : 800,
+  "inventoryIcon" : "icon.png",
+  "tooltipKind" : "baseaugment",
+  "rarity" : "Legendary",
+  "pickupQuestTemplates" : [ ],
+  "category" : "enviroProtectionPack",
+  "description" : "A miniaturized EPP that protects from biome and weather hazards.\nHelpful on ^cyan;all^reset; planets.",
+  "shortdescription" : "Nightar EPP",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    {
+      "stat" : "biomeheatImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomecoldImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomeradiationImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
+    }
+  ],
+
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ]
+}

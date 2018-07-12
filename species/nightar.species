@@ -9,7 +9,7 @@
 
   "nameGen" : [ "/species/nightarmalenamegen.config:names", "/species/nightarfemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/humanhurt_male1.ogg", "/sfx/humanoid/humanhurt_female1.ogg" ],
-  "charGenTextLabels" : [ "Skin color", "Hair style", "Shirt", "Legwear", "Eye color", "Hair color", "Shirt color", "Legwear color", "NIGHTAR", "Personality", "Brand" ],
+  "charGenTextLabels" : [ "Skin color", "Hair style", "Shirt", "Legwear", "Eye color", "Hair color", "Shirt color", "Legwear color", "NIGHTAR", "Personality" ],
   "skull" : "/humanoid/human/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=E0E0E0FF?replace=31a6ffFF=B7B7B7FF",
   "defaultBlueprints" : {
@@ -19,6 +19,7 @@
       { "item" : "flagnightar" },
 	  { "item" : "ranscastle" },
 	  { "item" : "nightaranvil" },
+	  { "item" : "nightar_emptyhead"},
 	  
 
 // Anvil
@@ -187,11 +188,11 @@
       "name" : "male",
       "image" : "/interface/title/nightarm.png",
       "characterImage" : "/interface/title/nightarmale.png",
-      "hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18", "male19", "male21", "male22", "male23", "male24", "male25", "male26", "male27", "male28", "male29", "male30", "male31", "male32", "male33", "male34", "male35", "male36", "male37", "male38", "male39", "male40", "male41", "male42", "male43", "male44", "male45", "male46", "male47", "male48", "male49", "male50", "male51", "male52", "male53", "male54", "male55", "male56", "male57", "male58", "male59", "male60", "male61", "male62", "male63", "male64", "male65", "male66", "male67", "male68", "male69", "male70", "nightar1"],
-      "shirt" : [ "nightar_suitchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2", "noblechest","peasantchest","novakidwaistcoat", "protectorateshirtchest", "protectoratevestchest" ],
-      "pants" : [ "nightar_suitlegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "noblelegs","peasantlegs", "novakidblackpants" ],
-      "facialHairGroup" : "brand",
-      "facialHair" : [ "0", "1", "2", "3", "4", "5", "6" ],
+      "hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18", "male19", "male21", "male22", "male23", "male24", "male25", "male26", "male27", "male28", "male29", "male30", "male31", "male32", "male33", "male34", "male35", "male36", "male37", "male38", "male39", "male40", "male41", "male42", "male43", "male44", "male45", "male46", "male47", "male48", "male49", "male50", "male51", "male52", "male53", "male54", "male55", "male56", "male57", "male58", "male59", "male60", "male61", "male62", "male63", "male64", "male65", "male66", "male67", "male68", "male69", "male70", "nightar1", "BHmale01", "BHmale02", "BHmale03", "BHmale04", "BHMale05", "apexfem10" ],
+      "shirt" : [ "nightar-nomadchest", "nightar_suitchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2", "noblechest","peasantchest","novakidwaistcoat", "protectorateshirtchest", "protectoratevestchest", ],
+      "pants" : [ "nightar-nomadpants", "nightar_suitlegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "noblelegs","peasantlegs", "novakidblackpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
       "facialMaskGroup" : "",
       "facialMask" : [ ]
     },
@@ -199,11 +200,11 @@
       "name" : "female",
       "image" : "/interface/title/nightarf.png",
       "characterImage" : "/interface/title/nightarfemale.png",
-      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "fem52", "fem53", "fem54", "fem55", "fem56", "fem57", "fem58", "fem59", "fem60", "fem61", "fem62", "fem63", "fem64", "fem65"],
-      "shirt" : [ "maidchest", "nightar_suitchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2", "noblechest","peasantchest","novakidwaistcoat", "protectorateshirtchest", "protectoratevestchest" ],
-      "pants" : [ "maidlegs", "nightar_suitlegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "noblelegs","peasantlegs", "novakidblackpants" ],
-      "facialHairGroup" : "brand",
-      "facialHair" : [ "0", "1", "2", "3", "4", "5", "6" ],
+      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "fem52", "fem53", "fem54", "fem55", "fem56", "fem57", "fem58", "fem59", "fem60", "fem61", "fem62", "fem63", "fem64", "fem65", "BHfem01", "BHfem02", "BHfem03", "BHfem04", "BHfem05", "apexfem10" ],
+      "shirt" : [ "maidchest", "nightar-nomadchest", "nightar_suitchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2", "noblechest","peasantchest","novakidwaistcoat", "protectorateshirtchest", "protectoratevestchest" ],
+      "pants" : [ "maidlegs", "nightar-nomadpants", "nightar_suitlegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "noblelegs","peasantlegs", "novakidblackpants" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
       "facialMaskGroup" : "",
       "facialMask" : [ ]
     }
@@ -232,15 +233,66 @@
   ],
   
   "hairColor" : [
-
-    //GREY or SILVER
-    { "d9c189" : "CBCDC2", "a38d59" : "A4A699", "735e3a" : "898B7A" },
+    //LIGHT RED
+    { "d9c189" : "E86D46", "a38d59" : "D1422E", "735e3a" : "96201B" },
+    //RED
+    { "d9c189" : "CD1C38", "a38d59" : "982441", "735e3a" : "69243F" },
+    //DARK RED
+    { "d9c189" : "ad2716", "a38d59" : "8f1f1b", "735e3a" : "731a1a" },
+    //RUSTY RED
+    { "d9c189" : "BE471B", "a38d59" : "9B2F0C", "735e3a" : "702710" },
+    //BROWN
+    { "d9c189" : "7d3c1c", "a38d59" : "4d240b", "735e3a" : "2d1606" },
+    //LIGHT BROWN
+    { "d9c189" : "7f5a39", "a38d59" : "5b3523", "735e3a" : "3b1f15" },
+    //DIRTY ORANGE
+    { "d9c189" : "a6671d", "a38d59" : "915622", "735e3a" : "743e1d" },
+    //ORANGE
+    { "d9c189" : "efa838", "a38d59" : "be6d1d", "735e3a" : "834012" },
+    //DIRTY BLONDE
+    { "d9c189" : "eaa758", "a38d59" : "cd8b3d", "735e3a" : "93682c" },
+    //YELLOW
+    { "d9c189" : "e6e756", "a38d59" : "c7ac3f", "735e3a" : "a9882f" },
     //BLONDE
     { "d9c189" : "f1d992", "a38d59" : "daba5e", "735e3a" : "b59a4d" },
     //LIGHT YELLOW
     { "d9c189" : "f2eba3", "a38d59" : "dcd28c", "735e3a" : "c2b677" },
-    // LIGHT GREY dont need it
-    //{ "d9c189" : "b8b8b8", "a38d59" : "828282", "735e3a" : "555555" },
+    //LIGHT GREEN
+    { "d9c189" : "A7D13D", "a38d59" : "83AD22", "735e3a" : "6B880B" },
+    //GREEN
+    { "d9c189" : "4ece61", "a38d59" : "34ae47", "735e3a" : "228a38" },
+    //DARK GREEN
+    { "d9c189" : "3b7f44", "a38d59" : "2e6a38", "735e3a" : "1d4b28" },
+    //TORQUOISE
+    { "d9c189" : "5BD5B6", "a38d59" : "4AA9AD", "735e3a" : "237082" },
+    //LIGHT TURQUOISE
+    { "d9c189" : "49E193", "a38d59" : "3BA380", "735e3a" : "197C81" },
+    //LIGHT BLUE
+    { "d9c189" : "61BCDE", "a38d59" : "5381CC", "735e3a" : "2C489E" },
+    //BLUE
+    { "d9c189" : "5d8bc7", "a38d59" : "4d55b0", "735e3a" : "2e2a73" },
+    //DARK BLUE
+    { "d9c189" : "425879", "a38d59" : "343965", "735e3a" : "242247" },
+    //DARK PURPLE
+    { "d9c189" : "7f3b6d", "a38d59" : "6a2e53", "735e3a" : "4b1d30" },
+    //PURPLE
+    { "d9c189" : "653b7f", "a38d59" : "562e6a", "735e3a" : "3f1d4b" },
+    //HOT PINK
+    { "d9c189" : "cd72d9", "a38d59" : "ac4da6", "735e3a" : "913b86" },
+    //PINK
+    { "d9c189" : "D26BA4", "a38d59" : "A54669", "735e3a" : "89334D" },
+    //LIGHT PURPLE
+    { "d9c189" : "ad68e2", "a38d59" : "8d41b0", "735e3a" : "6a2980" },
+    //BROWN GREY
+    { "d9c189" : "50422f", "a38d59" : "36261e", "735e3a" : "170f0d" },
+    // DARK GREY
+    { "d9c189" : "525252", "a38d59" : "363636", "735e3a" : "161616" },
+    // GREY
+    { "d9c189" : "74726f", "a38d59" : "53504d", "735e3a" : "2a251e" },
+    // GREY BLUE
+    { "d9c189" : "6f6d85", "a38d59" : "525269", "735e3a" : "3e4352" },
+    // LIGHT GREY
+    { "d9c189" : "b8b8b8", "a38d59" : "828282", "735e3a" : "555555" },
     // WHITE
     { "d9c189" : "eaeaea", "a38d59" : "b8b8b8", "735e3a" : "828282" }
   ]
