@@ -1,0 +1,13 @@
+[
+  {
+    "op" : "add",
+	"path" : "scriptConfig/offeredQuests/-",
+	"value" : "nightarblade"
+  },
+  
+  {
+    "op" : "add",
+	"path" : "scriptConfig/turnInQuests/-",
+	"value" : "nightarblade"
+  }
+]

@@ -1,10 +1,10 @@
 {
   "id" : "nightarblade",
-  "prerequisites" : [ "nightfort" ],
+  "prerequisites" : [ "protectoratesword", "nightfort_mission" ],
   "requiredItems" : [ "replicanightarsword" ],
-  "title" : "^green;Long Live The Night",
-  "text" : "Impetuous. Give me your ^orange;Legendary Nightar Blade^reset; so that I may bring out its full potential! Esther has taught me how to repair ancient weapons, and my repairing skills are top-notch! ^green;I will also need ^orange;5 Nightium Crystals and 2 Kaiser Gems ^green;to get the job done^reset;.",
-  "completionText" : "Proud. I must say, this is one of the finest weapons I've laid my eyes upon! As promised, here it is!",
+  "title" : "^green;Legacy of the Night",
+  "text" : "Impetuous. That blade! Allow me to have that ^orange;Legendary Nightar Blade^reset; so that I may bring out its full potential! After repairing your ^oranage;Broken Protectorate Sword^reset;, I feel galvanized! In order to bring it to its fullest, ^green;I will also need ^orange;5 Nightium Crystals and 2 Kaiser Gems^reset;.",
+  "completionText" : "Invigorated. What power...! This is surely one of the finest weapons I've laid my eyes upon! As promised, here it is!",
   "moneyRange" : [100, 100],
   "rewards" : [
     [ [ "nightarancientblade", 1 ] ]

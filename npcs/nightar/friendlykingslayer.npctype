@@ -1,8 +1,13 @@
 {
   "type" : "friendlykingslayer",
-  "baseType" : "guard",
+  "baseType" : "friendlyguard",
   
-  "damageTeamType" : "friendly",
+  "keepAlive" : true,
+  
+  "damageTeamType" : "assistant",
+  "damageTeam" : 1,
+  
+  "persistent" : true,
 
   "identity" : {
     "name" : "KingSlayer",
@@ -21,7 +26,7 @@
            "Have at thee, Gin Yorukishi!",
            "Woe to the mad king!",
 		   "In the name of the kings of eld!",
-		   "I am free once more!"
+		   "I am free!"
           ]
         }
       },
@@ -56,14 +61,14 @@
       "cheerOn" : {
         "default" : {
           "default" : [
-            "Onward!"
+            "Show them no quarter!"
           ]
         }
       },
       "cantReach" : {
         "default" : {
           "default" : [
-            "You cannot escape the darkness."
+            "The darkness will turn on you...!"
           ]
         }
       }
@@ -111,6 +116,9 @@
       "lavaImmunity" : {
         "baseValue" : 1.0
       }
+    },
+	"statusProperties" : {
+      "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=8af062FF?replace=31a6ffFF=40bf21FF"
     }
   }
 }
