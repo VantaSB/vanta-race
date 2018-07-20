@@ -10,7 +10,7 @@
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword","nightar"],
-  "learnBlueprintsOnPickup" : [ "nightarancientblade" ],
+  "learnBlueprintsOnPickup" : [ "replicanightarsword" ],
 
   "inventoryIcon" : "brokennightarblade.png",
 

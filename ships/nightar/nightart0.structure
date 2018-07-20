@@ -19,6 +19,6 @@
     }
   ],
 
-  "blockKey" : "blockKey.config:blockKey",
-  "blockImage" : "nightarT3blocks.png"
+  "blockKey" : "blockKey0.config:blockKey",
+  "blockImage" : "nightart0blocks.png"
 }

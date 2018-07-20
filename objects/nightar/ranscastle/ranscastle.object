@@ -4,7 +4,7 @@
   "rarity" : "legendary",
   "category" : "other",
   "description" : "A storefront for the Nightar merchant, Ran, to sell his wares.",
-  "shortdescription" : "^cyan;Ran's Castle",
+  "shortdescription" : "Ran's Castle",
   "race" : "nightar",
   "printable" : false,
   "lightColor" : [130, 217, 232],
@@ -32,6 +32,8 @@
 	  { "item" : "nightartechblock" },
 	  { "item" : "nightarwall2" },
       { "item" : "nightarsplatform" },
+	  { "item" : "nightarpanelblock" },
+	  { "item" : "nightarslopedhullpanel" },
 	  
 	//=======================> Stuff
 	
@@ -57,6 +59,7 @@
 	  { "item" : "nightarshelf" },
 	  { "item" : "nightarshiplight" },
 	  { "item" : "nightarsink" },
+	  { "item" : "nightarstasispod" },
 	  { "item" : "nightarstoragelocker" },
 	  { "item" : "nightarstove" },
 	  { "item" : "nightartable" },

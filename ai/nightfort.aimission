@@ -5,11 +5,11 @@
 
   "speciesText" : {
     "default" : {
-      "buttonText" : "Visit Nightfort",
-      "repeatButtonText" : "Visit Nightfort",
+      "buttonText" : "The Nightfort",
+      "repeatButtonText" : "Revisit the Nightfort",
       "selectSpeech" : {
         "animation" : "talk",
-        "text" : "A Hidden castle between the mountins on a snow planet. The Nightar king's fort, it is either abandoned, or has scanners jammers.",
+        "text" : "A hidden fortress beneath the surface of a blackened planet, the Night King's fort. Either it is abandoned or the scanners cannot penetrate the surface.",
         "speedModifier" : 1.0
       }
     }

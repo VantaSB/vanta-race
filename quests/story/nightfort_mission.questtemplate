@@ -1,0 +1,43 @@
+{
+  "id" : "nightfort_mission",
+  "mainQuest" : true,
+  "prerequisites" : [ "destroyruin" ],
+  "title" : "Long Was the Night",
+  "text" : "I know you've been through a lot dear, but there is one more thing I must ask of you... A group of ^cyan;Nightars ^reset;seem to be on the move. This seems to be a splinter group led by the Night King himself; please see if you can reason with them!",
+  "completionText" : "So the Night King wouldn't listen to reason after all... It's a shame, but you did what was best, even though I'm not comfortable with the outcome...",
+  "moneyRange" : [250, 250],
+  "rewards" : [
+    [ ["rewardbag", 1] ]
+  ],
+  "canBeAbandoned" : false,
+  "questGiverIndicator" : "mainquestgiver",
+  "questReceiverIndicator" : "mainquestreceiver",
+  
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/artifact.lua",
+  "scriptConfig" : {
+    "portraits" : {
+	  "questStarted" : "questGiver",
+	  "questComplete" : "questReceiver"
+	},
+	"associatedMission" : "nightfort",
+	"missionUnlockedCinema" : "/cinematics/coordinates.cinematic",
+	"missionRadioMessage" : {
+	  "messageId" : "nightfortmissionunlocked",
+	  "unique" : false,
+	  "text" : "I have received the coordinates for the ^orange;Nightfort^reset;. ^green;Use the mission interface^reset; to access the location."
+	},
+	
+	"descriptions" : {
+	  "artifact" : "Meet the ^orange;Night King^reset; in ^green;the Nightfort^reset;",
+	  "turnIn" : "Return to ^orange;Esther^reset; at ^green;the Ark^reset;"
+	},
+	
+	"artifactUid" : "nightarbladealtar",
+	"artifactMessage" : "nightarBladeTaken",
+	
+	"estherUid" : "estheroutpost",
+	
+	"artifactCinema" : "/cinematics/artifacts/brokennightarblade.cinematic"
+  }
+}

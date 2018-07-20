@@ -1217,12 +1217,25 @@
           "type" : "radiomessage",
           "parameters" : {
             "broadcastArea" : [-8, -8, 8, 8], 
-            "radioMessage" : "nightfort04"
+            "radioMessages" : [ "nightfort04", "nightfort04a" ]
           }
         }
       ] ]
     },
 	
+	{
+	  "value" : [0, 100, 104, 255],
+	  "comment" : "radio message trigger stagehand",
+	  "brush" : [ [ "stagehand",
+	    {
+		  "type" : "radiomessage",
+		  "parameters" : {
+		    "broadcastArea" : [-8, -8, 8, 8],
+			"radioMessages" : [ "nightfort05", "nightfort05a" ]
+		  }
+		}
+	  ] ]
+	},
 	
 	{
       "value" : [0, 100, 200, 255],

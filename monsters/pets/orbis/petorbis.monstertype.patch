@@ -1,0 +1,19 @@
+[
+  {
+    "op" : "add",
+	"path" : "/baseParameters/damageTeamType",
+	"value" : "ghostly"
+  },
+  
+  {
+    "op" : "add",
+	"path" : "/baseParameters/anchorName",
+	"value" : "techstation"
+  },
+  
+  {
+    "op" : "replace",
+	"path" : "/baseParameters/knockoutTime",
+	"value" : 0
+  }
+]

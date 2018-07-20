@@ -27,13 +27,13 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.8,
-    "baseDps" : 11.2,
+    "baseDps" : 27.8,
 
     "animKeyPrefix" : "inactive"
   },
 
-  "inactiveBaseDps" : 11.2,
-  "activeBaseDps" : 14,
+  "inactiveBaseDps" : 27.8,
+  "activeBaseDps" : 30,
 
   "altAbility" : {
     "name" : "Empowerment",

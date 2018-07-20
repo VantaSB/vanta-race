@@ -14,7 +14,7 @@
   "shortdescription" : "Nightar Tech Station",
   "race" : "nightar",
 
-  "apexDescription" : "A tech station. I can manage my crew and talk to S.A.I.L through this.",
+  "nightarDescription" : "A tech station. I can manage my crew and talk to S.A.I.L through this.",
   "avianDescription" : "I can use this station to manage my crew and talk to S.A.I.L.",
   "floranDescription" : "Floran use thisss followerss and talk to sshhip S.A.I.L!",
   "glitchDescription" : "Informative. This tech station allows me to manage my crew and talk to S.A.I.L.",
@@ -43,25 +43,24 @@
     "/objects/spawner/techstation.lua"
   ],
   "scriptDelta" : 20,
-  "shipPetType" : "petweasel",
+  "shipPetType" : "petorbis",
   "spawnOffset" : [2, -1],
 
-  "chatPortrait" : "/ai/portraits/apexportrait.png:yell.1",
+  "chatPortrait" : "/ai/portraits/nightarportrait.png:yell.1",
   "dialog" : {
     "wakeUp" : [
-      [ "Rebooting...", "/ai/portraits/apexportrait.png:unique.1" ],
-      [ "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship.",       "/ai/portraits/apexportrait.png:talk.0" ],
-      [ "I am also programmed to offer you information and advice.", "/ai/portraits/apexportrait.png:talk.1" ],
-      [ "Earth was attacked by an unknown force, and was subsequently annihilated.", "/ai/portraits/apexportrait.png:talk.0" ],
-      [ "The ship's navigation systems were damaged in our escape. Our location is currently unknown.", "/ai/portraits/apexportrait.png:talk.1" ]
+      [ "^yellow;Rebooting...^reset;", "/ai/portraits/nightarportrait.png:unique.1" ],
+	  [ "Systems Check:\nCore System - ^green;OK^reset;\nSubroutines - ^green;OK^reset;\nInfo Database - ^green;OK^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
+	  [ "Systems Check:\nEngine Systems - ^#ff0000;ERROR^reset;\nFTL Drive - ^#ff0000;ERROR^reset;\nNavigation Systems - ^#ff0000;ERROR^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
+	  [ "Diagnostics complete.\n^orange;Extensive repairs are required.^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "Greetings. I am ^cyan;S.A.I.L^reset;, your personal AI assistant. I manage the status of your ship.", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "I can also offer you information and advice during your travels.", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "The ship was severely damaged during our escape, navigation and engine systems are offline.", "/ai/portraits/nightarportrait.png:talk.1" ],
+	  [ "We are currently holding orbit over an unknown planet. Its threat level is ^green;minimal^reset;.", "/ai/portraits/nightarportrait.png:talk.1" ],
+      [ "I have restored the ^yellow;teleporter^reset;, I recommend you beam down and gather supplies.", "/ai/portraits/nightarportrait.png:talk.1" ]
     ],
     "wakePlayer" : [
-      [ "System is down, please reboot.", "/ai/portraits/apexportrait.png:unique.1"],
-      [ "Please reboot the system.", "/ai/portraits/apexportrait.png:unique.1"],
-      [ "Reboot process remains uninitiated.", "/ai/portraits/apexportrait.png:unique.1"],
-      [ "To make use of your S.A.I.L please reboot.", "/ai/portraits/apexportrait.png:unique.1" ],
-      [ "Rebooting has shown to improve ship interaction satisfaction levels by 73%.", "/ai/portraits/apexportrait.png:unique.1"],
-      [ "Rebooting requires a conscious entity to interact with the S.A.I.L console.", "/ai/portraits/apexportrait.png:unique.1" ]
+      [ "System malfunction\nReboot required", "/ai/portraits/nightarportrait.png:unique.1"]
     ]
   },
 

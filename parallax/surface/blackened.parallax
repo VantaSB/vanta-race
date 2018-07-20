@@ -73,7 +73,7 @@
       "nohueshift" : true
     },
     {
-      "kind" : "blackenedclouds1",
+      "kind" : "blackenedclouds",
       "baseCount" : 2,
       "offset" : [0, 320],
       "parallax" : [8, 7],

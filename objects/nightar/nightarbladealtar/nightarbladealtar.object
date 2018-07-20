@@ -1,22 +1,14 @@
 {
   "objectName" : "nightarbladealtar",
   "colonyTags" : ["nightar"],
-  "rarity" : "Common",
-  "category" : "decorative",
-
-
-  "description" : "An altar holding the ultimate nightar blade.. which looks kinda broken.",
-  "shortdescription" : "Nightar Blade Altar",
   "printable" : false,
+  "price" : 6000,
+  "rarity" : "Common",
+  "description" : "An altar holding the ultimate nightar blade... which looks kinda broken.",
+  "shortdescription" : "Nightar Blade Altar",
   "race" : "nightar",
-
-  "apexDescription" : "This decrepit sword is supposedly the Nightars' sacred treasure, but...",
-  "avianDescription" : "This sword is in dire need of repair. I wonder...",
-  "floranDescription" : "Floran should take thisss blade and fix it.",
-  "glitchDescription" : "Disheartened. To see such a blade in a state of disrepair, it begs me to take it with me.",
-  "humanDescription" : "An altar holding the ultimate nightar blade.. which looks kinda broken.",
-  "hylotlDescription" : "This ancient blade supposedly rivals the power of the Protectorate Blade.",
-  "novakidDescription" : "What a piece of junk... I oughta take this and get it fixed.",
+  
+  "category" : "artifact",
 
   "inventoryIcon" : "nightarbladealtaricon.png",
   "orientations" : [
@@ -31,12 +23,15 @@
     }
   ],
   
- 
-
-  "scripts" : ["/objects/scripts/breakoninteract.lua"],
+  "questIndicatorPosition" : [0, 8.0],
+  
+  "scripts" : [ "/objects/nightar/nightarbladealtar/nightarbladealtar.lua" ],
   "scriptDelta" : 0,
 
   "breakDropOptions" : [
     [ [ "brokennightarblade", 1, { } ] ]
-  ]
+  ],
+  
+  //"triggerUniverseFlag" : "",
+  "questMessage" : "nightarBladeTaken"
 }

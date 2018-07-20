@@ -1,0 +1,14 @@
+{
+  "itemName" : "nightarslopedhullpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarslopedhullpanel.png",
+  "shortdescription" : "Nightar Hull Panel",
+  "description" : "Nightar-made hull materials that can withstand the harsh void of space.",
+  "glitchdescription" : "Impressed. This panelling is both stylish and highly durable.",
+  "florandescription" : "Shiny sssmooth space metal.",
+  "novakiddescription" : "Some thick metal plating, looks mighty solid.",
+
+  "materialId" : 3613
+}
