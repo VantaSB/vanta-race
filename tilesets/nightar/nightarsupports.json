@@ -9,7 +9,7 @@
  "tileheight":8,
  "tileproperties":
     {
-     "3610":
+     "3710":
         {
          "//description":"Strong platform made from unknown materials.",
          "//name":"nightarsplatform",
@@ -19,7 +19,7 @@
     },
  "tiles":
     {
-     "3610":
+     "3710":
         {
           "image":"icons-tmx/nightarsplatform.png"
         }

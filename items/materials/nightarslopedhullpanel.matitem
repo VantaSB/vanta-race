@@ -1,6 +1,6 @@
 {
   "itemName" : "nightarslopedhullpanel",
-  "price" : 0,
+  "price" : 15,
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "nightarslopedhullpanel.png",
@@ -10,5 +10,5 @@
   "florandescription" : "Shiny sssmooth space metal.",
   "novakiddescription" : "Some thick metal plating, looks mighty solid.",
 
-  "materialId" : 3613
+  "materialId" : 3713
 }

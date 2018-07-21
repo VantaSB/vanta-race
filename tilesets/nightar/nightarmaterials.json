@@ -7,106 +7,128 @@
   "tilecount" : 9,
   "tileheight" : 8,
   "tileproperties" : {
-    "3601" : {
+    "3701" : {
       "//description" : "Mysterious castle blocks.",
       "//name" : "nightarcastleblock",
       "//shortdescription" : "Nightar Castle Block",
       "material" : "nightarcastleblock"
     },
 	
-	"3602" : {
+	"3702" : {
       "//description" : "Mysterious castle blocks.",
       "//name" : "nightarcastleblock2",
       "//shortdescription" : "Nightar Castle Block",
       "material" : "nightarcastleblock2"
     },
 	
-	"3603" : {
+	"3703" : {
       "//description" : "Traditional Nightar flooring.",
       "//name" : "nightarfloor",
       "//shortdescription" : "Nightar Flooring",
       "material" : "nightarfloor"
     },
 	
-	"3604" : {
+	"3704" : {
       "//description" : "Mysterious ship blocks.",
       "//name" : "nightarshipblock",
       "//shortdescription" : "Nightar Ship Block",
       "material" : "nightarshipblock"
     },
 	
-	"3605" : {
+	"3705" : {
       "//description" : "A reinforced support beam.",
       "//name" : "nightarsupport",
       "//shortdescription" : "Nightar Support Beam",
       "material" : "nightarsupport"
     },
 	
-    "3606" : {
+    "3706" : {
       "//description" : "A reinforced support beam.",
       "//name" : "nightarsupport2",
       "//shortdescription" : "Nightar Support Beam",
       "material" : "nightarsupport2"
     },
 	
-	"3607" : {
+	"3707" : {
       "//description" : "Nightars plain concrete.",
       "//name" : "nightarswall1",
       "//shortdescription" : "Nightar Concrete",
       "material" : "nightarswall1"
     },
 	
-	"3608" : {
+	"3708" : {
       "//description" : "Blocks made from unknown Nightar technology.",
       "//name" : "nightartechblock",
       "//shortdescription" : "Nightar Tech Block",
       "material" : "nightartechblock"
     },
 	
-	"3609" : {
+	"3709" : {
       "//description" : "A black wall infused with unknown Nightar technology.",
       "//name" : "nightarwall2",
       "//shortdescription" : "Nightar Tech Wall",
       "material" : "nightarwall2"
-    }
+    },
+	
+	"3712" : {
+	  "//description" : "Panels made with exotic Nightar materials.",
+	  "//name" : "nightarpanelblock",
+	  "//shortdescription" : "Nightar Paneling",
+	  "material" : "nightarpanelblock"
+	},
+	
+	"3713" : {
+	  "//description" : "Panels made with exotic Nightar materials.",
+	  "//name" : "nightarslopedhullpanel",
+	  "//shortdescription" : "Nightar Hull Panel",
+	  "material" : "nightarslopedhullpanel"
+	}
   },
   
   "tiles" : {
-    "3601" : {
+    "3701" : {
       "image" : "icons-tmx/nightarcastleblock.png"
     },
 	
-	"3602" : {
+	"3702" : {
       "image" : "icons-tmx/nightarcastleblock2.png"
     },
 	
-	"3603" : {
+	"3703" : {
       "image" : "icons-tmx/nightarfloor.png"
     },
 	
-	"3604" : {
+	"3704" : {
       "image" : "icons-tmx/nightarshipblock.png"
     },
 	
-	"3605" : {
+	"3705" : {
       "image" : "icons-tmx/nightarsupport.png"
     },
 	
-	"3606" : {
+	"3706" : {
       "image" : "icons-tmx/nightarsupport2.png"
     },
 	
-	"3607" : {
+	"3707" : {
       "image" : "icons-tmx/nightarswall1.png"
     },
 	
-	"3608" : {
+	"3708" : {
       "image" : "icons-tmx/nightartechblock.png"
     },
 	
-	"3609" : {
+	"3709" : {
       "image" : "icons-tmx/nightarwall2.png"
-    }
+    },
+	
+	"3712" : {
+	  "image" : "icons-tmx/nightarpanelblock.png"
+	},
+	
+	"3713" : {
+	  "image" : "icons-tmx/nightarslopedhullpanel.png"
+	}
   },
   "tilewidth" : 8
 }
