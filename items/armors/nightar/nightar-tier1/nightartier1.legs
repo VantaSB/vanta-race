@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "category" : "legarmour",
   "description" : "Most of the iron in a knave's trousers is in the belt buckle.",
-  "shortdescription" : "^cyan;Nightar Knave's Trousers^reset;",
+  "shortdescription" : "Nightar Knave's Trousers",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
