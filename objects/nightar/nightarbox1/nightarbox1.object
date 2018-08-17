@@ -24,7 +24,7 @@
   "inventoryIcon" : "nightarbox1icon.png",
   "orientations" : [
     {
-      "image" : "nightarbox1.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "nightarbox1.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarbox1lit.png:<color>.<frame>" } ],
       "direction" : "left",
       "flipImages" : true,
 
@@ -37,7 +37,7 @@
       "collision" : "platform"
     },
     {
-      "image" : "nightarbox1.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "nightarbox1.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarbox1lit.png:<color>.<frame>" } ],
       "direction" : "right",
 
       "imagePosition" : [-16, 0],

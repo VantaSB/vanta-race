@@ -23,8 +23,22 @@
   "inventoryIcon" : "nightartoileticon.png",
   "orientations" : [
     {
-      "dualImage" : "nightartoilet.png:<color>",
+	  "imageLayers" : [ { "image" : "nightartoilet.png:<color>", "fullbright" : true }, { "image" : "nightartoiletlit.png:<color>" } ],
+      "direction" : "left",
+	  "flipImages" : true,
+	  
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+	  "imageLayers" : [ { "image" : "nightartoilet.png:<color>", "fullbright" : true }, { "image" : "nightartoiletlit.png:<color>" } ],
+      "direction" : "right",
+	  
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 1.0,

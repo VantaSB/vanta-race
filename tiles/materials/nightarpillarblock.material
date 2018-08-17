@@ -1,0 +1,24 @@
+{
+  "materialId" : 3714,
+  "materialName" : "nightarpillarblock",
+  "particleColor" : [89, 89, 89, 255],
+  "itemDrop" : "nightarpillarblock",
+  "shortdescription" : "Nightar Pillar Block",
+  "description" : "A pillar made with Nightar materials.",
+  "glitchDescription" : "...",
+  "floranDescription" : "...",
+  "novakidDescription" : "...",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/columntemplate.config",
+  "renderParameters" : {
+    "texture" : "pillarblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2770
+  }
+}

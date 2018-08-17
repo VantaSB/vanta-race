@@ -20,7 +20,7 @@
   "inventoryIcon" : "nightarpictureicon.png",
   "orientations" : [
     {
-      "image" : "nightarpicture.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "nightarpicture.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarpicturelit.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       "frames" : 18,
 	  "animationCycle" : 2.0,

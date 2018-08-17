@@ -19,7 +19,7 @@
   "inventoryIcon" : "nightartableicon.png",
   "orientations" : [
     {
-      "image" : "nightartable.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "nightartable.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightartablelit.png:<color>.<frame>" } ],
 	  "frames" : 8,
 	  "animationCycle" : 1.0,
       "imagePosition" : [-32, 0],
@@ -29,10 +29,10 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "collisionSpaces" : [ [-4, 1], [-3, 1], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1], [3, 1] ]
+      "collisionSpaces" : [ [-3, 1], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1] ]
     },
     {
-      "image" : "nightartable.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "nightartable.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightartablelit.png:<color>.<frame>" } ],
 	  "frames" : 8,
 	  "animationCycle" : 1.0,
       "imagePosition" : [-32, 0],
@@ -41,7 +41,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform",
-      "collisionSpaces" : [ [-4, 1], [-3, 1], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1], [3, 1] ]
+      "collisionSpaces" : [ [-3, 1], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1] ]
     }
   ]
 }

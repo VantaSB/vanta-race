@@ -60,7 +60,7 @@
   "inventoryIcon" : "nightarstoveicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "nightarstove.png:<color>.<frame>", "fullbright" : true }],
+      "imageLayers" : [ { "image" : "nightarstove.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarstovelit.png:<color>.<frame>"} ],
       "direction" : "left",
       "flipImages" : true,
 
@@ -72,7 +72,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "nightarstove.png:<color>.<frame>", "fullbright" : true }],
+      "imageLayers" : [ { "image" : "nightarstove.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarstovelit.png:<color>.<frame>"} ],
       "direction" : "right",
 
       "imagePosition" : [0, 0],

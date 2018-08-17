@@ -1,0 +1,35 @@
+{
+  "itemName" : "nightarkatana",
+  "price" : 2235,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A more elegant weapon design adopted by the Nightars.",
+  "shortdescription" : "Nightar Katana",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "melee", "broadsword", "nightar" ],
+  
+  "inventoryIcon" : "nightarkatana.png",
+  
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "nightarkatana.png"
+  },
+  "animationCustom" : { },
+  
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  
+  "elementalType" : "physical",
+  
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.76,
+	"baseDps" : 23.8
+  },
+  
+  "altAbilityType" : "bladecharge",
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

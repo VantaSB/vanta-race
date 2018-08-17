@@ -1,0 +1,3 @@
+[
+  { "op" : "add", "path" : "/Data/missions/main/-", "value" : ["/ai/nightfort.aimission", "nightfort_mission"] }
+]

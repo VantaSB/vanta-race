@@ -48,7 +48,7 @@
         "placementImagePosition" : [-8, 0],    
 
         "description" : "A nightar weapon replicator.",
-		"shortdescription" : "Nightar Weapon Replicator",
+		"shortdescription" : "Nightar Replicator",
 
         "apexDescription" : "The technology used to construct this is nothing short of astounding.",
 		"avianDescription" : "This replicator is very sophisticated and has a sleek design.",
@@ -222,23 +222,19 @@
 
   "orientations" : [
     {
-      "image" : "nightaranvil.png:default.<frame>",
+      "image" : "nightaranvil.png:<color>.<frame>",
       "imagePosition" : [-8, 0],    
       "direction" : "left",
       "flipImages" : true,
       "spaceScan" : 0.1,
-	  
       "anchors" : [ "bottom" ]
-	  
     },
     {
-      "image" : "nightaranvil.png:default.<frame>",
+      "image" : "nightaranvil.png:<color>.<frame>",
       "imagePosition" : [-8, 0],    
       "direction" : "right",
       "spaceScan" : 0.1,
-	  
       "anchors" : [ "bottom" ]
-
     }
   ],
 

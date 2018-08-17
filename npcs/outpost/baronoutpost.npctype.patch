@@ -1,13 +1,13 @@
 [
   {
     "op" : "add",
-	"path" : "scriptConfig/offeredQuests/-",
+	"path" : "/scriptConfig/offeredQuests/-",
 	"value" : "nightarblade"
   },
   
   {
     "op" : "add",
-	"path" : "scriptConfig/turnInQuests/-",
+	"path" : "/scriptConfig/turnInQuests/-",
 	"value" : "nightarblade"
   }
 ]

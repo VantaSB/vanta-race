@@ -19,7 +19,7 @@
   "inventoryIcon" : "nightarchairicon.png",
   "orientations" : [
     {
-      "image" : "nightarchair.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "nightarchair.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarchairlit.png:<color>.<frame>" } ],
 	  "frames" : 5,
       "animationCycle" : 0.8,
       "direction" : "left",
@@ -33,7 +33,7 @@
 
     },
     {
-      "image" : "nightarchair.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "nightarchair.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarchairlit.png:<color>.<frame>" } ],
 	  "frames" : 5,
       "animationCycle" : 0.8,
       "direction" : "right",

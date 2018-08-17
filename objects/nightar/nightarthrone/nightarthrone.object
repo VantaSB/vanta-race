@@ -20,7 +20,7 @@
   "inventoryIcon" : "nightarthroneicon.png",
   "orientations" : [
     {
-      "image" : "nightarthrone.png:<color>.<frame>",
+	  "imageLayers" : [ { "image" : "nightarthrone.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarthronelit.png:<color>.<frame>"} ],
 	  "frames" : 10,
       "animationCycle" : 1.0,
       "direction" : "left",
@@ -34,7 +34,7 @@
 
     },
     {
-      "image" : "nightarthrone.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "nightarthrone.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarthronelit.png:<color>.<frame>"} ],
 	  "frames" : 10,
       "animationCycle" : 1.0,
       "direction" : "right",

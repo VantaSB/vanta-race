@@ -38,7 +38,7 @@
           "zLevel" : 1,
           "centered" : true,
           "fullbright" : true,
-          "image" : "nightar_violiumbroadsword2.png<paletteSwaps>?<directives>?<bladeDirectives>",
+          "image" : "nightar_violiumbroadsword2lit.png<paletteSwaps>?<directives>?<bladeDirectives>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0],

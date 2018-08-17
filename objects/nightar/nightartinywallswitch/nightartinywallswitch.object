@@ -21,7 +21,7 @@
   "inventoryIcon" : "nightartinywallswitchicon.png",
   "orientations" : [
     {
-      "dualImage" : "nightartinywallswitch.png:<color>.off",
+	  "imageLayers" : [ { "image" : "nightartinywallswitch.png:<color>.off", "fullbright" : true }, { "image" : "nightartinywallswitchlit.png:<color>.off"} ],
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,

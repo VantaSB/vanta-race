@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "nightarkatana", "count" : 1 },
+	{ "item" : "cryonicextract", "count" : 2 }
+  ],
+  "output" : { "item" : "nightarkatanai", "count" : 1 },
+  "groups" : [ "nightaranvil3", "weapons", "all" ]
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "nightarpillarblock",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarpillarblock.png",
+  "shortdescription" : "Nightar Pillar",
+  "description" : "A pillar made with Nightar materials.",
+  "glitchdescription" : "...",
+  "florandescription" : "...",
+  "novakiddescription" : "...",
+
+  "materialId" : 3714
+}
