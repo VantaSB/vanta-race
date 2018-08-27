@@ -14,7 +14,7 @@
 
   "renderTemplate" : "/tiles/columntemplate.config",
   "renderParameters" : {
-    "texture" : "pillarblock.png",
+    "texture" : "nightarpillarblock.png",
     "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,
