@@ -3,9 +3,10 @@
   "dependencies" : [],
   "description" : "The Nightar Race, revived and brought back with some updates! I'm always in the process of adding things and improving existing content. If something doesn't work or otherwise stops working, please let me know and I'll try to get it fixed ASAP. Enjoy!",
   "friendlyName" : "The Nightars (Revived)",
+  "priority" : 1,
   "link" : "steam://url/CommunityFilePage/1325968658",
   "name" : "The Nightars",
   "steamContentId" : "1325968658",
   "tags" : "Species",
-  "version" : "0.4.5"
+  "version" : "0.4.6"
 }
