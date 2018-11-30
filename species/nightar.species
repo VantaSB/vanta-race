@@ -41,42 +41,41 @@
       { "item" : "nightartier3chest" },
       { "item" : "nightartier3pants" },
       { "item" : "nightartier4head" },
-	  { "item" : "nightartier4chest" },
+	    { "item" : "nightartier4chest" },
       { "item" : "nightartier4pants" },
 
 
       { "item" : "nightar_titaniumbroadsword" },
-	  { "item" : "nightar_titaniumspear" },
+	    { "item" : "nightar_titaniumspear" },
       { "item" : "nightar_durasteelbroadsword" },
-	  { "item" : "nightar_durasteelshortsword" },
-	  { "item" : "nightarshield" },
-
-	  { "item" : "nightiumshard" },
+	    { "item" : "nightar_durasteelshortsword" },
+	    { "item" : "nightarshield" },
+	    { "item" : "nightiumshard" },
 
 
 
 // Anvil3
-	  { "item" : "nightarsghead" },
-	  { "item" : "nightarsgchest" },
-	  { "item" : "nightarsgpants" },
+	    { "item" : "nightarsghead" },
+	    { "item" : "nightarsgchest" },
+	    { "item" : "nightarsgpants" },
       { "item" : "nightartier5head" },
       { "item" : "nightartier5chest" },
       { "item" : "nightartier5pants" },
       { "item" : "nightartier6head" },
       { "item" : "nightartier6chest" },
       { "item" : "nightartier6pants" },
-	  { "item" : "nightarbigshield" },
+	    { "item" : "nightarbigshield" },
 
 
       { "item" : "nightar_violiumbroadsword1" },
       { "item" : "nightar_violiumbroadsword2" },
-	  { "item" : "nightar_violiumshortsword2" },
-	  { "item" : "yorunoyumi" },
+	    { "item" : "nightar_violiumshortsword2" },
+	    { "item" : "yorunoyumi" },
 
 
-	  { "item" : "nightarhealingaugment" },
-	  { "item" : "nightarhealthaugment" },
-	  { "item" : "nightarheatprotectionback" },
+	    { "item" : "nightarhealingaugment" },
+	    { "item" : "nightarhealthaugment" },
+	    { "item" : "nightarheatprotectionback" },
 
 
 	  //---------------------------------------GLITCH STUFF-------------------
@@ -152,9 +151,9 @@
 
 // Spinning Wheel
 
-	  { "item" : "nightar_suithead" },
-	  { "item" : "nightar_suitchest" },
-	  { "item" : "nightar_suitlegs" },
+	    { "item" : "nightar_suithead" },
+	    { "item" : "nightar_suitchest" },
+	    { "item" : "nightar_suitlegs" },
 
       { "item" : "coolchest" },
       { "item" : "coollegs" },
@@ -162,7 +161,7 @@
       { "item" : "sweatervestlegs" },
       { "item" : "workoutchest" },
       { "item" : "workoutlegs" },
-	  { "item" : "craftsmenchest" },
+	    { "item" : "craftsmenchest" },
       { "item" : "craftsmenlegs" },
       { "item" : "merchantchest" },
       { "item" : "merchantlegs" },
@@ -170,7 +169,7 @@
       { "item" : "noblelegs" },
       { "item" : "peasantchest" },
       { "item" : "peasantlegs" },
-	  { "item" : "kimonochest" },
+	    { "item" : "kimonochest" },
       { "item" : "kimonolegs" },
       { "item" : "monkchest" },
       { "item" : "monklegs" },
@@ -225,11 +224,11 @@
 
     { "ED1C24" : "0B877F"},
     { "ED1C24" : "24B395"},
-	{ "ED1C24" : "333241"},
-	{ "ED1C24" : "5B5A72"},
-	{ "ED1C24" : "5691FF"},
-	{ "ED1C24" : "FF325F"},
-	{ "ED1C24" : "b8b8b8"}
+	  { "ED1C24" : "333241"},
+	  { "ED1C24" : "5B5A72"},
+	  { "ED1C24" : "5691FF"},
+	  { "ED1C24" : "FF325F"},
+	  { "ED1C24" : "b8b8b8"}
   ],
 
   "hairColor" : [
