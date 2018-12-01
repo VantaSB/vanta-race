@@ -4,18 +4,18 @@
   "species" : "other",
   "description" : "Written by an adventurer who lived with and studied the Nightars.",
   "icon" : "nightardoc.png",
-  "contentPages" : [   
-    "The Nightars, or as they call themselves, 'Knights of the night', are a highly intelligent civilization that share their appearance with humans. Even with the advancement of their own technologies, they tend to live in castle-like structures and fight like medieval knights. Like humans, they originated on Earth, and later began to colonize other planets.",
-	
-    "Their first construction was a massive, planet-wide castle that expanded underground; though, this didn't stop some from living on the surface if they so chose. They live in a similar manner to humans, though their advancements in technology allows them to eschew manual labor in favor of matial studies; the upper classes are almost exclusively made up of knights or assassins.",
-	
-	"Nightars tend to have cold, detached personalities, rarely socializing outside of their own social class and generally shying away from contact with other races, though they hold no particular affection or hostility towards them. Most Nightars prefer to live in the fortresses and castles common of their race amongst kin or servants, though some exiles or loners prefer the solitude of deserted or otherwise isolated places.",
-	
+  "contentPages" : [
+    "The Nightars are a highly-intelligent, species that share their appearance with humans. Even with the advancement of their own technologies, they tend to live in castle-like structures and fight like medieval knights. Like humans, they originated on Earth, and later began to colonize other planets.",
+
+    "Their first construction was a massive, planet-wide city that expanded mostly underground; though, this didn't stop some from living on the surface if they so chose. They live in a similar manner to humans, though their advancements in technology allows them to eschew manual labor in favor of matial studies; the upper classes are almost exclusively made up of knights or assassins.",
+
+    "Nightars tend to have cold, detached personalities, rarely socializing outside of their own social class and generally shying away from contact with other races, though they hold no particular affection or hostility towards them. Most Nightars prefer to live in the fortresses and castles common of their race amongst kin or servants, though some exiles or loners prefer the solitude of deserted or otherwise isolated places.",
+
     "The Ruin's destruction of Earth and the countless lives lost evoked very little, if any, sorrow from the Nightars for the homeworld of their ancestors. It is said, however, that some nobles have taken great, private enjoyment of the Protectorate's sudden downfall; no doubt loyalists to the royal family who share their disdain for humans.",
-	
-	"As anti-social as they tend to be, the Nightars are not entirely unwelcoming to outsiders, whether it's just passing through or to do business, but woe to any who come to their dwellings with malicious intent; ^#3b5784;the darkness of night can hold many terrors^reset;."
+
+	  "As anti-social as they tend to be, the Nightars are not entirely unwelcoming to outsiders, whether it's just passing through or to do business, but woe to any who come to their dwellings with malicious intent; ^#3b5784;the darkness of night can hold many terrors^reset;."
   ],
-  
+
   "itemConfig" : {
     "rarity" : "legendary",
     "price" : 300

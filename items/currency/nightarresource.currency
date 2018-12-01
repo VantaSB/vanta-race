@@ -1,0 +1,13 @@
+{
+  "itemName" : "nightarresource",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "nightiumcrystal.png",
+  "description" : "These prisms store ancient Nightar knowledge collected over the millennia.",
+  "shortdescription" : "Data Storage Prism",
+  "currency" : "nightarresource",
+  "value" : 1,
+  "pickupSoundsSmall" : [ "/sfx/interface/item_pickup.ogg", "/sfx/interface/item_equip.ogg" ],
+  "pickupSoundsMedium" : [ "/sfx/interface/item_holster.ogg" ],
+  "pickupSoundsLarge" : [ "/sfx/objects/ancientenergy_pickup1.ogg", "/sfx/objects/ancientenergy_pickup2.ogg", "/sfx/objects/ancientenergy_pickup3.ogg" ],
+  "maxStack" : 1000000
+}

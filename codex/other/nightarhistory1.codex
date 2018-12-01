@@ -6,18 +6,18 @@
   "icon" : "nightarhistory1.png",
   "contentPages" : [
     "^cyan;\"What exactly are you...?\" ^reset;That's what the human adventurer asked us. So, we wrote this to explain it to our new friend. We Nightars originally came to be when a human scientist, Gin Yorukishi, was working on the development of a new engine for space vessels. During a routine test, the experimental drive malfunctioned, causing an explosion.",
-	
-	"Much of the entire laboratory staff was able to make it out before the drive went critical. But when it did, all that remained of the laboratory was a vast crater. After days of searching and clearing rubble, Gin was found alive, miraculously. His appearance had changed, however. Once fair-skinned, his complexion had darkened, and his hair became snow-white.",
-	
-	"He bore strange markings all over his body, which could not be explained even after thorough examination. After some recovery, Gin began constructing a new lab, claiming to his colleagues that he understood what had gone wrong with the initial experiment, and revised his theories and formulas to create the engine with much more stability.",
-	
-	"However, it was made known to him that the research firm they were working for at the time had pulled their funding and seized all of their research materials. Gin, angered by this, set out to reclaim them. However, the security services attempted to turn him away, saying that he was no longer authorized to work on anything relating to the project.",
-	
-	"When those words reached Gin's ears, his anger bested him, and he lashed out at the security guards, dispatching them all single-handedly, and with terrifying efficiency. There was nothing now to stop him from reclaiming what he believed was rightfully his and his team's. When he returned to them, he told them what happened and they simply nodded and continued with him.",
-	
-	"Gin and his team began working on their project once more, and they had made excellent progress. In time, they managed to complete the engine, and Gin and his team went to license a patent for it. But when they arrived to their destination, they were apprehended by authorities. The news of Gin's previous altercation had been forwarded to the now-defunct ^#44771f;USCM^reset;, who had already been searching for him."
+
+	  "Much of the entire laboratory staff was able to make it out before the drive went critical. But when it did, all that remained of the laboratory was a vast crater. After days of searching and clearing rubble, Gin was found alive, miraculously. His appearance had changed, however. Once fair-skinned, his complexion had darkened, and his hair became snow-white.",
+
+    "He bore strange markings all over his body, which could not be explained even after thorough examination. After some recovery, Gin began constructing a new lab, claiming to his colleagues that he understood what had gone wrong with the initial experiment, and revised his theories and formulas to create the engine with much more stability.",
+
+    "However, it was made known to him that the research firm they were working for at the time had pulled their funding and seized all of their research materials. Gin, angered by this, set out to reclaim them. However, the security services attempted to turn him away, saying that he was no longer authorized to work on anything relating to the project.",
+
+    "When those words reached Gin's ears, his anger bested him, and he lashed out at the security guards, dispatching them all single-handedly, and with terrifying efficiency. There was nothing now to stop him from reclaiming what he believed was rightfully his and his team's. When he returned to them, he told them what happened and they simply nodded and continued with him.",
+
+    "Gin and his team began working on their project once more, and they had made excellent progress. In time, they managed to complete the engine, and Gin and his team went to license a patent for it. But when they arrived to their destination, they were apprehended by authorities. The news of Gin's previous altercation had been forwarded to the now-defunct ^#44771f;USCM^reset;, who had already been searching for him."
   ],
-  
+
     "itemConfig" : {
     "rarity" : "legendary",
     "price" : 300
