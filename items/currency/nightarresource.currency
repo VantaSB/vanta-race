@@ -1,9 +1,9 @@
 {
   "itemName" : "nightarresource",
   "rarity" : "Legendary",
-  "inventoryIcon" : "nightiumcrystal.png",
-  "description" : "These prisms store ancient Nightar knowledge collected over the millennia.",
-  "shortdescription" : "Data Storage Prism",
+  "inventoryIcon" : "nightarresource.png",
+  "description" : "The data on this engram can help you research ancient Nightar crafts.",
+  "shortdescription" : "Ancient Engram",
   "currency" : "nightarresource",
   "value" : 1,
   "pickupSoundsSmall" : [ "/sfx/interface/item_pickup.ogg", "/sfx/interface/item_equip.ogg" ],
