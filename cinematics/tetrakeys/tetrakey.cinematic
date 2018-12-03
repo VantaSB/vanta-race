@@ -38,11 +38,11 @@
           "position" : [479, 280]
         }
       ]
-    }
-   {
+    },
+    {
       "drawables" : [
         {
-          "image" : "/cinematics/artifacts/keyobtained.png"
+          "image" : "/cinematics/artifacts/tetrakeyobtained.png"
         }
       ],
       "keyframes" : [
