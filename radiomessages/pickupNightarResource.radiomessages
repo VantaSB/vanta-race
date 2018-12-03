@@ -1,6 +1,6 @@
 {
   "pickupNightarResource" : {
     "type" : "tutorial",
-    "text" : "This is a ^cyan; data storage prism^reset; created by the Nightars. My databases indicate that this crystal holds significant amounts of technological knowledge. We can definitely put this to good use."
+    "text" : "This is a ^cyan;data storage engram ^reset;created by the Nightars. It holds significant amounts of technological knowledge that we can definitely put to good use."
   }
 }

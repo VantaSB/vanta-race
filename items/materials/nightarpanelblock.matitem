@@ -1,7 +1,8 @@
 {
   "itemName" : "nightarpanelblock",
   "category" : "Block",
-  "rarity" : "Legendary",
+  "price" : 15,
+  "rarity" : "Common",
   "inventoryIcon" : "nightarpanelblock.png",
   "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
   "description" : "Panels made with exotic Nightar materials.",

@@ -1,0 +1,25 @@
+{
+  "id" : "nightardoc",
+  "title" : "Noxcalibur: The Stolen Relic",
+  "species" : "other",
+  "description" : "An account of an ancient Nightar Knight's weapon",
+  "icon" : "nightardoc.png",
+  "contentPages" : [
+    "Many are the things we hold sacred in our lives; family, friends, our Codes of Honor. Even our possessions, to a certain extent. Among those, there is one item in particular we have come to hold in a very high esteem: the stolen blade, ^cyan;Noxcalibur^reset;. Its outward appearance would suggest that it has little value, as it bears the scars of battles long passed.",
+
+    "While its history is shrouded in fog, much like ours overall, what we know for a fact is that it once belonged to an ancient Nightar Knight who opposed the tyrannic reign of the royal family. He, along with this weapon, were blessed by the primal fury of a midnight assassin, and set upon the royal vanguard. While both the knight and the blade housed terrifying power, it was known that they spared the lives of their prey.",
+
+    "The Night King at the time bore witness to the Knight's actions, and wehn confronted directly, was humbled by how the Knight had spared his enemies. Thus, did the king proclaim that he would end his conquest and endeavor to allow the citizens to have their voice in the kingdom. The Knight was offered a position among the king's personal guard, but declined, stating that he had fulfilled his duty.",
+
+    "The king honored his refusal, and the Knight entrusted the blade to the royal family as a symbol of trust, which the royal family would honor for generations. That is, until several years ago... The current Night King, enamored by the bloody ways of eld, consumed by his thirst for power, has stolen the relic to restore its power and began a new conquest of galactic dominance.",
+
+    "They have made off with those who oppose his word, and we live in fear. Even now, the king's personal guard makes way for me. Whoever finds this, I make a final plea: ^red;If you are daring enough, please end his reign; we no longer have our voice to sp-
+
+    ^#5d5d5d;The statement abruptly stops; it appears the writer was taken mid-sentence...^reset;"
+  ],
+
+  "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 300
+  }
+}

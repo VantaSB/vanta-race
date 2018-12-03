@@ -1,0 +1,13 @@
+{
+  "itemName" : "liquidnoct",
+  "rarity" : "Legendary",
+  "category" : "liquid",
+  "inventoryIcon" : "liquidnoctticon.png",
+  "shortdescription" : "Liquid Noct Fuel",
+  "description" : "This dark, volatile fuel source has a soft glow.",
+
+  "liquid" : "liquidnoctfuel",
+
+  "fuelAmount" : 5,
+  "price" : 3000
+}

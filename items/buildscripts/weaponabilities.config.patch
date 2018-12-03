@@ -1,7 +1,7 @@
 [
   {
     "op" : "add",
-	"path" : "/stealthdaggercombo",
-	"value" : "/items/active/weapons/melee/stealthdagger/stealthdaggercombo.weaponability"
+	  "path" : "/stealthdaggercombo",
+	  "value" : "/items/active/weapons/melee/stealthdagger/stealthdaggercombo.weaponability"
   }
 ]
