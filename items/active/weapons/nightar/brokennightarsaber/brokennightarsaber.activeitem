@@ -10,6 +10,7 @@
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
+  "learnBlueprintsOnPickup" : [ "nightarsaber" ],
 
   "inventoryIcon" : "brokennightarsaber.png",
 
@@ -26,8 +27,8 @@
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.8,
-    "baseDps" : 7.5
+    "fireTime" : 0.84,
+    "baseDps" : 7
   },
 
   "altAbilityType" : "spinslash",
