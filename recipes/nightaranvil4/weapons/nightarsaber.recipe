@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "brokennightarsaber", "count" : 1 },
-	{ "item" : "durasteelbar", "count" : 10},
-	{ "item" : "kaisergem", "count" : 1 }
+	  { "item" : "durasteelbar", "count" : 10},
+	  { "item" : "kaisergem", "count" : 1 }
   ],
   "output" : { "item" : "nightarsaber", "count" : 1 },
   "groups" : [ "nightaranvil4", "weapons", "all" ]
