@@ -1,0 +1,25 @@
+[
+  {
+    "op" : "add",
+    "path" : "/money/sail_group_order",
+    "value" : [ "nightar_research" ]
+  },
+
+  {
+    "op" : "add",
+    "path" : "/money/sail_group",
+    "value" : "main"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/essence/sail_group",
+    "value" : "main"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/nightarresource",
+    "value" : { "representativeItem" : "nightarresource", "playermax" : 999999, "sail_group" : "nightar_research" }
+  }
+]
