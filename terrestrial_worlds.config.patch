@@ -13,12 +13,12 @@
 			}
 		}
 	},
-	
+
 	{
 		"op" : "add",
 		"path" : "/regionTypes/blackened",
 		"value" : {
-			"caveLiquid" : [ "liquidnoxeumfuel" ],
+			"caveLiquid" : [ "liquidnoctfuel" ],
 			"encloseLiquids" : true,
 			"blockSelector" : [ "remixedMildSurface" ],
 			"fgCaveSelector" : [ "surfaceCaves" ],
