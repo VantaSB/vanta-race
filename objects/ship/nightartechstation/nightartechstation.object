@@ -4,7 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
-  "interactAction" : "OpenAiInterface",
+  "interactAction" : "scriptPane",
+  "interactData" : "/zb/newSail/newSail.config",
 
   "category" : "decorative",
   "lightColor" : [102, 61, 61],
@@ -40,7 +41,8 @@
 
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [
-    "/objects/spawner/techstation.lua"
+    "/objects/spawner/techstation.lua",
+    "/objects/scripts/customtechstation.lua"
   ],
   "scriptDelta" : 20,
   "shipPetType" : "petcat",
@@ -55,7 +57,7 @@
       [ "Diagnostics complete.\n^orange;Extensive repairs are required.^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
       [ "Greetings. I am ^cyan;S.A.I.L^reset;, your personal AI assistant. I manage the status of your ship.", "/ai/portraits/nightarportrait.png:talk.0" ],
       [ "I can also offer you information and advice during your travels.", "/ai/portraits/nightarportrait.png:talk.0" ],
-      [ "The ship was severely damaged during our escape, navigation and engine systems are offline.", "/ai/portraits/nightarportrait.png:talk.1" ],
+      [ "The ship was severely damaged during our escape; navigation and engine systems are offline.", "/ai/portraits/nightarportrait.png:talk.1" ],
       [ "We are currently holding orbit over an unknown planet. Its threat level is ^green;minimal^reset;.", "/ai/portraits/nightarportrait.png:talk.1" ],
       [ "I have restored the ^yellow;teleporter^reset;, I recommend you beam down and gather supplies.", "/ai/portraits/nightarportrait.png:talk.1" ]
     ],
