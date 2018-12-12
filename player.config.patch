@@ -1,15 +1,9 @@
 [
-  {
-    "op":"add",
-	"path":"/species/-",
-	"value":"nightar"
-  },
+  { "op":"add", "path":"/species/-", "value":"nightar" },
 
-  {
-    "op":"add",
-	"path":"/defaultCodexes/nightar",
-	"value": [
-	  "protectorate1","protectorate2"
-	]
-  }
+  { "op":"add", "path":"/defaultCodexes/nightar", "value": [ "protectorate1","protectorate2" ] },
+
+  // ZB Includes
+	{ "op": "add", "path" : "/deploymentConfig/scripts/-", "value" : "/zb/zb_player_init.lua"},
+	{ "op": "add", "path": "/companionsConfig/scripts/-", "value": "/scripts/companionhandler.lua" }
 ]

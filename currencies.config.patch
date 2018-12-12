@@ -20,6 +20,6 @@
   {
     "op" : "add",
     "path" : "/nightarresource",
-    "value" : { "representativeItem" : "nightarresource", "playermax" : 999999, "sail_group" : "nightar_research" }
+    "value" : { "representativeItem" : "nightarresource", "playermax" : 999999, "sail_group" : "nightar_research", "sail_secret" : true }
   }
 ]

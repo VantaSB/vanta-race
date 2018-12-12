@@ -7,23 +7,29 @@
 --	Should a function (button clicked, init, etc...) display text, just call 'textTyper.init' with the right parameters
 
 --		Functions:
---	textTyper.init( textData, string )
+--	textTyper.init( textData, string, string )
 --		textData	= Table that holds data required for the script to function
 --		string		= The string you want printed
+--		string		= The path to the sound fiel you want playing while the character is talking
 --	Modifies the table into a formatted table holding a chain of strings for the updater to process
 --	Use this whenever starting/changing texts
 
---	textTyper.update( textData, widget )
+--	textTyper.update( textData, widget, sound, volume, cutoffSound )
 --		textData	= Table that holds data required for the script to function
---		wd			= [Optional] The widget that should have its text updated
+--		widget		= [Optional] The widget that should have its text updated
 --		sound		= [Optional] The sound you want to play with each typed character
 --		volume		= [Optional] The volume of the sound
 --		cutoffSound	= [Optional] Should the sound be cut-off in the middle when typing the next character?
+--	Call this whenever the text should be updated
 
 --	textTyper.skip( textData )
 --		textData	= Table that holds data required for the script to function
 --		wd			= [Optional] The widget that should have its text updated
 --	Instantly prints the entire text, skipping the typing part
+
+--	textTyper.scrambling( textData )
+--		textData	= Table that holds data required for the script to function
+--	If you've added scrambling letters, you must call this function for them to actually scramble
 
 --		Formats:
 --	Regular formats that start with ^ and end with ; are automatically compressed
@@ -35,12 +41,11 @@
 --	[(function)x]	= Call a function from the textData table, x being its location in the textData table (x = "example" , textData.example)
 
 textTyper = {}
-textTyper.allowedScrambleCharacters = {"a", "b", "d", "e", "g", "h", "n", "o", "p", "q", "s", "u", "v", "y", "z", "A", "B", "D", "G", "H", "J", "K", "N", "O", "P", "Q", "R", "S", "U", "V", "X", "Y", "0", "2", "3", "4", "5", "6", "7", "8", "9", "_", "~" }
+textTyper.allowedScrambleCharacters = "abdeghnopqsuvyzABDGHJKNOPQRSUVXY023456789_~"
 
-
-function textTyper.init(textData, str)
+function textTyper.init(textData, str, sound)
 	if not textData then
-		sb.logError("----------[ ] textTyper.init in textTyper recieved no textData table, writing aborted.", "")
+		sb.logError("[ZB] textTyper.init in textTyper recieved no textData table, writing aborted.")
 		return
 	end
 	
@@ -53,6 +58,16 @@ function textTyper.init(textData, str)
 	local textCopy = str
 	local formatPause = 0
 	local skippedChars = 0 -- Required for text scrambling coords
+	
+	if textData.soundPlaying then
+		textTyper.stopSounds(textData)
+		textData.soundPlaying = nil
+	end
+	
+	if sound then
+		textData.soundPlaying = sound
+		pane.playSound(sound, -1, 1)
+	end
 	
 	if textCopy == nil then
 		textCopy = "^red;ERROR -^reset;\ntextTyper.init recieved a nil value in 'str'"
@@ -140,6 +155,20 @@ function textTyper.init(textData, str)
 			end
 		end
 	end
+	
+	local removedIndexes = {}
+	for i, character in ipairs(textData.toWrite) do
+		if not (#removedIndexes > 0 and removedIndexes[#removedIndexes] == i+1) then
+			if string.byte(character) > 127 then
+				textData.toWrite[i] = utf8.char(159)
+				table.insert(removedIndexes, 1, i+1)
+			end
+		end
+	end
+	
+	for _, index in ipairs(removedIndexes) do
+		table.remove(textData.toWrite, index)
+	end
 end
 
 function textTyper.splitTableString(str)
@@ -168,6 +197,7 @@ function textTyper.update(textData, wd, sound, volume, cutoffSound)
 		else
 			local write = textData.toWrite[1]
 			if write then
+				
 				if cutoffSound and sound then
 					if type(sound) == "table" then
 						for _, snd in ipairs(sound) do
@@ -214,6 +244,10 @@ function textTyper.update(textData, wd, sound, volume, cutoffSound)
 				end
 			else
 				textData.isFinished = true
+				if textData.soundPlaying then
+					textTyper.stopSounds(textData)
+					textData.soundPlaying = nil
+				end
 			end
 		end
 	end
@@ -242,7 +276,7 @@ function textTyper.skip(textData, wd)
 end
 
 function textTyper.scrambling(textData)
-	if not textData or not textData.scrambingLetters then return end
+	if not textData or not textData.scrambingLetters or #textData.scrambingLetters == 0 then return end
 	
 	for _, coords in ipairs(textData.scrambingLetters) do
 		local textLength = string.len(textData.written)
@@ -260,7 +294,9 @@ function textTyper.scrambling(textData)
 		if toScramble ~= "" then
 			local replacement = ""
 			for i = 1, string.len(toScramble) do
-				replacement = replacement..textTyper.allowedScrambleCharacters[math.random(1,#textTyper.allowedScrambleCharacters)]
+				-- replacement = replacement..textTyper.allowedScrambleCharacters[math.random(1,#textTyper.allowedScrambleCharacters)]
+				local rnd = math.random(1, string.len(textTyper.allowedScrambleCharacters))
+				replacement = replacement..string.sub(textTyper.allowedScrambleCharacters, rnd, rnd)
 			end
 			
 			textData.written = preScramble..replacement..postScramble
@@ -269,11 +305,11 @@ function textTyper.scrambling(textData)
 end
 
 function textTyper.stopSounds(textData)
-	if type(textData.sound) == "table" then
-		for _, snd in ipairs(textData.sound) do
+	if type(textData.soundPlaying) == "table" then
+		for _, snd in ipairs(textData.soundPlaying) do
 			pane.stopAllSounds(snd)
 		end
-	else
-		pane.stopAllSounds(textData.sound)
+	elseif textData.soundPlaying then
+		pane.stopAllSounds(textData.soundPlaying)
 	end
 end
