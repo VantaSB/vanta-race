@@ -1,7 +1,8 @@
 {
   "input" : [
     { "item" : "nightarkatana", "count" : 1 },
-	{ "item" : "staticcell", "count" : 2 }
+    { "item" : "staticcell", "count" : 5 },
+    { "item" : "darkfragmentore", "count" : 3 }
   ],
   "output" : { "item" : "nightarkatanae", "count" : 1 },
   "groups" : [ "nightaranvil3", "weapons", "all" ]

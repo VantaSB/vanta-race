@@ -1,0 +1,21 @@
+{
+  "materialId" : 3715,
+  "materialName" : "nightarpanel2",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "nightarpanel2",
+  "description" : "Paneling made from exotic materials.",
+  "shortdescription" : "Nightar Light Wall Panel",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "nightarpanel2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2685
+  }
+}

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "brokennightarblade", "count" : 1 },
-    { "item" : "nightiumshard", "count" : 20 }
+    { "item" : "darkfragmentore", "count" : 20 }
   ],
   "output" : { "item" : "replicanightarsword", "count" : 1 },
   "groups" : [ "nightaranvil4", "weapons", "all" ]

@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightarpanel2",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarpanel2.png",
+  "description" : "Paneling made from exotic materials.",
+  "shortdescription" : "Nightar Light Wall Panel",
+
+  "materialId" : 3715
+}

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "silverbar", "count" : 2 },
-	{ "item" : "nightiumcrystal", "count" : 1 }
+    { "item" : "durasteelbar", "count" : 2 }
   ],
   "output" : { "item" : "nightarkatana", "count" : 1 },
   "groups" : [ "nightaranvil3", "weapons", "all" ]
