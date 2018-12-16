@@ -3,7 +3,7 @@
     [1, {
       "pool" : [
         {"weight" : 0.5, "pool" : "money"},
-		{"weight" : 0.2, "item" : [ "nightiumcrystal", 1]},
+        {"weight" : 0.2, "item" : [ "nightiumcrystal", 1]},
         {"weight" : 0.2, "item" : "nightarcrown"},
         {"weight" : 0.1, "item" : "yonaga"}
       ],
@@ -22,8 +22,8 @@
     [1, {
       "pool" : [
         {"weight" : 0.7, "pool" : "basicTreasure"},
-		{"weight" : 0.2, "item" : [ "potato", 1]},
-		{"weight" : 0.1, "item" : [ "nightiumshard", 1]}
+        {"weight" : 0.2, "item" : [ "potato", 1]},
+        {"weight" : 0.1, "item" : [ "nightiumshard", 1]}
 
       ],
       "poolRounds" : [

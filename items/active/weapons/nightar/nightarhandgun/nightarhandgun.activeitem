@@ -17,7 +17,7 @@
   "animationParts" : {
     "middle" : "nightarhandgun.png",
     "middleFullbright" : "nightarhandgunfullbright.png",
-	"muzzleFlash" : "muzzleflash.png"
+    "muzzleFlash" : "muzzleflash.png"
   },
   "animationCustom" : {
     "sounds" : {
