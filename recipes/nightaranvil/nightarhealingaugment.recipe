@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "darkcrystal", "count" : 10 }
+  ],
+  "output" : { "item" : "nightarhealingaugment", "count" : 1 },
+  "groups" : [ "nightaranvil", "hazardgear", "all" ]
+}

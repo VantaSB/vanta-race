@@ -7,7 +7,7 @@
   "description" : "An altar holding the ultimate nightar blade... which looks kinda broken.",
   "shortdescription" : "Nightar Blade Altar",
   "race" : "nightar",
-  
+
   "category" : "artifact",
 
   "inventoryIcon" : "nightarbladealtaricon.png",
@@ -22,16 +22,16 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  
+
   "questIndicatorPosition" : [0, 8.0],
-  
+
   "scripts" : [ "/objects/nightar/nightarbladealtar/nightarbladealtar.lua" ],
   "scriptDelta" : 0,
 
   "breakDropOptions" : [
-    [ [ "brokennightarblade", 1, { } ] ]
+    [ [ "brokennoxcalibur", 1, { } ] ]
   ],
-  
+
   //"triggerUniverseFlag" : "",
   "questMessage" : "nightarBladeTaken"
 }

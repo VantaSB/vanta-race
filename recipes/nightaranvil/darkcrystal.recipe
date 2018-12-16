@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "nightiumshard", "count" : 10 },
+    { "item" : "refinedferozium", "count" : 5 },
+    { "item" : "refinedviolium", "count" : 5 },
+    { "item" : "refinedaegisalt", "count" : 5 }
+
+  ],
+  "output" : { "item" : "darkcrystal", "count" : 1 },
+  "groups" : [ "nightaranvil", "consumables", "all" ]
+}

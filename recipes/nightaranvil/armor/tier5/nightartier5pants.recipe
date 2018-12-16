@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 4 },
+    { "item" : "canvas", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "nightartier5pants", "count" : 1 },
+  "groups" : [ "nightaranvil", "armours", "all" ]
+}

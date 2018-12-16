@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "electronicgoods", "count" : 1 },
+	{ "item" : "militarygoods", "count" : 1},
+	{ "item" : "kaisergem", "count" : 1 },
+	{ "item" : "nightiumshard", "count" : 10 }
+  ],
+  "output" : { "item" : "nightarhandgun", "count" : 1 },
+  "groups" : [ "nightaranvil", "weapons", "all" ]
+}

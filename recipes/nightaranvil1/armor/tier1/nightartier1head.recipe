@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 3 },
-    { "item" : "fabric", "count" : 5 }  
-  ],
-  "duration" : 5,
-  "output" : { "item" : "nightartier1head", "count" : 1 },
-  "groups" : [ "nightaranvil1", "armours", "all" ]
-}

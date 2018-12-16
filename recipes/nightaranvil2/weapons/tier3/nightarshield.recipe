@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "titaniumbar", "count" : 7 },
-    { "item" : "hardenedcarapace", "count" : 2 }
-  ],
-  "output" : { "item" : "nightarshield", "count" : 1 },
-  "groups" : [ "nightaranvil2", "weapons", "all" ]
-}

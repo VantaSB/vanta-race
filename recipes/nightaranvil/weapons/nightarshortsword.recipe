@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 4 },
+    { "item" : "solariumstar", "count" : 4 },
+    { "item" : "ironbar", "count" : 4 }
+  ],
+  "output" : { "item" : "nightarshortsword", "count" : 1 },
+  "groups" : [ "nightaranvil", "weapons", "all" ]
+}

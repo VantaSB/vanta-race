@@ -1,0 +1,36 @@
+{
+  "itemName" : "brokennoxcalibur",
+  "price" : 0,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "The legendary Nightar Blade... is broken.",
+  "shortdescription" : "Broken Noxcalibur",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","nightar"],
+  "learnBlueprintsOnPickup" : [ "noxcalibur" ],
+
+  "inventoryIcon" : "brokennightarblade.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "blade" : "brokennoxcalibur.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.84,
+    "baseDps" : 20
+  },
+
+  "altAbilityType" : "risingslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "nightardagger", "count" : 1 },
+    { "item" : "venomsample", "count" : 10 },
+    { "item" : "darkfragmentore", "count" : 5 }
+  ],
+  "output" : { "item" : "nightarkatanap", "count" : 1 },
+  "groups" : [ "nightaranvil", "weapons", "all" ]
+}

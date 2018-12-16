@@ -4,226 +4,34 @@
   "rarity" : "legendary",
   "race" : "nightar",
   "category" : "crafting",
-
-  //this is handled by the lua
-  "breakDropOptions" : [],
-
   "price" : 50,
   "printable" : false,
-
-  "scripts" : [ "/scripts/npcToyObject.lua",
-                "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua"
-              ],
-
+  "scripts" : [
+    "/scripts/npcToyObject.lua",
+    "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua"
+  ],
   "animation" : "nightaranvil.animation",
   "animationPosition" : [8, 20],
 
   "inventoryIcon" : "nightaranvilicon.png",
   "placementImage" : "nightaranvil.png:default.default",
-  "placementImagePosition" : [-8, 0],    
-
+  "placementImagePosition" : [-8, 0],
   "description" : "A nightar weapon replicator.",
   "shortdescription" : "Nightar Weapon Replicator",
+  "apexDescription" : "The technology used to construct this is nothing short of astounding.",
+	"avianDescription" : "This replicator is very sophisticated and has a sleek design.",
+	"floranDescription" : "Floran likesss fancy weapon maker!",
+	"glitchDescription" : "Intrigued. The Nightars are not that different from the Glitch in terms of combat styles.",
+	"humanDescription" : "This definitely beats your average replicator design!",
+	"hylotlDescription" : "Dark as they are, the Nightars' equipment is surely a sight to behold.",
+	"novakidDescription" : "These folks come up with the craziest designs.",
 
-        "apexDescription" : "The technology used to construct this is nothing short of astounding.",
-		"avianDescription" : "This replicator is very sophisticated and has a sleek design.",
-		"floranDescription" : "Floran likesss fancy weapon maker!",
-		"glitchDescription" : "Intrigued. The Nightars are not that different from the Glitch in terms of combat styles.",
-		"humanDescription" : "This definitely beats your average replicator design!",
-		"hylotlDescription" : "Dark as they are, the Nightars' equipment is surely a sight to behold.",
-		"novakidDescription" : "These folks come up with the craziest designs.",
-		
   "learnBlueprintsOnPickup" : [],
-
-  "startingUpgradeStage" : 1,
-  "maxUpgradeStage" : 4,
-
-  "upgradeStages" : [
-    {
-      "animationState" : "AA",
-
-      "itemSpawnParameters" : {
-        "inventoryIcon" : "nightaranvilicon.png",
-        "placementImage" : "nightaranvil.png:default.default",
-        "placementImagePosition" : [-8, 0],    
-
-        "description" : "A nightar weapon replicator.",
-		"shortdescription" : "Nightar Replicator",
-
-        "apexDescription" : "The technology used to construct this is nothing short of astounding.",
-		"avianDescription" : "This replicator is very sophisticated and has a sleek design.",
-		"floranDescription" : "Floran likesss fancy weapon maker!",
-		"glitchDescription" : "Intrigued. The Nightars are not that different from the Glitch in terms of combat styles.",
-		"humanDescription" : "This definitely beats your average replicator design!",
-		"hylotlDescription" : "Dark as they are, the Nightars' equipment is surely a sight to behold.",
-		"novakidDescription" : "These folks come up with the craziest designs."
-      },
-
-      "interactData" : {
-        "config" : "/interface/windowconfig/craftinganvil.config",
-        "paneLayoutOverride" : {
-          "windowtitle" : {
-            "title" : " Nightar Replicator",
-            "subtitle" : " ^#b9b5b2;Armor, weapons, and stuff",
-            "icon" : {
-              "file" : "/interface/crafting/craftinganvil.png"
-            }
-          }
-        },
-
-        "filter" : [ "nightaranvil1" ],
-        "initialRecipeUnlocks" : [],
-        "upgradeMaterials" : [
-          { "item" : "tungstenbar", "count" : 6 },
-          { "item" : "coalore", "count" : 10 },
-          { "item" : "glass", "count" : 5 }
-        ]
-      },
-
-      "learnBlueprintsOnPickup" : [],
-
-      "upgradeSoundEffect" : "fanfare",
-      "upgradeParticleEffect" : "dust"
-    },
-
-    {
-      "animationState" : "BB",
-
-      "itemSpawnParameters" : {
-        "price" : 400,
-        "inventoryIcon" : "nightaranvilicon.png",
-        "placementImage" : "nightaranvil.png:default.default",
-        "placementImagePosition" : [-8, 0],    
-
-        "description" : "A replicator made by the Nightars for crafting armor and weapons.",
-		"shortdescription" : "^cyan;Nightar Replicator",
-
-        "apexDescription" : "The technology used to construct this is nothing short of astounding.",
-		"avianDescription" : "This replicator is very sophisticated and has a sleek design.",
-		"floranDescription" : "Floran likesss fancy weapon maker!",
-		"glitchDescription" : "Intrigued. The Nightars are not that different from the Glitch in terms of combat styles.",
-		"humanDescription" : "This definitely beats your average replicator design!",
-		"hylotlDescription" : "Dark as they are, the Nightars' equipment is surely a sight to behold.",
-		"novakidDescription" : "These folks come up with the craziest designs."
-		},
-
-      "interactData" : {
-        "config" : "/interface/windowconfig/craftinganvil.config",
-        "paneLayoutOverride" : {
-          "windowtitle" : {
-            "title" : " Nightar Replicator",
-            "subtitle" : " ^#b9b5b2;Armor, weapons, and stuff",
-            "icon" : {
-              "file" : "/interface/crafting/craftinganvil.png"
-            }
-          }
-        },
-        "filter" : [ "nightaranvil1", "nightaranvil2" ],
-        "initialRecipeUnlocks" : [],
-        "upgradeMaterials" : [
-          { "item" : "durasteelbar", "count" : 6 },
-          { "item" : "goldbar", "count" : 2 },
-          { "item" : "glass", "count" : 20 },
-          { "item" : "volatilepowder", "count" : 10 }
-        ]
-      },
-
-      "learnBlueprintsOnPickup" : [],
-
-      "upgradeSoundEffect" : "fanfare2",
-      "upgradeParticleEffect" : "dust"
-    },
-
-    {
-      "animationState" : "CC",
-
-      "itemSpawnParameters" : {
-        "price" : 750,
-        "inventoryIcon" : "nightaranvilicon.png",
-        "placementImage" : "nightaranvil.png:default.default",
-        "placementImagePosition" : [-8, 0],    
-
-        "description" : "A nightar weapon replicator.",
-		"shortdescription" : "Nightar Weapon Replicator",
-
-        "apexDescription" : "The technology used to construct this is nothing short of astounding.",
-		"avianDescription" : "This replicator is very sophisticated and has a sleek design.",
-		"floranDescription" : "Floran likesss fancy weapon maker!",
-		"glitchDescription" : "Intrigued. The Nightars are not that different from the Glitch in terms of combat styles.",
-		"humanDescription" : "This definitely beats your average replicator design!",
-		"hylotlDescription" : "Dark as they are, the Nightars' equipment is surely a sight to behold.",
-		"novakidDescription" : "These folks come up with the craziest designs."
-      },
-
-      "interactData" : {
-        "config" : "/interface/windowconfig/craftinganvil.config",
-        "paneLayoutOverride" : {
-          "windowtitle" : {
-            "title" : " Nightar Replicator",
-            "subtitle" : " ^#b9b5b2;Armor, weapons, and stuff",
-            "icon" : {
-              "file" : "/interface/crafting/craftinganvil.png"
-            }
-          }
-        },
-        "filter" : [ "nightaranvil1", "nightaranvil2", "nightaranvil3" ],
-        "initialRecipeUnlocks" : [],
-        "upgradeMaterials" : [
-          { "item" : "nightiumcrystal", "count" : 3 }
-        ]
-      },
-
-      "learnBlueprintsOnPickup" : [],
-	  
-	  "upgradeSoundEffect" : "fanfare2",
-      "upgradeParticleEffect" : "dust"
-    },
-	
-	{
-      "animationState" : "DD",
-
-      "itemSpawnParameters" : {
-        "price" : 750,
-        "inventoryIcon" : "nightaranvilicon.png",
-        "placementImage" : "nightaranvil.png:default.default",
-        "placementImagePosition" : [-8, 0],    
-
-        "description" : "A nightar weapon replicator.",
-		"shortdescription" : "Nightar Weapon Replicator",
-
-        "apexDescription" : "The technology used to construct this is nothing short of astounding.",
-		"avianDescription" : "This replicator is very sophisticated and has a sleek design.",
-		"floranDescription" : "Floran likesss fancy weapon maker!",
-		"glitchDescription" : "Intrigued. The Nightars are not that different from the Glitch in terms of combat styles.",
-		"humanDescription" : "This definitely beats your average replicator design!",
-		"hylotlDescription" : "Dark as they are, the Nightars' equipment is surely a sight to behold.",
-		"novakidDescription" : "These folks come up with the craziest designs."
-      },
-
-      "interactData" : {
-        "config" : "/interface/windowconfig/craftinganvil.config",
-        "paneLayoutOverride" : {
-          "windowtitle" : {
-            "title" : " Nightar Replicator",
-            "subtitle" : " ^#b9b5b2;Armor, weapons, and stuff",
-            "icon" : {
-              "file" : "/interface/crafting/craftinganvil.png"
-            }
-          }
-        },
-        "filter" : [ "nightaranvil1", "nightaranvil2", "nightaranvil3","nightaranvil4" ],
-        "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
-        "initialRecipeUnlocks" : []
-      },
-
-      "learnBlueprintsOnPickup" : []
-    }
-  ],
 
   "orientations" : [
     {
       "image" : "nightaranvil.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],    
+      "imagePosition" : [-8, 0],
       "direction" : "left",
       "flipImages" : true,
       "spaceScan" : 0.1,
@@ -231,7 +39,7 @@
     },
     {
       "image" : "nightaranvil.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],    
+      "imagePosition" : [-8, 0],
       "direction" : "right",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]

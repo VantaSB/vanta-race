@@ -1,0 +1,34 @@
+{
+  "itemName" : "nightarshortsword",
+  "price" : 600,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A light short sword, can be held with one hand!",
+  "shortdescription" : "Nightar Shortsword",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "nightarshortsword.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "nightarshortsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.63,
+    "baseDps" : 10
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,8 +1,8 @@
- { 
+ {
  "nightarkingtreasure" : [
     [1, {
       "pool" : [
-        {"weight" : 0.5, "pool" : "money"}, 
+        {"weight" : 0.5, "pool" : "money"},
 		{"weight" : 0.2, "item" : [ "nightiumcrystal", 1]},
         {"weight" : 0.2, "item" : "nightarcrown"},
         {"weight" : 0.1, "item" : "yonaga"}
@@ -14,10 +14,10 @@
       "allowDuplication" : false
     }]
   ],
-  
 
-  
-  
+
+
+
   "nightfortBasic" : [
     [1, {
       "pool" : [
@@ -36,7 +36,7 @@
       "allowDuplication" : false
     }]
   ],
-  
+
   "nightfortCodex1" : [
     [1, {
       "fill" : [
@@ -45,7 +45,7 @@
       ]
     }]
   ],
-  
+
   "nightfortCodex2" : [
     [1, {
       "fill" : [
@@ -54,7 +54,7 @@
       ]
     }]
   ],
-  
+
   "nightfortCodex3" : [
     [1, {
       "fill" : [
@@ -63,7 +63,7 @@
       ]
     }]
   ],
-  
+
   "nightfortCodex4" : [
     [1, {
       "fill" : [
@@ -72,7 +72,7 @@
       ]
     }]
   ],
-  
+
   "nightfortReward" : [
     [1, {
       "fill" : [
@@ -96,16 +96,16 @@
       "allowDuplication" : false
     }]
   ],
-  
+
   "nightarStarterTreasure" : [
     [0, {
       "fill" : [
 	    {"pool" : "starterTreasure"},
-		{"item" : "brokennightarsaber"}
+		  {"item" : "nightarhandgun"}
       ]
     }]
   ],
-  
+
   "nightarSettlementLore" : [
     [1, {
       "pool" : [
@@ -115,7 +115,7 @@
       "allowDuplication" : false
     }]
   ],
-  
+
   "nightarSettlementTreasure" : [
     [1, {
       "pool" : [

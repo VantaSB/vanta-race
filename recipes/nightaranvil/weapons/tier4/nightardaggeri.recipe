@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "nightardagger", "count" : 1 },
+    { "item" : "cryonicextract", "count" : 10 },
+    { "item" : "darkfragmentore", "count" : 5 }
+  ],
+  "output" : { "item" : "nightardaggeri", "count" : 1 },
+  "groups" : [ "nightaranvil", "weapons", "all" ]
+}
