@@ -5,6 +5,45 @@
   "backgroundColor" : [0, 0, 0, 200],
   "backgroundFadeTime" : 0.5,
   "panels" : [
+	{
+	  "drawables" : [
+        {
+          "image" : "/cinematics/screen.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.01,
+          "zoom" : 0,
+          "alpha" : 0,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 0.1,
+          "zoom" : 0,
+          "alpha" : 1,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 0.6,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 10.6,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [479, 280]
+        },
+        {
+          "timecode" : 11,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [479, 280]
+        }
+      ]
+    },
     {
       "drawables" : [
         {
@@ -59,13 +98,13 @@
           "position" : [480, 210]
         },
         {
-          "timecode" : 4,
+          "timecode" : 10.6,
           "zoom" : 1,
           "alpha" : 1,
           "position" : [480, 210]
         },
         {
-          "timecode" : 5,
+          "timecode" : 10,
           "zoom" : 1,
           "alpha" : 0.0,
           "position" : [480, 210]
@@ -75,11 +114,11 @@
   ],
   "audio" : [
     {
-      "timecode" : 0.65,
+      "timecode" : 0.0,
       "resource" : "/sfx/cinematics/tetrakeyobtained.ogg"
     },
     {
-      "timecode" : 5.0,
+      "timecode" : 11.0,
       "resource" : "/sfx/interface/item_holster.ogg"
     }
   ]

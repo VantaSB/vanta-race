@@ -1,0 +1,71 @@
+{
+  "name" : "acidrain2",
+
+  "particles" : [
+    {
+      "density" : 0.025,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/acidrain2/1.png",
+        "velocity" : [0, -35.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 20,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/acidrain2/splash.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : false,
+        "ignoreWind" : true
+      }
+    },
+    {
+      "density" : 0.05,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/acidrain2/2.png",
+        "velocity" : [0, -25.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 20,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/acidrain2/splash.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : false,
+        "ignoreWind" : true
+      }
+    },
+    {
+      "density" : 0.05,
+      "autoRotate" : true,
+
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/acidrain2/3.png",
+        "velocity" : [0, -20.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 20,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/acidrain2/splash.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : false,
+        "ignoreWind" : true
+      }
+    }
+  ],
+
+  "projectiles" : [],
+
+  "statusEffects" : ["acidcorrosion"],
+
+  "duration" : [50, 400],
+  "maximumWind" : 2.5,
+  "weatherNoises" : [ "/sfx/weather/rain_medium.ogg" ]
+}

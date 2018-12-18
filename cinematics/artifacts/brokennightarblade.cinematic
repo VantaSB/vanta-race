@@ -16,13 +16,13 @@
           "timecode" : 0.01,
           "zoom" : 0,
           "alpha" : 0,
-          "position" : [360, 330]
+          "position" : [479, 280]
         },
         {
           "timecode" : 0.1,
           "zoom" : 0,
           "alpha" : 1,
-          "position" : [360, 330]
+          "position" : [479, 280]
         },
         {
           "timecode" : 0.6,
@@ -104,7 +104,7 @@
           "position" : [480, 210]
         },
         {
-          "timecode" : 11,
+          "timecode" : 10,
           "zoom" : 1,
           "alpha" : 0.0,
           "position" : [480, 210]

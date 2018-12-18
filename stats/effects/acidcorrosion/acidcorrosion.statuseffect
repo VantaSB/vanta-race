@@ -1,0 +1,16 @@
+{
+  "name" : "acidcorrosion",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "acidcorrosion.lua"
+  ],
+
+  "animationConfig" : "acidcorrosion.animation",
+
+  "label" : "Corrosion",
+  "icon" : "/interface/statuses/acidcorrosion.png"
+}

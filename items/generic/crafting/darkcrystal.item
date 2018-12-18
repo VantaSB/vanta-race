@@ -1,0 +1,8 @@
+{
+  "itemName" : "darkcrystal",
+  "rarity" : "legendary",
+  "inventoryIcon" : "darkcrystal.png",
+  "description" : "A dark crystal that gives off a powerful aura; it can be used for various purposes.",
+  "shortdescription" : "Dark Crystal"
+  //"learnBlueprintsOnPickup" : [  ] <- WIP
+}

@@ -3,7 +3,7 @@
 		"op" : "add",
 		"path" : "/blackened",
 		"value" : [
-			[1.0, "fog"]
+			[1.0, "acidrain2"]
 		]
 	}
 ]
