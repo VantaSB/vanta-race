@@ -1,12 +1,12 @@
 {
-  "itemName" : "liquidnoct",
+  "itemName" : "liquidceruleum",
   "rarity" : "Legendary",
   "category" : "liquid",
-  "inventoryIcon" : "liquidnocticon.png",
-  "shortdescription" : "Liquid Noct Fuel",
+  "inventoryIcon" : "liquidceruleumicon.png",
+  "shortdescription" : "Liquid Ceruleum Fuel",
   "description" : "This dark, volatile fuel source has a soft glow.",
 
-  "liquid" : "liquidnoctfuel",
+  "liquid" : "liquidceruleumfuel",
 
   "fuelAmount" : 5,
   "price" : 3000
