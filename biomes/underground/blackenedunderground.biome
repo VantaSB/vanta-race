@@ -6,7 +6,7 @@
 
   "mainBlock" : "obsidian",
   "subBlocks" : [ "magmarock", "cobblestone" ],
-  "ores" : "depth1",
+  "ores" : "depth2",
 
   "ambientNoises" : {
     "day" : {

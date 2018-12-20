@@ -18,7 +18,7 @@
 		"op" : "add",
 		"path" : "/regionTypes/blackened",
 		"value" : {
-			"caveLiquid" : [ "liquidnoctfuel" ],
+			"caveLiquid" : [ "liquidnoctfuel", "water" ],
 			"encloseLiquids" : true,
 			"blockSelector" : [ "remixedMildSurface" ],
 			"fgCaveSelector" : [ "surfaceCaves" ],
@@ -26,7 +26,7 @@
 			"biome" : [
 				[0, [ "blackened" ]]
 			],
-			"subRegion" : [ "scorched", "volcanic" ]
+			"subRegion" : [ "midnight", "volcanic" ]
 		}
 	}
 ]

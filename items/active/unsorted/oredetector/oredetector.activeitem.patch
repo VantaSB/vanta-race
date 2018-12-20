@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "add",
+    "path" : "/pingDetectConfig/colors/darkfrag",
+    "value" : [0, 192, 255, 255]
+  }
+]

@@ -4,6 +4,7 @@
     { "item" : "solariumstar", "count" : 6 },
     { "item" : "battery", "count" : 1 }
   ],
+  "duration" : 10,
   "output" : { "item" : "yorunoyumi", "count" : 1 },
-  "groups" : [ "nightaranvil4", "weapons", "all" ]
+  "groups" : [ "nightaranvil", "weapons", "all" ]
 }

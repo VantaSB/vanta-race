@@ -12,9 +12,10 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "nightium.png",
+    "texture" : "darkfrag.png",
     "variants" : 8,
     "multiColored" : false,
-    "zLevel" : 0
+    "zLevel" : 0,
+	  "radiantLight" : [5, 76, 84]
   }
 }

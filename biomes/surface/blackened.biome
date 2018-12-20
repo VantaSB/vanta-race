@@ -1,39 +1,104 @@
 {
   "name" : "blackened",
-  "friendlyName" : "Moon",
+  "friendlyName" : "Blackened",
+  
+  "statusEffects" : [],
 
   "weather" : [
     [0, [
-      "/weather.config:moon"
+      "/weather.config:blackened"
       ]]
   ],
 
   "spawnProfile" : {
     "groups" : [
-    ]
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.1111, "scandroid" ],
+          [ 0.1111, "petricub" ],
+          [ 0.1111, "smoglin" ],
+          [ 0.1111, "batong" ],
+          [ 0.1111, "spookit" ],
+          [ 0.1111, "crustoise" ],
+          [ 0.1111, "pteropod" ],
+          [ 0.1111, "scaveran" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "xenofly" ],
+          [ 0.3, "shadowmoth" ],
+          [ 0.3, "blueback" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : "generatedGroundAggroDay"
+      },
+      {
+        "select" : 3,
+        "pool" : "nightTerrors"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "darkwormcritter" ],
+          [ 1, "darkballcritter" ],
+          [ 1, "darkoneeyecritter" ],
+          [ 1, "darkthreeeyescritter" ],
+          [ 1, "bigwormcritter" ],
+          [ 1, "skywurmcritter" ],
+          [ 1, "krawlcritter" ],
+          [ 1, "darknessscabcritter" ],
+          [ 1, "dartcritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "snow"
+    }
   },
 
-  "statusEffects" : [],
+  "monsterParameters" : {
+    "colors" : "midnight",
+    "statusSettings" : {
+      "stats" : {
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        }
+      }
+    }
+  },
 
   "skyOptions" : [
     {
       "mainColor" : [255, 255, 255],
 
-      "morningColors" : [ [29, 68, 83], [29, 68, 83] ],
-      "dayColors" : [ [29, 68, 83], [29, 68, 83] ],
-      "eveningColors" : [ [29, 68, 83], [29, 68, 83] ],
-      "nightColors" : [ [29, 68, 83], [29, 68, 83] ],
+      "morningColors" : [ [59, 48, 43], [59, 48, 43] ],
+      "dayColors" : [ [59, 48, 43], [59, 48, 43] ],
+      "eveningColors" : [ [59, 48, 43], [59, 48, 43] ],
+      "nightColors" : [ [59, 48, 43], [59, 48, 43] ],
 
-      "morningLightColor" : [29, 68, 83],
-      "dayLightColor" : [29, 68, 83],
-      "eveningLightColor" : [29, 68, 83],
-      "nightLightColor" : [29, 68, 83]
+      "morningLightColor" : [59, 48, 43],
+      "dayLightColor" : [59, 48, 43],
+      "eveningLightColor" : [59, 48, 43],
+      "nightLightColor" : [59, 48, 43]
     }
   ],
 
   "mainBlock" : "obsidian",
-  "subBlocks" : [ "magmarock", "cobblestone" ],
-  "ores" : "blackenedSurface",
+  "subBlocks" : [ "magmarock", "cobblestone", "direstone" ],
+  "ores" : "surface",
 
   "parallax" : "/parallax/surface/blackened.parallax",
 

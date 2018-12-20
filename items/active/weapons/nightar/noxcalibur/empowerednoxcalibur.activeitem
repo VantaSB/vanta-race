@@ -11,12 +11,12 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword","nightar"],
 
-  "inventoryIcon" : "nightarancientblade.png:inactive",
+  "inventoryIcon" : "empowerednoxcalibur.png:inactive",
 
   "animation" : "/items/active/weapons/nightar/noxcalibur/empowerednoxcalibur.animation",
   "animationParts" : {
-    "sword" : "nightarancientblade.png",
-    "swordfullbright" : "nightarancientbladefullbright.png"
+    "sword" : "empowerednoxcalibur.png",
+    "swordfullbright" : "empowerednoxcaliburfullbright.png"
   },
   "animationCustom" : { }, //"handPosition" : [13, 73]
 

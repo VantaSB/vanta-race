@@ -3,6 +3,7 @@
     { "item" : "tungstenbar", "count" : 4 }
 
   ],
+  "duration" : 5,
   "output" : { "item" : "nightar_tungstenbroadsword", "count" : 1 },
-  "groups" : [ "nightaranvil1", "weapons", "all" ]
+  "groups" : [ "nightaranvil", "weapons", "all" ]
 }

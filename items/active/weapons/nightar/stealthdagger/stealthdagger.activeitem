@@ -24,7 +24,7 @@
   "primaryAbilityType": "stealthdaggercombo",
   "primaryAbility" : {
     "fireTime" : 0.4,
-    "baseDps" : 7.5
+    "baseDps" : 11
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

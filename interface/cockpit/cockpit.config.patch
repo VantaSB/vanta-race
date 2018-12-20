@@ -3,27 +3,26 @@
 		"op" : "add",
 		"path" : "/visitableTypeDescription/blackened",
 		"value" : [
-			"This ^#3e5455;blackened ^white;planet is the result of a devastating war years ago. Readings indicate the presence of liquid ^#5e7475;Noxeum ^white;fuel .",
-			"The ravages of war have left this ^#3e5455;blackened ^white;planet uninhabitable for the most part; as a result, a perpetual ^#9d9d9d;fog ^white; surrounds the planet.",
-			"A dense ^#9d9d9d;fog ^white;covers the surface of this ^#3e5455;blackened ^white;planet; deposits of liquid ^#5e7475;Noxeum ^white;fuel have been detected."
+			"Over-colonization led to a years-long war on this ^#3e5455;blackened ^white;planet, leaving it largely uninhabitable. Beware of the perpetual ^#503b24;corrosive rain^white;.",
+			"Unending industrialization has led to perpetual pollution, resulting in an unyielding ^#503b24;corrosive rain^white;."
 		]
 	},
-	
+
 	{
 		"op" : "add",
-		"path" : "/displayOres/nightium",
+		"path" : "/displayOres/darkfragmentore",
 		"value" : {
-			"displayName" : "Nightium",
-			"icon" : "/items/generic/crafting/nightiumshard.png"
+			"displayName" : "Dark Fragment",
+			"icon" : "/items/generic/crafting/darkfrag.png"
 		}
 	},
-	
+
 	{
 		"op" : "add",
 		"path" : "/planetTypeNames/blackened",
 		"value" : "Blackened"
 	},
-	
+
 	{
 		"op" : "add",
 		"path" : "/planetTypeColors/blackened",

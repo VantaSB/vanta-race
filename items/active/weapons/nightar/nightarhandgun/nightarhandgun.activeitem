@@ -3,20 +3,19 @@
   "level" : 1,
   "price" : 250,
   "maxStack" : 1,
-  "rarity" : "Essential",
-  "description" : "A handgun built with Nightar technologies.",
-  "shortdescription" : "^orange;Nightar Handgun^reset;",
+  "rarity" : "Common",
+  "description" : "A worn-out sidearm, useful against smaller enemies.",
+  "shortdescription" : "Broken Sidarm",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
   "twoHanded" : false,
-  "itemTags" : [ "pistol", "weapon", "ranged" ],
+  "itemTags" : [ "pistol", "weapon", "ranged", "upgradeableWeapon" ],
 
-  "inventoryIcon" : "nightarhandgun.png",
+  "inventoryIcon" : "nightarsidearm.png",
 
   "animation" : "nightarhandgun.animation",
   "animationParts" : {
-    "middle" : "nightarhandgun.png",
-    "middleFullbright" : "nightarhandgunfullbright.png",
+    "middle" : "nightarsidearm.png",
     "muzzleFlash" : "muzzleflash.png"
   },
   "animationCustom" : {
@@ -35,11 +34,11 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.33,
+    "fireTime" : 0.42,
     "baseDps" : 15,
     "energyUsage" : 10,
     "projectileCount" : 1,
-    "inaccuracy" : 0.015,
+    "inaccuracy" : 0.032,
 
     "projectileType" : "plasmabullet",
     "projectileParameters" : { },
@@ -74,6 +73,22 @@
         "allowFlip" : true
       }
     }
+  },
+
+  "upgradeParameters" : {
+    "rarity" : "legendary",
+    "description" : "Fixed and better than ever!",
+    "shortdescription" : "^cyan;Nightar Handcannon^reset;",
+    "inventoryIcon" : "nightarhandgun.png",
+    "animationParts" : {
+      "middle" : "nightarhandgun.png",
+      "middleFullbright" : "nightarhandgunlit.png",
+      "muzzleFlash" : "muzzleflash.png"
+    },
+    "fireTime" : 0.28,
+    "baseDps" : 22,
+    "energyUsage" : 17,
+    "inaccuracy" : 0.012
   },
 
   "builder" : "/items/buildscripts/buildweapon.lua"

@@ -33,6 +33,7 @@
 	    { "item" : "nightarwall2" },
       { "item" : "nightarsplatform" },
 	    { "item" : "nightarpanelblock" },
+      { "item" : "nightarpillarblock" },
 	    { "item" : "nightarslopedhullpanel" },
 
 	//=======================> Stuff

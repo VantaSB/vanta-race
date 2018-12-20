@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "nightardagger", "count" : 1 },
-    { "item" : "scorchedcore", "count" : 10 },
-    { "item" : "darkfragmentore", "count" : 5 }
-  ],
-  "output" : { "item" : "nightardaggerf", "count" : 1 },
-  "groups" : [ "nightaranvil", "weapons", "all" ]
-}

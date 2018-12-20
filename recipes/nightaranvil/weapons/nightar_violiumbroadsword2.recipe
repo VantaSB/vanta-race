@@ -4,6 +4,7 @@
     { "item" : "solariumstar", "count" : 6 },
     { "item" : "battery", "count" : 1 }
   ],
+  "duration" : 5,
   "output" : { "item" : "nightar_violiumbroadsword2", "count" : 1 },
-  "groups" : [ "nightaranvil4", "weapons", "all" ]
+  "groups" : [ "nightaranvil", "weapons", "all" ]
 }

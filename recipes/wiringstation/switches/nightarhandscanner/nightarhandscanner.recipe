@@ -1,12 +1,10 @@
 {
   "input" :[
-    { "item" : "wire", "count" : 1 },
+    { "item" : "wire", "count" : 5 },
     { "item" : "siliconboard", "count" : 1 },
-    { "item" : "durasteelbar", "count" : 1 }
+    { "item" : "durasteelbar", "count" : 2 }
   ],
-  "output" : {
-    "item" : "nightarhandscanner",
-	"count" : 1
-  },
+  "duration" : 10,
+  "output" : { "item" : "nightarhandscanner", "count" : 1 },
   "groups" : [ "craftingwiring", "switches" ]
 }

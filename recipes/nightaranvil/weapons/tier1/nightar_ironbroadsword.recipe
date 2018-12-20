@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 6 },
-    { "item" : "climbingrope", "count" : 4 }
+    { "item" : "ironbar", "count" : 5 }
   ],
+  "duration" : 5,
   "output" : { "item" : "nightar_ironbroadsword", "count" : 1 },
-  "groups" : [ "nightaranvil1", "weapons", "all" ]
+  "groups" : [ "nightaranvil", "weapons", "all" ]
 }

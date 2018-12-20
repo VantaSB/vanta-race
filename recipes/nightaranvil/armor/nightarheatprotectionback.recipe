@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "nightiumcrystal", "count" : 1 }
+    { "item" : "darkcrystal", "count" : 1 }
   ],
+  "duration" : 10,
   "output" : { "item" : "nightarheatprotectionback", "count" : 1 },
-  "groups" : [ "nightaranvil3", "hazardgear", "all" ]
+  "groups" : [ "nightaranvil", "hazardgear", "all" ]
 }

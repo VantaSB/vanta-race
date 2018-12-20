@@ -1,6 +1,6 @@
 {
   "verticalOrigin" : 0,
-  
+
   "layers" : [
     {
       "kind" : "divider/blackrock",
@@ -17,60 +17,34 @@
       "tileLimitTop" : 275,
       "parallax" : 1.2
     },
-
     {
-      "kind" : "blackenedbelowunlit",
-      "offset" : [0, 350],
-      "noRandomOffset" : true,
-      "parallax" : [3, 3],
-      "nohueshift" : true,
-      "unlit" : true
+      "kind" : "cityscapescorched6",
+      "offset" : [0, 250],
+      "parallax" : 6,
+      "directives" : "?brightness=15?saturation=-10",
+      "fadePercent" : 0.15
     },
     {
-      "kind" : "blackenedbelow",
-      "offset" : [0, 350],
-      "noRandomOffset" : true,
-      "parallax" : [3, 3.001],
-      "nohueshift" : true
+      "kind" : "cityscapescorched5",
+      "offset" : [0, 250],
+      "parallax" : 5,
+      "directives" : "?brightness=15?saturation=-10",
+      "fadePercent" : 0.15
     },
     {
-      "kind" : "blackened1unlit",
-      "offset" : [100, 400],
-      "noRandomOffset" : true,
-      "parallax" : [3, 3.502],
-      "nohueshift" : true,
-      "unlit" : true
-    },
-    {
-      "kind" : "blackened1",
-      "offset" : [100, 400],
-      "noRandomOffset" : true,
-      "parallax" : [3, 3.003],
-      "nohueshift" : true
-    },
-    {
-      "kind" : "blackened2unlit",
-      "baseCount" : 2,
-      "offset" : [0, 225],
-      "noRandomOffset" : true,
-      "parallax" : [5, 5],
-      "nohueshift" : true,
-      "fadePercent" : 0.02,
-      "unlit" : true
-    },
-    {
-      "kind" : "blackened2",
-      "offset" : [0, 225],
-      "noRandomOffset" : true,
-      "parallax" : [5, 5.001],
-      "nohueshift" : true,
-      "fadePercent" : 0.02
-    },
-    {
-      "kind" : "blackened3",
+      "kind" : "midnight3",
       "offset" : [0, 140],
       "parallax" : [7, 7],
       "nohueshift" : true
+    },
+    {
+      "kind" : "clouds1",
+      "baseCount" : 2,
+      "offset" : [0, 425],
+      "parallax" : [8, 7],
+      "minSpeed" : -10000,
+      "maxSpeed" : -10000,
+      "fadePercent" : 0.04
     },
     {
       "kind" : "oilrig",
@@ -89,18 +63,7 @@
       "nohueshift" : true
     },
     {
-      "kind" : "blackenedbackunlit",
-      "baseCount" : 2,
-      "offset" : [50, 100],
-      "noRandomOffset" : true,
-      "parallax" : [10, 9],
-      "nohueshift" : true,
-      "unlit" : true,
-      "fadePercent" : 0.05
-    },
-    {
-      "kind" : "blackenedback",
-      "modCount" : 1,
+      "kind" : "midnightback",
       "offset" : [50, 100],
       "noRandomOffset" : true,
       "parallax" : [10, 9.001],
@@ -108,50 +71,41 @@
       "fadePercent" : 0.05
     },
     {
-      "kind" : "magmarocksback",
-      "offset" : [50, 320],
-      "parallax" : [12, 9.002],
-      "nohueshift" : true,
-      "fadePercent" : 0.40
-    },
-
-    {
-      "kind" : "blackenedclouds",
+      "kind" : "midnightclouds",
       "baseCount" : 2,
       "offset" : [0, 340],
       "parallax" : 15
     },
     {
-      "kind" : "blackenedclouds",
+      "kind" : "midnightclouds",
       "baseCount" : 2,
       "offset" : [0, 340],
       "parallax" : 15
     },
     {
-      "kind" : "blackenedclouds2",
+      "kind" : "midnightclouds2",
       "baseCount" : 2,
       "offset" : [0, 300],
       "parallax" : 20
     },
     {
-      "kind" : "blackenedclouds2",
+      "kind" : "midnightclouds2",
       "baseCount" : 2,
       "offset" : [0, 300],
       "parallax" : 20
     },
     {
-      "kind" : "blackenedclouds3",
+      "kind" : "midnightclouds3",
       "baseCount" : 2,
       "offset" : [0, 260],
       "parallax" : 25
     },
     {
-      "kind" : "blackenedclouds3",
+      "kind" : "midnightclouds3",
       "baseCount" : 2,
       "offset" : [0, 260],
       "parallax" : 25
     },
-
     {
       "kind" : "clouds3",
       "baseCount" : 2,

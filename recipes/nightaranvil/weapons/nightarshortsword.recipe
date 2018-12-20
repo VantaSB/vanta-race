@@ -4,6 +4,7 @@
     { "item" : "solariumstar", "count" : 4 },
     { "item" : "ironbar", "count" : 4 }
   ],
+  "duration" : 5,
   "output" : { "item" : "nightarshortsword", "count" : 1 },
   "groups" : [ "nightaranvil", "weapons", "all" ]
 }

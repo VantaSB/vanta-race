@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "nightiumcrystal", "count" : 2 },
+    { "item" : "darkcrystal", "count" : 2 },
     { "item" : "hardenedcarapace", "count" : 4 }
   ],
   "output" : { "item" : "nightarbigshield", "count" : 1 },
-  "groups" : [ "nightaranvil4", "weapons", "all" ]
+  "groups" : [ "nightaranvil", "weapons", "all" ]
 }
