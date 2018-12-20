@@ -82,7 +82,7 @@
     "inventoryIcon" : "nightarhandgun.png",
     "animationParts" : {
       "middle" : "nightarhandgun.png",
-      "middleFullbright" : "nightarhandgunlit.png",
+      "middleFullbright" : "nightarhandgunfullbright.png",
       "muzzleFlash" : "muzzleflash.png"
     },
     "fireTime" : 0.28,
