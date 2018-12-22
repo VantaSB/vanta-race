@@ -1,13 +1,15 @@
 {
-  "itemName" : "nightarresource",
+  "itemName" : "exoticresearch",
   "rarity" : "Legendary",
-  "inventoryIcon" : "nightarresource.png",
-  "description" : "The data on this engram can help you research ancient Nightar crafts.",
-  "shortdescription" : "Nightar Engram",
+  "inventoryIcon" : "exoticresearch.png",
+  "description" : "Advanced research technique data.",
+  "shortdescription" : "Research Engram",
   "currency" : "nightarresource",
   "value" : 1,
   "pickupSoundsSmall" : [ "/sfx/interface/item_pickup.ogg", "/sfx/interface/item_equip.ogg" ],
   "pickupSoundsMedium" : [ "/sfx/interface/item_holster.ogg" ],
   "pickupSoundsLarge" : [ "/sfx/objects/ancientenergy_pickup1.ogg", "/sfx/objects/ancientenergy_pickup2.ogg", "/sfx/objects/ancientenergy_pickup3.ogg" ],
-  "maxStack" : 1000000
+  "smallStackLimit" : 99,
+  "mediumStackLimit" : 999,
+  "maxStack" : 16777216
 }

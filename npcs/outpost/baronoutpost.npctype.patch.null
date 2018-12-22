@@ -2,12 +2,12 @@
   {
     "op" : "add",
 	  "path" : "/scriptConfig/offeredQuests/-",
-	  "value" : "nightfort_mission"
+	  "value" : "nightarblade"
   },
 
   {
     "op" : "add",
 	  "path" : "/scriptConfig/turnInQuests/-",
-	  "value" : "nightfort_mission"
+	  "value" : "nightarblade"
   }
 ]
