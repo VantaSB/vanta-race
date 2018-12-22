@@ -1,15 +1,16 @@
 {
-  "itemName" : "exoticresearch",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "exoticresearch.png",
+  "itemName" : "researchengram",
+  "rarity" : "rare",
+  "inventoryIcon" : "researchengram.png",
   "description" : "Advanced research technique data.",
   "shortdescription" : "Research Engram",
-  "currency" : "nightarresource",
+  "currency" : "researchengram",
   "value" : 1,
   "pickupSoundsSmall" : [ "/sfx/interface/item_pickup.ogg", "/sfx/interface/item_equip.ogg" ],
   "pickupSoundsMedium" : [ "/sfx/interface/item_holster.ogg" ],
   "pickupSoundsLarge" : [ "/sfx/objects/ancientenergy_pickup1.ogg", "/sfx/objects/ancientenergy_pickup2.ogg", "/sfx/objects/ancientenergy_pickup3.ogg" ],
   "smallStackLimit" : 99,
   "mediumStackLimit" : 999,
-  "maxStack" : 16777216
+  "maxStack" : 16777216,
+  "learnBlueprintsOnPickup" : [ "engramvoxel" ]
 }

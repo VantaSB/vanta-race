@@ -2,7 +2,7 @@
   {
     "op" : "add",
     "path" : "/money/sail_group_order",
-    "value" : [ "exotic_research" ]
+    "value" : [ "research_engram" ]
   },
 
   {
@@ -19,7 +19,7 @@
 
   {
     "op" : "add",
-    "path" : "/exoticresearch",
-    "value" : { "representativeItem" : "exoticresearch", "playerMax" : 999999, "sail_group" : "exotic_research", "sail_secret" : true }
+    "path" : "/researchengram",
+    "value" : { "representativeItem" : "researchengram", "playerMax" : 999999, "sail_group" : "research_engram", "sail_secret" : true }
   }
 ]

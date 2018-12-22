@@ -17,7 +17,7 @@
   "placementImage" : "nightaranvil.png:default.default",
   "placementImagePosition" : [-8, 0],
   "description" : "A nightar weapon replicator.",
-  "shortdescription" : "Nightar Weapon Replicator",
+  "shortdescription" : "^orange;Nightar Replicator^reset;",
   "apexDescription" : "The technology used to construct this is nothing short of astounding.",
 	"avianDescription" : "This replicator is very sophisticated and has a sleek design.",
 	"floranDescription" : "Floran likesss fancy weapon maker!",

@@ -1,0 +1,9 @@
+{
+  "engramVoxel" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1, "item" : ["exoticresearch", 1000]}
+      ]
+    }]
+  ]
+}
