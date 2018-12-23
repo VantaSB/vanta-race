@@ -6,7 +6,7 @@
   "race" : "generic",
   "category" : "storage",
   "price" : 2500,
-  "printable" : "false",
+  "printable" : false,
   "objectType" : "container",
   "orientations" : [
     {
@@ -16,19 +16,18 @@
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 1,
+
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
 
     {
       "direction" : "right",
-      "imageLayers" : [
-        { "image" : "researchgenlit.png:<color>.<frame>", "fullbright" : true },
-        { "image" : "researchgen.png:<color>.<frame>" }
-      ],
+      "imageLayers" : [ { "image" : "researchgenlit.png:<color>.<frame>", "fullbright" : true }, { "image" : "researchgen.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 1,
+
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
