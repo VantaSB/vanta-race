@@ -9,6 +9,21 @@
   "objectType" : "container",
   "orientations" : [
     {
+      "direction" : "left",
+      "imageLayers" : [
+        { "image" : "researchgenlit.png:<frame>", "fullBright" : true },
+        { "image" : "researchgen.png:<frame>" }
+      ],
+      "flipImages" : false,
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "direction" : "right",
       "imageLayers" : [
         { "image" : "researchgenlit.png:<frame>", "fullBright" : true },
         { "image" : "researchgen.png:<frame>" }
