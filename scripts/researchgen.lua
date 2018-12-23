@@ -42,13 +42,16 @@ function gen(dt)
     end
   end
 
-  local item = world.containerItemAt(entity.id(), 0) or { name = config.getParameter('slot')[1].name, count = 0 }
+  local item = world.containerItemAt(entity.id(), 0) or {
+    name = config.getParameter('slot')[1].name, count = 0
+  }
   if item.name ~= config.getParameter('slot')[1].name then
     world.spawnItem(item, entity.position())
     world.containerConsumeAt(entity.id(), 0, item.count)
     item.count = 0
   elseif item.count > config.getParameter('slot')[1].max then
-    local dropitem = dropitem.count - config.getParameter('slot')[1].max
+    local dropitem = item
+    dropitem.count = dropitem.count - config.getParameter('slot')[1].max
     world.spawnItem(dropitem, entity.position())
     world.containerConsumeAt(entity.id(), 0, dropitem.count)
     item.count = config.getParameter('slot')[1].max
@@ -56,7 +59,7 @@ function gen(dt)
 
   local amt = math.min(math.floor(storage.waterCount/config.getParameter('slot')[1].ratio), config.getParameter('slot')[1].max - item.count)
   world.containerPutItemsAt(entity.id(), {
-    name = config.getParameter('slot')[1].name, count = amount
+    name = config.getParameter('slot')[1].name, count = amt
   }, 0)
   storage.waterCount = storage.waterCount - amt * config.getParameter('slot')[1].ratio
   if amt > 0 and #config.getParameter('slot') > 1 then
