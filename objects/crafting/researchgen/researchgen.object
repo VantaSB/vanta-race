@@ -8,6 +8,7 @@
   "price" : 2500,
   "printable" : "false",
   "objectType" : "container",
+  "inventoryIcon" : "researchgenicon.png",
   "orientations" : [
     {
       "direction" : "left",
