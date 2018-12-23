@@ -1,0 +1,9 @@
+{
+  "itemName" : "engramvoxel10k",
+  "price" : 10000,
+  "rarity" : "rare",
+  "category" : "currency",
+  "inventoryIcon" : "engramvoxel.png",
+  "description" : "A cache of 10000 research engrams",
+  "shortdescription" : "Engram Cache [^green;10k^reset;]"
+}

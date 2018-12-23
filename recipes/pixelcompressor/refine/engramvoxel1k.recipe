@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "engramvoxel", "count" : 1 }
+    { "item" : "engramvoxel1k", "count" : 1 }
   ],
   "output" : { "item" : "researchengram", "count" : 1000 },
   "duration" : 1,

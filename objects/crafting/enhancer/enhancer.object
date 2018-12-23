@@ -1,0 +1,65 @@
+{
+  "objectName" : "enhancer",
+  "colonyTags" : ["crafting","nightar"],
+  "rarity" : "rare",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 500,
+  "printable" : false,
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+
+  "inventoryIcon" : "enhancericon.png",
+  "placementImage" : "enhancer.png:default.default",
+  "placementImagePosition" : [-8, 0],
+  "description" : "Adds augment slots to armors.",
+  "shortdescription" : "^orange;Enhancer^reset;",
+  "apexDescription" : "This should allow me to add augments to my armor.",
+	"avianDescription" : "I can bind augments to my armor if I use this first.",
+	"floranDescription" : "Fancy machine letsss me enhance armorsss!",
+	"glitchDescription" : "Observant. I can use this to add augment slots to my armors.",
+	"humanDescription" : "I can use this to make the best of some of my armors!",
+	"hylotlDescription" : "Maximizing efficiency in armorcrafting should be every traveler's priority.",
+	"novakidDescription" : "I reckon I can add some augment slots to my duds with this.",
+
+  "learnBlueprintsOnPickup" : [],
+
+  "orientations" : [
+    {
+      "image" : "enhancer.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "enhancer.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "npcToy" : {
+    "influence" : [
+      "furnace",
+      "furnace",
+      "furnaceComplete"
+    ],
+    "defaultReactions" : {
+      "furnace" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"]
+      ],
+      "furnaceComplete" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"],
+        [1.0, "pokefire"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.5, 0.0],
+    "preciseStandPositionRight" : [2.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

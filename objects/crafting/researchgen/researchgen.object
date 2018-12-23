@@ -1,0 +1,33 @@
+{
+  "objectName" : "researchgen",
+  "rarity" : "rare",
+  "description" : "Slowly generates research files (up to 1000)",
+  "shortdescription" : "Research Console",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 2500,
+  "objectType" : "container",
+  "orientations" : {
+    "imageLayers" : [
+      { "image" : "researchgenlit.png:<frame>", "fullBright" : true },
+      { "image" : "researchgen.png:<frame>" }
+    ],
+    "imagePosition" : [0, 0],
+    "frames" : 1,
+    "animationCycle" : 1,
+    "spaceScan" : 0.1,
+    "anchors" : [ "bottom" ]
+  },
+
+  "openSounds" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+  "closeSounds" : [ "/sfx/objects/console_generic_switchoff.ogg" ],
+  "scripts" : [ "/scripts/researchgen.lua" ],
+  "scriptDelta" : 400,
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 4000,
+  "slot" : [
+    { "name" : "researchengram", "ratio" : 10, "max" : 1000 }
+  ]
+}

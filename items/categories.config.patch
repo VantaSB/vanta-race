@@ -1,0 +1,6 @@
+[
+  { "op" : "add", "path" : "/labels/headarmorAug", "value" : "Augmented Head" },
+  { "op" : "add", "path" : "/labels/chestarmorAug", "value" : "Augmented Chest" },
+  { "op" : "add", "path" : "/labels/legarmorAug", "value" : "Augmented Legs" },
+  { "op" : "add", "path" : "/labels/research", "value" : "Research Materials" }
+]
