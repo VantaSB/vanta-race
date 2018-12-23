@@ -6,16 +6,14 @@
   "race" : "generic",
   "category" : "storage",
   "price" : 2500,
+  "printable" : "false",
   "objectType" : "container",
   "orientations" : [
     {
       "direction" : "left",
-      "imageLayers" : [
-        { "image" : "researchgenlit.png:<frame>", "fullBright" : true },
-        { "image" : "researchgen.png:<frame>" }
-      ],
+      "imageLayers" : [ { "image" : "researchgenlit.png:<color>.<frame>", "fullbright" : true }, { "image" : "researchgen.png:<color>.<frame>" } ],
       "flipImages" : false,
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 1,
       "spaceScan" : 0.1,
@@ -25,16 +23,17 @@
     {
       "direction" : "right",
       "imageLayers" : [
-        { "image" : "researchgenlit.png:<frame>", "fullBright" : true },
-        { "image" : "researchgen.png:<frame>" }
+        { "image" : "researchgenlit.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "researchgen.png:<color>.<frame>" }
       ],
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 1,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
   ],
+
 
   "openSounds" : [ "/sfx/objects/console_generic_switchon.ogg" ],
   "closeSounds" : [ "/sfx/objects/console_generic_switchoff.ogg" ],

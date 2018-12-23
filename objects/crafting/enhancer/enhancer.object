@@ -25,7 +25,10 @@
 
   "orientations" : [
     {
-      "image" : "enhancer.png:<color>.<frame>",
+      "imageLayers" : [
+        { "image" : "enhancerlit.png:<color>.<frame>",  "fullbright" : true},
+        { "image" : "enhancer.png:<color>.<frame>" }
+      ],
       "imagePosition" : [-8, 0],
       "direction" : "left",
       "flipImages" : true,
@@ -33,7 +36,10 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "enhancer.png:<color>.<frame>",
+      "imageLayers" : [
+        { "image" : "enhancerlit.png:<color>.<frame>",  "fullbright" : true},
+        { "image" : "enhancer.png:<color>.<frame>" }
+      ],
       "imagePosition" : [-8, 0],
       "direction" : "right",
       "spaceScan" : 0.1,
