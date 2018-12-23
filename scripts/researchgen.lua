@@ -1,5 +1,10 @@
 require "/scripts/util.lua"
 
+researchgen = {}
+disabled = false
+unhandled = {}
+researchgen.itemTypes = nil
+
 function researchgen.init()
   if storage == nil then
     storage = {}
@@ -12,7 +17,7 @@ function researchgen.init()
     sb.logInfo("researchgen automation functions are not compatible with non-object types (current type: %s).", entityType.entityType())
     return
   end
-  storage.position=entity.position()
+  storage.position = entity.position()
 end
 
 function researchgen.loadCont()
@@ -29,22 +34,20 @@ end
 
 function gen(dt)
   researchgen.loadCont()
-  storage.waterCount = math.min( (storage.waterCount or 0)+dt, 100 )
-  for i=2,#config.getParameter('slot') do
-    if world.containerItemAt(entity.id(), i-1) and
-    world.containerItemAt(entity.id(), i-1).name ~=
-    config.getParameter('slot')[i].name then
-      world.containerConsumeAt( entity.id(), i-1,world.containerItemAt(entity.id(), i-1).count )
-      world.spawnItem( world.containerItemAt(entity.id(),i-1), entity.position() )
+  storage.waterCount = math.min((storage.waterCount or 0) + dt, 100)
+  for i=2, #config.getParameter('slot') do
+    if world.containerItemAt(entity.id(), i-1) and world.containerItemAt(entity.id(), i-1).name ~= config.getParameter('slot')[i].name then
+      world.containerConsumeAt(entity.id(), i-1, world.containerItemAt(entity.id(), i-1).count)
+      world.spawnItem(world.containerItemAt(entity.id(), i-1), entity.position())
     end
   end
 
-  local item = world.containerItemAt(entity.id(),0) or { name = config.getParameter('slot')[1].name, count = 0 }
+  local item = world.containerItemAt(entity.id(), 0) or { name = config.getParameter('slot')[1].name, count = 0 }
   if item.name ~= config.getParameter('slot')[1].name then
     world.spawnItem(item, entity.position())
     world.containerConsumeAt(entity.id(), 0, item.count)
     item.count = 0
-  elseif item.count > config.getParameter('sloit')[1].max then
+  elseif item.count > config.getParameter('slot')[1].max then
     local dropitem = dropitem.count - config.getParameter('slot')[1].max
     world.spawnItem(dropitem, entity.position())
     world.containerConsumeAt(entity.id(), 0, dropitem.count)
