@@ -7,17 +7,19 @@
   "category" : "storage",
   "price" : 2500,
   "objectType" : "container",
-  "orientations" : {
-    "imageLayers" : [
-      { "image" : "researchgenlit.png:<frame>", "fullBright" : true },
-      { "image" : "researchgen.png:<frame>" }
-    ],
-    "imagePosition" : [0, 0],
-    "frames" : 1,
-    "animationCycle" : 1,
-    "spaceScan" : 0.1,
-    "anchors" : [ "bottom" ]
-  },
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "researchgenlit.png:<frame>", "fullBright" : true },
+        { "image" : "researchgen.png:<frame>" }
+      ],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
 
   "openSounds" : [ "/sfx/objects/console_generic_switchon.ogg" ],
   "closeSounds" : [ "/sfx/objects/console_generic_switchoff.ogg" ],
