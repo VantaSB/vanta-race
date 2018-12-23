@@ -12,7 +12,7 @@
   "orientations" : [
     {
       "direction" : "left",
-      "imageLayers" : [ { "image" : "researchgenlit.png:<color>.<frame>", "fullbright" : true }, { "image" : "researchgen.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "researchgen.png:<color>.<frame>", "fullbright" : true }, { "image" : "researchgenlit.png:<color>.<frame>" } ],
       "flipImages" : false,
       "imagePosition" : [-8, 0],
       "frames" : 1,
@@ -24,7 +24,7 @@
 
     {
       "direction" : "right",
-      "imageLayers" : [ { "image" : "researchgenlit.png:<color>.<frame>", "fullbright" : true }, { "image" : "researchgen.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "researchgen.png:<color>.<frame>", "fullbright" : true }, { "image" : "researchgenlit.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 1,
