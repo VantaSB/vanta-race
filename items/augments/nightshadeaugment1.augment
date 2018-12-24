@@ -1,0 +1,21 @@
+{
+  "itemName" : "nightshadeaugment1",
+  "price" : 5000,
+  "rarity" : "legendary",
+  "category" : "eppAugment",
+  "inventoryIcon" : "nightshadeaugment.png",
+  "description" : "Applies a ghostly effect and partially protects against elements.",
+  "shortdescription" : "Nightshade I Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "nightshade1",
+    "displayName" : "Nightshade I",
+    "displayIcon" : "/items/augments/nightshadeaugment.png",
+    "effects" : [ "camouflage75", "ghostlyglow", {"stat" : "wetImmunity", "amount" : 0.25}, {"stat" : "fireStatusImmunity", "amount" : 0.25}, {"stat" : "iceStatusImmunity", "amount" : 0.25}, {"stat" : "electricStatusImmunity", "amount" : 0.25}, {"stat" : "poisonStatusImmunity", "amount" : 0.25 } ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupMasteryAugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

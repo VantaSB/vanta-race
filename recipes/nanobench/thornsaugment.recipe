@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "livingroot", "count" : 5 },
+    { "item" : "tungstenbar", "count" :2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "thornsaugment", "count" : 1 },
+  "groups" : [ "nanobench", "eppAugment", "all" ]
+}

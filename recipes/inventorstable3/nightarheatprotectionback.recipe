@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkcrystal", "count" : 1 }
+  ],
+  "duration" : 10,
+  "output" : { "item" : "nightarheatprotectionback", "count" : 1 },
+  "groups" : [ "inventorstable3", "hazardgear", "all" ]
+}

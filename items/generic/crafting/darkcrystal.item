@@ -1,8 +1,11 @@
 {
   "itemName" : "darkcrystal",
   "rarity" : "legendary",
+  "price" : 500,
+  "category" : "craftingMaterial",
   "inventoryIcon" : "darkcrystal.png",
   "description" : "A dark crystal that gives off a powerful aura; it can be used for various purposes.",
-  "shortdescription" : "Dark Crystal"
+  "shortdescription" : "Dark Crystal",
+  "itemTags" : [ "reagent" ]
   //"learnBlueprintsOnPickup" : [  ] <- WIP
 }

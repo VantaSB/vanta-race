@@ -7,7 +7,7 @@
   "category" : "headarmour",
   "description" : "The king's guard official helm, refrain from touching it if you are not one of them!",
   "shortdescription" : "King's Guard Helm",
-  "tooltipKind" : "armoraugment",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -37,7 +37,5 @@
     }
   ],
 
-  "itemTags" : [ "tier5armour" ],
-
-  "acceptsAugmentType" : "back"
+  "itemTags" : [ "tier5armour" ]
 }

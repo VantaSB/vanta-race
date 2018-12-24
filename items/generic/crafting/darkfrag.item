@@ -1,7 +1,10 @@
 {
   "itemName" : "darkfragmentore",
+  "price" : 100,
   "rarity" : "legendary",
+  "category" : "craftingMaterial",
   "inventoryIcon" : "darkfrag.png",
   "description" : "A jet-black, luminescent shard that's useful for bonding special properties to equipment.",
-  "shortdescription" : "Dark Fragment"
+  "shortdescription" : "Dark Fragment",
+  "itemTags" : [ "reagent" ]
 }

@@ -18,8 +18,7 @@
 // Empty Hands
       { "item" : "flagnightar" },
 	    { "item" : "ranscastle" },
-	    { "item" : "nightaranvil" },
-	    { "item" : "nightar_emptyhead"},
+	    { "item" : "emptyhead"},
 
 
 // Anvil
@@ -176,7 +175,17 @@
       { "item" : "traditionalchest" },
       { "item" : "traditionallegs" },
       { "item" : "traineechest" },
-      { "item" : "traineelegs" }
+      { "item" : "traineelegs" },
+
+      //----------------------------------------------- default augment recipes -------------------------------------------------------------
+      { "item" : "damageaugment1" },
+      { "item" : "energyaugment1" },
+      { "item" : "healingaugment1" },
+      { "item" : "healthaugment1" },
+      { "item" : "lightaugment1" },
+
+      { "item" : "lightbulb3" }
+
     ]
   },
   "altOptionAsUndyColor" : true,

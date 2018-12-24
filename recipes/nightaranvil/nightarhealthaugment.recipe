@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkcrystal", "count" : 10 }
-  ],
-
-  "duration" : 10,
-  "output" : { "item" : "nightarhealthaugment", "count" : 1 },
-  "groups" : [ "nightaranvil", "hazardgear", "all" ]
-}

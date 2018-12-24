@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 5 },
+    { "item" : "refinedferozium", "count" : 5 },
+    { "item" : "refinedviolium", "count" : 5 },
+    { "item" : "solariumstar", "count" : 5 }
+  ],
+  "duration" : 10,
+  "output" : { "item" : "exoticcomponent1", "count" : 1 },
+  "groups" : [ "enhancer", "hazardgear", "all" ]
+}

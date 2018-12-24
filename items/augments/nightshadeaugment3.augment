@@ -1,0 +1,21 @@
+{
+  "itemName" : "nightshadeaugment3",
+  "price" : 5000,
+  "rarity" : "legendary",
+  "category" : "eppAugment",
+  "inventoryIcon" : "nightshadeaugment.png",
+  "description" : "Applies a ghostly effect and completely protects against elemental damage.",
+  "shortdescription" : "Nightshade III Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "nightshade3",
+    "displayName" : "Nightshade III",
+    "displayIcon" : "/items/augments/nightshadeaugment.png",
+    "effects" : [ "camouflage25", "ghostlyglow", {"stat" : "wetImmunity", "amount" : 1.0}, {"stat" : "fireStatusImmunity", "amount" : 1.0}, {"stat" : "iceStatusImmunity", "amount" : 1.0}, {"stat" : "electricStatusImmunity", "amount" : 1.0}, {"stat" : "poisonStatusImmunity", "amount" : 1.0 } ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupMasteryAugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

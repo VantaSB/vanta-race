@@ -1,0 +1,10 @@
+{
+  "itemName" : "exoticcomponent3",
+  "price" : 2000,
+  "category" : "craftingMaterial",
+  "rarity" : "legendary",
+  "inventoryIcon" : "exotichead.png",
+  "description" : "Used for crafting augmentable head armor.",
+  "shortdescription" : "Head Armor Component",
+  "itemTags" : [ "reagent" ]
+}

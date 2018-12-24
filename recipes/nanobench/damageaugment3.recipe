@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "feroziumore", "count" : 10 },
+    { "item" : "goldore", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "damageaugment3", "count" : 1 },
+  "groups" : [ "nanobench", "eppAugment", "all" ]
+}

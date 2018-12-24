@@ -1,15 +1,15 @@
 {
   "itemName" : "replicanightarsword",
-  "price" : 960,
+  "price" : 350,
   "level" : 5,
   "maxStack" : 1,
-  "rarity" : "Rare",
-  "description" : "The legendary Nightar Blade has been repaired!",
-  "shortdescription" : "Legendary Nightar Blade",
+  "rarity" : "common",
+  "description" : "A replica of Noxcalibur, the legendary Nightar blade.",
+  "shortdescription" : "Noxcalibur Replica",
   "tooltipKind" : "sword",
   "category" : "broadsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword"],
+  "itemTags" : ["weapon","melee","nightar","broadsword"],
 
   "inventoryIcon" : "nightarsword.png",
 
@@ -26,46 +26,10 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.80,
-    "baseDps" : 27.8
+    "baseDps" : 12.6
   },
 
-  "altAbilityType": "greatwave",
-  "altAbility": {
-   "projectileType" : "physicalshockwave",
-    "projectileParameters" : {
-      "power" : 3.5,
-      "knockback" : 40,
-      "knockbackMode" : "facing"
-    },
-    "shockWaveBounds" : [-0.4, -1.375, 0.4, 0.0],
-    "shockwaveHeight" : 1.375,
-    "maxDistance" : 10,
-    "bothDirections" : true,
-
-    "impactLine" : [ [1.25, -1.5], [1.25, -4.5] ],
-    "impactWeaponOffset" : 0.75,
-
-    "stances" : {
-      "windup" : {
-        "duration" : 0.5,
-        "armRotation" : 90,
-        "weaponRotation" : -20,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : true
-      },
-      "fire" : {
-        "duration" : 0.5,
-        "armRotation" : 0,
-        "weaponRotation" : -180,
-        "twoHanded" : true,
-
-        "allowRotate" : false,
-        "allowFlip" : false
-      }
-    }
-  },
+  "altAbilityType": "spinslash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

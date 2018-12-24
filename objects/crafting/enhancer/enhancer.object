@@ -22,25 +22,44 @@
 
   "learnBlueprintsOnPickup" : [],
 
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Enhancer",
+        "subtitle" : "Craft the legendary sets right here.",
+        "icon" : {
+          "file" : "/interface/crafting/craftingicon.png"
+        }
+      }
+    },
+    "filter" : [ "enhancer" ]
+  },
+
   "orientations" : [
     {
       "imageLayers" : [
-        { "image" : "enhancerlit.png:<color>.<frame>",  "fullbright" : true},
-        { "image" : "enhancer.png:<color>.<frame>" }
+        { "image" : "enhancer.png:<color>.<frame>",  "fullbright" : true},
+        { "image" : "enhancerlit.png:<color>.<frame>" }
       ],
       "imagePosition" : [-8, 0],
       "direction" : "left",
       "flipImages" : true,
+      "frames" : 6,
+      "animationCycle" : 0.8,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
     {
       "imageLayers" : [
-        { "image" : "enhancerlit.png:<color>.<frame>",  "fullbright" : true},
-        { "image" : "enhancer.png:<color>.<frame>" }
+        { "image" : "enhancer.png:<color>.<frame>",  "fullbright" : true},
+        { "image" : "enhancerlit.png:<color>.<frame>" }
       ],
       "imagePosition" : [-8, 0],
       "direction" : "right",
+      "frames" : 6,
+      "animationCycle" : 0.8,
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

@@ -1,0 +1,19 @@
+[
+  {
+    "op" : "add",
+    "path" : "/pickupResearchEngram",
+    "value" : {
+      "type" : "tutorial",
+      "text" : "This is a ^cyan;data storage engram ^reset;. It holds significant amounts of technological knowledge that we can definitely put to good use."
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/pickupMasteryAugment",
+    "value" : {
+      "type" : "tutorial",
+      "text" : "You've obtained a ^cyan;mastery augment^reset;. While they seem like purely cosmetic enhancements, they also come with a variety of status inhibitors."
+    }
+  }
+]

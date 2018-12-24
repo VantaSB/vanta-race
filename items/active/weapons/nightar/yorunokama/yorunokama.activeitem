@@ -7,7 +7,7 @@
   "description" : "A Nightar energy scythe.",
   "shortdescription" : "Yorunokama",
   "tooltipKind" : "sword",
-  "category" : "broadsword",
+  "category" : "energyscythe",
   "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "broadsword","nightar"],
 

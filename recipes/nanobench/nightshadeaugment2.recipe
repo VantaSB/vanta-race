@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "phasematter", "count" : 5 },
+    { "item" : "platinumbar", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "nightshadeaugment2", "count" : 1 },
+  "groups" : [ "nanobench", "eppAugment", "all" ]
+}

@@ -23,7 +23,7 @@
 	"hylotlDescription" : "Dark as they are, the Nightars' equipment is surely a sight to behold.",
 	"novakidDescription" : "These folks come up with the craziest designs.",
 
-  "learnBlueprintsOnPickup" : [  ],
+  "learnBlueprintsOnPickup" : [ "kaisergem", "bunshoki", "nightarhandgun", "replicanightarsword", "stealthdagger", "yonaga", "yorunoha", "yorunokama", "yorunoyumi", "yosamu" ],
 
   "orientations" : [
     {

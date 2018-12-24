@@ -7,7 +7,7 @@
   "category" : "chestarmour",
   "description" : "The King Slayer's chestplate is powered by Nightium, adding significant protection and strength.",
   "shortdescription" : "King Slayer's Mail",
-  "tooltipKind" : "armoraugment",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",
@@ -45,7 +45,5 @@
     }
   ],
 
-  "itemTags" : [ "tier6armour" ],
-
-  "acceptsAugmentType" : "back"
+  "itemTags" : [ "tier6armour" ]
 }

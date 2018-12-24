@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 1 },
+    { "item" : "wire", "count" : 2 },
+    { "item" : "copperore", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "lightbulb3", "count" : 1 },
+  "groups" : [ "furniture2", "lights", "all" ]
+}
+
+// Default recipe for ALL races

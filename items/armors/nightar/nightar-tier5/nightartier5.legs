@@ -7,7 +7,7 @@
   "category" : "legarmour",
   "description" : "Nightar greaves made for the highest ranking nights, the king's guard.",
   "shortdescription" : "King's Guard Greaves",
-  "tooltipKind" : "armoraugment",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
@@ -22,7 +22,7 @@
     {
       "levelFunction" : "separatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.23
+      "amount" : 0.2
     },
     {
       "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
@@ -36,7 +36,5 @@
     }
   ],
 
-  "itemTags" : [ "tier5armour" ],
-  
-  "acceptsAugmentType" : "back"
+  "itemTags" : [ "tier5armour" ]
 }

@@ -1,0 +1,11 @@
+{
+  "itemName" : "gravoscilator",
+  "rarity" : "Rare",
+  "price" : 500,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "gravoscilator.png",
+  "description" : "These are apparently used in the manufacturing of hoverbikes.",
+  "shortdescription" : "Gravity Oscilation Module",
+
+  "learnBlueprintsOnPickup" : [ ]
+}

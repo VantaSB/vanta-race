@@ -8,11 +8,13 @@
   "price" : 2500,
   "printable" : false,
   "objectType" : "container",
+  "learnBlueprintsOnPickup" : [ ],
+
   "inventoryIcon" : "researchgenicon.png",
   "orientations" : [
     {
       "direction" : "left",
-      "imageLayers" : [ { "image" : "researchgen.png:<color>.<frame>", "fullbright" : true }, { "image" : "researchgenlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "researchgen.png:<color>.<frame>"}, { "image" : "researchgenlit.png:<color>.<frame>", "fullbright" : true  } ],
       "flipImages" : false,
       "imagePosition" : [-8, 0],
       "frames" : 1,
@@ -24,7 +26,8 @@
 
     {
       "direction" : "right",
-      "imageLayers" : [ { "image" : "researchgen.png:<color>.<frame>", "fullbright" : true }, { "image" : "researchgenlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "researchgen.png:<color>.<frame>" }, { "image" : "researchgenlit.png:<color>.<frame>", "fullbright" : true  } ],
+
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 1,
@@ -34,16 +37,15 @@
     }
   ],
 
-  "outputNodes" : [ [-2, 1] ],
   "openSounds" : [ "/sfx/objects/console_generic_switchon.ogg" ],
   "closeSounds" : [ "/sfx/objects/console_generic_switchoff.ogg" ],
   "scripts" : [ "/scripts/researchgen.lua" ],
-  "scriptDelta" : 400,
+  "scriptDelta" : 320,
   "slotCount" : 1,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 67,
-  "autoCloseCooldown" : 4000,
-  "slot" : [
+  "autoCloseCooldown" : 3600,
+  "iSlot" : [
     { "name" : "researchengram", "ratio" : 10, "max" : 1000 }
   ]
 }

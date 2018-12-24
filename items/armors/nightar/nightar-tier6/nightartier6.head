@@ -7,7 +7,7 @@
   "category" : "headarmour",
   "description" : "The King Slayer's Helm is rock-solid, and will protect your head from low-clearance hazards and falling objects.",
   "shortdescription" : "King Slayer's Helm",
-  "tooltipKind" : "armoraugment",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -37,7 +37,5 @@
     }
   ],
 
-  "itemTags" : [ "tier6armour" ],
-
-  "acceptsAugmentType" : "back"
+  "itemTags" : [ "tier6armour" ]
 }

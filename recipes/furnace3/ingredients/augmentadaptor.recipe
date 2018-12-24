@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "wire", "count" : 5 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "augmentadaptor", "count" : 1 },
+  "groups" : [ "craftingfurnace3", "ingredients", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkcrystal", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 2 },
+    { "item" : "platinumbar", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "bunshoki", "count" : 1 },
+  "groups" : [ "nightaranvil", "weapons", "all" ]
+}

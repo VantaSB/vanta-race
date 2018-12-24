@@ -7,7 +7,7 @@
   "category" : "chestarmour",
   "description" : "Forged with high quality materials, made for the Nightar King's guard.",
   "shortdescription" : "King's Guard Breastplate",
-  "tooltipKind" : "armoraugment",
+  "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",
@@ -45,7 +45,5 @@
     }
   ],
 
-  "itemTags" : [ "tier5armour" ],
-
-  "acceptsAugmentType" : "back"
+  "itemTags" : [ "tier5armour" ]
 }

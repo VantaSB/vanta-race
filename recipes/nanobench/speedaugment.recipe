@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "gravoscilator", "count" : 1 },
+    { "item" : "tungstenbar", "count" :2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "speedaugment", "count" : 1 },
+  "groups" : [ "nanobench", "eppAugment", "all" ]
+}

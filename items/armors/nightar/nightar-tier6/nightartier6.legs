@@ -7,7 +7,7 @@
   "category" : "legarmour",
   "description" : "The King Slayer's greaves are rugged enough to withstand the elements.",
   "shortdescription" : "King Slayer's Greaves",
-  "tooltipKind" : "armoraugment",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
@@ -22,7 +22,7 @@
     {
       "levelFunction" : "separatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.22
+      "amount" : 0.2
     },
     {
       "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
@@ -36,7 +36,5 @@
     }
   ],
 
-  "itemTags" : [ "tier6armour" ],
-
-  "acceptsAugmentType" : "back"
+  "itemTags" : [ "tier6armour" ]
 }
