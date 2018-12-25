@@ -12,7 +12,7 @@
     "name" : "nightshade3",
     "displayName" : "Nightshade III",
     "displayIcon" : "/items/augments/nightshadeaugment.png",
-    "effects" : [ "camouflage25", "ghostlyglow", {"stat" : "wetImmunity", "amount" : 1.0}, {"stat" : "fireStatusImmunity", "amount" : 1.0}, {"stat" : "iceStatusImmunity", "amount" : 1.0}, {"stat" : "electricStatusImmunity", "amount" : 1.0}, {"stat" : "poisonStatusImmunity", "amount" : 1.0 } ]
+    "effects" : [ "camouflage35", "ghostlyglow", {"stat" : "wetImmunity", "amount" : 1.0}, {"stat" : "fireStatusImmunity", "amount" : 1.0}, {"stat" : "iceStatusImmunity", "amount" : 1.0}, {"stat" : "electricStatusImmunity", "amount" : 1.0}, {"stat" : "poisonStatusImmunity", "amount" : 1.0 } ]
   },
 
   "radioMessagesOnPickup" : [ "pickupMasteryAugment" ],
