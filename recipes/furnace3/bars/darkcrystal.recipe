@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkfragmentore", "count" : 10 },
+    { "item" : "refinedferozium", "count" : 5 },
+    { "item" : "refinedviolium", "count" : 5 },
+    { "item" : "solariumstar", "count" : 5 }
+
+  ],
+  "duration" : 10,
+  "output" : { "item" : "darkcrystal", "count" : 1 },
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}

@@ -1,109 +1,75 @@
 {
-  "verticalOrigin" : 0,
+  "verticalOrigin" : -15,
 
   "layers" : [
     {
       "kind" : "divider/blackrock",
-      "offset" : [0, 350],
+      "offset" : [0, 150],
       "nohueshift" : true,
       "lightMapped" : true,
       "parallax" : 1.199
     },
     {
-      "kind" : "tile/magmarock",
+      "kind" : "tile/icecavernhollow",
       "nohueshift" : true,
       "lightMapped" : true,
       "repeatY" : true,
-      "tileLimitTop" : 275,
-      "parallax" : 1.2
+      "tileLimitTop" : 75,
+      "parallax" : 1.2,
+      "directives" : "?saturation=-20?brightness=-15"
     },
     {
       "kind" : "cityscapescorched6",
       "offset" : [0, 250],
       "parallax" : 6,
-      "directives" : "?brightness=15?saturation=-10",
+      "directives" : "?hueshift=190?brightness=15?saturation=-10",
       "fadePercent" : 0.15
     },
     {
       "kind" : "cityscapescorched5",
       "offset" : [0, 250],
       "parallax" : 5,
-      "directives" : "?brightness=15?saturation=-10",
+      "directives" : "?hueshift=190?brightness=15?saturation=-10",
       "fadePercent" : 0.15
     },
     {
-      "kind" : "midnight3",
-      "offset" : [0, 140],
-      "parallax" : [7, 7],
-      "nohueshift" : true
+      "kind" : "cityscapescorched4",
+      "offset" : [0, 150],
+      "parallax" : 4,
+      "directives" : "?hueshift=190?brightness=15?saturation=-10",
+      "fadePercent" : 0.15
     },
     {
-      "kind" : "clouds1",
-      "baseCount" : 2,
-      "offset" : [0, 425],
-      "parallax" : [8, 7],
-      "minSpeed" : -10000,
-      "maxSpeed" : -10000,
-      "fadePercent" : 0.04
+      "kind" : "aridfront",
+      "offset" : [0, 400],
+      "parallax" : 2.5,
+      "fadePercent" : 0.15,
+      "directives" : "?hueshift=200?saturation=-15"
     },
     {
-      "kind" : "oilrig",
-      "offset" : [0, 450],
-      "parallax" : [9, 9],
-      "directives" : "",
-      "fadePercent" : 0.95,
-      "nohueshift" : true
+      "kind" : "aridback",
+      "offset" : [0, 390],
+      "parallax" : 12,
+      "directives" : "?hueshift=200?brightness=18?saturation=-12",
+      "fadePercent" : 0.3
     },
-    {
-      "kind" : "oilrig",
-      "offset" : [0, 525],
-      "parallax" : [8, 8],
-      "directives" : "",
-      "fadePercent" : 0.8,
-      "nohueshift" : true
-    },
-    {
-      "kind" : "midnightback",
-      "offset" : [50, 100],
-      "noRandomOffset" : true,
-      "parallax" : [10, 9.001],
-      "nohueshift" : true,
-      "fadePercent" : 0.05
-    },
+
     {
       "kind" : "midnightclouds",
       "baseCount" : 2,
-      "offset" : [0, 340],
-      "parallax" : 15
-    },
-    {
-      "kind" : "midnightclouds",
-      "baseCount" : 2,
-      "offset" : [0, 340],
+      "offset" : [0, 280],
       "parallax" : 15
     },
     {
       "kind" : "midnightclouds2",
       "baseCount" : 2,
-      "offset" : [0, 300],
-      "parallax" : 20
-    },
-    {
-      "kind" : "midnightclouds2",
-      "baseCount" : 2,
-      "offset" : [0, 300],
+      "offset" : [0, 240],
       "parallax" : 20
     },
     {
       "kind" : "midnightclouds3",
       "baseCount" : 2,
-      "offset" : [0, 260],
-      "parallax" : 25
-    },
-    {
-      "kind" : "midnightclouds3",
-      "baseCount" : 2,
-      "offset" : [0, 260],
+      "offset" : [0, 200],
       "parallax" : 25
     },
     {

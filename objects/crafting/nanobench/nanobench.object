@@ -16,7 +16,7 @@
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "Augment Station",
-        "subtitle" : "All your augmented reality needs.",
+        "subtitle" : "For all of your augmented reality needs.",
         "icon" : {
           "file" : "/interface/crafting/craftingicon.png"
         }

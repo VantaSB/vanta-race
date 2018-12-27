@@ -2,9 +2,8 @@
   "input" : [
     { "item" : "exoticcomponent1", "count" : 1 },
     { "item" : "augmentadaptor", "count" : 1 },
-    { "item" : "darkcrystal", "count" : 5 },
-    { "item" : "platinumbar", "count" : 2 },
-    { "item" : "durasteelbar", "count" : 2 }
+    { "item" : "crimsoniumrod", "count" : 3 },
+    { "item" : "azuritebar", "count" : 5 }
   ],
 
   "duration" : 30,

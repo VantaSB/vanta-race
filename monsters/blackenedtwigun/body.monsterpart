@@ -1,0 +1,11 @@
+{
+  "name" : "blackenedtwigun",
+  "category" : "blackenedtwigun",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodyfullbright" : "bodyfullbright.png",
+    "turret" : "turret.png"
+  }
+}

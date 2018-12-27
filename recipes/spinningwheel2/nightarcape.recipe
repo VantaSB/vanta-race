@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "simplecapeback", "count" : 1 },
+    { "item" : "darkfragmentore", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "nightarcapeback", "count" : 1 },
+  "groups" : [ "craftingwheel2", "clothes" ]
+}

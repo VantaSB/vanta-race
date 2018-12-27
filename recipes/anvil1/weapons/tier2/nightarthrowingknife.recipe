@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "nightarthrowingknife", "count" : 10 },
-  "groups" : [ "nightaranvil", "weapons", "all" ]
+  "groups" : [ "craftinganvil1", "weapons", "all" ]
 }

@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/groups", "value" : [ "craftingmedical2", "healing" ] }
+]

@@ -4,5 +4,6 @@
   { "op" : "add", "path" : "/labels/legarmorAug", "value" : "Augmented Legs" },
   { "op" : "add", "path" : "/labels/energyscythe", "value" : "Energy Scythe" },
   { "op" : "add", "path" : "/labels/energyspear", "value" : "Energy Spear" },
-  { "op" : "add", "path" : "/labels/research", "value" : "Research Materials" }
+  { "op" : "add", "path" : "/labels/research", "value" : "Research Materials" },
+  { "op" : "replace", "path" : "/labels/eppAugment", "value" : "Augment" }
 ]

@@ -3,8 +3,9 @@
 		"op" : "add",
 		"path" : "/visitableTypeDescription/blackened",
 		"value" : [
-			"Over-colonization led to a years-long war on this ^#3e5455;blackened ^white;planet, leaving it largely uninhabitable. Beware of the perpetual ^#503b24;corrosive rain^white;.",
-			"Unending industrialization has led to perpetual pollution, resulting in an unyielding ^#503b24;corrosive rain^white;."
+			"Complete industrialization has created a dense, perpetual smog covering this ^#3e5455;blackened^white; planet. You may want to ensure you're well-equipped before beaming down.",
+			"The air pollution from now-defunct industrial sites have resulted in an unyielding ^#503b24;corrosive rain^white; on this ^#3e5455;blackened^white; planet.",
+			"This ^#3e5455;blackened^white; planet's atmosphere makes it uninhabitable to most species; only certain species of monsters and leftover, artificial constructs populate it."
 		]
 	},
 

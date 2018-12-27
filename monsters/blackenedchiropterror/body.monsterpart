@@ -1,0 +1,10 @@
+{
+  "name" : "blackenedchiropterror",
+  "category" : "blackenedchiropterror",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "blackenedchiropterror.png",
+    "bodyfullbright" : "blackenedchiropterrorfullbright.png"
+  }
+}

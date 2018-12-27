@@ -5,5 +5,5 @@
     { "item" : "darkfragmentore", "count" : 5 }
   ],
   "output" : { "item" : "stealthdaggere", "count" : 1 },
-  "groups" : [ "nightaranvil", "weapons", "all" ]
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
 }

@@ -7,8 +7,26 @@
 			"layers" : {
 				"surface" : {
 					"primaryRegion" : [ "blackened" ],
-					"secondaryRegions" : [ ],
 					"dungeons" : [ ]
+				},
+				"subsurface" : {
+					"primaryRegion" : [ "blackenedunderground1" ]
+				},
+				"underground1" : {
+					"primaryRegion" : [ "blackenedunderground1" ],
+					"secondaryRegions" : []
+				},
+				"underground2" : {
+					"primaryRegion" : [ "blackenedunderground2" ],
+					"secondaryRegions" : []
+				},
+				"underground3" : {
+					"primaryRegion" : [ "blackenedunderground3" ],
+					"secondaryRegions" : []
+				},
+				"core" : {
+					"primaryRegion" : [ "mooncore" ],
+					"secondaryRegions" : []
 				}
 			}
 		}
@@ -27,6 +45,42 @@
 				[0, [ "blackened" ]]
 			],
 			"subRegion" : [ ]
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/regionTypes/blackenedunderground1",
+		"value" : {
+			"caveLiquid" : [ "tarliquid", "water", "liquidceruleumfuel" ],
+			"caveLiquidSeedDensityRange" : [0.2, 0.7],
+			"biome" : [
+				[0, [ "blackenedunderground1" ]]
+			]
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/regionTypes/blackenedunderground2",
+		"value" : {
+			"caveLiquid" : [ "tarliquid", "liquidceruleumfuel" ],
+			"caveLiquidSeedDensityRange" : [0.2, 0.7],
+			"biome" : [
+				[0, [ "blackenedunderground2" ]]
+			]
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/regionTypes/blackenedunderground3",
+		"value" : {
+			"caveLiquid" : [ "tarliquid", "liquidceruleumfuel" ],
+			"caveLiquidSeedDensityRange" : [0.2, 0.7],
+			"biome" : [
+				[0, [ "blackenedunderground3" ]]
+			]
 		}
 	}
 ]

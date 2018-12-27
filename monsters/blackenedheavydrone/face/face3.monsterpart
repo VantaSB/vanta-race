@@ -1,0 +1,9 @@
+{
+  "name" : "face3",
+  "category" : "blackenedheavydrone",
+  "type" : "face",
+
+  "frames" : {
+    "face" : "face3.png"
+  }
+}

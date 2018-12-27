@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "nightartier5pants", "count" : 1 },
-  "groups" : [ "nightaranvil", "armours", "all" ]
+  "groups" : [ "craftingseparator", "armours", "all" ]
 }

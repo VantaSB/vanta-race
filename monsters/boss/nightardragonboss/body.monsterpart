@@ -1,9 +1,0 @@
-{
-  "name" : "nightardragonbossbody",
-  "category" : "nightardragonboss",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

@@ -1,7 +1,7 @@
 {
   "name" : "blackened",
   "friendlyName" : "Blackened",
-  
+
   "statusEffects" : [],
 
   "weather" : [
@@ -13,44 +13,44 @@
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 1,
+        "select" : 2,
         "pool" : [
-          [ 0.1111, "scandroid" ],
-          [ 0.1111, "petricub" ],
-          [ 0.1111, "smoglin" ],
-          [ 0.1111, "batong" ],
-          [ 0.1111, "spookit" ],
-          [ 0.1111, "crustoise" ],
-          [ 0.1111, "pteropod" ],
-          [ 0.1111, "scaveran" ]
+          [ 0.3, "scandroid" ],
+          [ 0.2, "bobot" ]
         ]
       },
       {
-        "select" : 1,
+        "select" : 2,
         "pool" : [
-          [ 0.4, "xenofly" ],
-          [ 0.3, "shadowmoth" ],
-          [ 0.3, "blueback" ]
+          [ 0.1, "voltip" ],
+          [ 0.1, "minidrone" ]
         ]
       },
       {
-        "select" : 1,
-        "pool" : "generatedGroundAggroDay"
-      },
-      {
-        "select" : 3,
-        "pool" : "nightTerrors"
+        "select" : 2,
+        "pool" : [
+          [ 0.3, "triplod" ],
+          [ 0.3, "tintic" ]
+        ]
       },
       {
         "select" : 2,
-        "pool" : "generatedGround"
+        "pool" : [
+          [ 0.1, "blackenedchiropterror" ],
+          [ 0.1, "blackenedtrifangle" ],
+          [ 0.1, "blackenedheavydrone" ]
+        ]
       },
       {
         "select" : 2,
-        "pool" : "generatedFlying"
+        "pool" : [
+          [ 0.3, "blackenedtwigunSurface" ],
+          [ 0.3, "blackenedtwigunUnderground" ],
+          [ 0.2, "swarpion" ]
+        ]
       },
       {
-        "select" : 2,
+        "select" : 5,
         "pool" : [
           [ 1, "darkwormcritter" ],
           [ 1, "darkballcritter" ],
@@ -65,16 +65,12 @@
       }
     ],
     "monsterParameters" : {
-      "colors" : "snow"
-    }
-  },
-
-  "monsterParameters" : {
-    "colors" : "midnight",
-    "statusSettings" : {
-      "stats" : {
-        "poisonStatusImmunity" : {
-          "baseValue" : 1.0
+      //"colors" : "volcanic",
+      "statusSettings" : {
+        "stats" : {
+          "poisonStatusImmunity" : {
+            "baseValue" : 1.0
+          }
         }
       }
     }
@@ -84,30 +80,30 @@
     {
       "mainColor" : [255, 255, 255],
 
-      "morningColors" : [ [59, 48, 43], [59, 48, 43] ],
-      "dayColors" : [ [59, 48, 43], [59, 48, 43] ],
-      "eveningColors" : [ [59, 48, 43], [59, 48, 43] ],
-      "nightColors" : [ [59, 48, 43], [59, 48, 43] ],
+      "morningColors" : [ [45, 70, 82], [45, 70, 82] ],
+      "dayColors" : [ [45, 70, 82], [45, 70, 82] ],
+      "eveningColors" : [ [45, 70, 82], [45, 70, 82] ],
+      "nightColors" : [ [45, 70, 82], [45, 70, 82] ],
 
-      "morningLightColor" : [59, 48, 43],
-      "dayLightColor" : [59, 48, 43],
-      "eveningLightColor" : [59, 48, 43],
-      "nightLightColor" : [59, 48, 43]
+      "morningLightColor" : [45, 70, 82],
+      "dayLightColor" : [45, 70, 82],
+      "eveningLightColor" : [45, 70, 82],
+      "nightLightColor" : [45, 70, 82]
     }
   ],
 
   "mainBlock" : "obsidian",
-  "subBlocks" : [ "magmarock", "cobblestone", "direstone" ],
+  "subBlocks" : [ "cobblestone", "direstone" ],
   "ores" : "surface",
 
   "parallax" : "/parallax/surface/blackened.parallax",
 
   "ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/moon_surface.ogg" ]
+      "tracks" : [  ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/moon_surface.ogg" ]
+      "tracks" : [  ]
     }
   },
 
@@ -129,7 +125,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+        "distribution" : "/biomes/distributions.config:overgroundChests",
 
         "type" : "object",
         "objectSets" : [
@@ -139,6 +135,45 @@
           }
         ]
       },
+
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [
+              [0.50, "groundspike1" ],
+              [0.50, "groundspike2" ],
+              [0.50, "groundspike3" ],
+              [0.50, "groundspike4" ],
+              [0.50, "copperrock" ],
+              [0.50, "copperrocksmall" ],
+              [0.50, "silverrock" ],
+              [0.50, "silverrocksmall" ],
+              [0.50, "goldrock" ],
+              [0.50, "goldrocksmall" ],
+              [0.50, "diamondrock" ],
+              [0.50, "diamondrocksmall" ]
+            ],
+            "parameters" : { "startingStage" : 3 }
+          }
+        ]
+      },
+
+      /*{
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "toxicmicrodungeons" ]
+      },*/
+
       {
         "mode" : "floor",
         "priority" : 3.0,
@@ -146,8 +181,9 @@
         "distribution" : "/biomes/distributions.config:tiyDist",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
       },
+
       {
         "mode" : "floor",
         "priority" : 3.0,
@@ -155,7 +191,70 @@
         "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
 
         "type" : "microdungeon",
-        "microdungeons" : [ "terrainfeatures" ]
+        "microdungeons" : [ "terrainfeatures", "rockclimb", "rocktunnel" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistPlatform",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:potsRare",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "rust"],
+        "treeFoliageList" : [ "" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "rustbush1" ], [0.35, "rustbush2" ], [0.35, "rustbush3" ], [0.35, "rustbush4" ]],
+            "parameters" : { }
+          }
+        ]
       }
     ]
   },
@@ -179,6 +278,17 @@
           }
         ]
       },
+
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+
       {
         "mode" : "floor",
         "priority" : 1.0,

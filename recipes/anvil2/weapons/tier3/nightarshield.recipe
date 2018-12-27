@@ -5,5 +5,5 @@
   ],
   "duration" : 10,
   "output" : { "item" : "nightarshield", "count" : 1 },
-  "groups" : [ "nightaranvil", "weapons", "all" ]
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
 }

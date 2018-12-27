@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "pickupQuestTemplates" : [ ],
   "category" : "enviroProtectionPack",
-  "description" : "A miniaturized EPP that protects from biome and weather hazards.\nHelpful on ^cyan;all^reset; planets.",
+  "description" : "A nano-sized EPP that protects from biome hazards.\nHelpful on ^cyan;all^reset; planets.",
   "shortdescription" : "Nightar EPP",
 
   "maleFrames" : "back.png",

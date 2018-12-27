@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "nightartier4chest", "count" : 1 },
-  "groups" : [ "nightaranvil", "armours", "all" ]
+  "groups" : [ "craftinganvil3", "armours", "all" ]
 }

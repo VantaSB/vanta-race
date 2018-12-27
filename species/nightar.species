@@ -49,14 +49,10 @@
       { "item" : "nightar_durasteelbroadsword" },
 	    { "item" : "nightar_durasteelshortsword" },
 	    { "item" : "nightarshield" },
-	    { "item" : "nightiumshard" },
 
 
 
 // Anvil3
-	    { "item" : "nightarsghead" },
-	    { "item" : "nightarsgchest" },
-	    { "item" : "nightarsgpants" },
       { "item" : "nightartier5head" },
       { "item" : "nightartier5chest" },
       { "item" : "nightartier5pants" },
@@ -68,65 +64,23 @@
 
       { "item" : "nightar_violiumbroadsword1" },
       { "item" : "nightar_violiumbroadsword2" },
-	    { "item" : "nightar_violiumshortsword2" },
-	    { "item" : "yorunoyumi" },
+	    { "item" : "nightar_shortsword" },
 
-
-	    { "item" : "nightarhealingaugment" },
-	    { "item" : "nightarhealthaugment" },
 	    { "item" : "nightarheatprotectionback" },
 
-
-	  //---------------------------------------GLITCH STUFF-------------------
-
-	  // Anvil
-      { "item" : "glitchtier1head" },
-      { "item" : "glitchtier1chest" },
-      { "item" : "glitchtier1pants" },
-      { "item" : "glitchtier2head" },
-      { "item" : "glitchtier2chest" },
-      { "item" : "glitchtier2pants" },
-
+// Anvil
       { "item" : "ironshortsword" },
       { "item" : "ironbroadsword" },
       { "item" : "tungstenaxe" },
       { "item" : "tungstenhammer" },
 
 // Anvil2
-      { "item" : "glitchtier3head" },
-      { "item" : "glitchtier3chest" },
-      { "item" : "glitchtier3pants" },
-      { "item" : "glitchtier4head" },
-      { "item" : "glitchtier4chest" },
-      { "item" : "glitchtier4pants" },
-
       { "item" : "titaniumdagger" },
       { "item" : "titaniumspear" },
       { "item" : "durasteelbroadsword" },
       { "item" : "durasteelshortsword" },
 
 // Anvil3
-      { "item" : "glitchtier5ahead" },
-      { "item" : "glitchtier5achest" },
-      { "item" : "glitchtier5apants" },
-      { "item" : "glitchtier6ahead" },
-      { "item" : "glitchtier6achest" },
-      { "item" : "glitchtier6apants" },
-
-      { "item" : "glitchtier5mhead" },
-      { "item" : "glitchtier5mchest" },
-      { "item" : "glitchtier5mpants" },
-      { "item" : "glitchtier6mhead" },
-      { "item" : "glitchtier6mchest" },
-      { "item" : "glitchtier6mpants" },
-
-      { "item" : "glitchtier5shead" },
-      { "item" : "glitchtier5schest" },
-      { "item" : "glitchtier5spants" },
-      { "item" : "glitchtier6shead" },
-      { "item" : "glitchtier6schest" },
-      { "item" : "glitchtier6spants" },
-
       { "item" : "aegisaltpistol" },
       { "item" : "aegisaltbow" },
       { "item" : "feroziumwand" },
@@ -134,50 +88,29 @@
       { "item" : "violiumshortsword" },
       { "item" : "violiumbroadsword" },
 
-
-
-	  //------------------------------------------END OF GLITCH STUFF--------------------------------------
-
-
-	  //----------------------------------------------- everything after here for later-------------------------------------------------------------
-
-
-
 // Furniture Table 2
       { "item" : "nightarstoragelocker" },
       { "item" : "nightarshipdoor" },
       { "item" : "nightarshiphatch" },
 
 // Spinning Wheel
-
+      { "item" : "nightarsghead" },
+      { "item" : "nightarsgchest" },
+      { "item" : "nightarsgpants" },
+      { "item" : "nightargeneric1chest" },
+      { "item" : "nightargeneric1pants" },
 	    { "item" : "nightar_suithead" },
 	    { "item" : "nightar_suitchest" },
 	    { "item" : "nightar_suitlegs" },
-
       { "item" : "coolchest" },
       { "item" : "coollegs" },
       { "item" : "sweatervestchest" },
       { "item" : "sweatervestlegs" },
       { "item" : "workoutchest" },
       { "item" : "workoutlegs" },
-	    { "item" : "craftsmenchest" },
-      { "item" : "craftsmenlegs" },
-      { "item" : "merchantchest" },
-      { "item" : "merchantlegs" },
-      { "item" : "noblechest" },
-      { "item" : "noblelegs" },
-      { "item" : "peasantchest" },
-      { "item" : "peasantlegs" },
-	    { "item" : "kimonochest" },
-      { "item" : "kimonolegs" },
-      { "item" : "monkchest" },
-      { "item" : "monklegs" },
-      { "item" : "traditionalchest" },
-      { "item" : "traditionallegs" },
-      { "item" : "traineechest" },
-      { "item" : "traineelegs" },
+      { "item" : "nightarcapeback" },
 
-      //----------------------------------------------- default augment recipes -------------------------------------------------------------
+// Default Augments
       { "item" : "damageaugment1" },
       { "item" : "energyaugment1" },
       { "item" : "healingaugment1" },

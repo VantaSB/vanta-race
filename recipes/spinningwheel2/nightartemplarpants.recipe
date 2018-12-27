@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "nightartemplarpants", "count" : 1 },
-  "groups" : [ "craftingwheel", "clothes" ]
+  "groups" : [ "craftingwheel2", "clothes" ]
 }

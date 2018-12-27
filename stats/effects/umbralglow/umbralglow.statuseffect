@@ -1,0 +1,12 @@
+{
+  "name" : "umbralglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [ "/stats/effects/lightaugment/lightaugment.lua" ],
+
+  "animationConfig" : "umbralglow.animation",
+
+  "label" : "Umbral Glow",
+  "icon" : "/interface/statuses/umbralglow.png"
+}

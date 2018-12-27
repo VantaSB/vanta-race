@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "nightar_violiumbroadsword2", "count" : 1 },
-  "groups" : [ "nightaranvil", "weapons", "all" ]
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
 }

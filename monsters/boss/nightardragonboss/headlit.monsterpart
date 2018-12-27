@@ -1,9 +1,0 @@
-{
-  "name" : "nightardragonbossheadlit",
-  "category" : "nightardragonboss",
-  "type" : "headlit",
-
-  "frames" : {
-    "headlit" : "headlit.png"
-  }
-}

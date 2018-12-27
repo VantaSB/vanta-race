@@ -1,5 +1,5 @@
 {
-  "materialId" : 3712,
+  "materialId" : 3715,
   "materialName" : "nightarpanelblock",
   "particleColor" : [20, 20, 20, 255],
   "itemDrop" : "nightarpanelblock",
@@ -10,7 +10,7 @@
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,
   "category": "materials",
-  
+
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "nightarpanelblock.png",
