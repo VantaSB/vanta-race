@@ -1,9 +1,9 @@
 {
-  "itemName" : "nightarcastleblock",
+  "itemName" : "nightarcastleblock1",
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "nightarcastleblock.png",
+  "inventoryIcon" : "nightarcastleblock1.png",
   "description" : "Mysterious Castle Blocks.",
   "shortdescription" : "Nightars Castle Block",
   "glitchDescription" : "Confused. Mysterious Castle Blocks.",

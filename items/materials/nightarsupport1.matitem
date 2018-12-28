@@ -1,9 +1,9 @@
 {
-  "itemName" : "nightarsupport",
+  "itemName" : "nightarsupport1",
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "nightarsupport.png",
+  "inventoryIcon" : "nightarsupport1.png",
   "description" : "A reinforced support beam.",
   "shortdescription" : "Nightars Support Beam",
   "glitchDescription" : "Observant. Some kind of metalic support beam.",
