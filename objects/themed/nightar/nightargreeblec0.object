@@ -1,0 +1,55 @@
+{
+  "objectName" : "nightargreebleC0",
+  "colonyTags" : ["nightar"],
+  "printable" : false,
+  "rarity" : "legendary",
+  "category" : "decorative",
+
+  "price" : 25,
+  "description" : "An aesthetic Nightar embellishment.",
+  "shortdescription" : "Nightar Greeble",
+  "race" : "generic",
+
+  "apexDescription" : "A tasteful, aesthetic, Nightar embellishment.",
+  "avianDescription" : "An aesthetic, Nightar embellishment.",
+  "floranDescription" : "Impervium thing doesss what?",
+  "glitchDescription" : "Curious. This Nightar object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic Nightar embellishment.",
+  "novakidDescription" : "Purdy piece o' Nightar styling there.",
+
+  "inventoryIcon" : "nightargreebleC0icon.png",
+
+  "orientations" : [
+    {
+      "image" : "nightargreebleC0.png",
+      "imagePosition" : [0,-8],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [1,1],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightargreebleC0.png?flipx",
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [-1,1],[-1,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightargreebleC0bottom.png",
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [-1,-1],[1,-1] ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightargreebleC0top.png",
+      "imagePosition" : [-8, -1],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [-1,1],[1,1] ],
+      "collision" : "solid"
+    }
+  ]
+}

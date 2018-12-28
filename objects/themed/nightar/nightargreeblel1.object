@@ -1,0 +1,89 @@
+{
+  "objectName" : "nightargreebleL1",
+  "colonyTags" : ["nightar"],
+  "printable" : false,
+  "rarity" : "legendary",
+  "category" : "decorative",
+
+  "price" : 35,
+  "description" : "An aesthetic Nightar embellishment.",
+  "shortdescription" : "Nightar Greeble",
+  "race" : "generic",
+
+  "apexDescription" : "A tasteful, aesthetic, Nightar embellishment.",
+  "avianDescription" : "An aesthetic, Nightar embellishment.",
+  "floranDescription" : "Impervium thing doesss what?",
+  "glitchDescription" : "Curious. This Nightar object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic Nightar embellishment.",
+  "novakidDescription" : "Purdy piece o' Nightar styling there.",
+
+  "inventoryIcon" : "nightargreebleL1icon.png",
+
+  "orientations" : [
+    {
+      "image" : "nightargreebleL1.png",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1,0],[-1,-1], [0,-1] ],
+      "fgAnchors" : [ [0,0] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightargreebleL1.png?flipx",
+      "imagePosition" : [0,-8],
+      "spaces" : [ [1,0], [1,-1], [0,-1] ],
+      "fgAnchors" : [ [0,0 ] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightargreebleL1top.png",
+      "imagePosition" : [-8,0],
+      "spaces" : [ [-1,1], [0,1], [-1,0] ],
+      "fgAnchors" : [ [0,0] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightargreebleL1top.png?flipx",
+      "imagePosition" : [0,0],
+      "spaces" : [ [0,1], [1,1], [1,0] ],
+      "fgAnchors" : [ [0,0] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightargreebleL1inverted.png",
+      "imagePosition" : [0,0],
+      "spaces" : [ [0,1], [0,0], [1,0] ],
+      "fgAnchors" : [ [-1,1],[-1,0],[0,-1],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightargreebleL1inverted.png?flipx",
+      "imagePosition" : [-8,0],
+      "spaces" : [ [0,1], [0,0], [-1,0] ],
+      "fgAnchors" : [ [1,1],[1,0],[-1,-1],[0,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightargreebleL1invertedtop.png",
+      "imagePosition" : [0,-8],
+      "spaces" : [ [0,0],[1,0],[0,-1] ],
+      "fgAnchors" : [ [0,1],[1,1],[-1,0],[-1,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightargreebleL1invertedtop.png?flipx",
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [-1,0],[0,0],[0,-1] ],
+      "fgAnchors" : [ [-1,1],[0,1],[1,0],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    }
+  ]
+}
