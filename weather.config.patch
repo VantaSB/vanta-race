@@ -1,9 +1,9 @@
 [
 	{
 		"op" : "add",
-		"path" : "/blackened",
+		"path" : "/blackmoonstorm",
 		"value" : [
-			[1.0, "acidrain"]
+			[1.0, "storm"]
 		]
 	}
 ]

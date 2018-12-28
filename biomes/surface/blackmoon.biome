@@ -1,0 +1,247 @@
+{
+  "name" : "blackmoon",
+  "friendlyName" : "Black Moon",
+
+  "statusEffects" : [ "biomecold" ],
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [
+          [ 0.1666, "lilodon" ],
+          [ 0.1666, "monopus" ],
+          [ 0.1666, "taroni" ],
+          [ 0.1666, "ignome" ],
+          [ 0.1666, "smoglin" ],
+          [ 0.1666, "petricub" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.4, "tidefly" ],
+          [ 0.3, "seahornet" ],
+          [ 0.3, "wavebird" ]
+        ]
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "gullcritter" ],
+          [ 1, "squidcritter" ],
+          [ 1, "jellycritter" ],
+          [ 1, "crabcritter" ],
+          [ 1, "fishlemoncritter" ],
+          [ 1, "fishberrycritter" ],
+          [ 1, "fishchilicritter" ],
+          [ 1, "tortoisecritter" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "ocean"
+    }
+  },
+
+  "hueShiftOptions" : [-15, 0, 15],
+
+  "weather" : [
+    [0, [
+      "/weather.config:blackmoonstorm"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      // sunny earth days, red/orange sunrise and purple/red sunset
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [69, 44, 89], [69, 44, 89] ],
+      "dayColors" : [ [69, 44, 89], [69, 44, 89] ],
+      "eveningColors" : [ [69, 44, 89], [69, 44, 89] ],
+      "nightColors" : [ [69, 44, 89], [69, 44, 89] ],
+
+      "morningLightColor" : [69, 44, 89],
+      "dayLightColor" : [69, 44, 89],
+      "eveningLightColor" : [69, 44, 89],
+      "nightLightColor" : [69, 44, 89]
+    }
+  ],
+
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "direstone" ],
+  "ores" : "none",
+
+  "parallax" : "/parallax/surface/blackmoonocean.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/ocean_surface_stormy.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/ocean_surface_stormy.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ ]
+    },
+    "night" : {
+      "tracks" : [ ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "blackash" ],
+    "grassModDensity" : 0.3,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "oceanChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundweaponChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      /*{
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "oceanislandsmicrodungeons" ]
+      },*/
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 0.5,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseLarge",
+
+        "type" : "tree",
+        "treeStemList" : [ "darkrock" ],
+        "treeFoliageList" : [ ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "shadowrock1" ], [0.35, "shadowrock2" ], [0.35, "shadowrock3" ], [0.35, "shadowrock4" ], [ 0.35, "shadowrock5" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "boltbulbseed" ] ],
+            "parameters" : {
+              "startingStage" : 4
+            }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCrops",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "wartweedseed" ] ],
+            "parameters" : {
+              "startingStage" : 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "blackash" ],
+    "grassModDensity" : 0.9,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+}

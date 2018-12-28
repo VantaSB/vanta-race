@@ -1,6 +1,6 @@
 {
   "materialId" : 3716,
-  "materialName" : "nightarswall1",
+  "materialName" : "nightarwall1",
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarwall1",
   "description" : "Nightar plain concrete.",

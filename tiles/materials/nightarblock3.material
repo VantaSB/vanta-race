@@ -4,14 +4,14 @@
   "particleColor" : [20, 20, 20, 255],
   "itemDrop" : "nightarblock3",
   "description" : "A solid block of impervium.",
-  "shortdescription" : "Executive Block",
+  "shortdescription" : "Nightar Block",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "executiveblock.png",
+    "texture" : "nightarblock3.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" :true,

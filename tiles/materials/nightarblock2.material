@@ -4,14 +4,14 @@
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarcastleblock2",
   "description" : "Mysterious Castle Blocks.",
-  "shortdescription" : "Nightars Castle Block",
+  "shortdescription" : "Nightar castle block",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "nightarcastleblock2.png",
+    "texture" : "nightarblock2.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
