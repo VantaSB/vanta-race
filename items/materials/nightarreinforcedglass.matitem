@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightarreinforcedglass",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarreinforcedglassicon.png",
+  "description" : "Nightar reinforced glass.",
+  "shortdescription" : "Nightar Reinforced Glass",
+
+  "materialId" : 3708
+}

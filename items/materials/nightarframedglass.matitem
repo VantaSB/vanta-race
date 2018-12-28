@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightarframedglass",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarframedglassicon.png",
+  "description" : "Nightar framed glass.",
+  "shortdescription" : "Nightar Framed Glass",
+
+  "materialId" : 3705
+}

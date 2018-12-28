@@ -1,0 +1,21 @@
+{
+  "materialId" : 3708,
+  "materialName" : "nightarreinforcedglass",
+  "particleColor" : [0, 0, 60, 255],
+  "itemDrop" : "nightarreinforcedglass",
+  "description" : "Glass reinforced with impervium.",
+  "shortdescription" : "Nightar Glass",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 16,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "nightarreinforcedglass.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" :true,
+    "occludesBelow" : false,
+    "zLevel" : 470
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightartiles",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightartilesicon.png",
+  "description" : "Nightar tiles made from unknown materials.",
+  "shortdescription" : "Nightar Tiles",
+
+  "materialId" : 3715
+}

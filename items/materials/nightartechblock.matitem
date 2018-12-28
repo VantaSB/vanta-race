@@ -3,12 +3,9 @@
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "nightartechblock.png",
-  "shortdescription" : "Nightars Tech Block",
-  "description" : "Blocks made from unknow Nightars technologies.",
-  "glitchDescription" : "Confused. What is this.",
-  "floranDescription" : "Floran brain doessn't undersstand thiss.",
-  "novakidDescription" : "Hmmm, what is this?",
+  "inventoryIcon" : "nightartechblockicon.png",
+  "description" : "Tech-laced blocks made from unknown technology.",
+  "shortdescription" : "Nightar Tech Block",
 
-  "materialId" : 3708
+  "materialId" : 3714
 }

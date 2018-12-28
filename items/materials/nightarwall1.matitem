@@ -3,12 +3,9 @@
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "nightarwall1.png",
-  "description" : "Nightar plain concrete.",
+  "inventoryIcon" : "nightarwall1icon.png",
+  "description" : "Concrete made from unknown materials.",
   "shortdescription" : "Nightar Concrete",
-  "glitchDescription" : "Informed. This specially designed concrete is quick drying.",
-  "floranDescription" : "Floran disslikess cold hard concrete.",
-  "novakidDescription" : "This concrete looks mighty tough.",
 
-  "materialId" : 3707
+  "materialId" : 3716
 }

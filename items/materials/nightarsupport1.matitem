@@ -3,12 +3,9 @@
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "nightarsupport1.png",
-  "description" : "A reinforced support beam.",
+  "inventoryIcon" : "nightarsupport1icon.png",
+  "description" : "A reinforced support beam made from unknownmaterials.",
   "shortdescription" : "Nightars Support Beam",
-  "glitchDescription" : "Observant. Some kind of metalic support beam.",
-  "floranDescription" : "Ssupport beam.",
-  "novakidDescription" : "Looks t'me like a big metal beam.",
 
-  "materialId" : 3705
+  "materialId" : 3712
 }

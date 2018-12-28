@@ -1,21 +1,21 @@
 {
-  "materialId" : 3706,
-  "materialName" : "nightarpanelblock",
+  "materialId" : 3709,
+  "materialName" : "nightarroofing",
   "particleColor" : [20, 20, 20, 255],
-  "itemDrop" : "nightarpanelblock",
-  "description" : "A tough panel made of impervium.",
-  "shortdescription" : "Nightar Paneling",
+  "itemDrop" : "nightarroofing",
+  "description" : "Tough roofing made of impervium.",
+  "shortdescription" : "Nightar Roofing",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "nightarpanelblock.png",
-    "variants" : 5,
+    "texture" : "nightarroofing.png",
+    "variants" : 1,
     "lightTransparent" : false,
     "multiColored" :true,
     "occludesBelow" : true,
-    "zLevel" : 3000
+    "zLevel" : 100
   }
 }

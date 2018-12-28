@@ -1,12 +1,10 @@
 {
-  "materialId" : 3716,
+  "materialId" : 3711,
   "materialName" : "nightarslopedhullpanel",
   "particleColor" : [20, 20, 20, 255],
   "itemDrop" : "nightarslopedhullpanel",
   "description" : "Panels of impervium metal.",
   "shortdescription" : "Nightar Hull Panel",
-  "glitchDescription" : "Analysis. Impervium hull panel.",
-  "floranDescription" : "Impervium.",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,
   "category" : "materials",

@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightarpillarblock",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarpillarblockicon.png",
+  "description" : "A pillar made with unknown materials.",
+  "shortdescription" : "Nightar Pillar",
+
+  "materialId" : 3707
+}

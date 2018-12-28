@@ -1,21 +1,21 @@
 {
-  "materialId" : 3706,
-  "materialName" : "nightarpanelblock",
+  "materialId" : 3715,
+  "materialName" : "nightartiles",
   "particleColor" : [20, 20, 20, 255],
-  "itemDrop" : "nightarpanelblock",
-  "description" : "A tough panel made of impervium.",
-  "shortdescription" : "Nightar Paneling",
+  "itemDrop" : "nightartiles",
+  "description" : "A tough tile made of impervium.",
+  "shortdescription" : "Nightar Tile",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "nightarpanelblock.png",
-    "variants" : 5,
+    "texture" : "nightartiles.png",
+    "variants" : 1,
     "lightTransparent" : false,
     "multiColored" :true,
     "occludesBelow" : true,
-    "zLevel" : 3000
+    "zLevel" : 0
   }
 }

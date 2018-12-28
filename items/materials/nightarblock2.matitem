@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightarcastleblock2",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarcastleblock2icon.png",
+  "description" : "A white block made of unknown materials.",
+  "shortdescription" : "Nightar white Block",
+
+  "materialId" : 3702
+}

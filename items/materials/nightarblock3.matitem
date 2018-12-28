@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightarblock3",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarblock3icon.png",
+  "description" : "A block made of unknown materials.",
+  "shortdescription" : "Executive Block",
+
+  "materialId" : 3703
+}

@@ -1,11 +1,11 @@
 {
   "itemName" : "nightarpanelblock",
   "price" : 15,
-  "category" : "Block",
+  "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "nightarpanelblock.png",
-  "description" : "Panels made with exotic Nightar materials.",
+  "inventoryIcon" : "nightarpanelblockicon.png",
+  "description" : "Panels made with unknown materials.",
   "shortdescription" : "Nightar Paneling",
 
-  "materialId" : 3715
+  "materialId" : 3706
 }
