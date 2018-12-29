@@ -4,7 +4,7 @@
   "collisionKind" : "platform",
   "itemDrop" : "nightarplatform",
   "shortdescription" : "Nightar Platform",
-  "description" : "Strong platform made from unknown materials.",
+  "description" : "A strong platform made of unknown materials.",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
   "category" : "Supports",
 

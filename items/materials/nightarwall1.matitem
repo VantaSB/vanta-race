@@ -4,7 +4,7 @@
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "nightarwall1icon.png",
-  "description" : "Concrete made from unknown materials.",
+  "description" : "Concrete made of unknown materials.",
   "shortdescription" : "Nightar Concrete",
 
   "materialId" : 3716

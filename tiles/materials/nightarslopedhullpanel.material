@@ -3,7 +3,7 @@
   "materialName" : "nightarslopedhullpanel",
   "particleColor" : [20, 20, 20, 255],
   "itemDrop" : "nightarslopedhullpanel",
-  "description" : "Panels of impervium metal.",
+  "description" : "Nightar hull material that can withstand the harsh void of space.",
   "shortdescription" : "Nightar Hull Panel",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,

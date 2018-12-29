@@ -1,10 +1,10 @@
 {
   "materialId" : 3705,
   "materialName" : "nightarframedglass",
-  "particleColor" : [0, 0, 60, 255],
+  "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarframedglass",
-  "description" : "Framed glass reinforced with impervium.",
-  "shortdescription" : "Nightar Window",
+  "description" : "Nightar-made glass, framed for styling.",
+  "shortdescription" : "Nightar Framed Glass",
   "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "health" : 16,
   "category": "materials",

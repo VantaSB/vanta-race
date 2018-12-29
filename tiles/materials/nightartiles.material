@@ -3,7 +3,7 @@
   "materialName" : "nightartiles",
   "particleColor" : [20, 20, 20, 255],
   "itemDrop" : "nightartiles",
-  "description" : "A tough tile made of impervium.",
+  "description" : "Nightar tiles made of unknown materials.",
   "shortdescription" : "Nightar Tile",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,

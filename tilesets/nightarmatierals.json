@@ -1,0 +1,211 @@
+{
+  "margin" : 0,
+  "name" : "nightarmaterials",
+  "properties" : {},
+  "spacing" : 0,
+  "tilecount" : 18,
+  "tileheight" : 16,
+  "tileproperties" : {
+    "3701" : {
+      "//description" : "A black block made of unknown materials.",
+      "//name" : "nightarblock1",
+      "//shortdescription" : "Nightar Black Block",
+      "material" : "nightarblock1"
+    },
+
+    "3702" : {
+      "//description" : "A white block made of unknown materials.",
+      "//name" : "nightarblock2",
+      "//shortdescription" : "Nightar White Block",
+      "material" : "nightarblock2"
+    },
+
+    "3703" : {
+      "//description" : "A block made of unknown materials.",
+      "//name" : "nightarblock3",
+      "//shortdescription" : "Nightar Block",
+      "material" : "nightarblock3"
+    },
+
+    "3704" : {
+      "//description" : "Traditional Nightar flooring.",
+      "//name" : "nightarfloor",
+      "//shortdescription" : "Nightar Floor",
+      "material" : "nightarfloor"
+    },
+
+    "3705" : {
+      "//description" : "Nightar-made glass, framed for styling.",
+      "//name" : "nightarframedglass",
+      "//shortdescription" : "Nightar Framed Glass",
+      "material" : "nightarframedglass"
+    },
+
+    "3706" : {
+      "//description" : "Panelling made of unknown materials.",
+      "//name" : "nightarpanelblock",
+      "//shortdescription" : "Nightar Panelling",
+      "material" : "nightarpanelblock"
+    },
+
+    "3707" : {
+      "//description" : "An high-tech pillar.",
+      "//name" : "nightarpillarblock",
+      "//shortdescription" : "Nightar Pillar",
+      "material" : "nightarpillarblock"
+    },
+
+    "3708" : {
+      "//description" : "Nightar-made reinforced glass.",
+      "//name" : "nightarreinforcedclass",
+      "//shortdescription" : "Nightar Reinforced Glass",
+      "material" : "nightarreinforcedglass"
+    },
+
+    "3709" : {
+      "//description" : "Nightar roofing made of unknown materials.",
+      "//name" : "nightarroofing",
+      "//shortdescription" : "Nightar Concrete",
+      "material" : "nightarroofing"
+    },
+
+    "3710" : {
+      "//description" : "Panelling used in Nightar ships.",
+      "//name" : "nightarshipblock",
+      "//shortdescription" : "Nightar Ship Wall",
+      "material" : "nightarshipblock"
+    },
+
+    "3711" : {
+      "//description" : "Nightar hull material that can withstand the harsh void of space.",
+      "//name" : "nightarslopedhullpanel",
+      "//shortdescription" : "Nightar Hull Panel",
+      "material" : "nightarslopedhullpanel"
+    },
+
+    "3712" : {
+      "//description" : "A reinforced support beam made of unknown materials.",
+      "//name" : "nightarsupport1",
+      "//shortdescription" : "Nightar Support Beam",
+      "material" : "nightarsupport1"
+    },
+
+    "3713" : {
+      "//description" : "Reinforced baseboarding made of unknown materials.",
+      "//name" : "nightarsupport2",
+      "//shortdescription" : "Nightar Ship Details",
+      "material" : "nightarsupport2"
+    },
+
+    "3714" : {
+      "//description" : "Nightar tech-infused blocks.",
+      "//name" : "nightartechblock",
+      "//shortdescription" : "Nightar Tech Block",
+      "material" : "nightartechblock"
+    },
+
+    "3715" : {
+      "//description" : "Nightar tiles made of unknown materials.",
+      "//name" : "nightartiles",
+      "//shortdescription" : "Nightar Tiles",
+      "material" : "nightartiles"
+    },
+
+    "3716" : {
+      "//description" : "Concrete made of unknown materials.",
+      "//name" : "nightarwall1",
+      "//shortdescription" : "Nightar Concrete",
+      "material" : "nightarwall1"
+    },
+
+    "3717" : {
+      "//description" : "A black wall infused with some Nightar technology.",
+      "//name" : "nightarwall2",
+      "//shortdescription" : "Nightar Tech Wall",
+      "material" : "nightarwall2"
+    },
+
+    "3718" : {
+      "//description" : "A strong platform made of unknown materials.",
+      "//name" : "nightarplatform",
+      "//shortdescription" : "Nightar Platform",
+      "material" : "nightarplatform"
+    }
+  },
+
+  "tiles" : {
+    "3701" : {
+      "image" : "/nightartiles/nightarblock1.png"
+    },
+
+    "3702" : {
+      "image" : "/nightartiles/nightarblock2.png"
+    },
+
+    "3703" : {
+      "image" : "/nightartiles/nightarblock3.png"
+    },
+
+    "3704" : {
+      "image" : "/nightartiles/nightarfloor.png"
+    },
+
+    "3705" : {
+      "image" : "/nightartiles/nightarframedglass.png"
+    },
+
+    "3706" : {
+      "image" : "/nightartiles/nightarpanelblock.png"
+    },
+
+    "3707" : {
+      "image" : "/nightartiles/nightarpillarblock.png"
+    },
+
+    "3708" : {
+      "image" : "/nightartiles/nightarreinforcedglass.png"
+    },
+
+    "3709" : {
+      "image" : "/nightartiles/nightarroofing.png"
+    },
+
+    "3710" : {
+      "image" : "/nightartiles/nightarshipblock.png"
+    },
+
+    "3711" : {
+      "image" : "/nightartiles/nightarslopedhullpanel.png"
+    },
+
+    "3712" : {
+      "image" : "/nightartiles/nightarsupport1.png"
+    },
+
+    "3713" : {
+      "image" : "/nightartiles/nightarsupport2.png"
+    },
+
+    "3714" : {
+      "image" : "/nightartiles/nightartechblock.png"
+    },
+
+    "3715" : {
+      "image" : "/nightartiles/nightartiles.png"
+    },
+
+    "3716" : {
+      "image" : "/nightartiles/nightarwall1.png"
+    },
+
+    "3717" : {
+      "image" : "/nightartiles/nightarwall2.png"
+    },
+
+    "3718" : {
+      "image" : "/nightartiles/nightarplatform.png"
+    }
+  },
+
+  "tilewidth" : 16
+}

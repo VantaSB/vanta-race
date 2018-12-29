@@ -3,7 +3,7 @@
   "materialName" : "nightarwall2",
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarwall2",
-  "description" : "A black wall infused with some unknown Nightar technology.",
+  "description" : "A black wall infused with some Nightar technology.",
   "shortdescription" : "Nightar Tech Wall",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,

@@ -4,7 +4,7 @@
   "category" : "platform",
   "rarity" : "Common",
   "inventoryIcon" : "nightarplatformicon.png",
-  "description" : "Strong platform made from unknown materials.",
+  "description" : "A strong platform made of unknown materials.",
   "shortdescription" : "Nightar Platform",
 
   "materialId" : 3718

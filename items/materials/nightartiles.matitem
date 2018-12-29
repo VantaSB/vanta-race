@@ -4,7 +4,7 @@
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "nightartilesicon.png",
-  "description" : "Nightar tiles made from unknown materials.",
+  "description" : "Nightar tiles made of unknown materials.",
   "shortdescription" : "Nightar Tiles",
 
   "materialId" : 3715

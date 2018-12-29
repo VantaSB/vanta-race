@@ -4,7 +4,7 @@
   "particleColor" : [149, 149, 149, 255],
   "itemDrop" : "nightartechblock",
   "shortdescription" : "Nightar Tech Block",
-  "description" : "Blocks made from unknown Nightars technology.",
+  "description" : "Nightar tech-infused blocks.",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
   "category" : "materials",
