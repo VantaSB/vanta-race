@@ -1,4 +1,6 @@
 [
+	{ "op" : "replace", "path" : "/useSecondaryEnvironmentBiomeIndex", "value" : true },
+
 	{
 		"op" : "add",
 		"path" : "/planetTypes/blackmoon",
@@ -14,12 +16,10 @@
 					"primaryRegion" : ["blackmoonatmosphere"]
 				},
 				"surface" : {
-					"primaryRegion" : ["blackmoon"],
-					"baseHeight" : 750,
-					"layerLevel" : 700
+					"primaryRegion" : ["blackmoonocean"]
 				},
 				"subsurface" : {
-					"primaryRegion" : ["blackmoonfloor"]
+					"primaryRegion" : ["blackmoonoceanfloor"]
 				}
 			}
 		}
@@ -27,32 +27,22 @@
 
 	{
 		"op" : "add",
-		"path" : "/regionTypes/blackmoonatmosphere",
-		"value" : {
-			"blockSelector" : [ "empty" ],
-			"biome" : [
-				[1, [ "blackmoonatmosphere" ]]
-			]
-		}
-	},
-
-	{
-		"op" : "add",
-		"path" : "/regionTypes/blackmoon",
+		"path" : "/regionTypes/blackmoonocean",
 		"value" : {
 			"oceanLiquid" : [ "liquidceruleumfuel" ],
-			"blockSelector" : [ "remixedIslandsSurface" ],
+			"oceanLevelOffset" : 0,
+			"blockSelector" : [ "remixedIslandsSurface", "submergedIslandsSurface" ],
 			"fgCaveSelector" : [ "empty" ],
 			"bgCaveSelector" : [ "empty" ],
 			"biome" : [
-				[0, [ "blackmoon" ]]
+				[0, [ "blackmoonocean" ]]
 			]
 		}
 	},
 
 	{
 		"op" : "add",
-		"path" : "/regionTypes/blackmoonfloor",
+		"path" : "/regionTypes/blackmoonoceanfloor",
 		"value" : {
 			"oceanLiquid" : [ "liquidceruleumfuel" ],
 			"oceanLevelOffset" : 650,
@@ -60,7 +50,7 @@
 			"fgCaveSelector" : [ "emptier" ],
 			"bgCaveSelector" : [ "emptiest" ],
 			"biome" : [
-				[0, [ "blackmoonfloor" ]]
+				[0, [ "blackmoonoceanfloor" ]]
 			]
 		}
 	}

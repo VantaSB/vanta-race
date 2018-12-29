@@ -1,13 +1,13 @@
 {
   "materialId" : 3703,
   "materialName" : "nightarblock3",
-  "particleColor" : [20, 20, 20, 255],
+  "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarblock3",
-  "description" : "A solid block of impervium.",
+  "description" : "A block made of unknown materials.",
   "shortdescription" : "Nightar Block",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,
-  "category": "materials",
+  "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {

@@ -13,7 +13,7 @@
 
   "inventoryIcon" : "nightarsidearm.png",
 
-  "animation" : "nightarhandgun.animation",
+  "animation" : "nightarsidearm.animation",
   "animationParts" : {
     "middle" : "nightarsidearm.png",
     "muzzleFlash" : "muzzleflash.png"
@@ -80,6 +80,7 @@
     "description" : "Fixed and better than ever!",
     "shortdescription" : "^cyan;Nightar Handcannon^reset;",
     "inventoryIcon" : "nightarhandgun.png",
+    "animation" : "nightarhandgun.animation",
     "animationParts" : {
       "middle" : "nightarhandgun.png",
       "middleFullbright" : "nightarhandgunfullbright.png",

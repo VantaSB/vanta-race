@@ -1,7 +1,7 @@
 {
   "materialId" : 3704,
   "materialName" : "nightarfloor",
-  "particleColor" : [89, 127, 52, 255],
+  "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarfloor",
   "description" : "Traditional Nightar flooring.",
   "shortdescription" : "Nightar Flooring",

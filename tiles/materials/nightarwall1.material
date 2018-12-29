@@ -3,7 +3,7 @@
   "materialName" : "nightarwall1",
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarwall1",
-  "description" : "Nightar plain concrete.",
+  "description" : "Concrete made of unknown materials.",
   "shortdescription" : "Nightar Concrete",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,

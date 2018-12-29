@@ -4,7 +4,7 @@
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "nightarsupport2icon.png",
-  "description" : "A reinforced support beam made from unknown materials.",
+  "description" : "Reinforced baseboarding made of unknown materials.",
   "shortdescription" : "Nightars Ship Details",
 
   "materialId" : 3713

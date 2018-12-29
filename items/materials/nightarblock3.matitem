@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "nightarblock3icon.png",
   "description" : "A block made of unknown materials.",
-  "shortdescription" : "Executive Block",
+  "shortdescription" : "Nightar Block",
 
   "materialId" : 3703
 }

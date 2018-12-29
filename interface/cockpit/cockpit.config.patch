@@ -3,9 +3,9 @@
 		"op" : "add",
 		"path" : "/visitableTypeDescription/blackmoon",
 		"value" : [
-			"This ^#1e272e;moon^white;, while ^red;dangerously cold^white;, has a breathable atmosphere. It is surrounded in an ocean of ^blue;liquid ceruleum fuel^white;.",
-			"There are scant lifesigns dotted all across this ^#1e272e;moon^white;; it is ^red;dangerously cold^white;, so you may want to be well-equipped.",
-			"There are patches of islands spread across this ^#1e272e;moon^white;. These types of moons are rich in ^blue;liquid ceruleum fuel^white;."
+			"This ^#416473;black moon^white; is ^red;dangerously cold^white;, but has an abundant source of ^blue;liquid ceruleum fuel^white;.",
+			"Small islands are scattered about this ^#416473;black moon^white;. There are scant lifesigns on the surface. ^red;Be sure to take a warm coat^white;.",
+			"The surface of this ^#416473;black moon^white; is primarily comprised of ^blue;liquid ceruleum fuel^white;; it should be more efficient than ^pink;Erchius^white;."
 		]
 	},
 
@@ -27,6 +27,6 @@
 	{
 		"op" : "add",
 		"path" : "/planetTypeColors/blackmoon",
-		"value" : [29, 68, 83]
+		"value" : [65, 100, 115]
 	}
 ]

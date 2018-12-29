@@ -4,7 +4,7 @@
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "nightartechblockicon.png",
-  "description" : "Tech-laced blocks made from unknown technology.",
+  "description" : "Nightar tech-infused blocks.",
   "shortdescription" : "Nightar Tech Block",
 
   "materialId" : 3714
