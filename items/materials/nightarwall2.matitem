@@ -4,7 +4,7 @@
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "nightarwall2icon.png",
-  "description" : "A black wall infused with some unknown Nightar technology.",
+  "description" : "A black wall infused with some Nightar technology.",
   "shortdescription" : "Nightar Tech Wall",
 
   "materialId" : 3717

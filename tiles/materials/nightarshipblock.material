@@ -3,7 +3,7 @@
   "materialName" : "nightarshipblock",
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarshipblock",
-  "description" : "Mysterious ship blocks.",
+  "description" : "Panelling used in Nightar ships.",
   "shortdescription" : "Nightar Ship Block",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,

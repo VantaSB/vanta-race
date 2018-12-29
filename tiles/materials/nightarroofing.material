@@ -1,9 +1,9 @@
 {
   "materialId" : 3709,
   "materialName" : "nightarroofing",
-  "particleColor" : [20, 20, 20, 255],
+  "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarroofing",
-  "description" : "Tough roofing made of impervium.",
+  "description" : "Nightar roofing made of unknown materials.",
   "shortdescription" : "Nightar Roofing",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,

@@ -1,10 +1,10 @@
 {
   "materialId" : 3708,
   "materialName" : "nightarreinforcedglass",
-  "particleColor" : [0, 0, 60, 255],
+  "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarreinforcedglass",
-  "description" : "Glass reinforced with impervium.",
-  "shortdescription" : "Nightar Glass",
+  "description" : "Nightar-made reinforced glass.",
+  "shortdescription" : "Nightar Reinforced Glass",
   "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "health" : 16,
   "category": "materials",

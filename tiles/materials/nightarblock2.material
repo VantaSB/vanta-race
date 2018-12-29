@@ -2,8 +2,8 @@
   "materialId" : 3702,
   "materialName" : "nightarcastleblock2",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "nightarcastleblock2",
-  "description" : "Mysterious Castle Blocks.",
+  "itemDrop" : "nightarblock2",
+  "description" : "A white block made of unknown materials.",
   "shortdescription" : "Nightars Castle Block",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
@@ -11,7 +11,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "nightarcastleblock2.png",
+    "texture" : "nightarblock2.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,

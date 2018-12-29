@@ -1,9 +1,9 @@
 {
   "materialId" : 3706,
   "materialName" : "nightarpanelblock",
-  "particleColor" : [20, 20, 20, 255],
+  "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarpanelblock",
-  "description" : "A tough panel made of impervium.",
+  "description" : "Panelling made of unknown materials.",
   "shortdescription" : "Nightar Paneling",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,
