@@ -1,34 +1,40 @@
 [
 	{
 		"op" : "add",
-		"path" : "/terrestrialHorizonGraphics/blackened",
+		"path" : "/terrestrialHorizonGraphics/blackmoon",
 		"value" : {
-			"baseImages" : "/celestial/system/terrestrial/horizon/textures/blackened_<selector>.png",
-			"maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+			"baseImages" : "/celestial/system/terrestrial/horizon/textures/blackmoon_<selector>.png",
+			"maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
 			"maskRange" : [1, 25],
 			"maskPerPlanetRange" : [3, 3]
 		}
 	},
-	
+
 	{
 		"op" : "add",
-		"path" : "/terrestrialGraphics/blackened",
+		"path" : "/terrestrialGraphics/blackmoon",
 		"value" : {
-			"baseImages" : "/celestial/system/terrestrial/biomes/blackened/maskie<num>.png",
-			"dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
-			"dynamicsRange" : [1, 30]
+			"baseImages" : "/celestial/system/terrestrial/biomes/blackmoon/maskie<num>.png",
+			"dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange" : [1, 20]
 		}
 	},
-	
+
+	/*{
+		"op" : "add",
+		"path" : "/planetaryTypes/Moon/baseParameters/terrestrialType/-",
+		"value" : "blackmoon"
+	},*/
+
 	{
 		"op" : "add",
-		"path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
-		"value" : "blackened"
+		"path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+		"value" : "blackmoon"
 	},
-	
+
 	{
 		"op" : "add",
-		"path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
-		"value" : "blackened"
+		"path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+		"value" : "blackmoon"
 	}
 ]

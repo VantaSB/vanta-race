@@ -1,85 +1,66 @@
 [
+	{ "op" : "replace", "path" : "/useSecondaryEnvironmentBiomeIndex", "value" : true },
+
 	{
 		"op" : "add",
-		"path" : "/planetTypes/blackened",
+		"path" : "/planetTypes/blackmoon",
 		"value" : {
-			"threatRange" : [4, 6],
+			"blendSize" : 30,
+			"threatRange" : [1, 6],
 			"layers" : {
+				"space" : {
+					"primaryRegion" : [ "barrenasteroids" ]
+				},
 				"surface" : {
-					"primaryRegion" : [ "blackened" ],
-					"dungeons" : [ ]
+					"primaryRegion" : [ "blackmoonocean" ]
 				},
 				"subsurface" : {
-					"primaryRegion" : [ "blackenedunderground1" ]
-				},
+					"primaryRegion" : [ "blackmoonoceanfloor" ]
+					// "dungeons" : []
+				}/*,
 				"underground1" : {
-					"primaryRegion" : [ "blackenedunderground1" ],
+					"primaryRegion" : [ "blackmoonunderground" ],
 					"secondaryRegions" : []
 				},
 				"underground2" : {
-					"primaryRegion" : [ "blackenedunderground2" ],
-					"secondaryRegions" : []
+					"primaryRegion" : [ "blackenedunderground" ]
 				},
 				"underground3" : {
-					"primaryRegion" : [ "blackenedunderground3" ],
-					"secondaryRegions" : []
+					"primaryRegion" : [ "blackenedunderground" ]
 				},
 				"core" : {
-					"primaryRegion" : [ "mooncore" ],
-					"secondaryRegions" : []
-				}
+					"primaryRegion" : [ "mooncorelayer", "obsidiancorelayer", "blaststonecorelayer" ]
+				}*/
 			}
 		}
 	},
 
 	{
 		"op" : "add",
-		"path" : "/regionTypes/blackened",
+		"path" : "/regionTypes/blackmoonocean",
 		"value" : {
-			"caveLiquid" : [ "liquidceruleumfuel", "water" ],
-			"encloseLiquids" : true,
-			"blockSelector" : [ "remixedMildSurface" ],
-			"fgCaveSelector" : [ "surfaceCaves" ],
+			"oceanLiquid" : [ "liquidceruleumfuel" ],
+			"oceanLevelOffset" : 0,
+			"blockSelector" : [ "remixedIslandsSurface", "submergedIslandsSurface" ],
+			"fgCaveSelector" : [ "empty" ],
 			"bgCaveSelector" : [ "empty" ],
 			"biome" : [
-				[0, [ "blackened" ]]
-			],
-			"subRegion" : [ ]
-		}
-	},
-
-	{
-		"op" : "add",
-		"path" : "/regionTypes/blackenedunderground1",
-		"value" : {
-			"caveLiquid" : [ "tarliquid", "water", "liquidceruleumfuel" ],
-			"caveLiquidSeedDensityRange" : [0.2, 0.7],
-			"biome" : [
-				[0, [ "blackenedunderground1" ]]
+				[0, [ "blackmoonocean" ]]
 			]
 		}
 	},
 
 	{
 		"op" : "add",
-		"path" : "/regionTypes/blackenedunderground2",
+		"path" : "/regionTypes/blackmoonoceanfloor",
 		"value" : {
-			"caveLiquid" : [ "tarliquid", "liquidceruleumfuel" ],
-			"caveLiquidSeedDensityRange" : [0.2, 0.7],
+			"oceanLiquid" : [ "liquidceruleumfuel" ],
+			"oceanLevelOffset" : 1000,
+			"blockSelector" : [ "ledgesSurface" ],
+			"fgCaveSelector" : [ "emptier" ],
+			"bgCaveSelector" : [ "emptiest" ],
 			"biome" : [
-				[0, [ "blackenedunderground2" ]]
-			]
-		}
-	},
-
-	{
-		"op" : "add",
-		"path" : "/regionTypes/blackenedunderground3",
-		"value" : {
-			"caveLiquid" : [ "tarliquid", "liquidceruleumfuel" ],
-			"caveLiquidSeedDensityRange" : [0.2, 0.7],
-			"biome" : [
-				[0, [ "blackenedunderground3" ]]
+				[0, [ "blackmoonoceanfloor" ]]
 			]
 		}
 	}

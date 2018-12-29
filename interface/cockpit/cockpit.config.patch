@@ -1,11 +1,11 @@
 [
 	{
 		"op" : "add",
-		"path" : "/visitableTypeDescription/blackened",
+		"path" : "/visitableTypeDescription/blackmoon",
 		"value" : [
-			"Complete industrialization has created a dense, perpetual smog covering this ^#3e5455;blackened^white; planet. You may want to ensure you're well-equipped before beaming down.",
-			"The air pollution from now-defunct industrial sites have resulted in an unyielding ^#503b24;corrosive rain^white; on this ^#3e5455;blackened^white; planet.",
-			"This ^#3e5455;blackened^white; planet's atmosphere makes it uninhabitable to most species; only certain species of monsters and leftover, artificial constructs populate it."
+			"This ^#416473;black moon^white; is ^red;dangerously cold^white;, but has an abundant source of ^blue;liquid ceruleum fuel^white;.",
+			"Small islands are scattered about this ^#416473;black moon^white;. There are scant lifesigns on the surface. ^red;Be sure to take a warm coat^white;.",
+			"The surface of this ^#416473;black moon^white; is primarily comprised of ^blue;liquid ceruleum fuel^white;; it should be more efficient than ^pink;Erchius^white;."
 		]
 	},
 
@@ -20,13 +20,13 @@
 
 	{
 		"op" : "add",
-		"path" : "/planetTypeNames/blackened",
-		"value" : "Blackened"
+		"path" : "/planetTypeNames/blackmoon",
+		"value" : "Black Moon"
 	},
 
 	{
 		"op" : "add",
-		"path" : "/planetTypeColors/blackened",
-		"value" : [29, 68, 83]
+		"path" : "/planetTypeColors/blackmoon",
+		"value" : [65, 100, 115]
 	}
 ]
