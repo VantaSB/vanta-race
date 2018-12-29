@@ -13,7 +13,7 @@
 					"primaryRegion" : ["barrenasteroids"]
 				},
 				"atmosphere" : {
-					"primaryRegion" : ["blackmoonatmosphere"]
+					"primaryRegion" : ["atmosphere"]
 				},
 				"surface" : {
 					"primaryRegion" : ["blackmoonocean"]
@@ -31,7 +31,7 @@
 		"value" : {
 			"oceanLiquid" : [ "liquidceruleumfuel" ],
 			"oceanLevelOffset" : 0,
-			"blockSelector" : [ "remixedIslandsSurface", "submergedIslandsSurface" ],
+			"blockSelector" : [ "remixedIslandsSurface" ],
 			"fgCaveSelector" : [ "empty" ],
 			"bgCaveSelector" : [ "empty" ],
 			"biome" : [

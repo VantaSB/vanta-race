@@ -1,6 +1,6 @@
 {
-  "name" : "blackmoonfloor",
-  "friendlyName" : "Black Moon Floor",
+  "name" : "blackmoonoceanfloor",
+  "friendlyName" : "Black Moon Ocean Floor",
 
   "spawnProfile" : {
     "groups" : [
@@ -82,15 +82,6 @@
       },
       {
         "mode" : "floor",
-        "priority" : 1,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
-
-        "type" : "microdungeon",
-        "microdungeons" : [ "oceanmicrodungeons" ]
-      },
-      {
-        "mode" : "floor",
         "priority" : 2.0,
         "variants" : 1,
         "distribution" : "/biomes/distributions.config:denseMedium",
@@ -149,7 +140,7 @@
           }
         ]
       },
-      /*{
+      {
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
@@ -158,10 +149,10 @@
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [0.20, "oshroom1" ], [0.20, "oshroom2" ], [0.20, "oshroom3" ], [0.20, "oshroom4" ], [0.20, "oshroom5" ]]
+            "pool" : [ [0.35, "glowbush1" ], [0.35, "glowbush2" ], [0.35, "glowbush3" ], [0.35, "glowbush4" ], [0.35, "glowbush5" ]]
           }
         ]
-      },*/
+      },
       {
         "mode" : "floor",
         "priority" : 0.5,

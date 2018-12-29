@@ -1,7 +1,7 @@
 [
 	{
 		"op" : "add",
-		"path" : "/blackmoon",
+		"path" : "/blackmoonstorm",
 		"value" : [
 			[1.0, "storm"]
 		]

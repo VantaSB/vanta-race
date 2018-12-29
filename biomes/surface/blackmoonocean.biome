@@ -44,8 +44,6 @@
     }
   },
 
-  "hueShiftOptions" : [-15, 0, 15],
-
   "weather" : [
     [0, [
       "/weather.config:blackmoonstorm"
@@ -54,18 +52,17 @@
 
   "skyOptions" : [
     {
-      // sunny earth days, red/orange sunrise and purple/red sunset
-      "mainColor" : [255, 255, 255],
+      "mainColor" : [25, 25, 25],
 
-      "morningColors" : [ [69, 44, 89], [69, 44, 89] ],
-      "dayColors" : [ [69, 44, 89], [69, 44, 89] ],
-      "eveningColors" : [ [69, 44, 89], [69, 44, 89] ],
-      "nightColors" : [ [69, 44, 89], [69, 44, 89] ],
+      "morningColors" : [ [5, 25, 33], [5, 25, 33] ],
+      "dayColors" : [ [5, 25, 33], [5, 25, 33] ],
+      "eveningColors" : [ [5, 25, 33], [5, 25, 33] ],
+      "nightColors" : [ [5, 25, 33], [5, 25, 33] ],
 
-      "morningLightColor" : [69, 44, 89],
-      "dayLightColor" : [69, 44, 89],
-      "eveningLightColor" : [69, 44, 89],
-      "nightLightColor" : [69, 44, 89]
+      "morningLightColor" : [5, 25, 33],
+      "dayLightColor" : [5, 25, 33],
+      "eveningLightColor" : [5, 25, 33],
+      "nightLightColor" : [5, 25, 33]
     }
   ],
 
