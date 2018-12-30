@@ -1,0 +1,24 @@
+{
+  "margin" : 0,
+  "name" : "nightars/supports",
+  "properties" : {},
+  "spacing" : 0,
+  "tilecount" : 1,
+  "tileheight" : 16,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "A strong platform made of unknown materials.",
+      "//name" : "nightarplatform",
+      "//shortdescription" : "Nightar Platform",
+      "material" : "nightarplatform"
+    }
+  },
+
+  "tiles" : {
+    "0" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarplatform.png"
+    }
+  },
+
+  "tilewidth" : 16
+}
