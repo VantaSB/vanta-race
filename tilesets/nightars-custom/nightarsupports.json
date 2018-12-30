@@ -16,7 +16,7 @@
 
   "tiles" : {
     "0" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarplatform.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarplatform.png"
     }
   },
 

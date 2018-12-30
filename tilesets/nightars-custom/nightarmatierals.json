@@ -128,71 +128,71 @@
 
   "tiles" : {
     "0" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarblock1.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarblock1.png"
     },
 
     "1" : {
-      "image" : "./../../../../nightarblock2.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarblock2.png"
     },
 
     "10" : {
-      "image" : "./../../../../nightarblock3.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarblock3.png"
     },
 
     "11" : {
-      "image" : "./../../../../nightarfloor.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarfloor.png"
     },
 
     "12" : {
-      "image" : "./../../../../nightarframedglass.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarframedglass.png"
     },
 
     "13" : {
-      "image" : "./../../../../nightarpanelblock.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarpanelblock.png"
     },
 
     "14" : {
-      "image" : "./../../../../nightarpillarblock.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarpillarblock.png"
     },
 
     "15" : {
-      "image" : "./../../../../nightarreinforcedglass.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarreinforcedglass.png"
     },
 
     "16" : {
-      "image" : "./../../../../nightarroofing.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarroofing.png"
     },
 
     "2" : {
-      "image" : "./../../../../nightarshipblock.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarshipblock.png"
     },
 
     "3" : {
-      "image" : "./../../../../nightarslopedhullpanel.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarslopedhullpanel.png"
     },
 
     "4" : {
-      "image" : "./../../../../nightarsupport1.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarsupport1.png"
     },
 
     "5" : {
-      "image" : "./../../../../nightarsupport2.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarsupport2.png"
     },
 
     "6" : {
-      "image" : "./../../../../nightartechblock.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightartechblock.png"
     },
 
     "7" : {
-      "image" : "./../../../../nightartiles.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightartiles.png"
     },
 
     "8" : {
-      "image" : "./../../../../nightarwall1.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarwall1.png"
     },
 
     "9" : {
-      "image" : "./../../../../nightarwall2.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarwall2.png"
     }
   },
 
