@@ -1,0 +1,19 @@
+{
+  "id" : "nightardoc2",
+  "title" : "One With the Blade",
+  "species" : "nightar",
+  "description" : "A detail of the importance of blades in Nightar culture.",
+  "icon" : "nightardoc.png",
+  "contentPages" : [
+    "Like many other civilizations, the Nightars went through their own 'primitive' eras. For them, their last primitive era was close to around 4,000 years ago, leading into their Imperial era some thousand years later. Their first known homeworld had typical metals found nearly anywhere in the universe, but there was a certain exotic element found only on planets of their homeworld's type. These 'dark fragments', as they have been called by the scientific community, gave rise to uniquely powerful weapons for that time.",
+
+    "Dark Fragments were very rare, initially, and because of their usage in general melee weapons, this lead to a dynamic shift in their cultural paradigm, where they believed that they and their weapons were eternally bound to each other. Some blades were passed from father to son for many generations, while others were buried along with their owners, as they had no worthy successors to pass them onto. This raised the question of grave-robbing, and eventually came to be viewed as a most cowardly act among the Nightars, for each blade had a unique signature imprinted upon them.",
+
+    "Swords are very common among Nightars, even to this day, where guns are mostly viewed as 'only when needed' by most, and by the far more zealous, primitive tools for cowards who are too scared to face their enemies directly. "
+  ],
+
+  "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 300
+  }
+}
