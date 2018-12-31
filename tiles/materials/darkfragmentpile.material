@@ -1,0 +1,24 @@
+{
+  "materialId" : 3722,
+  "materialName" : "darkfragmentpile",
+  "particleColor" : [4, 38, 42, 255],
+  "itemDrop" : "darkfragmentpile",
+  "shortdescription" : "Expended Dark Fragments",
+  "description" : "All that remains of these dark fragments is a faint glow.",
+  "falling" : true,
+  "cascading" : true,
+  "footstepSound" : "/sfx/blocks/footstep_treasure.ogg",
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "darkfragmentpile.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 410,
+    "radiantLight" : [5, 76, 84]
+  }
+}

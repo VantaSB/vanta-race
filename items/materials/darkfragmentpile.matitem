@@ -1,0 +1,11 @@
+{
+  "itemName" : "darkfragmentpile",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "darkfragmentpileicon.png",
+  "shortdescription" : "Expended Dark Fragments",
+  "description" : "All that remains of these dark fragments is a faint glow.",
+
+  "materialId" : 3722
+}

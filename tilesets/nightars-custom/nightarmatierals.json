@@ -69,6 +69,13 @@
       "material" : "nightarroofing"
     },
 
+    "17" : {
+      "//description" : "All that remains of these dark fragments is a faint glow.",
+      "//name" : "darkfragmentpile",
+      "//shortdescription" : "Expended Dark Fragments",
+      "material" : "darkfragmentpile"
+    },
+
     "2" : {
       "//description" : "Panelling used in Nightar ships.",
       "//name" : "nightarshipblock",
@@ -161,6 +168,10 @@
 
     "16" : {
       "image" : "./../../../../tiled/nightars-custom/materials/nightarroofing.png"
+    },
+
+    "17" : {
+      "image" : "./../../../../tiled/nightars-custom/materials/darkfragmentpile.png"
     },
 
     "2" : {
