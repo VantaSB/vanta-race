@@ -1,47 +1,38 @@
 {
-  "itemName" : "nightartier5chest",
-  "price" : 4800,
-  "inventoryIcon" : "icons.png:chest",
+  "itemName" : "nightart5spants",
+  "price" : 1920,
+  "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
   "rarity" : "Rare",
-  "category" : "chestarmour",
-  "description" : "Forged with high quality materials, made for the Nightar King's guard.",
-  "shortdescription" : "King's Guard Breastplate",
+  "category" : "legarmour",
+  "description" : "Nightar greaves made for the highest ranking nights, the king's guard.",
+  "shortdescription" : "King's Guard Greaves",
   "tooltipKind" : "armor",
 
-  "maleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-
-  "femaleFrames" : {
-    "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
 
   "level" : 5,
   "leveledStatusEffects" : [
     {
       "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.27
+      "baseMultiplier" : 1.1
     },
     {
       "levelFunction" : "separatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.52
+      "amount" : 0.2
     },
     {
       "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 5
+      "amount" : 2
     },
     {
       "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 2
     }
   ],
 

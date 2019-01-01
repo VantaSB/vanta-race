@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "solariumstar", "count" : 12 },
-    { "item" : "nightartier5head", "count" : 1 }
+    { "item" : "nightart5shead", "count" : 1 }
   ],
   "duration" : 5,
-  "output" : { "item" : "nightartier6head", "count" : 1 },
+  "output" : { "item" : "nightart6shead", "count" : 1 },
   "groups" : [ "craftingseparator", "armours", "all" ]
 }

@@ -1,0 +1,41 @@
+{
+  "itemName" : "nightart5ahead",
+  "price" : 3840,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "The corsairs have been regarded as some of the Nightar's most elite units.",
+  "shortdescription" : "Corsair Helm",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.17
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.31
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ]
+}

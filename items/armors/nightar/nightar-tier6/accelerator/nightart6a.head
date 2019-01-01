@@ -1,12 +1,12 @@
 {
-  "itemName" : "nightartier6head",
+  "itemName" : "nightart6ahead",
   "price" : 3840,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "headarmour",
-  "description" : "The King Slayer's Helm is rock-solid, and will protect your head from low-clearance hazards and falling objects.",
-  "shortdescription" : "King Slayer's Helm",
+  "description" : "The design of the Queensryche helmet was used to induce panic during imperial times.",
+  "shortdescription" : "Queensryche Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -16,22 +16,22 @@
   "level" : 6,
   "leveledStatusEffects" : [
     {
-      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
       "baseMultiplier" : 1.17
     },
     {
-      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
       "amount" : 0.31
     },
     {
-      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
       "amount" : 3
     },
     {
-      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
       "amount" : 3
     }

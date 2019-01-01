@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "headarmour",
-  "description" : "The iron helm of the knave only protects the top of the head.",
-  "shortdescription" : "Nightar Knave's Helm",
+  "description" : "The iron helmet of the initiate only protects the top of the head.",
+  "shortdescription" : "Initiate's Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

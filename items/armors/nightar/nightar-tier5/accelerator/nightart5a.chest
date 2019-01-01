@@ -1,12 +1,12 @@
 {
-  "itemName" : "nightartemplarchest",
+  "itemName" : "nightart5achest",
   "price" : 500,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "chestarmour",
   "description" : "Regal garments by Nightar standards.",
-  "shortdescription" : "Nightar Templar Robes",
+  "shortdescription" : "Corsair Robes",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

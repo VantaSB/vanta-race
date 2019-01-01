@@ -1,39 +1,47 @@
 {
-  "itemName" : "nightartier5head",
-  "price" : 2880,
-  "inventoryIcon" : "icons.png:head",
+  "itemName" : "nightart5schest",
+  "price" : 4800,
+  "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Rare",
-  "category" : "headarmour",
-  "description" : "The king's guard official helm, refrain from touching it if you are not one of them!",
-  "shortdescription" : "King's Guard Helm",
+  "category" : "chestarmour",
+  "description" : "Forged with high quality materials, made for the Nightar King's guard.",
+  "shortdescription" : "King's Guard Breastplate",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
-  "mask" : "mask.png",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
 
   "level" : 5,
   "leveledStatusEffects" : [
     {
       "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.15
+      "baseMultiplier" : 1.27
     },
     {
       "levelFunction" : "separatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.31
+      "amount" : 0.52
     },
     {
       "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 3
+      "amount" : 5
     },
     {
       "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 3
+      "amount" : 5
     }
   ],
 

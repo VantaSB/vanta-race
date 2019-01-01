@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "A knave's mail is plain and unadorned, reflecting their position in society.",
-  "shortdescription" : "Nightar Knave's Mail",
+  "description" : "An initiate's mail is plain and unadorned, reflecting their position in society.",
+  "shortdescription" : "Initiate's Mail",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
