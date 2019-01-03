@@ -1,0 +1,9 @@
+{
+  "name" : "catgod",
+  "category" : "catgod",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "catgod.png"
+  }
+}

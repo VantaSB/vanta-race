@@ -1,0 +1,241 @@
+{
+  "type" : "cryoloker",
+  "shortdescription" : "Cryoloker",
+  "description" : "They're learning.",
+
+  "categories" : [ "cryoloker" ],
+  "parts" : [ "body" ],
+
+  "animation" : "cryoloker.animation",
+
+  "dropPools" : [ { "default" : "cryolokerTreasure", "bow" : "orbideHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+    "deathBehavior" : "monster-death",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 10,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 750,
+      "targetOutOfSightTime" : 10,
+
+      "foundTargetActions" : [
+        {
+          "name" : "action-animate",
+          "parameters" : {
+            "stateType" : "body",
+            "state" : "invulnerablewinddown",
+            "animationTimer" : 1.0
+          }
+        }
+      ],
+
+      "fleeActions" : [],
+
+      "hostileActions" : [
+        {
+          "name" : "action-charge",
+          "parameters": {
+            "maximumRange": 500,
+            "minimumRange": 0,
+            "windupTime": 1,
+            "chargeSpeed": 500,
+            "chargeControlForce": 2000,
+            "chargeTime": 0.1,
+            "wallKnockback" : true,
+            "wallCrashSound": "wallCrash",
+            "wallCrashEmitter": "",
+
+            "winddownStopForce": 1000,
+            "winddownTime": 0.5
+          }
+        }
+      ],
+
+      "periodicActions" : [
+        {
+          "name": "action-invulnerable",
+          "parameters": {
+            "invulnerableEffect": "maxprotection",
+            "invulnerableTime": 600,
+            "winddownTime": 1.2,
+            "windupTime": 0.5
+          }
+        }
+      ],
+
+      "approachActions" : [
+        {
+          "name": "approach-walk",
+          "parameters": {
+            "canJump": true,
+            "jumpXVelocity": 30,
+            "jumpYVelocity": 60
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name": "approach-walk",
+          "parameters": {
+            "canJump": true,
+            "jumpXVelocity": 30,
+            "jumpYVelocity": 60
+          }
+        }
+      ],
+
+      "wanderActions" : [
+      ],
+
+      "deathActions" : [
+        {
+          "name" : "action-projectile",
+          "parameters" : {
+            "projectileCount" : 1,
+            "projectileType" : "orbideball",
+            "projectileParameters" : {},
+            "aimDirection" : [1, 1],
+            "inaccuracy" : 1.5,
+            "fireOffset" : [0, 0]
+          }
+        }
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.3075, 1.5], [0.75, 1.06], [0.75, -2.93], [0.3075, -3.375], [-0.3075, -3.375], [-0.75, -2.93], [-0.75, 1.06], [-0.3075, 1.5] ],
+      "damage" : 30,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 10,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.3075, 1.5], [0.75, 1.06], [0.75, -2.93], [0.3075, -3.375], [-0.3075, -3.375], [-0.75, -2.93], [-0.75, 1.06], [-0.3075, 1.5] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 80,
+      "runSpeed" : 160,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 60.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.1,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.05
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 1
+        },
+        "maxHealth" : {
+          "baseValue" : 300
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 2.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.5
+        },
+        "fireResistance" : {
+          "baseValue" : -0.5
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "iceResistance" : {
+          "baseValue" : 0.5
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "electricResistance" : {
+          "baseValue" : 0.0
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 0.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+
+    "captureHealthFraction" : 0.1,
+    "nametagColor" : [0, 255, 255],
+    "captureCollectables" : { "monsters" : "cryoloker" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "dryloker",
+  "category" : "dryloker",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "dryloker.png"
+  }
+}

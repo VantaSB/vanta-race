@@ -1,0 +1,9 @@
+{
+  "name" : "chasit",
+  "category" : "chasit",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "chasit.png"
+  }
+}

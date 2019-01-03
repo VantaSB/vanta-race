@@ -1,0 +1,9 @@
+{
+  "name" : "eloker",
+  "category" : "eloker",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "eloker.png"
+  }
+}

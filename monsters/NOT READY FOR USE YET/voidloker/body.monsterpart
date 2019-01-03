@@ -1,0 +1,9 @@
+{
+  "name" : "voidloker",
+  "category" : "voidloker",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "voidloker.png"
+  }
+}
