@@ -1,0 +1,10 @@
+{
+  "itemName" : "titaniumelock",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "titaniumelock.png",
+  "description" : "Flowing with wootian energy.",
+  "shortdescription" : "^blue;Titanium Elock",
+  "itemTags" : [ "reagent" ]
+}

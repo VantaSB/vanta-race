@@ -11,6 +11,16 @@
 
 	{
 		"op" : "add",
+		"path" : "/visitableTypeDescription/shadowjungle",
+		"value" : [
+			"For some unknown reason, sunlight can barely penetrate to the surface of this ^#353540;dark jungle^white; planet. ^blue;Rare ores^white; have been detected.",
+			"This ^#353540;dark jungle^white; planet has barely any visible sunlight, but the local flora have adapted to become bioluminescent.",
+			"The atmosphere surrounding this planet blocks out most light, except for UV light. I suggest you go down prepared."
+		]
+	},
+
+	{
+		"op" : "add",
 		"path" : "/displayOres/darkfragmentore",
 		"value" : {
 			"displayName" : "Dark Fragment",
@@ -26,7 +36,19 @@
 
 	{
 		"op" : "add",
+		"path" : "/planetTypeNames/shadowjungle",
+		"value" : "Dark Jungle"
+	},
+
+	{
+		"op" : "add",
 		"path" : "/planetTypeColors/blackmoon",
 		"value" : [65, 100, 115]
+	},
+
+	{
+		"op" : "add",
+		"path" : "/planetTypeColors/shadowjungle",
+		"value" : [53, 53, 64]
 	}
 ]

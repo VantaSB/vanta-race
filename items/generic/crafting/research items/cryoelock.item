@@ -1,0 +1,10 @@
+{
+  "itemName" : "cryoelock",
+  "price" : 35,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cryoelock.png",
+  "description" : "An elock used for icey elementals.",
+  "shortdescription" : "^blue;Cryo Elock",
+  "itemTags" : [ "reagent" ]
+}

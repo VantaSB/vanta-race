@@ -1,0 +1,10 @@
+{
+  "itemName" : "copperelock",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "copperelock.png",
+  "description" : "A basic elock, used to make simple weapons.",
+  "shortdescription" : "^blue;Copper Elock",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "thermalelock",
+  "price" : 35,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "thermalelock.png",
+  "description" : "An elock used for fire elementals.",
+  "shortdescription" : "^blue;Thermal Elock",
+  "itemTags" : [ "reagent" ]
+}

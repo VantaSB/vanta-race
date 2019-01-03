@@ -1,0 +1,20 @@
+{
+  "materialId" : 3723,
+  "materialName" : "shadowdirt",
+  "particleColor" : [127, 85, 154, 255],
+  "itemDrop" : "shadowdirt",
+  "description" : "A type of dirt found only on shadow-type worlds.",
+  "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "shadowdirt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

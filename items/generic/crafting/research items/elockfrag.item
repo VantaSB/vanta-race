@@ -1,0 +1,10 @@
+{
+  "itemName" : "elockfrag",
+  "price" : 10,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "elockfrag.png",
+  "description" : "Cheap elock used for lowest tier weapons.",
+  "shortdescription" : "^blue;Elock Fragment",
+  "itemTags" : [ "reagent" ]
+}

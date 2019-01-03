@@ -1,0 +1,10 @@
+{
+  "itemName" : "vaelationmark",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "vaelationmark.png",
+  "description" : "Glowing symbol, seems like a superior element.",
+  "shortdescription" : "^blue;Vaelation Mark",
+  "itemTags" : [ "reagent" ]
+}

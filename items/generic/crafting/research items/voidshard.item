@@ -1,0 +1,10 @@
+{
+  "itemName" : "voidshard",
+  "price" : 100,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "voidshard.png",
+  "description" : "Do not drop it too hard, it can cause a black hole.",
+  "shortdescription" : "^blue;Void Shard",
+  "itemTags" : [ "reagent" ]
+}

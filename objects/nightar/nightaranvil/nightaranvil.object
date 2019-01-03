@@ -25,6 +25,21 @@
 
   "learnBlueprintsOnPickup" : [ "kaisergem", "bunshoki", "nightarhandgun", "replicanightarsword", "stealthdagger", "yonaga", "yorunoha", "yorunokama", "yorunoyumi", "yosamu" ],
 
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Enhancer",
+        "subtitle" : "Craft the legendary sets right here.",
+        "icon" : {
+          "file" : "/interface/crafting/craftingicon.png"
+        }
+      }
+    },
+    "filter" : [ "nightaranvil" ]
+  },
+
   "orientations" : [
     {
       "image" : "nightaranvil.png:<color>.<frame>",

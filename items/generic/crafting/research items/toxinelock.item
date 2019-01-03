@@ -1,0 +1,10 @@
+{
+  "itemName" : "toxinelock",
+  "price" : 35,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "toxinelock.png",
+  "description" : "An elock used for poison elementals.",
+  "shortdescription" : "^blue;Toxin Elock",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel"],
+      "maxFuel" : 1000
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "serraT2.png",
+      "position" : [-2, -1],
+      "fullbright" : true
+    },
+    {
+      "image" : "serraT2lit.png",
+      "position" : [-2, -1]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "serraT2blocks.png"
+}

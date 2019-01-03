@@ -1,0 +1,10 @@
+{
+  "itemName" : "shinateelock",
+  "price" : 65,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "shinateelock.png",
+  "description" : "Shiniest of all the Shinate!",
+  "shortdescription" : "^blue;Shinate Elock",
+  "itemTags" : [ "reagent" ]
+}

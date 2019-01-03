@@ -1,0 +1,10 @@
+{
+  "itemName" : "vaelshard",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "vaelshard.png",
+  "description" : "Shard from a powerful being.",
+  "shortdescription" : "^blue;Vael Shard",
+  "itemTags" : [ "reagent" ]
+}

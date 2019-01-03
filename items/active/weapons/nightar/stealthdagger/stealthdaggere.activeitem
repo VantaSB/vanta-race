@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "A dagger with a shocking light.",
-  "shortdescription" : "Nightar Dagger [^purple;E^reset;]",
+  "shortdescription" : "Nightar Dagger [^#ff00ff;E^reset;]",
   "tooltipKind" : "base",
   "category" : "Knife",
   "twoHanded" : false,

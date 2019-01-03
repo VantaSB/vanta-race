@@ -1,0 +1,20 @@
+{
+  "materialId" : 3724,
+  "materialName" : "lightlessrock",
+  "particleColor" : [140, 149, 148, 255],
+  "itemDrop" : "lightlessrock",
+  "description" : "A dark, stone-type material.",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lightlessrock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 1600
+  }
+}

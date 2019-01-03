@@ -1,0 +1,10 @@
+{
+  "itemName" : "firationaliantelock",
+  "price" : 500,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "firationaliantelock.png",
+  "description" : "Firationaliant elock, you've made it far. Time to take control.",
+  "shortdescription" : "^yellow;Firationaliant Elock",
+  "itemTags" : [ "reagent" ]
+}

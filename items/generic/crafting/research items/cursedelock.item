@@ -1,0 +1,10 @@
+{
+  "itemName" : "cursedelock",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cursedelock.png",
+  "description" : "Cursed Elocks are used for special cursed weapons.",
+  "shortdescription" : "^blue;Cursed Elock",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "criltienelock",
+  "price" : 100,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "criltienelock.png",
+  "description" : "The criltien path, you feel the light energy.",
+  "shortdescription" : "^red;Criltien Elock",
+  "itemTags" : [ "reagent" ]
+}

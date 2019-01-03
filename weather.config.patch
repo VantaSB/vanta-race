@@ -5,5 +5,17 @@
 		"value" : [
 			[1.0, "storm"]
 		]
+	},
+
+	{
+		"op" : "add",
+		"path" : "/shadowjungle",
+		"value" : [
+			[0.3, "clear"],
+			[0.3, "rain"],
+			[0.3, "drizzle"],
+			[0.5, "fog"],
+			[0.5, "glowingrain"]
+		]
 	}
 ]
