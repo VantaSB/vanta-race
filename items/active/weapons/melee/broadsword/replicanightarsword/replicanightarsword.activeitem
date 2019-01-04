@@ -1,7 +1,7 @@
 {
   "itemName" : "replicanightarsword",
   "price" : 350,
-  "level" : 5,
+  "level" : 3,
   "maxStack" : 1,
   "rarity" : "uncommon",
   "description" : "A replica of Noxcalibur, the legendary Nightar blade.",

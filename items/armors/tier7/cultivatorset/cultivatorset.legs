@@ -1,11 +1,11 @@
 {
-  "itemName" : "ascendedt7pants",
+  "itemName" : "cultivatorsetpants",
   "price" : 3120,
   "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
   "rarity" : "essential",
   "category" : "legarmorAug",
-  "description" : "Rumored to resemble the Cultivator.",
+  "description" : "\"May you walk in the light of the Cultivator.\"\n-Esther Bright",
   "shortdescription" : "Cultivator's Chosen ^cyan;^reset;",
   "tooltipKind" : "armoraugment",
 
@@ -15,22 +15,22 @@
   "level" : 7,
   "leveledStatusEffects" : [
     {
-      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
       "baseMultiplier" : 1.25
     },
     {
-      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
       "amount" : 0.45
     },
     {
-      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
       "amount" : 5
     },
     {
-      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
       "amount" : 5
     }
@@ -41,8 +41,8 @@
   "acceptsAugmentType" : "back",
 
   "colorOptions" : [
-    // WHITE
-    { "ffca8a" : "e6e6e6", "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737" },
+    // BLACK/DEFAULT
+    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // BLACK
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // GREY
