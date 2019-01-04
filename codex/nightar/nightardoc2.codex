@@ -1,0 +1,21 @@
+{
+  "id" : "nightardoc2",
+  "title" : "Live By the Sword",
+  "species" : "nightar",
+  "description" : "A study of the cultural importance of blades in Nightar society.",
+  "icon" : "nightardoc.png",
+  "contentPages" : [
+    "Like many other civilizations, the Nightars went through their own 'primitive' eras. For them, their last primitive era was close to around 4,000 years ago, leading into their Imperial era some thousand years later. Their first known homeworld had typical metals found nearly anywhere in the universe, but there was a certain exotic element found only on planets of their homeworld's type.",
+
+    "These 'dark fragments', as they have been called, gave rise to uniquely powerful weapons. Initially, they were very rare, and because of their usage in general melee weapons, this lead to a dynamic shift in their cultural paradigm; they believed that they and their weapons were eternally bound to each other.",
+
+    "Some blades were passed from father to son for many generations, while others were buried along with their owners, as they had no worthy successors to pass them onto. This raised the question of grave-robbing, and became viewed as one of the most cowardly acts among the Nightars.",
+
+    "To this day, swords are still very common among Nightars. Firearms are mostly viewed as the 'last resort' by the smaller settlements, and by the far more zealous minority, they are seen as primitive tools for weaklings who are too freightened to face their enemies head-on."
+  ],
+
+  "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 300
+  }
+}
