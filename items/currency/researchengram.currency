@@ -2,7 +2,7 @@
   "itemName" : "researchengram",
   "rarity" : "rare",
   "inventoryIcon" : "researchengram.png",
-  "description" : "Advanced research technique data.",
+  "description" : "Advanced research data, can be used to unlock nodes in the research tree(s).",
   "shortdescription" : "Research Engram",
   "currency" : "researchengram",
   "value" : 1,
