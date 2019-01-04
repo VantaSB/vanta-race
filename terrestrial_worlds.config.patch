@@ -58,9 +58,9 @@
 		"op" : "add",
 		"path" : "/regionTypes/shadowjungle",
 		"value" : {
-			"caveLiquid" : [ "swampwater", "water", "healingliquid" ],
+			"caveLiquid" : [ "water" ],
 			"caveLiquidChanceRange" : [25, 100],
-			"blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedStepsSurface", "remixedMountainsSurface", "remixedFlatsSurface", "remixedPoolsSurface", "remixedFlatsSurface" ],
+			"blockSelector" : [ "remixedSurface", "remixedMildSurface", "remixedStepsSurface", "remixedFlatsSurface", "remixedPoolsSurface" ],
 			"fgCaveSelector" : [ "surfaceCaves" ],
 			"biome" : [
 				[0, [ "shadowjungle" ]]

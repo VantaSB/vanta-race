@@ -7,6 +7,6 @@
   ],
 
   "duration" : 30,
-  "output" : { "item" : "ascendedt7head", "count" : 1 },
+  "output" : { "item" : "cultivatorsethead", "count" : 1 },
   "groups" : [ "enhancer", "all" ]
 }

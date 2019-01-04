@@ -2,11 +2,11 @@
   "input" : [
     { "item" : "exoticcomponent1", "count" : 1 },
     { "item" : "augmentadaptor", "count" : 1 },
-    { "item" : "crimsoniumrod", "count" : 3 },
-    { "item" : "azuritebar", "count" : 5 }
+    { "item" : "crimsoniumrod", "count" : 2 },
+    { "item" : "azuritebar", "count" : 3 }
   ],
 
   "duration" : 30,
-  "output" : { "item" : "ascendedt7chest", "count" : 1 },
+  "output" : { "item" : "cultivatorsetpants", "count" : 1 },
   "groups" : [ "enhancer", "all" ]
 }
