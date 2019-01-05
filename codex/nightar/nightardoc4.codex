@@ -1,0 +1,17 @@
+{
+  "id" : "nightardoc4",
+  "title" : "The Nightstalkers",
+  "species" : "nightar",
+  "description" : "Observations and anecdotes about the Nightars",
+  "icon" : "nightardoc.png",
+  "contentPages" : [
+    "The Nightars are truly a fearsome species. Their disdain for anything that walks in light gives them an edge in combat, but not much elsewhere. In fact, it is far harder for any given group of Nightars to integrate with any other species. They excel immensely in darkness, and over time their combat roles began shifting from a medieval focus to a more espionage focus, and in ways no other species can simply compare to. They have caused turmoil in various sectors of galactic politics, to the point where even the Miniknog and the Stargazers collectively fear them.",
+
+    "As much as they hold contempt for all other species, they are not above doing business with them if it suits them. Many Nightar individuals have taken to setting out on their own as mercenaries for hire, and because of their predisposition, makes them highly valuable assets. It is unwise to pass over an offering of services by a Nightar, as not only would any enemies you have take that opportunity, the Nightar in question may see it as a personal afront, and deal with you themselves."
+  ],
+
+  "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 300
+  }
+}

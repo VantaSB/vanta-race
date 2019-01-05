@@ -1,0 +1,21 @@
+{
+  "id" : "nightarhistory2",
+  "title" : "The Ruling Class - Technological Era",
+  "species" : "nightar",
+  "description" : "This tome details some early history of the Nightars.",
+  "icon" : "nightarhistory2.png",
+  "contentPages" : [
+
+    "The Nightars' Imperial Era lasted for some thousands of years, up until they began slipping into their own technological era. It seems that the main reason they embraced technology to begin with was that it was a boon for their combat prowess. Once they reached the peak of their technological era, they began entering into a spacefaring era, which began raising concerns about how to rule colonies setup by Nightars.",
+
+    "In an attempt to secure rule, the last emperor forbade all off-world travel and ordered any and all ships capable of leaving the atmosphere to be dismantled. This particular fear of losing ruling power was seen as a weakness, and thus a dynamic shift began to occur in their leadership structure.",
+
+    "A massive civil war of succession broke out across their homeworld, and lasted for decades. Those who were able to leave the planet did so to begin setting up their own settlements, and agreed to a treaty of sorts; a designated leader would be the ruler of their respective settlements, though less political and more militaristic. This and the war signified the end of the Imperial era, and over time the dust would settle."
+
+  ],
+
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 300
+  }
+}
