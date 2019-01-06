@@ -94,11 +94,10 @@
       { "item" : "nightarshiphatch" },
 
 // Spinning Wheel
-      { "item" : "nightarsghead" },
-      { "item" : "nightarsgchest" },
-      { "item" : "nightarsgpants" },
-      { "item" : "nightargeneric1chest" },
-      { "item" : "nightargeneric1pants" },
+      { "item" : "nightaremissarychest" },
+      { "item" : "nightaremissarypants" },
+      { "item" : "nightarnovicechest" },
+      { "item" : "nightarnovicepants" },
 	    { "item" : "nightar_suithead" },
 	    { "item" : "nightar_suitchest" },
 	    { "item" : "nightar_suitlegs" },
