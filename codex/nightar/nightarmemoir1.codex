@@ -2,18 +2,12 @@
   "id" : "nightarmemoir",
   "title" : "Memoir of an Outcast",
   "species" : "other",
-  "description" : "Written by a Nightar who opposed the Night King.",
-  "icon" : "nightardoc.png",
+  "description" : "Written by an exiled Nightar.",
+  "icon" : "nightardoc1.png",
   "contentPages" : [
-    "We Nightars are a race of honor. Many of us learned the value of life because of what we were taught by the royal family. We later found this to be a ruse, as we learned the truth of our history. We were never rejected as an entire species, but rather fled a single group of oppressors who just happened to be human.",
-  
-    "We learned this through a vision while meditating. Normally, we would never put much stock into dreams, but the presence of the spirit we saw was all but palpable. In our vision, both previous kings appeared to us, and told us of the Night King's betrayal. We were shown our history, how we came to exist. We are, at the core, the same humans we were taught to despise.",
-  
-    "Why teach us falsified history? What does the self-proclaimed Night King have to gain from organizing his manner of conquest? We have lived in peace up until now. Does he believe committing genocide on a galactic scale will allow us to live in peace? If he were correct about other races' inferiority or in any way logical about this, he'd simply let the other races die out on their own.",
-  
-    "This is not honor... this is pure madness... madness that we cannot abide. It is true, at least, that we never cared much for anyone outside our own race. That said we do not believe in ultimate domination; we simply wish to live in solitude and not get tangled up in other races' matters. The Night King is no king, but is, instead, a child throwing a tantrum."
+    "\"Bear witness to the testimony of ^cyan;Regula Annias, The Banished One^reset;.\n\nIn my final days of being a faithful servant of the Dusk Father, I made a foolish decision to hear the pleas of one of the light-tainted. In hearing his words, I could not help but feel sympathy for this man we imprisoned, and went to plea for forgiveness on his behalf to His Emminence, Elder Valkris. My pleas fell on deaf ears, however, and not only was the prisoner immediately executed, but then I too was put to trial, accused of having been tainted by the light's influence. Thus, was I stripped of my Identity, and cast out to wander the lands beyond the safety of the city I was born to. Though I will have long departed this plane's physical existence, all I can do is write this memoir, and hope that someone may understand the seriousness of my crime. A Nightar must not fall to light's dastardly whispers, or else they will lose everything that makes them who they are. May my soul eventually find rest in the Dusk Halls."
   ],
-  
+
   "itemConfig" : {
     "rarity" : "legendary",
     "price" : 300

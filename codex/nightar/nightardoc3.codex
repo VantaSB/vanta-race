@@ -1,7 +1,7 @@
 {
   "id" : "nightardoc3",
   "title" : "Long Are the Nights",
-  "species" : "nightar",
+  "species" : "other",
   "description" : "Dangers of the Night[ar] Life.",
   "icon" : "nightardoc2.png",
   "contentPages" : [

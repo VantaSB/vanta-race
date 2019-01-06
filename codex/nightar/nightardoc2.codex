@@ -1,7 +1,7 @@
 {
   "id" : "nightardoc2",
   "title" : "Live By the Sword",
-  "species" : "nightar",
+  "species" : "other",
   "description" : "A study of the cultural importance of blades in Nightar society.",
   "icon" : "nightardoc2.png",
   "contentPages" : [

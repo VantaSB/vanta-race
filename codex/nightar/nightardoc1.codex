@@ -1,7 +1,7 @@
 {
   "id" : "nightardoc1",
   "title" : "The Nightars: A Personal Perspective",
-  "species" : "nightar",
+  "species" : "other",
   "description" : "Written by an adventurer who lived among the Nightars.",
   "icon" : "nightardoc2.png",
   "contentPages" : [

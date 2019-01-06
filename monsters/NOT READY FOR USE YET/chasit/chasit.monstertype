@@ -8,7 +8,8 @@
 
   "animation" : "chasit.animation",
 
-  "dropPools" : [ { "default" : "chasitTreasure", "bow" : "petricubHunting" } ],
+  // This needs to be re-worked
+  //"dropPools" : [ { "default" : "chasitTreasure", "bow" : "petricubHunting" } ],
 
   "baseParameters" : {
     "scripts" : [

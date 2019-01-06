@@ -1,14 +1,18 @@
 {
   "id" : "nightarhistory3",
-  "title" : "The Ruling Class - Spacefaring Era",
-  "species" : "nightar",
-  "description" : "This tome details some early history of the Nightars.",
+  "title" : "\"Bratach\"",
+  "species" : "other",
+  "description" : "This tome details some of the biology of the Nightars.",
   "icon" : "nightarhistory3.png",
   "contentPages" : [
 
-    "After a massive war of succession, much of the Nightar society was fractured into various smaller 'tribes', for lack of a better term. A few tribes remained on their origin world and still fight for absolute rule of that planet. Most of the other tribes all went their separate ways, and those that stayed within close enough range of each other each formed a pact, leading to the majority of leadership in the form of something similar to a thalassocracy where Nightar societies are more heavily concentrated within a system.",
+    "I neglected to elaborate on the significance of the dark markings that all Nightars are born with in my first book. These markings, which I have come to learn are called 'bratach', are more than what they appear to be. Somehow, the bratach are what ties all Nightars to living in darkness.",
 
-    "Combat rites of eld are still (interestingly) practiced, even to this day amongst all Nightar colonies that are known, as they still believe in the old addage of 'live by the sword, die by the sword'. Their technology, coupled with their core biology, has allowed them to master the shadows to such an extensive degree that they are now nigh inseparable. Only from a certain ritual can they be dislodged from their ties to darkness."
+    "Additionally, the bratach has an immense cultural significance, in that they are considered the \"true mark of a Nightar\". In a ritual that defies all science as we know it, a Nightar can be stripped of their bratach; since they no longer have these markings, they are cast out from society as a wretch, no longer belonging to the darkness.",
+
+    "I learned that removing the bratach is more than just removing their identity as a Nightar. As explained previously, the bratach are a core part of Nightar physiology. Separating a Nightar from their bratach is more or less converting them from being able to live in darkness to being able to live in light.",
+
+    "Under rare circumstances is a Nightar who is considered a criminal sentenced to exile; for them, exile is worse than a death sentence, for they no longer have their identity as a Nightar. To be stripped of your identity and treated as a wretch by those closest to you - family and friends alike - would truly be the worst hell to endure."
 
   ],
 

@@ -1,20 +1,20 @@
 {
   "id" : "nightarhistory1",
-  "title" : "The Ruling Class - Imperial Era",
-  "species" : "nightar",
-  "description" : "This tome details some early history of the Nightars.",
+  "title" : "Customs of the Imperial Era",
+  "species" : "other",
+  "description" : "This tome details some of the early history of the Nightars.",
   "icon" : "nightarhistory1.png",
   "contentPages" : [
 
     "One thing that can be observed from a historical standpoint is the shift in Nightar eras, particularly from their Imperial era to their Spacefaring era. There are still many mysteries surrounding the Nightars as a whole, and its doubtful they will ever reveal their secrets to us any time soon. However, I did have an opportunity to live among them as an observer, and learn enough to sate my curiosity for a time.",
 
-    "During their Imperial era, as the title suggests, they lived as once society under a singular ruler. Whereas most empires had male rulers, as the mantle of leadership passed, the leaders could be male or female. However, the mantle's passage was not done simply by naming a successor; one had to prove themselves worthy of the title in order to gain it.",
+    "During their Imperial era, as the title suggests, they lived as one society under a singular ruler. Whereas most empires had male rulers, as the mantle of leadership passed, the leaders could be male or female. However, the mantle's passage was not done simply by naming a successor; one had to prove themselves worthy of the title in order to gain it.",
 
     "Because of this, there were bloody battles between many Nightar men and women who wanted to stake their claim to the throne. This time of battle was known as the 'Dwelling of Duels', and was the primary means of naming a successor to the imperial throne. Only those who were at least of combat age (roughly 14 Nightar years, both male and female alike) were allowed to partake in this event.",
 
     "Should a ruler be found lacking in their reign, any combatant may challenge and, if successful, overthrow them. Those failed leaders who are challenged and defeated are not executed, but rather, in a strange ritual of theirs, are stripped of their natural, black markings that adorn their bodies from birth.",
 
-    "When these markings are stripped, their biology changes so that they may walk in the light. However, because they now have the ability to do so, they are viewed as a wretch, and are exiled from Nightar society to carry their shame with them until they die. From their religious beliefs, those who are stripped of their markings are cursed to have their spirits wander this plane for eternity."
+    "The Nightar in question is then exiled, forced to carry their shame with them until they die. According to some of the more religious beliefs, those who are stripped of their markings are said to have their souls cursed to wander this plane for eternity after their physical passing, never to set foot into the glory of their version of the afterlife."
 
   ],
 

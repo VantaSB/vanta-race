@@ -1,7 +1,7 @@
 {
   "id" : "nightardoc4",
   "title" : "The Nightstalkers",
-  "species" : "nightar",
+  "species" : "other",
   "description" : "Observations and anecdotes about the Nightars",
   "icon" : "nightardoc.png",
   "contentPages" : [
