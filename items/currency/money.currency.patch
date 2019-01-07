@@ -1,0 +1,5 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "Credits are the universal currency of today." },
+  { "op" : "replace", "path" : "/shortdescription", "value" : "Credits" },
+  { "op" : "replace", "path" : "/inventoryIcon", "value" : "/items/currency/credits.png" }
+]

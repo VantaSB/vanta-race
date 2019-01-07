@@ -2,7 +2,7 @@
   {
     "op" : "add",
     "path" : "/money/sail_group_order",
-    "value" : [ "research" ]
+    "value" : [ "Research" ]
   },
 
   {
@@ -20,6 +20,6 @@
   {
     "op" : "add",
     "path" : "/researchengram",
-    "value" : { "representativeItem" : "researchengram", "playerMax" : 999999, "sail_group" : "research" }
+    "value" : { "representativeItem" : "researchengram", "playerMax" : 999999, "sail_group" : "Research" }
   }
 ]
