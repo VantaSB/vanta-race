@@ -1,6 +1,6 @@
 {
   "name" : "shadowjungle",
-  "friendlyName" : "Shadowy Jungle",
+  "friendlyName" : "Dark Jungle",
 
   "spawnProfile" : {
     "groups" : [
@@ -21,9 +21,8 @@
       {
         "select" : 4,
         "pool" : [
-          [ 0.3, "shadowmoth" ],
-          [ 0.3, "glowingballcritter" ],
-          [ 0.4, "ravencritter" ]
+          [ 0.2, "shadowmoth" ],
+          [ 0.8, "ravencritter" ]
         ]
       },
       {
@@ -51,7 +50,7 @@
     }
   },
 
-  "hueShiftOptions" : [ -65, -35, 0, 35, 65 ],
+  "hueShiftOptions" : [0],
 
   "weather" : [
     [0, ["/weather.config:shadowjungle"]]
@@ -272,10 +271,10 @@
         "distribution" : "/biomes/distributions.config:denseMedium",
 
         "type" : "tree",
-        "treeFoliageHueShiftMax" : 180,
-        "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "twisty", "woody", "oldwood", "crackly", "palmlike" ],
-        "treeFoliageList" : [ "lushy", "junglepalm", "jungly", "jungleleaf" ]
+        "treeFoliageHueShiftMax" : 170,
+        "treeStemHueShiftMax" : 170,
+        "treeStemList" : [ "woody", "oldwood", "alienweird", "alienbubble" ],
+        "treeFoliageList" : [ "deadleaves", "mossy", "scattered", "aliencircle", "alienbigleaf" ]
       },
 
       {
@@ -359,7 +358,7 @@
           },
 
           {
-            "name" : "glowbush",
+            "name" : "shadowglowbush",
             "baseHueShiftMax" : 40,
             "modHueShiftMax" : 180
           },

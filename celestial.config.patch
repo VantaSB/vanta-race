@@ -1,5 +1,5 @@
 [
-	{
+	/*{
 		"op" : "add",
 		"path" : "/systemTypes/Void",
 		"value" : {
@@ -94,7 +94,7 @@
         }
 			]
 		}
-	},
+	},*/				//Shadow Biomes need to be finished before full implementation.
 
 	{
 		"op" : "add",
@@ -148,7 +148,7 @@
 		"op" : "add",
 		"path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
 		"value" : "blackmoon"
-	}
+	}//,
 
 	/*{
 		"op" : "add",

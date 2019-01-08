@@ -2,23 +2,22 @@
   "config" : {
     "shipUpgrades" : {
       "capabilities" : ["teleport", "planetTravel", "systemTravel"],
-      "maxFuel" : 2000,
-      "crewSize" : 4
+      "maxFuel" : 1000
     }
   },
 
   "backgroundOverlays" : [
     {
-      "image" : "nightarT4.png",
-      "position" : [11.5, 24.875],
+      "image" : "somaT4.png",
+      "position" : [6, 1],
       "fullbright" : true
     },
     {
-      "image" : "nightarT4lit.png",
-      "position" : [11.5, 24.875]
+      "image" : "somaT4lit.png",
+      "position" : [6, 1]
     }
   ],
 
   "blockKey" : "blockKey1.config:blockKey",
-  "blockImage" : "nightart4blocks.png"
+  "blockImage" : "somaT4blocks.png"
 }
