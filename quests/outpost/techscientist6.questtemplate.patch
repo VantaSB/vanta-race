@@ -1,0 +1,3 @@
+[
+  { "op" : "add", "path" : "/scriptConfig/showTech/-", "value" : "aquasphere2" }
+]

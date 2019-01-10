@@ -7,24 +7,24 @@ function populateTechs(slot)
 
   local sort = root.assetJson("/interface/scripted/techupgrade/sorting.config").sort
 
-  local things = util.filter(sort, function(a) return contains(techs, a) end)
-  local stuff = {}
-  for i,thing in ipairs(sort) do
-    if contains(things, thing) then
-      if stuff[i] then
-        table.insert(stuff, i, thing)
+  local items = util.filter(sort, function(a) return contains(techs, a) end)
+  local tList = {}
+  for i,item in ipairs(sort) do
+    if contains(items, item) then
+      if tList[i] then
+        table.insert(tList, i, item)
       else
-        stuff[i] = thing
+        tList[i] = item
       end
     end
   end
 
-  local things = util.filter(techs, function(a) return not contains(things, a) end)
-  for _,thing in pairs(things) do
-      table.insert(stuff, thing)
+  local items = util.filter(techs, function(a) return not contains(items, a) end)
+  for _,item in pairs(items) do
+      table.insert(tList, item)
   end
 
-  for _,techName in pairs(stuff) do
+  for _,techName in pairs(tList) do
     local config = self.techs[techName]
     if root.techType(techName) == slot then
       local listItem = widget.addListItem(self.techList)

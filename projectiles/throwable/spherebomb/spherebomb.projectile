@@ -1,0 +1,28 @@
+{
+  "projectileName" : "spherebomb",
+  "physics" : "stickybomb",
+  "bounces" : -1,
+  "timeToLive" : 1.65,
+  "image" : "spherebomb.png",
+  "fullbright" : true,
+  "animationCycle" : 1.15,
+  "frameNumber" : 7,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/spherebombexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "spherebombexplosion",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0,
+      "angleAdjust" : 0,
+      "config" : { "timeToLive" : 0.1 }
+    }
+  ],
+  "power" : 50,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+}

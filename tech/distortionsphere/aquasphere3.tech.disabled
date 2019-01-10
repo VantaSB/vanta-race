@@ -1,20 +1,20 @@
 {
-  "name" : "aquasphere2",
+  "name" : "aquasphere3",
   "type" : "head",
 
-  "scripts" : ["/tech/distortionsphere/aquasphere.lua"],
+  "scripts" : ["aquasphere3.lua"],
   "animator" : "/tech/distortionsphere/distortionsphere.animation",
 
-  "description" : "Improved movement across liquids! ^green;[F]",
-  "shortDescription" : "Aqua Sphere II",
+  "description" : "Become immune to hazardous liquids! ^green;[F]",
+  "shortDescription" : "Aqua Sphere III",
   "rarity" : "Legendary",
-  "icon" : "/tech/aquasphere2.png",
+  "icon" : "/tech/aquasphere3.png",
 
-  "chipCost" : 16,
+  "chipCost" : 24,
 
   "animationParts" : {
-    "ballGlow" : "aquasphere2glow.png",
-    "ball" : "aquasphere2.png"
+    "ballGlow" : "aquasphereglow3.png",
+    "ball" : "aquasphere3.png"
   },
 
   "transformedMovementParameters" : {
@@ -48,7 +48,7 @@
   },
 
   "ballSpeed" : 14,
-  "ballLiquidSpeed" : 24,
+  "ballLiquidSpeed" : 28,
 
   "energyCost" : 50,
 
