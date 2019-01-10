@@ -6,7 +6,7 @@
   "rarity" : "essential",
   "category" : "chestarmorAug",
   "description" : "\"It reminds me of the first Hylotl warriors.\"\n-Koichi",
-  "shortdescription" : "Cultivator's Chosen ^cyan;^reset;",
+  "shortdescription" : "Cultivator's Guidance",
   "tooltipKind" : "armoraugment",
 
   "maleFrames" : {

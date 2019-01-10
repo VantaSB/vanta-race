@@ -5,7 +5,7 @@
   "tooltipKind" : "eppaugment",
   "category" : "eppAugment",
   "inventoryIcon" : "secondsightaugment.png",
-  "description" : "Slightly increases damage dealt and allows you to sense nearby enemy locations.",
+  "description" : "Slightly increases damage dealt and allows you to sense nearby enemies.",
   "shortdescription" : "Second Sight Augment",
 
   "augment" : {
@@ -13,7 +13,7 @@
     "name" : "secondsight",
     "displayName" : "Second Sight",
     "displayIcon" : "/items/augments/secondsightaugment.png",
-    "effects" : [ "ghostlyglow", "secondsight", "rageaugment1" ]
+    "effects" : [ "secondsight", "rageaugment1" ]
   },
 
   "radioMessagesOnPickup" : [ "pickupMasteryAugment" ],

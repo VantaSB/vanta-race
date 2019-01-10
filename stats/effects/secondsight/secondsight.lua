@@ -1,23 +1,17 @@
 require "/scripts/vec2.lua"
 
-function init()
+function update(dt)
   self.enemyDetectRadius = config.getParameter("enemyDetectRadius")
   self.enemyDetectQueryParameters = {
     boundMode = "position",
     includedTypes = {"monster","npc"}
   }
+
   self.enemyDetectTypeNames = {}
   for _, name in ipairs(config.getParameter("enemyDetectTypeNames")) do
     self.enemyDetectTypeNames[name] = true
   end
 
-  self.playerId = entity.id()
-
-  localAnimator.clearDrawables()
-end
-
-function update(dt)
-  localAnimator.clearDrawables()
   drawEnemyIndicators()
 end
 

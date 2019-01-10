@@ -2,7 +2,6 @@ require "/scripts/util.lua"
 
 researchgen = {}
 disabled = false
-unhandled = {}
 researchgen.itemTypes = nil
 
 function update(dt)

@@ -6,7 +6,7 @@
   "rarity" : "essential",
   "category" : "legarmorAug",
   "description" : "\"May you walk in the light of the Cultivator.\"\n-Esther Bright",
-  "shortdescription" : "Cultivator's Chosen ^cyan;^reset;",
+  "shortdescription" : "Cultivator's Steps",
   "tooltipKind" : "armoraugment",
 
   "maleFrames" : "pants.png",

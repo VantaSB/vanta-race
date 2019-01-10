@@ -13,7 +13,15 @@
     "name" : "varia",
     "displayName" : "Varia",
     "displayIcon" : "/items/augments/variaaugment.png",
-    "effects" : [ "ghostlyglow", {"stat" : "waterImmunity", "amount" : 1.0}, {"stat" : "fireStatusImmunity", "amount" : 1.0}, {"stat" : "iceStatusImmunity", "amount" : 1.0}, {"stat" : "electricStatusImmunity", "amount" : 1.0}, {"stat" : "poisonStatusImmunity", "amount" : 1.0 }, {"stat" : "lavaImmunity", "amount" : 1.0}, {"stat" : "tarImmunity", "amount" : 1.0} ]
+    "effects" : [
+      {"stat" : "waterImmunity", "amount" : 1.0},
+      {"stat" : "fireStatusImmunity", "amount" : 1.0},
+      {"stat" : "iceStatusImmunity", "amount" : 1.0},
+      {"stat" : "electricStatusImmunity", "amount" : 1.0},
+      {"stat" : "poisonStatusImmunity", "amount" : 1.0 },
+      {"stat" : "lavaImmunity", "amount" : 1.0},
+      {"stat" : "tarImmunity", "amount" : 1.0}
+    ]
   },
 
   "radioMessagesOnPickup" : [ "pickupMasteryAugment" ],
