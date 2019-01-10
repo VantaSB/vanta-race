@@ -1,0 +1,22 @@
+{
+  "itemName" : "secondsightaugment",
+  "price" : 5000,
+  "rarity" : "legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "secondsightaugment.png",
+  "description" : "Slightly increases damage dealt and allows you to sense nearby enemy locations.",
+  "shortdescription" : "Second Sight Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "secondsight",
+    "displayName" : "Second Sight",
+    "displayIcon" : "/items/augments/secondsightaugment.png",
+    "effects" : [ "ghostlyglow", "secondsight", "rageaugment1" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupMasteryAugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

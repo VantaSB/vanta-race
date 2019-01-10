@@ -2,9 +2,10 @@
   "input" : [
     { "item" : "siliconboard", "count" : 1 },
     { "item" : "phasematter", "count" : 2 },
-    { "item" : "platinumbar", "count" : 2 }
+    { "item" : "venomsample", "count" : 2 },
+    { "item" : "scorchedcore", "count" : 2 }
   ],
   "duration" : 5,
-  "output" : { "item" : "nightshadeaugment1", "count" : 1 },
+  "output" : { "item" : "variaaugment", "count" : 1 },
   "groups" : [ "nanobench", "eppAugment", "all" ]
 }

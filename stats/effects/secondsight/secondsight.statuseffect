@@ -3,8 +3,5 @@
   "effectConfig" : {},
   "defaultDuration" : 5,
 
-  "scripts" : [ "secondsight.lua" ],
-
-  "label" : "Second Sight",
-  "icon" : "/interface/statuses/hawkeye.png"
+  "scripts" : [ "secondsight.lua" ]
 }

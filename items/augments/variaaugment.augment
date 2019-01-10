@@ -2,6 +2,7 @@
   "itemName" : "variaaugment",
   "price" : 5000,
   "rarity" : "legendary",
+  "tooltipKind" : "eppaugment",
   "category" : "eppAugment",
   "inventoryIcon" : "variaaugment.png",
   "description" : "Adds additional protection from hazardous elements and liquids.",
@@ -10,8 +11,8 @@
   "augment" : {
     "type" : "back",
     "name" : "varia",
-    "displayName" : "Varia Augment",
-    "displayIcon" : "/items/augments/nightshadeaugment.png",
+    "displayName" : "Varia",
+    "displayIcon" : "/items/augments/variaaugment.png",
     "effects" : [ "ghostlyglow", {"stat" : "waterImmunity", "amount" : 1.0}, {"stat" : "fireStatusImmunity", "amount" : 1.0}, {"stat" : "iceStatusImmunity", "amount" : 1.0}, {"stat" : "electricStatusImmunity", "amount" : 1.0}, {"stat" : "poisonStatusImmunity", "amount" : 1.0 }, {"stat" : "lavaImmunity", "amount" : 1.0}, {"stat" : "tarImmunity", "amount" : 1.0} ]
   },
 

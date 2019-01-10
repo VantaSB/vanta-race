@@ -10,6 +10,15 @@ function init()
   for _, name in ipairs(config.getParameter("enemyDetectTypeNames")) do
     self.enemyDetectTypeNames[name] = true
   end
+
+  self.playerId = entity.id()
+
+  localAnimator.clearDrawables()
+end
+
+function update(dt)
+  localAnimator.clearDrawables()
+  drawEnemyIndicators()
 end
 
 function drawEnemyIndicators()
