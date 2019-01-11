@@ -15,7 +15,7 @@
          "width":500,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "compression":"zlib",
          "data":"eJztwwEJAAAMA6AlXP84S\/ACR8EEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALhUVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV9fkBB0lPFQ==",
@@ -29,7 +29,7 @@
          "width":500,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "color":"#5555ff",
          "draworder":"topdown",
@@ -41,7 +41,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "color":"#ff0000",
          "draworder":"topdown",
@@ -53,7 +53,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "color":"#ffff00",
          "draworder":"topdown",
@@ -65,7 +65,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "color":"#ff0000",
          "draworder":"topdown",
@@ -77,7 +77,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "color":"#00ffff",
          "draworder":"topdown",
@@ -89,7 +89,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "draworder":"topdown",
          "id":8,
@@ -100,7 +100,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "draworder":"topdown",
          "id":9,
@@ -111,7 +111,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "draworder":"topdown",
          "id":10,
@@ -133,31 +133,62 @@
         {
          "firstgid":1,
          "source":"D:\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/materials.json"
-        }, 
+        },
         {
          "firstgid":196,
          "source":"D:\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/supports.json"
-        }, 
+        },
         {
          "firstgid":3907,
          "source":"D:\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/miscellaneous.json"
-        }, 
+        },
         {
          "firstgid":3929,
          "source":"D:\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/liquids.json"
-        }, 
+        },
         {
          "firstgid":3957,
          "source":"..\/..\/..\/Starbound - Unstable\/mods\/The Nightars\/tilesets\/nightars-custom\/nightarmatierals.json"
-        }, 
+        },
         {
          "firstgid":3975,
          "source":"..\/..\/..\/Starbound - Unstable\/mods\/The Nightars\/tilesets\/nightars-custom\/nightarsupports.json"
-        }, 
+        },
         {
          "firstgid":3976,
          "source":"..\/..\/..\/Starbound - Unstable\/mods\/The Nightars\/tilesets\/nightars-custom\/nightarliquids.json"
         }],
+        /*
+        "tilesets":[
+               {
+                "firstgid":1,
+                "source":"..\/..\/..\/tilesets\/packed\/materials.json"
+               },
+               {
+                "firstgid":196,
+                "source":"..\/..\/..\/tilesets\/packed\/supports.json"
+               },
+               {
+                "firstgid":3907,
+                "source":"..\/..\/..\/tilesets\/packed\/miscellaneous.json"
+               },
+               {
+                "firstgid":3929,
+                "source":"..\/..\/..\/tilesets\/packed\/liquids.json"
+               },
+               {
+                "firstgid":3957,
+                "source":"..\/..\/..\/tilesets\/nightars-custom\/nightarmatierals.json"
+               },
+               {
+                "firstgid":3975,
+                "source":"..\/..\/..\/tilesets\/nightars-custom\/nightarsupports.json"
+               },
+               {
+                "firstgid":3976,
+                "source":"..\/..\/..\/tilesets\/nightars-custom\/nightarliquids.json"
+               }],
+        */
  "tilewidth":8,
  "type":"map",
  "version":1.2,
