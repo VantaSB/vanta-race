@@ -1,0 +1,47 @@
+{
+  "name" : "sb_armors_novakid",
+  "title" : "[SB] Tiered Novakid Armors",
+  "type" : "item",
+
+  "collectables" : {
+  	"novakidtier1head" : { "order" : 1, "item" : "novakidtier1head" },
+  	"novakidtier1chest" : { "order" : 2, "item" : "novakidtier2chest" },
+  	"novakidtier1pants" : { "order" : 3, "item" : "novakidtier2pants" },
+
+  	"novakidtier2head" : { "order" : 4, "item" : "novakidtier2head" },
+  	"novakidtier2chest" : { "order" : 5, "item" : "novakidtier2chest" },
+  	"novakidtier2pants" : { "order" : 6, "item" : "novakidtier2pants" },
+
+  	"novakidtier3head" : { "order" : 7, "item" : "novakidtier3head" },
+  	"novakidtier3chest" : { "order" : 8, "item" : "novakidtier3chest" },
+  	"novakidtier3pants" : { "order" : 9, "item" : "novakidtier3pants" },
+
+  	"novakidtier4head" : { "order" : 10, "item" : "novakidtier4head" },
+  	"novakidtier4chest" : { "order" : 11, "item" : "novakidtier4chest" },
+  	"novakidtier4pants" : { "order" : 12, "item" : "novakidtier4pants" },
+
+  	"novakidtier5ahead" : { "order" : 13, "item" : "novakidtier5ahead" },
+  	"novakidtier5achest" : { "order" : 14, "item" : "novakidtier5achest" },
+  	"novakidtier5apants" : { "order" : 15, "item" : "novakidtier5apants" },
+
+  	"novakidtier6ahead" : { "order" : 16, "item" : "novakidtier6ahead" },
+  	"novakidtier6achest" : { "order" : 17, "item" : "novakidtier6achest" },
+  	"novakidtier6apants" : { "order" : 18, "item" : "novakidtier6apants" },
+
+  	"novakidtier5mhead" : { "order" : 19, "item" : "novakidtier5mhead" },
+  	"novakidtier5mchest" : { "order" : 20, "item" : "novakidtier5mchest" },
+  	"novakidtier5mpants" : { "order" : 21, "item" : "novakidtier5mpants" },
+
+  	"novakidtier6mhead" : { "order" : 22, "item" : "novakidtier6mhead" },
+  	"novakidtier6mchest" : { "order" : 23, "item" : "novakidtier6mchest" },
+  	"novakidtier6mpants" : { "order" : 24, "item" : "novakidtier6mpants" },
+
+    "novakidtier5shead" : { "order" : 25, "item" : "novakidtier5shead" },
+  	"novakidtier5schest" : { "order" : 26, "item" : "novakidtier5schest" },
+  	"novakidtier5spants" : { "order" : 27, "item" : "novakidtier5spants" },
+
+  	"novakidtier6shead" : { "order" : 28, "item" : "novakidtier6shead" },
+  	"novakidtier6schest" : { "order" : 29, "item" : "novakidtier6schest" },
+  	"novakidtier6spants" : { "order" : 30, "item" : "novakidtier6spants" }
+  }
+}

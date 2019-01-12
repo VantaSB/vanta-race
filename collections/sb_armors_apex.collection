@@ -1,0 +1,47 @@
+{
+  "name" : "sb_armors_apex",
+  "title" : "[SB] Tiered Apex Armors",
+  "type" : "item",
+
+  "collectables" : {
+  	"apextier1head" : { "order" : 1, "item" : "apextier1head" },
+  	"apextier1chest" : { "order" : 2, "item" : "apextier2chest" },
+  	"apextier1pants" : { "order" : 3, "item" : "apextier2pants" },
+
+  	"apextier2head" : { "order" : 4, "item" : "apextier2head" },
+  	"apextier2chest" : { "order" : 5, "item" : "apextier2chest" },
+  	"apextier2pants" : { "order" : 6, "item" : "apextier2pants" },
+
+  	"apextier3head" : { "order" : 7, "item" : "apextier3head" },
+  	"apextier3chest" : { "order" : 8, "item" : "apextier3chest" },
+  	"apextier3pants" : { "order" : 9, "item" : "apextier3pants" },
+
+  	"apextier4head" : { "order" : 10, "item" : "apextier4head" },
+  	"apextier4chest" : { "order" : 11, "item" : "apextier4chest" },
+  	"apextier4pants" : { "order" : 12, "item" : "apextier4pants" },
+
+  	"apextier5ahead" : { "order" : 13, "item" : "apextier5ahead" },
+  	"apextier5achest" : { "order" : 14, "item" : "apextier5achest" },
+  	"apextier5apants" : { "order" : 15, "item" : "apextier5apants" },
+
+  	"apextier6ahead" : { "order" : 16, "item" : "apextier6ahead" },
+  	"apextier6achest" : { "order" : 17, "item" : "apextier6achest" },
+  	"apextier6apants" : { "order" : 18, "item" : "apextier6apants" },
+
+  	"apextier5mhead" : { "order" : 19, "item" : "apextier5mhead" },
+  	"apextier5mchest" : { "order" : 20, "item" : "apextier5mchest" },
+  	"apextier5mpants" : { "order" : 21, "item" : "apextier5mpants" },
+
+  	"apextier6mhead" : { "order" : 22, "item" : "apextier6mhead" },
+  	"apextier6mchest" : { "order" : 23, "item" : "apextier6mchest" },
+  	"apextier6mpants" : { "order" : 24, "item" : "apextier6mpants" },
+
+    "apextier5shead" : { "order" : 25, "item" : "apextier5shead" },
+  	"apextier5schest" : { "order" : 26, "item" : "apextier5schest" },
+  	"apextier5spants" : { "order" : 27, "item" : "apextier5spants" },
+
+  	"apextier6shead" : { "order" : 28, "item" : "apextier6shead" },
+  	"apextier6schest" : { "order" : 29, "item" : "apextier6schest" },
+  	"apextier6spants" : { "order" : 30, "item" : "apextier6spants" }
+  }
+}
