@@ -1,0 +1,10 @@
+{
+  "itemName" : "floranphotocell",
+  "price" : 35,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "floranphotocell.png",
+  "description" : "Photocells are said to be the core of Floran biology.",
+  "shortdescription" : "Floran Photocell",
+  "itemTags" : [ "reagent" ]
+}

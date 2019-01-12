@@ -1,0 +1,10 @@
+{
+  "itemName" : "glitchengram",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "glitchengram.png",
+  "description" : "Glitch engrams contain more than just memories, they also store more ancient traces of Glitch origins.",
+  "shortdescription" : "Glitch Engram",
+  "itemTags" : [ "reagent" ]
+}

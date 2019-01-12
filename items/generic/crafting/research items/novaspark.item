@@ -1,0 +1,10 @@
+{
+  "itemName" : "novaspark",
+  "price" : 65,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "novaspark.png",
+  "description" : "It is said that novasparks can catalyze the creation of a Novakid.",
+  "shortdescription" : "Novaspark",
+  "itemTags" : [ "reagent" ]
+}
