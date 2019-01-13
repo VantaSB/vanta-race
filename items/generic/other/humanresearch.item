@@ -1,0 +1,10 @@
+{
+  "itemName" : "humanresearch",
+  "price" : 35,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "humanresearch.png",
+  "description" : "Humans like to keep their historical data on solid mediums, such as these microdiscs.",
+  "shortdescription" : "Human Microdisc",
+  "itemTags" : [ "reagent" ]
+}

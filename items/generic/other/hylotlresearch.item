@@ -1,0 +1,10 @@
+{
+  "itemName" : "hylotlresearch",
+  "price" : 35,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "hylotlresearch.png",
+  "description" : "The Hylotl have long pondered the secrets of these mysterious, fossil scales.",
+  "shortdescription" : "^Hylotl Fossil Scale",
+  "itemTags" : [ "reagent" ]
+}

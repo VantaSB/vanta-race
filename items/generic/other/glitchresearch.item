@@ -1,0 +1,10 @@
+{
+  "itemName" : "glitchresearch",
+  "price" : 25,
+  "rarity" : "rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "glitchresearch.png",
+  "description" : "Glitch cortexes contain more than just memories, they also store more ancient traces of Glitch origins.",
+  "shortdescription" : "Glitch Cortex",
+  "itemTags" : [ "reagent" ]
+}
