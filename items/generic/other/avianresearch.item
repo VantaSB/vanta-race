@@ -5,6 +5,6 @@
   "category" : "craftingMaterial",
   "inventoryIcon" : "avianresearch.png",
   "description" : "Both the Grounded and Stargazers alike have yet to fully understand these ancient discs.",
-  "shortdescription" : "Avian Radial Histogram",
+  "shortdescription" : "Avian Radial Tome",
   "itemTags" : [ "reagent" ]
 }

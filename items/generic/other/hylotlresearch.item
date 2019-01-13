@@ -5,6 +5,6 @@
   "category" : "craftingMaterial",
   "inventoryIcon" : "hylotlresearch.png",
   "description" : "The Hylotl have long pondered the secrets of these mysterious, fossil scales.",
-  "shortdescription" : "^Hylotl Fossil Scale",
+  "shortdescription" : "Hylotl Fossil Scale",
   "itemTags" : [ "reagent" ]
 }
