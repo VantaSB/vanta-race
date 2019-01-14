@@ -40,7 +40,7 @@
   "nightfortCodex1" : [
     [1, {
       "fill" : [
-        {"item" : [ "nightiumshard", 1]},
+        //{"item" : [ "nightiumshard", 1]},
         {"item" : [ "nightarhistory1-codex", 1]}
       ]
     }]
@@ -49,7 +49,7 @@
   "nightfortCodex2" : [
     [1, {
       "fill" : [
-        {"item" : [ "nightiumshard", 1]},
+        //{"item" : [ "nightiumshard", 1]},
         {"item" : [ "nightarhistory2-codex", 1]}
       ]
     }]
@@ -58,7 +58,7 @@
   "nightfortCodex3" : [
     [1, {
       "fill" : [
-        {"item" : [ "nightiumshard", 1]},
+        //{"item" : [ "nightiumshard", 1]},
         {"item" : [ "nightarhistory3-codex", 1]}
       ]
     }]
@@ -67,7 +67,7 @@
   "nightfortCodex4" : [
     [1, {
       "fill" : [
-        {"item" : "nightarcapeback"},
+        {"item" : ["nightarcapeback", 1]},
         {"item" : [ "nightarhistory4-codex", 1]}
       ]
     }]
@@ -76,8 +76,8 @@
   "nightfortReward" : [
     [1, {
       "fill" : [
-	    {"item" : [ "thenightking-codex", 1]},
-        {"item" : [ "nightiumcrystal", 1]}
+	    {"item" : [ "thenightking-codex", 1]}
+      //,{"item" : [ "nightiumcrystal", 1]}
       ],
       "pool" : [
         {"weight" : 0.1, "item" : [ "techcard", 1]},
@@ -107,7 +107,7 @@
       {"item" : "nightarmanipulator"}
       ]
     }]
-  ],
+  ]/*,
 
   "nightarSettlementLore" : [
     [1, {
@@ -132,5 +132,5 @@
       ],
       "allowDuplication" : false
     }]
-  ]
+  ]*/
  }
