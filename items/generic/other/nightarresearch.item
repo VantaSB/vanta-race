@@ -1,0 +1,10 @@
+{
+  "itemName" : "nightarresearch",
+  "price" : 65,
+  "rarity" : "rare",
+  "category" : "research",
+  "inventoryIcon" : "nightarresearch.png",
+  "description" : "Somehow, this essence makes up a core part of Nightar biology.",
+  "shortdescription" : "Darklight Essence",
+  "itemTags" : [ "research" ]
+}

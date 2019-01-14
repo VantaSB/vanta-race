@@ -2,9 +2,9 @@
   "itemName" : "floranresearch",
   "price" : 35,
   "rarity" : "rare",
-  "category" : "craftingMaterial",
+  "category" : "research",
   "inventoryIcon" : "floranresearch.png",
   "description" : "Photocells are said to be a core component of Floran biology.",
   "shortdescription" : "Floran Photocell",
-  "itemTags" : [ "reagent" ]
+  "itemTags" : [ "research" ]
 }

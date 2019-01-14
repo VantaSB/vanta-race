@@ -1,9 +1,10 @@
 [
-  { "op" : "add", "path" : "/labels/headarmorAug", "value" : "Augmented Head" },
-  { "op" : "add", "path" : "/labels/chestarmorAug", "value" : "Augmented Chest" },
-  { "op" : "add", "path" : "/labels/legarmorAug", "value" : "Augmented Legs" },
+  { "op" : "add", "path" : "/labels/headarmorAug", "value" : "Augmented Head Armour" },
+  { "op" : "add", "path" : "/labels/chestarmorAug", "value" : "Augmented Chest Armour" },
+  { "op" : "add", "path" : "/labels/legarmorAug", "value" : "Augmented Leg Armour" },
+  { "op" : "add", "path" : "/labels/energysword", "value" : "Energy Sword" },
   { "op" : "add", "path" : "/labels/energyscythe", "value" : "Energy Scythe" },
   { "op" : "add", "path" : "/labels/energyspear", "value" : "Energy Spear" },
-  { "op" : "add", "path" : "/labels/research", "value" : "Research Materials" },
+  { "op" : "add", "path" : "/labels/research", "value" : "Research Material" },
   { "op" : "replace", "path" : "/labels/eppAugment", "value" : "Augment" }
 ]
