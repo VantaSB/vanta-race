@@ -1,8 +1,8 @@
 {
   "author" : "AbsoluteXero",
   "dependencies" : [],
-  "description" : "The Nightar Race, revived and brought back with some updates! I'm always in the process of adding things and improving existing content. If something doesn't work or otherwise stops working, please let me know and I'll try to get it fixed ASAP. Enjoy!",
-  "friendlyName" : "The Nightars (Revived)",
+  "description" : "The Nightar race, revived and brought back with some updates! I'm always in the process of adding things and improving existing content. If something doesn't work or otherwise stops working, please let me know and I'll try to get it fixed ASAP. Enjoy!",
+  "friendlyName" : "The Nightars: Rebirth",
   "priority" : 1,
   "link" : "steam://url/CommunityFilePage/1325968658",
   "name" : "The Nightars",
@@ -10,3 +10,5 @@
   "tags" : "Species",
   "version" : "0.5"
 }
+
+//"description" : "From the Halls of Twilight rise the Nightars, born anew into the universe!",
