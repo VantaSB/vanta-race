@@ -132,63 +132,32 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"D:\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/materials.json"
+         "source":"..\/..\/..\/tilesets\/packed\/materials.json"
         },
         {
          "firstgid":196,
-         "source":"D:\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/supports.json"
+         "source":"..\/..\/..\/tilesets\/packed\/supports.json"
         },
         {
          "firstgid":3907,
-         "source":"D:\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/miscellaneous.json"
+         "source":"..\/..\/..\/tilesets\/packed\/miscellaneous.json"
         },
         {
          "firstgid":3929,
-         "source":"D:\/Starbound - Unstable\/assets\/unpacked\/tilesets\/packed\/liquids.json"
+         "source":"..\/..\/..\/tilesets\/packed\/liquids.json"
         },
         {
          "firstgid":3957,
-         "source":"..\/..\/..\/Starbound - Unstable\/mods\/The Nightars\/tilesets\/nightars-custom\/nightarmatierals.json"
+         "source":"..\/..\/..\/tilesets\/nightars-custom\/nightarmatierals.json"
         },
         {
          "firstgid":3975,
-         "source":"..\/..\/..\/Starbound - Unstable\/mods\/The Nightars\/tilesets\/nightars-custom\/nightarsupports.json"
+         "source":"..\/..\/..\/tilesets\/nightars-custom\/nightarsupports.json"
         },
         {
          "firstgid":3976,
-         "source":"..\/..\/..\/Starbound - Unstable\/mods\/The Nightars\/tilesets\/nightars-custom\/nightarliquids.json"
+         "source":"..\/..\/..\/tilesets\/nightars-custom\/nightarliquids.json"
         }],
-        /*
-        "tilesets":[
-               {
-                "firstgid":1,
-                "source":"..\/..\/..\/tilesets\/packed\/materials.json"
-               },
-               {
-                "firstgid":196,
-                "source":"..\/..\/..\/tilesets\/packed\/supports.json"
-               },
-               {
-                "firstgid":3907,
-                "source":"..\/..\/..\/tilesets\/packed\/miscellaneous.json"
-               },
-               {
-                "firstgid":3929,
-                "source":"..\/..\/..\/tilesets\/packed\/liquids.json"
-               },
-               {
-                "firstgid":3957,
-                "source":"..\/..\/..\/tilesets\/nightars-custom\/nightarmatierals.json"
-               },
-               {
-                "firstgid":3975,
-                "source":"..\/..\/..\/tilesets\/nightars-custom\/nightarsupports.json"
-               },
-               {
-                "firstgid":3976,
-                "source":"..\/..\/..\/tilesets\/nightars-custom\/nightarliquids.json"
-               }],
-        */
  "tilewidth":8,
  "type":"map",
  "version":1.2,
