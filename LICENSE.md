@@ -54,14 +54,14 @@ Your exercise of the Licensed Rights is expressly made subject to the following 
 
 a. **Attribution.**
 1. If You Share the Licensed Material (including in modified form), You must:
-  * retain the following if it is supplied by the Licensor with the Licensed Material:
-    * identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);
-    * a copyright notice;
-    * a notice that refers to this Public License;
-    * a notice that refers to the disclaimer of warranties;
-    * a URI or hyperlink to the Licensed Material to the extent reasonably practicable;
-  * indicate if You modified the Licensed Material and retain an indication of any previous modifications; and
-  * indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.
+  1. retain the following if it is supplied by the Licensor with the Licensed Material:
+    1. identification of the creator(s) of the Licensed Material and any others designated to receive attribution, in any reasonable manner requested by the Licensor (including by pseudonym if designated);
+    2. a copyright notice;
+    3. a notice that refers to this Public License;
+    4. a notice that refers to the disclaimer of warranties;
+    5. a URI or hyperlink to the Licensed Material to the extent reasonably practicable;
+  2. indicate if You modified the Licensed Material and retain an indication of any previous modifications; and
+  3. indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License.
 2. You may satisfy the conditions in **Section 3(a)(1)** in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.
 3. If requested by the Licensor, You must remove any of the information required by **Section 3(a)(1)(A)** to the extent reasonably practicable.
 
@@ -84,9 +84,9 @@ c. You must comply with the conditions in **Section 3(a)** if You Share all or a
 For the avoidance of doubt, this **Section 4** supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.
 
 ## Section 5 - Disclaimer of Warranties and Limitation of Liability.
-**a. Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.
+**a. Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.**
 
-b. To the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.**
+**b. To the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.**
 
 c. The disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.
 
