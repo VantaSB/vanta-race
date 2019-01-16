@@ -1,5 +1,32 @@
 [
-	//{ "op" : "replace", "path" : "/useSecondaryEnvironmentBiomeIndex", "value" : true },
+	{ "op" : "replace", "path" : "/useSecondaryEnvironmentBiomeIndex", "value" : true },
+
+	{
+		"op" : "add",
+	  "path" : "/planetSizes/verylarge",
+	  "value" : {
+			"size" : [8000, 4000],
+	    "gravityRange" : [80, 110],
+	    "dayLengthRange" : [800, 4000],
+	    "layerDefaults" : {
+	    	"secondaryRegionPeriod" : [1200, 3000],
+	    	"secondaryRegionSize" : [0.2, 0.92],
+	    	"secondaryRegionCount" : [1, 3],
+	    	"subRegionSize" : [0.13, 0.47],
+	    	"dungeonCountRange" : [2, 4]
+			},
+	    "layers" : {
+	    	"space" : { "baseHeight" : 3500, "layerLevel" : 3000 },
+	      "atmosphere" : { "baseHeight" : 3000, "layerLevel" : 2600 },
+	      "surface" : { "baseHeight" : 2000, "layerLevel" : 1800 },
+	      "subsurface" : { "baseHeight" : 1200, "layerLevel" : 1000 },
+	      "underground1" : { "baseHeight" : 900, "layerLevel" : 800 },
+	      "underground2" : { "baseHeight" : 700, "layerLevel" : 600 },
+	      "underground3" : { "baseHeight" : 500,  "layerLevel" : 400  },
+	      "core" : { "baseHeight" : 100, "layerLevel" : 0 }
+	    }
+	  }
+	},
 
 	{
 		"op" : "add",
