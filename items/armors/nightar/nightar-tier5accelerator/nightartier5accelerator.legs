@@ -1,41 +1,40 @@
 {
-  "itemName" : "nightart6ahead",
-  "price" : 3840,
-  "inventoryIcon" : "icons.png:head",
+  "itemName" : "nightartier5acceleratorpants",
+  "price" : 500,
+  "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
-  "rarity" : "Legendary",
-  "category" : "headarmour",
-  "description" : "The design of the Queensryche helmet was used to induce panic during imperial times.",
-  "shortdescription" : "Queensryche Helm",
+  "rarity" : "Rare",
+  "category" : "legarmour",
+  "description" : "Boots designed for maneuverability and status.",
+  "shortdescription" : "Corsair Boots",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
-  "mask" : "mask.png",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
 
-  "level" : 6,
+  "level" : 5,
   "leveledStatusEffects" : [
     {
       "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.17
+      "baseMultiplier" : 1.1
     },
     {
       "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.31
+      "amount" : 0.2
     },
     {
       "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 3
+      "amount" : 2
     },
     {
       "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 3
+      "amount" : 2
     }
   ],
 
-  "itemTags" : [ "tier6armour" ]
+  "itemTags" : [ "tier5armour" ]
 }

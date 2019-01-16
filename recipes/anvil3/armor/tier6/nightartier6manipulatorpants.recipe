@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 8 },
+    { "item" : "nightartier5acceleratorpants", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "nightartier6manipulatorpants", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
+}

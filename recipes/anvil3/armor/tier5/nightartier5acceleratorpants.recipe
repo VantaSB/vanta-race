@@ -4,6 +4,6 @@
     { "item" : "canvas", "count" : 1 }
   ],
   "duration" : 5,
-  "output" : { "item" : "nightart5apants", "count" : 1 },
+  "output" : { "item" : "nightartier5acceleratorpants", "count" : 1 },
   "groups" : [ "craftingaccelerator", "armours", "all" ]
 }

@@ -2,7 +2,6 @@
   "input" : [
     { "item" : "crimsoniumore", "count" : 5 }
   ],
-  "duration" : 5,
   "output" : { "item" : "crimsoniumrod", "count" : 1 },
   "groups" : [ "craftingfurnace3", "bars", "all" ]
 }
