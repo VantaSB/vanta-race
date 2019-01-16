@@ -1,39 +1,38 @@
 {
-  "itemName" : "nightart6shead",
-  "price" : 3840,
-  "inventoryIcon" : "icons.png:head",
+  "itemName" : "nightartier6separatorpants",
+  "price" : 2560,
+  "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "category" : "headarmour",
-  "description" : "The King Slayer's Helm is rock-solid, and will protect your head from low-clearance hazards and falling objects.",
-  "shortdescription" : "King Slayer's Helm",
+  "category" : "legarmour",
+  "description" : "The King Slayer's greaves are rugged enough to withstand the elements.",
+  "shortdescription" : "King Slayer's Greaves",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "head.png",
-  "femaleFrames" : "head.png",
-  "mask" : "mask.png",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
 
   "level" : 6,
   "leveledStatusEffects" : [
     {
       "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.17
+      "baseMultiplier" : 1.1
     },
     {
       "levelFunction" : "separatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.31
+      "amount" : 0.2
     },
     {
       "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 3
+      "amount" : 2
     },
     {
       "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 3
+      "amount" : 2
     }
   ],
 

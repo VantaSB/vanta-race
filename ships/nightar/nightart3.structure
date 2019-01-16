@@ -94,6 +94,6 @@
             ]
         }
     ],
-    "blockKey": "blockKey.config:blockKey",
+    "blockKey": "blockKey1.config:blockKey",
     "blockImage": "frigate3blocks.png"
 }
