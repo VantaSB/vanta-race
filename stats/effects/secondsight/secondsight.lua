@@ -1,6 +1,6 @@
 require "/scripts/vec2.lua"
 
-function update(dt)
+function init()
   self.enemyDetectRadius = config.getParameter("enemyDetectRadius")
   self.enemyDetectQueryParameters = {
     boundMode = "position",
@@ -8,10 +8,15 @@ function update(dt)
   }
 
   self.enemyDetectTypeNames = {}
+
   for _, name in ipairs(config.getParameter("enemyDetectTypeNames")) do
     self.enemyDetectTypeNames[name] = true
   end
 
+  localAnimator.clearDrawables()
+end
+
+function update(dt)
   drawEnemyIndicators()
 end
 

@@ -1,0 +1,40 @@
+{
+  "objectName" : "vehiclerepairstation",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Uncommon",
+  "category" : "other",
+  "printable" : false,
+  "subtitle" : "Vehicle Repairs",
+  "tooltipKind" : "container",
+  "description" : "A portable vehicle repair station.",
+  "shortdescription" : "Vehicle Repair Station",
+  "race" : "generic",
+
+  "statusEffects" : [ ],
+  "price" : 500,
+
+  "apexDescription" : "It's a portable vehicle repair station.",
+  "avianDescription" : "This station will let me fix broken vehicles.",
+  "floranDescription" : "Shiny metal thing fixesss things.",
+  "glitchDescription" : "Relieved. This station will let me fix broken vehicles.",
+  "humanDescription" : "Rob Repairo's branching out with his services!",
+  "hylotlDescription" : "It's incredibly nice of Rob Repairo to provide portable repair stations.",
+  "novakidDescription" : "Rob Repairo wants you to know he has yer back!",
+
+  "inventoryIcon" : "/objects/outpost/repairo/repairoicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vehiclerepair.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/vehiclerepair/vehiclerepairgui.config",
+
+  "chipRepairFactor" : 0.2
+}

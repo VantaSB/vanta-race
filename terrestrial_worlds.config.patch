@@ -6,7 +6,7 @@
 	  "path" : "/planetSizes/verylarge",
 	  "value" : {
 			"size" : [8000, 4000],
-	    "gravityRange" : [80, 110],
+	    "gravityRange" : [80, 100],
 	    "dayLengthRange" : [800, 4000],
 	    "layerDefaults" : {
 	    	"secondaryRegionPeriod" : [1200, 3000],

@@ -31,13 +31,13 @@
           "position" : [479, 280]
         },
         {
-          "timecode" : 10.6,
+          "timecode" : 6,
           "zoom" : 1,
           "alpha" : 1,
           "position" : [479, 280]
         },
         {
-          "timecode" : 11,
+          "timecode" : 6.4,
           "zoom" : 1,
           "alpha" : 0,
           "position" : [479, 280]
@@ -65,13 +65,13 @@
           "position" : [479, 280]
         },
         {
-          "timecode" : 5,
+          "timecode" : 6,
           "zoom" : 2,
           "alpha" : 1,
           "position" : [479, 280]
         },
         {
-          "timecode" : 5.4,
+          "timecode" : 6.4,
           "zoom" : 0.5,
           "alpha" : 0,
           "position" : [479, 280]
@@ -98,13 +98,13 @@
           "position" : [480, 210]
         },
         {
-          "timecode" : 10.6,
+          "timecode" : 6,
           "zoom" : 1,
           "alpha" : 1,
           "position" : [480, 210]
         },
         {
-          "timecode" : 11,
+          "timecode" : 6.4,
           "zoom" : 1,
           "alpha" : 0.0,
           "position" : [480, 210]
@@ -118,7 +118,7 @@
       "resource" : "/sfx/cinematics/tetrakeyobtained.ogg"
     },
     {
-      "timecode" : 11.0,
+      "timecode" : 7,
       "resource" : "/sfx/interface/item_holster.ogg"
     }
   ]
