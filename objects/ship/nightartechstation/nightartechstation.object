@@ -51,18 +51,25 @@
   "chatPortrait" : "/ai/portraits/nightarportrait.png:yell.1",
   "dialog" : {
     "wakeUp" : [
-      [ "^yellow;Rebooting...^reset;", "/ai/portraits/nightarportrait.png:unique.1" ],
-	    [ "Systems Check:\nCore System - ^green;OK^reset;\nSubroutines - ^green;OK^reset;\nInfo Database - ^green;OK^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
-	    [ "Systems Check:\nEngine Systems - ^#ff0000;ERROR^reset;\nFTL Drive - ^#ff0000;ERROR^reset;\nNavigation Systems - ^#ff0000;ERROR^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
-      [ "Diagnostics complete.\n^orange;Extensive repairs are required.^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
-      [ "Greetings. I am ^cyan;S.A.I.L^reset;, your personal AI assistant. I manage the status of your ship.", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "^yellow;Rebooting, beginning diagnostics...^reset;", "/ai/portraits/nightarportrait.png:unique.1" ],
+      [ "Systems Check:\nCore System - ^green;OK^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "Systems Check:\nSubroutines - ^green;OK^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "Systems Check:\nDatabase - ^green;OK^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "Systems Check:\nEngine Systems - ^#ff0000;ERROR^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "Systems Check:\nFTL Drive - ^#ff0000;ERROR^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "Systems Check:\nNavigation - ^#ff0000;ERROR^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "Diagnostics complete;\n^orange;extensive repairs required.^reset;", "/ai/portraits/nightarportrait.png:talk.0" ],
+      [ "Greetings, captain. I am ^cyan;S.A.I.L^reset;, your personal AI assistant.", "/ai/portraits/nightarportrait.png:talk.0"],
+      [ "I help manage the status of your ship and track your research data.", "/ai/portraits/nightarportrait.png:talk.0" ],
       [ "I can also offer you information and advice during your travels.", "/ai/portraits/nightarportrait.png:talk.0" ],
-      [ "The ship was severely damaged during our escape; navigation and engine systems are offline.", "/ai/portraits/nightarportrait.png:talk.1" ],
+      [ "Our last jump was accompanied by a catastrophic system failure.", "/ai/portraits/nightarportrait.png:talk.1" ],
+      [ "Multiple sections have been closed off due to compression leaks.", "/ai/portraits/nightarportrait.png:talk.1" ],
       [ "We are currently holding orbit over an unknown planet. Its threat level is ^green;minimal^reset;.", "/ai/portraits/nightarportrait.png:talk.1" ],
-      [ "I have restored the ^yellow;teleporter^reset;, I recommend you beam down and gather supplies.", "/ai/portraits/nightarportrait.png:talk.1" ]
+      [ "I have restored the ^yellow;teleporter^reset;, I recommend you beam down and gather supplies.", "/ai/portraits/nightarportrait.png:talk.1" ],
+      [ "Please don't hesitate to talk to me if you need assistance.", "/ai/portraits/nightarportrait.png:talk.0" ]
     ],
     "wakePlayer" : [
-      [ "System malfunction\nReboot required", "/ai/portraits/nightarportrait.png:unique.1"]
+      [ "System malfunction - Reboot required", "/ai/portraits/nightarportrait.png:unique.1"]
     ]
   },
 
