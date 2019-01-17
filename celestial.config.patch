@@ -158,6 +158,130 @@
 
 	{
 		"op" : "add",
+		"path" : "/planetaryTypes/Tier2/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.2,
+			"smallImageScale" : 0.7,
+			"worldSize" : "mega"
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier3/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.2,
+			"smallImageScale" : 0.7,
+			"worldSize" : "mega"
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier4/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.2,
+			"smallImageScale" : 0.7,
+			"worldSize" : "mega"
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier5/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.2,
+			"smallImageScale" : 0.7,
+			"worldSize" : "mega"
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier6/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.2,
+			"smallImageScale" : 0.7,
+			"worldSize" : "mega"
+		}
+	},
+
+	/*{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier7/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.2,
+			"smallImageScale" : 0.7,
+			"worldSize" : "mega"
+		}
+	},*/
+
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier2/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.3,
+			"smallImageScale" : 0.75,
+			"worldSize" : "immense"
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier3/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.3,
+			"smallImageScale" : 0.75,
+			"worldSize" : "immense"
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier4/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.3,
+			"smallImageScale" : 0.75,
+			"worldSize" : "immense"
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier5/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.3,
+			"smallImageScale" : 0.75,
+			"worldSize" : "immense"
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier6/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.3,
+			"smallImageScale" : 0.75,
+			"worldSize" : "immense"
+		}
+	},
+
+	/*{
+		"op" : "add",
+		"path" : "/planetaryTypes/Tier7/variationParameters/-",
+		"value" : {
+			"imageScale" : 0.3,
+			"smallImageScale" : 0.75,
+			"worldSize" : "immense"
+		}
+	},*/
+
+
+
+
+
+	{
+		"op" : "add",
 		"path" : "/terrestrialHorizonGraphics/blackmoon",
 		"value" : {
 			"baseImages" : "/celestial/system/terrestrial/horizon/textures/blackmoon_<selector>.png",

@@ -30,6 +30,59 @@
 
 	{
 		"op" : "add",
+	    "path" : "/planetSizes/mega",
+	    "value" : {
+	      "size" : [11000, 7000],
+	      "gravityRange" : [90, 150],
+	      "dayLengthRange" : [1000, 4400],
+	      "layerDefaults" : {
+	        "secondaryRegionPeriod" : [1500, 3000],
+	        "secondaryRegionSize" : [0.2, 0.92],
+	        "secondaryRegionCount" : [1, 4],
+	        "subRegionSize" : [0.15, 0.5],
+	        "dungeonCountRange" : [2, 6]
+	      },
+	      "layers" : {
+	        "space"        : { "baseHeight" : 6500, "layerLevel" : 6200 },
+	        "atmosphere"   : { "baseHeight" : 5500, "layerLevel" : 5400 },
+	        "surface"      : { "baseHeight" : 4000, "layerLevel" : 3800 },
+	        "subsurface"   : { "baseHeight" : 3000, "layerLevel" : 2800 },
+	        "underground1" : { "baseHeight" : 1500, "layerLevel" : 1300 },
+	        "underground2" : { "baseHeight" : 900, "layerLevel" : 800 },
+	        "underground3" : { "baseHeight" : 700,  "layerLevel" : 600  },
+	        "core" : { "baseHeight" : 200, "layerLevel" : 0 }
+	    }
+	  }
+	},
+
+	{
+		"op" : "add", "path" : "/planetSizes/immense",
+    "value" : {
+      "size" : [16000, 8000],
+      "gravityRange" : [90, 180],
+      "dayLengthRange" : [1200, 5000],
+      "layerDefaults" : {
+        "secondaryRegionPeriod" : [1500, 3000],
+        "secondaryRegionSize"   : [0.2, 0.92],
+        "secondaryRegionCount" : [1, 5],
+        "subRegionSize" : [0.15, 0.55],
+        "dungeonCountRange"     : [2, 7]
+      },
+      "layers" : {
+        "space"        : { "baseHeight" : 7500, "layerLevel" : 7300 },
+        "atmosphere"   : { "baseHeight" : 6500, "layerLevel" : 6300 },
+        "surface"      : { "baseHeight" : 4200, "layerLevel" : 4000 },
+        "subsurface"   : { "baseHeight" : 2800, "layerLevel" : 2700 },
+        "underground1" : { "baseHeight" : 1900, "layerLevel" : 1800 },
+        "underground2" : { "baseHeight" : 1575, "layerLevel" : 1400 },
+        "underground3" : { "baseHeight" : 1225, "layerLevel" : 1120 },
+        "core"         : { "baseHeight" : 200,  "layerLevel" : 0    }
+      }
+    }
+  },
+
+	{
+		"op" : "add",
 		"path" : "/planetTypes/blackmoon",
 		"value" : {
 			"blendSize" : 30,
