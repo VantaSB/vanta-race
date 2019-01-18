@@ -23,15 +23,15 @@
 	"hylotlDescription" : "Dark as they are, the Nightars' equipment is surely a sight to behold.",
 	"novakidDescription" : "These folks come up with the craziest designs.",
 
-  "learnBlueprintsOnPickup" : [ "kaisergem", "bunshoki", "nightarhandgun", "replicanightarsword", "stealthdagger", "yonaga", "yorunoha", "yorunokama", "yorunoyumi", "yosamu" ],
+  "learnBlueprintsOnPickup" : [ "bunshoki", "nightarhandgun", "replicanightarsword", "stealthdagger", "yonaga", "yorunoha", "yorunokama", "yorunoyumi", "yosamu" ],
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/windowconfig/crafting.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
-        "title" : "Enhancer",
-        "subtitle" : "Craft the legendary sets right here.",
+        "title" : "Nightar Replicator",
+        "subtitle" : "Craft Nightar-based weaponry",
         "icon" : {
           "file" : "/interface/crafting/craftingicon.png"
         }

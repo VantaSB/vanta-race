@@ -13,6 +13,8 @@ function init()
     self.enemyDetectTypeNames[name] = true
   end
 
+  self.playerId = entity.id()
+
   localAnimator.clearDrawables()
 end
 

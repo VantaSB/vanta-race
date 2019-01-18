@@ -1,0 +1,77 @@
+{
+  "objectName" : "nightarvendingmachine",
+  "tags" : ["nightar", "merchant"],
+  "rarity" : "Legendary",
+  "description" : "A Nightar vending machine. Yes, even knights need refreshments.",
+  "shortdescription" : "Nightar vending machine",
+  "race" : "nightar",
+  "price" : 1100,
+  "lightColor" : [19, 27, 31],
+
+    "interactAction" : "OpenMerchantInterface",
+
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Nightar Vending machine",
+        "subtitle" : "Vending Machine"
+      }
+    },
+
+    "buyFactor" : 1.0,
+    "sellFactor" : 0,
+    "items" : [
+	  //{ "item" : "nightardrinkp" },
+	  //{ "item" : "nightardrink" },
+	    { "item" : "bottledwater" },
+	    { "item" : "soda" },
+	    { "item" : "coffee" },
+      { "item" : "flatwhite" },
+      { "item" : "mocha" }
+    ]
+  },
+
+
+  "apexDescription" : "I had believed the Nightars to be less modern.",
+  "avianDescription" : "Nightarian cultar never ceases to perplex me.",
+  "floranDescription" : "Fancy machine givessss Floran good drinkss!",
+  "glitchDescription" : "Intrigued. Not even the Glitch have their own vending machine style.",
+  "humanDescription" : "It's a suped-up vending machine!",
+  "hylotlDescription" : "I've always been curious about why Nightars would have such a thing, given their culture.",
+  "novakidDescription" : "That's one heckuva fancy vending machine, if ya ask me!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "nightarvendingmachine.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarvendingmachinelit.png:<color>.<frame>" } ],
+      "frames" : 3,
+	    "animationCycle" : 0.5,
+
+	    "flipImages" : true,
+      "direction" : "left",
+
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "nightarvendingmachine.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarvendingmachinelit.png:<color>.<frame>" } ],
+      "frames" : 3,
+	    "animationCycle" : 0.5,
+
+	    "direction" : "right",
+
+      "lightPosition" : [0, 2],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/hubbub.ogg"
+}
