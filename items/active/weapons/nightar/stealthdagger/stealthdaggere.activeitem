@@ -13,7 +13,6 @@
   "animation": "stealthdagger.animation",
   "inventoryIcon" : "stealthdaggere.png",
   "animationParts" : {
-    "handle": "",
     "blade" : "stealthdaggere.png"
   },
   "animationCustom" : {},

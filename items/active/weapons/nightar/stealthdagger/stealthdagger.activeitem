@@ -1,9 +1,9 @@
 {
   "itemName" : "stealthdagger",
   "price" : 500,
-  "level" : 3,
+  "level" : 1,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "common",
   "description" : "A dagger crafted and put to use by the Nightar shadowguard.",
   "shortdescription" : "Nightar Dagger",
   "tooltipKind" : "base",
@@ -13,7 +13,6 @@
   "animation": "stealthdagger.animation",
   "inventoryIcon" : "stealthdagger.png",
   "animationParts" : {
-    "handle": "",
     "blade" : "stealthdagger.png"
   },
   "animationCustom" : {},
@@ -24,7 +23,7 @@
   "primaryAbilityType": "stealthdaggercombo",
   "primaryAbility" : {
     "fireTime" : 0.4,
-    "baseDps" : 11
+    "baseDps" : 13
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
