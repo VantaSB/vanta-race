@@ -1,9 +1,0 @@
-{
-  "name" : "secondsight",
-  "effectConfig" : {},
-
-  "defaultDuration" : 5,
-
-  "scripts" : [ "secondsight.lua" ],
-  "scriptDelta" : 1
-}
