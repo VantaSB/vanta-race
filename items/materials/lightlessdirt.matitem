@@ -1,9 +1,9 @@
 {
-  "itemName" : "shadowdirt",
+  "itemName" : "lightlessdirt",
   "price" : 15,
   "category" : "block",
   "rarity" : "uncommon",
-  "inventoryIcon" : "shadowdirt.png",
+  "inventoryIcon" : "lightlessdirticon.png",
   "description" : "A type of dirt found only on shadow-type worlds.",
   "shortdescription" : "Lightless Dirt",
 

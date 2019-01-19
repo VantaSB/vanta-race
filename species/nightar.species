@@ -7,7 +7,7 @@
       "description" : "The Nightars are a race unlike any other. Having mastered the arts of assassination and war, these folk live their lives in the dark depths of space."
   },
 
-  "humanoidConfig" : "/species/nightarnoid.config", //<-- Custom movement parameter configuration? It works well enough with penguins.
+  "humanoidConfig" : "/species/nightarnoid.config", //<-- Custom humanoid configuration? Seems to work well enough.
   "nameGen" : [ "/species/nightarmalenamegen.config:names", "/species/nightarfemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/humanhurt_male1.ogg", "/sfx/humanoid/humanhurt_female1.ogg" ],
   "charGenTextLabels" : [ "Skin Color", "Hair Style", "Shirt", "Legwear", "Eye Color", "Hair Color", "Shirt Color", "Legwear Color", "NIGHTAR", "Personality" ],
@@ -74,7 +74,6 @@
 
       { "item" : "nightar_violiumbroadsword1" },
       { "item" : "nightar_violiumbroadsword2" },
-	    { "item" : "nightar_shortsword" },
 
 	    { "item" : "nightarheatprotectionback" },
 

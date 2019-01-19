@@ -4,44 +4,44 @@
   "type" : "item",
 
   "collectables" : {
-  	"novakidtier1head" : { "order" : 1, "item" : "novakidtier1head" },
-  	"novakidtier1chest" : { "order" : 2, "item" : "novakidtier2chest" },
-  	"novakidtier1pants" : { "order" : 3, "item" : "novakidtier2pants" },
+  	"novatier1head"  : { "order" : 1, "item" : "novatier1head" },
+  	"novatier1chest" : { "order" : 2, "item" : "novatier2chest" },
+  	"novatier1pants" : { "order" : 3, "item" : "novatier2pants" },
 
-  	"novakidtier2head" : { "order" : 4, "item" : "novakidtier2head" },
-  	"novakidtier2chest" : { "order" : 5, "item" : "novakidtier2chest" },
-  	"novakidtier2pants" : { "order" : 6, "item" : "novakidtier2pants" },
+  	"novatier2head"  : { "order" : 4, "item" : "novatier2head" },
+  	"novatier2chest" : { "order" : 5, "item" : "novatier2chest" },
+  	"novatier2pants" : { "order" : 6, "item" : "novatier2pants" },
 
-  	"novakidtier3head" : { "order" : 7, "item" : "novakidtier3head" },
-  	"novakidtier3chest" : { "order" : 8, "item" : "novakidtier3chest" },
-  	"novakidtier3pants" : { "order" : 9, "item" : "novakidtier3pants" },
+  	"novatier3head"  : { "order" : 7, "item" : "novatier3head" },
+  	"novatier3chest" : { "order" : 8, "item" : "novatier3chest" },
+  	"novatier3pants" : { "order" : 9, "item" : "novatier3pants" },
 
-  	"novakidtier4head" : { "order" : 10, "item" : "novakidtier4head" },
-  	"novakidtier4chest" : { "order" : 11, "item" : "novakidtier4chest" },
-  	"novakidtier4pants" : { "order" : 12, "item" : "novakidtier4pants" },
+  	"novatier4head"  : { "order" : 10, "item" : "novatier4head" },
+  	"novatier4chest" : { "order" : 11, "item" : "novatier4chest" },
+  	"novatier4pants" : { "order" : 12, "item" : "novatier4pants" },
 
-  	"novakidtier5ahead" : { "order" : 13, "item" : "novakidtier5ahead" },
-  	"novakidtier5achest" : { "order" : 14, "item" : "novakidtier5achest" },
-  	"novakidtier5apants" : { "order" : 15, "item" : "novakidtier5apants" },
+  	"novatier5ahead"  : { "order" : 13, "item" : "novatier5ahead" },
+  	"novatier5achest" : { "order" : 14, "item" : "novatier5achest" },
+  	"novatier5apants" : { "order" : 15, "item" : "novatier5apants" },
 
-  	"novakidtier6ahead" : { "order" : 16, "item" : "novakidtier6ahead" },
-  	"novakidtier6achest" : { "order" : 17, "item" : "novakidtier6achest" },
-  	"novakidtier6apants" : { "order" : 18, "item" : "novakidtier6apants" },
+  	"novatier6ahead"  : { "order" : 16, "item" : "novatier6ahead" },
+  	"novatier6achest" : { "order" : 17, "item" : "novatier6achest" },
+  	"novatier6apants" : { "order" : 18, "item" : "novatier6apants" },
 
-  	"novakidtier5mhead" : { "order" : 19, "item" : "novakidtier5mhead" },
-  	"novakidtier5mchest" : { "order" : 20, "item" : "novakidtier5mchest" },
-  	"novakidtier5mpants" : { "order" : 21, "item" : "novakidtier5mpants" },
+  	"novatier5mhead"  : { "order" : 19, "item" : "novatier5mhead" },
+  	"novatier5mchest" : { "order" : 20, "item" : "novatier5mchest" },
+  	"novatier5mpants" : { "order" : 21, "item" : "novatier5mpants" },
 
-  	"novakidtier6mhead" : { "order" : 22, "item" : "novakidtier6mhead" },
-  	"novakidtier6mchest" : { "order" : 23, "item" : "novakidtier6mchest" },
-  	"novakidtier6mpants" : { "order" : 24, "item" : "novakidtier6mpants" },
+  	"novatier6mhead"  : { "order" : 22, "item" : "novatier6mhead" },
+  	"novatier6mchest" : { "order" : 23, "item" : "novatier6mchest" },
+  	"novatier6mpants" : { "order" : 24, "item" : "novatier6mpants" },
 
-    "novakidtier5shead" : { "order" : 25, "item" : "novakidtier5shead" },
-  	"novakidtier5schest" : { "order" : 26, "item" : "novakidtier5schest" },
-  	"novakidtier5spants" : { "order" : 27, "item" : "novakidtier5spants" },
+    "novatier5shead"  : { "order" : 25, "item" : "novatier5shead" },
+  	"novatier5schest" : { "order" : 26, "item" : "novatier5schest" },
+  	"novatier5spants" : { "order" : 27, "item" : "novatier5spants" },
 
-  	"novakidtier6shead" : { "order" : 28, "item" : "novakidtier6shead" },
-  	"novakidtier6schest" : { "order" : 29, "item" : "novakidtier6schest" },
-  	"novakidtier6spants" : { "order" : 30, "item" : "novakidtier6spants" }
+  	"novatier6shead"  : { "order" : 28, "item" : "novatier6shead" },
+  	"novatier6schest" : { "order" : 29, "item" : "novatier6schest" },
+  	"novatier6spants" : { "order" : 30, "item" : "novatier6spants" }
   }
 }

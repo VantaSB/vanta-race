@@ -3,7 +3,7 @@
   "price" : 15,
   "category" : "block",
   "rarity" : "uncommon",
-  "inventoryIcon" : "lightlessrock.png",
+  "inventoryIcon" : "lightlessrockicon.png",
   "description" : "A dark, stone-type material.",
   "shortdescription" : "Lightless Rock",
 
