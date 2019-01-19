@@ -1,5 +1,6 @@
 [
-  { "op" : "replace", "path" : "/paneLayout/customBar1L/position", "value" : [14, 3] },
+  // This is in case I want to try re-aligning the "hotkey" slots with the essential item slots
+  /*{ "op" : "replace", "path" : "/paneLayout/customBar1L/position", "value" : [14, 3] },
   { "op" : "replace", "path" : "/paneLayout/customBar1LOverlay/position", "value" : [14, 3] },
 
   { "op" : "replace", "path" : "/paneLayout/customBar1R/position", "value" : [31, 3] },
@@ -33,7 +34,7 @@
   { "op" : "replace", "path" : "/paneLayout/customBar6LOverlay/position", "value" : [313, 3] },
 
   { "op" : "replace", "path" : "/paneLayout/customBar6R/position", "value" : [330, 3] },
-  { "op" : "replace", "path" : "/paneLayout/customBar6ROverlay/position", "value" : [330, 3] },
+  { "op" : "replace", "path" : "/paneLayout/customBar6ROverlay/position", "value" : [330, 3] },*/
 
   { "op" : "replace", "path" : "/paneLayout/essentialBar1/position", "value" : [142, 3] },
   { "op" : "replace", "path" : "/paneLayout/essentialBar2/position", "value" : [162, 3] },
