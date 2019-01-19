@@ -1,0 +1,166 @@
+{
+  "itemName" : "noxcalibur",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "The legendary Nightar blade; ^orange;it's broken...",
+  "shortdescription" : "Broken Noxcalibur",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","nightar"],
+
+  "inventoryIcon" : "brokennoxcalibur.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "blade" : "brokennoxcalibur.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.84,
+    "baseDps" : 20
+  },
+
+  "altAbilityType" : "risingslash",
+
+  "upgradeParameters" : {
+    "level" : 3,
+    "rarity" : "Legendary",
+    "description" : "The legendary Nightar blade has been repaired.",
+    "shortdescription" : "Noxcalibur",
+
+    "primaryAbilityType" : "broadswordcombo",
+    "primaryAbility" : {
+      "fireTime" : 0.80,
+      "baseDps" : 27.8
+    },
+
+    "animationParts" : {
+      "blade" : "restorednoxcalibur.png"
+    },
+
+    "altAbilityType": "greatwave",
+    "altAbility": {
+     "projectileType" : "physicalshockwave",
+      "projectileParameters" : {
+        "power" : 3.5,
+        "knockback" : 40,
+        "knockbackMode" : "facing"
+      },
+      "shockWaveBounds" : [-0.4, -1.375, 0.4, 0.0],
+      "shockwaveHeight" : 1.375,
+      "maxDistance" : 10,
+      "bothDirections" : true,
+
+      "impactLine" : [ [1.25, -1.5], [1.25, -4.5] ],
+      "impactWeaponOffset" : 0.75,
+
+      "stances" : {
+        "windup" : {
+          "duration" : 0.5,
+          "armRotation" : 90,
+          "weaponRotation" : -20,
+          "twoHanded" : true,
+
+          "allowRotate" : false,
+          "allowFlip" : true
+        },
+        "fire" : {
+          "duration" : 0.5,
+          "armRotation" : 0,
+          "weaponRotation" : -180,
+          "twoHanded" : true,
+
+          "allowRotate" : false,
+          "allowFlip" : false
+        }
+      }
+    }
+  },
+
+  "upgradeParameters2" : {
+    "level" : 6,
+    "rarity" : "Essential",
+    "description" : "An ancient weapon flowing with power.",
+    "shortdescription" : "^cyan;Empowered Noxcalibur^reset;",
+
+    "inventoryIcon" : "empowerednoxcalibur.png:inactive",
+
+    "animation" : "/items/active/weapons/nightar/noxcalibur/empowerednoxcalibur.animation",
+    "animationParts" : {
+      "sword" : "empowerednoxcalibur.png",
+      "swordfullbright" : "empowerednoxcaliburfullbright.png"
+    },
+
+    "scripts" : ["/items/active/weapons/nightar/noxcalibur/empowerednoxcalibur.lua"],
+
+    "primaryAbilityType" : "broadswordcombo",
+    "primaryAbility" : {
+      "fireTime" : 0.8,
+      "baseDps" : 27.8,
+
+      "animKeyPrefix" : "inactive"
+    },
+
+    "inactiveBaseDps" : 27.8,
+    "activeBaseDps" : 30,
+
+    "altAbility" : {
+      "name" : "Empowerment",
+      "type" : "empowerment",
+      "scripts" : ["/items/active/weapons/protectorate/protectoratebroadsword/empowerment.lua"],
+      "class" : "Empowerment",
+
+      "energyPerSecond" : 30,
+
+      "projectileOffset" : [1, 0],
+      "projectileType" : "nightar_energytravelingswoosh",
+      "baseDamage" : 10,
+
+      "cooldownTime" : 1.0,
+
+      "stances" : {
+        "empower" : {
+          "durationBefore" : 0.2,
+          "durationAfter" : 0.5,
+          "armRotation" : 90,
+          "weaponRotation" : -90,
+          "twoHanded" : true,
+
+          "weaponOffset" : [0.5, -0.375],
+
+          "allowRotate" : false,
+          "allowFlip" : false
+        },
+        "windup" : {
+          "duration" : 0.25,
+          "armRotation" : 70,
+          "weaponRotation" : 0,
+          "twoHanded" : true,
+
+          "allowRotate" : false,
+          "allowFlip" : false
+        },
+        "fire" : {
+          "duration" : 0.4,
+          "armRotation" : -45,
+          "weaponRotation" : -55,
+          "twoHanded" : true,
+
+          "allowRotate" : false,
+          "allowFlip" : false
+        }
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
