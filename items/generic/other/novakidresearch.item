@@ -6,5 +6,5 @@
   "inventoryIcon" : "novakidresearch.png",
   "description" : "It is said that novasparks can catalyze the creation of a Novakid.",
   "shortdescription" : "Novaspark",
-  "itemTags" : [ "reagent" ]
+  "itemTags" : [ "research" ]
 }
