@@ -1,17 +1,20 @@
 {
   "id" : "nightardoc3",
-  "title" : "Long Are the Nights",
+  "title" : "Wrapped in Black",
+  "description" : "The Dangers of Living in Darkness",
   "species" : "other",
-  "description" : "Dangers of the Night[ar] Life.",
   "icon" : "nightardoc2.png",
   "contentPages" : [
-    "While they thrive in it, Nightars can also fear the darkness. After all, they've had to contend with all manner of nocturnal denizens both above and below ground. Some of the most fearsome creatures live on the darkest of homeworlds where the Nightars make their stay, and legends tell of one particularly terrifying monster from the first of their worlds.",
+    "Though they thrive in shadow, Nightars also have an innate fear of darkness. This appears to come from having to contend with all manner of beasts that lurk below the surface of their planets alongside them. You'd initially think it was Orbides they had to deal with, considering most 'dark' worlds are home to the infamous 'hive' sections, but no. This apparently was something similar, but much more 'intelligent', as if it new which ones to stalk and take out and in which order.",
 
-    "These creatures were said to have preyed on strong and weak alike, seemingly mocking the Nightars for trying to claim their spot as the top of the nocturnal food chain. A name for it was never revealed, but many planets have their own terrifying monstrosities, so we can't easily shrug these accounts off as simple hearsay."
+    "I try to imagine what sort of creature could possess that level of intelligence, and shudder each time. Imagine having to live in the dark and being afraid of it constantly, hearing whispers of a creature that knows its prey very well. I doubt any other race would be able to last as long as the Nightars have without the freedom of open areas and the light of the sun.",
+
+    "They were able to kill quite a few, and when their research techniques progressed, they were able to learn much from this creature. It wasn't particularly strong, but it was highly intelligent and knew how to strike where it counted. It was also gifted with translucency to the point it was almost completely invisible, were it not for the subtle shifts in light when it moved. The Nightars dissected many of these to learn about its biology and eventually came up with an active cloaking tech for themselves.",
+
+    "To think that Nightars would further master the dark by preying on their most dangerous hunter... They have truly become the masters of shadows."
   ],
-
-  "itemConfig" : {
+    "itemConfig" : {
     "rarity" : "legendary",
-    "price" : 300
+    "price" : 25
   }
 }

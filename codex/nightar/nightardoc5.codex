@@ -1,0 +1,20 @@
+{
+  "id" : "nightardoc5",
+  "title" : "Rag-tag, or something more?",
+  "description" : "Observations of the Nightar Life",
+  "species" : "other",
+  "icon" : "nightardoc2.png",
+  "contentPages" : [
+    "I was granted leave to stay among the Nightars and observe their way of life, so long as I didn't cause any upset in their establishment. I hope this record will provide some better insight into how they tick, for lack of a better term.",
+
+    "I've often wondered how it is that the Nightar are so expansive as a species that they are virtually all over the galaxy, yet each community can remain completely autonomous. There was seemingly no 'main branch' of leadership, so to speak.",
+
+    "Interestingly, each Nightar community is its own stratocracy; leaders of the military have the final say-so in dealings with any law among them. These laws can vary from establishment to establishment, and whenever travel is conducted, all Nightar adhere to the laws of the respective communities.",
+
+    "It turns out that each community leader is appointed, and acts as an emmissary for their community to the others. In a strange sort of way, they are collectively a confederacy of sorts. This level of respect is instilled into each Nightar from an early age; 'respect thy neighbor', as it were."
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 300
+  }
+}

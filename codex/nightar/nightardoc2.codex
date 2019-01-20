@@ -1,21 +1,20 @@
 {
   "id" : "nightardoc2",
-  "title" : "Live By the Sword",
+  "title" : "By the Sword",
+  "description" : "The cultural significance of swords in Nightar society",
   "species" : "other",
-  "description" : "A study of the cultural importance of blades in Nightar society.",
   "icon" : "nightardoc2.png",
   "contentPages" : [
-    "Like many other civilizations, the Nightars went through their own 'primitive' eras. For them, their last primitive era was close to around 4,000 years ago, leading into their Imperial era some thousand years later. Their first known homeworld had typical metals found nearly anywhere in the universe, but there was a certain exotic element found only on planets of their homeworld's type.",
+    "Bladed weapons are very prominent throughout Nightarian society, even in these days. From simpler times of complete metal, their mastery over a certain exotic element allowed them to create enhanced weaponry. The Nightars believed (and many still do today) that swords are the most valuable weapons any warrior could have. This gave birth to a heavy cultural tie to swords, and many Nightars believed that once forged and taken up, a Nightar and their sword were forever bound to each other.",
 
-    "These 'dark fragments', as they have been called, gave rise to uniquely powerful weapons. Initially, they were very rare, and because of their usage in general melee weapons, this lead to a dynamic shift in their cultural paradigm; they believed that they and their weapons were eternally bound to each other.",
+    "Swords could be passed down from father to son; otherwise, they were burried with their owners. Stealing another's blade was considered a most cowardly act, and often resulted in execution if the thief was found. Some swords still in use today can be traced back through Nightar bloodlines as far back as to the beginning of their Imperial era. Of all of the blades that have been passed down and still in possession, they all have one thing in common: they are named.",
 
-    "Some blades were passed from father to son for many generations, while others were buried along with their owners, as they had no worthy successors to pass them onto. This raised the question of grave-robbing, and became viewed as one of the most cowardly acts among the Nightars.",
+    "If a Nightarian warrior has carried a sword for several battles, there is little, if any, chance that it hasn't been given its own name. Even today, swords still hold cultural significance, especially among leadership. Whereas the Nightars enjoyed an imperial era for a time, it was eventually decided that military leaders would be in charge after a catastrophic civil war of succession broke out.",
 
-    "While the Nightars are familiar with the practicality of firearms, their true potential lies in their martial abilities. Nightars have a preference for the sword, but are not completely opposed to some of the more 'smaller' ranged weapons such as sidearms, though even the prospect of just holding one is met with great hesitation."
+    "Regardless, most swords employed by Nightars today are still mostly metal, with few exceptions being reforged into energy variants. Swords are still so prominent that you'd be considered extremely lucky (or UNlucky) to come across a Nightar wielding a firearm. Even with their advancements in technology, they still prefer the sword over the gun. Just be sure you don't end up on the wrong side of either when it comes to a Nightar."
   ],
-
-  "itemConfig" : {
+    "itemConfig" : {
     "rarity" : "legendary",
-    "price" : 300
+    "price" : 25
   }
 }

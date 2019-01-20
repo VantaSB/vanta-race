@@ -1,17 +1,18 @@
 {
   "id" : "nightardoc4",
-  "title" : "The Nightstalkers",
+  "title" : "Down and Dirty",
+  "description" : "Observations of the Nightar Life",
   "species" : "other",
-  "description" : "Observations and anecdotes about the Nightars",
   "icon" : "nightardoc.png",
   "contentPages" : [
-    "The Nightars are truly a fearsome species. Their disdain for anything that walks in light gives them an edge in combat, but not much elsewhere. In fact, it is far harder for any given group of Nightars to integrate with any other species. They excel immensely in darkness, and over time their combat roles began shifting from a medieval focus to a more espionage focus, and in ways no other species can simply compare to. They have caused turmoil in various sectors of galactic politics, to the point where even the Miniknog and the Stargazers collectively fear them.",
-
-    "As much as they hold contempt for all other species, they are not above doing business with them if it suits them. Many Nightar individuals have taken to setting out on their own as mercenaries for hire, and because of their predisposition, makes them highly valuable assets. It is unwise to pass over an offering of services by a Nightar, as not only would any enemies you have take that opportunity, the Nightar in question may see it as a personal afront, and deal with you themselves."
+    "Imagine living in fear of the light, a resource so invaluable to us that we take it for granted. The Nightar fear the unknown in ways we couldn't possibly comprehend. Their aversion to the light allows them to stay out of the affairs of other species, allowing them to take on more 'covert' style roles in their lives. In shadow, they excel in ways no other can stand on-par with. Unfortunately, it is because of this perk that they can easily infiltrate any major political government body, which, needless to say, hasn't really done them favors in terms of earning their trust as a whole. They tend to work as mercenaries, most of the time engaging in the more 'unsavory' fields of work, almost to the point of making enemies with penguins. If you ever cross paths with such a Nightarian individual, you would be wise to ensure their services are entrusted to you before your adversaries meet them."
   ],
-
-  "itemConfig" : {
+    "itemConfig" : {
     "rarity" : "legendary",
     "price" : 300
   }
 }
+
+/*
+
+*/

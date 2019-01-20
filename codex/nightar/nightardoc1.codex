@@ -1,21 +1,20 @@
 {
   "id" : "nightardoc1",
-  "title" : "The Nightars: A Personal Perspective",
+  "title" : "The Nightars: A Perspective",
   "species" : "other",
-  "description" : "Written by an adventurer who lived among the Nightars.",
+  "description" : "Written by an adventurer who lived among the Nightars",
   "icon" : "nightardoc2.png",
   "contentPages" : [
-    "No one remembers who exactly the first Nightars were; hardly any of them remember their origins at all, as time whisked away their oldest memories. What IS known is that they most closely resemble humans, have the tenacity of Florans, and are high-minded like the Apex. Truly, they are a culmination of many great things.",
+    "No one remembers who exxactly the first Nightars were; hardly any or them remember how they came to be, as time has whisked away their oldest memories. What IS known is that their first world is shrouded in darkness, as are the planets they mostly inhabit. Appearance-wise, they closely resemble humans in stature, they possess the tenacity of Florans, and are high-minded much like the Apex. Truly, they are a culmination of many things, both great and terrible.",
 
-    "The Nightars shun the light and embrace the shadows, though this is seemingly brought on by their biology. Like some humans have a sensitivity to light, the Nightars become extremely lethargic and weakened overall when exposed to sunlight. This has led to a large cultural significance, particularly where religion is concerned.",
+    "The Nightars thrive in shadow, shunning the light as a scourge that plagues them, though this seems to be more rooted in their core biology. It does, however, play an important significance in their culture, particularly where religion is concerned. Some of the more traditionalist settlements prohibit significant ceremonies, like marriage, from being held during any night where the moon's cycle is more than a quarter waxed or waned; they believe that doing so otherwise would spell disaster for the couple and their offspring.",
 
-    "Some of the more zealous Nightars shun any significant ceremonies, such as marriage, from being held during any night where the moon's light shines, as they believe it will result in a curse. They look with disdain upon all creatures that dwell above the ground, be they beasts or otherwise. This denotes a mostly xenophobic view in the larger settlements.",
+    "They look with disdain upon all creatures that dwell above ground, be they beasts or otherwise. This denotes a very xenophobic attitude towards other races, especially in the larger settlements. They believe those that are able to walk in the light of the sun and moon are vile, since the Nightars can only tread amongst the darkness without the help of their specialized armor and clothing.",
 
-    "Smaller settlements have broken away from the over-zealousness of what you could call the 'main branch'. These smaller settlements can be found anywhere underground, but also above ground in larger alcoves that provide adequate shade from the sun. While the majority of Nightars tend to keep to themselves, some of the smaller branches are not entirely unwelcoming; they are willing to do business with other people if it suits them."
+    "While they have mostly grievances for everything else, the Nightars are not ENTIRELY unwelcoming; anyone who can hold their own against the myriad cratures of shadow that live among their worlds is seen as a worthy individual. Also trade; they welcome merchants of all walks fairly openly otherwise."
   ],
-
-  "itemConfig" : {
+    "itemConfig" : {
     "rarity" : "legendary",
-    "price" : 300
+    "price" : 25
   }
 }

@@ -1,24 +1,18 @@
 {
-  "id" : "nightarhistory1",
-  "title" : "Customs of the Imperial Era",
+  "id" : "nightardoc2",
+  "title" : "Live By the Sword",
   "species" : "other",
-  "description" : "This tome details some of the early history of the Nightars.",
-  "icon" : "nightarhistory1.png",
+  "description" : "A study of the cultural importance of blades in Nightar society.",
+  "icon" : "nightardoc2.png",
   "contentPages" : [
+    "As with any other society, we have gone through our own 'primitive' era, last known to us some five millennia ago, though virtually nothing is known about it up until our Imperial era. Our homeworld had just about the same metals/materials you'd expect to find on any given planet these days, but there was a certain exotic element found only on worlds of our type that couldn't be found anywhere else.",
 
-    "One thing that can be observed from a historical standpoint is the shift in Nightar eras, particularly from their Imperial era to their Spacefaring era. There are still many mysteries surrounding the Nightars as a whole, and its doubtful they will ever reveal their secrets to us any time soon. However, I did have an opportunity to live among them as an observer, and learn enough to sate my curiosity for a time.",
+    "No official elemental name was given to it, but it is known to the galaxy as 'dark fragments', which when combined could be made into more powerful crystals. These fragments gave rise to uniquely powerful arms and armors, and eventually, we established our first military force. Strife among territories began to brew, and the military leaders began to discuss how to maintain peace, for it was only in our unity that we could have any chance of surviving the harsh environments we lived in.",
 
-    "During their Imperial era, as the title suggests, they lived as one society under a singular ruler. Whereas most empires had male rulers, as the mantle of leadership passed, the leaders could be male or female. However, the mantle's passage was not done simply by naming a successor; one had to prove themselves worthy of the title in order to gain it.",
-
-    "Because of this, there were bloody battles between many Nightar men and women who wanted to stake their claim to the throne. This time of battle was known as the 'Dwelling of Duels', and was the primary means of naming a successor to the imperial throne. Only those who were at least of combat age (roughly 14 Nightar years, both male and female alike) were allowed to partake in this event.",
-
-    "Should a ruler be found lacking in their reign, any combatant may challenge and, if successful, overthrow them. Those failed leaders who are challenged and defeated are not executed, but rather, in a strange ritual of theirs, are stripped of their natural, black markings that adorn their bodies from birth.",
-
-    "The Nightar in question is then exiled, forced to carry their shame with them until they die. According to some of the more religious beliefs, those who are stripped of their markings are said to have their souls cursed to wander this plane for eternity after their physical passing, never to set foot into the glory of their version of the afterlife."
-
+    "Eventually, "
   ],
 
-    "itemConfig" : {
+  "itemConfig" : {
     "rarity" : "legendary",
     "price" : 300
   }
