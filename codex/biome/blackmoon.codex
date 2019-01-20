@@ -5,13 +5,11 @@
   "description" : "Information on black moons",
   "icon" : "genericdatafile.png",
   "contentPages" : [
-
     "We've made an interesting discovery recently. While scouting out one of the fringe systems, we came across a planet in which one of the moons had a dark coloration. When we entered into its atmosphere, it was as though it were covered in a cast ocean, not unlike ocean planets. The main difference is that these oceans are not of water, but of a fuel of some sort. And it is far more efficient than Erchius! Even more interesting is that there is native life on the small islands that can be found! But its existence defies logic; how can such a moon come to be? And why haven't we discovered them before? While out gathering some of this strange fuel for study, we didn't encounter any dreaded wraith-like creatures, either. None of our sensors we use for detecting Erchius Ghosts went off, and we were able to collect as much as we wanted, aside from the small interferences from the island creatures. Because of its soft, blue glow, we've come to name this substance ^blue;Liquid Ceruleum^reset;. We're looking into setting up a rig on one of these moons to see how well we can gather some up and export it for trade. We can probably do much better with this than we can gathering up Erchius, since there's significantly less risk involved."
-
   ],
 
-    "itemConfig" : {
+  "itemConfig" : {
     "rarity" : "common",
-    "price" : 300
+    "price" : 50
   }
 }
