@@ -101,10 +101,8 @@
     [0, {
       "fill" : [
 	    {"pool" : "starterTreasure"},
-		  {"item" : "nightarhandgun"},
-      {"item" : "quicktether"},
-      {"item" : "stealthdagger"},
-      {"item" : "nightarmanipulator"}
+		  {"item" : "starterhandgun"},
+      {"item" : "nightarsaber"}
       ]
     }]
   ]/*,
