@@ -15,8 +15,9 @@
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
-    "handle" : "",
-    "blade" : "brokennightarsaber.png"
+    "handle" : "brokennightarsaber.png",
+    "handlefullbright" : "",
+    "blade" : ""
   },
   "animationCustom" : { },
 
@@ -42,7 +43,9 @@
     "shortdescription" : "^cyan;Nightar Saber^reset;",
     "altAbilityType" : "downstab",
     "animationParts" : {
-      "blade" : "nightarsaber.png"
+      "handle" : "nightarsaber.png",
+      "handlefullbright" : "nightarsaberlit.png",
+      "blade" : ""
     }
   }
 }
