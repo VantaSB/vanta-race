@@ -1,5 +1,5 @@
 {
-  "itemName" : "nightarhandgun",
+  "itemName" : "starterhandgun",
   "level" : 1,
   "price" : 250,
   "maxStack" : 1,
@@ -11,16 +11,16 @@
   "twoHanded" : false,
   "itemTags" : [ "pistol", "weapon", "ranged", "upgradeableWeapon" ],
 
-  "inventoryIcon" : "nightarsidearm.png",
+  "inventoryIcon" : "starterhandgun.png",
 
-  "animation" : "nightarsidearm.animation",
+  "animation" : "starterhandgun.animation",
   "animationParts" : {
-    "middle" : "nightarsidearm.png",
+    "middle" : "starterhandgun.png",
     "muzzleFlash" : "muzzleflash.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/plasma_ar4.ogg"]
+      "fire" : ["/sfx/gun/plasma_pistol4.ogg"]
     }
   },
 
@@ -76,20 +76,26 @@
   },
 
   "upgradeParameters" : {
+    "level" : 5,
     "rarity" : "legendary",
-    "description" : "Fixed and better than ever!",
-    "shortdescription" : "^cyan;Nightar Handcannon^reset;",
-    "inventoryIcon" : "nightarhandgun.png",
-    "animation" : "nightarhandgun.animation",
+    "description" : "You fixed your gun!",
+    "shortdescription" : "^cyan;Jackal Handcannon^reset;",
+    "inventoryIcon" : "jackal.png",
     "animationParts" : {
-      "middle" : "nightarhandgun.png",
-      "middleFullbright" : "nightarhandgunfullbright.png",
+      "middle" : "jackal.png",
+      "middleFullbright" : "jackalfullbright.png",
       "muzzleFlash" : "muzzleflash.png"
     },
-    "fireTime" : 0.28,
+    "animationCustom" : {
+      "sounds" : {
+        "fire" : ["/sfx/gun/plasma_ar4.ogg"]
+      }
+    },
+    "fireTime" : 0.178,
     "baseDps" : 22,
     "energyUsage" : 17,
-    "inaccuracy" : 0.012
+    "inaccuracy" : 0.012,
+    "projectileType" : "blueplasmabullet"
   },
 
   "builder" : "/items/buildscripts/buildweapon.lua"
