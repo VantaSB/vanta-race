@@ -1,6 +1,7 @@
 {
   "author" : "AbsoluteXero",
   "dependencies" : [],
+  "includes" : [ "Hyper Light Drifter UI" ],
   "description" : "The Nightars, masters of shadows and knights of the night, have returned in all of their darkened glory!",
   "friendlyName" : "The Nightars: Rebirth",
   "link" : "steam://url/CommunityFilePage/1325968658",
