@@ -1,23 +1,21 @@
 {
   "itemName" : "nightarmanipulator",
+  "price" : 0,
   "inventoryIcon" : "nightarmanipulatoricon.png",
-  "dropCollision" : [],
   "rarity" : "Essential",
   "maxStack" : 1,
   "description" : "Modified Protectorate technology.",
   "shortdescription" : "^cyan;Nightar Manipulator^reset;",
   "largeImage" : "nightarmanipulatorlarge.png",
-  "tooltipKind" : "tool",
-  "category" : "Matter Manipulator",
+  "tooltipKind" : "mm",
+  "category" : "Tool",
   "fireTime" : 0.25,
-  "blockRadius" : 8,
+  "blockRadius" : 2,
   "altBlockRadius" : 1,
-  "tileDamage" : 24.0,
+  "tileDamage" : 1.2,
   "harvestLevel" : 99,
-  "canCollectLiquid" : true,
-
+  "canCollectLiquid" : false,
   "twoHanded" : true,
-  "critical" : true,
   "strikeSounds" : [ "/sfx/tools/atom.ogg", "/sfx/tools/atom2.ogg", "/sfx/tools/atom3.ogg", "/sfx/tools/atom4.ogg", "/sfx/tools/atom5.ogg" ],
 
   "image" : "/items/tools/nightarmanipulator.png",
@@ -41,5 +39,8 @@
   "minBeamLines" : 1,
   "maxBeamLines" : 5,
 
-  "rangeBonus" : 4
+  "scripts" : ["/items/tools/miningtools/beamaxe.lua"],
+  "scriptDelta" : 10,
+
+  "notifyEntityTime" : 0.5
 }

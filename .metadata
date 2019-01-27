@@ -1,0 +1,12 @@
+{
+  "author" : "AbsoluteXero",
+  "requires" : [  ],
+  "includes" : [ "QuickbarMini", "stardustlib" ],
+  "description" : "The Nightars, masters of shadows and knights of the night, have returned in all of their darkened glory!",
+  "friendlyName" : "The Nightars: Rebirth",
+  "link" : "https://github.com/AbsoluteXeroEX/TheNightarsRevived",
+  "name" : "The Nightars: Rebirth",
+  "steamContentId" : 1325968658,
+  "tags" : "Armor and Clothes|Crafting and Building|Furniture and Objects|Miscellaneous|Planets and Environments|Species|Weapons",
+  "version" : "0.5.1"
+}
