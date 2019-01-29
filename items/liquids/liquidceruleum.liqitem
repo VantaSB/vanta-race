@@ -4,10 +4,9 @@
   "category" : "liquid",
   "inventoryIcon" : "liquidceruleumicon.png",
   "shortdescription" : "Liquid Ceruleum Fuel",
-  "description" : "This dark, volatile fuel source has a soft glow.",
+  "description" : "Smells like Erchius.",
 
   "liquid" : "liquidceruleumfuel",
 
-  "fuelAmount" : 3,
   "price" : 3000
 }
