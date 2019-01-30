@@ -91,11 +91,13 @@
         "fire" : ["/sfx/gun/plasma_ar4.ogg"]
       }
     },
-    "fireTime" : 0.178,
-    "baseDps" : 22,
-    "energyUsage" : 17,
-    "inaccuracy" : 0.012,
-    "projectileType" : "blueplasmabullet"
+    "primaryAbility" : {
+      "fireTime" : 0.178,
+      "baseDps" : 22,
+      "energyUsage" : 17,
+      "inaccuracy" : 0.012,
+      "projectileType" : "blueplasmabullet"
+    }
   },
 
   "builder" : "/items/buildscripts/buildweapon.lua"

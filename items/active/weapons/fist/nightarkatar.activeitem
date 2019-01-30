@@ -1,6 +1,6 @@
 {
-  "itemName" : "nightarfist",
-  "price" : 1500,
+  "itemName" : "nightarkatar",
+  "price" : 500,
   "level" : 2,
   "maxStack" : 1,
   "rarity" : "Uncommon",
@@ -9,7 +9,7 @@
   "tooltipKind" : "fistweapon",
   "category" : "fistWeapon",
   "twoHanded" : false,
-  "itemTags" : ["weapon", "upgradeableWeapon"],
+  "itemTags" : ["weapon", "fistWeapon"],
 
   "inventoryIcon" : "nightarkatar.png:front",
   "animation" : "fistweapon.animation",
@@ -103,18 +103,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildfist.lua",
-
-  "upgradeParameters" : {
-    "inventoryIcon" : "nightarjamadhar.png:front",
-    "description" : "Jamadhars require additional finesse for wielding.",
-    "shortdescription" : "Nightar Jamadhar",
-    "rarity" : "legendary",
-    "level" : 5,
-    "weapon" : "nightarjamadhar.png",
-    "weaponfullbright" : "nightarjamadharlit.png",
-    "baseDps" : 17.3,
-    "comboSteps" : 7,
-    "comboFinisherSource" : "/items/active/weapons/fist/combofinishers/supernovarush.combofinisher"
-  }
+  "builder" : "/items/buildscripts/buildfist.lua"
 }

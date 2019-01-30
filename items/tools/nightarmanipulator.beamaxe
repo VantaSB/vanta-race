@@ -10,11 +10,11 @@
   "tooltipKind" : "mm",
   "category" : "Tool",
   "fireTime" : 0.25,
-  "blockRadius" : 2,
+  "blockRadius" : 10,
   "altBlockRadius" : 1,
-  "tileDamage" : 1.2,
+  "tileDamage" : 24.0,
   "harvestLevel" : 99,
-  "canCollectLiquid" : false,
+  "canCollectLiquid" : true,
   "twoHanded" : true,
   "strikeSounds" : [ "/sfx/tools/atom.ogg", "/sfx/tools/atom2.ogg", "/sfx/tools/atom3.ogg", "/sfx/tools/atom4.ogg", "/sfx/tools/atom5.ogg" ],
 
@@ -30,17 +30,12 @@
   "innerBrightnessScale" : 30,
   "firstStripeThickness" : 0.05,
   "secondStripeThickness" : 0.1,
-  "minBeamWidth" : 4,
-  "maxBeamWidth" : 8,
+  "minBeamWidth" : 2,
+  "maxBeamWidth" : 4,
   "minBeamJitter" : 0.05,
   "maxBeamJitter" : 0.1,
   "minBeamTrans" : 0.1,
   "maxBeamTrans" : 0.4,
-  "minBeamLines" : 1,
-  "maxBeamLines" : 5,
-
-  "scripts" : ["/items/tools/miningtools/beamaxe.lua"],
-  "scriptDelta" : 10,
-
-  "notifyEntityTime" : 0.5
+  "minBeamLines" : 3,
+  "maxBeamLines" : 5
 }

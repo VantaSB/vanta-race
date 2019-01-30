@@ -1,0 +1,10 @@
+{
+  "itemName" : "ceruleumfuelcell",
+  "price" : 750,
+  "rarity" : "legendary",
+  "category" : "fuel",
+  "inventoryIcon" : "ceruleumfuelcell.png",
+  "description" : "A compact ^#3a6d73;Ceruleum^reset; fuel canister used for FTL drives.",
+  "shortdescription" : "Ceruleum Fuel Cell",
+  "fuelAmount" : 10
+}

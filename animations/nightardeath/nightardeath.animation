@@ -1,6 +1,6 @@
 {
   "frames" : "nightardeath.png",
-  //"fullbright" : true,
+  "fullbright" : true,
   "variants" : 1,
   "frameNumber" : 14,
   "animationCycle" : 0.8,

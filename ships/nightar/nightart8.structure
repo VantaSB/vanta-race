@@ -3,7 +3,7 @@
         "shipUpgrades": {
             "capabilities" : ["teleport", "planetTravel", "systemTravel"],
             "maxFuel": 1000,
-            "crewSize" : 12
+            "crewSize" : 20
         }
     },
     "backgroundOverlays": [

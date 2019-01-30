@@ -1,5 +1,5 @@
 {
-  "objectName" : "nightarshiphatch",
+  "objectName" : "nightarshiphatch2",
   "colonyTags" : ["nightar","door"],
   "rarity" : "common",
 
@@ -21,13 +21,12 @@
   "inventoryIcon" : "nightarshiphatchicon.png",
   "orientations" : [
     {
-      "dualImage" : "nightarshiphatch.png:default",
-      "imagePosition" : [-16, -20],
+      "dualImage" : "nightarshiphatch2.png:default",
+      "imagePosition" : [-24, -16],
       "renderLayer" : "Object+5",
 
       "spaces" : [
-                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0],
-                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
+        [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0]
       ],
       "anchors" : [ "left", "right" ]
     }
@@ -50,9 +49,9 @@
     }
   },
   "animationParts" : {
-    "door" : "nightarshiphatch.png"
+    "door" : "nightarshiphatch2.png"
   },
-  "animationPosition" : [-16, -20],
+  "animationPosition" : [-24, -16],
 
   "inputNodes" : [ [-1, 0] ],
   "outputNodes" : [ [0, 0] ]
