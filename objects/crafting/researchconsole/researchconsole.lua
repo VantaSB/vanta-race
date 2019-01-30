@@ -1,6 +1,29 @@
-require "/scripts/researchgen.lua"
+require "/scripts/util.lua"
+
+researchgen = {}
+disabled = false
+researchgen.itemTypes = nil
+
+function researchgen.loadSelfContainer()
+  storage.containerId = entity.id()
+  researchgen.unloadSelfContainer()
+  storage.inContainers[storage.containerId] = storage.position
+  storage.outContainers[storage.containerId] = storage.position
+end
+
+function researchgen.unloadSelfContainer()
+  storage.inContainers = {}
+  storage.outContainers = {}
+end
 
 function update(dt)
+  if not deltaTime or (deltaTime > 1) then
+    deltaTime = 0
+    researchgen.loadSelfContainer()
+  else
+    deltaTime = deltaTime + dt
+  end
+
   researchgen.loadSelfContainer()
   storage.waterCount = math.min((storage.waterCount or 0) + dt, 100)
   for i=2, #config.getParameter('iSlot') do
