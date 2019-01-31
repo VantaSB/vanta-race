@@ -1,0 +1,9 @@
+{
+  "itemName" : "aviangearbit",
+  "price" : 2250,
+  "rarity" : "rare",
+  "category" : "research",
+  "inventoryIcon" : "aviangearbit.png",
+  "description" : "Used for researching Avian physiology (unlocks Avian tiered armors)",
+  "shortdescription" : "Avian Gearbit"
+}

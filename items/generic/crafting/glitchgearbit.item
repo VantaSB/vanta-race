@@ -1,0 +1,9 @@
+{
+  "itemName" : "glitchgearbit",
+  "price" : 2250,
+  "rarity" : "rare",
+  "category" : "research",
+  "inventoryIcon" : "glitchgearbit.png",
+  "description" : "Used for researching Glitch physiology (unlocks Glitch tiered armors)",
+  "shortdescription" : "Glitch Gearbit"
+}

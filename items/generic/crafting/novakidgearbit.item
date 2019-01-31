@@ -1,0 +1,9 @@
+{
+  "itemName" : "novakidgearbit",
+  "price" : 2250,
+  "rarity" : "rare",
+  "category" : "research",
+  "inventoryIcon" : "novakidgearbit.png",
+  "description" : "Used for researching Novakid physiology (unlocks Novakid tiered armors)",
+  "shortdescription" : "Novakid Gearbit"
+}

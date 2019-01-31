@@ -1,0 +1,9 @@
+{
+  "itemName" : "humangearbit",
+  "price" : 2250,
+  "rarity" : "rare",
+  "category" : "research",
+  "inventoryIcon" : "humangearbit.png",
+  "description" : "Used for researching Human physiology (unlocks Human tiered armors)",
+  "shortdescription" : "Human Gearbit"
+}
