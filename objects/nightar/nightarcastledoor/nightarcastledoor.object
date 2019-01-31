@@ -21,7 +21,7 @@
 
   "tooltipKind" : "door",
   "largeImage" : "nightarcastledoor.png:right",
-  
+
   "orientations" : [
     {
       "dualImage" : "nightarcastledoor.png:default",
@@ -40,11 +40,11 @@
   "animationCustom" : {
     "sounds" : {
       "open" : {
-        "pool" : [ "/sfx/objects/woodendoor_open.ogg" ],
+        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ],
         "rangeMultiplier" : 0.5
       },
       "close" : {
-        "pool" : [ "/sfx/objects/woodendoor_close.ogg" ],
+        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ],
         "rangeMultiplier" : 0.5
       }
     }

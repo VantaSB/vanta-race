@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "blackdye", "count" : 1 },
+    { "item" : "nightarblock1", "count" : 10 },
+    { "item" : "nightarblock2", "count" : 10 },
+    { "item" : "titaniumbar", "count" : 5 }
+  ],
+  "output" : { "item" : "nightartechblock", "count" : 20 },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture2", "materials", "all" ]
+}

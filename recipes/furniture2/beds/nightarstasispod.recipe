@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 5 },
+    { "item" : "silverbar",  "count" : 5 }
+  ],
+  "output" : { "item" : "nightarstasispod", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "beds", "all" ]
+}

@@ -1,5 +1,5 @@
 {
-  "materialId" : 3706,
+  "materialId" : 3704,
   "materialName" : "nightarpanelblock",
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarpanelblock",
@@ -12,7 +12,7 @@
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "nightarpanelblock.png",
-    "variants" : 10,
+    "variants" : 9,
     "lightTransparent" : false,
     "multiColored" :true,
     "occludesBelow" : true,

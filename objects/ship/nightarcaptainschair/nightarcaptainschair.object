@@ -17,31 +17,35 @@
   "hylotlDescription" : "Sitting on the Captain's chair allows me to fly this ship.",
   "novakidDescription" : "The Captain's chair. The guy who sits here decides where the ship goes! That's me!",
 
-  
+
   "inventoryIcon" : "nightarcaptainschairicon.png",
   "orientations" : [
     {
-      "image" : "nightarcaptainschair.png:<color>",
-      "imagePosition" : [-12, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
+      "imageLayers" : [ { "image" : "nightarcaptainschair.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarcaptainschairlit.png:<color>.<frame>" } ],
+	  "frames" : 5,
+      "animationCycle" : 0.8,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "sitPosition" : [0, 23],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "flipImages" : true,
-      "direction" : "left",
-      "sitPosition" : [1.6, 22.5]
+      "anchors" : [ "bottom" ]
+
     },
     {
-      "image" : "nightarcaptainschair.png:<color>",
-      "imagePosition" : [-12, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
+      "imageLayers" : [ { "image" : "nightarcaptainschair.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarcaptainschairlit.png:<color>.<frame>" } ],
+	  "frames" : 5,
+      "animationCycle" : 0.8,
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "sitPosition" : [4, 23],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "direction" : "right",
-      "sitPosition" : [1.6, 22.5]
+      "anchors" : [ "bottom" ]
+
     }
   ],
 

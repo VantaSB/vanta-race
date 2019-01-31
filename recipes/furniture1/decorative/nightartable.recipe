@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungsten", "count" : 1 },
+    { "item" : "glass", "count" : 5 }
+  ],
+  "output" : { "item" : "nightartable", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}
