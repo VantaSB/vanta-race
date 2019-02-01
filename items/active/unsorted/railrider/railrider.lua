@@ -51,7 +51,7 @@ function update(dt, fireMode, shiftHeld)
 
       if self.railRider:onRail() then
         -- TODO: allow jumping off of rails
-        mcontroller.controlModifiers({jumpingSuppressed = true, movementSuppressed = true})
+        mcontroller.controlModifiers({jumpingSuppressed = false, movementSuppressed = true})
         mcontroller.controlParameters({airForce = 0})
       end
     end

@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "essential",
   "category" : "tool",
-  "description" : "Ride the rails... better!",
+  "description" : "A motorized rail hook for faster rail travel.",
   "shortdescription" : "Rail Rider",
   "twoHanded" : false,
 

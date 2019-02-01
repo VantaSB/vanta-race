@@ -3,5 +3,17 @@
     "op" : "add",
     "path" : "/pingDetectConfig/colors/darkfrag",
     "value" : [0, 192, 255, 255]
+  },
+
+  {
+    "op" : "add",
+    "path" : "/pingDetectConfig/colors/azuriteore",
+    "value" : [44, 116, 168, 255]
+  },
+
+  {
+    "op" : "add",
+    "path" : "/pingDetectConfig/colors/crimsoniumore",
+    "value" : [193, 0, 0, 255]
   }
 ]
