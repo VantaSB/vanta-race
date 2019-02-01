@@ -27,25 +27,18 @@
       "material" : "nightarfloor"
     },
 
-    "11" : {
+    "2" : {
       "//description" : "Panelling made of unknown materials.",
       "//name" : "nightarpanelblock",
       "//shortdescription" : "Nightar Panelling",
       "material" : "nightarpanelblock"
     },
 
-    "2" : {
+    "3" : {
       "//description" : "A high-tech pillar.",
       "//name" : "nightarpillarblock",
       "//shortdescription" : "Nightar Pillar",
       "material" : "nightarpillarblock"
-    },
-
-    "3" : {
-      "//description" : "All that remains of these dark fragments is a faint glow.",
-      "//name" : "darkfragmentpile",
-      "//shortdescription" : "Expended Dark Fragments",
-      "material" : "darkfragmentpile"
     },
 
     "4" : {
@@ -104,16 +97,12 @@
       "image" : "./../../../../tiled/nightars-custom/materials/nightarfloor.png"
     },
 
-    "11" : {
+    "2" : {
       "image" : "./../../../../tiled/nightars-custom/materials/nightarpanelblock.png"
     },
 
-    "2" : {
-      "image" : "./../../../../tiled/nightars-custom/materials/nightarpillarblock.png"
-    },
-
     "3" : {
-      "image" : "./../../../../tiled/nightars-custom/materials/darkfragmentpile.png"
+      "image" : "./../../../../tiled/nightars-custom/materials/nightarpillarblock.png"
     },
 
     "4" : {
