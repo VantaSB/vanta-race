@@ -1,0 +1,14 @@
+[
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : [
+      { "item" : "damageaugment1" },
+      { "item" : "energyaugment1" },
+      { "item" : "healingaugment1" },
+      { "item" : "healthaugment1" },
+      { "item" : "lightaugment1" },
+      { "item" : "lightbulb3" }
+    ]
+  }
+]
