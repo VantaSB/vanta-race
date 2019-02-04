@@ -4,8 +4,7 @@
   "rarity" : "legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "crimsoniumrod.png",
-  "description" : "This is a highly volatile rod that can be used as fuel or to create enhanced armors.",
+  "description" : "This is a highly volatile rod that can be used to create enhanced armors.",
   "shortdescription" : "Crimsonium Rod",
-  "fuelAmount" : 10,
   "itemTags" : [ "reagent" ]
 }
