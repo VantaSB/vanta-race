@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "titaniumbar", "count" : 1 }
   ],
-  "output" : { "item" : "nightartablechair", "count" : 1 },
+  "output" : { "item" : "nightarshipchair", "count" : 1 },
   "groups" : [ "craftingfurniture2", "decoration", "all" ]
 }

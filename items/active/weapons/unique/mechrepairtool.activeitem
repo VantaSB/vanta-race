@@ -44,7 +44,7 @@
     "projectileParameters" : {
       "periodicActions" : [
         {
-          "time" : 0.01,
+          "time" : 0.1,
           "repeat" : true,
           "action" : "projectile",
           "type" : "mechenergypickup",
@@ -55,7 +55,7 @@
             "inaccuracy" : 0.0,
             "persistentAudio" : "",
             "knockback" : 1,
-            "timeToLive" : 0.01,
+            "timeToLive" : 0.1,
             "power" : 0
           }
         }

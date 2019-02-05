@@ -42,8 +42,8 @@
 
     {
       "imageLayers" : [
-        { "image" : "nightarcomputer.png:<color>.<key>", "fullbright" : true },
-        { "image" : "nightarcomputerlit.png:<color>.<key>" }
+        { "image" : "nightarcomputer.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "nightarcomputerlit.png:<color>.<frame>" }
       ],
 
       "direction" : "right",

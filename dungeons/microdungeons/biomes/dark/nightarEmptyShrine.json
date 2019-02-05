@@ -1,6 +1,5 @@
 { "backgroundcolor":"#000000",
  "height":60,
- "infinite":false,
  "layers":[
         {
          "compression":"zlib",
@@ -15,7 +14,7 @@
          "width":60,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "compression":"zlib",
          "data":"eJzt0TsOgCAQQEGu4v0PYe2tjIWdxfJRQGaS7SDwsikBAAAAAAAAAAAA0NoenD\/I6Ril+djKJ7rbe2reuqZna69ZqXW13lq9\/x9tbNE6S\/uberd92Tpa99dW6axpjt57Ojei3J2MtLtSM\/+duZ3VkG46",
@@ -25,11 +24,11 @@
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":60,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "color":"#5555ff",
          "draworder":"topdown",
@@ -45,12 +44,12 @@
                          "name":"back",
                          "type":"string",
                          "value":"slopedhullpanel"
-                        }, 
+                        },
                         {
                          "name":"colorVariant",
                          "type":"int",
                          "value":7
-                        }, 
+                        },
                         {
                          "name":"front",
                          "type":"string",
@@ -68,7 +67,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "color":"#ff0000",
          "draworder":"topdown",
@@ -80,7 +79,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "color":"#ffff00",
          "draworder":"topdown",
@@ -92,7 +91,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "color":"#ff0000",
          "draworder":"topdown",
@@ -104,7 +103,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "color":"#00ffff",
          "draworder":"topdown",
@@ -116,7 +115,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "draworder":"topdown",
          "id":8,
@@ -127,7 +126,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "draworder":"topdown",
          "id":9,
@@ -144,7 +143,7 @@
                  "width":8,
                  "x":400,
                  "y":400
-                }, 
+                },
                 {
                  "gid":237,
                  "height":8,
@@ -156,7 +155,7 @@
                  "width":8,
                  "x":72,
                  "y":400
-                }, 
+                },
                 {
                  "gid":248,
                  "height":8,
@@ -168,7 +167,7 @@
                  "width":8,
                  "x":80,
                  "y":104
-                }, 
+                },
                 {
                  "gid":248,
                  "height":8,
@@ -180,7 +179,7 @@
                  "width":8,
                  "x":240,
                  "y":104
-                }, 
+                },
                 {
                  "gid":248,
                  "height":8,
@@ -192,7 +191,7 @@
                  "width":8,
                  "x":392,
                  "y":104
-                }, 
+                },
                 {
                  "gid":248,
                  "height":8,
@@ -204,7 +203,7 @@
                  "width":8,
                  "x":464,
                  "y":296
-                }, 
+                },
                 {
                  "gid":248,
                  "height":8,
@@ -216,7 +215,7 @@
                  "width":8,
                  "x":8,
                  "y":296
-                }, 
+                },
                 {
                  "gid":248,
                  "height":8,
@@ -228,7 +227,7 @@
                  "width":8,
                  "x":80,
                  "y":368
-                }, 
+                },
                 {
                  "gid":248,
                  "height":8,
@@ -240,7 +239,7 @@
                  "width":8,
                  "x":392,
                  "y":368
-                }, 
+                },
                 {
                  "gid":236,
                  "height":8,
@@ -252,7 +251,7 @@
                  "width":8,
                  "x":392,
                  "y":368
-                }, 
+                },
                 {
                  "gid":236,
                  "height":8,
@@ -264,7 +263,7 @@
                  "width":8,
                  "x":464,
                  "y":296
-                }, 
+                },
                 {
                  "gid":236,
                  "height":8,
@@ -276,7 +275,7 @@
                  "width":8,
                  "x":392,
                  "y":104
-                }, 
+                },
                 {
                  "gid":236,
                  "height":8,
@@ -288,7 +287,7 @@
                  "width":8,
                  "x":240,
                  "y":104
-                }, 
+                },
                 {
                  "gid":236,
                  "height":8,
@@ -300,7 +299,7 @@
                  "width":8,
                  "x":80,
                  "y":104
-                }, 
+                },
                 {
                  "gid":236,
                  "height":8,
@@ -312,7 +311,7 @@
                  "width":8,
                  "x":8,
                  "y":296
-                }, 
+                },
                 {
                  "gid":236,
                  "height":8,
@@ -324,7 +323,7 @@
                  "width":8,
                  "x":80,
                  "y":368
-                }, 
+                },
                 {
                  "gid":248,
                  "height":8,
@@ -336,7 +335,7 @@
                  "width":8,
                  "x":8,
                  "y":176
-                }, 
+                },
                 {
                  "gid":248,
                  "height":8,
@@ -348,7 +347,7 @@
                  "width":8,
                  "x":464,
                  "y":176
-                }, 
+                },
                 {
                  "gid":236,
                  "height":8,
@@ -360,7 +359,7 @@
                  "width":8,
                  "x":464,
                  "y":176
-                }, 
+                },
                 {
                  "gid":236,
                  "height":8,
@@ -378,7 +377,7 @@
          "visible":true,
          "x":0,
          "y":0
-        }, 
+        },
         {
          "draworder":"topdown",
          "id":10,
@@ -390,155 +389,155 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":11,
  "nextobjectid":741,
  "orientation":"orthogonal",
+ "properties" : {
+
+ },
  "renderorder":"right-down",
- "tiledversion":"1.2.1",
  "tileheight":8,
  "tilesets":[
         {
          "firstgid":1,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/materials.json"
-        }, 
+        },
         {
          "firstgid":196,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/supports.json"
-        }, 
+        },
         {
          "firstgid":232,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
-        }, 
+        },
         {
          "firstgid":254,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/liquids.json"
-        }, 
+        },
         {
          "firstgid":282,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/generic.json"
-        }, 
+        },
         {
          "firstgid":2207,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/ancient.json"
-        }, 
+        },
         {
          "firstgid":2369,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/apex.json"
-        }, 
+        },
         {
          "firstgid":2740,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/avian.json"
-        }, 
+        },
         {
          "firstgid":3045,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/floran.json"
-        }, 
+        },
         {
          "firstgid":3240,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/glitch.json"
-        }, 
+        },
         {
          "firstgid":3466,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/human.json"
-        }, 
+        },
         {
          "firstgid":3747,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/hylotl.json"
-        }, 
+        },
         {
          "firstgid":3979,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/novakid.json"
-        }, 
+        },
         {
          "firstgid":4042,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/crafting.json"
-        }, 
+        },
         {
          "firstgid":4122,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/decorative.json"
-        }, 
+        },
         {
          "firstgid":5538,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/door.json"
-        }, 
+        },
         {
          "firstgid":5666,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/farmable.json"
-        }, 
+        },
         {
          "firstgid":5741,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/furniture.json"
-        }, 
+        },
         {
          "firstgid":6087,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/light.json"
-        }, 
+        },
         {
          "firstgid":6529,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/other.json"
-        }, 
+        },
         {
          "firstgid":6832,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/pot.json"
-        }, 
+        },
         {
          "firstgid":7129,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/sapling.json"
-        }, 
+        },
         {
          "firstgid":7130,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/spawner.json"
-        }, 
+        },
         {
          "firstgid":7146,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/storage.json"
-        }, 
+        },
         {
          "firstgid":7377,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/teleporter.json"
-        }, 
+        },
         {
          "firstgid":7417,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/tools.json"
-        }, 
+        },
         {
          "firstgid":7422,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/trap.json"
-        }, 
+        },
         {
          "firstgid":7626,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
-        }, 
+        },
         {
          "firstgid":7843,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/container.json"
-        }, 
+        },
         {
          "firstgid":8125,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/farmable.json"
-        }, 
+        },
         {
          "firstgid":8203,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/loungeable.json"
-        }, 
+        },
         {
          "firstgid":8481,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/noisy.json"
-        }, 
+        },
         {
          "firstgid":8522,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/teleporter.json"
-        }, 
+        },
         {
          "firstgid":8548,
          "source":"..\/..\/..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
-        }, 
+        },
         {
          "firstgid":8649,
          "source":"..\/..\/..\/tilesets\/nightars-custom\/nightarmatierals.json"
         }],
  "tilewidth":8,
- "type":"map",
- "version":1.2,
+ "version":1,
  "width":60
 }

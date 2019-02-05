@@ -1,7 +1,7 @@
 [
   {
     "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
+    "path" : "/defaultBlueprints/tier1",
     "value" : [
       { "item" : "damageaugment1" },
       { "item" : "energyaugment1" },
