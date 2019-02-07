@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "An initiate's mail is plain and unadorned, reflecting their position in society.",
-  "shortdescription" : "Initiate's Mail",
+  "description" : "An initiate's robes are plain and unadorned, reflecting their position in society.",
+  "shortdescription" : "Initiate's Robes",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

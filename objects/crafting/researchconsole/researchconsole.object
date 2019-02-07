@@ -1,0 +1,51 @@
+{
+  "objectName" : "researchconsole",
+  "rarity" : "rare",
+  "description" : "Slowly generates up to 1000 Research Engrams.",
+  "shortdescription" : "Research Console",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 2500,
+  "printable" : false,
+  "objectType" : "container",
+  "learnBlueprintsOnPickup" : [ ],
+
+  "inventoryIcon" : "researchconsoleicon.png",
+  "orientations" : [
+    {
+      "direction" : "left",
+      "imageLayers" : [ { "image" : "researchconsole.png:<color>.<frame>", "fullbright" : true}, { "image" : "researchconsolelit.png:<color>.<frame>"  } ],
+      "flipImages" : false,
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "direction" : "right",
+      "imageLayers" : [ { "image" : "researchconsole.png:<color>.<frame>", "fullbright" : true }, { "image" : "researchconsolelit.png:<color>.<frame>"  } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+  "closeSounds" : [ "/sfx/objects/console_generic_switchoff.ogg" ],
+  "scripts" : [ "researchconsole.lua" ],
+  "scriptDelta" : 320,
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 67,
+  "autoCloseCooldown" : 3600,
+  "iSlot" : [
+    { "name" : "researchengram", "ratio" : 10, "max" : 1000 }
+  ]
+}

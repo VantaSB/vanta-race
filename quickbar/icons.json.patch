@@ -1,17 +1,17 @@
 [
 	{
 		"op": "add",
-		"path": "/normal/1",
+		"path": "/normal/-",
 		"value": { "label" : "Research Tree", "pane" : "/zb/researchTree/researchTree.config", "icon" : "/items/tools/inspectiontool/inspectionmode.png" }
 	},
 	{
 		"op": "add",
-		"path": "/normal/2",
+		"path": "/normal/-",
 		"value": { "label": "Updates", "pane": "/zb/updateInfoWindow/updateInfoWindow.config", "icon": "/zb/newSail/zbUpdate.png" }
 	},
 	{
 		"op": "add",
-		"path": "/normal/3",
+		"path": "/normal/-",
 		"value": { "label": "Quest List", "pane": "/zb/questList/questList.config", "icon": "/interface/quest.png" }
 	}
 ]

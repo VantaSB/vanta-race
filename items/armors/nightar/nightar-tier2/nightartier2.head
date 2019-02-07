@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "headarmour",
-  "description" : "A durable tungsten helm - a rebuttal to the claim \"they don't make 'em like they used to\".",
-  "shortdescription" : "Nightar Soldier's Helm",
+  "description" : "A durable hood woven with delicacy.",
+  "shortdescription" : "Duskbringer Hood",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

@@ -7,5 +7,4 @@
   "description" : "A dark crystal that gives off a powerful aura; it can be used for various purposes.",
   "shortdescription" : "Dark Crystal",
   "itemTags" : [ "reagent" ]
-  //"learnBlueprintsOnPickup" : [  ] <- WIP
 }

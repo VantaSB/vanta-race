@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "headarmour",
-  "description" : "The titanium clad nightar fights with honour. And a sharp sword...",
-  "shortdescription" : "Nightar Knight's Helm",
+  "description" : "The titanium clad Nightar fights with honor.",
+  "shortdescription" : "Siegebreaker Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

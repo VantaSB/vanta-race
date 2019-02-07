@@ -3,9 +3,10 @@
     { "item" : "refinedaegisalt", "count" : 4 },
     { "item" : "refinedferozium", "count" : 4 },
     { "item" : "refinedviolium", "count" : 4 },
-    { "item" : "solariumstar", "count" : 4 }
+    { "item" : "solariumstar", "count" : 4 },
+    { "item" : "azuritebar", "count" : 4 }
   ],
   "duration" : 10,
   "output" : { "item" : "exoticcomponent2", "count" : 1 },
-  "groups" : [ "enhancer", "hazardgear", "all" ]
+  "groups" : [ "enhancer", "all" ]
 }

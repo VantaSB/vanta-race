@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedaegisalt", "count" : 4 },
-    { "item" : "canvas", "count" : 1 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "nightartier5acceleratorpants", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "armours", "all" ]
-}

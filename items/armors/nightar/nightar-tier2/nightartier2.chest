@@ -5,18 +5,18 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "Crafted protection for the up-and-coming Nightar hero - better to dent your breastplate than your bodywork.",
-  "shortdescription" : "Nightar Soldier's Mail",
+  "description" : "Crafted protection for the up-and-coming Nightar hero - better to dent your chestplate than your bodywork.",
+  "shortdescription" : "Duskbringer Chestplate",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
