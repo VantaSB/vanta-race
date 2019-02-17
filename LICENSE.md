@@ -9,9 +9,10 @@ Everyone is permitted to copy and distribute verbatim or modified copies of this
 #### TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
 1. When you download this project, don't be a dick. Being a dick includes, but is not limited to, the following instances:
-* Outright copyright infringement - Don't just copy this and change the name or otherwise make it seem like it's originally yours.
-* Selling the unmodified original with no work done what-so-ever, that's REALLY being a dick.
-* Modifying the original work to contain hidden, harmful content or incorporating it into your own work in such a way that makes the source or other materials incompatible. That would make you a PROPER dick.
+  - **Unauthorized Redistribution** - You must get consent before redistributing the materials or to include them in your own works.
+  - **Outright copyright infringement** - Don't just copy this and change the name or otherwise make it seem like it's originally yours.
+  - **Selling the materials** - Selling another person's materials, that's REALLY being a dick.
+  - **Malicious alterations** - Modifying the original work to contain hidden, harmful content or incorporating it into your own work in such a way that makes the source or other materials incompatible, that would make you a PROPER dick.
 
 2. If you become rich through modifications, related works/services, or supporting the original work,
 share the love. Only a dick would make loads off this work and not buy the original work's
