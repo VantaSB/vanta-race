@@ -1,8 +1,7 @@
 # DON'T BE A DICK PUBLIC LICENSE
 #### (MODIFIED FOR THIS PROJECT IN PARTICULAR)
 
->Version 1.1a, February 2019
->Copyright (C) 2019, Seth A. Boyce
+>Version 1.1a - Copyright (C) 2019, Seth A. Boyce
 
 Everyone is permitted to copy and distribute verbatim or modified copies of this license agreement.
 
