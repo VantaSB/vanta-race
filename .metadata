@@ -1,12 +1,12 @@
 {
   "author" : "AbsoluteXeroEX",
-  "requires" : [  ],
-  "includes" : [  ],
-  "description" : "The Nightars, masters of shadows and knights of the night, have returned in all of their darkened glory!\n\n==DISCLAIMER==\nThere were things from other mods added in during development purely for testing purposes. I strive to respect other authors' licensing agreements and permissions given for their content, and try to cleanup things before pushing public updates. If you happen across something that belongs to another mod where permission hasn't been explicitly given to freely redistribute, please message me immediately with the details and I will rectify it ASAP.",
-  "friendlyName" : "The Nightars: Rebirth",
-  "link" : "https://github.com/AbsoluteXeroEX/TheNightarsRevived",
-  "name" : "The Nightars: Rebirth",
+  "requires" : [ ],
+  "includes" : [ ],
+  "description" : "When a desire to break away from the dogmatic traditions of the Nightars gained traction at an exponential rate, those who were cast out became the Vanta, a new generation of Nightars who realized the potential value of forming alliances with other races. Things are still rocky between them and other races, but they are more willing than previously to work with other races for mutual benefit.",
+  "friendlyName" : "The Vanta Race",
+  "link" : "https://github.com/AbsoluteXeroEX/vanta-race",
+  "name" : "vanta-race",
   "steamContentId" : 1325968658,
   "tags" : "Armor and Clothes|Crafting and Building|Furniture and Objects|Miscellaneous|Planets and Environments|Species|Weapons",
-  "version" : "0.5.1"
+  "version" : "0.1"
 }

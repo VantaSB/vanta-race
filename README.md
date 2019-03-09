@@ -6,11 +6,11 @@ If you would like to tinker with the Tiled map editor using the tilesets provide
 
 ### Bug Reporting
 Use this link for Issue Tracking: https://github.com/AbsoluteXeroEX/nightar-rebirth-project/issues
-Make sure you provide some details as to what's happening; simply opening up an issue and saying "IT'S BROKEN, FIX IT!!11!1!1!ONE!" will immediately be closed and disregarded as user error; no details, no fix. It's that simple.
+Make sure you provide some details as to what's happening; simply opening up an issue and saying "IT'S BROKEN, FIX IT!!11!1!1!ONE!" will immediately be closed and disregarded as user error. No details, no fix.
 
 ### Compatibility
-This mod should be compatible with just about everything else, save for the older version(s) of the Nightars, and in its current state, Frackin' Universe.
+This mod should be compatible with just about everything.
 
 ### Permissions and whatnot
-- https://github.com/AbsoluteXeroEX/vanta-race/wiki/Copyright
 - https://github.com/AbsoluteXeroEX/vanta-race/blob/master/LICENSE.md
+- https://github.com/AbsoluteXeroEX/vanta-race/wiki/Re:-Integration-Permissions

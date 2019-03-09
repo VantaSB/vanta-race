@@ -12,10 +12,8 @@
   "twoHanded" : true,
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "butt" : "",
     "middle" : "mechrepairtool.png",
-    "barrel" : "",
-    "muzzleFlash" : ""
+    "middleFullbright" : "mechrepairtoolfullbright.png"
   },
   "animationCustom" : {
     "sounds" : {

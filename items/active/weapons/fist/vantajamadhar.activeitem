@@ -1,21 +1,21 @@
 {
-  "itemName" : "nightarjamadhar",
+  "itemName" : "vantajamadhar",
   "price" : 1000,
   "level" : 5,
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Jamadhars require additional finesse while handling.",
-  "shortdescription" : "Nightar Jamadhar",
+  "shortdescription" : "Vanta Jamadhar",
   "tooltipKind" : "fistweapon",
   "category" : "fistWeapon",
   "twoHanded" : false,
   "itemTags" : ["weapon", "fistWeapon"],
 
-  "inventoryIcon" : "nightarjamadhar.png:front",
+  "inventoryIcon" : "vantajamadhar.png:front",
   "animation" : "fistweapon.animation",
   "animationParts" : {
-    "weapon" : "nightarjamadhar.png",
-    "weaponfullbright" : "nightarjamadharlit.png",
+    "weapon" : "vantajamadhar.png",
+    "weaponfullbright" : "vantajamadharlit.png",
     "swoosh" : "swoosh/slash.png"
   },
   "animationCustom" : {

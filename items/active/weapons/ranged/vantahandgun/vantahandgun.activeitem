@@ -1,5 +1,5 @@
 {
-  "itemName" : "starterhandgun",
+  "itemName" : "vantahandgun",
   "level" : 1,
   "price" : 250,
   "maxStack" : 1,
@@ -11,11 +11,11 @@
   "twoHanded" : false,
   "itemTags" : [ "pistol", "weapon", "ranged", "upgradeableWeapon" ],
 
-  "inventoryIcon" : "starterhandgun.png",
+  "inventoryIcon" : "vantahandgun.png",
 
-  "animation" : "starterhandgun.animation",
+  "animation" : "vantahandgun.animation",
   "animationParts" : {
-    "middle" : "starterhandgun.png",
+    "middle" : "vantahandgun.png",
     "muzzleFlash" : "muzzleflash.png"
   },
   "animationCustom" : {
@@ -72,31 +72,6 @@
         "allowRotate" : false,
         "allowFlip" : true
       }
-    }
-  },
-
-  "upgradeParameters" : {
-    "level" : 5,
-    "rarity" : "legendary",
-    "description" : "You fixed your gun!",
-    "shortdescription" : "^cyan;Jackal Handcannon^reset;",
-    "inventoryIcon" : "jackal.png",
-    "animationParts" : {
-      "middle" : "jackal.png",
-      "middleFullbright" : "jackalfullbright.png",
-      "muzzleFlash" : "muzzleflash.png"
-    },
-    "animationCustom" : {
-      "sounds" : {
-        "fire" : ["/sfx/gun/plasma_ar4.ogg"]
-      }
-    },
-    "primaryAbility" : {
-      "fireTime" : 0.178,
-      "baseDps" : 22,
-      "energyUsage" : 17,
-      "inaccuracy" : 0.012,
-      "projectileType" : "blueplasmabullet"
     }
   },
 
