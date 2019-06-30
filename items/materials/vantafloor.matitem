@@ -1,0 +1,11 @@
+{
+  "itemName" : "vantafloor",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "vantaflooricon.png",
+  "description" : "Traditional Vanta flooring.",
+  "shortdescription" : "Vanta Floor",
+
+  "materialId" : 3203
+}

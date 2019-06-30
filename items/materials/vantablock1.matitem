@@ -1,0 +1,11 @@
+{
+  "itemName" : "vantablock1",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "vantablock1icon.png",
+  "description" : "A black block of Nightar origin.",
+  "shortdescription" : "Vanta Black Block",
+
+  "materialId" : 3201
+}

@@ -4,7 +4,7 @@
   "price" : 250,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A worn-out sidearm, useful against smaller enemies.",
+  "description" : "A worn-out sidearm. Still useful against smaller enemies.",
   "shortdescription" : "Broken Sidarm",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",

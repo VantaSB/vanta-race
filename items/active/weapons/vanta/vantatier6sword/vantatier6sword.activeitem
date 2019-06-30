@@ -1,0 +1,38 @@
+{
+  "itemName" : "vantatier6sword",
+  "price" : 960,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A greatsword that is said to tear through the fabric of reality.",
+  "shortdescription" : "Xiphias",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "vantatier6sword.png",
+
+  "animation" : "vantatier6sword.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 10.5
+  },
+
+  "altAbilityType" : "astraltear",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

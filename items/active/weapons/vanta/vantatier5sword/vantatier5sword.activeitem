@@ -1,0 +1,36 @@
+{
+  "itemName" : "vantatier5sword",
+  "price" : 960,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A greatsword infused with violium.",
+  "shortdescription" : "Galatyn",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","nightar"],
+
+  "inventoryIcon" : "vantatier5sword1.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "vantatier5sword1.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5
+  },
+
+  "altAbilityType" : "giantsword",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

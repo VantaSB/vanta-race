@@ -1,0 +1,11 @@
+{
+  "itemName" : "vantapillarblock",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "vantapillarblockicon.png",
+  "description" : "A high-tech pillar.",
+  "shortdescription" : "Vanta Pillar",
+
+  "materialId" : 3205
+}

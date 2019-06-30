@@ -1,0 +1,36 @@
+{
+  "itemName" : "vantatier2sword2",
+  "price" : 960,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A Vanta-approved broadsword.",
+  "shortdescription" : "Vanta Kilij",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "vantatier2sword2.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "vantatier2sword2.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.84,
+    "baseDps" : 11.6
+  },
+
+  "altAbilityType" : "bladecharge",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

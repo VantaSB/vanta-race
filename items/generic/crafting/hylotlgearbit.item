@@ -1,9 +1,0 @@
-{
-  "itemName" : "hylotlgearbit",
-  "price" : 2250,
-  "rarity" : "rare",
-  "category" : "research",
-  "inventoryIcon" : "hylotlgearbit.png",
-  "description" : "Used for researching Hylotl physiology (unlocks Hylotl tiered armors)",
-  "shortdescription" : "Hylotl Gearbit"
-}

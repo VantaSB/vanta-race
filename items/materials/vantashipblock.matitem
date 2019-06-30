@@ -1,0 +1,11 @@
+{
+  "itemName" : "vantashipblock",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "vantashipblockicon.png",
+  "description" : "Ship blocks originating from traditional Nightar designs.",
+  "shortdescription" : "Vanta Ship Block",
+
+  "materialId" : 3206
+}

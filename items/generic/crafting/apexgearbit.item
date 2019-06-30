@@ -1,9 +1,0 @@
-{
-  "itemName" : "apexgearbit",
-  "price" : 2250,
-  "rarity" : "rare",
-  "category" : "research",
-  "inventoryIcon" : "apexgearbit.png",
-  "description" : "Used for researching Apex physiology (unlocks Apex tiered armors)",
-  "shortdescription" : "Apex Gearbit"
-}

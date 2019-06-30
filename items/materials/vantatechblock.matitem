@@ -1,0 +1,11 @@
+{
+  "itemName" : "vantatechblock",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "vantatechblockicon.png",
+  "description" : "Vanta tech-infused blocks.",
+  "shortdescription" : "Vanta Tech Block",
+
+  "materialId" : 3209
+}

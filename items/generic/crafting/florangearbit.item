@@ -1,9 +1,0 @@
-{
-  "itemName" : "florangearbit",
-  "price" : 2250,
-  "rarity" : "rare",
-  "category" : "research",
-  "inventoryIcon" : "florangearbit.png",
-  "description" : "Used for researching Floran physiology (unlocks Floran tiered armors)",
-  "shortdescription" : "Floran Gearbit"
-}

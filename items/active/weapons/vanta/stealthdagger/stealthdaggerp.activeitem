@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "A dagger with a toxic touch.",
-  "shortdescription" : "Nightar Dagger [^green;P^reset;]",
+  "shortdescription" : "Vanta Stealth Dagger [^green;P^reset;]",
   "tooltipKind" : "base",
   "category" : "Knife",
   "twoHanded" : false,
