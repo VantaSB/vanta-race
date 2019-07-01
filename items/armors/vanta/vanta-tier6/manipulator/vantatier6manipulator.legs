@@ -1,0 +1,42 @@
+{
+  "itemName" : "vantatier6manipulatorpants",
+  "price" : 2560,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "legarmour",
+  "description" : "These heavy greaves were made to make a Queenbreaker's presence known.",
+  "shortdescription" : "Queenbreaker Greaves",
+  "tooltipKind" : "armor",
+
+  "learnBlueprintsOnPickup" : [ "vantatier6manipulatorpantsaug" ],
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ]
+}

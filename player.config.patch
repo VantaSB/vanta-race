@@ -1,7 +1,7 @@
 [
   { "op" : "add", "path" : "/species/-", "value" : "vanta" },
 
-  { "op" : "add", "path" : "/defaultCodexes/vanta", "value" : [ "protectorate1","protectorate2" ] },
+  { "op" : "add", "path" : "/defaultCodexes/vanta", "value" : [ "protectorate1","protectorate2","vantahistory1","vantahistory2","vantahistory3","vantahistory4" ] },
 
   // ZB Includes
 	{ "op" : "add", "path" : "/deploymentConfig/scripts/-", "value" : "/zb/zb_player_init.lua"},

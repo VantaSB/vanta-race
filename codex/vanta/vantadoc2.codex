@@ -1,0 +1,16 @@
+{
+  "id" : "vantadoc2",
+  "title" : "Life of Combat",
+  "species" : "other",
+  "description" : "The Cultural Significance of Combat",
+  "icon" : "vantadocfile.png",
+  "contentPages" : [
+    "Bladed weapons are very prominent throughout Nightar society; this has carried over into the Vanta's own culture. Like the Nightars, the Vanta still believe that swords are the most valuable weapons a warrior can wield. Curiously, many of the weapons forged by the Vanta are all named similarly. Whether this is because of culture or by named blueprint designs is currently unknown, but their skills with the blade are still just as fearsome.",
+
+    "Even though their weaponry is similarly named, swords are still passed down through family bloodlines, and can even be inherited by those who marry into families, if necessary. If there is no one to continue the bloodline, they keep with the Nightar tradition of burying their weapon with their last wielder upon death. Stealing another warrior's blade is seen as a cowardly act, and often results in either exile, or in more extreme circumstances, execution of the thief in question."
+  ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 25
+  }
+}
