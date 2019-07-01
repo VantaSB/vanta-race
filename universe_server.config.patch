@@ -1,7 +1,7 @@
-[ 
+[
   {
 	"op" : "add",
-	"path" : "/speciesShips/nightar",
-	"value" : ["/ships/nightar/nightarT0.structure", "/ships/nightar/nightarT1.structure", "/ships/nightar/nightarT2.structure", "/ships/nightar/nightarT3.structure", "/ships/nightar/nightarT4.structure", "/ships/nightar/nightarT5.structure", "/ships/nightar/nightarT6.structure", "/ships/nightar/nightarT7.structure", "/ships/nightar/nightarT8.structure"]
+	"path" : "/speciesShips/vanta",
+	"value" : ["/ships/vanta/vantaT0.structure", "/ships/vanta/vantaT1.structure", "/ships/vanta/vantaT2.structure", "/ships/vanta/vantaT3.structure", "/ships/vanta/vantaT4.structure", "/ships/vanta/vantaT5.structure", "/ships/vanta/vantaT6.structure", "/ships/vanta/vantaT7.structure", "/ships/vanta/vantaT8.structure"]
    }
 ]
