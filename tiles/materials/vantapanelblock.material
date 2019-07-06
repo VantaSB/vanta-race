@@ -1,17 +1,17 @@
 {
   "materialId" : 3704,
-  "materialName" : "nightarpanelblock",
+  "materialName" : "vantapanelblock",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "nightarpanelblock",
+  "itemDrop" : "vantapanelblock",
   "description" : "Panelling made of unknown materials.",
-  "shortdescription" : "Nightar Paneling",
+  "shortdescription" : "Vanta Paneling",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "nightarpanelblock.png",
+    "texture" : "vantapanelblock.png",
     "variants" : 9,
     "lightTransparent" : false,
     "multiColored" :true,

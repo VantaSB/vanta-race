@@ -1,17 +1,17 @@
 {
   "materialId" : 3705,
-  "materialName" : "nightarpillarblock",
+  "materialName" : "vantapillarblock",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "nightarpillarblock",
-  "description" : "A pillar made with Nightar materials.",
-  "shortdescription" : "Nightar Pillar",
+  "itemDrop" : "vantapillarblock",
+  "description" : "A pillar made with Vanta materials.",
+  "shortdescription" : "Vanta Pillar",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 12,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/columntemplate.config",
   "renderParameters" : {
-    "texture" : "nightarpillarblock.png",
+    "texture" : "vantapillarblock.png",
     "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,

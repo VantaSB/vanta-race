@@ -1,17 +1,17 @@
 {
-  "materialId" : 3707,
-  "materialName" : "nightarsupport1",
+  "materialId" : 3708,
+  "materialName" : "vantasupport2",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "nightarsupport1",
-  "description" : "A reinforced support beam made of unknown materials.",
-  "shortdescription" : "Nightar Support Beam",
+  "itemDrop" : "vantasupport2",
+  "description" : "Reinforced baseboarding made of unknown materials.",
+  "shortdescription" : "Vanta Ship Details",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/girdertemplate.config",
   "renderParameters" : {
-    "texture" : "nightarsupport1.png",
+    "texture" : "vantasupport2.png",
     "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,

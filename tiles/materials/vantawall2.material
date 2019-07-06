@@ -1,21 +1,21 @@
 {
-  "materialId" : 3706,
-  "materialName" : "nightarshipblock",
+  "materialId" : 3711,
+  "materialName" : "vantawall2",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "nightarshipblock",
-  "description" : "Panelling used in Nightar ships.",
-  "shortdescription" : "Nightar Ship Block",
+  "itemDrop" : "vantawall2",
+  "description" : "A black wall infused with some Vanta technology.",
+  "shortdescription" : "Vanta Tech Wall",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "nightarshipblock.png",
-    "variants" : 10,
+    "texture" : "vantawall2.png",
+    "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 2690
+    "zLevel" : 2790
   }
 }

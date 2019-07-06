@@ -6,258 +6,258 @@
     "width" : 160
   },
   "margin" : 0,
-  "name" : "objects-by-race/nightar",
+  "name" : "objects-by-race/vanta",
   "spacing" : 0,
   "tilecount" : 33,
   "tileheight" : 75,
   "tileproperties" : {
     "0" : {
-      "//description" : "A replicator designed specifically for crafting Nightar armors and weapons.",
-      "//name" : "nightaranvil",
-      "//shortdescription" : "Nightar Replicator",
+      "//description" : "A replicator designed specifically for crafting Vanta armors and weapons.",
+      "//name" : "vantaanvil",
+      "//shortdescription" : "Vanta Replicator",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightaranvil"
+      "object" : "vantaanvil"
     },
     "1" : {
       "//description" : "A chequered flag bearing an emblem.",
-      "//name" : "nightarbattlestandard",
-      "//shortdescription" : "Nightar Battle Standard",
+      "//name" : "vantabattlestandard",
+      "//shortdescription" : "Vanta Battle Standard",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarbattlestandard"
+      "object" : "vantabattlestandard"
     },
     "2" : {
-      "//description" : "A complex computer made by Nightars.",
-      "//name" : "nightarcomputer",
-      "//shortdescription" : "Nightar Computer",
+      "//description" : "A complex computer made by the Vanta.",
+      "//name" : "vantacomputer",
+      "//shortdescription" : "Vanta Computer",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarcomputer"
+      "object" : "vantacomputer"
     },
     "3" : {
       "//description" : "A nice, spacious, wall-mounted storage solution.",
-      "//name" : "nightarstoragelocker",
-      "//shortdescription" : "Nightar Storage Locker",
+      "//name" : "vantastoragelocker",
+      "//shortdescription" : "Vanta Storage Locker",
       "imagePositionX" : "-16",
       "imagePositionY" : "-8",
-      "object" : "nightarstoragelocker"
+      "object" : "vantastoragelocker"
     },
     "10" : {
-      "//description" : "Nightar sleeping bed. It's rather comforatble for its design.",
-      "//name" : "nightarbed",
-      "//shortdescription" : "Nightar Bed",
+      "//description" : "Vanta sleeping bed. It's rather comforatble for its design.",
+      "//name" : "vantabed",
+      "//shortdescription" : "Vanta Bed",
       "imagePositionX" : "-10",
       "imagePositionY" : "13",
-      "object" : "nightarbed"
+      "object" : "vantabed"
     },
     "11" : {
-      "//description" : "An altar holding the ultimate Nightar blade... which looks kinda broken.",
-      "//name" : "nightarbladealtar",
-      "//shortdescription" : "Nightar Blade Altar",
+      "//description" : "An altar holding the ultimate Vanta blade... which looks kinda broken.",
+      "//name" : "vantabladealtar",
+      "//shortdescription" : "Vanta Blade Altar",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarbladealtar"
+      "object" : "vantabladealtar"
     },
     "12" : {
-      "//description" : "A bookcase... let's find out what Nightars read.",
-      "//name" : "nightarbookcase",
-      "//shortdescription" : "Nightar Bookcase",
+      "//description" : "A bookcase... let's find out what the Vanta read.",
+      "//name" : "vantabookcase",
+      "//shortdescription" : "Vanta Bookcase",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarbookcase"
+      "object" : "vantabookcase"
     },
     "13" : {
-      "//description" : "A mysterious Nightar box.",
-      "//name" : "nightarbox1",
-      "//shortdescription" : "Small Nightar Box",
+      "//description" : "A mysterious Vanta box.",
+      "//name" : "vantabox1",
+      "//shortdescription" : "Small Vanta Box",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarbox1"
+      "object" : "vantabox1"
     },
     "14" : {
-      "//description" : "A mysterious Nightar box.",
-      "//name" : "nightarbox2",
-      "//shortdescription" : "Large Nightar Box",
+      "//description" : "A mysterious Vanta box.",
+      "//name" : "vantabox2",
+      "//shortdescription" : "Large Vanta Box",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarbox2"
+      "object" : "vantabox2"
     },
     "15" : {
-      "//description" : "A sleek looking Nightar cabinet.",
-      "//name" : "nightarcabinet",
-      "//shortdescription" : "Nightar Cabinet",
+      "//description" : "A sleek looking Vanta cabinet.",
+      "//name" : "vantacabinet",
+      "//shortdescription" : "Vanta Cabinet",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarcabinet"
+      "object" : "vantacabinet"
     },
     "16" : {
       "//description" : "A strong and secure door.",
-      "//name" : "nightarcastledoor",
-      "//shortdescription" : "Nightar Castle Door",
+      "//name" : "vantacastledoor",
+      "//shortdescription" : "Vanta Castle Door",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarcastledoor"
+      "object" : "vantacastledoor"
     },
     "17" : {
-      "//description" : "A Nightar chair. You'll never want to stand again.",
-      "//name" : "nightarchair",
-      "//shortdescription" : "Nightar Chair",
+      "//description" : "A Vanta chair. You'll never want to stand again.",
+      "//name" : "vantachair",
+      "//shortdescription" : "Vanta Chair",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarchair"
+      "object" : "vantachair"
     },
     "18" : {
-      "//description" : "A Nightar chandelier. A good way to light a large castle room.",
-      "//name" : "nightarchandelier",
-      "//shortdescription" : "Nightar Chandelier",
+      "//description" : "A Vanta chandelier. A good way to light a large castle room.",
+      "//name" : "vantachandelier",
+      "//shortdescription" : "Vanta Chandelier",
       "imagePositionX" : "-16",
       "imagePositionY" : "-16",
-      "object" : "nightarchandelier"
+      "object" : "vantachandelier"
     },
     "19" : {
-      "//description" : "A small Nightar chest.",
-      "//name" : "nightarchest",
-      "//shortdescription" : "Nightar Chest",
+      "//description" : "A small Vanta chest.",
+      "//name" : "vantachest",
+      "//shortdescription" : "Vanta Chest",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarchest"
+      "object" : "vantachest"
     },
     "20" : {
-      "//description" : "A small console made by the Nightars.",
-      "//name" : "nightarconsole",
-      "//shortdescription" : "Nightar Console",
+      "//description" : "A small console made by the Vanta.",
+      "//name" : "vantaconsole",
+      "//shortdescription" : "Vanta Console",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarconsole"
+      "object" : "vantaconsole"
     },
     "21" : {
-      "//description" : "This looks like an advanced nightar dresser.",
-      "//name" : "nightardresser",
-      "//shortdescription" : "Nightar Dresser",
+      "//description" : "This looks like an advanced Vanta dresser.",
+      "//name" : "vantadresser",
+      "//shortdescription" : "Vanta Dresser",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightardresser"
+      "object" : "vantadresser"
     },
     "22" : {
       "//description" : "Perfect for storing a lot of food and keeping it fresh.",
-      "//name" : "nightarfridge",
-      "//shortdescription" : "Nightar Fridge",
+      "//name" : "vantafridge",
+      "//shortdescription" : "Vanta Fridge",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarfridge"
+      "object" : "vantafridge"
     },
     "23" : {
       "//description" : "A pedestal for putting your treasures on display.",
-      "//name" : "nightarpedestal",
-      "//shortdescription" : "Nightar Pedestal",
+      "//name" : "vantapedestal",
+      "//shortdescription" : "Vanta Pedestal",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarpedestal"
+      "object" : "vantapedestal"
     },
     "24" : {
-      "//description" : "A picture of a Nightar's secret armor.",
-      "//name" : "nightarpicture",
-      "//shortdescription" : "Nightar Knight's Armor Picture",
+      "//description" : "A picture of a Vanta's secret armor.",
+      "//name" : "vantapicture",
+      "//shortdescription" : "Vanta Knight's Armor Picture",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarpicture"
+      "object" : "vantapicture"
     },
     "25" : {
-      "//description" : "A small Nightar wall banner.",
-      "//name" : "nightarsbannersmall",
-      "//shortdescription" : "Nightar Wall Banner",
+      "//description" : "A small Vanta wall banner.",
+      "//name" : "vantasbannersmall",
+      "//shortdescription" : "Vanta Wall Banner",
       "imagePositionX" : "-5",
       "imagePositionY" : "-2",
-      "object" : "nightarsbannersmall"
+      "object" : "vantasbannersmall"
     },
     "26" : {
-      "//description" : "A torn Nightars wallbanner.",
-      "//name" : "nightarsbannertorn",
-      "//shortdescription" : "Torn Nightar Wall Banner",
+      "//description" : "A torn the Vanta wallbanner.",
+      "//name" : "vantasbannertorn",
+      "//shortdescription" : "Torn Vanta Wall Banner",
       "imagePositionX" : "-5",
       "imagePositionY" : "-2",
-      "object" : "nightarsbannertorn"
+      "object" : "vantasbannertorn"
     },
     "27" : {
       "//description" : "A shelf, uses solid(?) laser instead of wood, pretty cool huh?",
-      "//name" : "nightarshelf",
-      "//shortdescription" : "Nightar Shelf",
+      "//name" : "vantashelf",
+      "//shortdescription" : "Vanta Shelf",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarshelf"
+      "object" : "vantashelf"
     },
     "28" : {
       "//description" : "A small green light",
-      "//name" : "nightarshiplight",
+      "//name" : "vantashiplight",
       "//shortdescription" : "Green Ship Light",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarshiplight"
+      "object" : "vantashiplight"
     },
     "29" : {
       "//description" : "Where does the water come from or go to? I will never know..",
-      "//name" : "nightarsink",
-      "//shortdescription" : "Nightar Sink",
+      "//name" : "vantasink",
+      "//shortdescription" : "Vanta Sink",
       "imagePositionX" : "-8",
       "imagePositionY" : "-8",
-      "object" : "nightarsink"
+      "object" : "vantasink"
     },
     "30" : {
       "//description" : "An advanced cooking device, with controlable heat for perfect cooking.",
-      "//name" : "nightarstove",
-      "//shortdescription" : "Nightar Cooker",
+      "//name" : "vantastove",
+      "//shortdescription" : "Vanta Cooker",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightarstove"
+      "object" : "vantastove"
     },
     "31" : {
       "//description" : "An electronic table.",
-      "//name" : "nightartable",
-      "//shortdescription" : "Nightar Table",
+      "//name" : "vantatable",
+      "//shortdescription" : "Vanta Table",
       "imagePositionX" : "-32",
       "imagePositionY" : "0",
-      "object" : "nightartable"
+      "object" : "vantatable"
     },
     "32" : {
-      "//description" : "A simple Nightar chair used for tables.",
-      "//name" : "nightartablechair",
-      "//shortdescription" : "Nightar Table Chair",
+      "//description" : "A simple Vanta chair used for tables.",
+      "//name" : "vantatablechair",
+      "//shortdescription" : "Vanta Table Chair",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightartablechair"
+      "object" : "vantatablechair"
     },
     "4" : {
       "//description" : "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.",
-      "//name" : "nightarteleporter",
-      "//shortdescription" : "Nightar Teleporter",
+      "//name" : "vantateleporter",
+      "//shortdescription" : "Vanta Teleporter",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarteleporter"
+      "object" : "vantateleporter"
     },
     "5" : {
-      "//description" : "A Nightar throne, only for the night's king!",
-      "//name" : "nightarthrone",
-      "//shortdescription" : "Nightar's Throne",
+      "//description" : "A Vanta throne, only for the night's king!",
+      "//name" : "vantathrone",
+      "//shortdescription" : "Vanta's Throne",
       "imagePositionX" : "-30",
       "imagePositionY" : "0",
-      "object" : "nightarthrone"
+      "object" : "vantathrone"
     },
     "6" : {
       "//description" : "A compact switch that can be flipped on or off.",
-      "//name" : "nightartinywallswitch",
-      "//shortdescription" : "Nightar Tiny Switch",
+      "//name" : "vantatinywallswitch",
+      "//shortdescription" : "Vanta Tiny Switch",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightartinywallswitch"
+      "object" : "vantatinywallswitch"
     },
     "7" : {
-      "//description" : "A Nightar toliet, gets rid of waste in matter of seconds!",
-      "//name" : "nightartoilet",
-      "//shortdescription" : "Nightar Toilet",
+      "//description" : "A Vanta toliet, gets rid of waste in matter of seconds!",
+      "//name" : "vantatoilet",
+      "//shortdescription" : "Vanta Toilet",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightartoilet"
+      "object" : "vantatoilet"
     },
     "8" : {
       "//description" : "Looks like someone's got their eyes set on making this a venue for a shop.",
@@ -268,7 +268,7 @@
       "object" : "ranscastleoutpostclosed"
     },
     "9" : {
-      "//description" : "A storefront for the Nightar merchant, Ran, to sell his wares.",
+      "//description" : "A storefront for the Vanta merchant, Ran, to sell his wares.",
       "//name" : "ranscastleoutpost",
       "//shortdescription" : "Ran's Castle",
       "imagePositionX" : "-56",
@@ -544,167 +544,167 @@
   },
   "tiles" : {
     "0" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightaranvil.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantaanvil.png",
       "imageheight" : 40,
       "imagewidth" : 32
     },
     "1" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarbattlestandard.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabattlestandard.png",
       "imageheight" : 40,
       "imagewidth" : 16
     },
     "10" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarbed.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabed.png",
       "imageheight" : 24,
       "imagewidth" : 56
     },
     "11" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarconsole.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantaconsole.png",
       "imageheight" : 14,
       "imagewidth" : 25
     },
     "12" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarstove.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantastove.png",
       "imageheight" : 32,
       "imagewidth" : 24
     },
     "13" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarbladealtar.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabladealtar.png",
       "imageheight" : 64,
       "imagewidth" : 17
     },
     "14" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarbookcase.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabookcase.png",
       "imageheight" : 40,
       "imagewidth" : 32
     },
     "15" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarbox1.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabox1.png",
       "imageheight" : 16,
       "imagewidth" : 24
     },
     "16" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarbox2.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabox2.png",
       "imageheight" : 24,
       "imagewidth" : 32
     },
     "17" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarcabinet.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantacabinet.png",
       "imageheight" : 40,
       "imagewidth" : 32
     },
     "18" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarcastledoor.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantacastledoor.png",
       "imageheight" : 40,
       "imagewidth" : 40
     },
     "19" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarchair.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantachair.png",
       "imageheight" : 24,
       "imagewidth" : 22
     },
     "2" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarchandelier.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantachandelier.png",
       "imageheight" : 32,
       "imagewidth" : 40
     },
     "20" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarchest.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantachest.png",
       "imageheight" : 16,
       "imagewidth" : 32
     },
     "21" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarcomputer.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantacomputer.png",
       "imageheight" : 33,
       "imagewidth" : 25
     },
     "22" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightardresser.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantadresser.png",
       "imageheight" : 16,
       "imagewidth" : 31
     },
     "23" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarfridge.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantafridge.png",
       "imageheight" : 32,
       "imagewidth" : 24
     },
     "24" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarpedestal.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantapedestal.png",
       "imageheight" : 16,
       "imagewidth" : 24
     },
     "25" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarpicture.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantapicture.png",
       "imageheight" : 24,
       "imagewidth" : 32
     },
     "26" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarsbannersmall.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantasbannersmall.png",
       "imageheight" : 37,
       "imagewidth" : 23
     },
     "27" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarsbannertorn.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantasbannertorn.png",
       "imageheight" : 75,
       "imagewidth" : 34
     },
     "28" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarshelf.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantashelf.png",
       "imageheight" : 8,
       "imagewidth" : 32
     },
     "29" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarshiplight.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantashiplight.png",
       "imageheight" : 8,
       "imagewidth" : 16
     },
     "3" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarsink.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantasink.png",
       "imageheight" : 24,
       "imagewidth" : 18
     },
     "30" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarstoragelocker.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantastoragelocker.png",
       "imageheight" : 24,
       "imagewidth" : 32
     },
     "31" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightartable.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantatable.png",
       "imageheight" : 16,
       "imagewidth" : 55
     },
     "32" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightartablechair.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantatablechair.png",
       "imageheight" : 24,
       "imagewidth" : 16
     },
     "4" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarteleporter.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantateleporter.png",
       "imageheight" : 59,
       "imagewidth" : 32
     },
     "5" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightarthrone.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantathrone.png",
       "imageheight" : 71,
       "imagewidth" : 65
     },
     "6" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightartinywallswitch.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantatinywallswitch.png",
       "imageheight" : 8,
       "imagewidth" : 8
     },
     "7" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/nightartoilet.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/vantatoilet.png",
       "imageheight" : 24,
       "imagewidth" : 16
     },
     "8" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/ranscastleoutpostclosed.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/ranscastleoutpostclosed.png",
       "imageheight" : 73,
       "imagewidth" : 128
     },
     "9" : {
-      "image" : "../../../../../tiled/nightars-custom/objects/ranscastleoutpostopen.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/ranscastleoutpostopen.png",
       "imageheight" : 73,
       "imagewidth" : 128
     }

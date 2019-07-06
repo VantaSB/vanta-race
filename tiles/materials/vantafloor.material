@@ -1,21 +1,21 @@
 {
-  "materialId" : 3702,
-  "materialName" : "nightarcastleblock2",
+  "materialId" : 3703,
+  "materialName" : "vantafloor",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "nightarblock2",
-  "description" : "A white block made of unknown materials.",
-  "shortdescription" : "Nightars Castle Block",
+  "itemDrop" : "vantafloor",
+  "description" : "Traditional Vanta flooring.",
+  "shortdescription" : "Vanta Flooring",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "nightarblock2.png",
-    "variants" : 5,
+    "texture" : "vantafloor.png",
+    "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 2690
+    "zLevel" : 3000
   }
 }
