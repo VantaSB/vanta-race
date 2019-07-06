@@ -3,7 +3,7 @@
     { "item" : "concretematerial", "count" : 1 },
     { "item" : "blackdye", "count" : 1 }
   ],
-  "output" : { "item" : "nightarblock1", "count" : 10 },
+  "output" : { "item" : "vantablock1", "count" : 10 },
   "duration" : 0.25,
   "groups"  : [ "craftingfurniture", "materials", "all" ]
 }

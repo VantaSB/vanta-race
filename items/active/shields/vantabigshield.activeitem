@@ -1,5 +1,5 @@
 {
-  "itemName" : "nightarbigshield",
+  "itemName" : "vantabigshield",
   "level" : 6,
   "price" : 1200,
   "maxStack" : 1,
@@ -11,11 +11,11 @@
   "twoHanded" : false,
   "itemTags" : ["shield"],
 
-  "inventoryIcon" : "images/nightarshield/nightarbigshield.png:nearidle",
+  "inventoryIcon" : "images/vantashield/vantabigshield.png:nearidle",
 
   "animation" : "shield.animation",
   "animationParts" : {
-    "shield" : "images/nightarshield/nightarbigshield.png"
+    "shield" : "images/vantashield/vantabigshield.png"
   },
   "animationCustom" : {
     "sounds" : {

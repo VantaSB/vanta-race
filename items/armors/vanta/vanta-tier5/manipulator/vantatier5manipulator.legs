@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "legarmour",
-  "description" : "Boots designed for maneuverability and status.",
-  "shortdescription" : "Corsair Boots",
+  "description" : "orange;TBD^reset;",
+  "shortdescription" : "Argent Marauder Sabotons",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",

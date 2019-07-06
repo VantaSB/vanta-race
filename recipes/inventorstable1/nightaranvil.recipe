@@ -5,7 +5,7 @@
     { "item" : "darkfragmentore", "count" : 2 }
   ],
 
-  "output" : {"item" : "nightaranvil", "count" : 1 },
+  "output" : {"item" : "vantaanvil", "count" : 1 },
   "duration" : 5,
   "groups" : [ "inventorstable", "craftingstations", "all" ]
 }

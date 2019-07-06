@@ -4,6 +4,6 @@
     { "item" : "smallbattery", "count" : 1 }
   ],
   "duration" : 5,
-  "output" : { "item" : "nightar_violiumbroadsword1", "count" : 1 },
+  "output" : { "item" : "vantavioliumbroadsword1", "count" : 1 },
   "groups" : [ "craftinganvil3", "weapons", "all" ]
 }

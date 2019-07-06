@@ -1,0 +1,33 @@
+{
+  "objectName" : "vantashelf",
+  "tags" : ["vanta","commerce"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 100,
+
+  "description" : "A shelf, uses solid(?) laser instead of wood, pretty cool huh?",
+  "shortdescription" : "Vanta Shelf",
+  "race" : "vanta",
+
+  "apexDescription" : "What an etheral shelf...",
+  "avianDescription" : "This shelf is definitely way too advanced, even for Avian standards.",
+  "floranDescription" : "Floran amusssed by shiny shelf!",
+  "glitchDescription" : "Fascinated. This shelf is actually a very advanced machine that turns light particles into solid matter.",
+  "humanDescription" : "The Vantas really go all-out with their stuff.",
+  "hylotlDescription" : "As advanced as this is, it's very small and elegant.",
+  "novakidDescription" : "It's a tiny shelf.",
+
+  "inventoryIcon" : "vantashelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vantashelf.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -5,8 +5,8 @@
 
   "speciesText" : {
     "default" : {
-      "buttonText" : "The Nightfort",
-      "repeatButtonText" : "Revisit the Nightfort",
+      "buttonText" : "Nightfort",
+      "repeatButtonText" : "Revisit Nightfort",
       "selectSpeech" : {
         "animation" : "talk",
         "text" : "A hidden fortress beneath the surface of a blackened planet, the Night King's fort. Either it is abandoned or the scanners cannot penetrate the surface.",
@@ -15,5 +15,3 @@
     }
   }
 }
-
-

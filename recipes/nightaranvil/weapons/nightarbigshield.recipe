@@ -3,6 +3,6 @@
     { "item" : "darkcrystal", "count" : 2 },
     { "item" : "hardenedcarapace", "count" : 4 }
   ],
-  "output" : { "item" : "nightarbigshield", "count" : 1 },
-  "groups" : [ "nightaranvil", "weapons", "all" ]
+  "output" : { "item" : "vantabigshield", "count" : 1 },
+  "groups" : [ "vantaanvil", "weapons", "all" ]
 }

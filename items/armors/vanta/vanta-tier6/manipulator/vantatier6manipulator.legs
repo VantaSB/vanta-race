@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "category" : "legarmour",
   "description" : "These heavy greaves were made to make a Queenbreaker's presence known.",
-  "shortdescription" : "Queenbreaker Greaves",
+  "shortdescription" : "Queenbreaker Flanchard",
   "tooltipKind" : "armor",
 
   "learnBlueprintsOnPickup" : [ "vantatier6manipulatorpantsaug" ],

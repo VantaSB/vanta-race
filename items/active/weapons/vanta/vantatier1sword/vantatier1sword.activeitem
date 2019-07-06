@@ -1,22 +1,22 @@
 {
   "itemName" : "vantatier1sword",
-  "price" : 960,
+  "price" : 480,
   "level" : 1,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "It's a basic Vanta shortsword.",
-  "shortdescription" : "Vanta Iron Sword",
+  "shortdescription" : "Vanta Iron Spatha",
   "tooltipKind" : "sword",
-  "category" : "broadsword",
-  "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword"],
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
 
   "inventoryIcon" : "vantatier1sword.png",
 
-  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
   "animationParts" : {
-    "handle" : "",
-    "blade" : "vantatier1sword.png"
+    "handle" : "vantatier1sword.png",
+    "blade" : ""
   },
   "animationCustom" : { },
 
@@ -24,13 +24,11 @@
 
   "elementalType" : "physical",
 
-  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.84,
     "baseDps" : 11.6
   },
-
-  "altAbilityType" : "risingslash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

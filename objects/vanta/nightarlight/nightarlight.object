@@ -1,0 +1,129 @@
+{
+  "objectName" : "vantalight",
+  "colonyTags" : ["light","vanta"],
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [60, 197, 220],
+  "price" : 75,
+  "description" : "A vanta castle light",
+  "shortdescription" : "Vanta light",
+  "race" : "vanta",
+
+  "apexDescription" : "This light's design is similar to what you would see around an Apex laboratory.",
+  "avianDescription" : "What a radiant light.",
+  "floranDescription" : "Floran like light. Light make shadow, Floran creep in shadow.",
+  "glitchDescription" : "Observant. A light with a soft glow.",
+  "humanDescription" : "A handy light.",
+  "hylotlDescription" : "Waterproof lights. These would definitely work with Hylotl city designs.",
+  "novakidDescription" : "A fancy lookin' light.",
+
+  
+  
+  "inventoryIcon" : "vantalighticon.png",
+  "orientations" : [
+    {
+      "image" : "vantalightbackground.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "vantalightbackground.png",
+        "fg" : "vantalightbackgroundlit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, 0] ]
+    },
+
+    {
+      "image" : "vantalightceiling.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "vantalightceiling.png",
+        "fg" : "vantalightceilinglit.png"
+      },
+
+      "imagePosition" : [0, -4],
+      "animationPosition" : [0, -4],
+
+      "spaces" : [ [0, 0], [0, -1] ],
+      "anchors" : [ "top" ]
+    },
+    
+    {
+      "image" : "vantalightleft.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "vantalightleft.png",
+        "fg" : "vantalightleftlit.png"
+      },
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "vantalightright.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "vantalightright.png",
+        "fg" : "vantalightrightlit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "vantalightground.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "vantalightground.png",
+        "fg" : "vantalightgroundlit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "vantalightbackground.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "vantalightbackground.png",
+        "fg" : "vantalightbackgroundlit.png"
+      },
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "vantalightbackground.png",
+    "fg" : "vantalightbackgroundlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+
+}

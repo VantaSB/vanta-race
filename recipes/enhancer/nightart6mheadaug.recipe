@@ -3,10 +3,10 @@
     { "item" : "exoticcomponent1", "count" : 1 },
     { "item" : "augmentadaptor", "count" : 1 },
     { "item" : "crimsoniumrod", "count" : 1 },
-    { "item" : "nightartier6manipulatorhead", "count" : 1 }
+    { "item" : "vantatier6manipulatorhead", "count" : 1 }
   ],
 
   "duration" : 10,
-  "output" : { "item" : "nightartier6manipulatorheadaug", "count" : 1 },
+  "output" : { "item" : "vantatier6manipulatorheadaug", "count" : 1 },
   "groups" : [ "enhancer", "all" ]
 }

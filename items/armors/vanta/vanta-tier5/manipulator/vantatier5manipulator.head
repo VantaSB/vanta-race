@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "headarmour",
-  "description" : "A helmet signifying elite strength.",
-  "shortdescription" : "Corsair Helm",
+  "description" : "orange;TBD^reset;",
+  "shortdescription" : "Argent Marauder Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

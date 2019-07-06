@@ -78,42 +78,42 @@
 						},
 						"fire": {
 							"properties": {
-								"image": "/items/active/weapons/melee/broadsword/swoosh3/nightar_physicalswoosh/nightar_physicalswoosh.png:3?scale=0.5",
+								"image": "/items/active/weapons/melee/broadsword/swoosh3/vantaphysicalswoosh/vantaphysicalswoosh.png:3?scale=0.5",
 								"offset": [0, 0],
 								"damageArea": [[-3, 1], [3, 1], [3, -1], [-3, -1]]
 							}
 						},
 						"fire2": {
 							"properties": {
-								"image": "/items/active/weapons/melee/broadsword/swoosh2/nightar_physicalswoosh/nightar_physicalswoosh.png:1?flipy?scalenearest=0.5",
+								"image": "/items/active/weapons/melee/broadsword/swoosh2/vantaphysicalswoosh/vantaphysicalswoosh.png:1?flipy?scalenearest=0.5",
 								"offset": [-2, 0],
 								"damageArea": [[-8, 2], [5, 2], [8, 0], [6, -2], [4, -2], [2, 0], [-8, 0]]
 							}
 						},
 						"fire3": {
 							"properties": {
-								"image": "/items/active/weapons/melee/broadsword/swoosh3/nightar_physicalswoosh/nightar_physicalswoosh.png:2",
+								"image": "/items/active/weapons/melee/broadsword/swoosh3/vantaphysicalswoosh/vantaphysicalswoosh.png:2",
 								"offset": [1, 0],
 								"damageArea": [[-3, 1], [3, 1], [3, -1], [-3, -1]]
 							}
 						},
 						"fire4": {
 							"properties": {
-								"image": "/items/active/weapons/melee/broadsword/swoosh3/nightar_physicalswoosh/nightar_physicalswoosh.png:2",
+								"image": "/items/active/weapons/melee/broadsword/swoosh3/vantaphysicalswoosh/vantaphysicalswoosh.png:2",
 								"offset": [1, 0],
 								"damageArea": [[-3, 1], [3, 1], [3, -1], [-3, -1]]
 							}
 						},
 						"fire5": {
 							"properties": {
-								"image": "/items/active/weapons/melee/broadsword/swoosh/nightar_physicalswoosh/nightar_physicalswoosh.png:3?flipy?scale=0.5",
+								"image": "/items/active/weapons/melee/broadsword/swoosh/vantaphysicalswoosh/vantaphysicalswoosh.png:3?flipy?scale=0.5",
 								"offset": [0, 0],
 								"damageArea": [[-3, 1], [3.0, 1], [3.0, -1], [-3, -1]]
 							}
 						},
 						"fire6": {
 							"properties": {
-								"image": "/items/active/weapons/melee/broadsword/swoosh3/nightar_physicalswoosh/nightar_physicalswoosh.png:3",
+								"image": "/items/active/weapons/melee/broadsword/swoosh3/vantaphysicalswoosh/vantaphysicalswoosh.png:3",
 								"offset": [1, 0],
 								"damageArea": [[-3, 1], [3, 1], [3, -1], [-3, -1]]
 							}

@@ -5,6 +5,6 @@
     { "item" : "silk", "count" : 1 }
   ],
   "duration" : 5,
-  "output" : { "item" : "nightartier4chest", "count" : 1 },
+  "output" : { "item" : "vantatier4chest", "count" : 1 },
   "groups" : [ "craftinganvil3", "armours", "all" ]
 }

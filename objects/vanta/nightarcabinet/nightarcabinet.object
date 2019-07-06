@@ -1,0 +1,41 @@
+{
+  "objectName" : "vantacabinet",
+  "colonyTags" : ["vanta","storage"],
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 200,
+  "description" : "A sleek looking kvanta cabinet.",
+  "shortdescription" : "Vanta Cabinet",
+  "race" : "vanta",
+  "health" : 1.5,
+  
+  "apexDescription" : "It looks the same as any other cabinet.",
+  "avianDescription" : "These are nice for storing small groups of items and equipment.",
+  "floranDescription" : "Can Floran hide in cabinet?",
+  "glitchDescription" : "Observant. This cabinet is a Vanta-specific design.",
+  "humanDescription" : "Knock-knock, who's there?",
+  "hylotlDescription" : "This has more storage space compared to some cabinets.",
+  "novakidDescription" : "This looks like a great place to keep my guns!",
+
+  "inventoryIcon" : "icon.png",
+    "orientations" : [
+    {
+      "dualImage" : "vantacabinet.png:<color>.<key>",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "openFrameIndex" : 3,
+  "autoCloseCooldown" : 3600
+}

@@ -4,6 +4,6 @@
     { "item" : "cottonwool", "count" : 2 }
   ],
   "duration" : 5,
-  "output" : { "item" : "nightaremissarychest", "count" : 1 },
+  "output" : { "item" : "vantaemissarychest", "count" : 1 },
   "groups" : [ "craftingwheel", "clothes" ]
 }

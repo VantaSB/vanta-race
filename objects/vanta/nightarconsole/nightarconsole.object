@@ -1,0 +1,88 @@
+{
+  "objectName" : "vantaconsole",
+  "colonyTags" : ["wired","vanta"],
+  "rarity" : "Legendary",
+  "description" : "A small console made by the Vantas",
+  "shortdescription" : "Vanta Console",
+  "race" : "vanta",
+  "category" : "wire",
+  "price" : 200,
+  "lightColor" : [38, 122, 128],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.0,
+
+  "apexDescription" : "A small console.",
+  "avianDescription" : "I don't know what is this.",
+  "floranDescription" : "Floran likess shiny sstuff.",
+  "glitchDescription" : "Admiration. A really advanced console made using Vanta technologies.",
+  "humanDescription" : "Hmm, a console, but not like anything I've seen on Earth.",
+  "hylotlDescription" : "An advanced console.",
+  "novakidDescription" : "A neat lookin' shiny console!",
+
+  "inventoryIcon" : "vantaconsoleicon.png",
+  "orientations" : [
+    {
+      "image" : "vantaconsole.png:<color>.<frame>",
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [0, 0],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "vantaconsole.png:<color>.<frame>",
+      "direction" : "right",
+      "lightPosition" : [0, 0],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "vantaconsole.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "vantaconsole.png",
+    "fg" : "vantaconsolelit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy" : {
+    "ownerOnly" : true,
+    "influence" : [
+      "console"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

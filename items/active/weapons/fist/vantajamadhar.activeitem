@@ -15,7 +15,7 @@
   "animation" : "fistweapon.animation",
   "animationParts" : {
     "weapon" : "vantajamadhar.png",
-    "weaponfullbright" : "vantajamadharlit.png",
+    "weaponFullbright" : "vantajamadharlit.png",
     "swoosh" : "swoosh/slash.png"
   },
   "animationCustom" : {

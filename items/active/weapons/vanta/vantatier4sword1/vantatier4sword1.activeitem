@@ -1,6 +1,6 @@
 {
   "itemName" : "vantatier4sword1",
-  "price" : 480,
+  "price" : 960,
   "level" : 4,
   "maxStack" : 1,
   "rarity" : "Rare",
@@ -15,8 +15,9 @@
 
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
   "animationParts" : {
-    "handle": "",
-    "blade" : "vantatier4sword1.png"
+    "handle": "vantatier4sword1.png",
+    "handleFullbright" : "vantatier4sword1lit.png",
+    "blade" : ""
   },
   "animationCustom" : { },
 

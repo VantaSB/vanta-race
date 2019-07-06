@@ -4,7 +4,7 @@
     { "item" : "fabric", "count" : 20 }
   ],
   "output" : {
-    "item" : "flagnightar",
+    "item" : "flagvanta",
     "count" : 1
   },
   "groups" : [ "plain", "objects", "all", "tools" ]

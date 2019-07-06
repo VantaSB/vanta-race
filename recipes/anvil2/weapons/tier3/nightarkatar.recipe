@@ -3,6 +3,6 @@
     { "item" : "titaniumbar", "count" : 5 }
   ],
   "duration" : 5,
-  "output" : { "item" : "nightarkatar", "count" : 1 },
+  "output" : { "item" : "vantakatar", "count" : 1 },
   "groups" : [ "craftinganvil2", "weapons", "all" ]
 }

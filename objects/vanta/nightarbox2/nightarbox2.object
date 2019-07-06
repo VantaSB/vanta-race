@@ -1,0 +1,59 @@
+{
+  "objectName" : "vantabox2",
+  "colonyTags" : ["vanta","storage","commerce"],
+  "printable" : true,
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 175,
+  "description" : "A mysterious Vanta box.",
+  "shortdescription" : "Large Vanta Box",
+  "race" : "vanta",
+  "health" : 1.5,
+
+  "apexDescription" : "This large box is made of some of the strongest materials in the galaxy.",
+  "avianDescription" : "A storage box of Vanta design.",
+  "floranDescription" : "Big box made by sssstrange humansss.",
+  "glitchDescription" : "Curious. Is there anything inside?",
+  "humanDescription" : "A larger Vanta box. I wonder if cats like to sit in these, too?",
+  "hylotlDescription" : "This large box is highly durable.",
+  "novakidDescription" : "Another regular ol' box.",
+
+  "inventoryIcon" : "vantabox2icon.png",
+  "orientations" : [
+    {
+      "image" : "vantabox2.png:default",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "vantabox2.png:default",
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

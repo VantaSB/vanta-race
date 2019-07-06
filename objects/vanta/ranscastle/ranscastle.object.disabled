@@ -1,0 +1,100 @@
+{
+  "objectName" : "ranscastle",
+  "colonyTags" : ["vanta","commerce"],
+  "rarity" : "legendary",
+  "category" : "other",
+  "description" : "A storefront for the Vanta merchant, Ran, to sell his wares.",
+  "shortdescription" : "Ran's Castle",
+  "race" : "vanta",
+  "printable" : false,
+  "lightColor" : [130, 217, 232],
+  "lightPosition" : [0, 4],
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Ran's Castle",
+        "subtitle" : "^#b9b5b2;Selling the legendary Vanta goods"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "vantabookcase" },
+      { "item" : "vantacabinet" },
+      { "item" : "vantacomputer" },
+	    { "item" : "vantaconsole" },
+	    { "item" : "vantadresser" },
+	    { "item" : "vantapedestal" },
+	    { "item" : "vantapicture" },
+	    { "item" : "vantasbannersmall" },
+	    { "item" : "vantasbannertorn" },
+	    { "item" : "vantashiplight" },
+	    { "item" : "vantasink" },
+	    { "item" : "vantastove" },
+	    { "item" : "vantatoilet" },
+	    { "item" : "vantafridge"},
+	    { "item" : "vantathrone" },
+	    { "item" : "vantateleporter" },
+	    { "item" : "vantachest"},
+      { "item" : "vantachest2"},
+      { "item" : "vantavendingmachine"}
+    ]
+  },
+
+  "apexDescription" : "The self-proclaimed galactic Vanta merchant. Ran has some very exotic materials available for purchase.",
+  "avianDescription" : "Ran's business must be really lucrative if he's the only one selling Vanta merchandise.",
+  "floranDescription" : "Ran hasss sssome cool ssstuff!",
+  "glitchDescription" : "Informed. Ran has many storefronts throughout the known galaxy, selling Vanta materials and goods.",
+  "humanDescription" : "Ran's probably the only Vanta I know of that doesn't give you the cold shoulder when passing by.",
+  "hylotlDescription" : "Ran stays quite busy, I'm sure.",
+  "novakidDescription" : "That guy's got some pretty neat stuff for sale!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ranscastleleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "ranscastleleftlit.png:<color>.<frame>" } ],
+      "direction" : "left",
+
+      "lightPosition" : [-1, 2],
+
+      "imagePosition" : [-64, 0],
+      "frames" : 16,
+      "animationCycle" : 1.2,
+
+      "spaceScan" : 0.1,
+      "interactiveSpaces": [
+        [-5, 1], [-4, 1], [-3, 1], [-2, 1], [-1, 1], [0, 1],
+        [-5, 2], [-4, 2], [-3, 2], [-2, 2], [-1, 2],
+        [-4, 3], [-3, 3], [-2, 3],
+        [-4, 4], [-3, 4], [-2, 4],
+        [-6, 5], [-5, 5], [-4, 5], [-3, 5], [-2, 5], [-1, 5], [0, 5],
+        [-6, 6], [-5, 6], [-4, 6], [-3, 6], [-2, 6], [-1, 6], [0, 6]
+      ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "ranscastleright.png:<color>.<frame>", "fullbright" : true }, { "image" : "ranscastlerightlit.png:<color>.<frame>" } ],
+      "direction" : "right",
+
+      "lightPosition" : [0, 3],
+
+      "imagePosition" : [-64, 0],
+      "frames" : 16,
+      "animationCycle" : 1.2,
+
+      "spaceScan" : 0.1,
+      "interactiveSpaces": [
+        [6, 1], [5, 1], [4, 1], [3, 1], [2, 1], [1, 1], [0, 1], [-1, 1],
+        [4, 2], [3, 2], [2, 2], [1, 2], [0, 2],
+        [3, 3], [2, 3], [1, 3],
+        [3, 4], [2, 4], [1, 4],
+        [5, 5], [4, 5], [3, 5], [2, 5], [1, 5], [0, 5], [-1, 5],
+        [5, 6], [4, 6], [3, 6], [2, 6], [1, 6], [0, 6], [-1, 6]
+      ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "soundEffect" : "/sfx/objects/hubbub.ogg"
+}

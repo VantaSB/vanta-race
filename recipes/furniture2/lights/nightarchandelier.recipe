@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "nightarlight", "count" : 3 },
+    { "item" : "vantalight", "count" : 3 },
     { "item" : "titaniumbar", "count" : 2 }
 
   ],
-  "output" : { "item" : "nightarchandelier", "count" : 1 },
+  "output" : { "item" : "vantachandelier", "count" : 1 },
   "groups" : [ "craftingfurniture2", "lights", "all" ]
 }

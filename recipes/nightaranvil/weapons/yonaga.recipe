@@ -4,5 +4,5 @@
     { "item" : "solariumstar", "count" : 8 }
   ],
   "output" : { "item" : "yonaga", "count" : 1 },
-  "groups" : [ "nightaranvil", "weapons", "all" ]
+  "groups" : [ "vantaanvil", "weapons", "all" ]
 }

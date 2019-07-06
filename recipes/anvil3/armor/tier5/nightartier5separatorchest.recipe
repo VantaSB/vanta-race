@@ -5,6 +5,6 @@
     { "item" : "syntheticmaterial", "count" : 1 }
   ],
   "duration" : 5,
-  "output" : { "item" : "nightartier5separatorchest", "count" : 1 },
+  "output" : { "item" : "vantatier5separatorchest", "count" : 1 },
   "groups" : [ "craftingseparator", "armours", "all" ]
 }

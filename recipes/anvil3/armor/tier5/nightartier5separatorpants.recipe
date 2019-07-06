@@ -4,6 +4,6 @@
     { "item" : "canvas", "count" : 1 }
   ],
   "duration" : 5,
-  "output" : { "item" : "nightartier5separatorpants", "count" : 1 },
+  "output" : { "item" : "vantatier5separatorpants", "count" : 1 },
   "groups" : [ "craftingseparator", "armours", "all" ]
 }

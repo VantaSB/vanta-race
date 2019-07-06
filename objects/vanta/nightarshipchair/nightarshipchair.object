@@ -1,0 +1,49 @@
+{
+  "objectName" : "vantashipchair",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+  "price" : 300,
+  "description" : "A chair made specifically for Vanta crew members.",
+  "shortdescription" : "Vanta Ship Chair",
+  "race" : "vanta",
+  "category" : "furniture",
+
+  "apexDescription" : "While similar to the captain's chair, this chair lacks the interface needed to pilot the ship.",
+  "avianDescription" : "The Captain's chair... No wait, this is made to look like it.",
+  "floranDescription" : "Floran sstill comfortable sssitting in chair.",
+  "glitchDescription" : "Observant. This chair is made to look like the captain's chair.",
+  "humanDescription" : "Ordinarily, I'd be leary about sitting in someone else's pilot seat. Thankfully, this isn't the pilot seat!",
+  "hylotlDescription" : "This chair is just as comfortable as the pilot chair.",
+  "novakidDescription" : "Still a fancy chair, even without all the gizmos to fly the ship!",
+
+
+  "inventoryIcon" : "vantashipchairicon.png",
+  "orientations" : [
+    {
+      "image" : "vantashipchair.png:<color>",
+      "imagePosition" : [ -12, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [ 1.6, 22.5 ]
+	},
+	{
+      "image" : "vantashipchair.png:<color>",
+      "imagePosition" : [ -12, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [ 1.6, 22.5 ]
+	}
+  ],
+
+  "sitFlipDirection": false
+}

@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "tungstenbar", "count" : 1 }
   ],
-  "output" : { "item" : "nightarshelf", "count" : 1 },
+  "output" : { "item" : "vantashelf", "count" : 1 },
   "groups" : [ "craftingfurniture", "decorative", "all" ]
 }

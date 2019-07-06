@@ -5,5 +5,5 @@
     { "item" : "solariumstar", "count" : 5 }
   ],
   "output" : { "item" : "restorednoxcalibur", "count" : 1 },
-  "groups" : [ "nightaranvil", "weapons", "all" ]
+  "groups" : [ "vantaanvil", "weapons", "all" ]
 }

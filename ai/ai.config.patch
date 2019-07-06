@@ -1,11 +1,11 @@
 [
 	{ "op" : "add",
-		"path" : "/species/nightar",
-		"value" : {			
-			"aiFrames" : "nightarAi.png",
-			"portraitFrames" : "portraits/nightarportrait.png",
-			"staticFrames" : "staticNightar.png"
+		"path" : "/species/vanta",
+		"value" : {
+			"aiFrames" : "vantaAi.png",
+			"portraitFrames" : "portraits/vantaportrait.png",
+			"staticFrames" : "staticVanta.png"
 		}
-	}	
-] 
+	}
+]
    

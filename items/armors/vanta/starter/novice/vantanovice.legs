@@ -1,0 +1,14 @@
+{
+  "itemName" : "vantanovicepants",
+  "price" : 100,
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Novice's Boots.",
+  "shortdescription" : "Novice's Boots",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png"
+}

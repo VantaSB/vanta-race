@@ -4,6 +4,6 @@
 
   ],
   "duration" : 5,
-  "output" : { "item" : "nightar_tungstenbroadsword", "count" : 1 },
+  "output" : { "item" : "vantatungstenbroadsword", "count" : 1 },
   "groups" : [ "craftinganvil1", "weapons", "all" ]
 }

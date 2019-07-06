@@ -3,6 +3,6 @@
     { "item" : "ironbar", "count" : 5 }
   ],
   "duration" : 5,
-  "output" : { "item" : "nightar_ironbroadsword", "count" : 1 },
+  "output" : { "item" : "vantaironbroadsword", "count" : 1 },
   "groups" : [ "craftinganvil1", "weapons", "all" ]
 }

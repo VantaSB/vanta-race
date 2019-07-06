@@ -1,0 +1,46 @@
+{
+  "objectName" : "vantasbannersmall",
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 150,
+  "printable" : true,
+
+  "description" : "A small Vanta wall banner.",
+  "shortdescription" : "Vanta Wall Banner",
+  "race" : "vantas",
+
+  "apexDescription" : "Vantas banner.",
+  "avianDescription" : "Vantas banner.",
+  "floranDescription" : "Vantas banner.",
+  "glitchDescription" : "Vantas banner.",
+  "humanDescription" : "Vantas banner.",
+  "hylotlDescription" : "Vantas banner.",
+  "novakidDescription" : "Vantas banner.",
+
+
+  "inventoryIcon" : "vantasbannersmallicon.png",
+  "orientations" : [
+    {
+      "image" : "vantasbannersmall.png:<color>",
+	  "flipImages" : true,
+	  "direction" : "left",
+      "imagePosition" : [-5, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+    },
+	
+	{
+      "image" : "vantasbannersmall.png:<color>",
+	  "direction" : "right",
+      "imagePosition" : [5, -2],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+    }
+  ]
+}

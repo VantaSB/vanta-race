@@ -1,0 +1,46 @@
+{
+  "objectName" : "vantabed",
+  "colonyTags" : ["misc","vanta"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "Vanta sleeping bed, something feels wrong..",
+  "shortdescription" : "Vanta Bed",
+  "race" : "vanta",
+  "category" : "furniture",
+  "price" : 150,
+
+  "apexDescription" : "This bed is remarkably comfortable.",
+  "avianDescription" : "The Vanta bed has a certain elegance to its design.",
+  "floranDescription" : "Floran doesn't care for fancy bed.",
+  "glitchDescription" : "Curious. The blanket on this bed is translucent.",
+  "humanDescription" : "A Vanta sleeping bed, something feels wrong...",
+  "hylotlDescription" : "The dark frame matches the rest of the Vantas' intrinsic design.",
+  "novakidDescription" : "I ain't sure about the blanket on this thing...",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/vanta/vantabed/vantabedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed4"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "vantabedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vantabed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

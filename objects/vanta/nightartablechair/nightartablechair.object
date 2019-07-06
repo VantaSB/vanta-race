@@ -1,0 +1,52 @@
+{
+  "objectName" : "vantatablechair",
+  "colonyTags" : ["vanta","valuable"],
+  "rarity" : "Legendary",
+  "description" : "A simple vanta chair used for tables.",
+  "shortdescription" : "Vanta table chair",
+  "race" : "vanta",
+  "category" : "furniture",
+  "price" : 100,
+
+  "apexDescription" : "A simple chair of Vanta design.",
+  "avianDescription" : "The grounded do not have anything this elegant.",
+  "floranDescription" : "Shiny chair makesss Floran happy to ssssit!",
+  "glitchDescription" : "Observant. This is a simple dining chair crafted by the Vantas.",
+  "humanDescription" : "A simple Vanta chair used for tables.",
+  "hylotlDescription" : "It's smooth finish could almost make you fall asleep.",
+  "novakidDescription" : "Fancy dinner chair.",
+
+  "inventoryIcon" : "vantatablechairicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vantatablechair.png:<color>", "fullbright" : true }, { "image" : "vantatablechairlit.png:<color>" } ],
+	  "direction" : "left",
+	  "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "imageLayers" : [ { "image" : "vantatablechair.png:<color>", "fullbright" : true }, { "image" : "vantatablechairlit.png:<color>" } ],
+	  "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

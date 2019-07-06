@@ -3,6 +3,6 @@
     { "item" : "durasteelbar", "count" : 1 },
     { "item" : "silverbar", "count" : 1 }
   ],
-  "output" : { "item" : "nightarstoragelocker", "count" : 1 },
+  "output" : { "item" : "vantastoragelocker", "count" : 1 },
   "groups" : [ "craftingfurniture2", "storage", "all" ]
 }

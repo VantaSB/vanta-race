@@ -11,12 +11,12 @@
   "dropPools" : [ "nightarkingtreasure" ],
 
   "scriptConfig" : {
-    "dialog" : {  
+    "dialog" : {
 
       "attack" : {
         "default" : {
           "default" : [
-	    "Your head will make for an excellent trophy!",
+	          "Your head will make for an excellent trophy!",
             "I am the king of the Nightars, none can fell me!"
           ]
         }
@@ -25,7 +25,7 @@
         "default" : {
           "default" : [
             "You'll not evade me this time!",
-	    "Feel the might of the Night King!"
+	          "Feel the might of the Night King!"
           ]
         }
       },

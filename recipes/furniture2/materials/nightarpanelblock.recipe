@@ -3,7 +3,7 @@
     { "item" : "smoothmetal", "count" : 1 },
     { "item" : "durasteelbar", "count" : 1 }
   ],
-  "output" : { "item" : "nightarpanelblock", "count" : 25 },
+  "output" : { "item" : "vantapanelblock", "count" : 25 },
   "duration" : 0.5,
   "groups"  : [ "craftingfurniture2", "materials", "all" ]
 }
