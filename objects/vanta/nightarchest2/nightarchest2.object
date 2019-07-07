@@ -1,6 +1,6 @@
 {
-  "objectName" : "vantachest2",
-  "colonyTags" : ["vanta","storage"],
+  "objectName" : "nightarchest2",
+  "colonyTags" : ["nightar","storage"],
   "rarity" : "Legendary",
   "objectType" : "container",
   "tooltipKind" : "container",
@@ -10,7 +10,7 @@
   "printable" : false,
   "description" : "A Nigtar storage trunk.",
   "shortdescription" : "Vanta Trunk",
-  "race" : "vanta",
+  "race" : "nightar",
   "health" : 1.5,
 
   "apexDescription" : "An extremely old chest. It could contain anything.",
@@ -21,10 +21,10 @@
   "hylotlDescription" : "This chest has an unfamiliar design, I am unable to determine it's maker.",
   "novakidDescription" : "It's a wonder this chest is still standin' after all this time.",
 
-  "inventoryIcon" : "vantachest2icon.png",
+  "inventoryIcon" : "nightarchest2icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantachest2.png:<color>.<key>", "fullbright" : true }, { "image" : "vantachest2lit.png:<color>.<key>" } ],
+      "imageLayers" : [ { "image" : "nightarchest2.png:<color>.<key>", "fullbright" : true }, { "image" : "nightarchest2lit.png:<color>.<key>" } ],
       "imagePosition" : [-16, 0],
 
       "direction" : "left",
@@ -34,7 +34,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "vantachest2.png:<color>.<key>", "fullbright" : true }, { "image" : "vantachest2lit.png:<color>.<key>" } ],
+      "imageLayers" : [ { "image" : "nightarchest2.png:<color>.<key>", "fullbright" : true }, { "image" : "nightarchest2lit.png:<color>.<key>" } ],
       "imagePosition" : [-16, 0],
 
       "direction" : "right",

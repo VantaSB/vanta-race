@@ -1,6 +1,6 @@
 {
-  "objectName" : "vantastoragelocker",
-  "colonyTags" : ["vanta","storage"],
+  "objectName" : "nightarstoragelocker",
+  "colonyTags" : ["nightar","storage"],
   "rarity" : "Rare",
   "category" : "storage",
   "price" : 300,
@@ -9,7 +9,7 @@
   "tooltipKind" : "container",
   "description" : "A nice, spacious, wall-mounted storage solution.",
   "shortdescription" : "Vanta Storage Locker",
-  "race" : "vanta",
+  "race" : "nightar",
   "health" : 1.5,
 
   "apexDescription" : "A locker made from metal.",
@@ -23,7 +23,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "vantastoragelocker.png:<color>.<key>",
+      "image" : "nightarstoragelocker.png:<color>.<key>",
       "imagePosition" : [-16, -8],
 
       "spaceScan" : 0.1,

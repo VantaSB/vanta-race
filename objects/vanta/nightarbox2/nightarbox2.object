@@ -1,6 +1,6 @@
 {
-  "objectName" : "vantabox2",
-  "colonyTags" : ["vanta","storage","commerce"],
+  "objectName" : "nightarbox2",
+  "colonyTags" : ["nightar","storage","commerce"],
   "printable" : true,
   "rarity" : "Legendary",
   "objectType" : "container",
@@ -10,7 +10,7 @@
   "price" : 175,
   "description" : "A mysterious Vanta box.",
   "shortdescription" : "Large Vanta Box",
-  "race" : "vanta",
+  "race" : "nightar",
   "health" : 1.5,
 
   "apexDescription" : "This large box is made of some of the strongest materials in the galaxy.",
@@ -21,10 +21,10 @@
   "hylotlDescription" : "This large box is highly durable.",
   "novakidDescription" : "Another regular ol' box.",
 
-  "inventoryIcon" : "vantabox2icon.png",
+  "inventoryIcon" : "nightarbox2icon.png",
   "orientations" : [
     {
-      "image" : "vantabox2.png:default",
+      "image" : "nightarbox2.png:default",
       "direction" : "left",
       "flipImages" : true,
 
@@ -37,7 +37,7 @@
       "collision" : "platform"
     },
     {
-      "image" : "vantabox2.png:default",
+      "image" : "nightarbox2.png:default",
       "direction" : "right",
 
       "imagePosition" : [-16, 0],

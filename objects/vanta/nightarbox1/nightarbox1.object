@@ -1,6 +1,6 @@
 {
-  "objectName" : "vantabox1",
-  "colonyTags" : ["vanta","storage","commerce"],
+  "objectName" : "nightarbox1",
+  "colonyTags" : ["nightar","storage","commerce"],
   "printable" : true,
   "rarity" : "Legendary",
   "objectType" : "container",
@@ -10,7 +10,7 @@
   "price" : 150,
   "description" : "A mysterious Vanta box.",
   "shortdescription" : "Small Vanta Box",
-  "race" : "vanta",
+  "race" : "nightar",
   "health" : 1.5,
 
   "apexDescription" : "It's small, but it's also very durable.",
@@ -21,10 +21,10 @@
   "hylotlDescription" : "This small box is highly secure.",
   "novakidDescription" : "It's a regular ol' box.",
 
-  "inventoryIcon" : "vantabox1icon.png",
+  "inventoryIcon" : "nightarbox1icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantabox1.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantabox1lit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "nightarbox1.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarbox1lit.png:<color>.<frame>" } ],
       "direction" : "left",
       "flipImages" : true,
 
@@ -37,7 +37,7 @@
       "collision" : "platform"
     },
     {
-      "imageLayers" : [ { "image" : "vantabox1.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantabox1lit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "nightarbox1.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarbox1lit.png:<color>.<frame>" } ],
       "direction" : "right",
 
       "imagePosition" : [-16, 0],

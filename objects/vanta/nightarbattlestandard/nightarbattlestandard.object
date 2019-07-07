@@ -1,10 +1,10 @@
 {
-  "objectName" : "vantabattlestandard",
-  "colonyTags" : ["vanta","pretty"],
+  "objectName" : "nightarbattlestandard",
+  "colonyTags" : ["nightar","pretty"],
   "rarity" : "legendary",
   "description" : "A chequered flag bearing an emblem.",
   "shortdescription" : "Vanta Battle Standard",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "decorative",
   "price" : 150,
 
@@ -16,10 +16,10 @@
   "hylotlDescription" : "A flag that looks like it can be carried and planted as a marker.",
   "novakidDescription" : "This flag probably means somethin' to someone.",
 
-  "inventoryIcon" : "vantabattlestandardicon.png",
+  "inventoryIcon" : "nightarbattlestandardicon.png",
   "orientations" : [
     {
-      "dualImage" : "vantabattlestandard.png:<color>",
+      "dualImage" : "nightarbattlestandard.png:<color>",
 
       "imagePosition" : [-8, 0],
       "frames" : 1,

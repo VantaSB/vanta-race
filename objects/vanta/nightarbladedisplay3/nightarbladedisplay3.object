@@ -1,10 +1,10 @@
 {
-  "objectName" : "vantabladedisplay3",
-  "colonyTags" : ["vanta","combat","pretty"],
+  "objectName" : "nightarbladedisplay3",
+  "colonyTags" : ["nightar","combat","pretty"],
   "rarity" : "legendary",
   "description" : "Display of one of the Vanta blades",
   "shortdescription" : "Vanta blade Display",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "decorative",
   "price" : 300,
 
@@ -19,7 +19,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "vantabladedisplay3.png:<color>",
+      "dualImage" : "nightarbladedisplay3.png:<color>",
 
       "imagePosition" : [-8, -8],
       "frames" : 1,

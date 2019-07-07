@@ -1,13 +1,13 @@
 {
-  "objectName" : "vantashiplight",
-  "colonyTags" : ["light","vanta"],
+  "objectName" : "nightarshiplight",
+  "colonyTags" : ["light","nightar"],
   "rarity" : "legendary",
   "category" : "light",
   "lightColor" : [60, 197, 220],
   "price" : 60,
   "description" : "A small green light",
   "shortdescription" : "Green Ship Light",
-  "race" : "vanta",
+  "race" : "nightar",
 
   "apexDescription" : "These lights are commonly used on ships.",
   "avianDescription" : "A vibrant light.",
@@ -17,10 +17,10 @@
   "hylotlDescription" : "A cool, green light. It creates a serene atmosphere.",
   "novakidDescription" : "That's one bright lightbulb.",
 
-  "inventoryIcon" : "vantashiplighticon.png",
+  "inventoryIcon" : "nightarshiplighticon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantashiplight.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantashiplightlit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "nightarshiplight.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarshiplightlit.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       
       "direction" : "right",
@@ -35,7 +35,7 @@
   
   "animation" : "/objects/wired/light/lighttoggle.animation",
   "animationParts" : {
-    "light" : "vantashiplight.png"
+    "light" : "nightarshiplight.png"
   },
   "animationPosition" : [-8, 0],
 

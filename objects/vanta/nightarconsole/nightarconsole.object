@@ -1,10 +1,10 @@
 {
-  "objectName" : "vantaconsole",
-  "colonyTags" : ["wired","vanta"],
+  "objectName" : "nightarconsole",
+  "colonyTags" : ["wired","nightar"],
   "rarity" : "Legendary",
   "description" : "A small console made by the Vantas",
   "shortdescription" : "Vanta Console",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "wire",
   "price" : 200,
   "lightColor" : [38, 122, 128],
@@ -23,10 +23,10 @@
   "hylotlDescription" : "An advanced console.",
   "novakidDescription" : "A neat lookin' shiny console!",
 
-  "inventoryIcon" : "vantaconsoleicon.png",
+  "inventoryIcon" : "nightarconsoleicon.png",
   "orientations" : [
     {
-      "image" : "vantaconsole.png:<color>.<frame>",
+      "image" : "nightarconsole.png:<color>.<frame>",
       "direction" : "left",
       "flipImages" : true,
       "lightPosition" : [0, 0],
@@ -40,7 +40,7 @@
 
     },
     {
-      "image" : "vantaconsole.png:<color>.<frame>",
+      "image" : "nightarconsole.png:<color>.<frame>",
       "direction" : "right",
       "lightPosition" : [0, 0],
 
@@ -60,7 +60,7 @@
   ],
   "scriptDelta" : 5,
 
-  "animation" : "vantaconsole.animation",
+  "animation" : "nightarconsole.animation",
   "animationCustom" : {
     "sounds" : {
       "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
@@ -68,8 +68,8 @@
     }
   },
   "animationParts" : {
-    "bg" : "vantaconsole.png",
-    "fg" : "vantaconsolelit.png"
+    "bg" : "nightarconsole.png",
+    "fg" : "nightarconsolelit.png"
   },
   "animationPosition" : [-8, 0],
 

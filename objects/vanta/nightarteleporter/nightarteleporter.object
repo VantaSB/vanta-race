@@ -1,6 +1,6 @@
 {
-  "objectName" : "vantateleporter",
-  "colonyTags" : ["misc","vanta"],
+  "objectName" : "nightarteleporter",
+  "colonyTags" : ["misc","nightar"],
   "objectType" : "teleporter",
   "rarity" : "Legendary",
   "description" : "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.",
@@ -23,10 +23,10 @@
   "interactAction" : "OpenTeleportDialog",
   "interactData" : "/interface/warping/remoteteleporter.config",
 
-  "inventoryIcon" : "vantateleportericon.png",
+  "inventoryIcon" : "nightarteleportericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantateleporter.png:<color>", "fullbright" : true }, { "image" : "vantateleporterlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "nightarteleporter.png:<color>", "fullbright" : true }, { "image" : "nightarteleporterlit.png:<color>" } ],
 
       "imagePosition" : [-16, 0],
       "frames" : 1,

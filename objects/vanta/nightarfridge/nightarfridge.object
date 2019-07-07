@@ -1,12 +1,12 @@
 {
-  "objectName" : "vantafridge",
-  "colonyTags" : ["vanta","cooking","storage"],
+  "objectName" : "nightarfridge",
+  "colonyTags" : ["nightar","cooking","storage"],
   "rarity" : "legendary",
   "category" : "fridgeStorage",
   "printable" : false,
   "description" : "Perfect for storing a lot of food and keeping it fresh.",
   "shortdescription" : "Vanta Fridge",
-  "race" : "vanta",
+  "race" : "nightar",
   "price" : 200,
   "health" : 1.5,
 
@@ -18,10 +18,10 @@
   "hylotlDescription" : "Underwater, refrigeration is easier. These devices are a clever substitute.",
   "novakidDescription" : "A plain ol' fridge.",
 
-  "inventoryIcon" : "vantafridgeicon.png",
+  "inventoryIcon" : "nightarfridgeicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantafridge.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantafridgelit.png:<color>.<frame>"} ],
+      "imageLayers" : [ { "image" : "nightarfridge.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarfridgelit.png:<color>.<frame>"} ],
 	    "direction" : "left",
       "flipImages" : true,
 
@@ -34,7 +34,7 @@
       "collision" : "platform"
     },
 	{
-      "imageLayers" : [ { "image" : "vantafridge.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantafridgelit.png:<color>.<frame>"} ],
+      "imageLayers" : [ { "image" : "nightarfridge.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarfridgelit.png:<color>.<frame>"} ],
       "direction" : "right",
 
       "imagePosition" : [-8, 0],

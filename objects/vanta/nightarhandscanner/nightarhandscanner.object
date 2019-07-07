@@ -1,10 +1,10 @@
 {
-  "objectName" : "vantahandscanner",
-  "colonyTags" : ["vanta","electronic","wired"],
+  "objectName" : "nightarhandscanner",
+  "colonyTags" : ["nightar","electronic","wired"],
   "rarity" : "Rare",
   "description" : "An advanced handprint scanner that provides complete biometric data to a server.",
   "shortdescription" : "Vanta Hand Scanner",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "wire",
   "price" : 500,
 
@@ -18,10 +18,10 @@
   "hylotlDescription" : "Hylotl hands can cause these things to go haywire.",
   "novakidDescription" : "A type of scannin' device for hands. Doubt it'll pick up mine.",
 
-  "inventoryIcon" : "vantahandscannericon.png",
+  "inventoryIcon" : "nightarhandscannericon.png",
   "orientations" : [
     {
-      "image" : "vantahandscanner.png:<color>.off",
+      "image" : "nightarhandscanner.png:<color>.off",
       "imagePosition" : [-8, -8],
       
       "direction" : "right",
@@ -36,8 +36,8 @@
 
   "animation" : "/objects/wired/switch/switch4bgfullbright.animation",
   "animationParts" : {
-    "bg" : "vantahandscanner.png",
-    "fg" : "vantahandscannerlit.png"
+    "bg" : "nightarhandscanner.png",
+    "fg" : "nightarhandscannerlit.png"
   },
   "animationPosition" : [-8, -8],
 

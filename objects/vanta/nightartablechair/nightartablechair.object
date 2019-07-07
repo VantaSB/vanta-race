@@ -1,10 +1,10 @@
 {
-  "objectName" : "vantatablechair",
-  "colonyTags" : ["vanta","valuable"],
+  "objectName" : "nightartablechair",
+  "colonyTags" : ["nightar","valuable"],
   "rarity" : "Legendary",
-  "description" : "A simple vanta chair used for tables.",
+  "description" : "A simple nightar chair used for tables.",
   "shortdescription" : "Vanta table chair",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "furniture",
   "price" : 100,
 
@@ -16,10 +16,10 @@
   "hylotlDescription" : "It's smooth finish could almost make you fall asleep.",
   "novakidDescription" : "Fancy dinner chair.",
 
-  "inventoryIcon" : "vantatablechairicon.png",
+  "inventoryIcon" : "nightartablechairicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantatablechair.png:<color>", "fullbright" : true }, { "image" : "vantatablechairlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "nightartablechair.png:<color>", "fullbright" : true }, { "image" : "nightartablechairlit.png:<color>" } ],
 	  "direction" : "left",
 	  "flipImages" : true,
 
@@ -32,7 +32,7 @@
 
     },
 	{
-      "imageLayers" : [ { "image" : "vantatablechair.png:<color>", "fullbright" : true }, { "image" : "vantatablechairlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "nightartablechair.png:<color>", "fullbright" : true }, { "image" : "nightartablechairlit.png:<color>" } ],
 	  "direction" : "right",
 
       "imagePosition" : [-8, 0],

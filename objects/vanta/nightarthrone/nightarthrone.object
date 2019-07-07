@@ -1,11 +1,11 @@
 {
-  "objectName" : "vantathrone",
-  "tags" : ["misc","vanta","king"],
+  "objectName" : "nightarthrone",
+  "tags" : ["misc","nightar","king"],
   "printable" : false,
   "rarity" : "Legendary",
   "description" : "A Vanta throne, only for the night's king!",
   "shortdescription" : "Vanta's Throne",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "furniture",
   "price" : 10000,
 
@@ -17,10 +17,10 @@
   "hylotlDescription" : "This throne is much too fancy for a hylotl.",
   "novakidDescription" : "Now THAT is a throne fit for a king!",
 
-  "inventoryIcon" : "vantathroneicon.png",
+  "inventoryIcon" : "nightarthroneicon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "vantathrone.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantathronelit.png:<color>.<frame>"} ],
+	  "imageLayers" : [ { "image" : "nightarthrone.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarthronelit.png:<color>.<frame>"} ],
 	  "frames" : 10,
       "animationCycle" : 1.0,
       "direction" : "left",
@@ -34,7 +34,7 @@
 
     },
     {
-      "imageLayers" : [ { "image" : "vantathrone.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantathronelit.png:<color>.<frame>"} ],
+      "imageLayers" : [ { "image" : "nightarthrone.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarthronelit.png:<color>.<frame>"} ],
 	  "frames" : 10,
       "animationCycle" : 1.0,
       "direction" : "right",

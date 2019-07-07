@@ -1,12 +1,12 @@
 {
-  "objectName" : "vantadresser",
-  "colonyTags" : ["vanta","storage"],
+  "objectName" : "nightardresser",
+  "colonyTags" : ["nightar","storage"],
   "rarity" : "legendary",
   "objectType" : "container",
   "tooltipKind" : "container",
-  "description" : "This looks like an advanced vanta dresser.",
+  "description" : "This looks like an advanced nightar dresser.",
   "shortdescription" : "Vanta Dresser",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "storage",
   "price" : 150,
   "health" : 1.5,
@@ -19,10 +19,10 @@
   "hylotlDescription" : "A storage unit, possibly for clothes.",
   "novakidDescription" : "A chest of drawers, probably for clothes.",
 
-  "inventoryIcon" : "vantadressericon.png",
+  "inventoryIcon" : "nightardressericon.png",
   "orientations" : [
     {
-      "dualImage" : "vantadresser.png:<color>",
+      "dualImage" : "nightardresser.png:<color>",
 
       "imagePosition" : [-16, 0],
       "frames" : 1,

@@ -1,6 +1,6 @@
 {
-  "objectName" : "vantastove",
-  "colonyTags" : ["cooking","light","vanta"],
+  "objectName" : "nightarstove",
+  "colonyTags" : ["cooking","light","nightar"],
   "printable" : true,
   "price" : 300,
   "rarity" : "legendary",
@@ -11,7 +11,7 @@
   },
   "description" : "An advanced cooking device, with controlable heat for perfect cooking.",
   "shortdescription" : "Vanta Cooker",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "crafting",
 
 
@@ -57,10 +57,10 @@
     }
   },
 
-  "inventoryIcon" : "vantastoveicon.png",
+  "inventoryIcon" : "nightarstoveicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantastove.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantastovelit.png:<color>.<frame>"} ],
+      "imageLayers" : [ { "image" : "nightarstove.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarstovelit.png:<color>.<frame>"} ],
       "direction" : "left",
       "flipImages" : true,
 
@@ -72,7 +72,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "vantastove.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantastovelit.png:<color>.<frame>"} ],
+      "imageLayers" : [ { "image" : "nightarstove.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarstovelit.png:<color>.<frame>"} ],
       "direction" : "right",
 
       "imagePosition" : [0, 0],

@@ -1,11 +1,11 @@
 {
-  "objectName" : "vantaprototypegateway",
+  "objectName" : "nightarprototypegateway",
   "objectType" : "teleporter",
   "rarity" : "Legendary",
   "category" : "decorative",
   "description" : "A protytpe teleportation device leading to who knows where.",
   "shortdescription" : "Prototype Vanta Gateway",
-  "race" : "vanta",
+  "race" : "nightar",
 
   "apexDescription" : "This technology is quite impressive.",
   "avianDescription" : "This looks oddly similar to the tech station at the Outpost...",
@@ -32,7 +32,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantagateway.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantagatewaylit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "nightargateway.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightargatewaylit.png:<color>.<frame>" } ],
       "imagePosition" : [-104, 0],
 
       "direction" : "right",

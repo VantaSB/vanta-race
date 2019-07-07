@@ -1,10 +1,10 @@
 {
-  "objectName" : "vantasink",
-  "tags" : ["vanta"],
+  "objectName" : "nightarsink",
+  "tags" : ["nightar"],
   "rarity" : "legendary",
   "description" : "Where does the water come from or go to? I will never know..",
   "shortdescription" : "Vanta Sink",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "decorative",
   "price" : 150,
 
@@ -18,7 +18,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantasink.png:<color>", "fullbright" : true }, { "image" : "vantasinklit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "nightarsink.png:<color>", "fullbright" : true }, { "image" : "nightarsinklit.png:<color>" } ],
 	  "direction" : "left",
 	  "flipImages" : true,
 
@@ -31,7 +31,7 @@
 
     },
 	{
-      "imageLayers" : [ { "image" : "vantasink.png:<color>", "fullbright" : true }, { "image" : "vantasinklit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "nightarsink.png:<color>", "fullbright" : true }, { "image" : "nightarsinklit.png:<color>" } ],
 	  "direction" : "right",
 
       "imagePosition" : [-8, -8],

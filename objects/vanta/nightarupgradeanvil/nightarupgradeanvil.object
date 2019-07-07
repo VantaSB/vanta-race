@@ -1,11 +1,11 @@
 {
-  "objectName" : "vantaupgradeanvil",
-  "colonyTags" : ["vanta"],
+  "objectName" : "nightarupgradeanvil",
+  "colonyTags" : ["nightar"],
   "printable" : false,
   "rarity" : "Legendary",
   "description" : "The Vantas have adapted ancient technology for enhancing their weapons.",
   "shortdescription" : "Vanta Upgrade Anvil",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "other",
   "price" : 5000,
   "lightColor" : [109, 77, 128],
@@ -27,7 +27,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantaupgradeanvil.png:<frame>", "fullbright" : true }, { "image" : "vantaupgradeanvillit.png:<frame>" } ],
+      "imageLayers" : [ { "image" : "nightarupgradeanvil.png:<frame>", "fullbright" : true }, { "image" : "nightarupgradeanvillit.png:<frame>" } ],
       "flipImages" : true,
       "direction" : "left",
       "lightPosition" : [0, 1],
@@ -40,7 +40,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "vantaupgradeanvil.png:<frame>", "fullbright" : true }, { "image" : "vantaupgradeanvillit.png:<frame>" } ],
+      "imageLayers" : [ { "image" : "nightarupgradeanvil.png:<frame>", "fullbright" : true }, { "image" : "nightarupgradeanvillit.png:<frame>" } ],
       "direction" : "right",
       "lightPosition" : [0, 1],
 

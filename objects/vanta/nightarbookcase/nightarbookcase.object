@@ -1,13 +1,13 @@
 {
-  "objectName" : "vantabookcase",
-  "colonyTags" : ["vanta","valuable","storage","knowledge"],
+  "objectName" : "nightarbookcase",
+  "colonyTags" : ["nightar","valuable","storage","knowledge"],
   "rarity" : "legendary",
   "objectType" : "container",
   "tooltipKind" : "container",
   
-  "description" : "A bookcase... let's find out what vantas read.",
+  "description" : "A bookcase... let's find out what nightars read.",
   "shortdescription" : "Vanta Bookcase",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "decorative",
   "price" : 200,
   "health" : 1.5,
@@ -20,10 +20,10 @@
   "hylotlDescription" : "This bookcase is expertly crafted.",
   "novakidDescription" : "Surely knights ain't got much time for readin'?",
 
-    "inventoryIcon" : "vantabookcaseicon.png",
+    "inventoryIcon" : "nightarbookcaseicon.png",
   "orientations" : [
     {
-      "dualImage" : "vantabookcase.png:<color>",
+      "dualImage" : "nightarbookcase.png:<color>",
       "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

@@ -1,6 +1,6 @@
 {
-  "objectName" : "vantacomputer",
-  "colonyTags" : ["wired","vanta"],
+  "objectName" : "nightarcomputer",
+  "colonyTags" : ["wired","nightar"],
   "printable" : false,
   "rarity" : "Legendary",
   "category" : "wire",
@@ -13,7 +13,7 @@
 
   "description" : "A complex computer made by Vantas",
   "shortdescription" : "Vanta Data Server",
-  "race" : "vanta",
+  "race" : "nightar",
 
   "apexDescription" : "This data server's encryption puts Apex security standards to shame.",
   "avianDescription" : "This is an elaborate server made by the Vantas.",
@@ -23,12 +23,12 @@
   "hylotlDescription" : "A highly advanced computer that can store countless loads of data.",
   "novakidDescription" : "A neat lookin' shiny computer!",
 
-  "inventoryIcon" : "vantacomputericon.png",
+  "inventoryIcon" : "nightarcomputericon.png",
   "orientations" : [
     {
       "imageLayers" : [
-        { "image" : "vantacomputer.png:<color>.<frame>", "fullbright" : true },
-        { "image" : "vantacomputerlit.png:<color>.<frame>" }
+        { "image" : "nightarcomputer.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "nightarcomputerlit.png:<color>.<frame>" }
       ],
 
       "direction" : "left",
@@ -42,8 +42,8 @@
 
     {
       "imageLayers" : [
-        { "image" : "vantacomputer.png:<color>.<frame>", "fullbright" : true },
-        { "image" : "vantacomputerlit.png:<color>.<frame>" }
+        { "image" : "nightarcomputer.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "nightarcomputerlit.png:<color>.<frame>" }
       ],
 
       "direction" : "right",
@@ -55,10 +55,10 @@
     }
   ],
 
-  "animation" : "vantacomputer.animation",
+  "animation" : "nightarcomputer.animation",
   "animationParts" : {
-    "bg" : "vantacomputer.png",
-    "fg" : "vantacomputerlit.png"
+    "bg" : "nightarcomputer.png",
+    "fg" : "nightarcomputerlit.png"
   },
 
   "scripts" : [ "/objects/wired/light/light.lua" ],

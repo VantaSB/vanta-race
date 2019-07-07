@@ -1,6 +1,6 @@
 {
-  "objectName" : "vantachandelier",
-  "colonyTags" : ["vanta","light"],
+  "objectName" : "nightarchandelier",
+  "colonyTags" : ["nightar","light"],
   "rarity" : "legendary",
   "category" : "light",
   "price" : 200,
@@ -30,11 +30,11 @@
   "flickerPeriodVariance" : 0.075,
   "flickerIntensityVariance" : 0.025,
 
-  "inventoryIcon" : "vantachandeliericon.png",
+  "inventoryIcon" : "nightarchandeliericon.png",
   "orientations" : [
 
     {
-      "image" : "vantachandelier.png:<color>.<frame>",
+      "image" : "nightarchandelier.png:<color>.<frame>",
       "imagePosition" : [-16, -16],
       "animationPosition" : [-16, -16],
       "direction" : "left",
@@ -44,7 +44,7 @@
       "anchors" : [ "top" ]
     },
     {
-      "image" : "vantachandelier.png:<color>.<frame>",
+      "image" : "nightarchandelier.png:<color>.<frame>",
       "imagePosition" : [-16, -16],
       "animationPosition" : [-16, -16],
       "direction" : "right",
@@ -57,7 +57,7 @@
   "soundEffect" : "/sfx/objects/torch.ogg",
   "soundEffectRangeMultiplier" : 0.5,
 
-  "animation" : "vantachandelier.animation",
+  "animation" : "nightarchandelier.animation",
   "animationCustom" : {
     "sounds" : {
       "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
@@ -65,8 +65,8 @@
     }
   },
   "animationParts" : {
-    "bg" : "vantachandelier.png",
-    "fg" : "vantachandelierlit.png"
+    "bg" : "nightarchandelier.png",
+    "fg" : "nightarchandelierlit.png"
   },
 
   "scripts" : [ "/objects/wired/light/light.lua" ],

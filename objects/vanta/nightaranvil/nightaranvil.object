@@ -1,17 +1,17 @@
 {
-  "objectName" : "vantaanvil",
-  "colonyTags" : ["crafting","vanta"],
+  "objectName" : "nightaranvil",
+  "colonyTags" : ["crafting","nightar"],
   "rarity" : "uncommon",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "crafting",
   "price" : 500,
   "printable" : false,
   "scripts" : [ "/scripts/npcToyObject.lua" ],
-  "animation" : "vantaanvil.animation",
+  "animation" : "nightaranvil.animation",
   "animationPosition" : [8, 20],
 
-  "inventoryIcon" : "vantaanvilicon.png",
-  "placementImage" : "vantaanvil.png:default.default",
+  "inventoryIcon" : "nightaranvilicon.png",
+  "placementImage" : "nightaranvil.png:default.default",
   "placementImagePosition" : [-8, 0],
   "description" : "A Vanta Replicator.",
   "shortdescription" : "^orange;Vanta Replicator^reset;",
@@ -23,7 +23,7 @@
 	"hylotlDescription" : "Dark as they are, the Vantas' equipment is surely a sight to behold.",
 	"novakidDescription" : "These folks come up with the craziest designs.",
 
-  "learnBlueprintsOnPickup" : [ "bunshoki", "vantahandgun", "replicavantasword", "stealthdagger", "yonaga", "yorunoha", "yorunokama", "yorunoyumi", "yosamu" ],
+  "learnBlueprintsOnPickup" : [ "bunshoki", "nightarhandgun", "replicanightarsword", "stealthdagger", "yonaga", "yorunoha", "yorunokama", "yorunoyumi", "yosamu" ],
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
@@ -37,12 +37,12 @@
         }
       }
     },
-    "filter" : [ "vantaanvil" ]
+    "filter" : [ "nightaranvil" ]
   },
 
   "orientations" : [
     {
-      "image" : "vantaanvil.png:<color>.<frame>",
+      "image" : "nightaranvil.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
       "direction" : "left",
       "flipImages" : true,
@@ -50,7 +50,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "vantaanvil.png:<color>.<frame>",
+      "image" : "nightaranvil.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
       "direction" : "right",
       "spaceScan" : 0.1,

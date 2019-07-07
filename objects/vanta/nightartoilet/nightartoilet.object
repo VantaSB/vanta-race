@@ -1,10 +1,10 @@
 {
-  "objectName" : "vantatoilet",
-  "tags" : ["vanta","valuable"],
+  "objectName" : "nightartoilet",
+  "tags" : ["nightar","valuable"],
   "rarity" : "legendary",
   "description" : "A Vanta toliet, gets rid of waste in matter of seconds!",
   "shortdescription" : "Vanta Toilet",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "furniture",
   "price" : 200,
 
@@ -20,10 +20,10 @@
     "nude"
   ],
   
-  "inventoryIcon" : "vantatoileticon.png",
+  "inventoryIcon" : "nightartoileticon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "vantatoilet.png:<color>", "fullbright" : true }, { "image" : "vantatoiletlit.png:<color>" } ],
+	  "imageLayers" : [ { "image" : "nightartoilet.png:<color>", "fullbright" : true }, { "image" : "nightartoiletlit.png:<color>" } ],
       "direction" : "left",
 	  "flipImages" : true,
 	  
@@ -36,7 +36,7 @@
 
     },
 	{
-	  "imageLayers" : [ { "image" : "vantatoilet.png:<color>", "fullbright" : true }, { "image" : "vantatoiletlit.png:<color>" } ],
+	  "imageLayers" : [ { "image" : "nightartoilet.png:<color>", "fullbright" : true }, { "image" : "nightartoiletlit.png:<color>" } ],
       "direction" : "right",
 	  
       "imagePosition" : [-8, 0],

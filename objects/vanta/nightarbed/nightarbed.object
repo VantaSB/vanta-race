@@ -1,11 +1,11 @@
 {
-  "objectName" : "vantabed",
-  "colonyTags" : ["misc","vanta"],
+  "objectName" : "nightarbed",
+  "colonyTags" : ["misc","nightar"],
   "printable" : false,
   "rarity" : "Legendary",
   "description" : "Vanta sleeping bed, something feels wrong..",
   "shortdescription" : "Vanta Bed",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "furniture",
   "price" : 150,
 
@@ -22,17 +22,17 @@
   "sitPosition" : [-10, 13],
   "sitOrientation" : "lay",
   "sitAngle" : 90,
-  "sitCoverImage" : "/objects/vanta/vantabed/vantabedcover.png",
+  "sitCoverImage" : "/objects/nightar/nightarbed/nightarbedcover.png",
   "sitEmote" : "sleep",
   "sitStatusEffects" : [
     "bed4"
   ],
   "sitEffectEmitters" : [ "sleepbubbles" ],
 
-  "inventoryIcon" : "vantabedicon.png",
+  "inventoryIcon" : "nightarbedicon.png",
   "orientations" : [
     {
-      "dualImage" : "vantabed.png:<color>",
+      "dualImage" : "nightarbed.png:<color>",
 
       "imagePosition" : [-24, 0],
       "frames" : 1,

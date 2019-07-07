@@ -1,13 +1,13 @@
 {
-  "objectName" : "vantashelf",
-  "tags" : ["vanta","commerce"],
+  "objectName" : "nightarshelf",
+  "tags" : ["nightar","commerce"],
   "rarity" : "legendary",
   "category" : "decorative",
   "price" : 100,
 
   "description" : "A shelf, uses solid(?) laser instead of wood, pretty cool huh?",
   "shortdescription" : "Vanta Shelf",
-  "race" : "vanta",
+  "race" : "nightar",
 
   "apexDescription" : "What an etheral shelf...",
   "avianDescription" : "This shelf is definitely way too advanced, even for Avian standards.",
@@ -17,10 +17,10 @@
   "hylotlDescription" : "As advanced as this is, it's very small and elegant.",
   "novakidDescription" : "It's a tiny shelf.",
 
-  "inventoryIcon" : "vantashelficon.png",
+  "inventoryIcon" : "nightarshelficon.png",
   "orientations" : [
     {
-      "dualImage" : "vantashelf.png:<color>",
+      "dualImage" : "nightarshelf.png:<color>",
       "imagePosition" : [-16, 0],
       "frames" : 1,
 

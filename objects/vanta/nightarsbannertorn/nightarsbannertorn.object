@@ -1,5 +1,5 @@
 {
-  "objectName" : "vantasbannertorn",
+  "objectName" : "nightarsbannertorn",
   "rarity" : "common",
   "category" : "decorative",
   "price" : 200,
@@ -7,7 +7,7 @@
 
   "description" : "A torn Vantas wallbanner.",
   "shortdescription" : "Torn Vantas Wall Banner",
-  "race" : "vantas",
+  "race" : "nightars",
 
   "apexDescription" : "This banner is torn...",
   "avianDescription" : "A torn banner! Devastating!",
@@ -18,10 +18,10 @@
   "novakidDescription" : "Not even these proud banners are holdin' up.",
 
 
-  "inventoryIcon" : "vantasbannertornicon.png",
+  "inventoryIcon" : "nightarsbannertornicon.png",
   "orientations" : [
     {
-      "image" : "vantasbannertorn.png:<color>",
+      "image" : "nightarsbannertorn.png:<color>",
       "imagePosition" : [-5, -2],
       "frames" : 1,
       "animationCycle" : 0.5,

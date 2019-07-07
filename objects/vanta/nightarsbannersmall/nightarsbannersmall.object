@@ -1,5 +1,5 @@
 {
-  "objectName" : "vantasbannersmall",
+  "objectName" : "nightarsbannersmall",
   "rarity" : "legendary",
   "category" : "decorative",
   "price" : 150,
@@ -7,7 +7,7 @@
 
   "description" : "A small Vanta wall banner.",
   "shortdescription" : "Vanta Wall Banner",
-  "race" : "vantas",
+  "race" : "nightars",
 
   "apexDescription" : "Vantas banner.",
   "avianDescription" : "Vantas banner.",
@@ -18,10 +18,10 @@
   "novakidDescription" : "Vantas banner.",
 
 
-  "inventoryIcon" : "vantasbannersmallicon.png",
+  "inventoryIcon" : "nightarsbannersmallicon.png",
   "orientations" : [
     {
-      "image" : "vantasbannersmall.png:<color>",
+      "image" : "nightarsbannersmall.png:<color>",
 	  "flipImages" : true,
 	  "direction" : "left",
       "imagePosition" : [-5, -2],
@@ -33,7 +33,7 @@
     },
 	
 	{
-      "image" : "vantasbannersmall.png:<color>",
+      "image" : "nightarsbannersmall.png:<color>",
 	  "direction" : "right",
       "imagePosition" : [5, -2],
       "frames" : 1,

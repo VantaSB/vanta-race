@@ -1,6 +1,6 @@
 {
-  "objectName" : "vantacastledoor",
-  "colonyTags" : ["vanta","door"],
+  "objectName" : "nightarcastledoor",
+  "colonyTags" : ["nightar","door"],
   "rarity" : "legendary",
 
   "category" : "door",
@@ -17,14 +17,14 @@
   "hylotlDescription" : "The perfect door for a defensive structure.",
   "novakidDescription" : "This door is one of the sturdiest ones I've ever seen.",
 
-  "inventoryIcon" : "vantacastledooricon.png",
+  "inventoryIcon" : "nightarcastledooricon.png",
 
   "tooltipKind" : "door",
-  "largeImage" : "vantacastledoor.png:right",
+  "largeImage" : "nightarcastledoor.png:right",
 
   "orientations" : [
     {
-      "dualImage" : "vantacastledoor.png:default",
+      "dualImage" : "nightarcastledoor.png:default",
       "imagePosition" : [-16, 0],
       "renderLayer" : "Object+5",
 
@@ -50,7 +50,7 @@
     }
   },
   "animationParts" : {
-    "door" : "vantacastledoor.png"
+    "door" : "nightarcastledoor.png"
   },
   "animationPosition" : [-16, 0],
 

@@ -1,10 +1,10 @@
 {
-  "objectName" : "vantavendingmachine",
-  "tags" : ["vanta", "merchant"],
+  "objectName" : "nightarvendingmachine",
+  "tags" : ["nightar", "merchant"],
   "rarity" : "Legendary",
   "description" : "A Vanta vending machine. Yes, even knights need refreshments.",
   "shortdescription" : "Vanta vending machine",
-  "race" : "vanta",
+  "race" : "nightar",
   "price" : 1100,
   "lightColor" : [19, 27, 31],
 
@@ -22,8 +22,8 @@
     "buyFactor" : 1.0,
     "sellFactor" : 0,
     "items" : [
-	  //{ "item" : "vantadrinkp" },
-	  //{ "item" : "vantadrink" },
+	  //{ "item" : "nightardrinkp" },
+	  //{ "item" : "nightardrink" },
 	    { "item" : "bottledwater" },
 	    { "item" : "soda" },
 	    { "item" : "coffee" },
@@ -44,7 +44,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantavendingmachine.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantavendingmachinelit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "nightarvendingmachine.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarvendingmachinelit.png:<color>.<frame>" } ],
       "frames" : 3,
 	    "animationCycle" : 0.5,
 
@@ -59,7 +59,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "vantavendingmachine.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantavendingmachinelit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "nightarvendingmachine.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarvendingmachinelit.png:<color>.<frame>" } ],
       "frames" : 3,
 	    "animationCycle" : 0.5,
 

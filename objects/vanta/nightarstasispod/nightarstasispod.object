@@ -1,10 +1,10 @@
 {
-  "objectName" : "vantastasispod",
-  "colonyTags" : ["vanta"],
+  "objectName" : "nightarstasispod",
+  "colonyTags" : ["nightar"],
   "rarity" : "Rare",
   "description" : "A cryo-stasis hibernation pod.",
   "shortdescription" : "Vanta Stasis Pod",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "furniture",
   "price" : 5000,
   //"lightColor" : [217, 210, 173],
@@ -18,7 +18,7 @@
   "novakidDescription" : "That sure is one fancy-looking stasis pod.",
 
   "objectType" : "loungeable",
-  "sitCoverImage" : "/objects/vanta/vantastasispod/vantapodclosedlit.png",
+  "sitCoverImage" : "/objects/nightar/nightarstasispod/nightarpodclosedlit.png",
   "sitFlipDirection" : false,
   "sitOrientation" : "lay",
   "sitAngle" : 0,
@@ -28,10 +28,10 @@
   ],
   "sitEffectEmitters" : [ ],
 
-  "inventoryIcon" : "vantastasispod.png",
+  "inventoryIcon" : "nightarstasispod.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantapodopen.png:<color>", "fullbright" : true }, { "image" : "vantapodopenlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "nightarpodopen.png:<color>", "fullbright" : true }, { "image" : "nightarpodopenlit.png:<color>" } ],
       "imagePosition" : [0, 0],
       "direction" : "left",
       "flipImages" : true,
@@ -42,7 +42,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "imageLayers" : [ { "image" : "vantapodopen.png:<color>", "fullbright" : true }, { "image" : "vantapodopenlit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "nightarpodopen.png:<color>", "fullbright" : true }, { "image" : "nightarpodopenlit.png:<color>" } ],
       "imagePosition" : [0, 0],
       "direction" : "right",
 

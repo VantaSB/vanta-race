@@ -1,11 +1,11 @@
 {
-  "objectName" : "vantatinywallswitch",
-  "colonyTags" : ["wired","vanta"],
+  "objectName" : "nightartinywallswitch",
+  "colonyTags" : ["wired","nightar"],
   "printable" : false,
   "rarity" : "legendary",
   "description" : "A compact switch that can be flipped on or off.",
   "shortdescription" : "Vanta Tiny Switch",
-  "race" : "vanta",
+  "race" : "nightar",
 
   "apexDescription" : "A switch. It activates something.",
   "avianDescription" : "This tiny switch must activate something.",
@@ -18,10 +18,10 @@
   "category" : "wire",
   "price" : 100,
 
-  "inventoryIcon" : "vantatinywallswitchicon.png",
+  "inventoryIcon" : "nightartinywallswitchicon.png",
   "orientations" : [
     {
-	  "imageLayers" : [ { "image" : "vantatinywallswitch.png:<color>.off", "fullbright" : true }, { "image" : "vantatinywallswitchlit.png:<color>.off"} ],
+	  "imageLayers" : [ { "image" : "nightartinywallswitch.png:<color>.off", "fullbright" : true }, { "image" : "nightartinywallswitchlit.png:<color>.off"} ],
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -43,7 +43,7 @@
     }
   },
   "animationParts" : {
-    "switch" : "vantatinywallswitch.png"
+    "switch" : "nightartinywallswitch.png"
   },
   "animationPosition" : [0, 0],
 

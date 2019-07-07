@@ -1,12 +1,12 @@
 {
-  "objectName" : "vantapedestal",
-  "colonyTags" : ["vanta","pretty","commerce"],
+  "objectName" : "nightarpedestal",
+  "colonyTags" : ["nightar","pretty","commerce"],
   "rarity" : "legendary",
   "category" : "decorative",
   "price" : 150,
   "description" : "A pedestal for putting your treasures on display.",
   "shortdescription" : "Vanta Pedestal",
-  "race" : "vanta",
+  "race" : "nightar",
 
   "apexDescription" : "A pedestal for displaying goodies.",
   "avianDescription" : "It looks like some kind of special table.",
@@ -16,10 +16,10 @@
   "hylotlDescription" : "A place to display valuable objects.",
   "novakidDescription" : "A fancy lookin' display stand.",
 
-  "inventoryIcon" : "vantapedestalicon.png",
+  "inventoryIcon" : "nightarpedestalicon.png",
   "orientations" : [
     {
-      "dualImage" : "vantapedestal.png:<color>",
+      "dualImage" : "nightarpedestal.png:<color>",
       "imagePosition" : [-8, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

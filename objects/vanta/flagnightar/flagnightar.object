@@ -1,6 +1,6 @@
 {
-  "objectName" : "flagvanta",
-  "colonyTags" : ["vanta"],
+  "objectName" : "flagnightar",
+  "colonyTags" : ["nightar"],
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "teleporter",
@@ -10,7 +10,7 @@
 
   "description" : "The Vanta flag. Use ^green;[E] to bookmark a teleportation location.",
   "shortdescription" : "Vanta Flag",
-  "race" : "vanta",
+  "race" : "nightar",
 
   "apexDescription" : "A Vanta flag. I can use this as a waypoint for teleportation.",
   "avianDescription" : "This Vanta flag can be bookmarked as a destination for my ship teleporter.",
@@ -23,10 +23,10 @@
   "interactAction" : "OpenTeleportDialog",
   "interactData" : "/interface/warping/destinationonly.config",
 
-  "inventoryIcon" : "flagvantaicon.png",
+  "inventoryIcon" : "flagnightaricon.png",
   "orientations" : [
     {
-      "image" : "flagvanta.png:<color>.<frame>",
+      "image" : "flagnightar.png:<color>.<frame>",
       "flipImages" : true,
       "direction" : "left",
       "imagePosition" : [-1, 0],
@@ -37,7 +37,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "flagvanta.png:<color>.<frame>",
+      "image" : "flagnightar.png:<color>.<frame>",
       "direction" : "right",
       "imagePosition" : [1, 0],
       "frames" : 6,

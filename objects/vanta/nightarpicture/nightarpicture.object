@@ -1,13 +1,13 @@
 {
-  "objectName" : "vantapicture",
-  "tags" : ["vanta","pretty"],
+  "objectName" : "nightarpicture",
+  "tags" : ["nightar","pretty"],
   "rarity" : "legendary",
   "category" : "decorative",
   "price" : 375,
 
   "description" : "A picture of a Vanta's secret armor.",
   "shortdescription" : "Vanta Knight's Armor Picture",
-  "race" : "vanta",
+  "race" : "nightar",
 
   "apexDescription" : "Interesting, lines of light course through the background.",
   "avianDescription" : "The picture is almost foreboding.",
@@ -17,10 +17,10 @@
   "hylotlDescription" : "They sure take pride in their work.",
 
 
-  "inventoryIcon" : "vantapictureicon.png",
+  "inventoryIcon" : "nightarpictureicon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantapicture.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantapicturelit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "nightarpicture.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarpicturelit.png:<color>.<frame>" } ],
       "imagePosition" : [-8, 0],
       "frames" : 18,
 	  "animationCycle" : 2.0,

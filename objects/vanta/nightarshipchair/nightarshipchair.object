@@ -1,12 +1,12 @@
 {
-  "objectName" : "vantashipchair",
+  "objectName" : "nightarshipchair",
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "loungeable",
   "price" : 300,
   "description" : "A chair made specifically for Vanta crew members.",
   "shortdescription" : "Vanta Ship Chair",
-  "race" : "vanta",
+  "race" : "nightar",
   "category" : "furniture",
 
   "apexDescription" : "While similar to the captain's chair, this chair lacks the interface needed to pilot the ship.",
@@ -18,10 +18,10 @@
   "novakidDescription" : "Still a fancy chair, even without all the gizmos to fly the ship!",
 
 
-  "inventoryIcon" : "vantashipchairicon.png",
+  "inventoryIcon" : "nightarshipchairicon.png",
   "orientations" : [
     {
-      "image" : "vantashipchair.png:<color>",
+      "image" : "nightarshipchair.png:<color>",
       "imagePosition" : [ -12, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -33,7 +33,7 @@
       "sitPosition" : [ 1.6, 22.5 ]
 	},
 	{
-      "image" : "vantashipchair.png:<color>",
+      "image" : "nightarshipchair.png:<color>",
       "imagePosition" : [ -12, 0 ],
       "frames" : 1,
       "animationCycle" : 0.5,
