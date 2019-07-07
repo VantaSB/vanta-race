@@ -3,7 +3,7 @@
   "price" : 2000,
   "category" : "craftingMaterial",
   "rarity" : "legendary",
-  "inventoryIcon" : "exotichead.png",
+  "inventoryIcon" : "exoticcomponent3.png",
   "description" : "Used for crafting augmentable head armor.",
   "shortdescription" : "Head Armor Component",
   "itemTags" : [ "reagent" ]

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "exoticcomponent3", "count" : 1 },
+    { "item" : "augmentadaptor", "count" : 1 },
+    { "item" : "vantatier6mhead", "count" : 1 }
+  ],
+
+  "duration" : 10,
+  "output" : { "item" : "vantatier6mheadaug", "count" : 1 },
+  "groups" : [ "enhancer", "all" ]
+}

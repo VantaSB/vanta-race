@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 6 },
+    { "item" : "vantacatalyst", "count" : 6 }
+  ],
+  "output" : { "item" : "nightsteel6bar", "count" : 1 },
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "vantacatalyst",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "vantacatalyst.png",
+  "description" : "The energy from crushed Dark Fragments can be applied to various other elements.",
+  "shortdescription" : "Vanta Catalyst",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "nightsteel1bar", "nightsteel2bar", "nightsteel3bar", "nightsteel4bar", "nightsteel5bar", "nightsteel6bar", "nightsteel7bar" ]
+}

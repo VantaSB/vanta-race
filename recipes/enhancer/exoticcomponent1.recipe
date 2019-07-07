@@ -1,10 +1,6 @@
 {
   "input" : [
-    { "item" : "refinedaegisalt", "count" : 5 },
-    { "item" : "refinedferozium", "count" : 5 },
-    { "item" : "refinedviolium", "count" : 5 },
-    { "item" : "solariumstar", "count" : 5 },
-    { "item" : "azuritebar", "count" : 5 }
+    { "item" : "nighsteel7bar", "count" : 8 }
   ],
   "duration" : 10,
   "output" : { "item" : "exoticcomponent1", "count" : 1 },

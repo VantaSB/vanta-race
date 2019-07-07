@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "aegisaltore", "count" : 2 },
+    { "item" : "feroziumore", "count" : 2 },
+    { "item" : "violiumore", "count" : 2 },
+    { "item" : "solariumore", "count" : 2 },
+    { "item" : "vantacatalyst", "count" : 8 }
+  ],
+  "output" : { "item" : "nightsteel7bar", "count" : 1 },
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}

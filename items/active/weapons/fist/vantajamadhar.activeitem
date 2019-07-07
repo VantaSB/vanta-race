@@ -1,9 +1,9 @@
 {
   "itemName" : "vantajamadhar",
   "price" : 1000,
-  "level" : 5,
+  "level" : 4,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Uncommon",
   "description" : "Jamadhars require additional finesse while handling.",
   "shortdescription" : "Vanta Jamadhar",
   "tooltipKind" : "fistweapon",

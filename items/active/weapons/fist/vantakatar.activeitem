@@ -3,7 +3,7 @@
   "price" : 500,
   "level" : 2,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "Common",
   "description" : "Katars gained their infamy as tools of assassination.",
   "shortdescription" : "Vanta Katar",
   "tooltipKind" : "fistweapon",

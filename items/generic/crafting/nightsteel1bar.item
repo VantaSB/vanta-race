@@ -1,0 +1,10 @@
+{
+  "itemName" : "nightsteel1bar",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "nightsteel.png",
+  "description" : "A bar of Grade I Vanta Nightsteel.",
+  "shortdescription" : "Grade I Nightsteel",
+  "itemTags" : [ "reagent" ]
+}

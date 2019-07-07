@@ -11,7 +11,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword","vanta"],
 
-  "inventoryIcon" : "vantatier5sword1.png",
+  "inventoryIcon" : "vantatier5sword.png",
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
