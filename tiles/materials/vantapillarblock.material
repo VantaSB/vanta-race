@@ -1,0 +1,21 @@
+{
+  "materialId" : 3205,
+  "materialName" : "vantapillarblock",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "vantapillarblock",
+  "description" : "A pillar made with Vanta materials.",
+  "shortdescription" : "Vanta Pillar",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/columntemplate.config",
+  "renderParameters" : {
+    "texture" : "vantapillarblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2770
+  }
+}

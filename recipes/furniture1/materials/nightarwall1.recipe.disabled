@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "concretematerial", "count" : 1 }
+  ],
+  "output" : { "item" : "vantawall1", "count" : 10 },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

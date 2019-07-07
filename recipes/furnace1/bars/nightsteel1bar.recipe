@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 },
+    { "item" : "vantacatalyst", "count" : 1 }
+  ],
+  "output" : { "item" : "nightsteel1bar", "count" : 1 },
+  "groups" : [ "craftingfurnace", "bars", "all" ]
+}

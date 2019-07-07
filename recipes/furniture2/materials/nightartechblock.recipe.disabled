@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "blackdye", "count" : 1 },
+    { "item" : "vantablock1", "count" : 10 },
+    { "item" : "vantablock2", "count" : 10 },
+    { "item" : "titaniumbar", "count" : 5 }
+  ],
+  "output" : { "item" : "vantatechblock", "count" : 20 },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture2", "materials", "all" ]
+}

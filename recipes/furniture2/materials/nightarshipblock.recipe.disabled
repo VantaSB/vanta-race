@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "apexshipwall", "count" : 20 },
+    { "item" : "blackdye", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "output" : { "item" : "vantashipblock", "count" : 20 },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture2", "materials", "all" ]
+}

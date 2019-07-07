@@ -1,0 +1,21 @@
+{
+  "materialId" : 3209,
+  "materialName" : "vantatechblock",
+  "particleColor" : [149, 149, 149, 255],
+  "itemDrop" : "vantatechblock",
+  "shortdescription" : "Vanta Tech Block",
+  "description" : "Vanta tech-infused blocks.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vantatechblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2850
+  }
+}

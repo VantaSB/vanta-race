@@ -1,0 +1,714 @@
+{
+  "columns" : 0,
+  "grid" : {
+    "height" : 64,
+    "orientation" : "orthogonal",
+    "width" : 160
+  },
+  "margin" : 0,
+  "name" : "objects-by-race/vanta",
+  "spacing" : 0,
+  "tilecount" : 33,
+  "tileheight" : 75,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "A replicator designed specifically for crafting Vanta armors and weapons.",
+      "//name" : "vantaanvil",
+      "//shortdescription" : "Vanta Replicator",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantaanvil"
+    },
+    "1" : {
+      "//description" : "A chequered flag bearing an emblem.",
+      "//name" : "vantabattlestandard",
+      "//shortdescription" : "Vanta Battle Standard",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantabattlestandard"
+    },
+    "2" : {
+      "//description" : "A complex computer made by the Vanta.",
+      "//name" : "vantacomputer",
+      "//shortdescription" : "Vanta Computer",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantacomputer"
+    },
+    "3" : {
+      "//description" : "A nice, spacious, wall-mounted storage solution.",
+      "//name" : "vantastoragelocker",
+      "//shortdescription" : "Vanta Storage Locker",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantastoragelocker"
+    },
+    "10" : {
+      "//description" : "Vanta sleeping bed. It's rather comforatble for its design.",
+      "//name" : "vantabed",
+      "//shortdescription" : "Vanta Bed",
+      "imagePositionX" : "-10",
+      "imagePositionY" : "13",
+      "object" : "vantabed"
+    },
+    "11" : {
+      "//description" : "An altar holding the ultimate Vanta blade... which looks kinda broken.",
+      "//name" : "vantabladealtar",
+      "//shortdescription" : "Vanta Blade Altar",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantabladealtar"
+    },
+    "12" : {
+      "//description" : "A bookcase... let's find out what the Vanta read.",
+      "//name" : "vantabookcase",
+      "//shortdescription" : "Vanta Bookcase",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantabookcase"
+    },
+    "13" : {
+      "//description" : "A mysterious Vanta box.",
+      "//name" : "vantabox1",
+      "//shortdescription" : "Small Vanta Box",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantabox1"
+    },
+    "14" : {
+      "//description" : "A mysterious Vanta box.",
+      "//name" : "vantabox2",
+      "//shortdescription" : "Large Vanta Box",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantabox2"
+    },
+    "15" : {
+      "//description" : "A sleek looking Vanta cabinet.",
+      "//name" : "vantacabinet",
+      "//shortdescription" : "Vanta Cabinet",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantacabinet"
+    },
+    "16" : {
+      "//description" : "A strong and secure door.",
+      "//name" : "vantacastledoor",
+      "//shortdescription" : "Vanta Castle Door",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantacastledoor"
+    },
+    "17" : {
+      "//description" : "A Vanta chair. You'll never want to stand again.",
+      "//name" : "vantachair",
+      "//shortdescription" : "Vanta Chair",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantachair"
+    },
+    "18" : {
+      "//description" : "A Vanta chandelier. A good way to light a large castle room.",
+      "//name" : "vantachandelier",
+      "//shortdescription" : "Vanta Chandelier",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-16",
+      "object" : "vantachandelier"
+    },
+    "19" : {
+      "//description" : "A small Vanta chest.",
+      "//name" : "vantachest",
+      "//shortdescription" : "Vanta Chest",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantachest"
+    },
+    "20" : {
+      "//description" : "A small console made by the Vanta.",
+      "//name" : "vantaconsole",
+      "//shortdescription" : "Vanta Console",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantaconsole"
+    },
+    "21" : {
+      "//description" : "This looks like an advanced Vanta dresser.",
+      "//name" : "vantadresser",
+      "//shortdescription" : "Vanta Dresser",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantadresser"
+    },
+    "22" : {
+      "//description" : "Perfect for storing a lot of food and keeping it fresh.",
+      "//name" : "vantafridge",
+      "//shortdescription" : "Vanta Fridge",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantafridge"
+    },
+    "23" : {
+      "//description" : "A pedestal for putting your treasures on display.",
+      "//name" : "vantapedestal",
+      "//shortdescription" : "Vanta Pedestal",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantapedestal"
+    },
+    "24" : {
+      "//description" : "A picture of a Vanta's secret armor.",
+      "//name" : "vantapicture",
+      "//shortdescription" : "Vanta Knight's Armor Picture",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantapicture"
+    },
+    "25" : {
+      "//description" : "A small Vanta wall banner.",
+      "//name" : "vantasbannersmall",
+      "//shortdescription" : "Vanta Wall Banner",
+      "imagePositionX" : "-5",
+      "imagePositionY" : "-2",
+      "object" : "vantasbannersmall"
+    },
+    "26" : {
+      "//description" : "A torn the Vanta wallbanner.",
+      "//name" : "vantasbannertorn",
+      "//shortdescription" : "Torn Vanta Wall Banner",
+      "imagePositionX" : "-5",
+      "imagePositionY" : "-2",
+      "object" : "vantasbannertorn"
+    },
+    "27" : {
+      "//description" : "A shelf, uses solid(?) laser instead of wood, pretty cool huh?",
+      "//name" : "vantashelf",
+      "//shortdescription" : "Vanta Shelf",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantashelf"
+    },
+    "28" : {
+      "//description" : "A small green light",
+      "//name" : "vantashiplight",
+      "//shortdescription" : "Green Ship Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantashiplight"
+    },
+    "29" : {
+      "//description" : "Where does the water come from or go to? I will never know..",
+      "//name" : "vantasink",
+      "//shortdescription" : "Vanta Sink",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "vantasink"
+    },
+    "30" : {
+      "//description" : "An advanced cooking device, with controlable heat for perfect cooking.",
+      "//name" : "vantastove",
+      "//shortdescription" : "Vanta Cooker",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantastove"
+    },
+    "31" : {
+      "//description" : "An electronic table.",
+      "//name" : "vantatable",
+      "//shortdescription" : "Vanta Table",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "0",
+      "object" : "vantatable"
+    },
+    "32" : {
+      "//description" : "A simple Vanta chair used for tables.",
+      "//name" : "vantatablechair",
+      "//shortdescription" : "Vanta Table Chair",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantatablechair"
+    },
+    "4" : {
+      "//description" : "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.",
+      "//name" : "vantateleporter",
+      "//shortdescription" : "Vanta Teleporter",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantateleporter"
+    },
+    "5" : {
+      "//description" : "A Vanta throne, only for the night's king!",
+      "//name" : "vantathrone",
+      "//shortdescription" : "Vanta's Throne",
+      "imagePositionX" : "-30",
+      "imagePositionY" : "0",
+      "object" : "vantathrone"
+    },
+    "6" : {
+      "//description" : "A compact switch that can be flipped on or off.",
+      "//name" : "vantatinywallswitch",
+      "//shortdescription" : "Vanta Tiny Switch",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantatinywallswitch"
+    },
+    "7" : {
+      "//description" : "A Vanta toliet, gets rid of waste in matter of seconds!",
+      "//name" : "vantatoilet",
+      "//shortdescription" : "Vanta Toilet",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantatoilet"
+    },
+    "8" : {
+      "//description" : "Looks like someone's got their eyes set on making this a venue for a shop.",
+      "//name" : "ranscastleoutpostclosed",
+      "//shortdescription" : "Closed Ran's Castle",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "0",
+      "object" : "ranscastleoutpostclosed"
+    },
+    "9" : {
+      "//description" : "A storefront for the Vanta merchant, Ran, to sell his wares.",
+      "//name" : "ranscastleoutpost",
+      "//shortdescription" : "Ran's Castle",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "0",
+      "object" : "ranscastleoutpost"
+    }
+  },
+  "tilepropertytypes" : {
+    "0" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "1" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "10" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "11" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "12" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "13" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "14" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "15" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "16" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "17" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "18" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "19" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "2" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "20" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "21" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "22" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "23" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "24" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "25" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "26" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "27" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "28" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "29" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "3" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "30" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "31" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "32" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "4" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "5" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "6" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "7" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "8" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "9" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantaanvil.png",
+      "imageheight" : 40,
+      "imagewidth" : 32
+    },
+    "1" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabattlestandard.png",
+      "imageheight" : 40,
+      "imagewidth" : 16
+    },
+    "10" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabed.png",
+      "imageheight" : 24,
+      "imagewidth" : 56
+    },
+    "11" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantaconsole.png",
+      "imageheight" : 14,
+      "imagewidth" : 25
+    },
+    "12" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantastove.png",
+      "imageheight" : 32,
+      "imagewidth" : 24
+    },
+    "13" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabladealtar.png",
+      "imageheight" : 64,
+      "imagewidth" : 17
+    },
+    "14" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabookcase.png",
+      "imageheight" : 40,
+      "imagewidth" : 32
+    },
+    "15" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabox1.png",
+      "imageheight" : 16,
+      "imagewidth" : 24
+    },
+    "16" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantabox2.png",
+      "imageheight" : 24,
+      "imagewidth" : 32
+    },
+    "17" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantacabinet.png",
+      "imageheight" : 40,
+      "imagewidth" : 32
+    },
+    "18" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantacastledoor.png",
+      "imageheight" : 40,
+      "imagewidth" : 40
+    },
+    "19" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantachair.png",
+      "imageheight" : 24,
+      "imagewidth" : 22
+    },
+    "2" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantachandelier.png",
+      "imageheight" : 32,
+      "imagewidth" : 40
+    },
+    "20" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantachest.png",
+      "imageheight" : 16,
+      "imagewidth" : 32
+    },
+    "21" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantacomputer.png",
+      "imageheight" : 33,
+      "imagewidth" : 25
+    },
+    "22" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantadresser.png",
+      "imageheight" : 16,
+      "imagewidth" : 31
+    },
+    "23" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantafridge.png",
+      "imageheight" : 32,
+      "imagewidth" : 24
+    },
+    "24" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantapedestal.png",
+      "imageheight" : 16,
+      "imagewidth" : 24
+    },
+    "25" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantapicture.png",
+      "imageheight" : 24,
+      "imagewidth" : 32
+    },
+    "26" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantasbannersmall.png",
+      "imageheight" : 37,
+      "imagewidth" : 23
+    },
+    "27" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantasbannertorn.png",
+      "imageheight" : 75,
+      "imagewidth" : 34
+    },
+    "28" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantashelf.png",
+      "imageheight" : 8,
+      "imagewidth" : 32
+    },
+    "29" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantashiplight.png",
+      "imageheight" : 8,
+      "imagewidth" : 16
+    },
+    "3" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantasink.png",
+      "imageheight" : 24,
+      "imagewidth" : 18
+    },
+    "30" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantastoragelocker.png",
+      "imageheight" : 24,
+      "imagewidth" : 32
+    },
+    "31" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantatable.png",
+      "imageheight" : 16,
+      "imagewidth" : 55
+    },
+    "32" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantatablechair.png",
+      "imageheight" : 24,
+      "imagewidth" : 16
+    },
+    "4" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantateleporter.png",
+      "imageheight" : 59,
+      "imagewidth" : 32
+    },
+    "5" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantathrone.png",
+      "imageheight" : 71,
+      "imagewidth" : 65
+    },
+    "6" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantatinywallswitch.png",
+      "imageheight" : 8,
+      "imagewidth" : 8
+    },
+    "7" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/vantatoilet.png",
+      "imageheight" : 24,
+      "imagewidth" : 16
+    },
+    "8" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/ranscastleoutpostclosed.png",
+      "imageheight" : 73,
+      "imagewidth" : 128
+    },
+    "9" : {
+      "image" : "../../../../../tiled/vanta-custom/objects/ranscastleoutpostopen.png",
+      "imageheight" : 73,
+      "imagewidth" : 128
+    }
+  },
+  "tilewidth" : 65,
+  "type" : "tileset"
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 3208,
+  "materialName" : "vantasupport2",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "vantasupport2",
+  "description" : "Reinforced baseboarding made of unknown materials.",
+  "shortdescription" : "Vanta Ship Details",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "vantasupport2.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3300
+  }
+}

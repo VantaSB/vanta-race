@@ -1,0 +1,10 @@
+{
+  "input" :[
+    { "item" : "wire", "count" : 5 },
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 2 }
+  ],
+  "duration" : 10,
+  "output" : { "item" : "vantahandscanner", "count" : 1 },
+  "groups" : [ "craftingwiring", "switches" ]
+}

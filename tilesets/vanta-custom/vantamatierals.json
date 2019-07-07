@@ -1,0 +1,134 @@
+{
+  "margin" : 0,
+  "name" : "vanta/materials",
+  "properties" : {},
+  "spacing" : 0,
+  "tilecount" : 17,
+  "tileheight" : 16,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "A black block made of unknown materials.",
+      "//name" : "vantablock1",
+      "//shortdescription" : "Vanta Black Block",
+      "material" : "vantablock1"
+    },
+
+    "1" : {
+      "//description" : "A white block made of unknown materials.",
+      "//name" : "vantablock2",
+      "//shortdescription" : "Vanta White Block",
+      "material" : "vantablock2"
+    },
+
+    "10" : {
+      "//description" : "Traditional Vanta flooring.",
+      "//name" : "vantafloor",
+      "//shortdescription" : "Vanta Floor",
+      "material" : "vantafloor"
+    },
+
+    "2" : {
+      "//description" : "Panelling made of unknown materials.",
+      "//name" : "vantapanelblock",
+      "//shortdescription" : "Vanta Panelling",
+      "material" : "vantapanelblock"
+    },
+
+    "3" : {
+      "//description" : "A high-tech pillar.",
+      "//name" : "vantapillarblock",
+      "//shortdescription" : "Vanta Pillar",
+      "material" : "vantapillarblock"
+    },
+
+    "4" : {
+      "//description" : "Panelling used in Vanta ships.",
+      "//name" : "vantashipblock",
+      "//shortdescription" : "Vanta Ship Wall",
+      "material" : "vantashipblock"
+    },
+
+    "5" : {
+      "//description" : "A reinforced support beam made of unknown materials.",
+      "//name" : "vantasupport1",
+      "//shortdescription" : "Vanta Support Beam",
+      "material" : "vantasupport1"
+    },
+
+    "6" : {
+      "//description" : "Reinforced baseboarding made of unknown materials.",
+      "//name" : "vantasupport2",
+      "//shortdescription" : "Vanta Ship Details",
+      "material" : "vantasupport2"
+    },
+
+    "7" : {
+      "//description" : "Vanta tech-infused blocks.",
+      "//name" : "vantatechblock",
+      "//shortdescription" : "Vanta Tech Block",
+      "material" : "vantatechblock"
+    },
+
+    "8" : {
+      "//description" : "Concrete made of unknown materials.",
+      "//name" : "vantawall1",
+      "//shortdescription" : "Vanta Concrete",
+      "material" : "vantawall1"
+    },
+
+    "9" : {
+      "//description" : "A black wall infused with some Vanta technology.",
+      "//name" : "vantawall2",
+      "//shortdescription" : "Vanta Tech Wall",
+      "material" : "vantawall2"
+    }
+  },
+
+  "tiles" : {
+    "0" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantablock1.png"
+    },
+
+    "1" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantablock2.png"
+    },
+
+    "10" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantafloor.png"
+    },
+
+    "2" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantapanelblock.png"
+    },
+
+    "3" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantapillarblock.png"
+    },
+
+    "4" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantashipblock.png"
+    },
+
+    "5" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantasupport1.png"
+    },
+
+    "6" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantasupport2.png"
+    },
+
+    "7" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantatechblock.png"
+    },
+
+    "8" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantawall1.png"
+    },
+
+    "9" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantawall2.png"
+    }
+  },
+
+  "tilewidth" : 16
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 3210,
+  "materialName" : "vantawall1",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "vantawall1",
+  "description" : "Concrete made of unknown materials.",
+  "shortdescription" : "Vanta Concrete",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vantawall1.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2690
+  }
+}

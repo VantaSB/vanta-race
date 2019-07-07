@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 1 },
+    { "item" : "refinedferozium", "count" : 1 },
+    { "item" : "refinedviolium", "count" : 1 },
+    { "item" : "smallbattery", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "vantatier5sword", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

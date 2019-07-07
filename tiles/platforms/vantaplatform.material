@@ -1,0 +1,20 @@
+{
+  "materialId" : 3212,
+  "materialName" : "vantaplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "vantaplatform",
+  "shortdescription" : "Vanta Platform",
+  "description" : "A strong platform made of unknown materials.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "vantaplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

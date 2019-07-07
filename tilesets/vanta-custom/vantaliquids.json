@@ -1,0 +1,21 @@
+{
+  "margin" : 0,
+  "name" : "vanta/liquids",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 1,
+  "tileheight" : 8,
+  "tileproperties" : {
+    "0" : {
+      "//name" : "liquidceruleumfuel",
+      "liquid" : "liquidceruleumfuel"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "./../../../../tiled/vantas-custom/liquids/liquidceruleumfuel.png"
+    }
+  },
+  "tilewidth" : 8
+}

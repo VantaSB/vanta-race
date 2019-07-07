@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkcrystal", "count" : 8 },
+    { "item" : "solariumstar", "count" : 8 }
+  ],
+  "output" : { "item" : "yonaga", "count" : 1 },
+  "groups" : [ "vantaanvil", "weapons", "all" ]
+}

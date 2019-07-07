@@ -1,0 +1,24 @@
+{
+  "margin" : 0,
+  "name" : "vanta/supports",
+  "properties" : {},
+  "spacing" : 0,
+  "tilecount" : 1,
+  "tileheight" : 16,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "A strong platform made of unknown materials.",
+      "//name" : "vantaplatform",
+      "//shortdescription" : "Vanta Platform",
+      "material" : "vantaplatform"
+    }
+  },
+
+  "tiles" : {
+    "0" : {
+      "image" : "./../../../../tiled/vanta-custom/materials/vantaplatform.png"
+    }
+  },
+
+  "tilewidth" : 16
+}

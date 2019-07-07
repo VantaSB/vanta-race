@@ -1,17 +1,17 @@
 {
-  "name": "villager_nightar",
+  "name": "villager_vanta",
   "priority": 2,
 
   "colonyTagCriteria": {
     "light": 1,
     "door": 1,
-    "nightar": 6
+    "vanta": 6
   },
 
   "tenants": [
     {
       "spawn": "npc",
-      "species": "nightar",
+      "species": "vanta",
       "type": "villager",
       "overrides": {
        }

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "vantalight", "count" : 3 },
+    { "item" : "titaniumbar", "count" : 2 }
+
+  ],
+  "output" : { "item" : "vantachandelier", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "lights", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 2 },
+    { "item" : "blackdye", "count" : 1 },
+    { "item" : "whitedye", "count" : 1 }
+  ],
+  "output" : { "item" : "vantabox2", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "storage", "all" ]
+}

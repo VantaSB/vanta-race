@@ -1,0 +1,21 @@
+{
+  "materialId" : 3201,
+  "materialName" : "vantablock1",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "vantablock1",
+  "description" : "A black block made of unknown materials.",
+  "shortdescription" : "Vanta Black Block",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vantablock1.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2690
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 3211,
+  "materialName" : "vantawall2",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "vantawall2",
+  "description" : "A black wall infused with some Vanta technology.",
+  "shortdescription" : "Vanta Tech Wall",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vantawall2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2790
+  }
+}

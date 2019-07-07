@@ -17,12 +17,12 @@
     "tier1" : [
 
 // Empty Hands
-      { "item" : "flagvanta" },
-	    { "item" : "ranscastle" },
+      //{ "item" : "flagvanta" },
+	    //{ "item" : "ranscastle" },
 	    { "item" : "emptyhead"},
 
 // Inventor's Table 1
-      { "item" : "researchconsole" },
+      //{ "item" : "researchconsole" },
 
 // Anvil1
       { "item" : "vantatier1head" },
@@ -32,69 +32,76 @@
       { "item" : "vantatier2chest" },
       { "item" : "vantatier2pants" },
 
-      { "item" : "vanta_ironbroadsword" },
-      { "item" : "vanta_tungstenbroadsword" },
-      { "item" : "vantakatar" },
+      { "item" : "vantatier1sword" },
+      { "item" : "vantatier2broadsword" },
+      { "item" : "vantatier2kilij" },
+      { "item" : "vantathrowingknife" },
+      { "item" : "vantashield" },
 
 // Anvil2
       { "item" : "vantatier3head" },
       { "item" : "vantatier3chest" },
       { "item" : "vantatier3pants" },
 
-      { "item" : "vanta_titaniumbroadsword" },
-	    { "item" : "vanta_titaniumspear" },
-      { "item" : "vanta_durasteelbroadsword" },
-	    { "item" : "vanta_durasteelshortsword" },
-	    { "item" : "vantashield" },
+      { "item" : "vantatier3greatsword" },
+	    { "item" : "vantatier3shortsword" },
+      { "item" : "stealthdagger" },
+	    { "item" : "vantakatar" },
 
 // Anvil3
       { "item" : "vantatier4head" },
       { "item" : "vantatier4chest" },
       { "item" : "vantatier4pants" },
 
-      { "item" : "vantatier5acceleratorhead" },
-      { "item" : "vantatier5acceleratorchest" },
-      { "item" : "vantatier5acceleratorpants" },
+      { "item" : "vantatier5ahead" },
+      { "item" : "vantatier5achest" },
+      { "item" : "vantatier5apants" },
 
-      // { "item" : "vantatier5manipulatorhead" },
-      // { "item" : "vantatier5manipulatorchest" },
-      // { "item" : "vantatier5manipulatorpants" },
+      { "item" : "vantatier5mhead" },
+      { "item" : "vantatier5mchest" },
+      { "item" : "vantatier5mpants" },
 
-      { "item" : "vantatier5separatorhead" },
-      { "item" : "vantatier5separatorchest" },
-      { "item" : "vantatier5separatorpants" },
+      { "item" : "vantatier5shead" },
+      { "item" : "vantatier5schest" },
+      { "item" : "vantatier5spants" },
 
-      // { "item" : "vantatier6acceleratorhead" },
-      // { "item" : "vantatier6acceleratorchest" },
-      // { "item" : "vantatier6acceleratorpants" },
+      //{ "item" : "vantatier6acceleratorhead" },
+      //{ "item" : "vantatier6acceleratorchest" },
+      //{ "item" : "vantatier6acceleratorpants" },
 
-      { "item" : "vantatier6manipulatorhead" },
-      { "item" : "vantatier6manipulatorchest" },
-      { "item" : "vantatier6manipulatorpants" },
+      { "item" : "vantatier6mhead" },
+      { "item" : "vantatier6mchest" },
+      { "item" : "vantatier6mpants" },
 
-      { "item" : "vantatier6separatorhead" },
-      { "item" : "vantatier6sepatorchest" },
-      { "item" : "vantatier6sepatorpants" },
+      { "item" : "vantatier6shead" },
+      { "item" : "vantatier6schest" },
+      { "item" : "vantatier6spants" },
 
-	    { "item" : "vantabigshield" },
-      { "item" : "vanta_violiumbroadsword1" },
-      { "item" : "vanta_violiumbroadsword2" },
+	    { "item" : "vantatier4sword" },
+      { "item" : "vantatier5sword" },
+      { "item" : "vantatier6sword" },
       { "item" : "vantajamadhar" },
+      { "item" : "stealthdaggerf" },
+      { "item" : "stealthdaggeri" },
+      { "item" : "stealthdaggere" },
+      { "item" : "stealthdaggerp" },
 
 // Furniture Table 2
       { "item" : "vantaheatprotectionback" },
-      { "item" : "vantastoragelocker" },
-      { "item" : "vantashipdoor" },
-      { "item" : "vantashiphatch" },
-      { "item" : "vantashiphatch2" },
+      //{ "item" : "vantastoragelocker" },
+      //{ "item" : "vantashipdoor" },
+      //{ "item" : "vantashiphatch" },
+      //{ "item" : "vantashiphatch2" },
 
 // Spinning Wheel
       { "item" : "vantanovicechest" },
       { "item" : "vantanovicepants" },
-	    { "item" : "vanta_suithead" },
-	    { "item" : "vanta_suitchest" },
-	    { "item" : "vanta_suitlegs" },
-      { "item" : "vantacapeback" }
+      { "item" : "vantaemissarychest" },
+      { "item" : "vantaemissarypants" },
+	    { "item" : "formalhead" },
+	    { "item" : "formalchest" },
+	    { "item" : "formallegs" }//,
+      //{ "item" : "vantacapeback" }
 
     ]
   },
@@ -107,8 +114,8 @@
       "image" : "/interface/title/vantam.png",
       "characterImage" : "/interface/title/vantamale.png",
       "hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18", "male19", "male21", "male22", "male23", "male24", "male25", "male26", "male27", "male28", "male29", "male30", "male31", "male32", "male33", "male34", "male35", "male36", "male37", "male38", "male39", "male40", "male41", "male42", "male43", "male44", "male45", "male46", "male47", "male48", "male49", "male50", "male51", "male52", "male53", "male54", "male55", "male56", "male57", "male58", "male59", "male60", "male61", "male62", "male63", "male64", "male65", "male66", "male67", "male68", "male69", "male70", "vantam1", "BHmale01", "BHmale02", "BHmale03", "BHmale04", "BHMale05" ],
-      "shirt" : [ "vantanovicechest", "vanta_suitchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2", "novakidwaistcoat", "protectorateshirtchest", "protectoratevestchest" ],
-      "pants" : [ "vantanovicepants", "vanta_suitlegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "novakidblackpants" ],
+      "shirt" : [ "vantanovicechest", "formalchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2", "novakidwaistcoat", "protectorateshirtchest", "protectoratevestchest" ],
+      "pants" : [ "vantanovicepants", "formallegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "novakidblackpants" ],
       "facialHairGroup" : "",
       "facialHair" : [ ],
       "facialMaskGroup" : "brand",
@@ -119,8 +126,8 @@
       "image" : "/interface/title/vantaf.png",
       "characterImage" : "/interface/title/vantafemale.png",
       "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "fem52", "fem53", "fem54", "fem55", "fem56", "fem57", "fem58", "fem59", "fem60", "fem61", "fem62", "fem63", "fem64", "fem65", "BHfem01", "BHfem02", "BHfem03", "BHfem04", "BHfem05" ],
-      "shirt" : [ "vantanovicechest", "maidchest", "vanta_suitchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2", "novakidwaistcoat", "protectorateshirtchest", "protectoratevestchest" ],
-      "pants" : [ "vantanovicepants", "maidlegs", "vanta_suitlegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "novakidblackpants" ],
+      "shirt" : [ "vantanovicechest", "maidchest", "formalchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2", "novakidwaistcoat", "protectorateshirtchest", "protectoratevestchest" ],
+      "pants" : [ "vantanovicepants", "maidlegs", "formallegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "novakidblackpants" ],
       "facialHairGroup" : "",
       "facialHair" : [ ],
       "facialMaskGroup" : "brand",
@@ -135,12 +142,11 @@
     { "ffe2c5" : "f4e0ba", "ffc181" : "e9b768", "d39c6c" : "c18f54", "c7815b" : "a2683d" },
     { "ffe2c5" : "ffe9d3", "ffc181" : "ffc181", "d39c6c" : "d39c6c", "c7815b" : "b97551" },
     { "ffe2c5" : "fbe1d4", "ffc181" : "f6baa2", "d39c6c" : "cc9582", "c7815b" : "ac7261" }
-
   ],
 
 
-  "undyColor" : [ //In this case, 'eye' color
-
+  "undyColor" : [
+    //Or rather, 'eye' color
     { "ED1C24" : "0B877F"},
     { "ED1C24" : "24B395"},
 	  { "ED1C24" : "333241"},

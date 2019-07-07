@@ -1,0 +1,21 @@
+{
+  "materialId" : 3204,
+  "materialName" : "vantapanelblock",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "vantapanelblock",
+  "description" : "Panelling made of unknown materials.",
+  "shortdescription" : "Vanta Paneling",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vantapanelblock.png",
+    "variants" : 9,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3000
+  }
+}

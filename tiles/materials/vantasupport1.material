@@ -1,0 +1,21 @@
+{
+  "materialId" : 3207,
+  "materialName" : "vantasupport1",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "vantasupport1",
+  "description" : "A reinforced support beam made of unknown materials.",
+  "shortdescription" : "Vanta Support Beam",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "vantasupport1.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3300
+  }
+}
