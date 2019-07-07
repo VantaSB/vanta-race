@@ -7,5 +7,5 @@
   "description" : "A jet-black, yet luminescent shard that's useful for bonding special properties to equipment.",
   "shortdescription" : "Dark Fragment",
   "itemTags" : [ "reagent" ],
-  "learnBlueprintsOnPickup" : [ "vantacatlyst" ]
+  "learnBlueprintsOnPickup" : [ "vantacatalyst" ]
 }

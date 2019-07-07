@@ -1,0 +1,11 @@
+{
+  "vantaStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : "vantahandgun"},
+        {"item" : "weatheredvantasaber"}
+      ]
+    }]
+  ]
+ }

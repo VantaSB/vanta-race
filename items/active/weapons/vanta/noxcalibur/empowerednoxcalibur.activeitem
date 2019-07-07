@@ -9,18 +9,18 @@
   "tooltipKind" : "sword",
   "category" : "broadsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword","nightar"],
+  "itemTags" : ["weapon","melee","broadsword","vanta"],
 
   "inventoryIcon" : "empowerednoxcalibur.png:inactive",
 
-  "animation" : "/items/active/weapons/nightar/noxcalibur/empowerednoxcalibur.animation",
+  "animation" : "/items/active/weapons/vanta/noxcalibur/empowerednoxcalibur.animation",
   "animationParts" : {
     "sword" : "empowerednoxcalibur.png",
     "swordfullbright" : "empowerednoxcaliburfullbright.png"
   },
   "animationCustom" : { }, //"handPosition" : [13, 73]
 
-  "scripts" : ["/items/active/weapons/nightar/noxcalibur/empowerednoxcalibur.lua"],
+  "scripts" : ["/items/active/weapons/vanta/noxcalibur/empowerednoxcalibur.lua"],
 
   "elementalType" : "physical",
 
@@ -44,7 +44,7 @@
     "energyPerSecond" : 30,
 
     "projectileOffset" : [1, 0],
-    "projectileType" : "nightar_energytravelingswoosh",
+    "projectileType" : "vantaenergytravelingswoosh",
     "baseDamage" : 10,
 
     "cooldownTime" : 1.0,

@@ -11,7 +11,7 @@
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword","upgradeableWeapon"],
 
-  "inventoryIcon" : "brokenvantasaber.png",
+  "inventoryIcon" : "weatheredvantasaber.png",
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {

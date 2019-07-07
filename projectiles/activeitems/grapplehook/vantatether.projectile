@@ -1,6 +1,6 @@
 {
-  "projectileName" : "quicktether",
-  "image" : "quicktether.png",
+  "projectileName" : "vantatether",
+  "image" : "vantatether.png",
   "animationCycle" : 1.0,
   "frameNumber" : 1,
   "pointLight" : false,
