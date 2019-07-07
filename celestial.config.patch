@@ -140,6 +140,30 @@
 
 	{
 		"op" : "add",
+		"path" : "/satelliteTypes/Tier1/baseParameters/terrestrialType/-",
+		"value" : "blackmoon"
+	},
+
+	{
+		"op" : "add",
+		"path" : "/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
+		"value" : "blackmoon"
+	},
+
+	{
+		"op" : "add",
+		"path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
+		"value" : "blackmoon"
+	},
+
+	{
+		"op" : "add",
+		"path" : "/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
+		"value" : "blackmoon"
+	},
+
+	{
+		"op" : "add",
 		"path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
 		"value" : "blackmoon"
 	},

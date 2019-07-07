@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "engramvoxel2k", "count" : 1 }
-  ],
-  "output" : { "item" : "researchengram", "count" : 2000 },
-  "duration" : 1,
-  "groups" : [ "compressor", "pixeldecompress" ]
-}

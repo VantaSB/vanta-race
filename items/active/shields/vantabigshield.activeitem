@@ -1,21 +1,21 @@
 {
-  "itemName" : "nightarbigshield",
+  "itemName" : "vantabigshield",
   "level" : 6,
   "price" : 1200,
   "maxStack" : 1,
   "rarity" : "legendary",
   "category" : "shield",
   "description" : "A larger shield, usually issued to advanced fighters.",
-  "shortdescription" : "^cyan;Large Nightar Shield^reset;",
+  "shortdescription" : "Large Vanta Shield",
   "tooltipKind" : "Shield",
   "twoHanded" : false,
   "itemTags" : ["shield"],
 
-  "inventoryIcon" : "images/nightarshield/nightarbigshield.png:nearidle",
+  "inventoryIcon" : "images/vantashield/vantabigshield.png:nearidle",
 
   "animation" : "shield.animation",
   "animationParts" : {
-    "shield" : "images/nightarshield/nightarbigshield.png"
+    "shield" : "images/vantashield/vantabigshield.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -38,7 +38,7 @@
   "perfectBlockTime" : 0.2,
 
   "knockback" : 10,
-  
+
   "stances" : {
     "idle" : {
       "armRotation" : -90,

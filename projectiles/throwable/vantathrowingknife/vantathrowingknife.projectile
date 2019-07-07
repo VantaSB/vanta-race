@@ -1,6 +1,6 @@
 {
-  "projectileName" : "nightarthrowingknife",
-  "image" : "nightarthrowingknife.png",
+  "projectileName" : "vantathrowingknife",
+  "image" : "vantathrowingknife.png",
   "animationCycle" : 0.25,
   "physics" : "grenade",
   "frameNumber" : 1,

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkcrystal", "count" : 8 },
-    { "item" : "solariumstar", "count" : 8 }
-  ],
-  "output" : { "item" : "yosamu", "count" : 1 },
-  "groups" : [ "nightaranvil", "weapons", "all" ]
-}

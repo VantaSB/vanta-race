@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "azuriteore", "count" : 2 }
-  ],
-  "output" : { "item" : "azuritebar", "count" : 1 },
-  "groups" : [ "craftingfurnace3", "bars", "all" ]
-}

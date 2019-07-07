@@ -3,7 +3,7 @@
   "price" : 2000,
   "category" : "craftingMaterial",
   "rarity" : "legendary",
-  "inventoryIcon" : "exoticlegs.png",
+  "inventoryIcon" : "exoticcomponent2.png",
   "description" : "Used for crafting augmentable leg armor.",
   "shortdescription" : "Leg Armor Component",
   "itemTags" : [ "reagent" ]

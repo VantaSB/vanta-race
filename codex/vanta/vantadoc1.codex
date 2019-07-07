@@ -5,13 +5,13 @@
   "description" : "Written by an adventurer who lived among the Vanta",
   "icon" : "vantadocfile.png",
   "contentPages" : [
-    "To understand the Vanta, you first have to understand the Nightars. Strictly from a biological standpoint, there is one exception that separates the Vanta from their Nightar origins: natural light. While anathema to Nightars, the Vanta still prefer living in the shadows, but don't suffer anywhere near as much, if at all, from being exposed to natural light as the Nightars do.",
+    "To understand the Vanta, you first have to understand the Nightars. Strictly from a biological standpoint, there is only one distinction that separates the Vanta from their Nightar origins: natural light. While considered to be anathema to Nightars, the Vanta still prefer living in the shadows, but don't suffer anywhere near as much, if at all, from being exposed to natural light as the Nightars do.",
 
     "From this, we can conclude that this is a fairly recent evolutionary branch of the Nightar species. Culturally speaking, the Nightar are still mired in tradition and very brutal rites of passage akin to what you would see in the humans' history of medieval/imperial times. The key difference here, however, is that while the Nightars shun the light and embrace darkness, the Vanta have learned to embrace both, giving them an edge over their biological predecessors.",
 
-    "Culturally speaking, while they still maintain a stance of privacy, they are considerably more sociable than any Nightar. They have even embraced a more technological standpoint, breaking away from the dogmatic tenets that all Nightars are bound to. This, of course, has earned them the ire of the Nightar society at-large, and the Vanta have all but been disavowed as \"true\" Nightars. This has not stopped their current, cultural evolution, however.",
+    "Culturally, they still maintain a stance of privacy, yet they are also considerably more sociable than any Nightar. They have even embraced a more technological standpoint, breaking away from the dogmatic tenets that all Nightars are bound to. This, of course, has earned them the ire of the Nightar society at-large, and the Vanta have all but been disavowed as \"true\" Nightars.",
 
-    "Additionally, their combat prowess overall has begun to catch up to the rest of the world. While the Nightars specialize primarily in melee strategies, the Vanta have started to realize the potential of ranged combat, giving them even more of an edge in battle. Lately, many Vanta have been seen integrating with other settlements, large and small, sharing their knowledge and embracing what they receive. They are truly something to behold."
+    "Additionally, their combat prowess overall has begun to catch up to the rest of the known universe. While the Nightars specialize primarily in melee strategies, the Vanta have started to realize the potential of ranged combat, giving them even more of an edge in battle. Lately, the Vanta have been slowly integrating with other settlements, large and small, sharing their knowledge and embracing what they receive. They are truly something to behold."
   ],
     "itemConfig" : {
     "rarity" : "legendary",

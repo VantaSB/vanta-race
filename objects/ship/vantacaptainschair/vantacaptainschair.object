@@ -1,0 +1,58 @@
+{
+  "objectName" : "vantacaptainschair",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+
+  "description" : "ENGAGE!",
+  "shortdescription" : "Vanta Captain's Chair",
+  "race" : "vanta",
+  "category" : "furniture",
+
+  "apexDescription" : "Ahh... Sweet freedom. I can use the ship's navigator from this chair.",
+  "avianDescription" : "The Captain's chair. That's me! I can use the ship's navigator from this chair.",
+  "floranDescription" : "Best chair on ship. Floran can sit here to ussse navigator and fly ship!",
+  "glitchDescription" : "Excited. Sitting on the Captain's chair allows me to fly this ship. Where to next?",
+  "humanDescription" : "The Captain's chair. The person sitting here decides where the ship goes!",
+  "hylotlDescription" : "Sitting on the Captain's chair allows me to fly this ship.",
+  "novakidDescription" : "The Captain's chair. The guy who sits here decides where the ship goes! That's me!",
+
+
+  "inventoryIcon" : "vantacaptainschairicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vantacaptainschair.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantacaptainschairlit.png:<color>.<frame>" } ],
+	  "frames" : 5,
+      "animationCycle" : 0.8,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "sitPosition" : [0, 23],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "vantacaptainschair.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantacaptainschairlit.png:<color>.<frame>" } ],
+	  "frames" : 5,
+      "animationCycle" : 0.8,
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "sitPosition" : [4, 23],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/cockpit/cockpit.config",
+
+  "sitFlipDirection" : false,
+  "soundEffect" : "/sfx/objects/shipengine.ogg",
+  "soundEffectRadius" : 1000
+}

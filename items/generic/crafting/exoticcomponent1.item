@@ -3,7 +3,7 @@
   "price" : 2000,
   "category" : "craftingMaterial",
   "rarity" : "legendary",
-  "inventoryIcon" : "exoticchest.png",
+  "inventoryIcon" : "exoticcomponent1.png",
   "description" : "Used for crafting augmentable chest armor.",
   "shortdescription" : "Chest Armor Component",
   "itemTags" : [ "reagent" ]

@@ -1,0 +1,45 @@
+{
+  "objectName" : "nightarbookcase",
+  "colonyTags" : ["nightar","valuable","storage","knowledge"],
+  "rarity" : "legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  
+  "description" : "A bookcase... let's find out what nightars read.",
+  "shortdescription" : "Vanta Bookcase",
+  "race" : "nightar",
+  "category" : "decorative",
+  "price" : 200,
+  "health" : 1.5,
+
+  "apexDescription" : "A Vanta bookcase.",
+  "avianDescription" : "I'll bet the Vantas have a lot of interesting things to read.",
+  "floranDescription" : "A Vanta bookcasse with lots of bookss, floran hatess to read.",
+  "glitchDescription" : "Observant. Vantas sure did like to read.",
+  "humanDescription" : "A Vanta bookcase. Perhaps knights are avid readers.",
+  "hylotlDescription" : "This bookcase is expertly crafted.",
+  "novakidDescription" : "Surely knights ain't got much time for readin'?",
+
+    "inventoryIcon" : "nightarbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "nightarbookcase.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
+

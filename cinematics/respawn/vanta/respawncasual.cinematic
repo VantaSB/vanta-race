@@ -93,7 +93,7 @@
    {
       "drawables" : [
         {
-          "image" : "/cinematics/respawn/nightar/layer1.png:<frame>"
+          "image" : "/cinematics/respawn/vanta/layer1.png:<frame>"
         }
       ],
       "keyframes" : [
@@ -160,7 +160,7 @@
     {
       "drawables" : [
         {
-          "image" : "/cinematics/respawn/nightar/layer2.png:<frame>"
+          "image" : "/cinematics/respawn/vanta/layer2.png:<frame>"
         }
       ],
       "keyframes" : [

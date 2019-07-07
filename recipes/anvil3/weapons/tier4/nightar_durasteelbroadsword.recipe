@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 10 }
-  ],
-  "output" : { "item" : "nightar_durasteelbroadsword", "count" : 1 },
-  "groups" : [ "craftinganvil3", "weapons", "all" ]
-}

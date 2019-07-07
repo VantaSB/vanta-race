@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "tungstenbar", "count" : 4 }
-
-  ],
-  "duration" : 5,
-  "output" : { "item" : "nightar_tungstenbroadsword", "count" : 1 },
-  "groups" : [ "craftinganvil1", "weapons", "all" ]
-}

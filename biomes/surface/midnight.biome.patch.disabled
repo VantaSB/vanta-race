@@ -9,7 +9,7 @@
       "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
 
       "type" : "microdungeon",
-      "microdungeons" : [ "nightarbits" ]
+      "microdungeons" : [ "vantabits" ]
     }
   }
 ]

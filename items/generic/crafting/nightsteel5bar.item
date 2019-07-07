@@ -1,0 +1,10 @@
+{
+  "itemName" : "nightsteel5bar",
+  "price" : 0,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "nightsteel.png",
+  "description" : "A bar of Grade V Vanta Nightsteel.",
+  "shortdescription" : "Grade V Nightsteel",
+  "itemTags" : [ "reagent" ]
+}

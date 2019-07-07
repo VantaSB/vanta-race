@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "tungstenore", "count" : 25 }
-
-  ],
-  "duration" : 5,
-  "output" : { "item" : "nightarthrowingknife", "count" : 10 },
-  "groups" : [ "craftinganvil1", "weapons", "all" ]
-}

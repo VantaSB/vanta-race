@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedviolium", "count" : 6 },
-    { "item" : "canvas", "count" : 1 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "nightartier5separatorhead", "count" : 1 },
-  "groups" : [ "craftingseparator", "armours", "all" ]
-}

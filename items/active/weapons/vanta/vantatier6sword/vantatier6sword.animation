@@ -103,7 +103,7 @@
     "swoosh" : {}
   },
 
-  "particleEmitters" : {
+  /*"particleEmitters" : {
     "physicalswoosh" : {
       "active" : false,
       "transformationGroups" : ["swoosh"],
@@ -254,7 +254,7 @@
         }
       ]
     }
-  },
+  },*/
 
   "lights" : {
     "glow" : {
