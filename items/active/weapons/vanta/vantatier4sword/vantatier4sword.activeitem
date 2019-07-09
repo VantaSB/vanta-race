@@ -31,7 +31,7 @@
     "baseDps" : 11.5
   },
 
-  "altAbilityType" : "bladecharge",
+  "altAbilityType" : "travelingslash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

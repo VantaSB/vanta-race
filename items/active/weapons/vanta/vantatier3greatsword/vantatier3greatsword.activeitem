@@ -30,7 +30,7 @@
     "baseDps" : 11.6
   },
 
-  "altAbilityType" : "bladecharge",
+  "altAbilityType" : "greatwave",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

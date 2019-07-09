@@ -31,7 +31,7 @@
     "baseDps" : 10.82
   },
 
-  "altAbilityType" : "risingslash",
+  "altAbilityType" : "parry",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
