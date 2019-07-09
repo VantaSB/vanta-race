@@ -1,11 +1,11 @@
 {
-  "itemName" : "vantaplatform",
+  "itemName" : "nightarplatform",
   "price" : 50,
   "category" : "platform",
   "rarity" : "Common",
-  "inventoryIcon" : "vantaplatformicon.png",
+  "inventoryIcon" : "nightarplatformicon.png",
   "description" : "A strong platform of Nightar origin.",
-  "shortdescription" : "Vanta Platform",
+  "shortdescription" : "Nightar Platform",
 
   "materialId" : 3212
 }

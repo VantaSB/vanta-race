@@ -1,16 +1,16 @@
 {
   "materialId" : 3212,
-  "materialName" : "vantaplatform",
+  "materialName" : "nightarplatform",
   "collisionKind" : "platform",
-  "itemDrop" : "vantaplatform",
-  "shortdescription" : "Vanta Platform",
+  "itemDrop" : "nightarplatform",
+  "shortdescription" : "Nightar Platform",
   "description" : "A strong platform made of unknown materials.",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
   "category" : "Supports",
 
   "renderTemplate" : "/tiles/platformtemplate.config",
   "renderParameters" : {
-    "texture" : "vantaplatform.png",
+    "texture" : "nightarplatform.png",
     "variants" : 1,
     "lightTransparent" : true,
     "occludesBelow" : false,

@@ -1,11 +1,11 @@
 {
-  "itemName" : "vantawall1",
+  "itemName" : "nightarwall1",
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "vantawall1icon.png",
+  "inventoryIcon" : "nightarwall1icon.png",
   "description" : "Concrete originating from Nightar specifications.",
-  "shortdescription" : "Vanta Concrete",
+  "shortdescription" : "Nightar Concrete",
 
   "materialId" : 3210
 }

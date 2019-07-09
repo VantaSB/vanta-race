@@ -1,17 +1,17 @@
 {
   "materialId" : 3209,
-  "materialName" : "vantatechblock",
+  "materialName" : "nightartechblock",
   "particleColor" : [149, 149, 149, 255],
-  "itemDrop" : "vantatechblock",
-  "shortdescription" : "Vanta Tech Block",
-  "description" : "Vanta tech-infused blocks.",
+  "itemDrop" : "nightartechblock",
+  "shortdescription" : "Nightar Tech Block",
+  "description" : "Nightar tech-infused blocks.",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "vantatechblock.png",
+    "texture" : "nightartechblock.png",
     "variants" : 5,
     "lightTransparent" : false,
     "multiColored" : true,

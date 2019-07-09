@@ -1,11 +1,11 @@
 {
-  "itemName" : "vantasupport1",
+  "itemName" : "nightarsupport1",
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "vantasupport1icon.png",
+  "inventoryIcon" : "nightarsupport1icon.png",
   "description" : "A reinforced support beam.",
-  "shortdescription" : "Vantas Support Beam",
+  "shortdescription" : "Nightars Support Beam",
 
   "materialId" : 3207
 }

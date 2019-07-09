@@ -1,11 +1,11 @@
 {
-  "itemName" : "vantasupport2",
+  "itemName" : "nightarsupport2",
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "vantasupport2icon.png",
+  "inventoryIcon" : "nightarsupport2icon.png",
   "description" : "Reinforced baseboarding.",
-  "shortdescription" : "Vantas Ship Details",
+  "shortdescription" : "Nightars Ship Details",
 
   "materialId" : 3208
 }

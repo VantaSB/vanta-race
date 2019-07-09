@@ -1,21 +1,21 @@
 {
-  "materialId" : 3210,
-  "materialName" : "vantawall1",
+  "materialId" : 3211,
+  "materialName" : "nightarwall2",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "vantawall1",
-  "description" : "Concrete made of unknown materials.",
-  "shortdescription" : "Vanta Concrete",
+  "itemDrop" : "nightarwall2",
+  "description" : "A black wall infused with some Nightar technology.",
+  "shortdescription" : "Nightar Tech Wall",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "vantawall1.png",
+    "texture" : "nightarwall2.png",
     "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 2690
+    "zLevel" : 2790
   }
 }

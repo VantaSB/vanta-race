@@ -1,21 +1,21 @@
 {
-  "materialId" : 3211,
-  "materialName" : "vantawall2",
+  "materialId" : 3203,
+  "materialName" : "nightarfloor",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "vantawall2",
-  "description" : "A black wall infused with some Vanta technology.",
-  "shortdescription" : "Vanta Tech Wall",
+  "itemDrop" : "nightarfloor",
+  "description" : "Traditional Nightar flooring.",
+  "shortdescription" : "Nightar Flooring",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "vantawall2.png",
-    "variants" : 5,
+    "texture" : "nightarfloor.png",
+    "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 2790
+    "zLevel" : 3000
   }
 }

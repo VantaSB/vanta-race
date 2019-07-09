@@ -1,11 +1,11 @@
 {
-  "itemName" : "vantapanelblock",
+  "itemName" : "nightarpanelblock",
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "vantapanelblockicon.png",
+  "inventoryIcon" : "nightarpanelblockicon.png",
   "description" : "Panelling of Nightar origin.",
-  "shortdescription" : "Vanta Paneling",
+  "shortdescription" : "Nightar Paneling",
 
   "materialId" : 3204
 }

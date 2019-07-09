@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightartechblock",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightartechblockicon.png",
+  "description" : "Nightar tech-infused blocks.",
+  "shortdescription" : "Nightar Tech Block",
+
+  "materialId" : 3209
+}

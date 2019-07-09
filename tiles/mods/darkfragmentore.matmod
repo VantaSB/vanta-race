@@ -1,6 +1,6 @@
 {
   "modId" : 3215,
-  "modName" : "darkfrag",
+  "modName" : "darkfragmentore",
   "itemDrop" : "darkfragmentore",
   "description" : "Dark Fragment",
   "health" : 5,
@@ -12,7 +12,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "darkfrag.png",
+    "texture" : "darkfragmentore.png",
     "variants" : 8,
     "multiColored" : false,
     "zLevel" : 0,

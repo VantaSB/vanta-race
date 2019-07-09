@@ -1,11 +1,11 @@
 {
-  "itemName" : "vantapillarblock",
+  "itemName" : "nightarpillarblock",
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "vantapillarblockicon.png",
+  "inventoryIcon" : "nightarpillarblockicon.png",
   "description" : "A high-tech pillar.",
-  "shortdescription" : "Vanta Pillar",
+  "shortdescription" : "Nightar Pillar",
 
   "materialId" : 3205
 }

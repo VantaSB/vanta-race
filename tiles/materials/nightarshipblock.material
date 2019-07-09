@@ -1,17 +1,17 @@
 {
   "materialId" : 3206,
-  "materialName" : "vantashipblock",
+  "materialName" : "nightarshipblock",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "vantashipblock",
-  "description" : "Panelling used in Vanta ships.",
-  "shortdescription" : "Vanta Ship Block",
+  "itemDrop" : "nightarshipblock",
+  "description" : "Panelling used in Nightar ships.",
+  "shortdescription" : "Nightar Ship Block",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "vantashipblock.png",
+    "texture" : "nightarshipblock.png",
     "variants" : 10,
     "lightTransparent" : false,
     "occludesBelow" : true,

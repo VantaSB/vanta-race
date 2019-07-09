@@ -1,11 +1,11 @@
 {
-  "itemName" : "vantablock2",
+  "itemName" : "nightarblock2",
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "vantablock2icon.png",
+  "inventoryIcon" : "nightarblock2icon.png",
   "description" : "A white block of Nightar origin.",
-  "shortdescription" : "Vanta White Block",
+  "shortdescription" : "Nightar White Block",
 
   "materialId" : 3202
 }

@@ -1,0 +1,134 @@
+{
+  "margin" : 0,
+  "name" : "nightar/materials",
+  "properties" : {},
+  "spacing" : 0,
+  "tilecount" : 17,
+  "tileheight" : 16,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "A black block made of unknown materials.",
+      "//name" : "nightarblock1",
+      "//shortdescription" : "Nightar Black Block",
+      "material" : "nightarblock1"
+    },
+
+    "1" : {
+      "//description" : "A white block made of unknown materials.",
+      "//name" : "nightarblock2",
+      "//shortdescription" : "Nightar White Block",
+      "material" : "nightarblock2"
+    },
+
+    "10" : {
+      "//description" : "Traditional Nightar flooring.",
+      "//name" : "nightarfloor",
+      "//shortdescription" : "Nightar Floor",
+      "material" : "nightarfloor"
+    },
+
+    "2" : {
+      "//description" : "Panelling made of unknown materials.",
+      "//name" : "nightarpanelblock",
+      "//shortdescription" : "Nightar Panelling",
+      "material" : "nightarpanelblock"
+    },
+
+    "3" : {
+      "//description" : "A high-tech pillar.",
+      "//name" : "nightarpillarblock",
+      "//shortdescription" : "Nightar Pillar",
+      "material" : "nightarpillarblock"
+    },
+
+    "4" : {
+      "//description" : "Panelling used in Nightar ships.",
+      "//name" : "nightarshipblock",
+      "//shortdescription" : "Nightar Ship Wall",
+      "material" : "nightarshipblock"
+    },
+
+    "5" : {
+      "//description" : "A reinforced support beam made of unknown materials.",
+      "//name" : "nightarsupport1",
+      "//shortdescription" : "Nightar Support Beam",
+      "material" : "nightarsupport1"
+    },
+
+    "6" : {
+      "//description" : "Reinforced baseboarding made of unknown materials.",
+      "//name" : "nightarsupport2",
+      "//shortdescription" : "Nightar Ship Details",
+      "material" : "nightarsupport2"
+    },
+
+    "7" : {
+      "//description" : "Nightar tech-infused blocks.",
+      "//name" : "nightartechblock",
+      "//shortdescription" : "Nightar Tech Block",
+      "material" : "nightartechblock"
+    },
+
+    "8" : {
+      "//description" : "Concrete made of unknown materials.",
+      "//name" : "nightarwall1",
+      "//shortdescription" : "Nightar Concrete",
+      "material" : "nightarwall1"
+    },
+
+    "9" : {
+      "//description" : "A black wall infused with some Nightar technology.",
+      "//name" : "nightarwall2",
+      "//shortdescription" : "Nightar Tech Wall",
+      "material" : "nightarwall2"
+    }
+  },
+
+  "tiles" : {
+    "0" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarblock1.png"
+    },
+
+    "1" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarblock2.png"
+    },
+
+    "10" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarfloor.png"
+    },
+
+    "2" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarpanelblock.png"
+    },
+
+    "3" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarpillarblock.png"
+    },
+
+    "4" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarshipblock.png"
+    },
+
+    "5" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarsupport1.png"
+    },
+
+    "6" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarsupport2.png"
+    },
+
+    "7" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightartechblock.png"
+    },
+
+    "8" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarwall1.png"
+    },
+
+    "9" : {
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarwall2.png"
+    }
+  },
+
+  "tilewidth" : 16
+}

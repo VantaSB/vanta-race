@@ -1,11 +1,11 @@
 {
-  "itemName" : "vantawall2",
+  "itemName" : "nightarwall2",
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "vantawall2icon.png",
+  "inventoryIcon" : "nightarwall2icon.png",
   "description" : "Wall material infused with some Nightar technology.",
-  "shortdescription" : "Vanta Tech Wall",
+  "shortdescription" : "Nightar Tech Wall",
 
   "materialId" : 3211
 }

@@ -1,21 +1,21 @@
 {
-  "materialId" : 3203,
-  "materialName" : "vantafloor",
+  "materialId" : 3202,
+  "materialName" : "nightarblock2",
   "particleColor" : [110, 110, 110, 255],
-  "itemDrop" : "vantafloor",
-  "description" : "Traditional Vanta flooring.",
-  "shortdescription" : "Vanta Flooring",
+  "itemDrop" : "nightarblock2",
+  "description" : "A white block made of unknown materials.",
+  "shortdescription" : "Nightar White Block",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 20,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "vantafloor.png",
-    "variants" : 1,
+    "texture" : "nightarblock2.png",
+    "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 3000
+    "zLevel" : 2690
   }
 }

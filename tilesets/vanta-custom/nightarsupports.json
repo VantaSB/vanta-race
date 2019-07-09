@@ -1,6 +1,6 @@
 {
   "margin" : 0,
-  "name" : "vanta/supports",
+  "name" : "nightar/supports",
   "properties" : {},
   "spacing" : 0,
   "tilecount" : 1,
@@ -8,15 +8,15 @@
   "tileproperties" : {
     "0" : {
       "//description" : "A strong platform made of unknown materials.",
-      "//name" : "vantaplatform",
-      "//shortdescription" : "Vanta Platform",
-      "material" : "vantaplatform"
+      "//name" : "nightarplatform",
+      "//shortdescription" : "Nightar Platform",
+      "material" : "nightarplatform"
     }
   },
 
   "tiles" : {
     "0" : {
-      "image" : "./../../../../tiled/vanta-custom/materials/vantaplatform.png"
+      "image" : "./../../../../tiled/nightar-custom/materials/nightarplatform.png"
     }
   },
 
