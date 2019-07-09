@@ -28,16 +28,6 @@
           "transformationGroups" : ["weapon"]
         }
       },
-	  "middleFullbright" : {
-        "properties" : {
-		  "zLevel" : 1,
-          "centered" : true,
-		  "fullbright" : true,
-          "image" : "<partImage><paletteSwaps>",
-          "offset" : [0.5, 0.125], // x offset is set dynamically
-          "transformationGroups" : ["weapon"]
-        }
-      },
       "muzzleFlash" : {
         "properties" : {
           "zLevel" : -1,

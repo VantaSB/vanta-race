@@ -5,11 +5,11 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "A worn-out sidearm. Still useful against smaller enemies.",
-  "shortdescription" : "Vanta Sidearm",
+  "shortdescription" : "Weathered Sidearm",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
   "twoHanded" : false,
-  "itemTags" : [ "pistol", "weapon", "ranged", "upgradeableWeapon" ],
+  "itemTags" : [ "pistol", "weapon", "ranged" ],
 
   "inventoryIcon" : "vantahandgun.png",
 

@@ -8,7 +8,7 @@
   "shortdescription" : "Vanta Iron Spatha",
   "tooltipKind" : "sword",
   "category" : "shortsword",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "itemTags" : ["weapon","melee","shortsword"],
 
   "inventoryIcon" : "vantatier1sword.png",
@@ -29,6 +29,8 @@
     "fireTime" : 0.84,
     "baseDps" : 11.6
   },
+
+  "altAbilityType" : "flipslash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

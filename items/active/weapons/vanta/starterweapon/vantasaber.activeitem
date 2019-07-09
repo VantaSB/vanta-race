@@ -23,7 +23,7 @@
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "electric",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
@@ -31,7 +31,7 @@
     "baseDps" : 10.82
   },
 
-  "altAbilityType" : "risingslash",
+  "altAbilityType" : "blinkslash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
