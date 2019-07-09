@@ -18,7 +18,7 @@
     "sword" : "empowerednoxcalibur.png",
     "swordfullbright" : "empowerednoxcaliburfullbright.png"
   },
-  "animationCustom" : { }, //"handPosition" : [13, 73]
+  "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/vanta/noxcalibur/empowerednoxcalibur.lua"],
 
