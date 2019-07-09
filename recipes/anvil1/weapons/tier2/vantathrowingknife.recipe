@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "vantathrowingknife", "count" : 10 },
-  "groups" : [ "craftinganvil1", "weapons", "all" ]
+  "groups" : [ "craftinganvil", "weapons", "all" ]
 }

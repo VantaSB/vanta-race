@@ -4,6 +4,7 @@
     { "item" : "scorchedcore", "count" : 10 },
     { "item" : "darkfragmentore", "count" : 5 }
   ],
+  "duration" : 5,
   "output" : { "item" : "stealthdaggerf", "count" : 1 },
   "groups" : [ "craftinganvil3", "weapons", "all" ]
 }

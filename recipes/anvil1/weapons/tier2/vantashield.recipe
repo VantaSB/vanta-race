@@ -5,5 +5,5 @@
   ],
   "duration" : 10,
   "output" : { "item" : "vantashield", "count" : 1 },
-  "groups" : [ "craftinganvil1", "weapons", "all" ]
+  "groups" : [ "craftinganvil", "weapons", "all" ]
 }

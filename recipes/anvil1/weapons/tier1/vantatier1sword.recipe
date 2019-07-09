@@ -4,5 +4,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "vantatier1sword", "count" : 1 },
-  "groups" : [ "craftinganvil1", "weapons", "all" ]
+  "groups" : [ "craftinganvil", "weapons", "all" ]
 }

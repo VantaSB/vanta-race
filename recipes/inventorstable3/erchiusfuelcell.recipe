@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "erchiusfuelcell", "count" : 1 },
-  "groups" : [ "inventorstable", "craftingstations", "all" ]
+  "groups" : [ "inventorstable3", "craftingstations", "all" ]
 }

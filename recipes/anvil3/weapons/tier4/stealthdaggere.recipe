@@ -4,6 +4,7 @@
     { "item" : "staticcell", "count" : 10 },
     { "item" : "darkfragmentore", "count" : 5 }
   ],
+  "duration" : 5,
   "output" : { "item" : "stealthdaggere", "count" : 1 },
   "groups" : [ "craftinganvil3", "weapons", "all" ]
 }

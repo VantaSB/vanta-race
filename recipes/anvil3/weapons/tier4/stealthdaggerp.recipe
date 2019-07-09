@@ -4,6 +4,7 @@
     { "item" : "venomsample", "count" : 10 },
     { "item" : "darkfragmentore", "count" : 5 }
   ],
+  "duration" : 5,
   "output" : { "item" : "stealthdaggerp", "count" : 1 },
   "groups" : [ "craftinganvil3", "weapons", "all" ]
 }
