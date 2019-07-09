@@ -7,7 +7,7 @@
   "category" : "headarmorAug",
   "description" : "The design of the Queenbreaker helmet was used to intimidate enemies during imperial times.",
   "shortdescription" : "^cyan;Queenbreaker Helm EX^reset;",
-  "tooltipKind" : "armorugment",
+  "tooltipKind" : "armoraugment",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
