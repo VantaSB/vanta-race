@@ -16,7 +16,7 @@
   "animation" : "jackal.animation",
   "animationParts" : {
     "middle" : "jackal.png",
-    "middleFullbright" : "jackalfullbright",
+    "middleFullbright" : "jackalfullbright.png",
     "muzzleFlash" : "muzzleflash.png"
   },
   "animationCustom" : {

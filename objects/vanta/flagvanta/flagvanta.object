@@ -8,6 +8,7 @@
   "race" : "vanta",
   "category" : "teleportMarker",
   "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
 
   "apexDescription" : "I can use this battle standard as a waypoint for teleportation.",
   "avianDescription" : "This battle standard can be bookmarked as a destination for my ship teleporter.",
@@ -16,6 +17,9 @@
   "humanDescription" : "A battlefield flag. I can use this to bookmark this location for the teleporter.",
   "hylotlDescription" : "This battle standard can act as a way point, enabling me to return to this location at any time.",
   "novakidDescription" : "I can bookmark this Vanta battle standard for quick teleportin'.",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
 
   "inventoryIcon" : "flagvanta.png",
   "orientations" : [

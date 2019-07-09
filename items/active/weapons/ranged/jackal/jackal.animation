@@ -28,11 +28,11 @@
           "transformationGroups" : ["weapon"]
         }
       },
-	  "middleFullbright" : {
+	    "middleFullbright" : {
         "properties" : {
-		  "zLevel" : 1,
+          "zLevel" : 1,
           "centered" : true,
-		  "fullbright" : true,
+		      "fullbright" : true,
           "image" : "<partImage><paletteSwaps>",
           "offset" : [0.5, 0.125], // x offset is set dynamically
           "transformationGroups" : ["weapon"]
