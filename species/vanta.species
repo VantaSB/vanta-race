@@ -66,9 +66,9 @@
       { "item" : "vantatier5schest" },
       { "item" : "vantatier5spants" },
 
-      //{ "item" : "vantatier6acceleratorhead" },
-      //{ "item" : "vantatier6acceleratorchest" },
-      //{ "item" : "vantatier6acceleratorpants" },
+      { "item" : "vantatier6ahead" },
+      { "item" : "vantatier6achest" },
+      { "item" : "vantatier6apants" },
 
       { "item" : "vantatier6mhead" },
       { "item" : "vantatier6mchest" },
