@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "A worn-out sidearm. Still useful against smaller enemies.",
-  "shortdescription" : "Broken Sidarm",
+  "shortdescription" : "Vanta Sidearm",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
   "twoHanded" : false,
