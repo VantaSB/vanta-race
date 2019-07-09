@@ -1,0 +1,51 @@
+{
+  "itemName" : "vantatier6achest",
+  "price" : 6400,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "chestarmour",
+  "description" : "Inspired by an equally elusive race as the Vanta, the Pegasolta chest armor will keep you warm.",
+  "shortdescription" : "Pegasolta Chestplate",
+  "tooltipKind" : "armor",
+
+  "learnBlueprintsOnPickup" : [ "vantatier6achestaug" ],
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ]
+}
