@@ -17,8 +17,8 @@
     "tier1" : [
 
 // Empty Hands
-      //{ "item" : "flagvanta" },
-	    //{ "item" : "ranscastle" },
+      //{ "item" : "ranscastle" },
+      { "item" : "flagvanta" },
 	    { "item" : "emptyhead"},
 
 // Inventor's Table 1
@@ -32,6 +32,7 @@
       { "item" : "vantatier2chest" },
       { "item" : "vantatier2pants" },
 
+      { "item" : "vantasaber" },
       { "item" : "vantatier1sword" },
       { "item" : "vantatier2broadsword" },
       { "item" : "vantatier2kilij" },
