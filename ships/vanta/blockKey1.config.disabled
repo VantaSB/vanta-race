@@ -18,40 +18,11 @@
       "backgroundBlock" : true
     },
 
-	{
-	  "value" :[102, 117, 164, 255],
-	  "foregroundBlock" : false,
-	  "backgroundBlock" : true,
-	  "backgroundMat" : "apexshipsupport"
-	},
-
-	{
-	  "value" : [133, 159, 207, 255],
-	  "foregroundBlock" : false,
-	  "backgroundBlock" : true,
-	  "backgroundMat" : "apexshipdetails"
-	},
-
-	{
-	  "value" : [79, 159, 207, 255],
-	  "foregroundBlock" : false,
-	  "backgroundBlock" : true,
-	  "backgroundMat" : "apexshipwall"
-	},
-
-	{
-      "value" : [192, 192, 128, 255],
-      "foregroundBlock" : false,
-      "backgroundBlock" : true,
-      "backgroundMat" : "apexshipdetails",
-      "object" : "apexshiplight"
-    },
-
     {
       "value" : [0, 255, 0, 255],
       "foregroundBlock" : false,
       "backgroundBlock" : true,
-      "backgroundMat" : "apexshipwall",
+      "backgroundMat" : "vantawall1",
       "flags" : [ "shipLockerPosition" ],
       "object" : "vantashiplocker",
       "objectParameters" : {
@@ -66,7 +37,7 @@
       "value" : [0, 128, 0, 255],
       "foregroundBlock" : false,
       "backgroundBlock" : true,
-      "backgroundMat" : "apexshipwall",
+      "backgroundMat" : "vantawall1",
       "object" : "vantashiplocker",
       "objectParameters" : {
         "unbreakable" : true
@@ -77,7 +48,7 @@
       "value" : [142, 255, 142, 255],
       "foregroundBlock" : false,
       "backgroundBlock" : true,
-      "backgroundMat" : "apexshipwall",
+      "backgroundMat" : "vantawall1",
       "object" : "vantatechstation",
       "objectParameters" : {
         "unbreakable" : true
@@ -102,38 +73,17 @@
       "object" : "vantafuelhatch",
       "objectParameters" : {
         "unbreakable" : true
-      }
+      },
+      "objectResidual" : true
     },
 
     {
       "value" : [255, 255, 0, 255],
       "foregroundBlock" : false,
       "backgroundBlock" : true,
-      "backgroundMat" : "apexshipdetails",
-      "object" : "apexshiplight"
-    },
-
-    {
-      "value" : [191, 191, 0, 255],
-      "foregroundBlock" : false,
-      "backgroundBlock" : true,
-      "backgroundMat" : "apexshipdetails",
-      "object" : "apexshiplightBroken",
-      "objectParameters" : {
-        "unbreakable" : true
-      }
-    },
-
-    {
-      "value" : [128, 128, 0, 255],
-      "foregroundBlock" : false,
-      "backgroundBlock" : true,
-      "backgroundMat" : "apexshipdetails",
-      "object" : "apexshiplight",
-      "objectParameters" : {
-        "unbreakable" : true,
-        "defaultLightState" : false
-      }
+      "backgroundMat" : "vantasupport2",
+      "object" : "vantashiplight",
+      "objectResidual" : true
     },
 
     {
@@ -169,7 +119,7 @@
       "anchor" : true,
       "foregroundBlock" : false,
       "backgroundBlock" : true,
-      "backgroundMat" : "apexshipsupport",
+      "backgroundMat" : "vantasupport2",
       "object" : "vantashipteleporter",
       "flags" : [ "playerSpawn" ],
       "objectParameters" : {
@@ -182,8 +132,8 @@
       "anchor" : true,
       "foregroundBlock" : false,
       "backgroundBlock" : true,
-      "backgroundMat" : "apexshipsupport",
-      "object" : "vantashipteleporterTier0",
+      "backgroundMat" : "vantasupport2",
+      "object" : "vantashipteleporter",
       "flags" : [ "playerSpawn" ],
       "objectParameters" : {
         "unbreakable" : true
@@ -252,21 +202,35 @@
     },
 
     {
-      "value" : [255, 255, 144],
+      "value" : [255, 255, 144, 255],
       "foregroundBlock" : false,
       "backgroundBlock" : true,
-      "backgroundMat" : "apexshipwall"
+      "backgroundMat" : "vantawall1"
     },
 
     {
-      "value" : [255, 117, 144],
+      "value" : [255, 255, 170, 255],
       "foregroundBlock" : false,
       "backgroundBlock" : true,
-      "backgroundMat" : "apexshipdetails"
+      "backgroundMat" : "vantawall1"
     },
 
     {
-      "value" : [255, 255, 220],
+      "value" : [255, 255, 170],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "vantashipblock"
+    },
+
+    {
+      "value" : [255, 117, 144, 255],
+      "foregroundBlock" : false,
+      "backgroundBlock" : true,
+      "backgroundMat" : "vantasupport2"
+    },
+
+    {
+      "value" : [255, 255, 220, 255],
       "foregroundBlock" : true,
       "backgroundBlock" : false,
       "foregroundMat" : "hazard",
@@ -274,28 +238,35 @@
     },
 
     {
-      "value" : [255, 200, 220],
+      "value" : [255, 200, 220, 255],
       "foregroundBlock" : true,
       "backgroundBlock" : true,
       "foregroundMat" : "hazard",
       "foregroundResidual" : true,
-      "backgroundMat" : "apexshipdetails"
+      "backgroundMat" : "vantasupport2"
     },
 
     {
-      "value" : [255, 190, 190],
+      "value" : [255, 190, 190, 255],
       "foregroundBlock" : true,
       "backgroundBlock" : true,
       "foregroundMat" : "hazard",
       "foregroundResidual" : true,
-      "backgroundMat" : "apexshipdetails"
+      "backgroundMat" : "vantasupport2"
     },
 
     {
-      "value" : [255, 117, 255],
+      "value" : [255, 117, 255, 255],
       "foregroundBlock" : false,
       "backgroundBlock" : true,
-      "backgroundMat" : "apexshipsupport"
+      "backgroundMat" : "vantasupport1"
+    },
+
+    {
+      "value" : [76, 49, 91, 255],
+      "foregroundBlock" : true,
+      "backgroundBlock" : false,
+      "foregroundMat" : "vantaplatform"
     }
   ]
 }
