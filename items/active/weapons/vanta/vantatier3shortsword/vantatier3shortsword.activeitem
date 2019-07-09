@@ -16,7 +16,6 @@
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
   "animationParts" : {
     "handle": "vantatier3shortsword.png",
-    "handleFullbright" : "vantatier3shortswordlit.png",
     "blade" : ""
   },
   "animationCustom" : { },

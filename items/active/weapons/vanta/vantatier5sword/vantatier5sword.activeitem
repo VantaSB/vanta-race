@@ -13,7 +13,7 @@
 
   "inventoryIcon" : "vantatier5sword.png",
 
-  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animation" : "vantatier5sword.animation",
   "animationParts" : {
     "handle" : "vantatier5sword.png",
     "handleFullbright" : "vantatier5swordlit.png",
