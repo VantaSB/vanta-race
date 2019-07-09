@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "nightsteel7bar", "count" : 2 }
+    { "item" : "nightsteel7bar", "count" : 10 }
   ],
   "duration" : 10,
   "output" : { "item" : "exoticcomponent3", "count" : 1 },
