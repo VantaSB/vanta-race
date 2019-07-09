@@ -7,7 +7,7 @@
   "category" : "chestarmour",
   "description" : "Inspired by an equally elusive race as the Vanta, the Pegasolta chest armor will keep you warm.",
   "shortdescription" : "^cyan;Pegasolta Chestplate EX^reset;",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "armoraugment",
 
   "maleFrames" : {
     "body" : "chest.png",

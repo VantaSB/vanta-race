@@ -7,7 +7,7 @@
   "category" : "headarmour",
   "description" : "Taking a queue from the Apex, this helmet was modeled to be lightweight, durable, and regal.",
   "shortdescription" : "^cyan;Pegasolta Helm EX^reset;",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "armoraugment",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

@@ -6,7 +6,7 @@
   "rarity" : "Essential",
   "category" : "legarmorAug",
   "description" : "These heavy greaves were made to make a Queenbreaker's presence known.",
-  "shortdescription" : "^cyan;Queenbreaker Greaves EX^reset;",
+  "shortdescription" : "^cyan;Queenbreaker Flanchard EX^reset;",
   "tooltipKind" : "armoraugment",
 
   "maleFrames" : "pants.png",

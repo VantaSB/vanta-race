@@ -7,7 +7,7 @@
   "category" : "legarmour",
   "description" : "These tassets provide additional regality and protection to the Pegasolta set overall.",
   "shortdescription" : "^cyan;Pegasolta Tassets EX^reset;",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "armoraugment",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
