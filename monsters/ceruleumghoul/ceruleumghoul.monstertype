@@ -1,14 +1,14 @@
 {
-  "type" : "catgod",
-  "shortdescription" : "Cat God",
+  "type" : "ceruleumghoul",
+  "shortdescription" : "Ceruleum Ghoul",
   "description" : "Even when you think you killed him, he's still watching.",
 
-  "categories" : [ "catgod" ],
+  "categories" : [ "ceruleumghoul" ],
   "parts" : [ "body" ],
 
   "animation" : "catgod.animation",
 
-  "dropPools" : [ { "default" : "catgodTreasure", "bow" : "spookitHunting" } ],
+  "dropPools" : [ { "default" : "spookitTreasure", "bow" : "spookitHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
@@ -40,7 +40,7 @@
             "winddownTime" : 0,
             "winddownState" : "idle",
 
-            "invulnerableTime" : 0.5
+            "invulnerableTime" : 2
           }
         }
       ],
@@ -212,9 +212,9 @@
 
     "mouthOffset" : [0, 0],
     "feetOffset" : [0, -8],
-    "capturable" : true,
+    "capturable" : false/*,
     "captureHealthFraction" : 0.5,
     "nametagColor" : [64, 200, 255],
-    "captureCollectables" : { "monsters" : "catgod" }
+    "captureCollectables" : { "monsters" : "ceruleumghoul" }*/
   }
 }
