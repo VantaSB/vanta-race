@@ -1,11 +1,11 @@
 {
   "itemName" : "vantatier5mhead",
-  "price" : 3840,
+  "price" : 2880,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "headarmour",
-  "description" : "orange;TBD^reset;",
+  "description" : "Interestingly, Nightsteel allows for transparency from one side with the ability to remain opaque on the other side.",
   "shortdescription" : "Argent Marauder Helm",
   "tooltipKind" : "armor",
 

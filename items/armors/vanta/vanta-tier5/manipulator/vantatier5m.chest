@@ -1,11 +1,11 @@
 {
   "itemName" : "vantatier5mchest",
-  "price" : 500,
+  "price" : 4800,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "chestarmour",
-  "description" : "orange;TBD^reset;",
+  "description" : "Argent Marauders were known to be able to survive many hits to the torso thanks to their unique armor.",
   "shortdescription" : "Argent Marauder Chestplate",
   "tooltipKind" : "armor",
 
