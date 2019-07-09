@@ -6,7 +6,7 @@
   "categories" : [ "ceruleumghoul" ],
   "parts" : [ "body" ],
 
-  "animation" : "catgod.animation",
+  "animation" : "ceruleumghoul.animation",
 
   "dropPools" : [ { "default" : "spookitTreasure", "bow" : "spookitHunting" } ],
 

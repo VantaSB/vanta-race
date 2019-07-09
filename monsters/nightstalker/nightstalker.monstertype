@@ -1,14 +1,14 @@
 {
-  "type" : "voidloker",
-  "shortdescription" : "Voidloker",
+  "type" : "nightstalker",
+  "shortdescription" : "Nightstalker",
   "description" : "You're already dead.",
 
-  "categories" : [ "voidloker" ],
+  "categories" : [ "nightstalker" ],
   "parts" : [ "body" ],
 
-  "animation" : "voidloker.animation",
+  "animation" : "nightstalker.animation",
 
-  "dropPools" : [ { "default" : "voidlokerTreasure", "bow" : "orbideHunting" } ],
+  "dropPools" : [ { "default" : "orbideTreasure", "bow" : "orbideHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
@@ -232,10 +232,9 @@
 
     "mouthOffset" : [0, 0],
     "feetOffset" : [0, -8],
-    "capturable" : true,
-
+    "capturable" : false/*,
     "captureHealthFraction" : 0.5,
     "nametagColor" : [255, 100, 100],
-    "captureCollectables" : { "monsters" : "voidloker" }
+    "captureCollectables" : { "monsters" : "nightstalker" }*/
   }
 }
