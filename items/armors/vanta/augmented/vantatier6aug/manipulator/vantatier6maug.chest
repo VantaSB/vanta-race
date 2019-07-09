@@ -7,7 +7,7 @@
   "category" : "chestarmorAug",
   "description" : "Second only to the King Slayers, Queenbreaker soldiers were the most formidable.",
   "shortdescription" : "^cyan;Queenbreaker Mail EX^reset;",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "armoraugment",
 
   "maleFrames" : {
     "body" : "chest.png",

@@ -7,7 +7,7 @@
   "category" : "legarmorAug",
   "description" : "The Kingslayer's greaves are rugged enough to withstand the elements.",
   "shortdescription" : "^cyan;Kingslayer's Greaves EX^reset;",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "armorugment",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

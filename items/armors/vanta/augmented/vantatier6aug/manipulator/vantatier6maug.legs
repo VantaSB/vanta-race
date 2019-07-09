@@ -7,7 +7,7 @@
   "category" : "legarmorAug",
   "description" : "These heavy greaves were made to make a Queenbreaker's presence known.",
   "shortdescription" : "^cyan;Queenbreaker Greaves EX^reset;",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "armoraugment",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
