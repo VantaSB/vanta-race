@@ -1,0 +1,15 @@
+{
+  "itemName" : "ceruleumtechnicianhead",
+  "price" : 2500,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headwear",
+  "description" : "Compartmentalized analyzing gear for working in ceruleum fields.",
+  "shortdescription" : "C-Tech Faceplate",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png"
+}
