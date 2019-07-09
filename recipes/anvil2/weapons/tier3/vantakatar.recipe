@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 3 },
-    { "item" : "copperbar", "count" : 2 }
+    { "item" : "nightsteel3bar", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 2 }
   ],
   "duration" : 5,
   "output" : { "item" : "vantakatar", "count" : 1 },

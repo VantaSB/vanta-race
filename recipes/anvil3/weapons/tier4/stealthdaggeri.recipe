@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "stealthdagger", "count" : 1 },
     { "item" : "cryonicextract", "count" : 10 },
-    { "item" : "darkfragmentore", "count" : 5 }
+    { "item" : "vantacatalyst", "count" : 5 }
   ],
   "duration" : 5,
   "output" : { "item" : "stealthdaggeri", "count" : 1 },
