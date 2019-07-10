@@ -2,8 +2,7 @@
   "metadata" : {
     "name" : "outpost_ranscastle",
     "species" : "generic",
-    "rules" : [
-    ],
+    "rules" : [],
 
     "anchor" : [ "outpost_ranscastle" ],
 
@@ -35,7 +34,7 @@
     {
       "name" : "outpost_ranscastle",
       "rules" : [
-        [ "maxSpawnCount" : [1] ]
+        [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "image", [ "outpost_ranscastle.png" ] ]
     }
