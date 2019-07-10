@@ -315,6 +315,18 @@
         {
          "firstgid":7670,
          "source":"..\/..\/..\/tilesets\/vanta-custom\/objects-by-race\/nightar.json"
+        }, 
+        {
+         "firstgid":7703,
+         "source":"..\/..\/..\/tilesets\/vanta-custom\/nightarliquids.json"
+        }, 
+        {
+         "firstgid":7704,
+         "source":"..\/..\/..\/tilesets\/vanta-custom\/nightarmatierals.json"
+        }, 
+        {
+         "firstgid":7715,
+         "source":"..\/..\/..\/tilesets\/vanta-custom\/nightarsupports.json"
         }],
  "tilewidth":8,
  "type":"map",
