@@ -3,51 +3,38 @@
   "colonyTags" : ["nightar","commerce"],
   "rarity" : "legendary",
   "category" : "other",
-  "description" : "A storefront for the Vanta merchant, Ran, to sell his wares.",
+  "description" : "A storefront for the Nightar merchant, Ran, to sell his wares.",
   "shortdescription" : "Ran's Castle",
   "race" : "nightar",
   "printable" : false,
   "lightColor" : [130, 217, 232],
   "lightPosition" : [0, 4],
-  "interactAction" : "OpenMerchantInterface",
+  "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/merchant.config",
+    "config" : "/interface/windowconfig/craftingmerchant.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "Ran's Castle",
-        "subtitle" : "^#b9b5b2;Selling the legendary Vanta goods"
+        "subtitle" : "^#b9b5b2;Selling the legendary Nightar goods",
+        "icon" : {
+          "file" : "/interface/crafting/ranscastle.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
       }
     },
-    "buyFactor" : 1.0,
-    "sellFactor" : 0.2,
-    "items" : [
-      { "item" : "nightarbookcase" },
-      { "item" : "nightarcabinet" },
-      { "item" : "nightarcomputer" },
-	    { "item" : "nightarconsole" },
-	    { "item" : "nightardresser" },
-	    { "item" : "nightarpedestal" },
-	    { "item" : "nightarpicture" },
-	    { "item" : "nightarsbannersmall" },
-	    { "item" : "nightarsbannertorn" },
-	    { "item" : "nightarshiplight" },
-	    { "item" : "nightarsink" },
-	    { "item" : "nightarstove" },
-	    { "item" : "nightartoilet" },
-	    { "item" : "nightarfridge"},
-	    { "item" : "nightarthrone" },
-	    { "item" : "nightarteleporter" },
-	    { "item" : "nightarchest"},
-      { "item" : "nightarchest2"},
-      { "item" : "nightarvendingmachine"}
-    ]
+    "filter" : [ "ranscastle" ]
   },
 
-  "apexDescription" : "The self-proclaimed galactic Vanta merchant. Ran has some very exotic materials available for purchase.",
-  "avianDescription" : "Ran's business must be really lucrative if he's the only one selling Vanta merchandise.",
+  "apexDescription" : "The self-proclaimed galactic Nightar merchant. Ran has some very exotic materials available for purchase.",
+  "avianDescription" : "Ran's business must be really lucrative if he's the only one selling Nightar merchandise.",
   "floranDescription" : "Ran hasss sssome cool ssstuff!",
-  "glitchDescription" : "Informed. Ran has many storefronts throughout the known galaxy, selling Vanta materials and goods.",
-  "humanDescription" : "Ran's probably the only Vanta I know of that doesn't give you the cold shoulder when passing by.",
+  "glitchDescription" : "Informed. Ran has many storefronts throughout the known galaxy selling Nightar goods.",
+  "humanDescription" : "Ran's probably the only Nightar I know of that doesn't give you the cold shoulder when passing by.",
   "hylotlDescription" : "Ran stays quite busy, I'm sure.",
   "novakidDescription" : "That guy's got some pretty neat stuff for sale!",
 

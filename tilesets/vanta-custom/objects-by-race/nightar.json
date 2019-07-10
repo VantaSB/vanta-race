@@ -544,167 +544,167 @@
   },
   "tiles" : {
     "0" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightaranvil.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightaranvil.png",
       "imageheight" : 40,
       "imagewidth" : 32
     },
     "1" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarbattlestandard.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarbattlestandard.png",
       "imageheight" : 40,
       "imagewidth" : 16
     },
     "10" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarbed.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarbed.png",
       "imageheight" : 24,
       "imagewidth" : 56
     },
     "11" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarconsole.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarconsole.png",
       "imageheight" : 14,
       "imagewidth" : 25
     },
     "12" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarstove.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarstove.png",
       "imageheight" : 32,
       "imagewidth" : 24
     },
     "13" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarbladealtar.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarbladealtar.png",
       "imageheight" : 64,
       "imagewidth" : 17
     },
     "14" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarbookcase.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarbookcase.png",
       "imageheight" : 40,
       "imagewidth" : 32
     },
     "15" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarbox1.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarbox1.png",
       "imageheight" : 16,
       "imagewidth" : 24
     },
     "16" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarbox2.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarbox2.png",
       "imageheight" : 24,
       "imagewidth" : 32
     },
     "17" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarcabinet.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarcabinet.png",
       "imageheight" : 40,
       "imagewidth" : 32
     },
     "18" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarcastledoor.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarcastledoor.png",
       "imageheight" : 40,
       "imagewidth" : 40
     },
     "19" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarchair.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarchair.png",
       "imageheight" : 24,
       "imagewidth" : 22
     },
     "2" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarchandelier.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarchandelier.png",
       "imageheight" : 32,
       "imagewidth" : 40
     },
     "20" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarchest.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarchest.png",
       "imageheight" : 16,
       "imagewidth" : 32
     },
     "21" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarcomputer.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarcomputer.png",
       "imageheight" : 33,
       "imagewidth" : 25
     },
     "22" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightardresser.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightardresser.png",
       "imageheight" : 16,
       "imagewidth" : 31
     },
     "23" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarfridge.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarfridge.png",
       "imageheight" : 32,
       "imagewidth" : 24
     },
     "24" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarpedestal.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarpedestal.png",
       "imageheight" : 16,
       "imagewidth" : 24
     },
     "25" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarpicture.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarpicture.png",
       "imageheight" : 24,
       "imagewidth" : 32
     },
     "26" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarsbannersmall.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarsbannersmall.png",
       "imageheight" : 37,
       "imagewidth" : 23
     },
     "27" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarsbannertorn.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarsbannertorn.png",
       "imageheight" : 75,
       "imagewidth" : 34
     },
     "28" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarshelf.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarshelf.png",
       "imageheight" : 8,
       "imagewidth" : 32
     },
     "29" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarshiplight.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarshiplight.png",
       "imageheight" : 8,
       "imagewidth" : 16
     },
     "3" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarsink.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarsink.png",
       "imageheight" : 24,
       "imagewidth" : 18
     },
     "30" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarstoragelocker.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarstoragelocker.png",
       "imageheight" : 24,
       "imagewidth" : 32
     },
     "31" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightartable.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightartable.png",
       "imageheight" : 16,
       "imagewidth" : 55
     },
     "32" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightartablechair.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightartablechair.png",
       "imageheight" : 24,
       "imagewidth" : 16
     },
     "4" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarteleporter.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarteleporter.png",
       "imageheight" : 59,
       "imagewidth" : 32
     },
     "5" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightarthrone.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightarthrone.png",
       "imageheight" : 71,
       "imagewidth" : 65
     },
     "6" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightartinywallswitch.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightartinywallswitch.png",
       "imageheight" : 8,
       "imagewidth" : 8
     },
     "7" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/nightartoilet.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/nightartoilet.png",
       "imageheight" : 24,
       "imagewidth" : 16
     },
     "8" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/ranscastleoutpostclosed.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/ranscastleoutpostclosed.png",
       "imageheight" : 73,
       "imagewidth" : 128
     },
     "9" : {
-      "image" : "../../../../../tiled/nightar-custom/objects/ranscastleoutpostopen.png",
+      "image" : "../../../../../tiled/vanta-custom/objects/ranscastleoutpostopen.png",
       "imageheight" : 73,
       "imagewidth" : 128
     }

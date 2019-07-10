@@ -14,7 +14,7 @@
   },
   "tiles" : {
     "0" : {
-      "image" : "./../../../../tiled/vantas-custom/liquids/liquidceruleumfuel.png"
+      "image" : "./../../../../tiled/vanta-custom/liquids/liquidceruleumfuel.png"
     }
   },
   "tilewidth" : 8

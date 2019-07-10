@@ -86,47 +86,47 @@
 
   "tiles" : {
     "0" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarblock1.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightarblock1.png"
     },
 
     "1" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarblock2.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightarblock2.png"
     },
 
     "10" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarfloor.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightarfloor.png"
     },
 
     "2" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarpanelblock.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightarpanelblock.png"
     },
 
     "3" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarpillarblock.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightarpillarblock.png"
     },
 
     "4" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarshipblock.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightarshipblock.png"
     },
 
     "5" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarsupport1.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightarsupport1.png"
     },
 
     "6" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarsupport2.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightarsupport2.png"
     },
 
     "7" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightartechblock.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightartechblock.png"
     },
 
     "8" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarwall1.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightarwall1.png"
     },
 
     "9" : {
-      "image" : "./../../../../tiled/nightar-custom/materials/nightarwall2.png"
+      "image" : "./../../../../tiled/vanta-custom/materials/nightarwall2.png"
     }
   },
 

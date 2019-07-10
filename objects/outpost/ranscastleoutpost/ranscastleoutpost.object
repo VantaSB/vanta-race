@@ -9,68 +9,25 @@
   "printable" : false,
   "lightColor" : [130, 217, 232],
   "lightPosition" : [0, 4],
-  "interactAction" : "OpenMerchantInterface",
+  "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/merchant.config",
+    "config" : "/interface/windowconfig/craftingmerchant.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "Ran's Castle",
-        "subtitle" : "^#b9b5b2;Selling the legendary Nightar goods"
+        "subtitle" : "^#b9b5b2;Selling the legendary Nightar goods",
+        "icon" : {
+          "file" : "/interface/crafting/ranscastle.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
       }
     },
-    "buyFactor" : 1.0,
-    "sellFactor" : 0.2,
-    "items" : [
-	//=======================> blocks
-      { "item" : "vantacastleblock" },
-      { "item" : "vantacastleblock2" },
-      { "item" : "vantafloor" },
-      { "item" : "vantashipblock" },
-	    { "item" : "vantasupport" },
-	    { "item" : "vantasupport2" },
-	    { "item" : "vantaswall1" },
-	    { "item" : "vantatechblock" },
-	    { "item" : "vantawall2" },
-      { "item" : "vantasplatform" },
-	    { "item" : "vantapanelblock" },
-      { "item" : "vantapillarblock" },
-	    { "item" : "vantaslopedhullpanel" }
-
-	//=======================> Stuff
-
-	    /*{ "item" : "vantashipdoor" },
-	    { "item" : "vantashiphatch" },
-      { "item" : "vantabattlestandard" },
-      { "item" : "vantabed" },
-      { "item" : "vantabookcase" },
-      { "item" : "vantabox1" },
-      { "item" : "vantabox2" },
-      { "item" : "vantacabinet" },
-      { "item" : "vantacastledoor" },
-      { "item" : "vantachair" },
-	    { "item" : "vantachandelier" },
-      { "item" : "vantacomputer" },
-	    { "item" : "vantaconsole" },
-	    { "item" : "vantadresser" },
-	    { "item" : "vantalight" },
-	    { "item" : "vantapedestal" },
-	    { "item" : "vantapicture" },
-	    { "item" : "vantasbannersmall" },
-	    { "item" : "vantasbannertorn" },
-	    { "item" : "vantashelf" },
-	    { "item" : "vantashiplight" },
-	    { "item" : "vantasink" },
-	    { "item" : "vantastoragelocker" },
-	    { "item" : "vantastove" },
-	    { "item" : "vantatable" },
-	    { "item" : "vantatablechair" },
-	    { "item" : "vantatoilet" },
-	    { "item" : "vantatinywallswitch" },
-	    { "item" : "vantafridge"},
-	    { "item" : "vantathrone" },
-	    { "item" : "vantateleporter" },
-	    { "item" : "vantachest"}*/
-    ]
+    "filter" : [ "ranscastle" ]
   },
 
   "apexDescription" : "The self-proclaimed galactic Nightar merchant. Ran has some very exotic materials available for purchase.",
