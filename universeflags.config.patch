@@ -5,7 +5,7 @@
     "value" : {
       "type" : "placeDungeon",
       "dungeonId" : "outpost_ranscastle",
-      "target_instance" : "outpost",
+      "targetInstance" : "outpost",
       "targetPosition" : [317, 655]
     }
   }
