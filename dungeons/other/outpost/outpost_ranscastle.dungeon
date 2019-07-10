@@ -1,0 +1,43 @@
+{
+  "metadata" : {
+    "name" : "outpost_ranscastle",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "outpost_ranscastle" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "tiles" : [
+    {
+      "value" : [255, 0, 220, 255 ],
+      "comment" : "magic pink, a no-op value"
+    },
+
+    {
+      "value" : [0, 41, 91, 255 ],
+      "rules" : [ [ "worldGenMustContainSolidBackground" ] ],
+      "brush" : [ [ "clear" ], [ "back", "outpostwall2" ], [ "front", "outpostplatform" ] ]
+    },
+
+    {
+      "value" : [0, 255, 0, 255 ],
+      "comment" : "ranscastleoutpost",
+      "brush" : [ [ "clear" ], [ "object", "ranscastleoutpost", { "direction" : "left" } ] ]
+    }
+  ],
+
+  "parts" : [
+    {
+      "name" : "outpost_ranscastle",
+      "rules" : [
+        [ "maxSpawnCount" : [1] ]
+      ],
+      "def" : [ "image", [ "outpost_ranscastle.png" ] ]
+    }
+  ]
+}
