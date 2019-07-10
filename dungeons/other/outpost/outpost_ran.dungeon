@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "outpost_ran",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "outpost_ran" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "outpost_ran",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "outpost_ran.json" ]
+    }
+  ]
+}

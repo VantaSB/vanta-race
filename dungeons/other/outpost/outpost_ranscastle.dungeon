@@ -24,6 +24,12 @@
     },
 
     {
+      "value" : [255, 255, 0, 255 ],
+      "rules" : [ [ "worldGenMustContainSolidBackground" ] ],
+      "brush" : [ [ "clear" ], [ "back", "outpostwall2" ], [ "front", "hazard" ] ]
+    },
+
+    {
       "value" : [0, 255, 0, 255 ],
       "comment" : "ranscastleoutpost",
       "brush" : [ [ "clear" ], [ "object", "ranscastleoutpost", { "direction" : "left" } ] ]

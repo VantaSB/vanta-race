@@ -1,7 +1,7 @@
 {
   "itemName" : "yonaga",
-  "price" : 960,
-  "level" : 7,
+  "price" : 10000,
+  "level" : 6,
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "Yonaga, or 'The long night', is the blade used by the Nightar kings.",

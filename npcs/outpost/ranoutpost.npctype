@@ -1,0 +1,160 @@
+{
+  "type" : "ranoutpost",
+  "baseType" : "merchant",
+
+  "npcname" : "Ran",
+  "identity" : {
+    "imagePath" : "ranmerchant",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "1",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.3"
+  },
+
+  "damageTeamType" : "assistant",
+  "damageTeam" : 1,
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "reactions" : {
+      "spontaneous" : []
+    },
+    "personalities" : [
+      [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    "behaviorConfig" : {
+      "play" : false,
+      "chat" : false
+    },
+
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "vanta" : ["ranmerchant"]
+      },
+
+      "rotateStock" : false,
+      "buyFactor" : 1.0,
+      "sellFactor" : 0.2,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Ran",
+          "subtitle" : "Selling the legendary Nightar goods"
+        }
+      }
+    },
+
+    "chatSounds" : {
+      "avian" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ]
+      },
+      "apex" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ]
+      },
+      "floran" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ]
+      },
+      "glitch" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ]
+      },
+      "human" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ]
+      },
+      "hylotl" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ]
+      },
+      "default" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_male2.ogg"
+        ]
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Take a look and see if anything fits your fancy. Just be mindful of the weapon prices."
+            ]
+          }
+        },
+        "welcome" : {
+          "default" : {
+            "default" : [
+              "Take a look and see if anything fits your fancy. Just be mindful of the weapon prices."
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "I'll be around. Feel free to swing back by if something else catches your fancy."
+            ]
+          }
+        },
+        "follow" : "/dialog/merchant.config:follow",
+        "tout" : {
+          "default" : {
+            "default" : [
+              "Hey, <entityname>. Need some weapons or materials? I've got plenty of them, so feel free to peruse at your leisure."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              ""
+            ],
+            "chest" : [ { "name" : "vantatier6achest", "parameters" : { "colorIndex" : 0 } } ],
+            "back" : [ { "name" : "nightarcapeback", "parameters" : { "colorIndex" : 0 } } ],
+            "legs" : [ { "name" : "vantatier6apants", "parameters" : { "colorIndex" : 0 } } ]
+          }
+        ] ]
+    ]
+  }
+}
