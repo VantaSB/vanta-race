@@ -1,0 +1,19 @@
+[
+  {
+    "name" : "ceruleumghoul",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.08,
+    "monsterType" : [
+      [1, "ceruleumghoul"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }
+]

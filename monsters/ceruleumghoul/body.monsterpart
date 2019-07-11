@@ -1,9 +1,9 @@
 {
-  "name" : "catgod",
-  "category" : "catgod",
+  "name" : "ceruleumghoul",
+  "category" : "ceruleumghoul",
   "type" : "body",
 
   "frames" : {
-    "body" : "catgod.png"
+    "body" : "ceruleumghoul.png"
   }
 }
