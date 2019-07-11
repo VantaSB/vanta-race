@@ -1,9 +1,9 @@
 {
-  "name" : "voidloker",
-  "category" : "voidloker",
+  "name" : "nightstalker",
+  "category" : "nightstalker",
   "type" : "body",
 
   "frames" : {
-    "body" : "voidloker.png"
+    "body" : "nightstalker.png"
   }
 }
