@@ -15,11 +15,5 @@
     "op" : "add",
     "path" : "/essence/sail_group",
     "value" : "main"
-  },
-
-  {
-    "op" : "add",
-    "path" : "/researchengram",
-    "value" : { "representativeItem" : "researchengram", "playerMax" : 999999, "sail_group" : "Research" }
   }
 ]
