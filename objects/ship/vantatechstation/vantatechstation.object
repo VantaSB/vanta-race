@@ -8,7 +8,7 @@
   //"interactAction" : "OpenAiInterface",
 
   //ZB Integration
-  "interactAction" : "scriptPane",
+  "interactAction" : "ScriptPane",
   "interactData" : "/zb/newSail/newSail.config",
 
   "category" : "decorative",
