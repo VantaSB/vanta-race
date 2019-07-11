@@ -113,21 +113,21 @@
         "start" : {
           "default" : {
             "default" : [
-              "Take a look and see if anything fits your fancy. Just be mindful of the weapon prices."
+              "Take a look and see if anything fits your fancy. Just be mindful of the prices."
             ]
           }
         },
         "welcome" : {
           "default" : {
             "default" : [
-              "Take a look and see if anything fits your fancy. Just be mindful of the weapon prices."
+              "Take a look and see if anything fits your fancy. Just be mindful of the prices."
             ]
           }
         },
         "end" : {
           "default" : {
             "default" : [
-              "I'll be around. Feel free to swing back by if something else catches your fancy."
+              "I'll be here if you need anything else. Don't be a stranger!"
             ]
           }
         },
@@ -135,7 +135,7 @@
         "tout" : {
           "default" : {
             "default" : [
-              "Hey, <entityname>. Need some weapons or materials? I've got plenty of them, so feel free to peruse at your leisure."
+              "Hey there. Need some weapons? I've got a few on-hand, so feel free to peruse at your leisure."
             ]
           }
         }
