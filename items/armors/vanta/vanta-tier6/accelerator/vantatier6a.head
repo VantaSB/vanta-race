@@ -9,8 +9,6 @@
   "shortdescription" : "Pegasolta Helm",
   "tooltipKind" : "armor",
 
-  "learnBlueprintsOnPickup" : [ "vantatier6aheadaug" ],
-
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

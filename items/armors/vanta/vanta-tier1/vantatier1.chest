@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "An Outsider's robes are plain and unadorned, reflecting their position in society.",
-  "shortdescription" : "Outsider's Robes",
+  "description" : "These robes are plain and unadorned.",
+  "shortdescription" : "Vagabond's Robes",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

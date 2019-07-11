@@ -6,6 +6,5 @@
   "inventoryIcon" : "darkfragmentore.png",
   "description" : "A jet-black, yet luminescent shard that's useful for bonding special properties to equipment.",
   "shortdescription" : "Dark Fragment",
-  "itemTags" : [ "reagent" ],
-  "learnBlueprintsOnPickup" : [ "vantacatalyst" ]
+  "itemTags" : [ "reagent" ]
 }

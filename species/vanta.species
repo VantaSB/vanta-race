@@ -87,6 +87,19 @@
       { "item" : "stealthdaggere" },
       { "item" : "stealthdaggerp" },
 
+// Enhancer
+      { "item" : "vantatier6aheadaug" },
+      { "item" : "vantatier6achestaug" },
+      { "item" : "vantatier6apantsaug" },
+
+      { "item" : "vantatier6mheadaug" },
+      { "item" : "vantatier6mchestaug" },
+      { "item" : "vantatier6mpantsaug" },
+
+      { "item" : "vantatier6sheadaug" },
+      { "item" : "vantatier6schestaug" },
+      { "item" : "vantatier6spantsaug" },
+
 // Furniture Table 2
       { "item" : "vantaheatprotectionback" },
       //{ "item" : "vantastoragelocker" },

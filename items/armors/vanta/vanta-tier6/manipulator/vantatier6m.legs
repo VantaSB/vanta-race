@@ -9,8 +9,6 @@
   "shortdescription" : "Queenbreaker Flanchard",
   "tooltipKind" : "armor",
 
-  "learnBlueprintsOnPickup" : [ "vantatier6mpantsaug" ],
-
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 

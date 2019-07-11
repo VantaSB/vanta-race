@@ -4,11 +4,12 @@
   "printable" : false,
   "rarity" : "Common",
 
-  "interactAction" : "OpenAiInterface",
+  //Keep this here in case we need to fallback to it
+  //"interactAction" : "OpenAiInterface",
 
-  //ZB Integration under revision!
-  /*"interactAction" : "scriptPane",
-  "interactData" : "/zb/newSail/newSail.config",*/
+  //ZB Integration
+  "interactAction" : "scriptPane",
+  "interactData" : "/zb/newSail/newSail.config",
 
   "category" : "decorative",
   "lightColor" : [102, 61, 61],

@@ -9,8 +9,6 @@
   "shortdescription" : "Queenbreaker Mail",
   "tooltipKind" : "armor",
 
-  "learnBlueprintsOnPickup" : [ "vantatier6mchestaug" ],
-
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",

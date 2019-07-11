@@ -9,8 +9,6 @@
   "shortdescription" : "Queenbreaker Helm",
   "tooltipKind" : "armor",
 
-  "learnBlueprintsOnPickup" : [ "vantatier6mheadaug" ],
-
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

@@ -9,8 +9,6 @@
   "shortdescription" : "Kingslayer's Mail",
   "tooltipKind" : "armor",
 
-  "learnBlueprintsOnPickup" : [ "vantatier6schestaug" ],
-
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",

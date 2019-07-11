@@ -9,8 +9,6 @@
   "shortdescription" : "Kingslayer's Greaves",
   "tooltipKind" : "armor",
 
-  "learnBlueprintsOnPickup" : [ "vantatier6spantsaug" ],
-
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 

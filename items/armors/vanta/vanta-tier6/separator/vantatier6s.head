@@ -9,8 +9,6 @@
   "shortdescription" : "Kingslayer's Helm",
   "tooltipKind" : "armor",
 
-  "learnBlueprintsOnPickup" : [ "vantatier6sheadaug" ],
-
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

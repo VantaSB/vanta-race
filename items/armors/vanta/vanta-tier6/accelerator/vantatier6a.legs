@@ -9,8 +9,6 @@
   "shortdescription" : "Pegasolta Tassets",
   "tooltipKind" : "armor",
 
-  "learnBlueprintsOnPickup" : [ "vantatier6apantsaug" ],
-
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
