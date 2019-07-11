@@ -44,7 +44,7 @@
   "offeredQuests" : [ "gaterepair" ],
 
   "animation" : "/objects/ship/techstation.animation",
-  "scripts" : [ "/objects/spawner/techstation.lua"/*, "/objects/scripts/customtechstation.lua"*/ ],
+  "scripts" : [ "/objects/spawner/techstation.lua", "/objects/scripts/customtechstation.lua" ],
   "scriptDelta" : 20,
   "shipPetType" : "petcat",
   "spawnOffset" : [2, -1],
