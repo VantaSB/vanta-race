@@ -1,7 +1,17 @@
 [
   {
     "op" : "add",
-    "path" : "/interactData/items/0",
-    "value" : { "item" : "vehiclerepairstation" }
+    "path" : "/interactData/items/-",
+    "value" : {
+      "item" : "vehiclerepairstation"
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/interactData/items/-",
+    "value" : {
+      "item" : "mecharepairtool"
+    }
   }
 ]

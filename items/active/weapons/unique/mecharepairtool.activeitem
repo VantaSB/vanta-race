@@ -1,7 +1,7 @@
 {
-  "itemName" : "mechrepairtool",
-  "price" : 200,
-  "inventoryIcon" : "mechrepairtool.png",
+  "itemName" : "mecharepairtool",
+  "price" : 2000,
+  "inventoryIcon" : "mecharepairtool.png",
   "maxStack" : 1,
   "rarity" : "Essential",
   "description" : "A useful tool for repairing your mech while on the go.",
@@ -12,8 +12,8 @@
   "twoHanded" : true,
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "middle" : "mechrepairtool.png",
-    "middleFullbright" : "mechrepairtoolfullbright.png"
+    "middle" : "mecharepairtool.png",
+    "middleFullbright" : "mecharepairtoolfullbright.png"
   },
   "animationCustom" : {
     "sounds" : {
