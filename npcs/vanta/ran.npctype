@@ -1,0 +1,183 @@
+{
+  "type" : "ran",
+  "baseType" : "base",
+
+  "keepAlive" : true,
+
+  "npcname" : "Ran",
+  "identity" : {
+    "imagePath" : "ran",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "1"
+  },
+
+  "humanoidConfig" : "/species/vantanoid.config",
+
+  "damageTeamType" : "assistant",
+  "damageTeam" : 1,
+
+  "persistent" : true,
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "behavior" : "rannightfort",
+
+    "chatPortrait" : "/interface/chatbubbles/ran.png:<frame>",
+
+    "chatSounds" : {
+      "chatSounds" : {
+        "avian" : {
+          "male" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ],
+          "female" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ]
+        },
+        "apex" : {
+          "male" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ],
+          "female" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ]
+        },
+        "floran" : {
+          "male" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ],
+          "female" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ]
+        },
+        "glitch" : {
+          "male" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ],
+          "female" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ]
+        },
+        "human" : {
+          "male" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ],
+          "female" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ]
+        },
+        "hylotl" : {
+          "male" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ],
+          "female" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ]
+        },
+        "default" : {
+          "male" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ],
+          "female" : [
+            "/sfx/humanoid/human_chatter_male1.ogg"
+          ]
+        }
+      },
+
+      "dialog" : {
+        "converse" : {
+          "default" : {
+            "default" : [
+              "Some friendly advice: don't take these guys lightly.",
+              "Nightars are known for their brutality; they'll tear you to shreds without hesitation.",
+              "Why am I just standing here? I'm thinking of a more 'covert' method of entry.",
+              "There's a path from inside the old castle that leads down, but it's well-defended with guards.",
+              "You might actually prove useful here.",
+              "So long as you leave that sword to me, I don't mind a little bit of cooperation."
+            ]
+          }
+        },
+        "nightfortmissionstart" : {
+          "introduction" : {
+            "default" : {
+              "default" : [
+                "Eh? You're not with the encampment here, are you...?",
+                "Heh, I thought so; the only folks that come through here are conscripts or prisoners.",
+                "The name's ^cyan;Ran^reset;. I may look like a Nightar, but I'm not as high-strung as they are.",
+                "They'd see the universe submerged in complete darkness if they had their way.",
+                "Anyways, what exactly are you doing here if you're not with the rest of the army here?",
+                "... A culling mission, is it? Well, I'm here to locate a Nightar artifact.",
+                "These morons don't know the first thing about proper care of ancient weapons;",
+                "That's actually my area of expertise.",
+                "But since you're here, I'll let you in on a secret: the top level is a facade.",
+                "You'll want to go ^orange;below this old castle^reset; to get to the real one.",
+                "If you're bound and determined to fight your way through, I won't stop you.",
+                "But don't expect me to stick my neck out for you, either. I'm only here for one thing:",
+                "^cyan;Noxcalibur^reset;.",
+                "See ya 'round!"
+              ]
+            }
+          },
+          "end" : {
+            "default" : {
+              "default" : [
+                "Heh... Good luck, friend; you're gonna need it~"
+              ]
+            }
+          }
+        },
+        "yorukishipre" : {
+          "hello" : {
+            "default" : {
+              "default" : [
+                "Well I'll be damned, you actually made it through alive!",
+                "Beyond that door lies the General and his elite guard.",
+                "Stay on your toes; General Yorukishi is not a man to be trifled with.",
+                "... Of course, he'd have some nonsensical setup that prevents this door from just opening."
+              ]
+            }
+          },
+
+          "goodbye" : {
+            "default" : {
+              "default" : [
+                "See if you can find a switch or something. I'm going to keep looking for the Noxcalibur."
+              ]
+            }
+          }
+        },
+
+        "endscene" : {
+          "end" : {
+            "default" : {
+              "default" : [
+                "Ah, you've made it; it looks like you gave the General a good beating!",
+                "Gotta hand it to you, not many have held their own against General Yorukishi and lived to tell the tale.",
+                "He won't take this defeat lightly, though. Best to be prepared for when he shows up again.",
+                "The Noxcalibur... is in really bad shape; I'm not sure it can be moved in this state, let alone be used.",
+                "Say, here's an idea: why don't you take me back with you to where it is you're going?",
+                "I may not look like it, but I specialize in Nightar weaponsmithing.",
+                "I've got numerous caches of a lot of what you've seen today. Maybe we can work something out. Sound like a plan?",
+                "Excellent, I look forward to working with you and any of your other friends!"
+              ]
+            }
+          }
+        }
+      }
+    },
+
+    "statusControllerSettings" : {
+      "stats" : {
+        "protection" : {
+          "baseValue" : 100.0
+        }
+      }
+    },
+
+    "statusProperties" : {
+      "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=8af062FF?replace=31a6ffFF=40bf21FF"
+    }
+  }
+}

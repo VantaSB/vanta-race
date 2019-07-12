@@ -4,7 +4,7 @@
 
   "npcname" : "Ran",
   "identity" : {
-    "imagePath" : "ranmerchant",
+    "imagePath" : "ran",
     "gender" : "male",
     "hairGroup" : "hair",
     "hairType" : "1",
@@ -35,7 +35,7 @@
       "waitTime" : 40,
       "storeRadius" : 8,
       "categories" : {
-        "vanta" : ["ranmerchant"]
+        "vanta" : ["ran"]
       },
 
       "rotateStock" : false,
@@ -44,7 +44,7 @@
       "paneLayoutOverride" : {
         "windowtitle" : {
           "title" : "Ran",
-          "subtitle" : "Selling the legendary Nightar goods"
+          "subtitle" : "Legendary Weapons Trader"
         }
       }
     },
