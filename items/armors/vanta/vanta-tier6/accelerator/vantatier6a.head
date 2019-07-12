@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "headarmour",
-  "description" : "Taking a queue from the Apex, this helmet was modeled to be lightweight, durable, and regal.",
-  "shortdescription" : "Pegasolta Helm",
+  "description" : "The Marauder helmet is a durable upgrade from the Corsair hood.",
+  "shortdescription" : "Marauder Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

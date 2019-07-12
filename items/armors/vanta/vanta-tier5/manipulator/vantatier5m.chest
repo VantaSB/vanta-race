@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "chestarmour",
-  "description" : "Argent Marauders were known to be able to survive many hits to the torso thanks to their unique armor.",
-  "shortdescription" : "Argent Marauder Chestplate",
+  "description" : "Inspired by an equally elusive race as the Vanta, the Pegasolta chest armor will keep you warm.",
+  "shortdescription" : "Pegasolta Chestplate",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

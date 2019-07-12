@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "legarmour",
-  "description" : "These tassets provide additional regality and protection to the Pegasolta set overall.",
-  "shortdescription" : "Pegasolta Tassets",
+  "description" : "Flexible and durable, these sabatons allow for quick traversal across the field while keeping the legs well-protected.",
+  "shortdescription" : "Marauder Sabatons",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",

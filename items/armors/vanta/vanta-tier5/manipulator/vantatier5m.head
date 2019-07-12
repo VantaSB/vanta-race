@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "headarmour",
-  "description" : "Interestingly, Nightsteel allows for transparency from one side with the ability to remain opaque on the other side.",
-  "shortdescription" : "Argent Marauder Helm",
+  "description" : "This helmet was modeled to be lightweight, durable, and regal.",
+  "shortdescription" : "Pegasolta Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
