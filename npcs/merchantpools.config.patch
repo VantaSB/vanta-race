@@ -1,16 +1,17 @@
 [
-    {
-        "op" : "add",
-        "path" : "/ranmerchant",
-        "value" : [
-            [0, [
-                { "item" : { "name" : "yonaga" } },
-                { "item" : { "name" : "yorunoha" } },
-                { "item" : { "name" : "yorunokama" } },
-                { "item" : { "name" : "yorunoyumi" } },
-                { "item" : { "name" : "yosamu" } }
-                ]
-            ]
+  {
+    "op" : "add",
+    "path" : "/ranmerchant",
+    "value" : [
+      [0, [
+        { "item" : { "name" : "bunshoki" } },
+        { "item" : { "name" : "yonaga" } },
+        { "item" : { "name" : "yorunoha" } },
+        { "item" : { "name" : "yorunokama" } },
+        { "item" : { "name" : "yorunoyumi" } },
+        { "item" : { "name" : "yosamu" } }
         ]
-    }
+      ]
+    ]
+  }
 ]
