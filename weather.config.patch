@@ -1,9 +1,12 @@
 [
 	{
 		"op" : "add",
-		"path" : "/blackmoonstorm",
+		"path" : "/blackmoon",
 		"value" : [
-			[1.0, "storm"]
+			[0.3, "freezingrain"],
+			[0.4, "freezingstorm"],
+			[0.2, "fog"],
+			[0.1, "clear"]
 		]
 	},
 

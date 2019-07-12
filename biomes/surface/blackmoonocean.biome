@@ -2,7 +2,7 @@
   "name" : "blackmoonocean",
   "friendlyName" : "Black Moon Ocean",
 
-  "statusEffects" : [ "biomecold" ],
+  "statusEffects" : [ ],
 
   "spawnProfile" : {
     "groups" : [
@@ -47,7 +47,7 @@
 
   "weather" : [
     [0, [
-      "/weather.config:blackmoonstorm"
+      "/weather.config:blackmoon"
     ]]
   ],
 

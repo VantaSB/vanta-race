@@ -3,9 +3,9 @@
 		"op" : "add",
 		"path" : "/visitableTypeDescription/blackmoon",
 		"value" : [
-			"This ^#416473;black moon^white; is ^red;dangerously cold^white;, but has an abundant source of ^blue;liquid ceruleum fuel^white;.",
-			"Small islands are scattered about this ^#416473;black moon^white;. There are scant lifesigns on the surface. ^red;Be sure to take a warm coat^white;.",
-			"The surface of this ^#416473;black moon^white; is primarily comprised of ^blue;liquid ceruleum fuel^white;; it should be more efficient than ^pink;Erchius^white;."
+			"This ^#416473;black moon^white; has an abundant source of ^blue;liquid ceruleum fuel^white;. Be wary of the constant ^cyan;freezing rain^white; that falls in near-perpetuity.",
+			"Small islands are scattered about the vast ^blue;liquid ceruleum^white; ^#416473;black moon^white;. Be sure to bundle up, thanks to the ^cyan;freezing rain storms^white;.",
+			"The surface of this ^#416473;black moon^white; is primarily comprised of ^blue;liquid ceruleum fuel^white;. The ^cyan;freezing rain^white; is nearly perpetual, with hints of ^gray;fog^white;."
 		]
 	},
 
@@ -24,7 +24,7 @@
 		"path" : "/displayOres/darkfragmentore",
 		"value" : {
 			"displayName" : "Dark Fragment",
-			"icon" : "/items/generic/crafting/darkfrag.png"
+			"icon" : "/items/generic/crafting/darkfragmentore.png"
 		}
 	},
 
