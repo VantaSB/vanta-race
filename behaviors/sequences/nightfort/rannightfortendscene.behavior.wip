@@ -1,0 +1,146 @@
+{
+  "name": "rannightfort",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/world.lua",
+    "/scripts/actions/position.lua",
+    "/scripts/actions/query.lua",
+    "/scripts/actions/entity.lua",
+    "/scripts/actions/npc.lua",
+    "/scripts/actions/notification.lua",
+    "/scripts/actions/dialog.lua"
+  ],
+  "parameters": {},
+  "root": {
+    "title": "dynamic",
+    "type": "composite",
+    "name": "dynamic",
+    "parameters": {},
+    "children": [
+      {
+        "title": "parallel",
+        "type": "composite",
+        "name": "parallel",
+        "parameters": {
+          "fail": {"value": 1},
+          "success": {"value": -1}
+        },
+        "children": [
+          {
+            "title": "selector",
+            "type": "composite",
+            "name": "selector",
+            "parameters": {},
+            "children": [
+              {
+                "title": "sequence",
+                "type": "composite",
+                "name": "sequence",
+                "parameters": {},
+                "children": [
+                  {
+                    "title": "selector",
+                    "type": "composite",
+                    "name": "selector",
+                    "parameters": {},
+                    "children": [
+                      {
+                        "title": "entityExists",
+                        "type": "action",
+                        "name": "entityExists",
+                        "parameters": {
+                          "entity": {"key": "player"}
+                        }
+                      },
+                      {
+                        "title": "cooldown",
+                        "type": "decorator",
+                        "name": "cooldown",
+                        "parameters": {
+                          "cooldown": {"value": 1},
+                          "onFail": {"value": true}
+                        },
+                        "child": {
+                          "title": "sequence",
+                          "type": "composite",
+                          "name": "sequence",
+                          "parameters": {},
+                          "children": [
+                            {
+                              "title": "offsetPosition",
+                              "type": "action",
+                              "name": "offsetPosition",
+                              "parameters": {
+                                "offset": {"value": [-11, 0]},
+                                "position": {"key": "spawn"}
+                              },
+                              "output": {
+                                "position": "playerQuery"
+                              }
+                            },
+                            {
+                              "title": "queryEntity",
+                              "type": "action",
+                              "name": "queryEntity",
+                              "parameters": {
+                                "entityTypes": {"value": ["player"]},
+                                "orderBy": {"value": "nearest"},
+                                "position": {"key": "playerQuery"},
+                                "range": {"value": 30},
+                                "withoutEntity": {"key": "self"}
+                              },
+                              "output": {
+                                "entity": "player"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "title": "entityInSight",
+                    "type": "action",
+                    "name": "entityInSight",
+                    "parameters": {
+                      "entity": {"key": "player"}
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "failer",
+                "type": "decorator",
+                "name": "failer",
+                "parameters": {},
+                "child": {
+                  "title": "setAimPosition",
+                  "type": "action",
+                  "name": "setAimPosition",
+                  "parameters": {
+                    "offset": {"value": [-1, 0]},
+                    "position": {"key": "self"}
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "sequence",
+        "type": "composite",
+        "name": "sequence",
+        "parameters": {},
+        "children": [
+          {
+            "title": "Ran Nightfort End",
+            "type": "module",
+            "name": "rannightfortendscene",
+            "parameters": {}
+          }
+        ]
+      }
+    ]
+  }
+}
