@@ -4,19 +4,19 @@
   "rarity" : "legendary",
   "objectType" : "container",
   "tooltipKind" : "container",
-  
+
   "description" : "A bookcase... let's find out what nightars read.",
-  "shortdescription" : "Vanta Bookcase",
+  "shortdescription" : "Nightar Bookcase",
   "race" : "nightar",
   "category" : "decorative",
   "price" : 200,
   "health" : 1.5,
 
-  "apexDescription" : "A Vanta bookcase.",
-  "avianDescription" : "I'll bet the Vantas have a lot of interesting things to read.",
-  "floranDescription" : "A Vanta bookcasse with lots of bookss, floran hatess to read.",
-  "glitchDescription" : "Observant. Vantas sure did like to read.",
-  "humanDescription" : "A Vanta bookcase. Perhaps knights are avid readers.",
+  "apexDescription" : "A Nightar bookcase.",
+  "avianDescription" : "I'll bet the Nightars have a lot of interesting things to read.",
+  "floranDescription" : "A Nightar bookcasse with lots of bookss, floran hatess to read.",
+  "glitchDescription" : "Observant. Nightars sure did like to read.",
+  "humanDescription" : "A Nightar bookcase. Perhaps knights are avid readers.",
   "hylotlDescription" : "This bookcase is expertly crafted.",
   "novakidDescription" : "Surely knights ain't got much time for readin'?",
 
@@ -42,4 +42,3 @@
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600
 }
-

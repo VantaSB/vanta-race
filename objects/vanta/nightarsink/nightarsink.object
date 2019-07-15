@@ -11,9 +11,10 @@
   "apexDescription" : "This sink has a built-in conservation system to help prevent wasting water.",
   "avianDescription" : "This sink is just large enough for me to clean my feathers.",
   "floranDescription" : "Clean water flowssss out.",
-  "glitchDescription" : "Where does the water come from or go to? I will never know.",
-  "humanDescription" : "Hylotl across the galaxy would probably clamor to use this.",
-  "hylotlDescription" : "Fancy-lookin' sink.",
+  "glitchDescription" : "Puzzled. This sink has no visible plumbing.",
+  "humanDescription" : "Where does the water come from or go to? I will never know.",
+  "hylotlDescription" : "Hylotl across the galaxy would probably clamor to use this.",
+  "novakidDescription" : "Fancy-lookin' sink.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

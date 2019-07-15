@@ -5,8 +5,8 @@
   "category" : "light",
   "lightColor" : [60, 197, 220],
   "price" : 75,
-  "description" : "A nightar castle light",
-  "shortdescription" : "Vanta light",
+  "description" : "A Nightar castle light",
+  "shortdescription" : "Nightar light",
   "race" : "nightar",
 
   "apexDescription" : "This light's design is similar to what you would see around an Apex laboratory.",
@@ -17,8 +17,8 @@
   "hylotlDescription" : "Waterproof lights. These would definitely work with Hylotl city designs.",
   "novakidDescription" : "A fancy lookin' light.",
 
-  
-  
+
+
   "inventoryIcon" : "nightarlighticon.png",
   "orientations" : [
     {
@@ -50,7 +50,7 @@
       "spaces" : [ [0, 0], [0, -1] ],
       "anchors" : [ "top" ]
     },
-    
+
     {
       "image" : "nightarlightleft.png:<color>.<frame>",
       "direction" : "right",
@@ -121,7 +121,7 @@
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
-  
+
   "interactive" : false,
 
   "inboundNodes" : [ [0, 0] ]

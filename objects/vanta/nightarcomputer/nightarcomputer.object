@@ -11,14 +11,14 @@
   "flickerStrength" : 0.05,
   "flickerTiming" : 4,
 
-  "description" : "A complex computer made by Vantas",
-  "shortdescription" : "Vanta Data Server",
+  "description" : "A complex computer made by Nightars",
+  "shortdescription" : "Nightar Data Server",
   "race" : "nightar",
 
   "apexDescription" : "This data server's encryption puts Apex security standards to shame.",
-  "avianDescription" : "This is an elaborate server made by the Vantas.",
+  "avianDescription" : "This is an elaborate server made by the Nightars.",
   "floranDescription" : "Floran likess shiny sstuff.",
-  "glitchDescription" : "Admiration. A really advanced computer made with Vanta technologies.",
+  "glitchDescription" : "Admiration. A really advanced computer made with Nightar technologies.",
   "humanDescription" : "Hmm, a computer, but not like anything I've ever seen before.",
   "hylotlDescription" : "A highly advanced computer that can store countless loads of data.",
   "novakidDescription" : "A neat lookin' shiny computer!",
@@ -66,7 +66,7 @@
 
   "inputNodes" : [ [0, 0] ],
 
-  "interactive" : false,
+  "interactive" : true,
 
   "animationPosition" : [-8, 0],
 

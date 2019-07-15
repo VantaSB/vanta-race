@@ -7,14 +7,14 @@
   "category" : "storage",
   "price" : 200,
   "description" : "A sleek looking knightar cabinet.",
-  "shortdescription" : "Vanta Cabinet",
+  "shortdescription" : "Nightar Cabinet",
   "race" : "nightar",
   "health" : 1.5,
-  
+
   "apexDescription" : "It looks the same as any other cabinet.",
   "avianDescription" : "These are nice for storing small groups of items and equipment.",
   "floranDescription" : "Can Floran hide in cabinet?",
-  "glitchDescription" : "Observant. This cabinet is a Vanta-specific design.",
+  "glitchDescription" : "Observant. This cabinet is a Nightar-specific design.",
   "humanDescription" : "Knock-knock, who's there?",
   "hylotlDescription" : "This has more storage space compared to some cabinets.",
   "novakidDescription" : "This looks like a great place to keep my guns!",

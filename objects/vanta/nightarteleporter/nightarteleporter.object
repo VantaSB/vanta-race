@@ -4,7 +4,7 @@
   "objectType" : "teleporter",
   "rarity" : "Legendary",
   "description" : "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.",
-  "shortdescription" : "Vanta Teleporter",
+  "shortdescription" : "Nightar Teleporter",
   "price" : 4500,
   "printable" : false,
 
@@ -39,8 +39,9 @@
     }
   ],
 
-  "health" : 20,
-
+  "health" : 10,
+  "rooting" : true,
+  
   "breakDropPool" : "remoteteleporter",
 
   "teleporterFootPosition" : [0, 1],

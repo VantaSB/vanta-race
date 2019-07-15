@@ -5,15 +5,15 @@
   "category" : "decorative",
   "price" : 100,
 
-  "description" : "A shelf, uses solid(?) laser instead of wood, pretty cool huh?",
+  "description" : "A shelf that uses a band of solid light to hold things up.",
   "shortdescription" : "Vanta Shelf",
   "race" : "nightar",
 
-  "apexDescription" : "What an etheral shelf...",
+  "apexDescription" : "What an ethereal shelf...",
   "avianDescription" : "This shelf is definitely way too advanced, even for Avian standards.",
   "floranDescription" : "Floran amusssed by shiny shelf!",
   "glitchDescription" : "Fascinated. This shelf is actually a very advanced machine that turns light particles into solid matter.",
-  "humanDescription" : "The Vantas really go all-out with their stuff.",
+  "humanDescription" : "The Nightars really go all-out with their stuff.",
   "hylotlDescription" : "As advanced as this is, it's very small and elegant.",
   "novakidDescription" : "It's a tiny shelf.",
 

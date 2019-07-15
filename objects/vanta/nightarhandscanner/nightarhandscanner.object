@@ -3,7 +3,7 @@
   "colonyTags" : ["nightar","electronic","wired"],
   "rarity" : "Rare",
   "description" : "An advanced handprint scanner that provides complete biometric data to a server.",
-  "shortdescription" : "Vanta Hand Scanner",
+  "shortdescription" : "Nightar Hand Scanner",
   "race" : "nightar",
   "category" : "wire",
   "price" : 500,
@@ -23,7 +23,7 @@
     {
       "image" : "nightarhandscanner.png:<color>.off",
       "imagePosition" : [-8, -8],
-      
+
       "direction" : "right",
 
       "spaceScan" : 0.1,
@@ -42,6 +42,6 @@
   "animationPosition" : [-8, -8],
 
   "outputNodes" : [ [0, -1] ],
-  
+
   "interval" : 50
 }

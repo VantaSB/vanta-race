@@ -5,8 +5,8 @@
   "category" : "decorative",
   "price" : 375,
 
-  "description" : "A picture of a Vanta's secret armor.",
-  "shortdescription" : "Vanta Knight's Armor Picture",
+  "description" : "A picture of a Nightar's armor.",
+  "shortdescription" : "Nightar Knight's Armor Picture",
   "race" : "nightar",
 
   "apexDescription" : "Interesting, lines of light course through the background.",
@@ -24,7 +24,7 @@
       "imagePosition" : [-8, 0],
       "frames" : 18,
 	  "animationCycle" : 2.0,
-     
+
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]

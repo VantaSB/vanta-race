@@ -8,8 +8,8 @@
 
   "category" : "storage",
   "price" : 150,
-  "description" : "A mysterious Vanta box.",
-  "shortdescription" : "Small Vanta Box",
+  "description" : "A mysterious Nightar box.",
+  "shortdescription" : "Small Nightar Box",
   "race" : "nightar",
   "health" : 1.5,
 
@@ -17,7 +17,7 @@
   "avianDescription" : "What a cute little box!",
   "floranDescription" : "Floran can keep sssspoilss hidden here!",
   "glitchDescription" : "Inquisitive. I wonder what prompted the scrolling lights design?",
-  "humanDescription" : "A mysterious Vanta box.",
+  "humanDescription" : "A mysterious Nightar box.",
   "hylotlDescription" : "This small box is highly secure.",
   "novakidDescription" : "It's a regular ol' box.",
 

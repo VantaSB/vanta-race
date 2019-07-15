@@ -2,8 +2,8 @@
   "objectName" : "nightarvendingmachine",
   "tags" : ["nightar", "merchant"],
   "rarity" : "Legendary",
-  "description" : "A Vanta vending machine. Yes, even knights need refreshments.",
-  "shortdescription" : "Vanta vending machine",
+  "description" : "A Nightar vending machine. Yes, even knights need refreshments.",
+  "shortdescription" : "Nightar vending machine",
   "race" : "nightar",
   "price" : 1100,
   "lightColor" : [19, 27, 31],
@@ -14,7 +14,7 @@
     "config" : "/interface/windowconfig/merchant.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
-        "title" : "  Vanta Vending machine",
+        "title" : "  Nightar Vending machine",
         "subtitle" : "Vending Machine"
       }
     },
@@ -33,12 +33,12 @@
   },
 
 
-  "apexDescription" : "I had believed the Vantas to be less modern.",
-  "avianDescription" : "Vantaian cultar never ceases to perplex me.",
+  "apexDescription" : "I had believed the Nightars to be less modern.",
+  "avianDescription" : "Nightarian cultar never ceases to perplex me.",
   "floranDescription" : "Fancy machine givessss Floran good drinkss!",
   "glitchDescription" : "Intrigued. Not even the Glitch have their own vending machine style.",
   "humanDescription" : "It's a suped-up vending machine!",
-  "hylotlDescription" : "I've always been curious about why Vantas would have such a thing, given their culture.",
+  "hylotlDescription" : "I've always been curious about why Nightars would have such a thing, given their culture.",
   "novakidDescription" : "That's one heckuva fancy vending machine, if ya ask me!",
 
   "inventoryIcon" : "icon.png",

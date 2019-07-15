@@ -3,17 +3,17 @@
   "colonyTags" : ["nightar"],
   "rarity" : "Rare",
   "description" : "A cryo-stasis hibernation pod.",
-  "shortdescription" : "Vanta Stasis Pod",
+  "shortdescription" : "Nightar Stasis Pod",
   "race" : "nightar",
   "category" : "furniture",
   "price" : 5000,
   //"lightColor" : [217, 210, 173],
-  
+
   "apexDescription" : "Interesting. This is a cryo-sleep device.",
   "avianDescription" : "For something compact, it actually looks pretty comfortable.",
-  "floranDescription" : "Pod keep Floran sssssafe during ssspace travel.",
-  "glitchDescription" : "Curious. I wonder what kinds of materials the Vantas used to create this.",
-  "humanDescription" : "The Vantas sure know their technology.",
+  "floranDescription" : "Pod keep Floran sssafe during ssspace travel.",
+  "glitchDescription" : "Curious. I wonder what kinds of materials the Nightars used to create this.",
+  "humanDescription" : "The Nightars sure know their technology.",
   "hylotlDescription" : "Compact, yet elegant. I'm sure anyone would be comfortable hibernating in this.",
   "novakidDescription" : "That sure is one fancy-looking stasis pod.",
 
