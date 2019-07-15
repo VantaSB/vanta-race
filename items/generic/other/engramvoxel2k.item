@@ -1,9 +1,0 @@
-{
-  "itemName" : "engramvoxel2k",
-  "price" : 2000,
-  "rarity" : "rare",
-  "category" : "currency",
-  "inventoryIcon" : "engramvoxel.png",
-  "description" : "A cache of 2000 research engrams",
-  "shortdescription" : "Engram Cache [^green;2k^reset;]"
-}
