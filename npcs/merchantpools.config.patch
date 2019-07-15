@@ -1,7 +1,7 @@
 [
   {
     "op" : "add",
-    "path" : "/ranmerchant",
+    "path" : "/ran",
     "value" : [
       [0, [
         { "item" : { "name" : "bunshoki" } },
