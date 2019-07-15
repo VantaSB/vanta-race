@@ -1,0 +1,9 @@
+{
+  "name" : "vantaaura",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [],
+
+  "animationConfig" : "vantaaura.animation"
+}
