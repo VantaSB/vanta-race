@@ -17,7 +17,7 @@
     "persistTime" : 2.0,
     "text" : "I am Gin Yorukishi, king of the Nightars. You have trespassed into my dominion; prepare to be executed."
   },
-  
+
   "nightfort04" : {
     "type" : "mission",
     "senderName" : "Gin Yorukishi III",
@@ -25,12 +25,12 @@
     "persistTime" : 2.0,
     "text" : "Nng... you've won this round, but this is not the end. I'll be waiting for you again at the top of my castle. Can you survive until then...?"
   },
-  
+
   "nightfort04a" : {
     "type" : "mission",
-    "text" : "The Night King appears to have fled for now. Still, the castle is still filled with yet more of his guards. Stay alert, and good luck."
+    "text" : "The Night King appears to have fled for now. Still, the castle is yet filled with yet more of his guards. Stay alert, and good luck."
   },
-  
+
   "nightfort05" : {
     "type" : "mission",
     "senderName" : "Gin Yorukishi III",
@@ -38,7 +38,7 @@
     "persistTime" : 2.0,
     "text" : "This will be the deciding battle, adventurer. Have at thee!"
   },
-  
+
   "nightfort05a" : {
     "type" : "mission",
     "text" : "The Night King has gathered his strength. It appears they are keeping a prisoner here; it may be wise to enlist their aid for this fight."

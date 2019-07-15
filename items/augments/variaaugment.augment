@@ -14,7 +14,7 @@
     "displayName" : "Varia",
     "displayIcon" : "/items/augments/variaaugment.png",
     "effects" : [
-      {"stat" : "wetStatusImmunity", "amount" : 1.0},
+      {"stat" : "wetImmunity", "amount" : 1.0},
       {"stat" : "fireStatusImmunity", "amount" : 1.0},
       {"stat" : "iceStatusImmunity", "amount" : 1.0},
       {"stat" : "electricStatusImmunity", "amount" : 1.0},
@@ -24,7 +24,7 @@
     ]
   },
 
-  "radioMessagesOnPickup" : [ "pickupMasteryAugment" ],
+  "radioMessagesOnPickup" : [ "pickupOmniAugment" ],
 
   "scripts" : [ "/scripts/augments/augment.lua" ]
 }
