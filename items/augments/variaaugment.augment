@@ -4,7 +4,7 @@
   "rarity" : "legendary",
   "tooltipKind" : "eppaugment",
   "category" : "eppAugment",
-  "inventoryIcon" : "variaaugment.png",
+  "inventoryIcon" : "omniaugment.png",
   "description" : "Adds additional protection from hazardous elements and liquids.",
   "shortdescription" : "Varia Augment",
 
@@ -12,7 +12,7 @@
     "type" : "back",
     "name" : "varia",
     "displayName" : "Varia",
-    "displayIcon" : "/items/augments/variaaugment.png",
+    "displayIcon" : "/items/augments/ominaugment.png",
     "effects" : [
       {"stat" : "wetImmunity", "amount" : 1.0},
       {"stat" : "fireStatusImmunity", "amount" : 1.0},
