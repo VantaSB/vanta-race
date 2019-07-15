@@ -1,20 +1,20 @@
 {
-  "name" : "distortionsphere2",
+  "name" : "vantasphere",
   "type" : "head",
 
-  "scripts" : ["distortionsphere2.lua"],
+  "scripts" : ["vantasphere.lua"],
   "animator" : "/tech/distortionsphere/distortionsphere.animation",
 
   "description" : "Improved ground speed; bombs ^orange;[Fire]^reset; enabled. ^green;[F]",
-  "shortDescription" : "Distortion Sphere II",
+  "shortDescription" : "Vanta Sphere",
   "rarity" : "Uncommon",
-  "icon" : "/tech/distortionsphere2.png",
+  "icon" : "/tech/vantasphere.png",
 
   "chipCost" : 8,
 
   "animationParts" : {
-    "ballGlow" : "distortionsphere2glow.png",
-    "ball" : "distortionsphere2.png"
+    "ballGlow" : "vantasphereglow.png",
+    "ball" : "vantasphere.png"
   },
 
   "transformedMovementParameters" : {
@@ -46,5 +46,5 @@
   "energyCost" : 50,
 
   "ballRadius" : 1,
-  "ballFrames" : 8
+  "ballFrames" : 4
 }

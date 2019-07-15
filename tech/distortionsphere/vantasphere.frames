@@ -1,7 +1,7 @@
 {
   "frameGrid" : {
     "size" : [15, 15],
-    "dimensions" : [8, 1]
+    "dimensions" : [4, 1]
   },
 
   "aliases" : {
