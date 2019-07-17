@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "chestarmour",
-  "description" : "Argent Marauders were known to be able to survive many hits to the torso thanks to their unique armor.",
-  "shortdescription" : "Argent Marauder Chestplate",
+  "description" : "Marauders were known to be able to survive many hits to the torso thanks to their unique armor.",
+  "shortdescription" : "Marauder Chestplate",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

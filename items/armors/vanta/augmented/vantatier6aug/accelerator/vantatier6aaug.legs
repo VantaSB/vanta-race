@@ -4,9 +4,9 @@
   "inventoryIcon" : "icons.png:pants",
   "maxStack" : 1,
   "rarity" : "Essential",
-  "category" : "legarmour",
-  "description" : "These tassets provide additional regality and protection to the Pegasolta set overall.",
-  "shortdescription" : "^cyan;Pegasolta Tassets EX^reset;",
+  "category" : "legarmorAug",
+  "description" : "Flexible and durable, these sabatons allow for quick traversal across the field while keeping the legs well-protected.",
+  "shortdescription" : "^cyan;Marauder Sabatons EX^reset;",
   "tooltipKind" : "armoraugment",
 
   "maleFrames" : "pants.png",
@@ -35,8 +35,6 @@
       "amount" : 2
     }
   ],
-
-  "acceptsAugmentType" : "back",
 
   "itemTags" : [ "tier7armour" ]
 }

@@ -4,9 +4,9 @@
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Essential",
-  "category" : "chestarmour",
-  "description" : "Inspired by an equally elusive race as the Vanta, the Pegasolta chest armor will keep you warm.",
-  "shortdescription" : "^cyan;Pegasolta Chestplate EX^reset;",
+  "category" : "chestarmorAug",
+  "description" : "Marauders were known to be able to survive many hits to the torso thanks to their unique armor.",
+  "shortdescription" : "^cyan;Marauder Chestplate EX^reset;",
   "tooltipKind" : "armoraugment",
 
   "maleFrames" : {
