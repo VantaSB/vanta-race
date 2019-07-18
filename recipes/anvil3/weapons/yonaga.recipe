@@ -3,6 +3,6 @@
     { "item" : "darkcrystal", "count" : 8 },
     { "item" : "solariumstar", "count" : 8 }
   ],
-  "output" : { "item" : "yorunoha", "count" : 1 },
-  "groups" : [ "vantaanvil", "weapons", "all" ]
+  "output" : { "item" : "yonaga", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
 }

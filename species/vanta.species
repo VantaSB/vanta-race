@@ -17,15 +17,11 @@
   "defaultBlueprints" : {
     "tier1" : [
 
-// Empty Hands
-      //{ "item" : "ranscastle" },
+//EmptyHands,
       { "item" : "flagvanta" },
 	    { "item" : "emptyhead"},
 
-// Inventor's Table 1
-      //{ "item" : "researchconsole" },
-
-// Anvil1
+//Anvil1,
       { "item" : "vantatier1head" },
       { "item" : "vantatier1chest" },
       { "item" : "vantatier1pants" },
@@ -39,8 +35,9 @@
       { "item" : "vantatier2kilij" },
       { "item" : "vantathrowingknife" },
       { "item" : "vantashield" },
+      { "item" : "vantabreathprotectionback" },
 
-// Anvil2
+//Anvil2,
       { "item" : "vantatier3head" },
       { "item" : "vantatier3chest" },
       { "item" : "vantatier3pants" },
@@ -49,8 +46,9 @@
 	    { "item" : "vantatier3shortsword" },
       { "item" : "stealthdagger" },
 	    { "item" : "vantakatar" },
+      { "item" : "vantaradiationprotectionback" },
 
-// Anvil3
+//Anvil3,
       { "item" : "vantatier4head" },
       { "item" : "vantatier4chest" },
       { "item" : "vantatier4pants" },
@@ -88,7 +86,10 @@
       { "item" : "stealthdaggere" },
       { "item" : "stealthdaggerp" },
 
-// Enhancer
+      { "item" : "vantacoldprotectionback" },
+      { "item" : "vantaheatprotectionback" },
+
+//Enhancer,
       { "item" : "vantatier6aheadaug" },
       { "item" : "vantatier6achestaug" },
       { "item" : "vantatier6apantsaug" },
@@ -101,21 +102,49 @@
       { "item" : "vantatier6schestaug" },
       { "item" : "vantatier6spantsaug" },
 
-// Furniture Table 2
-      { "item" : "vantaheatprotectionback" },
-      { "item" : "vantastoragelocker" },
+//FurnitureTable,
+      { "item" : "nightarbed" },
+      { "item" : "nightarshelf" },
+      { "item" : "nightartable" },
+      { "item" : "nightartablechair" },
+      { "item" : "nightarcastledoor" },
+      { "item" : "nightarlight" },
+      { "item" : "nightarblock1" },
+      { "item" : "nightarblock2" },
+      { "item" : "nightarfloor" },
+      { "item" : "nightarpillarblock" },
+      { "item" : "nightarsupport1" },
+      { "item" : "nightarsupport2" },
+      { "item" : "nightarwall1" },
+      { "item" : "nightarbox1" },
+
+//FurnitureTable2,
+      { "item" : "nightarstasispod" },
+      { "item" : "nightarshipchair" },
       { "item" : "vantashipdoor" },
       { "item" : "vantashiphatch" },
       { "item" : "vantashiphatch2" },
+      { "item" : "nightarchandelier" },
+      { "item" : "nightarpanelblock" },
+      { "item" : "nightarplatform" },
+      { "item" : "nightarshipblock" },
+      { "item" : "nightartechblock" },
+      { "item" : "nightarwall2" },
+      { "item" : "nightarbox2" },
+      { "item" : "vantastoragelocker" },
 
-// Spinning Wheel
+//SpinningWheel,
       { "item" : "vantanovicechest" },
       { "item" : "vantanovicepants" },
       { "item" : "vantaemissarychest" },
       { "item" : "vantaemissarypants" },
 	    { "item" : "formalhead" },
 	    { "item" : "formalchest" },
-	    { "item" : "formallegs" }
+	    { "item" : "formallegs" },
+
+//WiringStation,
+      { "item" : "nightartinywallswitch" },
+      { "item" : "nightarhandscanner" }
     ]
   },
   "altOptionAsUndyColor" : true,

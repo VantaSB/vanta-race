@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "vantacoldprotectionback", "count" : 1 },
+    { "item" : "nightsteel5bar", "count" : 4 },
+    { "item" : "battery", "count" : 2 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "vantaheadprotectionback", "count" : 1 },
+  "groups" : [ "craftinganvil3", "hazardgear", "all" ]
+}
