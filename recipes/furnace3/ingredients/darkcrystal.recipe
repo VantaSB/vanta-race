@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "darkfragmentore", "count" : 10 }
+    { "item" : "darkfragmentore", "count" : 6 },
+    { "item" : "vantacatalyst", "count" : 6 }
   ],
   "duration" : 5,
   "output" : { "item" : "darkcrystal", "count" : 1 },
