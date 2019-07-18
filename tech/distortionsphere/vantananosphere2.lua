@@ -6,7 +6,7 @@ require "/scripts/status.lua"
 function init()
   initCommonParameters()
 
-  self.energyCost = config.getParamter("energyCost")
+  self.energyCost = config.getParameter("energyCost")
 
   self.ignorePlatforms = config.getParameter("ignorePlatforms")
   self.damageDisableTime = config.getParameter("damageDisableTime")
