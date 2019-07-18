@@ -1,6 +1,6 @@
 {
   "type" : "ranoutpost",
-  "baseType" : "merchant",
+  "baseType" : "villager",
 
   "npcname" : "Ran",
   "identity" : {
@@ -18,6 +18,8 @@
   "persistent" : true,
 
   "scriptConfig" : {
+    "uniqueId" : "ranoutpost",
+
     "reactions" : {
       "spontaneous" : []
     },
@@ -30,24 +32,6 @@
     },
 
     "questGenerator" : { "pools" : [], "enableParticipation" : false },
-
-    "merchant" : {
-      "waitTime" : 40,
-      "storeRadius" : 8,
-      "categories" : {
-        "vanta" : ["ran"]
-      },
-
-      "rotateStock" : false,
-      "buyFactor" : 1.0,
-      "sellFactor" : 0.2,
-      "paneLayoutOverride" : {
-        "windowtitle" : {
-          "title" : "Ran",
-          "subtitle" : "Legendary Weapons Trader"
-        }
-      }
-    },
 
     "chatSounds" : {
       "avian" : {
@@ -109,35 +93,11 @@
     },
 
     "dialog" : {
-      "merchant" : {
-        "start" : {
-          "default" : {
-            "default" : [
-              "Take a look and see if anything fits your fancy. Just be mindful of the prices."
-            ]
-          }
-        },
-        "welcome" : {
-          "default" : {
-            "default" : [
-              "Take a look and see if anything fits your fancy. Just be mindful of the prices."
-            ]
-          }
-        },
-        "end" : {
-          "default" : {
-            "default" : [
-              "I'll be here if you need anything else. Don't be a stranger!"
-            ]
-          }
-        },
-        "follow" : "/dialog/merchant.config:follow",
-        "tout" : {
-          "default" : {
-            "default" : [
-              "Hey there. Need some weapons? I've got a few on-hand, so feel free to peruse at your leisure."
-            ]
-          }
+      "converse" : {
+        "default" : {
+          "default" : [
+            "I narrowly escaped the Nightar Conclave. Esther was kind enough to let me setup a spot here to study the ruins and conduct my own research."
+          ]
         }
       }
     }
