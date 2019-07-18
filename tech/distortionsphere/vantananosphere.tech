@@ -1,24 +1,24 @@
 {
-  "name" : "vantasphere",
+  "name" : "vantananosphere",
   "type" : "head",
 
   "scripts" : ["vantasphere.lua"],
   "animator" : "vantasphere.animation",
 
-  "description" : "Drop bombs with ^orange;[Fire]^reset;! ^green;[F]",
-  "shortDescription" : "Vanta Sphere",
-  "rarity" : "Legendary",
-  "icon" : "/tech/vantasphere.png",
+  "description" : "Fit into even smaller spaces! ^green;[F]",
+  "shortDescription" : "Vanta Nano Sphere",
+  "rarity" : "legendary",
+  "icon" : "/tech/vantananosphere.png",
 
-  "chipCost" : 40,
+  "chipCost" : 10,
 
   "animationParts" : {
-    "ballGlow" : "vantasphereglow.png",
-    "ball" : "vantasphere.png"
+    "ballGlow" : "vantananosphereglow.png",
+    "ball" : "vantananosphere.png"
   },
 
   "transformedMovementParameters" : {
-    "collisionPoly" : [ [-0.85, -0.45], [-0.45, -0.85], [0.45, -0.85], [0.85, -0.45], [0.85, 0.45], [0.45, 0.85], [-0.45, 0.85], [-0.85, 0.45] ],
+    "collisionPoly" : [ [-0.45, -0.25], [-0.25, -0.45], [0.25, -0.45], [0.45, -0.25], [0.45, 0.25], [0.25, 0.45], [-0.25, 0.45], [-0.45, 0.25] ],
 
     "groundForce" : 450.0,
     "normalGroundFriction" : 1.5,
@@ -33,18 +33,18 @@
     },
 
     "liquidJumpProfile" : {
-      "jumpSpeed" : 20.0,
-      "jumpControlForce" : 150.0,
+      "jumpSpeed" : 0.0,
+      "jumpControlForce" : 0.0,
 
       "multiJump" : false,
       "autoJump" : false
     }
   },
 
-  "ballSpeed" : 20,
+  "ballSpeed" : 15,
 
   "energyCost" : 30,
 
-  "ballRadius" : 1,
+  "ballRadius" : 0.5,
   "ballFrames" : 4
 }

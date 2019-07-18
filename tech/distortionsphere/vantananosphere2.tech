@@ -1,0 +1,48 @@
+{
+  "name" : "vantananosphere2",
+  "type" : "head",
+
+  "scripts" : ["vantananosphere2.lua"],
+  "animator" : "vantasphere.animation",
+
+  "description" : "Scale compressed corridors! ^green;[F]",
+  "shortDescription" : "Vanta Nano Sphere ^cyan;EX^reset;",
+  "rarity" : "legendary",
+  "icon" : "/tech/vantananosphere.png",
+
+  "chipCost" : 10,
+
+  "animationParts" : {
+    "ballGlow" : "vantananosphereglow.png",
+    "ball" : "vantananosphere.png"
+  },
+
+  "transformedMovementParameters" : {
+    "collisionPoly" : [ [-0.45, -0.25], [-0.25, -0.45], [0.25, -0.45], [0.45, -0.25], [0.45, 0.25], [0.25, 0.45], [-0.25, 0.45], [-0.45, 0.25] ],
+    "airForce" : 0.0,
+    "liquidForce" : 90.0,
+
+    "airJumpProfile" : {
+      "jumpSpeed" : 0.0
+    },
+
+    "liquidJumpProfile" : {
+      "jumpSpeed" : 0.0,
+      "jumpControlForce" : 0.0,
+
+      "multiJump" : false,
+      "autoJump" : false
+    }
+  },
+
+  "ignorePlatforms" : true,
+
+  "ballSpeed" : 20,
+
+  "energyCost" : 40,
+
+  "ballRadius" : 0.5,
+  "ballFrames" : 4,
+
+  "damageDisableTime" : 0.15
+}

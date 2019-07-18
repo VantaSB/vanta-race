@@ -37,7 +37,7 @@ function update(args)
     attemptActivation()
   end
   self.specialLast = args.moves["special1"]
-  self.pressDown = args.moves["primaryFire"]
+  self.primaryFire = args.moves["primaryFire"]
 
   if not args.moves["special1"] then
     self.forceTimer = nil
@@ -53,9 +53,9 @@ function update(args)
     if self.bombTick > 0 then
       self.bombTick = math.max(0, self.bombTick - args.dt)
     end
-    if self.pressDown and self.bombTick == 0 then
+    if self.primaryFire and self.bombTick == 0 then
       self.bombTick = 1.1
-      local bombDrop = { power = 10 }
+      local bombDrop = { power = 5 }
       --animator.playSound("") --Leaving this here for later.
       world.spawnProjectile("spherebomb", mcontroller.position(), entity.id(), {0,0}, false, bombDrop)
     end

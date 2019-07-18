@@ -1,0 +1,53 @@
+{
+  "name" : "vantastealthsprint",
+  "type" : "body",
+
+  "scripts" : ["/tech/dash/vantastealthsprint.lua"],
+  "animator" : "vantastealthsprint.animation",
+
+  "description" : "Sprint with Nightarian Stealth! (see codex for more info)",
+  "shortDescription" : "Nightar Stealth Sprint",
+  "rarity" : "Legendary",
+  "icon" : "/tech/vantastealthsprint.png",
+
+  "chipCost" : 40,
+
+  "energyCostPerSecond" : 10,
+  "maximumDoubleTapTime" : 0.35,
+  "dashControlForce" : 1000,
+  "dashSpeedModifier" : 2.0,
+  "stopAfterDash" : true,
+  "groundOnly" : true,
+
+  //Stealth stuff here
+  "energyCost" : 20,
+  "energyDrainFraction" : 0.04,
+  "baseRebootCooldown" : 6,
+  "sneakAttackMult" : 2,
+  "sneakAttackWindow" : 0.5,
+  "stealthBreakCooldowns" : {
+	  "pistol" : 3,
+	  "chakram" : 3,
+	  "boomerang" : 3,
+	  "fist" : 1.5,
+	  "uzi" : 3,
+	  "thrownitem" : 3,
+	  "gun" : 4,
+	  "bow" : 4,
+	  "crossbow" : 5,
+	  "revolver" : 5,
+	  "shotgun" : 6,
+	  "assault" : 6,
+	  "staff" : 7,
+	  "Launcher" : 8,
+	  "flamethrower" : 7,
+	  "sniper" : 8,
+	  "dagger" : 1.5,
+	  "shortsword" : 3,
+	  "broadsword" : 4,
+	  "spear" : 4,
+	  "axe" : 4,
+	  "hammer" : 5,
+	  "activeitem" : 5
+  }
+}
