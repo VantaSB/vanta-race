@@ -3,8 +3,7 @@
     "op" : "add",
     "path" : "/defaultBlueprints/tier1",
     "value" : [
-      { "item" : "emptyhead" }/*,
-      { "item" : "researchconsole" }*/
+      { "item" : "emptyhead" }
     ]
   }
 ]
