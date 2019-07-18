@@ -3,6 +3,7 @@
     { "item" : "titaniumbar", "count" : 1 },
     { "item" : "vantacatalyst", "count" : 3 }
   ],
+  "duration" : 0.15,
   "output" : { "item" : "nightsteel3bar", "count" : 1 },
   "groups" : [ "craftingfurnace2", "bars", "all" ]
 }

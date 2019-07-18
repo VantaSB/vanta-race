@@ -5,6 +5,7 @@
     { "item" : "refinedviolium", "count" : 1 },
     { "item" : "vantacatalyst", "count" : 5 }
   ],
+  "duration" : 0.15,
   "output" : { "item" : "nightsteel5bar", "count" : 1 },
   "groups" : [ "craftingfurnace3", "bars", "all" ]
 }

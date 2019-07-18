@@ -3,6 +3,7 @@
     { "item" : "durasteelbar", "count" : 1 },
     { "item" : "vantacatalyst", "count" : 4 }
   ],
+  "duration" : 0.15,
   "output" : { "item" : "nightsteel4bar", "count" : 1 },
   "groups" : [ "craftingfurnace2", "bars", "all" ]
 }

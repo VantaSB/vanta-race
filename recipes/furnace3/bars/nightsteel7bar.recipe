@@ -6,6 +6,7 @@
     { "item" : "solariumore", "count" : 2 },
     { "item" : "vantacatalyst", "count" : 8 }
   ],
+  "duration" : 0.15,
   "output" : { "item" : "nightsteel7bar", "count" : 1 },
   "groups" : [ "craftingfurnace3", "bars", "all" ]
 }
