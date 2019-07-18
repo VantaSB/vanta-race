@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "vantabreathprotectionback", "count" : 1 },
-  "groups" : [ "craftinganvil1", "hazardgear", "all" ]
+  "groups" : [ "craftinganvil", "hazardgear", "all" ]
 }
