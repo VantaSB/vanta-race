@@ -41,7 +41,7 @@
     }
   },
 
-  "ballSpeed" : 15,
+  "ballSpeed" : 20,
 
   "energyCost" : 30,
 
