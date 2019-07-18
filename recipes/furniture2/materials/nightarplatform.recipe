@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "titaniumbar", "count" : 1 }
   ],
-  "output" : { "item" : "vantaplatform", "count" : 10 },
+  "output" : { "item" : "nightarplatform", "count" : 10 },
   "duration" : 0.5,
   "groups"  : [ "craftingfurniture2", "materials", "all" ]
 }

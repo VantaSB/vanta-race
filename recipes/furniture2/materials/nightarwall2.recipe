@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "vantawall1", "count" : 1 }
+    { "item" : "nightarwall1", "count" : 1 }
   ],
-  "output" : { "item" : "vantawall2", "count" : 1 },
+  "output" : { "item" : "nightarwall2", "count" : 1 },
   "duration" : 0.12,
   "groups"  : [ "craftingfurniture2", "materials", "all" ]
 }

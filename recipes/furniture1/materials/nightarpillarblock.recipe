@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "tungstenore", "count" : 25 }
   ],
-  "output" : { "item" : "vantapillarblock", "count" : 5 },
+  "output" : { "item" : "nightarpillarblock", "count" : 5 },
   "duration" : 0.25,
   "groups"  : [ "craftingfurniture", "materials", "all" ]
 }

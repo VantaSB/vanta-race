@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "tungstenbar", "count" : 1 }
   ],
-  "output" : { "item" : "vantafloor", "count" : 5 },
+  "output" : { "item" : "nightarfloor", "count" : 5 },
   "duration" : 0.1,
   "groups"  : [ "craftingfurniture", "materials", "all" ]
 }

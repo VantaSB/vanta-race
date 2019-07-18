@@ -4,7 +4,7 @@
     { "item" : "fabric", "count" : 5 }
   ],
   "output" : {
-    "item" : "vantabattlestandard",
+    "item" : "nightarbattlestandard",
     "count" : 1
   },
   "groups" : [ "craftingfurniture2", "decoration", "all" ]
