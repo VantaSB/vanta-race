@@ -5,6 +5,6 @@
     { "item" : "durasteelbar", "count" : 2 }
   ],
   "duration" : 10,
-  "output" : { "item" : "vantahandscanner", "count" : 1 },
+  "output" : { "item" : "nightarhandscanner", "count" : 1 },
   "groups" : [ "craftingwiring", "switches" ]
 }
