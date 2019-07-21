@@ -21,16 +21,15 @@
   "inventoryIcon" : "brokenvantashipdooricon.png",
   "orientations" : [
     {
-      "dualImage" : "vantashipdoor.png:default",
+      "dualImage" : "brokenvantashipdoor.png:default",
       "imagePosition" : [-20, 0],
-      "renderLayer" : "Object+5",
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ]
     }
   ],
 
-  "animation" : "/objects/noisy/noisy.lua",
+  "animation" : "/objects/noisy/noisy.animation",
 
   "scripts" : [ "/objects/noisy/noisy.lua" ],
 
