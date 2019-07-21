@@ -4,9 +4,9 @@
   "category" : "liquid",
   "inventoryIcon" : "liquidceruleumicon.png",
   "shortdescription" : "Liquid Ceruleum Fuel",
-  "description" : "Smells better than Erchius.",
+  "description" : "Smells better and burns more efficiently than Erchius.",
 
   "liquid" : "liquidceruleumfuel",
 
-  "price" : 3000
+  "price" : 100
 }

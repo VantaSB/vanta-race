@@ -52,7 +52,7 @@
   "interactAction" : "OpenTeleportDialog",
   "interactData" : "/interface/warping/shipteleporter.config",
 
-  "inventoryIcon" : "vantashipteleporterTier3icon.png",
+  "inventoryIcon" : "vantashipteleportericon.png",
   "orientations" : [
     {
       "imageLayers" : [ { "image" : "vantashipteleporterTier3.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantashipteleporterTier3lit.png:<color>.<frame>" } ],

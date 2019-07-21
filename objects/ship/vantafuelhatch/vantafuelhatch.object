@@ -32,7 +32,7 @@
   ],
 
   "hasWindowIcon" : false,
-  "recipeGroup" : ["ceruleumfuel", "ceruleumfuelcell"],
+  "recipeGroup" : ["ceruleumfuelcell"],
   "slotCount" : 6,
   "uiConfig" : "/interface/fuel/fuel.config",
   "autoCloseCooldown" : 3600,

@@ -1,0 +1,38 @@
+{
+  "objectName" : "brokenvantashipdoor",
+  "colonyTags" : ["vanta","door"],
+  "printable" : false,
+  "rarity" : "common",
+
+  "category" : "decorative",
+  "description" : "A non-working ship door.",
+  "shortdescription" : "Broken Vanta Ship Door",
+  "race" : "vanta",
+
+  "apexDescription" : "A spaceship door.",
+  "avianDescription" : "A spaceship door.",
+  "floranDescription" : "Ssspaceship door.",
+  "glitchDescription" : "Proud. A ship door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic ship door.",
+  "novakidDescription" : "A door.",
+
+
+  "inventoryIcon" : "brokenvantashipdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vantashipdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.lua",
+
+  "scripts" : [ "/objects/noisy/noisy.lua" ],
+
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+}
