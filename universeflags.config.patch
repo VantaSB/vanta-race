@@ -1,15 +1,4 @@
 [
-  /*{
-    "op" : "add",
-    "path" : "/outpost_mission1/actions/-",
-    "value" : {
-      "type" : "placeDungeon",
-      "dungeonId" : "outpost_ranscastle",
-      "targetInstance" : "outpost",
-      "targetPosition" : [316, 655]
-    }
-  }*/
-
   {
     "op" : "add",
     "path" : "/outpost_mission1/actions/-",
