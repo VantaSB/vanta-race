@@ -28,7 +28,7 @@
   "inventoryIcon" : "vantashipteleportericon.png",
   "orientations" : [
     {
-      "image" : "vantashipteleporterTier3.png:<default>",
+      "image" : "vantashipteleporterTier0.png:<default>",
       "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
