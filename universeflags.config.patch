@@ -9,4 +9,20 @@
       "targetPosition" : [731, 597]
     }
   }
+
+  //For later
+  /*{
+    "op" : "add",
+    "path" : "/rescue_ran",
+    "value" : {
+      "actions" : [
+        {
+          "type" : "placeDungeon",
+          "dungeonId" : "outpost_ran",
+          "targetInstance" : "outpost",
+          "targetPosition" : [731, 597]
+        }
+      ]
+    }
+  }*/
 ]
