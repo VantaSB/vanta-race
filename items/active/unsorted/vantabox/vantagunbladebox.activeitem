@@ -1,0 +1,24 @@
+{
+  "itemName" : "vantagunbladebox",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "category" : "mysteriousReward",
+  "description" : "A package from Ran containing specialty gear!",
+  "shortdescription" : "Ran's Gift",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "vantabox.png",
+  "animation" : "vantabox.animation",
+  "animationCustom" : {},
+  "scripts" : ["vantabox.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "vantaGunblade",
+    "level" : 1
+  }
+}

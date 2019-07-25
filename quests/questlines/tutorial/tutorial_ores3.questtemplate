@@ -1,0 +1,56 @@
+{
+  "id" : "tutorial_ores3",
+  "title" : "Basic Gathering - Ores III",
+  "text" : "So, you've gotten a basic taste of what it is to smelt ores. Now, it's time to start gathering some more higher-tier ores. Let's go with... ^orange; 50 counts of copper, silver, and gold ore^reset;. Once you've got the required counts, smelt them into ^orange;25 bars each^reset;. That should keep you busy enough.",
+  "completionText" : "How about that! Now you've got some other bars to work with. Something of note: metal bars are used for more than just weapons and armor, they can also be used for other things like spools of wire, building blocks, and other objects. Also, metals like these are found deeper below a planet's surface in greater numbers, but also appear ^green;considerably more abundant on asteroids^reset;. The more you know!",
+  "rewards" : [],
+  "moneyRange" : [250, 500],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "player"
+    },
+    "canBeAbandoned" : true,
+    "requireTurnIn" : false,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "copperore",
+        "count" : 50,
+        "consume" : false
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "silverore",
+        "count" : 50,
+        "consume" : false
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "goldore",
+        "count" : 50,
+        "consume" : false
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "copperbar",
+        "count" : 25,
+        "consume" : false
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "silverbar",
+        "count" : 25,
+        "consume" : false
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "goldbar",
+        "count" : 25,
+        "consume" : false
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "itemName" : "vantagunblade",
+  "price" : 5000,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "A very intricate weapon seen mostly among the Vanta.",
+  "shortdescription" : "Vanta Gunblade",
+  "tooltipKind" : "sword",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "vantagunblade.png",
+
+  "animation" : "vantagunblade.animation",
+  "animationParts" : {
+    "handle" : "",
+    "weaponfullbright" : "vantagunbladelit.png",
+    "blade" : "vantagunblade.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.72,
+    "baseDps" : 11.2
+  },
+
+  "altAbilityType" : "bladecharge",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

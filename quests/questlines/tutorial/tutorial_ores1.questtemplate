@@ -1,0 +1,26 @@
+{
+  "id" : "tutorial_ores1",
+  "title" : "Basic Gathering - Ores I",
+  "text" : "Gathering is an integral part of progression. Different types of gathering items exist to help you craft your way to being an interstellar badass. The most fundamental of these items is ores, which come in several varieties. Gather up some basic ^orange;Iron Ore^reset; to start with; about 20 counts should do for now.",
+  "completionText" : "That should be enough for this example! Most ores can be refined into bars by using a ^green;furnace^reset;. Upgrading the furnace will allow you to craft more intricate bars, as well as various other ingredients. Be sure not to overlook it!",
+  "rewards" : [],
+  "moneyRange" : [100, 150],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "player"
+    },
+    "canBeAbandoned" : true,
+    "requireTurnIn" : false,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "ironore",
+        "count" : 20,
+        "consume" : false
+      }
+    ]
+  }
+}

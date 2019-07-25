@@ -1,0 +1,39 @@
+{
+  "id" : "gunblade",
+  "prerequisites" : [ "avian_mission2" ],
+  "title" : "Of Guns and Blades",
+  "text" : "I think it's time I made myself useful and taught you a special type of weapon. I'll need a few things from you before we get started. Specifically, you'll need your ^green;Weathered Sidearm^reset;, for sure. Bring me that, plus ^orange;2 bars of Grade VII Nightsteel, and a Dark Crystal^reset;.",
+  "completionText" : "Excellent, we've got the basic materials needed! As promised, here is the ^cyan;Vanta Gunblade^reset;! I threw in a small tome for some light reading, if you're interested. Keep in mind that it's not a firearm, it just uses one as a base ingredient.",
+  "moneyRange" : [220, 320],
+  "rewards" : [
+    [ [ "rewardbag", 1 ], [ "vantagunbladebox", 1 ] ]
+  ],
+  "speaker" : "questGiver",
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "questGiver"
+    },
+
+    "canBeAbandoned" : true,
+    "requireTurnIn" : true,
+    "turnInDescription" : "Bring the gathered materials to ^green;Ran at the Ark^reset;.",
+
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "vantahandgun",
+        "count" : 1,
+        "consume" : true
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "nightsteel7bar",
+        "count" : 2,
+        "consume" : true
+      }
+    ]
+  }
+}

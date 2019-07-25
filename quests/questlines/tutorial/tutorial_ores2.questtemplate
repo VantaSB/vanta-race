@@ -1,0 +1,26 @@
+{
+  "id" : "tutorial_ores2",
+  "title" : "Basic Gathering - Ores II",
+  "text" : "Let's make sure your gathering skills are up to spec. With the ^green;Iron Ore^reset; you collected, we're going to turn that into ^orange;Iron Bars^reset;. Hope you held on to them, because you'll need to create about ^orange;10 of them^reset;. A basic furnace can be used for this process.",
+  "completionText" : "Excellent! As before, you're going to want to make use of this as much as possible. We'll get into some of the higher-tier stuff once you've made some headway.",
+  "rewards" : [],
+  "moneyRange" : [100, 150],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "player"
+    },
+    "canBeAbandoned" : true,
+    "requireTurnIn" : false,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "ironbar",
+        "count" : 10,
+        "consume" : false
+      }
+    ]
+  }
+}

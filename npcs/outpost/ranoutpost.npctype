@@ -27,11 +27,20 @@
       [1.0, { "personality" : "normal", "reactions" : {} }]
     ],
     "behaviorConfig" : {
+      "greetingChance" : 0,
       "play" : false,
       "chat" : false
     },
 
     "questGenerator" : { "pools" : [], "enableParticipation" : false },
+
+    "offeredQuests" : [
+      "gunblade"
+    ],
+
+    "turnInQuests" : [
+      "gunblade"
+    ],
 
     "chatSounds" : {
       "avian" : {

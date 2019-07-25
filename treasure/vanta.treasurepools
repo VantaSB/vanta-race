@@ -7,5 +7,14 @@
         {"item" : "weatheredvantasaber"}
       ]
     }]
+  ],
+
+  "vantaGunblade" : [
+    [0, {
+      "fill" : [
+        { "item" : "vantagunblade" },
+        { "item" : "gunblade-codex" }
+      ]
+    }]
   ]
  }
