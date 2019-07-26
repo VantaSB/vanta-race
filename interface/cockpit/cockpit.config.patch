@@ -3,9 +3,9 @@
 		"op" : "add",
 		"path" : "/visitableTypeDescription/blackmoon",
 		"value" : [
-			"This ^#416473;black moon^white; has an abundant source of ^blue;liquid ceruleum fuel^white;. Be wary of the constant ^cyan;freezing rain^white; that falls in near-perpetuity.",
+			"This ^#416473;black moon^white; has an abundance of ^blue;liquid ceruleum^white;. Be wary of the ^cyan;freezing rain^white; that falls in near-perpetuity.",
 			"Small islands are scattered about the vast ^blue;liquid ceruleum^white; ^#416473;black moon^white;. Be sure to bundle up, thanks to the ^cyan;freezing rain storms^white;.",
-			"The surface of this ^#416473;black moon^white; is primarily comprised of ^blue;liquid ceruleum fuel^white;. The ^cyan;freezing rain^white; is nearly perpetual, with hints of ^gray;fog^white;."
+			"The surface of this ^#416473;black moon^white; is primarily comprised of ^blue;liquid ceruleum^white;. The ^cyan;freezing rain^white; is nearly perpetual, with hints of ^gray;fog^white;."
 		]
 	},
 
