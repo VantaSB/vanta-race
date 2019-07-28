@@ -9,7 +9,7 @@ Use this link for Issue Tracking: https://github.com/AbsoluteXeroEX/vanta-race/i
 Make sure you provide some details as to what's happening; simply opening up an issue and saying "IT'S BROKEN, FIX IT!!11!1!1!ONE!" will immediately be closed and disregarded as user error. No details, no fix.
 
 ### Compatibility
-This mod should be compatible with just about everything.
+Aside from Frackin' Universe or any mod that uses Ztarbound (since ZB is included with this mod by default), this mod should be compatible with just about everything else.
 
 ### Permissions and whatnot
 - https://github.com/AbsoluteXeroEX/vanta-race/wiki/Re:-Integration-Permissions
