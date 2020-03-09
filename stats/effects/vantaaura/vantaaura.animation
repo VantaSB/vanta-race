@@ -1,9 +1,9 @@
 {
   "lights" : {
-    "glow" : {
+    "lantern" : {
       "active" : true,
-      "position" : [0, 0],
-      "color" : [20, 20, 55],
+      "position" : [-1.0, 1.0],
+      "color" : [6, 190, 204],
       "pointLight" : true
     }
   }

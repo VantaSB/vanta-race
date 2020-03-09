@@ -3,7 +3,7 @@
   "effectConfig" : {},
   "defaultDuration" : 5,
 
-  "scripts" : [],
+  "scripts" : [ "vantaaura.lua" ],
 
   "animationConfig" : "vantaaura.animation"
 }

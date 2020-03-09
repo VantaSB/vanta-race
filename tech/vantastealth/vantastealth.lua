@@ -39,7 +39,7 @@ function init()
   ["thrownitem"] = true
   }
   self.stealthBreakCooldowns = config.getParameter("stealthBreakCooldowns")
-  world.sendEntityMessage(entity.id(), "enableTech", "activestealthtechhead")
+  world.sendEntityMessage(entity.id(), "enableTech", "vantastealth")
 end
 
 function isWeapon(name)
@@ -214,10 +214,10 @@ function update(args)
 	  else
 	    speedModifier = 0.75
 	  end
-	  if config.getParameter("name") == "activestealthtech-agent" and (lightModifier + speedModifier) < 0 then
+	  --[[if config.getParameter("name") == "activestealthtech-agent" and (lightModifier + speedModifier) < 0 then
 		lightModifier = lightModifier*4
 		speedModifier = speedModifier*4
-	  end
+    end]]
 	  local stealthCost = (self.energyCost+math.floor(status.resourceMax("energy")*self.energyFraction))*args.dt*(lightModifier + speedModifier)
 	  if stealthCost > 0 and not status.consumeResource("energy", stealthCost) then
 		deactivateStealth()

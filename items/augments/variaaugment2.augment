@@ -1,0 +1,30 @@
+{
+  "itemName" : "variaaugment2",
+  "price" : 5000,
+  "rarity" : "legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "omniaugment.png",
+  "description" : "Adds additional protection from hazardous elements and liquids.",
+  "shortdescription" : "Varia Augment II",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "varia2",
+    "displayName" : "Varia II",
+    "displayIcon" : "/items/augments/omniaugment.png",
+    "effects" : [
+      {"stat" : "wetImmunity", "amount" : 1.0},
+      {"stat" : "fireStatusImmunity", "amount" : 1.0},
+      {"stat" : "iceStatusImmunity", "amount" : 1.0},
+      {"stat" : "electricStatusImmunity", "amount" : 1.0},
+      {"stat" : "poisonStatusImmunity", "amount" : 1.0 },
+      {"stat" : "lavaImmunity", "amount" : 1.0},
+      {"stat" : "tarStatusImmunity", "amount" : 1.0}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupOmniAugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

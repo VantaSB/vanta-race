@@ -1,26 +1,18 @@
 {
-  "name" : "vantastealthsprint",
+  "name" : "vantastealth",
   "type" : "body",
 
-  "scripts" : ["/tech/dash/vantastealthsprint.lua"],
-  "animator" : "vantastealthsprint.animation",
+  "scripts" : ["/scripts/vec2.lua", "vantastealth.lua"],
+  "scriptDelta" : 1,
+  "actions" : [],
+  "animator" : "vantastealth.animation",
 
-  "description" : "Sprint with Nightarian Stealth! (see codex for more info)",
-  "shortDescription" : "Nightar Stealth Sprint",
+  "description" : "Double-tap ^green;[Up]^reset; to become invisible.",
+  "shortDescription" : "Vanta Stealth",
   "rarity" : "Legendary",
-  "icon" : "/tech/vantastealthsprint.png",
+  "icon" : "/tech/vantastealth/vantastealth.png",
 
-  "chipCost" : 40,
-
-  "energyCostPerSecond" : 10,
-  "maximumDoubleTapTime" : 0.35,
-  "dashControlForce" : 1000,
-  "dashSpeedModifier" : 2.0,
-  "stopAfterDash" : true,
-  "groundOnly" : true,
-
-  //Stealth stuff here
-  "energyCost" : 20,
+  "energyDrainRate" : 20,
   "energyDrainFraction" : 0.04,
   "baseRebootCooldown" : 6,
   "sneakAttackMult" : 2,
