@@ -1,0 +1,55 @@
+{
+  "id" : "techscientiststealth",
+  "prerequisites" : [ "techscientist6" ],
+  "requiredItems" : [ "stealthblueprint" ],
+  "title" : "Living Shadow",
+  "text" : "Ah, let me see that ^orange;blueprint^reset; of yours! Yes, fascinating... VERY fascinating... Okay! I can create a personal cloaking device for you using this; I'm going to need ^cyan;5 diamonds^reset; and ten pinches of that fancy ^blue;catalyst^reset; you Vanta are known for making.",
+  "completionText" : "Fantastic! I'm sure someone of your calibur will put this to excellent use~ No, I don't need details on what you might do with it. Just be happy you have it.",
+  "moneyRange" : [500, 500],
+  "rewards" : [],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      }
+    },
+
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Elliott^reset; at the ^orange;Outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "diamond",
+        "count" : 5,
+        "consume" : true
+      },
+
+      {
+        "type" : "gatherItem",
+        "itemName" : "vantacatalyst",
+        "count" : 10,
+        "consume" : true
+      },
+
+      {
+        "type" : "gatherItem",
+        "itemName" : "stealthblueprint",
+        "count" : 1,
+        "consume" : true
+      }
+    ],
+
+    "showTech" : [
+      "vantastealth"
+    ]
+  }
+}

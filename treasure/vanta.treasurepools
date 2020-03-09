@@ -4,7 +4,8 @@
       "fill" : [
         {"pool" : "starterTreasure"},
         {"item" : "vantahandgun"},
-        {"item" : "weatheredvantasaber"}
+        {"item" : "weatheredvantasaber"},
+        {"item" : "stealthblueprint"}
       ]
     }]
   ],
