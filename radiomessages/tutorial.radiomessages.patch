@@ -1,15 +1,6 @@
 [
   {
     "op" : "add",
-    "path" : "/pickupResearchEngram",
-    "value" : {
-      "type" : "tutorial",
-      "text" : "This is a ^cyan;data storage engram^reset;. It holds significant amounts of technological knowledge that we can definitely put to good use."
-    }
-  },
-
-  {
-    "op" : "add",
     "path" : "/pickupOmniAugment",
     "value" : {
       "type" : "tutorial",
