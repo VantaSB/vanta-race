@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedaegisalt", "count" : 5 },
-    { "item" : "darkcrystal", "count" : 1 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "jackalhandgun", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "weapons", "all" ]
-}

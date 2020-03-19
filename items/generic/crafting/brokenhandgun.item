@@ -1,0 +1,8 @@
+{
+  "itemName" : "brokenhandgun",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "upgradeComponent",
+  "description" : "A worn-out handgun. It's useless as-is, but it can be broken down for parts.",
+  "shortdescription" : "Broken Sidearm"
+}

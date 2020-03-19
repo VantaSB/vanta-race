@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "weatheredvantasaber", "count" : 1 },
-    { "item" : "nightsteel2bar", "count" : 2 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "vantasaber", "count" : 1 },
-  "groups" : [ "craftinganvil", "weapons", "all" ]
-}
