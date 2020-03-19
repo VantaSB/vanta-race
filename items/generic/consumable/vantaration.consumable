@@ -1,0 +1,18 @@
+{
+  "itemName" : "vantaration",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "vantaration.png",
+  "description" : "A ration pack; it contains about a quarter portion of your daily nutrients.",
+  "shortdescription" : "Ration Pack",
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}
