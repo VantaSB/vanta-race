@@ -1,0 +1,23 @@
+{
+  "itemName" : "vantaserfchest",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestarmour",
+  "description" : "This breastplate is fitted with behavior control modules to keep you in check.",
+  "shortdescription" : "Serf's Breastplate",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  }
+}
