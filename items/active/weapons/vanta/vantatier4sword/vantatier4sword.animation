@@ -37,29 +37,19 @@
         "properties" : {
           "zLevel" : 0,
           "centered" : true,
-          "image" : "<partImage><paletteSwaps>?<directives>?<bladeDirectives>",
+          "image" : "vantatier4sword.png<paletteSwaps>?<directives>?<bladeDirectives>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0],
           "damageArea" : [ [-0.7, -1.0], [-0.7, 2.5], [0.5, 2.5], [0.5, -1.0] ]
         }
       },
-      "handle" : {
-        "properties" : {
-          "zLevel" : 1,
-          "centered" : true,
-          "image" : "<partImage><paletteSwaps>?<directives>",
-          "offset" : [0, 1.875],
-          "transformationGroups" : ["weapon"],
-          "rotationCenter" : [0, 0]
-        }
-      },
-      "handleFullbright" : {
+      "weaponFullbright" : {
         "properties" : {
           "zLevel" : 1,
           "centered" : true,
           "fullbright" : true,
-          "image" : "<partImage><paletteSwaps>?<directives>",
+          "image" : "vantatier4swordlit.png<paletteSwaps>?<directives>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0]

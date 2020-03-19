@@ -14,11 +14,11 @@
   "inventoryIcon" : "vantatier4sword.png",
 
   "animation" : "vantatier4sword.animation",
-  "animationParts" : {
+  /*"animationParts" : {
     "handle" : "vantatier4sword.png",
     "handleFullbright" : "vantatier4swordlit.png",
     "blade" : ""
-  },
+  },*/
   "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
