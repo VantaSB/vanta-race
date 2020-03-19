@@ -2,10 +2,17 @@
   "vantaStarterTreasure" : [
     [0, {
       "fill" : [
-        {"pool" : "starterTreasure"},
-        {"item" : "vantahandgun"},
+        {"item" : "brokenhandgun"},
         {"item" : "weatheredvantasaber"},
-        {"item" : "stealthblueprint"}
+        {"item" : "stealthblueprint"},
+        {"item" : [ "vantaration", 1 ]},
+        {"item" : [ "vantaration", 1 ]},
+        {"item" : [ "vantaration", 1 ]},
+        {"item" : [ "vantaration", 1 ]},
+        {"item" : [ "vantaration", 1 ]},
+        {"item" : [ "vantaration", 1 ]},
+        {"item" : [ "vantaration", 1 ]},
+        {"item" : [ "vantaration", 1 ]}
       ]
     }]
   ],
