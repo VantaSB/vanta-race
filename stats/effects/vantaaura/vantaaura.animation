@@ -3,7 +3,7 @@
     "lantern" : {
       "active" : true,
       "position" : [-1.0, 1.0],
-      "color" : [6, 190, 204],
+      "color" : [42, 0, 126],
       "pointLight" : true
     }
   }

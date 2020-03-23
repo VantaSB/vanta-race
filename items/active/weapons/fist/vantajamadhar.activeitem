@@ -12,7 +12,7 @@
   "itemTags" : ["weapon", "fistWeapon"],
 
   "inventoryIcon" : "vantajamadhar.png:front",
-  "animation" : "fistweapon.animation",
+  "animation" : "vantajamadhar.animation",
   "animationParts" : {
     "weapon" : "vantajamadhar.png",
     "weaponFullbright" : "vantajamadharlit.png",
@@ -31,7 +31,7 @@
   "comboSteps" : 7,
   "comboTiming" : [0.2, 0.5],
   "comboCooldown" : 0.3,
-  "comboFinisherSource" : "/items/active/weapons/fist/combofinishers/supernovarush.combofinisher",
+  "comboFinisherSource" : "/items/active/weapons/fist/combofinishers/dashslash.combofinisher",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/fist/punch.lua"],
