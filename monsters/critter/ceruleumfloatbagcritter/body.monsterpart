@@ -1,0 +1,10 @@
+{
+  "name" : "ceruleumfloatbagcritter",
+  "category" : "ceruleumfloatbagcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodylit" : "bodylit.png"
+  }
+}

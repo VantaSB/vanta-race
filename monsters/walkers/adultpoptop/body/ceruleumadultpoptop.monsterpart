@@ -1,0 +1,9 @@
+{
+  "name" : "adultpoptop",
+  "category" : "ceruleumadultpoptop",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "ceruleumadultpoptop.png"
+  }
+}
