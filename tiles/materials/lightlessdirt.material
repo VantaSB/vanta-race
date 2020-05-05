@@ -3,6 +3,7 @@
   "materialName" : "lightlessdirt",
   "particleColor" : [127, 85, 154, 255],
   "itemDrop" : "lightlessdirt",
+  "shortdescription" : "Lightless Dirt",
   "description" : "A type of dirt found only on shadow-type worlds.",
   "footstepSound" : "/sfx/blocks/footstep_dirt.ogg",
   "health" : 8,
