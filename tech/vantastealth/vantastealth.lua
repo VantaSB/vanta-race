@@ -1,4 +1,3 @@
--- require "/scripts/keybind.lua"
 require "/scripts/vec2.lua"
 
 function init()
@@ -153,7 +152,7 @@ function activateStealth()
   local shadow
   if blackout == true then
     shadow = "multiply=000000"
-  else if not blackout then
+  elseif not blackout then
     shadow = "multiply=ffffff"
   end
 	local stealthTransparency = string.format("%X", math.max(math.floor(100 - 50*world.lightLevel(mcontroller.position())), 50))
