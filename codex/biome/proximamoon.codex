@@ -1,0 +1,14 @@
+{
+  "id" : "proximamoon",
+  "title" : "A Moon By Any Other Name",
+  "species" : "other",
+  "description" : "A document describing a new moon type",
+  "icon" : "genericdatafile.png",
+  "contentPages" : [
+    "We've recently discovered a new type of terrestrial body. We came across it while surveying one of the fringe systems. From a distance, our scanners initially classified it as a midnight-type that are common enough. However, when we reviewed the telemetric data in-depth, we discovered that some of the elements scanned were some that were not previously classified in all known databases.",
+
+    "The atmospheric composition is rather intriguing as well. The atmosphere is breathable, but is very harsh due to a perpetual storm that surrounds it. This storm does not rain water, however. It is another element not previously classified. We decided to deploy several survey drones from low orbit to collect data and samples. Only a few returned.",
+
+    "We were able to recover some of the telemetric data from the drones we lost and pieced it together with the ones that returned. Our analysis of it all was intriguing. It appears that this was in fact a midnight-type planetoid. At least, at one point it was. It has the typical characteristics, but it appears to have been lightly terraformed using unknown methods."
+  ]
+}
