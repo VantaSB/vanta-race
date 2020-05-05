@@ -19,9 +19,9 @@
   "shortdescription" : "Vanta Tech Station",
   "race" : "vanta",
 
-  "vantaDescription" : "A tech station. I can manage my crew and talk to S.A.I.L through this.",
+  "vantaDescription" : "I can speak with S.A.I.L. and keep track of my crew with this console.",
   "avianDescription" : "I can use this station to manage my crew and talk to S.A.I.L.",
-  "floranDescription" : "Floran use thisss followerss and talk to sshhip S.A.I.L!",
+  "floranDescription" : "Floran use thisss for followerss and talk to sshhip S.A.I.L!",
   "glitchDescription" : "Informative. This tech station allows me to manage my crew and talk to S.A.I.L.",
   "humanDescription" : "A tech station. Allows me to communicate with S.A.I.L and manage my crew!",
   "hylotlDescription" : "This station lets me manage my crew and allows me to communicate with S.A.I.L.",
@@ -53,20 +53,18 @@
   "dialog" : {
     "wakeUp" : [
       [ "^yellow;Rebooting, beginning diagnostics...^reset;", "/ai/portraits/vantaportrait.png:unique.1" ],
-      [ "Systems Check:\nCore System - ^green;OK^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Systems Check:\nSubroutines - ^green;OK^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Systems Check:\nDatabase - ^green;OK^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Systems Check:\nEngine Systems - ^#ff0000;ERROR^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
-      [ "Systems Check:\nFTL Drive - ^#ff0000;ERROR^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Systems Check:\nNavigation - ^#ff0000;ERROR^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Diagnostics complete;\n^orange;extensive repairs required.^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Greetings, captain. I am ^cyan;S.A.I.L^reset;, your personal AI assistant.", "/ai/portraits/vantaportrait.png:talk.0"],
       [ "I help manage the status of your ship and track your research data.", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "I can also offer you information and advice during your travels.", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Our last jump was accompanied by a catastrophic system failure.", "/ai/portraits/vantaportrait.png:talk.1" ],
-      [ "Multiple sections have been closed off due to compression leaks.", "/ai/portraits/vantaportrait.png:talk.1" ],
+      [ "We sustained heavy damage just before transit.", "/ai/portraits/vantaportrait.png:talk.1" ],
       [ "We are currently holding orbit over an unknown planet. Its threat level is ^green;minimal^reset;.", "/ai/portraits/vantaportrait.png:talk.1" ],
-      [ "I have restored the ^yellow;teleporter^reset;, I recommend you beam down and gather supplies.", "/ai/portraits/vantaportrait.png:talk.1" ],
+      [ "I have restored power to the ^yellow;teleporter^reset;, I recommend you beam down and gather supplies.", "/ai/portraits/vantaportrait.png:talk.1" ],
       [ "Please don't hesitate to talk to me if you need assistance.", "/ai/portraits/vantaportrait.png:talk.0" ]
     ],
     "wakePlayer" : [
