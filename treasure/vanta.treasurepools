@@ -2,13 +2,7 @@
   "vantaStarterTreasure" : [
     [0, {
       "fill" : [
-        {"item" : "brokenhandgun"},
-        {"item" : "weatheredvantasaber"},
-        {"item" : "stealthblueprint"},
-        {"item" : [ "vantaration", 1 ]},
-        {"item" : [ "vantaration", 1 ]},
-        {"item" : [ "vantaration", 1 ]},
-        {"item" : [ "vantaration", 1 ]},
+        {"item" : "weatheredgunblade"},
         {"item" : [ "vantaration", 1 ]},
         {"item" : [ "vantaration", 1 ]},
         {"item" : [ "vantaration", 1 ]},

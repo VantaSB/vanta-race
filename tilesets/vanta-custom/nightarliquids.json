@@ -8,8 +8,8 @@
   "tileheight" : 8,
   "tileproperties" : {
     "0" : {
-      "//name" : "liquidceruleumfuel",
-      "liquid" : "liquidceruleumfuel"
+      "//name" : "liquidceruleum",
+      "liquid" : "liquidceruleum"
     }
   },
   "tiles" : {
