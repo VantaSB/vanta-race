@@ -1,0 +1,27 @@
+{
+  "itemName" : "coreboostaugment3",
+  "price" : 15000,
+  "rarity" : "legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "omniaugment.png",
+  "description" : "Drives health, regeneration, and energy levels to their fullest.",
+  "shortdescription" : "Core Boost III Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "coreboost3",
+    "displayName" : "Core Boost III",
+    "displayIcon" : "/items/augments/omniaugment.png",
+    "effects" : [
+      "maxhealthboostaugment3",
+      "maxenergyboostaugment3",
+      "rageaugment3",
+      "regenerationaugment3"
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupOmniAugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

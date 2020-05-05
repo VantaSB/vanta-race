@@ -2,6 +2,12 @@
   {
     "op" : "add",
 	  "path" : "/stealthdaggercombo",
-	  "value" : "/items/active/weapons/melee/stealthdagger/stealthdaggercombo.weaponability"
+	  "value" : "/items/active/weapons/melee/abilities/dagger/stealthdaggercombo.weaponability"
+  },
+
+  {
+    "op" : "add",
+	  "path" : "/darkslice",
+	  "value" : "/items/active/weapons/melee/abilities/broadsword/darkslice/darkslice.weaponability"
   }
 ]

@@ -1,37 +1,79 @@
 {
   "itemName" : "vantagunblade",
   "price" : 5000,
-  "level" : 7,
+  "level" : 2,
   "maxStack" : 1,
-  "rarity" : "Essential",
+  "rarity" : "Common",
   "description" : "A very intricate weapon seen mostly among the Vanta.",
   "shortdescription" : "Vanta Gunblade",
   "tooltipKind" : "sword",
-  "category" : "uniqueWeapon",
+  "category" : "broadsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword"],
+  "itemTags" : ["weapon","melee","broadsword","upgradeableWeapon"],
 
   "inventoryIcon" : "vantagunblade.png",
 
   "animation" : "vantagunblade.animation",
   "animationParts" : {
     "handle" : "",
-    "weaponfullbright" : "vantagunbladelit.png",
     "blade" : "vantagunblade.png"
   },
   "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "electric",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.72,
-    "baseDps" : 11.2
+    "fireTime" : 0.84,
+    "baseDps" : 8.7,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 25,
+        "weaponRotation" : 35,
+        "weaponRotationCenter" : [-1.25, 0.0],
+        "weaponOffset" : [-0.25, -0.25],
+
+        "frontArmFrame" : "run.1",
+        "backArmFrame" : "jump.2"
+      }
+    }
   },
 
-  "altAbilityType" : "bladecharge",
+  "altAbilityType" : "blinkexplosion",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters" : {
+    "elementalType" : "ceruleumpoison",
+    "rarity" : "Essential",
+    "shortdescription" : "Vanta Gunblade ^yellow;^reset;",
+    "level" : 7,
+    "inventoryIcon" : "vantagunblade_upg.png",
+    "animationParts" : {
+      "handle" : "vantagunbladelit.png",
+      "blade" : "vantagunblade_upg.png"
+    },
+
+    "primaryAbility" : {
+      "fireTime" : 0.72,
+      "baseDps" : 22.1,
+
+      "stances" : {
+        "idle" : {
+          "armRotation" : 25,
+          "weaponRotation" : 35,
+          "weaponRotationCenter" : [-1.25, 0.0],
+          "weaponOffset" : [-0.25, -0.25],
+
+          "frontArmFrame" : "run.1",
+          "backArmFrame" : "jump.2"
+        }
+      }
+    },
+
+    "altAbilityType" : "bladecharge"
+  }
 }

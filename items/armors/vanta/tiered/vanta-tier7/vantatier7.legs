@@ -1,0 +1,42 @@
+{
+  "itemName" : "vantatier7pants",
+  "price" : 6700,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "category" : "legarmorAug",
+  "description" : "These tassets protect the legs of a warrior.",
+  "shortdescription" : "Siegebreaker Tassets",
+  "tooltipKind" : "armoraugment",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 7,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "vantaArmorLevelPowerMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "vantaArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "vantaArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "vantaArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "acceptsAugmentType" : "back",
+
+  "itemTags" : [ "tier7armour" ]
+}

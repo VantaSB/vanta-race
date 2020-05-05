@@ -1,0 +1,14 @@
+{
+  "itemName" : "fragmentcluster",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "fragmentcluster.png",
+  "shortdescription" : "Fragment Cluster",
+  "description" : "These fragments are giving off a lot of gravitational energy.",
+  "glitchdescription" : "Observant. These fragments can hover in mid-air.",
+  "florandescription" : "Floran likesss glowy-rocks.",
+  "novakiddescription" : "I wonder what kinda energy is held in all that.",
+
+  "materialId" : 3216
+}

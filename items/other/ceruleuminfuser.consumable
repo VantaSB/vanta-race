@@ -1,0 +1,20 @@
+{
+  "itemName" : "ceruleuminfuser",
+  "rarity" : "Legendary",
+  "price" : 0,
+  "category" : "medicine",
+  "inventoryIcon" : "ceruleumcanister.png",
+  "description" : "Ceruleum processed for consumption to give yourself a nice power boost.",
+  "shortdescription" : "Ceruleum Canister",
+  "effects" : [
+    [
+      {
+        "effect" : "ceruleumInfusion",
+        "duration" : 45
+      }
+    ]
+  ],
+
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

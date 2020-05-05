@@ -1,0 +1,60 @@
+{
+  "itemName" : "psionicshield",
+  "level" : 6,
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "category" : "shield",
+  "description" : "An innate ability that is core to a Vanta's self-defense. ^green;Quick select with [T] key.^reset;",
+  "shortdescription" : "Psionic Shield",
+  "tooltipKind" : "mm",
+  "twoHanded" : true,
+  "itemTags" : ["shield"],
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "/items/active/shields/shield.animation",
+  "animationParts" : {
+    "shield" : "/items/active/shields/images/vantashield/psionicshield.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_wood_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_wood.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_wood.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/shield.lua"],
+
+  "minActiveTime" : 0.2,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 1000,
+  "cooldownTime" : 0.45,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.2,
+
+  "knockback" : 10,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 10,
+      "shieldRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}
