@@ -13,7 +13,6 @@
   "icon" : "/tech/vantastealth/vantastealth2.png",
 
   "forceWalk" : false,
-  "blackout" : true,
   "energyDrainRate" : 20,
   "energyDrainFraction" : 0.04,
   "baseRebootCooldown" : 6,

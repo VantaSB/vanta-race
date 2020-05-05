@@ -22,7 +22,6 @@ function init()
 	{stat = "grit", amount = 1}
   }
   self.forceWalk = config.getParameter("forceWalk", false)
-  self.blackout = config.getParameter("blackout", true)
   self.techType = config.getParameter("type")
   self.holdingPrimaryWeapon = false
   self.holdingAltWeapon = false
@@ -149,15 +148,9 @@ function activateStealth()
 	self.active = true
 	world.setProperty("entity["..tostring(entity.id()).."]Stealthed", true)
 	self.heldWeaponGraceTimer = 0
-  local shadow
-  if blackout == true then
-    shadow = "multiply=000000"
-  elseif not blackout then
-    shadow = "multiply=ffffff"
-  end
 	local stealthTransparency = string.format("%X", math.max(math.floor(100 - 50*world.lightLevel(mcontroller.position())), 50))
 	if string.len(stealthTransparency) == 1 then stealthTransparency = "0"..stealthTransparency end
-	tech.setParentDirectives(shadow..stealthTransparency)
+	tech.setParentDirectives("multiply=000000"..stealthTransparency)
 	local sneakMult = math.floor(100*self.sneakAttackMult*status.stat("powerMultiplier"))/100
 	status.setPersistentEffects("sneakAttack", {
 		{stat = "powerMultiplier", baseMultiplier = sneakMult}
@@ -240,7 +233,7 @@ function update(args)
 		end
 		local stealthTransparency = string.format("%X", math.max(math.floor(100 - 50*world.lightLevel(mcontroller.position())), 50))
 		if string.len(stealthTransparency) == 1 then stealthTransparency = "0"..stealthTransparency end
-		tech.setParentDirectives(shadow..stealthTransparency)
+		tech.setParentDirectives("multiply=000000"..stealthTransparency)
 		--sb.logInfo("Light: %s, Speed: %s, Sum: %s", world.lightLevel(mcontroller.position()), vec2.mag(mcontroller.velocity()), stealthCost/args.dt)
 		local check2Hand = false
 		local newAltItem = world.entityHandItemDescriptor(entity.id(), "alt")
