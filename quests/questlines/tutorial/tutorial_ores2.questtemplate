@@ -1,24 +1,29 @@
 {
   "id" : "tutorial_ores2",
-  "title" : "Basic Gathering - Ores II",
-  "text" : "Let's make sure your gathering skills are up to spec. With the ^green;Iron Ore^reset; you collected, we're going to turn that into ^orange;Iron Bars^reset;. Hope you held on to them, because you'll need to create about ^orange;10 of them^reset;. A basic furnace can be used for this process.",
-  "completionText" : "Excellent! As before, you're going to want to make use of this as much as possible. We'll get into some of the higher-tier stuff once you've made some headway.",
+  "title" : "Gathering Basics - Ores II",
+  "text" : "Are you ready to continue? This will require more gathering. While Iron has its uses for a variety of starting items you'll need, there are much more uncommon and rarer ores to be found. This round won't be hard; about 20 units of ^green;Copper Ore^reset; should suffice.",
+  "completionText" : "Nicely done. Ores such as Copper, Silver, and Gold have a lot more value and are used for a variety of items, such as armor, weapons, and even other, basic materials. Speak to me again when you're ready to continue.",
   "rewards" : [],
-  "moneyRange" : [100, 150],
+  "moneyRange" : [25, 40],
 
   "updateDelta" : 10,
   "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
     "portraits" : {
-      "default" : "player"
+      "questStarted" : "sail",
+      "questCompleted" : "sail"
     },
+
     "canBeAbandoned" : true,
     "requireTurnIn" : false,
+
+    "turnInDescription" : "Gather 20 ^orange;Copper Ore^reset;.",
+
     "conditions" : [
       {
         "type" : "gatherItem",
-        "itemName" : "ironbar",
-        "count" : 10,
+        "itemName" : "copperore",
+        "count" : 20,
         "consume" : false
       }
     ]
