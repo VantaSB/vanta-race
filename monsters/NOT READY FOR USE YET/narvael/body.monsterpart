@@ -1,9 +1,0 @@
-{
-  "name" : "narvael",
-  "category" : "narvael",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "narvael.png"
-  }
-}

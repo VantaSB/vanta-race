@@ -1,9 +1,0 @@
-{
-  "name" : "screecher",
-  "category" : "screecher",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "screecher.png"
-  }
-}
