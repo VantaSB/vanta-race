@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 3 },
+    { "item" : "refinedferozium", "count" : 3 },
+    { "item" : "refinedviolium", "count" : 3 },
+    { "item" : "leather", "count" : 1 },
+    { "item" : "syntheticmaterial", "count" : 1 }
+  ],
+
+  "duration" : 5,
+  "output" : { "item" : "vantatier5pants", "count" : 1 },
+  "groups" : [ "vantaanvil3", "armours", "all" ]
+}

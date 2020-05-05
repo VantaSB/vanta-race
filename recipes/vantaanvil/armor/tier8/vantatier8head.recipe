@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "vantatier7head", "count" : 1 },
+    { "item" : "darkcrystal", "count" : 2 },
+    { "item" : "nightsteelbar", "count" : 2 }
+  ],
+
+  "duration" : 10,
+  "output" : { "item" : "vantatier8head", "count" : 1 },
+  "groups" : [ "vantaanvil4", "armours", "all" ]
+}

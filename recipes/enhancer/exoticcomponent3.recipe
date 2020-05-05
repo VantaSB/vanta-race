@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "nightsteel7bar", "count" : 10 }
-  ],
-  "duration" : 10,
-  "output" : { "item" : "exoticcomponent3", "count" : 1 },
-  "groups" : [ "enhancer", "all" ]
-}

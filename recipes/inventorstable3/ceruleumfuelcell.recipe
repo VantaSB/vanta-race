@@ -1,6 +1,5 @@
 {
   "input" : [
-    { "item" : "bottle", "count" : 1 },
     { "item" : "liquidceruleum", "count" : 5 },
     { "item" : "titaniumbar", "count" : 2 }
   ],

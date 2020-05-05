@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "aegisaltore", "count" : 2 },
+    { "item" : "feroziumore", "count" : 2 },
+    { "item" : "violiumore", "count" : 2 },
+    { "item" : "solariumore", "count" : 2 },
+    { "item" : "darkessence", "count" : 8 }
+  ],
+  "duration" : 0.15,
+  "output" : { "item" : "nightsteelbar", "count" : 1 },
+  "groups" : [ "nightsteel", "bars", "all" ]
+}
