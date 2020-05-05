@@ -1,17 +1,19 @@
 {
-  "name" : "vantastealth",
+  "name" : "vantastealth2",
   "type" : "body",
 
-  "scripts" : ["/scripts/vec2.lua", "vantastealth.lua"],
+  "scripts" : ["vantastealth.lua"],
   "scriptDelta" : 1,
   "actions" : [],
   "animator" : "vantastealth.animation",
 
-  "description" : "Double-tap ^green;[Up]^reset; to become invisible.",
-  "shortDescription" : "Vanta Stealth",
+  "description" : "Retain your ability to run while stealthed!",
+  "shortDescription" : "Vanta Stealth [^orange;R^reset;]",
   "rarity" : "Legendary",
-  "icon" : "/tech/vantastealth/vantastealth.png",
+  "icon" : "/tech/vantastealth/vantastealth2.png",
 
+  "forceWalk" : false,
+  "blackout" : true,
   "energyDrainRate" : 20,
   "energyDrainFraction" : 0.04,
   "baseRebootCooldown" : 6,

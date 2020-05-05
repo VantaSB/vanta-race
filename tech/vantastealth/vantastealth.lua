@@ -1,4 +1,5 @@
 -- require "/scripts/keybind.lua"
+require "/scripts/vec2.lua"
 
 function init()
   self.active = false
@@ -21,6 +22,8 @@ function init()
   sneakStats = { --let me walk through peeps
 	{stat = "grit", amount = 1}
   }
+  self.forceWalk = config.getParameter("forceWalk", false)
+  self.blackout = config.getParameter("blackout", true)
   self.techType = config.getParameter("type")
   self.holdingPrimaryWeapon = false
   self.holdingAltWeapon = false
@@ -58,7 +61,7 @@ function input(args)
   if self.techType == "body" and args.moves["up"] then
 	if not self.lastMoves["up"] then
 		if self.doubleTapTimer <= 0 then
-			self.doubleTapTimer = 0.35
+			self.doubleTapTimer = 0.25
 		else
 			if self.active then
 				deactivateStealth()
@@ -147,9 +150,15 @@ function activateStealth()
 	self.active = true
 	world.setProperty("entity["..tostring(entity.id()).."]Stealthed", true)
 	self.heldWeaponGraceTimer = 0
+  local shadow
+  if blackout == true then
+    shadow = "multiply=000000"
+  else if not blackout then
+    shadow = "multiply=ffffff"
+  end
 	local stealthTransparency = string.format("%X", math.max(math.floor(100 - 50*world.lightLevel(mcontroller.position())), 50))
 	if string.len(stealthTransparency) == 1 then stealthTransparency = "0"..stealthTransparency end
-	tech.setParentDirectives("multiply=ffffff"..stealthTransparency)
+	tech.setParentDirectives(shadow..stealthTransparency)
 	local sneakMult = math.floor(100*self.sneakAttackMult*status.stat("powerMultiplier"))/100
 	status.setPersistentEffects("sneakAttack", {
 		{stat = "powerMultiplier", baseMultiplier = sneakMult}
@@ -197,6 +206,9 @@ function update(args)
     self.rebootTimer = -1
   end
   if self.active then
+    if self.forceWalk then
+      mcontroller.controlModifiers({runningSuppressed = true})
+    end
 	  local lightModifier = (world.lightLevel(mcontroller.position()) or 0.2) - 0.2
 	  local speedModifier = vec2.mag(mcontroller.velocity())
 	  if lightModifier > 0 then
@@ -229,7 +241,7 @@ function update(args)
 		end
 		local stealthTransparency = string.format("%X", math.max(math.floor(100 - 50*world.lightLevel(mcontroller.position())), 50))
 		if string.len(stealthTransparency) == 1 then stealthTransparency = "0"..stealthTransparency end
-		tech.setParentDirectives("multiply=ffffff"..stealthTransparency)
+		tech.setParentDirectives(shadow..stealthTransparency)
 		--sb.logInfo("Light: %s, Speed: %s, Sum: %s", world.lightLevel(mcontroller.position()), vec2.mag(mcontroller.velocity()), stealthCost/args.dt)
 		local check2Hand = false
 		local newAltItem = world.entityHandItemDescriptor(entity.id(), "alt")
