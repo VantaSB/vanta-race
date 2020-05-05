@@ -1,0 +1,203 @@
+{
+  "name" : "proximamoon",
+  "friendlyName" : "Proxima Moon",
+
+  "hueShiftOptions" : [0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:proxima"
+      ]]
+  ],
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 3,
+        "pool" : [
+          [0.1111, "ceruleumadultpoptop"],
+          [0.1111, "ceruleumpoptop"],
+          [0.1111, "ceruleumpteropod"]
+        ]
+      },
+
+      {
+        "select" : 1,
+        "pool" : [
+          [0.4, "shadowmoth"],
+          [0.3, "frostfleck"],
+          [0.3, "frostfly"]
+        ]
+      },
+
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "ceruleumfloatbagcritter" ],
+          [ 1, "sackbagcritter" ],
+          [ 1, "darkwormcritter" ],
+          [ 1, "darknessscabcritter" ]
+        ]
+      },
+
+      {
+        "select" : 3,
+        "pool" : "generatedGroundAggroDay"
+      },
+      {
+        "select" : 3,
+        "pool" : "nightTerrors"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "snow",
+      "statusSettings" : {
+        "stats" : {
+          "ceruleumCorruptionBlock" : {
+            "baseValue" : 1.0
+          },
+
+          "iceStatusImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
+    }
+  },
+
+  "statusEffects" : [ ],
+
+  "skyOptions" : [
+    {
+      "mainColor" : [25, 25, 25],
+
+      "morningColors" : [ [5, 25, 33], [5, 25, 33] ],
+      "dayColors" : [ [5, 25, 33], [5, 25, 33] ],
+      "eveningColors" : [ [5, 25, 33], [5, 25, 33] ],
+      "nightColors" : [ [5, 25, 33], [5, 25, 33] ],
+
+      "morningLightColor" : [5, 25, 33],
+      "dayLightColor" : [5, 25, 33],
+      "eveningLightColor" : [5, 25, 33],
+      "nightLightColor" : [5, 25, 33]
+    }
+  ],
+
+  "mainBlock" : "lightlessrock",
+  "subBlocks" : [ "lightlessdirt", "obsidian" ],
+
+  "ores" : "proximasurface",
+
+  "parallax" : "/parallax/surface/midnight.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/tundra_night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/tundra_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : []
+    },
+    "night" : {
+      "tracks" : []
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "blackash" ],
+    "grassModDensity" : 0.9,
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDist",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "blocks", "stripeblocks", "blockpile", "reversepyramids", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank", "none" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures" ]
+      }
+    ]
+
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "blackash" ],
+    "grassModDensity" : 0.2,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "name" : "ceruleumpoptop",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.2,
+    "monsterType" : "ceruleumpoptop",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "ceruleumadultpoptop",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.1,
+    "monsterType" : "ceruleumadultpoptop",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "ceruleumpteropod",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.1,
+    "monsterType" : "ceruleumpteropod",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "nightstalker",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 1],
+    "spawnChance" : 0.1,
+    "monsterType" : "nightstalker",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "ceruleumfloatbagcritter",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.02,
+    "monsterType" : "ceruleumfloatbagcritter",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  }
+]

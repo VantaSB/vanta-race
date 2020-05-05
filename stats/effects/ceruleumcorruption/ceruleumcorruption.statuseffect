@@ -1,0 +1,16 @@
+{
+  "name" : "ceruleumcorruption",
+  "blockingStat" : "ceruleumCorruptionBlock",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "ceruleumcorruption.lua"
+  ],
+
+  "animationConfig" : "ceruleumcorruption.animation",
+
+  "label" : "Corruption",
+  "icon" : "/interface/statuses/ceruleumlock.png"
+}

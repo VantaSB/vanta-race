@@ -1,0 +1,20 @@
+{
+  "projectileName" : "ceruleum",
+  "physics" : "rain",
+  "image" : "ceruleum.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+  "damagePoly" : [ [-30, -30], [30, -30], [30, 30], [-30, 30] ],
+  "damageKind" : "hidden",
+  "actionOnReap" : [
+    {
+      "action" : "liquid",
+      "liquid" : "liquidceruleum",
+      "quantity" : 0.4
+    }
+  ],
+
+  "onlyHitTerrain" : true,
+  "hydrophobic" : true,
+  "masterOnly" : true
+}
