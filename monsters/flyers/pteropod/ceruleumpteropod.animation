@@ -6,70 +6,46 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 13,
-            "cycle" : 1.5
-          },
-          "walk" : {
             "frames" : 8,
-            "cycle" : 0.5,
+            "cycle" : 0.75,
             "mode" : "loop",
-            "properties" : {
-            "particleEmittersOff" : [ "spindust" ]
-            }
-          },
-          "jump" : {
-            "frames" : 2,
-            "cycle" : 0.5,
-            "mode" : "loop"
-          },
-          "fall" : {
-            "frames" : 2,
-            "cycle" : 0.5,
-            "mode" : "loop"
-          },
-          "chargewindup" : {
-            "frames" : 3,
-            "cycle" : 0.5,
-            "properties" : {
-              "persistentSound" : "/sfx/npc/quadruped/tiger_pain2.ogg",
-              "persistentSoundStopTime" : 1.0,
-              "particleEmittersOff" : [ "spindust" ]
-            }
-          },
-          "chargewinddown" : {
-            "frames" : 1,
-            "cycle" : 0.1,
-            "mode" : "transition",
-            "transition" : "idle",
-            "properties" : {
-              "persistentSound" : "/sfx/npc/quadruped/tiger_pain2.ogg",
-              "persistentSoundStopTime" : 1.0,
-              "particleEmittersOff" : [ "spindust" ]
-            }
-          },
-          "charge" : {
-            "frames" : 3,
-            "cycle" : 0.3,
-            "properties" : {
-              "persistentSound" : "/sfx/npc/quadruped/tiger_pain2.ogg",
-              "persistentSoundStopTime" : 1.0,
-              "immediateSound" : "/sfx/npc/monsters/monster_slash1.ogg",
-              "particleEmittersOff" : [ "spindust" ]
-            }
-          },
-          "roar" : {
-            "frames" : 8,
-            "cycle" : 0.53,
-            "mode" : "transition",
-            "transition" : "idle",
-            "properties" : {
-              "persistentSound" : "/sfx/npc/quadruped/tiger_pain1.ogg",
-              "persistentSoundStopTime" : 1.25
-            },
             "frameProperties" : {
-              "particleEmittersOff" : [ [ "spindust" ], [], [], [], [], [], [], ["spindust"] ],
-              "particleEmittersOn" : [ [], [], ["spindust"], [], [], [], [], [] ]
+              "immediateSound" : [ "", "/sfx/npc/monsters/batong_flap1.ogg", "", "", "", "/sfx/npc/monsters/batong_flap2.ogg", "", "" ]
             }
+          },
+          "fly" : {
+            "frames" : 8,
+            "cycle" : 0.75,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "", "/sfx/npc/monsters/batong_flap1.ogg", "", "", "", "/sfx/npc/monsters/batong_flap2.ogg", "", "" ]
+            }
+          },
+          "firewindup" : {
+            "frames" : 4,
+            "cycle" : 0.375,
+            "mode" : "transition",
+            "transition" : "winduploop",
+            "frameProperties" : {
+              "immediateSound" : [ "", "/sfx/npc/monsters/batong_flap1.ogg", "", "" ]
+            }
+          },
+          "winduploop" : {
+            "frames" : 4,
+            "cycle" : 0.375,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "", "/sfx/npc/monsters/batong_flap2.ogg", "", "" ]
+            },
+            "properties" : {
+              "persistentSound" : "/sfx/npc/monsters/pteropod_windup.ogg"
+            }
+          },
+          "fire" : {
+            "frames" : 4,
+            "cycle" : 0.375,
+            "mode" : "transition",
+            "transition" : "idle"
           }
         }
       },
@@ -81,7 +57,12 @@
             "frames" : 1
           },
           "stunned" : {
-            "frames" : 1
+            "frames" : 8,
+            "cycle" : 0.75,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "", "/sfx/npc/monsters/batong_flap3.ogg", "", "", "", "/sfx/npc/monsters/batong_flap3.ogg", "", "" ]
+            }
           }
         }
       },
@@ -110,60 +91,78 @@
     "parts" : {
       "body" : {
         "properties" : {
+          "zLevel" : 1,
           "transformationGroups" : [ "body" ],
-          "offset" : [2.0625, 0.6875]
+          "offset" : [0.25, -0.25],
+          "fullbright" : true
         },
         "partStates" : {
           "body" : {
             "idle" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:fly.<frame>"
               }
             },
-            "walk" : {
+            "fly" : {
               "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+                "image" : "<partImage>:fly.<frame>"
               }
             },
-            "jump" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
-              }
-            },
-            "fall" : {
-              "properties" : {
-                "image" : "<partImage>:walk.<frame>"
-              }
-            },
-            "roarwindup" : {
-              "properties" : {
-                "image" : "<partImage>:roarwindup.<frame>"
-              }
-            },
-            "roarwinddown" : {
-              "properties" : {
-                "image" : "<partImage>:roarwinddown.<frame>"
-              }
-            },
-            "roar" : {
-              "properties" : {
-                "image" : "<partImage>:roar.<frame>"
-              }
-            },
-            "chargewindup" : {
+            "firewindup" : {
               "properties" : {
                 "image" : "<partImage>:windup.<frame>"
               }
             },
-            "chargewinddown" : {
+            "winduploop" : {
               "properties" : {
-                "image" : "<partImage>:winddown.<frame>"
+                "image" : "<partImage>:winduploop.<frame>"
               }
             },
-            "charge" : {
+            "fire" : {
               "properties" : {
-                "image" : "<partImage>:charge.<frame>",
-                "damageArea" : [ [-7.5, 1.9375], [8.0, 0.5625], [8.5, -0.6875], [8.0, -1.9375], [5.5, -2.8125], [2.5, -2.8125], [-2.5, -2.1875], [-6.125, 0.3125] ]
+                "image" : "<partImage>:fire.<frame>"
+              }
+            }
+          },
+          "damage" : {
+            "stunned" : {
+              "properties" : {
+                "image" : "<partImage>:hurt.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "bodynobright" : {
+        "properties" : {
+          "zLevel" : 2,
+          "anchorPart" : "body"
+        },
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:fly.<frame>"
+              }
+            },
+            "fly" : {
+              "properties" : {
+                "image" : "<partImage>:fly.<frame>"
+              }
+            },
+            "firewindup" : {
+              "properties" : {
+                "image" : "<partImage>:windup.<frame>"
+              }
+            },
+            "winduploop" : {
+              "properties" : {
+                "image" : "<partImage>:winduploop.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:fire.<frame>"
               }
             }
           },
@@ -192,13 +191,6 @@
   },
 
   "particleEmitters" : {
-    "spindust" : {
-      "emissionRate" : 15,
-      "offsetRegion" : [ 1.0, -1.0, 2.0, -0.0 ],
-      "particles" : [
-        { "particle" : "mandrafloradust" }
-      ]
-    },
     "deathPoof" : {
       "particles" : [
         { "particle" : "monstersplosion" },
@@ -249,6 +241,7 @@
 
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+    "fire" : [ "/sfx/projectiles/spit1.ogg", "/sfx/projectiles/spit2.ogg" ]
   }
 }

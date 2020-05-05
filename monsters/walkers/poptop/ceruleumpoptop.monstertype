@@ -1,14 +1,14 @@
 {
-  "type" : "ceruleumadultpoptop",
-  "shortdescription" : "Ceruleum-infused Adult Poptop",
-  "description" : "It's huge...",
+  "type" : "ceruleumpoptop",
+  "shortdescription" : "Ceruleum-infused Poptop",
+  "description" : "Its humming can easily confuse innocent passers-by.",
 
-  "categories" : [ "ceruleumadultpoptop" ],
+  "categories" : [ "ceruleumpoptop" ],
   "parts" : [ "body" ],
 
-  "animation" : "ceruleumadultpoptop.animation",
+  "animation" : "ceruleumpoptop.animation",
 
-  "dropPools" : [ { "default" : "adultpoptopTreasure", "bow" : "adultpoptoptHunting" } ],
+  "dropPools" : [ { "default" : "poptopTreasure", "bow" : "poptopHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
@@ -20,11 +20,11 @@
     "behaviorConfig" : {
       "damageOnTouch" : true,
 
-      "targetQueryRange" : 25,
+      "targetQueryRange" : 20,
       "targetOnDamage" : true,
       "keepTargetInSight" : true,
-      "keepTargetInRange" : 55,
-      "targetOutOfSightTime" : 3.45,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
 
       "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
 
@@ -32,30 +32,21 @@
 
       "hostileActions" : [
         {
-          "name" : "action-animate",
-          "cooldown" : 3,
-          "parameters" : {
-            "stateType" : "body",
-            "state" : "roar",
-            "animationTime" : 0.53
-          }
-        },
-        {
           "name" : "action-charge",
           "cooldown" : 3,
           "parameters" : {
-            "maximumRange" : 7,
-            "windupTime" : 0.325,
+            "maximumRange" : 5,
+            "windupTime" : 0.4,
 
             "aimAtTarget" : false,
             "aimDirection" : [1, 0.5],
-            "chargeTime" : [0.275, 0.275],
-            "chargeSpeed" : 30,
-            "chargeControlForce" : 225,
+            "chargeTime" : [0.3, 0.3],
+            "chargeSpeed" : 25,
+            "chargeControlForce" : 200,
             "wallCrashSound" : "",
             "wallCrashEmitter" : "",
 
-            "winddownTime" : 0.375
+            "winddownTime" : 0.5
           }
         }
       ],
@@ -68,10 +59,12 @@
           "parameters" : {
             "canJump" : true,
             "maxJumps" : 8,
-            "jumpXVelocity" : 15,
+            "moveState" : "run",
+            "jumpXVelocity" : 12,
             "jumpYVelocity" : 30,
-            "jumpXControlForce" : 75,
-            "minXRange" : 8
+            "jumpXControlForce" : 50,
+            "minXRange" : 10,
+            "run" : true
           }
         }
       ],
@@ -87,10 +80,12 @@
           "parameters" : {
             "canJump" : true,
             "maxJumps" : 8,
-            "jumpXVelocity" : 15,
+            "moveState" : "run",
+            "jumpXVelocity" : 12,
             "jumpYVelocity" : 30,
-            "jumpXControlForce" : 75,
-            "minXRange" : 8
+            "jumpXControlForce" : 50,
+            "minXRange" : 10,
+            "run" : true
           }
         }
       ],
@@ -100,26 +95,24 @@
           "name" : "wander-walk",
           "cooldown" : 3.0,
           "parameters" : {
-            "wanderTime" : [5, 15]
+            "moveState" : "stroll",
+            "wanderTime" : [5, 20]
+          }
+        },
+        {
+          "name" : "wander-walk",
+          "cooldown" : 6.0,
+          "parameters" : {
+            "moveState" : "walk",
+            "wanderTime" : [5, 5]
           }
         }
       ]
     },
 
-    "damageParts" : {
-      "body" : {
-        "damage" : 18,
-
-        "teamType" : "enemy",
-        "damageSourceKind" : "slash",
-        "knockback" : 23,
-        "statusEffects" : [ ]
-      }
-    },
-
     "touchDamage" : {
-      "poly" : [ [1.75, 2.55], [2.25, 2.05],  [2.75, -3.55], [2.25, -3.95],  [-2.25, -3.95], [-2.75, -3.55],  [-2.25, 2.05], [-1.75, 2.55] ],
-      "damage" : 17,
+      "poly" : [ [0.8125, 1.25], [1.3125, 0.75],  [1.3125, -1.05], [0.8125, -1.55],  [-0.8125, -1.55], [-1.3125, -1.05],  [-1.3125, 0.75], [-0.8125, 1.25] ],
+      "damage" : 14,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
@@ -131,11 +124,11 @@
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [1.75, 2.55], [2.25, 2.05],  [2.75, -3.55], [2.25, -3.95],  [-2.25, -3.95], [-2.75, -3.55],  [-2.25, 2.05], [-1.75, 2.55] ],
+      "collisionPoly" : [ [0.8125, 1.25], [1.3125, 0.75],  [1.3125, 0.10], [0.8125, -0.40],  [-0.8125, -0.40], [-1.3125, 0.10],  [-1.3125, 0.75], [-0.8125, 1.25] ],
 
-      "mass" : 2.9,
-      "walkSpeed" : 11,
-      "runSpeed" : 15,
+      "mass" : 1.0,
+      "walkSpeed" : 2,
+      "runSpeed" : 5,
 
       "airFriction" : 0,
 
@@ -177,7 +170,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 400
+          "baseValue" : 265
         },
         "protection" : {
           "baseValue" : 0.0
@@ -186,7 +179,7 @@
           "baseValue" : 0.375
         },
         "powerMultiplier" : {
-          "baseValue" : 2.225
+          "baseValue" : 1.725
         },
         "physicalResistance" : {
           "baseValue" : 0.625

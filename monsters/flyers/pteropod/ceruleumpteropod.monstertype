@@ -1,14 +1,14 @@
 {
-  "type" : "ceruleumadultpoptop",
-  "shortdescription" : "Ceruleum-infused Adult Poptop",
-  "description" : "It's huge...",
+  "type" : "ceruleumpteropod",
+  "shortdescription" : "Ceruleum-infused Pteropod",
+  "description" : "It splatters pools of liquid ceruleum at its targets.",
 
-  "categories" : [ "ceruleumadultpoptop" ],
+  "categories" : [ "ceruleumpteropod" ],
   "parts" : [ "body" ],
 
-  "animation" : "ceruleumadultpoptop.animation",
+  "animation" : "ceruleumpteropod.animation",
 
-  "dropPools" : [ { "default" : "adultpoptopTreasure", "bow" : "adultpoptoptHunting" } ],
+  "dropPools" : [ { "default" : "pteropodTreasure", "bow" : "pteropodHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
@@ -17,61 +17,64 @@
 
     "behavior" : "monster",
 
+    "seeThroughLiquid" : false,
     "behaviorConfig" : {
       "damageOnTouch" : true,
 
-      "targetQueryRange" : 25,
+      "targetQueryRange" : 20,
       "targetOnDamage" : true,
       "keepTargetInSight" : true,
-      "keepTargetInRange" : 55,
-      "targetOutOfSightTime" : 3.45,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 5.0,
 
-      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+      "foundTargetActions" : [ ],
 
-      "fleeActions" : [],
+      "fleeActions" : [ ],
 
       "hostileActions" : [
-        {
-          "name" : "action-animate",
-          "cooldown" : 3,
+       {
+          "name" : "action-fire",
+          "cooldown" : 0.0,
           "parameters" : {
-            "stateType" : "body",
-            "state" : "roar",
-            "animationTime" : 0.53
-          }
-        },
-        {
-          "name" : "action-charge",
-          "cooldown" : 3,
-          "parameters" : {
-            "maximumRange" : 7,
-            "windupTime" : 0.325,
+            "requireLineOfSight" : true,
+            "maximumRange" : 10,
+            "minimumRange" : 2,
+            "windupState" : "firewindup",
+            "windupTime" : 0.5,
 
-            "aimAtTarget" : false,
-            "aimDirection" : [1, 0.5],
-            "chargeTime" : [0.275, 0.275],
-            "chargeSpeed" : 30,
-            "chargeControlForce" : 225,
-            "wallCrashSound" : "",
-            "wallCrashEmitter" : "",
+            "projectileType" : "ceruleumspit",
+            "fireOffset" : [0.75, 0.25],
+            "projectileParameters" : {
+              "speed" : 15
+            },
+            "projectileCount" : 8,
+            "projectileInterval" : 0.0,
+            "inaccuracy" : 0.7,
+            "aimAtTarget" : true,
+            "onGround" : false,
+            "fireState" : "fire",
+            "fireSound" : "fire",
+            "fireDelay" : 0.1,
 
-            "winddownTime" : 0.375
+            "fireArc": true,
+            "projectileSpeed": 50,
+            "gravityMultiplier": 0.6,
+
+            "winddownState" : "",
+            "winddownTime" : 1.0
           }
         }
       ],
 
-      "periodicActions" : [],
+      "periodicActions" : [
+       ],
 
       "approachActions" : [
         {
-          "name" : "approach-walk",
+          "name" : "approach-fly",
           "parameters" : {
-            "canJump" : true,
-            "maxJumps" : 8,
-            "jumpXVelocity" : 15,
-            "jumpYVelocity" : 30,
-            "jumpXControlForce" : 75,
-            "minXRange" : 8
+            "minRange" : 4,
+            "maxRange" : 8
           }
         }
       ],
@@ -83,46 +86,34 @@
           }
         },
         {
-          "name" : "approach-walk",
-          "parameters" : {
-            "canJump" : true,
-            "maxJumps" : 8,
-            "jumpXVelocity" : 15,
-            "jumpYVelocity" : 30,
-            "jumpXControlForce" : 75,
-            "minXRange" : 8
-          }
+          "name" : "approach-fly"
         }
       ],
 
       "wanderActions" : [
         {
-          "name" : "wander-walk",
-          "cooldown" : 3.0,
+          "name" : "wander-fly",
           "parameters" : {
-            "wanderTime" : [5, 15]
+            "wanderTime" : [2,4],
+            "groundDistance" : 8,
+            "ceilingDistance" : 8,
+            "xVelocity" : 4,
+            "yVelocity" : 12
           }
         }
-      ]
-    },
+      ],
 
-    "damageParts" : {
-      "body" : {
-        "damage" : 18,
+      "concurrentActions" : [ ],
 
-        "teamType" : "enemy",
-        "damageSourceKind" : "slash",
-        "knockback" : 23,
-        "statusEffects" : [ ]
-      }
+      "concurrentHostileActions" : [ ]
     },
 
     "touchDamage" : {
-      "poly" : [ [1.75, 2.55], [2.25, 2.05],  [2.75, -3.55], [2.25, -3.95],  [-2.25, -3.95], [-2.75, -3.55],  [-2.25, 2.05], [-1.75, 2.55] ],
-      "damage" : 17,
+      "poly" : [ [0.26, 0.625],  [0.625, 0.26], [0.625, -1.26], [0.26, -1.625], [-0.26, -1.625], [-0.625, -1.26], [-0.625, 0.26], [-0.26, 0.625] ],
+      "damage" : 9,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "slash",
+      "damageSourceKind" : "lash",
       "knockback" : 20,
       "statusEffects" : [ ]
     },
@@ -131,19 +122,16 @@
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [1.75, 2.55], [2.25, 2.05],  [2.75, -3.55], [2.25, -3.95],  [-2.25, -3.95], [-2.75, -3.55],  [-2.25, 2.05], [-1.75, 2.55] ],
+      "collisionPoly" : [ [0.26, 0.625],  [0.625, 0.26], [0.625, -1.26], [0.26, -1.625], [-0.26, -1.625], [-0.625, -1.26], [-0.625, 0.26], [-0.26, 0.625] ],
 
-      "mass" : 2.9,
-      "walkSpeed" : 11,
-      "runSpeed" : 15,
+      "mass" : 0.5,
+      "walkSpeed" : 4,
+      "runSpeed" : 12,
+      "gravityEnabled" : false,
 
-      "airFriction" : 0,
-
-      "airJumpProfile" : {
-        "jumpSpeed" : 45.0,
-        "jumpInitialPercentage" : 1.0,
-        "jumpHoldTime" : 0.0
-      }
+      "airFriction" : 4,
+      "airForce" : 40,
+      "flySpeed" : 15
     },
 
     "bodyMaterialKind" : "organic",
@@ -171,13 +159,13 @@
 
       "stats" : {
         "knockbackStunTime" : {
-          "baseValue" : 0.25
+          "baseValue" : 0.5
         },
         "knockbackThreshold" : {
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 400
+          "baseValue" : 200
         },
         "protection" : {
           "baseValue" : 0.0

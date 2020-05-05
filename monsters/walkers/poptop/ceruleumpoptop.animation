@@ -6,69 +6,75 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 13,
-            "cycle" : 1.5
+            "frames" : 1,
+            "cycle" : 1,
+            "properties" : {
+              "particleEmittersOff" : [ "music" ]
+            }
           },
           "walk" : {
-            "frames" : 8,
-            "cycle" : 0.5,
+            "frames" : 6,
+            "cycle" : 0.6,
             "mode" : "loop",
             "properties" : {
-            "particleEmittersOff" : [ "spindust" ]
+              "particleEmittersOff" : [ "music" ]
+            }
+          },
+         "run" : {
+            "frames" : 8,
+            "cycle" : 0.6,
+            "mode" : "loop",
+            "properties" : {
+              "particleEmittersOff" : [ "music" ]
+            }
+          },
+          "stroll" : {
+            "frames" : 8,
+            "cycle" : 0.8,
+            "mode" : "loop",
+            "properties" : {
+              "particleEmittersOn" : [ "music" ],
+              "persistentSound" : "/sfx/npc/monsters/poptop_sing_loop.ogg",
+              "persistentSoundStopTime" : 0.5
             }
           },
           "jump" : {
             "frames" : 2,
             "cycle" : 0.5,
-            "mode" : "loop"
+            "properties" : {
+              "particleEmittersOff" : [ "music" ],
+              "immediateSound" : "/sfx/npc/monsters/monster_hop.ogg",
+              "immediateSoundRangeMultiplier" : 0.5
+            }
           },
           "fall" : {
             "frames" : 2,
             "cycle" : 0.5,
-            "mode" : "loop"
+            "properties" : {
+              "particleEmittersOff" : [ "music" ]
+            }
           },
           "chargewindup" : {
-            "frames" : 3,
-            "cycle" : 0.5,
+            "frames" : 2,
+            "cycle" : 0.4,
+            "mode" : "loop",
             "properties" : {
-              "persistentSound" : "/sfx/npc/quadruped/tiger_pain2.ogg",
-              "persistentSoundStopTime" : 1.0,
-              "particleEmittersOff" : [ "spindust" ]
+              "particleEmittersOff" : [ "music" ]
             }
           },
           "chargewinddown" : {
             "frames" : 1,
             "cycle" : 0.1,
-            "mode" : "transition",
-            "transition" : "idle",
             "properties" : {
-              "persistentSound" : "/sfx/npc/quadruped/tiger_pain2.ogg",
-              "persistentSoundStopTime" : 1.0,
-              "particleEmittersOff" : [ "spindust" ]
+              "particleEmittersOff" : [ "music" ]
             }
           },
           "charge" : {
-            "frames" : 3,
+            "frames" : 4,
             "cycle" : 0.3,
             "properties" : {
-              "persistentSound" : "/sfx/npc/quadruped/tiger_pain2.ogg",
-              "persistentSoundStopTime" : 1.0,
-              "immediateSound" : "/sfx/npc/monsters/monster_slash1.ogg",
-              "particleEmittersOff" : [ "spindust" ]
-            }
-          },
-          "roar" : {
-            "frames" : 8,
-            "cycle" : 0.53,
-            "mode" : "transition",
-            "transition" : "idle",
-            "properties" : {
-              "persistentSound" : "/sfx/npc/quadruped/tiger_pain1.ogg",
-              "persistentSoundStopTime" : 1.25
-            },
-            "frameProperties" : {
-              "particleEmittersOff" : [ [ "spindust" ], [], [], [], [], [], [], ["spindust"] ],
-              "particleEmittersOn" : [ [], [], ["spindust"], [], [], [], [], [] ]
+              "particleEmittersOff" : [ "music" ],
+              "immediateSound" : "/sfx/npc/monsters/monster_bite2.ogg"
             }
           }
         }
@@ -111,7 +117,7 @@
       "body" : {
         "properties" : {
           "transformationGroups" : [ "body" ],
-          "offset" : [2.0625, 0.6875]
+          "offset" : [-0.0625, 0.6875]
         },
         "partStates" : {
           "body" : {
@@ -125,29 +131,24 @@
                 "image" : "<partImage>:walk.<frame>"
               }
             },
+            "run" : {
+              "properties" : {
+                "image" : "<partImage>:run.<frame>"
+              }
+            },
+            "stroll" : {
+              "properties" : {
+                "image" : "<partImage>:stroll.<frame>"
+              }
+            },
             "jump" : {
               "properties" : {
-                "image" : "<partImage>:walk.<frame>"
+                "image" : "<partImage>:jump.<frame>"
               }
             },
             "fall" : {
               "properties" : {
-                "image" : "<partImage>:walk.<frame>"
-              }
-            },
-            "roarwindup" : {
-              "properties" : {
-                "image" : "<partImage>:roarwindup.<frame>"
-              }
-            },
-            "roarwinddown" : {
-              "properties" : {
-                "image" : "<partImage>:roarwinddown.<frame>"
-              }
-            },
-            "roar" : {
-              "properties" : {
-                "image" : "<partImage>:roar.<frame>"
+                "image" : "<partImage>:fall.<frame>"
               }
             },
             "chargewindup" : {
@@ -162,8 +163,7 @@
             },
             "charge" : {
               "properties" : {
-                "image" : "<partImage>:charge.<frame>",
-                "damageArea" : [ [-7.5, 1.9375], [8.0, 0.5625], [8.5, -0.6875], [8.0, -1.9375], [5.5, -2.8125], [2.5, -2.8125], [-2.5, -2.1875], [-6.125, 0.3125] ]
+                "image" : "<partImage>:charge.<frame>"
               }
             }
           },
@@ -192,11 +192,11 @@
   },
 
   "particleEmitters" : {
-    "spindust" : {
-      "emissionRate" : 15,
-      "offsetRegion" : [ 1.0, -1.0, 2.0, -0.0 ],
+    "music" : {
+      "emissionRate" : 1,
+      "offsetRegion" : [ -0.0, 1.25, 0.0, 1.25 ],
       "particles" : [
-        { "particle" : "mandrafloradust" }
+        { "particle" : "music" }
       ]
     },
     "deathPoof" : {
@@ -249,6 +249,7 @@
 
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+    "fire" : [ "/sfx/projectiles/spit1.ogg", "/sfx/projectiles/spit2.ogg" ]
   }
 }
