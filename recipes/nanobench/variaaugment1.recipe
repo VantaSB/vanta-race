@@ -7,6 +7,6 @@
     { "item" : "staticcell", "count" : 1 }
   ],
   "duration" : 5,
-  "output" : { "item" : "variaaugment", "count" : 1 },
+  "output" : { "item" : "variaaugment1", "count" : 1 },
   "groups" : [ "nanobench", "eppAugment", "all" ]
 }
