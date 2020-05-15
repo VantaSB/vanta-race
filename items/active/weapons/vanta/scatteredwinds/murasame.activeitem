@@ -1,0 +1,37 @@
+{
+  "itemName" : "murasame",
+  "price" : 5000,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "\"I know that you fight for me. But, what do I fight for...?\"",
+  "shortdescription" : "Murasame",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "melee", "broadsword", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "murasame.png",
+
+  "animation" : "scatteredwinds.animation",
+  "animationParts" : {
+    "weapon" : "murasame.png",
+    "weaponfullbright" : "murasamelit.png"
+  },
+
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "scatteredwindscombo",
+  "primaryAbility" : {
+    "fireTime" : 0.84,
+    "baseDps" : 22.7
+  },
+
+  "altAbilityType" : "superspinslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

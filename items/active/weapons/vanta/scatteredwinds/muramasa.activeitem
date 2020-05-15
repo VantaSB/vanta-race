@@ -1,0 +1,37 @@
+{
+  "itemName" : "muramasa",
+  "price" : 5000,
+  "level" : 7,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "\"If you encounter God, God will be cut. If you encounter an evil spirit, then it will be cut.\"",
+  "shortdescription" : "Muramasa",
+  "tooltipKind" : "sword",
+  "category" : "katana",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "melee", "broadsword", "katana" ],
+
+  "inventoryIcon" : "muramasa.png",
+
+  "animation" : "scatteredwinds.animation",
+  "animationParts" : {
+    "weapon" : "muramasa.png",
+    "weaponfullbright" : "muramasalit.png"
+  },
+
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "scatteredwindscombo",
+  "primaryAbility" : {
+    "fireTime" : 0.84,
+    "baseDps" : 22.7
+  },
+
+  "altAbilityType" : "darkslice",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -9,5 +9,15 @@
     "op" : "add",
 	  "path" : "/darkslice",
 	  "value" : "/items/active/weapons/melee/abilities/broadsword/darkslice/darkslice.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/scatteredwindscombo",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/scatteredwindscombo.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/iaijutsu",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/iaijutsu/iaijutsu.weaponability"
   }
 ]
