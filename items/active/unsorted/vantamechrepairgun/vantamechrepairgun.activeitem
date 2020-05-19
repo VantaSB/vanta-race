@@ -1,19 +1,19 @@
 {
-  "itemName" : "mecharepairtool",
+  "itemName" : "vantamechrepairgun",
   "price" : 2000,
-  "inventoryIcon" : "mecharepairtool.png",
+  "inventoryIcon" : "vantamechrepairgun.png",
   "maxStack" : 1,
   "rarity" : "Essential",
   "description" : "A useful tool for repairing your mech while on the go.",
-  "shortdescription" : "Mech Repair Tool",
+  "shortdescription" : "Mech Repair Gun",
   "category" : "tool",
   "level" : 6,
   "tooltipKind" : "gun",
   "twoHanded" : true,
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
-    "middle" : "mecharepairtool.png",
-    "middleFullbright" : "mecharepairtoolfullbright.png"
+    "middle" : "vantamechrepairgun.png",
+    "middleFullbright" : "vantamechrepairfullbright.png"
   },
   "animationCustom" : {
     "sounds" : {
