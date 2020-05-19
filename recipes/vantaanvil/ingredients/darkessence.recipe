@@ -3,5 +3,5 @@
     { "item" : "darkfragmentore", "count" : 1 }
   ],
   "output" : { "item" : "darkessence", "count" : 10 },
-  "groups" : [ "nightsteel", "ingredients", "all" ]
+  "groups" : [ "vantaanvil1", "vantaingredients", "all" ]
 }

@@ -8,5 +8,5 @@
   ],
   "duration" : 0.15,
   "output" : { "item" : "nightsteelbar", "count" : 1 },
-  "groups" : [ "nightsteel", "bars", "all" ]
+  "groups" : [ "vantaanvil1", "vantaingredients", "all" ]
 }
