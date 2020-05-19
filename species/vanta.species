@@ -9,7 +9,7 @@
 
   "statusEffects" : [ "vantaaura" ],
 
-  "humanoidConfig" : "/species/vantanoid.config", //<-- Custom humanoid configuration? Penguins have it and it seems to work well enough here.
+  "humanoidConfig" : "/species/vantanoid.config", //<-- Custom humanoid configuration, primarily for deathPoof animation; the only downside is that this doesn't allow for mods that add custom stances.
 
   "nameGen" : [ "/species/vantamalenamegen.config:names", "/species/vantafemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/vantahurt_male1.ogg", "/sfx/humanoid/vantahurt_female1.ogg" ],
