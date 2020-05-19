@@ -38,7 +38,7 @@
       },
 
       "interactData" : {
-        "config" : "/interface/windowconfig/craftinganvil.config",
+        "config" : "/interface/windowconfig/vantaanvil.config",
         "paneLayoutOverride" : {
           "windowtitle" : {
             "title" : " Vanta Replicator",
@@ -77,7 +77,7 @@
       },
 
       "interactData" : {
-        "config" : "/interface/windowconfig/craftinganvil.config",
+        "config" : "/interface/windowconfig/vantaanvil.config",
         "paneLayoutOverride" : {
           "windowtitle" : {
             "title" : " Vanta Replicator",
@@ -117,7 +117,7 @@
       },
 
       "interactData" : {
-        "config" : "/interface/windowconfig/craftinganvil.config",
+        "config" : "/interface/windowconfig/vantaanvil.config",
         "paneLayoutOverride" : {
           "windowtitle" : {
             "title" : " Vanta Replicator",
@@ -154,7 +154,7 @@
       },
 
       "interactData" : {
-        "config" : "/interface/windowconfig/craftinganvil.config",
+        "config" : "/interface/windowconfig/vantaanvil.config",
         "paneLayoutOverride" : {
           "windowtitle" : {
             "title" : " Vanta Replicator",
