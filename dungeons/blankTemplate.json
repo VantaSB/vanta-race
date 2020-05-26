@@ -1,4 +1,12 @@
 { "backgroundcolor":"#000000",
+ "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"..\/..\/..\/assets\/packed\/dungeons"
+        }
+    },
  "height":500,
  "infinite":false,
  "layers":[
@@ -127,7 +135,7 @@
  "nextobjectid":679,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.2.5",
+ "tiledversion":"1.3.4",
  "tileheight":8,
  "tilesets":[
         {
@@ -232,19 +240,19 @@
         }, 
         {
          "firstgid":7670,
-         "source":"..\/tilesets\/vanta-custom\/nightarliquids.json"
+         "source":"..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }, 
         {
-         "firstgid":7671,
-         "source":"..\/tilesets\/vanta-custom\/nightarmatierals.json"
+         "firstgid":7703,
+         "source":"..\/tilesets\/vanta-custom\/vantaliquids.json"
         }, 
         {
-         "firstgid":7682,
-         "source":"..\/tilesets\/vanta-custom\/nightarsupports.json"
+         "firstgid":7704,
+         "source":"..\/tilesets\/vanta-custom\/vantamatierals.json"
         }, 
         {
-         "firstgid":7683,
-         "source":"..\/tilesets\/vanta-custom\/objects-by-race\/nightar.json"
+         "firstgid":7715,
+         "source":"..\/tilesets\/vanta-custom\/vantasupports.json"
         }],
  "tilewidth":8,
  "type":"map",
