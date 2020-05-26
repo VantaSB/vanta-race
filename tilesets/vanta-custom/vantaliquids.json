@@ -14,7 +14,7 @@
   },
   "tiles" : {
     "0" : {
-      "image" : "./../../../../tiled/vanta-custom/liquids/liquidceruleum.png"
+      "image" : "../../tiled/vanta-custom/liquids/liquidceruleum.png"
     }
   },
   "tilewidth" : 8

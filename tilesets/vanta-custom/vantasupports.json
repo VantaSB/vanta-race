@@ -1,6 +1,6 @@
 {
   "margin" : 0,
-  "name" : "nightar/supports",
+  "name" : "vanta/supports",
   "properties" : {},
   "spacing" : 0,
   "tilecount" : 1,
@@ -16,7 +16,7 @@
 
   "tiles" : {
     "0" : {
-      "image" : "./../../../../tiled/vanta-custom/materials/nightarplatform.png"
+      "image" : "../../tiled/vanta-custom/materials/nightarplatform.png"
     }
   },
 
