@@ -84,7 +84,7 @@ function performStealthFunctionOverrides()
 			local newReturn = originalReturn and (ignoreStealth or not world.getProperty("entity["..tostring(a1).."]Stealthed"))
 			return newReturn
 		end
-		
+
 		function world.entityType(a1, ignoreStealth)
 			local originalReturn = originalWorldQueries["entityType"](a1)
 			local newReturn = originalReturn
@@ -93,7 +93,7 @@ function performStealthFunctionOverrides()
 			end
 			return newReturn
 		end
-		
+
 		function world.stealthQuery(a1,a2,a3)
 			local originalReturns = originalWorldQueries["entityQuery"](a1, a2, a3)
 			local newReturns = {}
@@ -114,7 +114,7 @@ function performStealthFunctionOverrides()
 		--sb.logInfo("entity table altered")
 		function entity.closestValidTarget(a1, ignoreStealth)
 			local originalReturn = originalEntityQueries["closestValidTarget"](a1)
-			local newReturn = originalReturn 
+			local newReturn = originalReturn
 			if world.getProperty("entity["..tostring(originalReturn).."]Stealthed") and not ignoreStealth then
 				newReturn = 0
 			end

@@ -57,20 +57,20 @@ end
 
 function input(args)
   if self.techType == "body" and args.moves["up"] then
-	if not self.lastMoves["up"] then
-		if self.doubleTapTimer <= 0 then
-			self.doubleTapTimer = 0.25
-		else
-			if self.active then
-				deactivateStealth()
-			elseif not status.resourceLocked("energy") and self.rebootTimer < 0 and not args.moves["primaryFire"] and not args.moves["altFire"]then
-				activateStealth()
-			else
-				animator.playSound("activationFail")
-			end
-			self.doubleTapTimer = 0
-		end
-	end
+	  if not self.lastMoves["up"] then
+		  if self.doubleTapTimer <= 0 then
+			  self.doubleTapTimer = 0.25
+		  else
+			  if self.active then
+				  deactivateStealth()
+			  elseif not status.resourceLocked("energy") and self.rebootTimer < 0 and not args.moves["primaryFire"] and not args.moves["altFire"]then
+				  activateStealth()
+			  else
+				  animator.playSound("activationFail")
+			  end
+			  self.doubleTapTimer = 0
+		  end
+	  end
   end
 
   if self.techType == "head" and args.moves["special"] == 1 and self.lastMoves["special"] ~= 1 then --on and off
