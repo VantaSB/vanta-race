@@ -1,4 +1,12 @@
 { "backgroundcolor":"#000000",
+ "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":10,
  "infinite":false,
  "layers":[
@@ -73,18 +81,6 @@
                  "y":72
                 }, 
                 {
-                 "gid":7700,
-                 "height":32,
-                 "id":685,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":32,
-                 "y":72
-                }, 
-                {
                  "gid":7684,
                  "height":24,
                  "id":686,
@@ -107,6 +103,18 @@
                  "width":8,
                  "x":56,
                  "y":80
+                }, 
+                {
+                 "gid":6809,
+                 "height":16,
+                 "id":689,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":80,
+                 "y":48
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -206,10 +214,10 @@
          "y":0
         }],
  "nextlayerid":15,
- "nextobjectid":689,
+ "nextobjectid":690,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.2.4",
+ "tiledversion":"1.3.4",
  "tileheight":8,
  "tilesets":[
         {
@@ -314,19 +322,19 @@
         }, 
         {
          "firstgid":7670,
-         "source":"..\/..\/..\/tilesets\/vanta-custom\/objects-by-race\/nightar.json"
+         "source":"..\/..\/..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }, 
         {
          "firstgid":7703,
-         "source":"..\/..\/..\/tilesets\/vanta-custom\/nightarliquids.json"
+         "source":"..\/..\/..\/tilesets\/vanta-custom\/vantaliquids.json"
         }, 
         {
          "firstgid":7704,
-         "source":"..\/..\/..\/tilesets\/vanta-custom\/nightarmatierals.json"
+         "source":"..\/..\/..\/tilesets\/vanta-custom\/vantamatierals.json"
         }, 
         {
          "firstgid":7715,
-         "source":"..\/..\/..\/tilesets\/vanta-custom\/nightarsupports.json"
+         "source":"..\/..\/..\/tilesets\/vanta-custom\/vantasupports.json"
         }],
  "tilewidth":8,
  "type":"map",

@@ -15,6 +15,7 @@
   "humanDescription" : "A battlefield flag. They are rarely used in modern times.",
   "hylotlDescription" : "A flag that looks like it can be carried and planted as a marker.",
   "novakidDescription" : "This flag probably means somethin' to someone.",
+  "vantaDescription" : "Our brethren proudly displayed these on the battlefield.",
 
   "inventoryIcon" : "nightarbattlestandardicon.png",
   "orientations" : [
