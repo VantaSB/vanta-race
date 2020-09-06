@@ -1,9 +1,0 @@
-{
-  "name" : "nightstalker",
-  "category" : "nightstalker",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "nightstalker.png"
-  }
-}

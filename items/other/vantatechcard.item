@@ -1,0 +1,9 @@
+{
+  "itemName" : "vantatechcard",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "upgradeComponent",
+  "inventoryIcon" : "vantatechcard.png",
+  "description" : "This tech card has been pre-loaded with some data for Vanta-based techs.",
+  "shortdescription" : "Vanta Tech Card"
+}

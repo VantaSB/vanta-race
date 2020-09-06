@@ -15,16 +15,11 @@
   "lightColor" : [102, 61, 61],
   "lightPosition" : [-1, 0],
 
-  "description" : "This tech station allows me to communicate with S.A.I.L and manage crew!",
-  "shortdescription" : "Vanta Tech Station",
+  "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
+  "shortdescription" : "S.A.I.L.",
   "race" : "vanta",
 
-  "vantaDescription" : "I can speak with S.A.I.L. and keep track of my crew with this console.",
-  "avianDescription" : "I can use this station to manage my crew and talk to S.A.I.L.",
-  "floranDescription" : "Floran use thisss for followerss and talk to sshhip S.A.I.L!",
-  "glitchDescription" : "Informative. This tech station allows me to manage my crew and talk to S.A.I.L.",
-  "humanDescription" : "A tech station. Allows me to communicate with S.A.I.L and manage my crew!",
-  "hylotlDescription" : "This station lets me manage my crew and allows me to communicate with S.A.I.L.",
+  "vantaDescription" : "Our S.A.I.L. modules are more or less the same as everyone else's.",
 
   "inventoryIcon" : "vantatechstationicon.png",
   "orientations" : [

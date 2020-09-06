@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkcrystal", "count" : 8 },
-    { "item" : "staticcell", "count" : 8 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "bunshoki", "count" : 1 },
-  "groups" : [ "vantaanvil4", "weapons", "all" ]
-}
