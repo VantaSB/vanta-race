@@ -1,0 +1,106 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "movement" : {
+        "priority" : 0,
+        "default" : "idle",
+
+        "states" : {
+          "idle" : {
+            "frames" : 1
+          },
+          "move" : {
+            "frames" : 1
+          },
+          "alert" : {
+            "frames" : 4,
+            "cycle" : 0.25,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "camera" : {
+        "properties" : {
+          "offset" : [0.5, 0],
+          "rotationGroup" : "camera",
+          "centered" : true,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "move" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "alert" : {
+              "properties" : {
+                "image" : "<partImage>:alert.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "lights" : {
+        "properties" : {
+          "offset" : [0.5, 0],
+          "rotationGroup" : "camera",
+          "centered" : true,
+          "fullbright" : true,
+          "zLevel" : 2
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "move" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "alert" : {
+              "properties" : {
+                "image" : "<partImage>:alert.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+      "stand" : {
+        "properties" : {
+          "offset" : [0, 0],
+          "image" : "<partImage>",
+          "centered" : true,
+          "zLevel" : 0
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "camera" : {
+      "rotationCenter" : [0, 0],
+      "angularVelocity" : 1
+    }
+  },
+
+  "sounds" : {
+    "pan" : [ "/sfx/objects/camera_pan_loop.ogg" ],
+    "alarm" : [ "/sfx/objects/camera_alert_on.ogg" ]
+  }
+}

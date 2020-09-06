@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Legendary",
   "description" : "A Nightar throne.",
-  "shortdescription" : "Nightar's Throne",
+  "shortdescription" : "Nightar Throne",
   "race" : "nightar",
   "category" : "furniture",
   "price" : 10000,
@@ -13,9 +13,10 @@
   "avianDescription" : "I wonder if Kluex ever had a throne that was this elegant.",
   "floranDescription" : "Floran wantsssss to sssit in big fancy chair!",
   "glitchDescription" : "Enticed. This throne is made of some of the finest materials.",
-  "humanDescription" : "I wonder how angry the Nightar King would be if he saw me sitting on this right now?",
+  "humanDescription" : "I wonder how angry the Night Emperor would be if he saw me sitting on this right now?",
   "hylotlDescription" : "This throne is much too fancy for a hylotl.",
   "novakidDescription" : "Now THAT is a throne fit for a king!",
+  "vantaDescription" : "A trophy you can sit on.",
 
   "inventoryIcon" : "nightarthroneicon.png",
   "orientations" : [

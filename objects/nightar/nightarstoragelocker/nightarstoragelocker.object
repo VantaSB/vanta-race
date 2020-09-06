@@ -16,9 +16,10 @@
   "avianDescription" : "A place to keep your things.",
   "floranDescription" : "Floran can ssstuff things into locker.",
   "glitchDescription" : "Neutral. A metallic storage locker.",
-  "humanDescription" : "It's an industrial looking storage locker.",
+  "humanDescription" : "It's a heavy-duty storage locker.",
   "hylotlDescription" : "Somewhere to store personal belongings.",
   "novakidDescription" : "A locker in the wall.",
+  "vantaDescription" : "A wall-mounted storage locker. Yes, we like storage, too.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

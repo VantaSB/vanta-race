@@ -15,6 +15,7 @@
   "humanDescription" : "A personal teleporter! Now this is travelling in style.",
   "hylotlDescription" : "A personal teleporter, it sports a custom design.",
   "novakidDescription" : "As teleporters go, this sure is fancy lookin'!",
+  "vantaDescription" : "We like our own teleporters, too.",
 
   "category" : "teleporter",
   "lightColor" : [40, 80, 100],
@@ -41,7 +42,7 @@
 
   "health" : 10,
   "rooting" : true,
-  
+
   "breakDropPool" : "remoteteleporter",
 
   "teleporterFootPosition" : [0, 1],

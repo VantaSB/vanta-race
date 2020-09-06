@@ -1,10 +1,10 @@
 {
-  "objectName" : "nightarconsole",
-  "colonyTags" : ["wired","nightar"],
+  "objectName" : "vantaconsole",
+  "colonyTags" : ["wired","vanta"],
   "rarity" : "Legendary",
-  "description" : "A small console made by the Nightars",
-  "shortdescription" : "Nightar Console",
-  "race" : "nightar",
+  "description" : "A small console made by the Vanta",
+  "shortdescription" : "Vanta Console",
+  "race" : "vanta",
   "category" : "wire",
   "price" : 200,
   "lightColor" : [38, 122, 128],
@@ -15,18 +15,19 @@
   "flickerPeriodVariance" : 0.1,
   "flickerIntensityVariance" : 0.0,
 
-  "apexDescription" : "A small console.",
-  "avianDescription" : "I don't know what is this.",
+  "apexDescription" : "A small console, fitting the Vanta's and Nightar's aesthetic.",
+  "avianDescription" : "It's a small console.",
   "floranDescription" : "Floran likess shiny sstuff.",
-  "glitchDescription" : "Admiration. A really advanced console made using Nightar technologies.",
+  "glitchDescription" : "Admiration. A highly advanced console made using Vanta technologies.",
   "humanDescription" : "Hmm, a console, but not like anything I've seen on Earth.",
   "hylotlDescription" : "An advanced console.",
   "novakidDescription" : "A neat lookin' shiny console!",
+  "vantaDescription" : "It's a standard model console we use; nothing special about it.",
 
-  "inventoryIcon" : "nightarconsoleicon.png",
+  "inventoryIcon" : "vantaconsoleicon.png",
   "orientations" : [
     {
-      "image" : "nightarconsole.png:<color>.<frame>",
+      "image" : "vantaconsole.png:<color>.<frame>",
       "direction" : "left",
       "flipImages" : true,
       "lightPosition" : [0, 0],
@@ -40,7 +41,7 @@
 
     },
     {
-      "image" : "nightarconsole.png:<color>.<frame>",
+      "image" : "vantaconsole.png:<color>.<frame>",
       "direction" : "right",
       "lightPosition" : [0, 0],
 
@@ -60,7 +61,7 @@
   ],
   "scriptDelta" : 5,
 
-  "animation" : "nightarconsole.animation",
+  "animation" : "vantaconsole.animation",
   "animationCustom" : {
     "sounds" : {
       "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
@@ -68,8 +69,8 @@
     }
   },
   "animationParts" : {
-    "bg" : "nightarconsole.png",
-    "fg" : "nightarconsolelit.png"
+    "bg" : "vantaconsole.png",
+    "fg" : "vantaconsolelit.png"
   },
   "animationPosition" : [-8, 0],
 

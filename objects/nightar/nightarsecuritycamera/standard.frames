@@ -1,0 +1,10 @@
+{
+  "frameGrid" : {
+    "size" : [24, 8],
+    "dimensions" : [5, 1],
+
+    "names" : [
+      [ "idle", "alert.1", "alert.2", "alert.3", "alert.4" ]
+    ]
+  }
+}

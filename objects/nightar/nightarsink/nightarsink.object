@@ -2,8 +2,8 @@
   "objectName" : "nightarsink",
   "tags" : ["nightar"],
   "rarity" : "legendary",
-  "description" : "Where does the water come from or go to? I will never know..",
-  "shortdescription" : "Vanta Sink",
+  "description" : "Where does the water come from or go to? I will never know...",
+  "shortdescription" : "Nightar Sink",
   "race" : "nightar",
   "category" : "decorative",
   "price" : 150,
@@ -15,6 +15,7 @@
   "humanDescription" : "Where does the water come from or go to? I will never know.",
   "hylotlDescription" : "Hylotl across the galaxy would probably clamor to use this.",
   "novakidDescription" : "Fancy-lookin' sink.",
+  "vantaDescription" : "Not even we are completely sure how this sink works, it just does.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

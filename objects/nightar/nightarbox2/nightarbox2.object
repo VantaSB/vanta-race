@@ -20,6 +20,7 @@
   "humanDescription" : "A larger Nightar box. I wonder if cats like to sit in these, too?",
   "hylotlDescription" : "This large box is highly durable.",
   "novakidDescription" : "Another regular ol' box.",
+  "vantaDescription" : "We once tried to see if we could escape from the inside. The results were... enlightening.",
 
   "inventoryIcon" : "nightarbox2icon.png",
   "orientations" : [

@@ -12,7 +12,7 @@
   "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
 
   "animation" : "vantaanvil.animation",
-  "animationPosition" : [8, 20],
+  "animationPosition" : [16, 20],
 
   "inventoryIcon" : "icon.png",
   "placementImage" : "vantaanvil.png:default.default",

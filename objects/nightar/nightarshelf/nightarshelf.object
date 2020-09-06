@@ -6,7 +6,7 @@
   "price" : 100,
 
   "description" : "A shelf that uses a band of solid light to hold things up.",
-  "shortdescription" : "Vanta Shelf",
+  "shortdescription" : "Nightar Shelf",
   "race" : "nightar",
 
   "apexDescription" : "What an ethereal shelf...",
@@ -16,6 +16,7 @@
   "humanDescription" : "The Nightars really go all-out with their stuff.",
   "hylotlDescription" : "As advanced as this is, it's very small and elegant.",
   "novakidDescription" : "It's a tiny shelf.",
+  "vantaDescription" : "We make use of solidifying light to create a small, stable surface.",
 
   "inventoryIcon" : "nightarshelficon.png",
   "orientations" : [

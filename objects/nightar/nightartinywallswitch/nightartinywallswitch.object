@@ -14,6 +14,7 @@
   "humanDescription" : "How many times can I flip this switch on and off I wonder.",
   "hylotlDescription" : "A basic switch. It can be used to activate something.",
   "novakidDescription" : "I can flip this here switch!",
+  "vantaDescription" : "A switch, but it's the best design in the universe.",
 
   "category" : "wire",
   "price" : 100,

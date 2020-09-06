@@ -20,6 +20,7 @@
   "humanDescription" : "A mysterious Nightar box.",
   "hylotlDescription" : "This small box is highly secure.",
   "novakidDescription" : "It's a regular ol' box.",
+  "vantaDescription" : "We make these boxes fairly durable.",
 
   "inventoryIcon" : "nightarbox1icon.png",
   "orientations" : [

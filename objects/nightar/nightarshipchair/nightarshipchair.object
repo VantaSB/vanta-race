@@ -4,8 +4,8 @@
   "rarity" : "Common",
   "objectType" : "loungeable",
   "price" : 300,
-  "description" : "A chair made specifically for Vanta crew members.",
-  "shortdescription" : "Vanta Ship Chair",
+  "description" : "A chair made specifically for a ship.",
+  "shortdescription" : "Nightar Ship Chair",
   "race" : "nightar",
   "category" : "furniture",
 
@@ -16,6 +16,7 @@
   "humanDescription" : "Pretty comfortable for something that doesn't look like it!",
   "hylotlDescription" : "This chair is just as comfortable as any other.",
   "novakidDescription" : "That's a nice-lookin' chair.",
+  "vantaDescription" : "We use this design specifically for ships.",
 
 
   "inventoryIcon" : "nightarshipchairicon.png",

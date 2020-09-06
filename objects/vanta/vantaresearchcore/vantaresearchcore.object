@@ -1,0 +1,70 @@
+{
+  "objectName" : "vantaresearchcore",
+  "colonyTags" : ["light","research","vanta"],
+  "printable" : false,
+  "price" : 0,
+  "rarity" : "essential",
+  /*"interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "campfire" ]
+  },*/
+  "description" : "A Vanta device used for researching and controlling their psionic abilities.",
+  "shortdescription" : "Vanta Research Core",
+  "race" : "vanta",
+  "category" : "crafting",
+
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "This device appears to be much more complex than anything the apex have ever constructed.",
+  "avianDescription" : "Avians are used to crystals; the Vanta use pure forms of energy.",
+  "floranDescription" : "Floran wondersss if floating ball can be eaten.",
+  "glitchDescription" : "Intrigued. This device is used by the Vanta for research purposes.",
+  "humanDescription" : "A strange device the Vanta use for enhancing themselves.",
+  "hylotlDescription" : "I admire the intricate designs the Vanta use for self-improvement.",
+  "novakidDescription" : "It ain't something I'd be able to use, but it sure is fancy!",
+  "vantaDescription" : "We use these research nodes to enhance our abilities.",
+
+  "lightColor" : [125, 143, 179],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "vantaresearchcoreicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vantaresearchcore.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantaresearchcorelit.png:<color>.<frame>"} ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.8,
+
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "vantaresearchcore.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantaresearchcorelit.png:<color>.<frame>"} ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.58,
+
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "statusEffects" : [ ],
+
+  "scripts" : [ ]
+}

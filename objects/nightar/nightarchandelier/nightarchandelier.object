@@ -5,7 +5,7 @@
   "category" : "light",
   "price" : 200,
 
-  "description" : "An Nightar chandelier. A good way to light a large castle room.",
+  "description" : "A Nightar chandelier. A good way to light a large room.",
   "shortdescription" : "Nightar Chandelier",
 
   "maximumLiquidLevel" : 0.2,
@@ -17,7 +17,7 @@
   "humanDescription" : "This could fall down and crush someone.",
   "hylotlDescription" : "This chandelier bathes its surroundings in a cool glow.",
   "novakidDescription" : "Are those even flames?",
-
+  "vantaDescription" : "How did we make it look like an actual flicker? Ancient Nightar secret.",
 
   "statusEffects" : [ ],
 

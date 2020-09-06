@@ -4,7 +4,7 @@
   "rarity" : "Legendary",
   "category" : "furniture",
   "price" : 200,
-  "description" : "An electronic table.",
+  "description" : "An elegant Nightar table with a tracing light strip.",
   "shortdescription" : "Nightar Table",
   "race" : "nightar",
 
@@ -15,6 +15,7 @@
   "humanDescription" : "It has such a smooth surface, it's almost unreal.",
   "hylotlDescription" : "One has to wonder just who came up with these interesting designs.",
   "novakidDescription" : "An electronic table.",
+  "vantaDescription" : "Elegance, cleanliness. Our love for battle doesn't mean we're heathens.",
 
   "inventoryIcon" : "nightartableicon.png",
   "orientations" : [

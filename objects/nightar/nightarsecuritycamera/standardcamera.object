@@ -1,0 +1,98 @@
+{
+  "objectName" : "standardcamera",
+  "colonyTags" : ["wired","nightar","electronic"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 400,
+  "description" : "A high-tech security camera.",
+  "shortdescription" : "Nightar Security Camera",
+  "race" : "nightar",
+
+  "ignoreStealth" : false,
+
+  "apexDescription" : "Evidently, the Nightar also like to keep tabs on themselves. Or others...",
+  "avianDescription" : "Who knows what would happen if it were to spot me.",
+  "floranDescription" : "This camera movesss on its own.",
+  "glitchDescription" : "Cautious. This security camera is equipped with motion detection.",
+  "humanDescription" : "Someone is watching my every move with this camera. So creepy.",
+  "hylotlDescription" : "Seeing this camera makes me want to hide under the ocean to avoid its gaze.",
+  "novakidDescription" : "Whatcha lookin' at, huh?",
+  "vantaDescription" : "Fortunately, this model doesn't contain heat sensors.",
+
+  "inventoryIcon" : "standardicon.png",
+  "orientations" : [
+    {
+      "image" : "bracket.png:left",
+
+      "imagePosition" : [0, 0],
+      "imageLayers" : [ { "image" : "bracket.png:left" }, { "image" : "standard.png:idle", "position": [4, 12] } ],
+      "spaces" : [
+        [0, 0], [1, 0],
+        [0, 1], [1, 1],
+        [0, 2], [1, 2]
+      ],
+      "anchors" : [ "left" ],
+      "direction" : "right",
+
+      "animationParts" : {
+        "camera" : "standard.png",
+        "stand" : "bracket.png:left",
+        "lights" : "lights.png"
+      },
+      "animationPosition" : [16, 16],
+
+      "baseOffset" : [2, 2],
+      "tipOffset" : [4, 2],
+      "verticalScaling" : true
+    },
+    {
+      "image" : "bracket.png:left",
+
+      "imagePosition" : [-24, 0],
+      "spaces" : [
+        [-1, 0], [0, 0],
+        [-1, 1], [0, 1],
+        [-1, 2], [0, 2]
+      ],
+      "anchors" : [ "right" ],
+      "direction" : "left",
+
+      "imageLayers" : [ { "image" : "bracket.png:left" }, { "image" : "standard.png:idle", "position": [4, 12] } ],
+      "flipImages" : true,
+
+      "animationParts" : {
+        "camera" : "standard.png",
+        "stand" : "bracket.png:left",
+        "lights" : "lights.png"
+      },
+      "animationPosition" : [-10, 16],
+
+      "baseOffset" : [1, -2],
+      "tipOffset" : [3, -2],
+      "verticalScaling" : true
+    }
+  ],
+
+  "objectWidth" : 4,
+
+  "animation" : "camera.animation",
+
+  "scripts" : [
+    "/objects/nightar/nightarsecuritycamera/camera.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua"
+  ],
+
+  "scriptDelta" : 5,
+
+  "outputNodes" : [ [0, 0] ],
+
+  "rotationTime" : 2.5,
+  "rotationRange" : [0, 60],
+  "rotationPauseTime" : 0.5,
+
+  "maxLaserLength" : 20
+}

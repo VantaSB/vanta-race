@@ -38,8 +38,9 @@
   "floranDescription" : "Thiss table makes buffsssss.",
   "glitchDescription" : "Pleased. The augments crafted here will make exploring much more efficient.",
   "humanDescription" : "I can craft augments here!",
-  "hylotlDescription" : "The augments I can construct here will definitely come in handy for future use.",
-  "novakidDescription" : "I reckon usin' this station oughta net me some pretty nifty gear.",
+  "hylotlDescription" : "The augments I can construct here will surely come in handy for future use.",
+  "novakidDescription" : "I reckon usin' this station oughta net me some pretty nifty augments.",
+  "vantaDescription" : "The augments constructed here should allow for easier traversal of new worlds.",
 
   "inventoryIcon" : "nanobenchicon.png",
 

@@ -8,7 +8,7 @@
   "category" : "storage",
   "price" : 75,
   "printable" : false,
-  "description" : "This sturdy chest is made from volcanic material. Heat rises from it.",
+  "description" : "A chest commonly used for Nightar field missions.",
   "shortdescription" : "Nightar Field Chest",
   "race" : "nightar",
   "health" : 1.5,
@@ -20,6 +20,7 @@
   "humanDescription" : "I almost tripped on this thing passing by.",
   "hylotlDescription" : "This chest is made from pressurized materials able to withstand a total vacuum.",
   "novakidDescription" : "This dark chest ain't as fancy as others.",
+  "vantaDescription" : "We actually took inspiration from some of the storage boxes we've found on other worlds for this one.",
 
   "inventoryIcon" : "nightarchesticon.png",
   "orientations" : [

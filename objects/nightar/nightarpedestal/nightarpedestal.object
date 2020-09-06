@@ -15,6 +15,7 @@
   "humanDescription" : "It looks like a display pedestal.",
   "hylotlDescription" : "A place to display valuable objects.",
   "novakidDescription" : "A fancy lookin' display stand.",
+  "vantaDescription" : "An elegant stand, or it can be used as a podium for speaking.",
 
   "inventoryIcon" : "nightarpedestalicon.png",
   "orientations" : [
