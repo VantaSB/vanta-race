@@ -243,15 +243,15 @@
          "source":"..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }, 
         {
-         "firstgid":7703,
+         "firstgid":7708,
          "source":"..\/tilesets\/vanta-custom\/vantaliquids.json"
         }, 
         {
-         "firstgid":7704,
+         "firstgid":7709,
          "source":"..\/tilesets\/vanta-custom\/vantamatierals.json"
         }, 
         {
-         "firstgid":7715,
+         "firstgid":7720,
          "source":"..\/tilesets\/vanta-custom\/vantasupports.json"
         }],
  "tilewidth":8,

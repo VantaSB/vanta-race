@@ -57,42 +57,6 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":2147491341,
-                 "height":16,
-                 "id":683,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":8,
-                 "y":72
-                }, 
-                {
-                 "gid":7671,
-                 "height":40,
-                 "id":684,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":104,
-                 "y":72
-                }, 
-                {
-                 "gid":7684,
-                 "height":24,
-                 "id":686,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":72,
-                 "y":72
-                }, 
-                {
                  "gid":240,
                  "height":8,
                  "id":688,
@@ -105,16 +69,52 @@
                  "y":80
                 }, 
                 {
-                 "gid":6809,
-                 "height":16,
-                 "id":689,
+                 "gid":7676,
+                 "height":24,
+                 "id":690,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":72,
+                 "y":72
+                }, 
+                {
+                 "gid":7671,
+                 "height":40,
+                 "id":691,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":80,
-                 "y":48
+                 "x":104,
+                 "y":72
+                }, 
+                {
+                 "gid":2147491338,
+                 "height":16,
+                 "id":692,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":24,
+                 "y":72
+                }, 
+                {
+                 "gid":7687,
+                 "height":12,
+                 "id":693,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":32,
+                 "y":56
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -214,7 +214,7 @@
          "y":0
         }],
  "nextlayerid":15,
- "nextobjectid":690,
+ "nextobjectid":694,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.3.4",
@@ -325,15 +325,15 @@
          "source":"..\/..\/..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }, 
         {
-         "firstgid":7703,
+         "firstgid":7708,
          "source":"..\/..\/..\/tilesets\/vanta-custom\/vantaliquids.json"
         }, 
         {
-         "firstgid":7704,
+         "firstgid":7709,
          "source":"..\/..\/..\/tilesets\/vanta-custom\/vantamatierals.json"
         }, 
         {
-         "firstgid":7715,
+         "firstgid":7720,
          "source":"..\/..\/..\/tilesets\/vanta-custom\/vantasupports.json"
         }],
  "tilewidth":8,

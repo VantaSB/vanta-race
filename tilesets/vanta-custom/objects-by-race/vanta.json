@@ -2,278 +2,318 @@
   "columns" : 0,
   "grid" : {
     "height" : 64,
-    "orientation" : "orthogonal",
+    "orientation" : "orthagonal",
     "width" : 160
   },
   "margin" : 0,
   "name" : "vanta/objects",
   "spacing" : 0,
-  "tilecount" : 33,
+  "tilecount" : 38,
   "tileheight" : 75,
   "tileproperties" : {
     "0" : {
-      "//description" : "A replicator designed specifically for crafting Nightar armors and weapons.",
-      "//name" : "nightaranvil",
-      "//shortdescription" : "Nightar Replicator",
+      "//description" : "A replicator that's based on the Nightars' designs.",
+      "//name" : "vantaanvil",
+      "shortdescription" : "Vanta Replicator",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightaranvil"
+      "object" : "vantaanvil"
     },
     "1" : {
       "//description" : "A chequered flag bearing an emblem.",
       "//name" : "nightarbattlestandard",
-      "//shortdescription" : "Nightar Battle Standard",
+      "shortdescription" : "Nightar Battle Standard",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
       "object" : "nightarbattlestandard"
     },
     "2" : {
-      "//description" : "A complex computer made by the Nightar.",
-      "//name" : "nightarcomputer",
-      "//shortdescription" : "Nightar Computer",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "0",
-      "object" : "nightarcomputer"
-    },
-    "3" : {
-      "//description" : "A nice, spacious, wall-mounted storage solution.",
-      "//name" : "nightarstoragelocker",
-      "//shortdescription" : "Nightar Storage Locker",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "nightarstoragelocker"
-    },
-    "10" : {
-      "//description" : "Nightar sleeping bed. It's rather comforatble for its design.",
+      "//description" : "A regal Nightar bed.",
       "//name" : "nightarbed",
-      "//shortdescription" : "Nightar Bed",
+      "shortdescription" : "Nightar Bed",
       "imagePositionX" : "-10",
       "imagePositionY" : "13",
       "object" : "nightarbed"
     },
-    "11" : {
-      "//description" : "An altar holding the ultimate Nightar blade... which looks kinda broken.",
+    "3" : {
+      "//description" : "An altar holding the legendary Noxcalibur... which looks broken.",
       "//name" : "nightarbladealtar",
-      "//shortdescription" : "Nightar Blade Altar",
+      "shortdescription" : "Nightar Blade Altar",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
       "object" : "nightarbladealtar"
     },
-    "12" : {
+    "4" : {
       "//description" : "A bookcase... let's find out what the Nightar read.",
       "//name" : "nightarbookcase",
-      "//shortdescription" : "Nightar Bookcase",
+      "shortdescription" : "Nightar Bookcase",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
       "object" : "nightarbookcase"
     },
-    "13" : {
+    "5" : {
       "//description" : "A mysterious Nightar box.",
       "//name" : "nightarbox1",
-      "//shortdescription" : "Small Nightar Box",
+      "shortdescription" : "Small Nightar Box",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
       "object" : "nightarbox1"
     },
-    "14" : {
+    "6" : {
       "//description" : "A mysterious Nightar box.",
       "//name" : "nightarbox2",
-      "//shortdescription" : "Large Nightar Box",
+      "shortdescription" : "Large Nightar Box",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
       "object" : "nightarbox2"
     },
-    "15" : {
+    "7" : {
       "//description" : "A sleek looking Nightar cabinet.",
       "//name" : "nightarcabinet",
-      "//shortdescription" : "Nightar Cabinet",
+      "shortdescription" : "Nightar Cabinet",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
       "object" : "nightarcabinet"
     },
-    "16" : {
+    "8" : {
       "//description" : "A strong and secure door.",
       "//name" : "nightarcastledoor",
-      "//shortdescription" : "Nightar Castle Door",
+      "shortdescription" : "Nightar Castle Door",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
       "object" : "nightarcastledoor"
     },
-    "17" : {
-      "//description" : "A Nightar chair. You'll never want to stand again.",
-      "//name" : "nightarchair",
-      "//shortdescription" : "Nightar Chair",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "0",
-      "object" : "nightarchair"
-    },
-    "18" : {
-      "//description" : "A Nightar chandelier. A good way to light a large castle room.",
+    "9" : {
+      "//description" : "A Nightar chandelier. A good way to light a large room.",
       "//name" : "nightarchandelier",
-      "//shortdescription" : "Nightar Chandelier",
+      "shortdescription" : "Nightar Chandelier",
       "imagePositionX" : "-16",
       "imagePositionY" : "-16",
       "object" : "nightarchandelier"
     },
-    "19" : {
-      "//description" : "A small Nightar chest.",
+    "10" : {
+      "//description" : "A chest commonly used for Nightar field missions.",
       "//name" : "nightarchest",
-      "//shortdescription" : "Nightar Chest",
-      "imagePositionX" : "-16",
+      "shortdescription" : "Nightar Field Chest",
+      "imagePositionX" : "-8",
       "imagePositionY" : "0",
       "object" : "nightarchest"
     },
-    "20" : {
-      "//description" : "A small console made by the Nightar.",
-      "//name" : "nightarconsole",
-      "//shortdescription" : "Nightar Console",
-      "imagePositionX" : "-8",
+    "11" : {
+      "//description" : "A storage trunk of Nightar design.",
+      "//name" : "nightarchest2",
+      "shortdescription" : "Nightar Trunk",
+      "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarconsole"
+      "object" : "nightarchest2"
     },
-    "21" : {
-      "//description" : "This looks like an advanced Nightar dresser.",
+    "12" : {
+      "//description" : "A simple Nightar dresser.",
       "//name" : "nightardresser",
-      "//shortdescription" : "Nightar Dresser",
+      "shortdescription" : "Nightar Dresser",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
       "object" : "nightardresser"
     },
-    "22" : {
+    "13" : {
       "//description" : "Perfect for storing a lot of food and keeping it fresh.",
       "//name" : "nightarfridge",
-      "//shortdescription" : "Nightar Fridge",
+      "shortdescription" : "Nightar Fridge",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
       "object" : "nightarfridge"
     },
-    "23" : {
+    "14" : {
+      "//description" : "An advanced handprint scanner that provides biometric data to a server.",
+      "//name" : "nightarhandscanner",
+      "shortdescription" : "Nightar Hand Scanner",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "nightarhandscanner"
+    },
+    "15" : {
+      "//description" : "A Nightar wall light.",
+      "//name" : "nightarlight_orientation0",
+      "shortdescription" : "Nightar Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightarlight"
+    },
+    "16" : {
+      "//description" : "A Nightar wall light.",
+      "//name" : "nightarlight_orientation1",
+      "shortdescription" : "Nightar Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightarlight"
+    },
+    "17" : {
+      "//description" : "A Nightar wall light.",
+      "//name" : "nightarlight_orientation2",
+      "shortdescription" : "Nightar Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightarlight"
+    },
+    "18" : {
+      "//description" : "A Nightar wall light.",
+      "//name" : "nightarlight_orientation3",
+      "shortdescription" : "Nightar Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightarlight"
+    },
+    "19" : {
+      "//description" : "A Nightar wall light.",
+      "//name" : "nightarlight_orientation4",
+      "shortdescription" : "Nightar Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightarlight"
+    },
+    "20" : {
       "//description" : "A pedestal for putting your treasures on display.",
       "//name" : "nightarpedestal",
-      "//shortdescription" : "Nightar Pedestal",
+      "shortdescription" : "Nightar Pedestal",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
       "object" : "nightarpedestal"
     },
-    "24" : {
-      "//description" : "A picture of a Nightar's secret armor.",
+    "21" : {
+      "//description" : "A picture of a Nightar's armor.",
       "//name" : "nightarpicture",
-      "//shortdescription" : "Nightar Knight's Armor Picture",
+      "shortdescription" : "Nightar Knight's Armor Picture",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
       "object" : "nightarpicture"
     },
-    "25" : {
+    "22" : {
       "//description" : "A small Nightar wall banner.",
       "//name" : "nightarsbannersmall",
-      "//shortdescription" : "Nightar Wall Banner",
+      "shortdescription" : "Nightar Wall Banner",
       "imagePositionX" : "-5",
       "imagePositionY" : "-2",
       "object" : "nightarsbannersmall"
     },
-    "26" : {
-      "//description" : "A torn the Nightar wallbanner.",
+    "23" : {
+      "//description" : "A torn Nightar wall banner.",
       "//name" : "nightarsbannertorn",
-      "//shortdescription" : "Torn Nightar Wall Banner",
+      "shortdescription" : "Torn Nightar Wall Banner",
       "imagePositionX" : "-5",
       "imagePositionY" : "-2",
       "object" : "nightarsbannertorn"
     },
-    "27" : {
-      "//description" : "A shelf, uses solid(?) laser instead of wood, pretty cool huh?",
+    "24" : {
+      "//description" : "A security camera for monitoring premises.",
+      "//name" : "standardcamera",
+      "shortdescription" : "Nightar Security Camera",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "standardcamera"
+    },
+    "25" : {
+      "//description" : "A heat-sensing security camera.",
+      "//name" : "heatcamera",
+      "shortdescription" : "Heat-Sensing Camera",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "heatcamera"
+    },
+    "26" : {
+      "//description" : "A shelf that uses a band of solid light to hold things up.",
       "//name" : "nightarshelf",
-      "//shortdescription" : "Nightar Shelf",
+      "shortdescription" : "Nightar Shelf",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
       "object" : "nightarshelf"
     },
+    "27" : {
+      "//description" : "A chair made specifically for a ship.",
+      "//name" : "nightarshipchair",
+      "shortdescription" : "Nightar Ship Chair",
+      "imagePositionX" : "-12",
+      "imagePositionY" : "0",
+      "object" : "nightarshipchair"
+    },
     "28" : {
-      "//description" : "A small green light",
+      "//description" : "A small green light.",
       "//name" : "nightarshiplight",
-      "//shortdescription" : "Green Ship Light",
+      "shortdescription" : "Green Ship Light",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
       "object" : "nightarshiplight"
     },
     "29" : {
-      "//description" : "Where does the water come from or go to? I will never know..",
+      "//description" : "Where does the water come from or go to? I will never know...",
       "//name" : "nightarsink",
-      "//shortdescription" : "Nightar Sink",
+      "shortdescription" : "Nightar Sink",
       "imagePositionX" : "-8",
       "imagePositionY" : "-8",
       "object" : "nightarsink"
     },
     "30" : {
-      "//description" : "An advanced cooking device, with controlable heat for perfect cooking.",
-      "//name" : "nightarstove",
-      "//shortdescription" : "Nightar Cooker",
+      "//description" : "A cryo-stasis hibernation pod.",
+      "//name" : "nightarstasispod",
+      "shortdescription" : "Nightar Stasis Pod",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightarstove"
+      "object" : "nightarstasispod"
     },
     "31" : {
-      "//description" : "An electronic table.",
+      "//description" : "A nice, spacious, wall-mounted storage solution.",
+      "//name" : "nightarstoragelocker",
+      "shortdescription" : "Nightar Storage Locker",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "nightarstoragelocker"
+    },
+    "32" : {
+      "//description" : "An elegant Nightar table with a tracing light strip.",
       "//name" : "nightartable",
-      "//shortdescription" : "Nightar Table",
+      "shortdescription" : "Nightar Table",
       "imagePositionX" : "-32",
       "imagePositionY" : "0",
       "object" : "nightartable"
     },
-    "32" : {
+    "33" : {
       "//description" : "A simple Nightar chair used for tables.",
       "//name" : "nightartablechair",
-      "//shortdescription" : "Nightar Table Chair",
+      "shortdescription" : "Nightar Table Chair",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
       "object" : "nightartablechair"
     },
-    "4" : {
-      "//description" : "A personal teleporter, connects to bookmarked locations. \n^red;Destroyed when broken.",
+    "34" : {
+      "//description" : "A personal teleporter, connects to bookmarked locations.\n^red;Destroyed when broken.",
       "//name" : "nightarteleporter",
-      "//shortdescription" : "Nightar Teleporter",
+      "shortdescription" : "Nightar Teleporter",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
       "object" : "nightarteleporter"
     },
-    "5" : {
-      "//description" : "A Nightar throne, only for the night's king!",
+    "35" : {
+      "//description" : "A Nightar throne.",
       "//name" : "nightarthrone",
-      "//shortdescription" : "Nightar's Throne",
+      "shortdescription" : "Nightar Throne",
       "imagePositionX" : "-30",
       "imagePositionY" : "0",
       "object" : "nightarthrone"
     },
-    "6" : {
+    "36" : {
       "//description" : "A compact switch that can be flipped on or off.",
       "//name" : "nightartinywallswitch",
-      "//shortdescription" : "Nightar Tiny Switch",
+      "shortdescription" : "Nightar Tiny Switch",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
       "object" : "nightartinywallswitch"
     },
-    "7" : {
-      "//description" : "A Nightar toliet, gets rid of waste in matter of seconds!",
+    "37" : {
+      "//description" : "A Nightar toilet, gets rid of waste in a matter of seconds!",
       "//name" : "nightartoilet",
-      "//shortdescription" : "Nightar Toilet",
+      "shortdescription" : "Nightar Toilet",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
       "object" : "nightartoilet"
-    },
-    "8" : {
-      "//description" : "Looks like someone's got their eyes set on making this a venue for a shop.",
-      "//name" : "ranscastleoutpostclosed",
-      "//shortdescription" : "Closed Ran's Castle",
-      "imagePositionX" : "-56",
-      "imagePositionY" : "0",
-      "object" : "ranscastleoutpostclosed"
-    },
-    "9" : {
-      "//description" : "A storefront for the Nightar merchant, Ran, to sell his wares.",
-      "//name" : "ranscastleoutpost",
-      "//shortdescription" : "Ran's Castle",
-      "imagePositionX" : "-56",
-      "imagePositionY" : "0",
-      "object" : "ranscastleoutpost"
     }
   },
   "tilepropertytypes" : {
@@ -293,6 +333,70 @@
       "imagePositionY" : "string",
       "object" : "string"
     },
+    "2" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "3" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "4" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "5" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "6" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "7" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "8" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "9" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
     "10" : {
       "//description" : "string",
       "//name" : "string",
@@ -366,14 +470,6 @@
       "object" : "string"
     },
     "19" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "2" : {
       "//description" : "string",
       "//name" : "string",
       "//shortdescription" : "string",
@@ -461,14 +557,6 @@
       "imagePositionY" : "string",
       "object" : "string"
     },
-    "3" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
     "30" : {
       "//description" : "string",
       "//name" : "string",
@@ -493,7 +581,7 @@
       "imagePositionY" : "string",
       "object" : "string"
     },
-    "4" : {
+    "33" : {
       "//description" : "string",
       "//name" : "string",
       "//shortdescription" : "string",
@@ -501,7 +589,7 @@
       "imagePositionY" : "string",
       "object" : "string"
     },
-    "5" : {
+    "34" : {
       "//description" : "string",
       "//name" : "string",
       "//shortdescription" : "string",
@@ -509,7 +597,7 @@
       "imagePositionY" : "string",
       "object" : "string"
     },
-    "6" : {
+    "35" : {
       "//description" : "string",
       "//name" : "string",
       "//shortdescription" : "string",
@@ -517,7 +605,7 @@
       "imagePositionY" : "string",
       "object" : "string"
     },
-    "7" : {
+    "36" : {
       "//description" : "string",
       "//name" : "string",
       "//shortdescription" : "string",
@@ -525,15 +613,7 @@
       "imagePositionY" : "string",
       "object" : "string"
     },
-    "8" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "9" : {
+    "37" : {
       "//description" : "string",
       "//name" : "string",
       "//shortdescription" : "string",
@@ -544,169 +624,194 @@
   },
   "tiles" : {
     "0" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightaranvil.png",
+      "image" : "../../../tiled/vanta-custom/objects/vantaanvil.png",
       "imageheight" : 40,
-      "imagewidth" : 32
+      "imagewidth" : 48
     },
     "1" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarbattlestandard.png",
       "imageheight" : 40,
       "imagewidth" : 16
     },
-    "10" : {
+    "2" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarbed.png",
       "imageheight" : 24,
       "imagewidth" : 56
     },
-    "11" : {
+    "3" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarbladealtar.png",
-      "imageheight" : 14,
-      "imagewidth" : 25
-    },
-    "12" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarbookcase.png",
-      "imageheight" : 32,
-      "imagewidth" : 24
-    },
-    "13" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarbox1.png",
       "imageheight" : 64,
       "imagewidth" : 17
     },
-    "14" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarbox2.png",
+    "4" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarbookcase.png",
       "imageheight" : 40,
       "imagewidth" : 32
     },
-    "15" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarcabinet.png",
-      "imageheight" : 16,
-      "imagewidth" : 24
+    "5" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarbox1.png",
+      "imageheight" : 24,
+      "imagewidth" : 16
     },
-    "16" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarcastledoor.png",
+    "6" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarbox2.png",
       "imageheight" : 24,
       "imagewidth" : 32
     },
-    "17" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarchair.png",
+    "7" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarcabinet.png",
       "imageheight" : 40,
       "imagewidth" : 32
     },
-    "18" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarchandelier.png",
+    "8" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarcastledoor.png",
       "imageheight" : 40,
       "imagewidth" : 40
     },
-    "19" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarchest.png",
-      "imageheight" : 24,
-      "imagewidth" : 22
-    },
-    "2" : {
+    "9" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarchandelier.png",
       "imageheight" : 32,
       "imagewidth" : 40
     },
-    "20" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarconsole.png",
+    "10" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarchest.png",
+      "imageheight" : 16,
+      "imagewidth" : 16
+    },
+    "11" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarchest2.png",
       "imageheight" : 16,
       "imagewidth" : 32
     },
-    "21" : {
+    "12" : {
       "image" : "../../../tiled/vanta-custom/objects/nightardresser.png",
-      "imageheight" : 33,
-      "imagewidth" : 25
-    },
-    "22" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarfridge.png",
       "imageheight" : 16,
       "imagewidth" : 31
     },
-    "23" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarpedestal.png",
+    "13" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarfridge.png",
       "imageheight" : 32,
       "imagewidth" : 24
     },
-    "24" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarpicture.png",
+    "14" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarhandscanner.png",
+      "imageheight" : 8,
+      "imagewidth" : 8
+    },
+    "15" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarlight_0.png",
+      "imageheight" : 12,
+      "imagewidth" : 8
+    },
+    "16" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarlight_1.png",
+      "imageheight" : 12,
+      "imagewidth" : 8
+    },
+    "17" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarlight_2.png",
+      "imageheight" : 12,
+      "imagewidth" : 8
+    },
+    "18" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarlight_3.png",
+      "imageheight" : 12,
+      "imagewidth" : 8
+    },
+    "19" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarlight_4.png",
+      "imageheight" : 12,
+      "imagewidth" : 8
+    },
+    "20" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarpedestal.png",
       "imageheight" : 16,
       "imagewidth" : 24
     },
-    "25" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarsbannersmall.png",
+    "21" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarpicture.png",
       "imageheight" : 24,
       "imagewidth" : 32
     },
-    "26" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarsbannertorn.png",
+    "22" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarsbannersmall.png",
       "imageheight" : 37,
       "imagewidth" : 23
     },
-    "27" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarshelf.png",
+    "23" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarsbannertorn.png",
       "imageheight" : 75,
       "imagewidth" : 34
+    },
+    "24" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarcamera1.png",
+      "imageheight" : 32,
+      "imagewidth" : 32
+    },
+    "25" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarcamera2.png",
+      "imageheight" : 32,
+      "imagewidth" : 32
+    },
+    "26" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarshelf.png",
+      "imageheight" : 8,
+      "imagewidth" : 32
+    },
+    "27" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarshipchair.png",
+      "imageheight" : 24,
+      "imagewidth" : 24
     },
     "28" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarshiplight.png",
       "imageheight" : 8,
-      "imagewidth" : 32
+      "imagewidth" : 16
     },
     "29" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarsink.png",
-      "imageheight" : 8,
-      "imagewidth" : 16
-    },
-    "3" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarstoragelocker.png",
       "imageheight" : 24,
       "imagewidth" : 18
     },
     "30" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarstove.png",
-      "imageheight" : 24,
+      "image" : "../../../tiled/vanta-custom/objects/nightarstasispod.png",
+      "imageheight" : 50,
       "imagewidth" : 32
     },
     "31" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarstoragelocker.png",
+      "imageheight" : 24,
+      "imagewidth" : 32
+    },
+    "32" : {
       "image" : "../../../tiled/vanta-custom/objects/nightartable.png",
       "imageheight" : 16,
       "imagewidth" : 55
     },
-    "32" : {
+    "33" : {
       "image" : "../../../tiled/vanta-custom/objects/nightartablechair.png",
       "imageheight" : 24,
       "imagewidth" : 16
     },
-    "4" : {
+    "34" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarteleporter.png",
       "imageheight" : 59,
       "imagewidth" : 32
     },
-    "5" : {
+    "35" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarthrone.png",
       "imageheight" : 71,
       "imagewidth" : 65
     },
-    "6" : {
+    "36" : {
       "image" : "../../../tiled/vanta-custom/objects/nightartinywallswitch.png",
-      "imageheight" : 8,
-      "imagewidth" : 8
+      "imageheight" : 16,
+      "imagewidth" : 16
     },
-    "7" : {
+    "37" : {
       "image" : "../../../tiled/vanta-custom/objects/nightartoilet.png",
       "imageheight" : 24,
       "imagewidth" : 16
-    },
-    "8" : {
-      "image" : "../../../tiled/vanta-custom/objects/ranscastleoutpostclosed.png",
-      "imageheight" : 73,
-      "imagewidth" : 128
-    },
-    "9" : {
-      "image" : "../../../tiled/vanta-custom/objects/ranscastleoutpostopen.png",
-      "imageheight" : 73,
-      "imagewidth" : 128
     }
   },
   "tilewidth" : 65,
