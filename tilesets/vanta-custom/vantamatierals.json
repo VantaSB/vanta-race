@@ -3,7 +3,7 @@
   "name" : "vanta/materials",
   "properties" : {},
   "spacing" : 0,
-  "tilecount" : 17,
+  "tilecount" : 12,
   "tileheight" : 16,
   "tileproperties" : {
     "0" : {
@@ -83,7 +83,7 @@
       "material" : "nightarwall2"
     },
 
-    "10" : {
+    "11" : {
       "//description" : "Durable roofing made of unknown materials.",
       "//name" : "nightarrooftiles",
       "//shortdescription" : "Nightar Roofing Tiles",
