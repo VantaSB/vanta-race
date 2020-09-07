@@ -81,6 +81,13 @@
       "//name" : "nightarwall2",
       "//shortdescription" : "Nightar Tech Wall",
       "material" : "nightarwall2"
+    },
+
+    "10" : {
+      "//description" : "Durable roofing made of unknown materials.",
+      "//name" : "nightarrooftiles",
+      "//shortdescription" : "Nightar Roofing Tiles",
+      "material" : "nightarrooftiles"
     }
   },
 
@@ -127,6 +134,10 @@
 
     "9" : {
       "image" : "../../tiled/vanta-custom/materials/nightarwall2.png"
+    },
+
+    "10" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarrooftiles.png"
     }
   },
 

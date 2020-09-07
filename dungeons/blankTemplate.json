@@ -240,19 +240,19 @@
         }, 
         {
          "firstgid":7670,
-         "source":"..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
-        }, 
-        {
-         "firstgid":7708,
          "source":"..\/tilesets\/vanta-custom\/vantaliquids.json"
         }, 
         {
-         "firstgid":7709,
+         "firstgid":7671,
          "source":"..\/tilesets\/vanta-custom\/vantamatierals.json"
         }, 
         {
-         "firstgid":7720,
+         "firstgid":7682,
          "source":"..\/tilesets\/vanta-custom\/vantasupports.json"
+        }, 
+        {
+         "firstgid":7683,
+         "source":"..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }],
  "tilewidth":8,
  "type":"map",
