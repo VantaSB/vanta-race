@@ -20,13 +20,6 @@
       "material" : "nightarblock2"
     },
 
-    "10" : {
-      "//description" : "Traditional Nightar flooring.",
-      "//name" : "nightarfloor",
-      "//shortdescription" : "Nightar Floor",
-      "material" : "nightarfloor"
-    },
-
     "2" : {
       "//description" : "Panelling made of unknown materials.",
       "//name" : "nightarpanelblock",
@@ -83,6 +76,13 @@
       "material" : "nightarwall2"
     },
 
+    "10" : {
+      "//description" : "Traditional Nightar flooring.",
+      "//name" : "nightarfloor",
+      "//shortdescription" : "Nightar Floor",
+      "material" : "nightarfloor"
+    },
+
     "11" : {
       "//description" : "Durable roofing made of unknown materials.",
       "//name" : "nightarrooftiles",
@@ -98,10 +98,6 @@
 
     "1" : {
       "image" : "../../tiled/vanta-custom/materials/nightarblock2.png"
-    },
-
-    "10" : {
-      "image" : "../../tiled/vanta-custom/materials/nightarfloor.png"
     },
 
     "2" : {
@@ -137,6 +133,10 @@
     },
 
     "10" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarfloor.png"
+    },
+
+    "11" : {
       "image" : "../../tiled/vanta-custom/materials/nightarrooftiles.png"
     }
   },
