@@ -1,6 +1,6 @@
 {
   "kind" : "ceruleumplasma",
-  "elementalType" : "ceruleumpoison",
+  "elementalType" : "ceruleum",
   "effects" : {
     "organic" : {
       "hit" : {

@@ -1,6 +1,6 @@
 {
-  "kind" : "ceruleumpoison",
-  "elementalType" : "ceruleumpoison",
+  "kind" : "ceruleum",
+  "elementalType" : "ceruleum",
   "effects" : {
     "organic" : {
       "hit" : {
