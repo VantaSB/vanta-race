@@ -3,7 +3,7 @@
   "effectConfig" : {
     "powerModifier" : 1.65
   },
-  "defaultDuration" : 5,
+  "defaultDuration" : 20,
 
   "scripts" : [
     "ceruleuminfusion.lua"
