@@ -11,8 +11,7 @@
 					"primaryRegion" : ["barrenasteroids"]
 				},
 				"surface" : {
-					"primaryRegion" : ["proximamoon"],
-					"secondaryRegions" : [ "midnight", "tundra" ]
+					"primaryRegion" : ["proximamoon"]
 				},
 				"subsurface" : {
 					"primaryRegion" : ["proximamoonunderground"]
@@ -49,8 +48,7 @@
 			"bgCaveSelector" : [ "empty" ],
 			"biome" : [
 				[0, [ "proximamoon" ]]
-			],
-			"subRegion" : ["rust", "hive"]
+			]
 		}
 	},
 

@@ -1,0 +1,9 @@
+{
+  "name" : "proximawormcritter",
+  "category" : "proximawormcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

@@ -13,11 +13,12 @@
   "spawnProfile" : {
     "groups" : [
       {
-        "select" : 3,
+        "select" : 4,
         "pool" : [
           [0.1111, "ceruleumadultpoptop"],
           [0.1111, "ceruleumpoptop"],
-          [0.1111, "ceruleumpteropod"]
+          [0.1111, "ceruleumpteropod"],
+          [0.1111, "ceruleumsmoglin"]
         ]
       },
 
@@ -31,14 +32,13 @@
       },
 
       {
-        "select" : 2,
+        "select" : 3,
         "pool" : [
           [ 1, "ceruleumfloatbagcritter" ],
-          [ 1, "sackbagcritter" ],
-          [ 1, "darkwormcritter" ],
-          [ 1, "darknessscabcritter" ]
+          [ 1, "proximawormcritter" ],
+          [ 1, "ceruleumcrabcritter" ]
         ]
-      },
+      }/*,
 
       {
         "select" : 3,
@@ -55,22 +55,9 @@
       {
         "select" : 2,
         "pool" : "generatedFlying"
-      }
+      }*/
     ],
-    "monsterParameters" : {
-      "colors" : "snow",
-      "statusSettings" : {
-        "stats" : {
-          "ceruleumCorruptionBlock" : {
-            "baseValue" : 1.0
-          },
-
-          "iceStatusImmunity" : {
-            "baseValue" : 1.0
-          }
-        }
-      }
-    }
+    "monsterParameters" : { }
   },
 
   "statusEffects" : [ ],
@@ -134,6 +121,19 @@
           }
         ]
       },
+
+      // Microdungeons
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "proximamoonmicrodungeons" ]
+      },
+
+      // Terrain features
       {
         "mode" : "floor",
         "priority" : 3.0,

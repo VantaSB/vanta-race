@@ -45,6 +45,22 @@
   },
 
   {
+    "name" : "ceruleumsmoglin",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.1,
+    "monsterType" : "ceruleumsmoglin",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  // Critters
+  {
     "name" : "ceruleumfloatbagcritter",
     "spawnParameters" : {
       "area" : "surface",
@@ -54,6 +70,36 @@
 
     "spawnChance" : 0.02,
     "monsterType" : "ceruleumfloatbagcritter",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ceruleumcrabcritter",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.02,
+    "monsterType" : "ceruleumcrabcritter",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "proximawormcritter",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.02,
+    "monsterType" : "proximawormcritter",
     "monsterParameters" : {
       "aggressive" : false
     }
