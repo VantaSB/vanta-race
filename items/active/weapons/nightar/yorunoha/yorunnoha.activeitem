@@ -7,7 +7,7 @@
   "description" : "A Nightar weapon consisting of a long handle with an energy blade.",
   "shortdescription" : "Yorunoha",
   "tooltipKind" : "sword",
-  "category" : "broadsword",
+  "category" : "energyspear",
   "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "broadsword"],
 

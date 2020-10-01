@@ -7,7 +7,7 @@
   "description" : "Katars gained their infamy as tools of assassination.",
   "shortdescription" : "Vanta Katar",
   "tooltipKind" : "fistweapon",
-  "category" : "fistWeapon",
+  "category" : "katar",
   "twoHanded" : false,
   "itemTags" : ["weapon", "fistWeapon"],
 

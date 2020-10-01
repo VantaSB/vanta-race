@@ -6,7 +6,8 @@
   { "op" : "add", "path" : "/labels/energysword", "value" : "Energy Sword" },
   { "op" : "add", "path" : "/labels/energyscythe", "value" : "Energy Scythe" },
   { "op" : "add", "path" : "/labels/energyspear", "value" : "Energy Spear" },
-  { "op" : "add", "path" : "/labels/innate", "value" : "Innate Ability" },
+  { "op" : "add", "path" : "/labels/energybow", "value" : "Energy Bow" },
+  { "op" : "add", "path" : "/labels/katar", "value" : "Katar" },
   { "op" : "add", "path" : "/labels/katana", "value" : "Katana" },
   { "op" : "add", "path" : "/labels/gunblade", "value" : "Gunblade" }
 ]

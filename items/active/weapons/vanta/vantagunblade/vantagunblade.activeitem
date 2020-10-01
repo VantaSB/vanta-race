@@ -7,9 +7,9 @@
   "description" : "A very intricate weapon seen mostly among the Vanta.",
   "shortdescription" : "Vanta Bayonet",
   "tooltipKind" : "sword",
-  "category" : "broadsword",
+  "category" : "gunblade",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword","upgradeableWeapon"],
+  "itemTags" : ["weapon","melee","broadsword","vantaUpgradeableWeapon"],
 
   "inventoryIcon" : "vantagunblade.png",
 

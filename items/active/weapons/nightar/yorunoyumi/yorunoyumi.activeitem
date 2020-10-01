@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "tooltipKind" : "bow",
-  "category" : "bow",
+  "category" : "energybow",
   "description" : "Yorunoyumi, or 'The Night Bow', an energy hunting bow!",
   "shortdescription" : "Yorunoyumi",
   "twoHanded" : true,
