@@ -1,23 +1,24 @@
 {
   "materialId" : 3217,
-  "materialName" : "nightarrooftiles",
+  "materialName" : "nightarroofing",
   "particleColor" : [90, 90, 90, 255],
-  "itemDrop" : "nightarrooftiles",
+  "itemDrop" : "nightarroofing",
   "description" : "Durable roofing made of unknown materials.",
   "shortdescription" : "Nightar Roofing Tiles",
-  "glitchDescription" : "Analysis. Cerulium roofing.",
-  "floranDescription" : "Floran wants to climb roofsss!",
-  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+
+
+
+  "footstepSound" : "/sfx/blocks/footstep_rooftile.ogg",
   "health" : 16,
   "category": "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "nightarrooftiles.png",
+    "texture" : "nightarroofing.png",
     "variants" : 1,
     "lightTransparent" : false,
     "multiColored" :false,
     "occludesBelow" : true,
-    "zLevel" : 0
+    "zLevel" : 3460
   }
 }

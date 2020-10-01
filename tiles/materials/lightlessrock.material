@@ -14,8 +14,8 @@
     "texture" : "lightlessrock.png",
     "variants" : 5,
     "lightTransparent" : false,
+    "multiColored" : false,
     "occludesBelow" : true,
-    "multiColored" : true,
     "zLevel" : 1600
   }
 }

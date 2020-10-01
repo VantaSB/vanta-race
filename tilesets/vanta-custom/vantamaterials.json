@@ -3,7 +3,7 @@
   "name" : "vanta/materials",
   "properties" : {},
   "spacing" : 0,
-  "tilecount" : 12,
+  "tilecount" : 15,
   "tileheight" : 16,
   "tileproperties" : {
     "0" : {
@@ -85,9 +85,30 @@
 
     "11" : {
       "//description" : "Durable roofing made of unknown materials.",
-      "//name" : "nightarrooftiles",
+      "//name" : "nightarroofing",
       "//shortdescription" : "Nightar Roofing Tiles",
-      "material" : "nightarrooftiles"
+      "material" : "nightarroofing"
+    },
+
+    "12" : {
+      "//description" : "Durable roofing made of unknown materials.",
+      "//name" : "nightarrtiles",
+      "//shortdescription" : "Nightar Tiles",
+      "material" : "nightartiles"
+    },
+
+    "13" : {
+      "//description" : "A stout wall made of unknown materials.",
+      "//name" : "nightarwall3",
+      "//shortdescription" : "Nightar Diagonal Tiles",
+      "material" : "nightarwall3"
+    },
+
+    "14" : {
+      "//description" : "Modular tiling made of unknown materials.",
+      "//name" : "nightarwall4",
+      "//shortdescription" : "Nightar Hexagon Tiles",
+      "material" : "nightarwall4"
     }
   },
 
@@ -137,7 +158,19 @@
     },
 
     "11" : {
-      "image" : "../../tiled/vanta-custom/materials/nightarrooftiles.png"
+      "image" : "../../tiled/vanta-custom/materials/nightarroofing.png"
+    },
+
+    "12" : {
+      "image" : "../../tiled/vanta-custom/materials/nightartiles.png"
+    },
+
+    "13" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarwall3.png"
+    },
+
+    "14" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarwall4.png"
     }
   },
 

@@ -1,9 +1,9 @@
 {
-  "itemName" : "nightarrooftiles",
+  "itemName" : "nightarroofing",
   "price" : 15,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "nightarrooftilesicon.png",
+  "inventoryIcon" : "nightarroofingicon.png",
   "description" : "Roofing of Nightar origin.",
   "shortdescription" : "Nightar Roofing Tiles",
 
