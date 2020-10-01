@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "darkfragmentore", "count" : 2 }
+    { "item" : "darkfragmentore", "count" : 5 },
+    { "item" : "darkessence", "count" : 10 }
   ],
   "duration" : 5,
   "output" : { "item" : "darkcrystal", "count" : 1 },

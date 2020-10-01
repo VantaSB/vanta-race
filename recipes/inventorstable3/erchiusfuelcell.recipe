@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "liquidfuel", "count" : 5 },
-    { "item" : "titaniumbar", "count" : 2 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "erchiusfuelcell", "count" : 1 },
-  "groups" : [ "inventorstable3", "craftingstations", "all" ]
-}
