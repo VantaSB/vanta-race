@@ -1,7 +1,8 @@
 require "/scripts/vec2.lua"
 
 function init()
-  self.active = false
+  self.stealthActive = false
+  self.sprintEnabled = config.getParameter("sprintEnabled")
   world.setProperty("entity["..tostring(entity.id()).."]Stealthed", nil)
   self.lastMoves = {} --used to keep track of held buttons
   self.primaryItem = nil
@@ -18,7 +19,7 @@ function init()
 	  primary = nil,
 	  alt = nil
   }
-  sneakStats = { --let me walk through peeps
+  sneakStats = {
 	{stat = "grit", amount = 1}
   }
   self.forceWalk = config.getParameter("forceWalk", false)
@@ -33,7 +34,15 @@ function init()
   self.sneakAttackMult = config.getParameter("sneakAttackMult") or 1
   self.energyCost = config.getParameter("energyDrainRate")
   self.energyFraction = config.getParameter("energyDrainFraction")
-  self.weaponTypes = { --what is a "weapon"?
+
+  --Sprint stuff
+  self.sprintEnergyCostPerSecond = config.getParameter("sprintEnergyCostPerSecond")
+  self.dashControlForce = config.getParameter("dashControlForce")
+  self.dashSpeedModifier = config.getParameter("dashSpeedModifier")
+  self.groundOnly = config.getParameter("groundOnly")
+  self.stopAfterDash = config.getParameter("stopAfterDash")
+
+  self.weaponTypes = {
   ["gun"] = true,
   ["staff"] = true,
   ["sword"] = true,
@@ -61,7 +70,7 @@ function input(args)
 		  if self.doubleTapTimer <= 0 then
 			  self.doubleTapTimer = 0.25
 		  else
-			  if self.active then
+			  if self.stealthActive then
 				  deactivateStealth()
 			  elseif not status.resourceLocked("energy") and self.rebootTimer < 0 and not args.moves["primaryFire"] and not args.moves["altFire"]then
 				  activateStealth()
@@ -73,26 +82,28 @@ function input(args)
 	  end
   end
 
-  if self.techType == "head" and args.moves["special"] == 1 and self.lastMoves["special"] ~= 1 then --on and off
-    if self.active then
-		deactivateStealth()
-	elseif not status.resourceLocked("energy") and self.rebootTimer < 0 and not args.moves["primaryFire"] and not args.moves["altFire"]then
-		activateStealth()
-	else
-		animator.playSound("activationFail")
-	end
-  end
+  --[[if args.moves["left"] or args.moves["right"] and self.sprintEnabled then
+    if not self.lastMoves["left"] or not self.lastMoves["right"] then
+      if self.doubleTapTimer <= 0 then
+        self.doubleTapTimer = 0.25
+      else
+        local direction = "left" and -1 or 1
+        if not self.dashDirection and groundValid() and mcontroller.facingDirection() == direction and not mcontroller.crouching() and not status.resourceLocked("energy") and not status.statPositive("activeMovementAbilities") then
+          startDash(direction)
+        end
+      end
+    end
+  end]]
 
-  if args.moves["primaryFire"] and self.active and not self.lastMoves["primaryFire"] and self.holdingPrimaryWeapon then
+  if args.moves["primaryFire"] and self.stealthActive and not self.lastMoves["primaryFire"] and self.holdingPrimaryWeapon then
 	local windup = self.heldConfig["primary"].level2ChargeTime
 	if not windup and self.heldConfig["primary"].stances and self.heldConfig["primary"].stances.windup and self.heldConfig["primary"].stances.windup.minWindup then
-		windup = self.heldConfig["primary"].stances.windup.minWindup
+    windup = self.heldConfig["primary"].stances.windup.minWindup
 	end
 	if not windup then
 		breakStealth("primary")
 	elseif not self.windupHeldTimers["primary"] then
-		--sb.logInfo("%s, %s", windup, self.windupHeldTimers["primary"])
-		self.windupHeldTimers["primary"] = windup
+    self.windupHeldTimers["primary"] = windup
 	end
   elseif not args.moves["primaryFire"] and self.windupHeldTimers["primary"] then
     if self.windupHeldTimers["primary"] <=0 then
@@ -103,7 +114,7 @@ function input(args)
     self.windupHeldTimers["primary"] = nil
   end
 
-  if args.moves["altFire"] and self.active and not self.lastMoves["altFire"] and self.holdingAltWeapon then
+  if args.moves["altFire"] and self.stealthActive and not self.lastMoves["altFire"] and self.holdingAltWeapon then
     local windup = self.heldConfig["alt"].level2ChargeTime
 	if not windup and self.heldConfig["alt"].stances and self.heldConfig["alt"].stances.windup and self.heldConfig["alt"].stances.windup.minWindup then
 		windup = self.heldConfig["alt"].stances.windup.minWindup
@@ -122,12 +133,11 @@ function input(args)
     self.windupHeldTimers["alt"] = nil
   end
 
-  self.lastMoves = args.moves --hold on to old buttons to determine if they're being held
+  self.lastMoves = args.moves
 end
 
 function getWeaponType(weapon)
 	local itemConfig = root.itemConfig(weapon.name).config or {}
-	--sb.logInfo("%s: %s, %s, %s, %s", weapon, weapon.parameters.weaponType, itemConfig.weaponType, itemConfig.category, root.itemType(weapon.name))
 	return weapon.parameters.weaponType or itemConfig.weaponType or itemConfig.category or root.itemType(weapon.name)
 end
 
@@ -145,7 +155,7 @@ function decreaseTimers()
 end
 
 function activateStealth()
-	self.active = true
+	self.stealthActive = true
 	world.setProperty("entity["..tostring(entity.id()).."]Stealthed", true)
 	self.heldWeaponGraceTimer = 0
 	local stealthTransparency = string.format("%X", math.max(math.floor(100 - 50*world.lightLevel(mcontroller.position())), 50))
@@ -162,8 +172,8 @@ function activateStealth()
 	tech.setToolUsageSuppressed(false)
 end
 
-function deactivateStealth() --back to normal
-	self.active = false
+function deactivateStealth()
+	self.stealthActive = false
 	world.setProperty("entity["..tostring(entity.id()).."]Stealthed", nil)
 	tech.setParentDirectives("")
 	self.sneakAttackWindow = 0
@@ -172,13 +182,12 @@ function deactivateStealth() --back to normal
 end
 
 function breakStealth(mode)
-	self.active = false
+	self.stealthActive = false
 	world.setProperty("entity["..tostring(entity.id()).."]Stealthed", nil)
 	animator.playSound("breakStealth")
 	animator.burstParticleEmitter("breakStealth")
 	self.rebootCooldown = self.baseRebootCooldown
 	for listWeaponType,weight in pairs(self.stealthBreakCooldowns) do
-		--sb.logInfo("%s, %s, %s", self.heldWeaponType[mode], listWeaponType, weight)
 		if string.find(self.heldWeaponType[mode], listWeaponType) then
 			self.rebootCooldown = weight
 			break
@@ -197,7 +206,7 @@ function update(args)
   elseif self.rebootTimer == 0 then
     self.rebootTimer = -1
   end
-  if self.active then
+  if self.stealthActive then
     if self.forceWalk then
       mcontroller.controlModifiers({runningSuppressed = true})
     end
@@ -218,10 +227,6 @@ function update(args)
 	  else
 	    speedModifier = 0.75
 	  end
-	  --[[if config.getParameter("name") == "activestealthtech-agent" and (lightModifier + speedModifier) < 0 then
-		lightModifier = lightModifier*4
-		speedModifier = speedModifier*4
-    end]]
 	  local stealthCost = (self.energyCost+math.floor(status.resourceMax("energy")*self.energyFraction))*args.dt*(lightModifier + speedModifier)
 	  if stealthCost > 0 and not status.consumeResource("energy", stealthCost) then
 		deactivateStealth()
@@ -234,12 +239,10 @@ function update(args)
 		local stealthTransparency = string.format("%X", math.max(math.floor(100 - 50*world.lightLevel(mcontroller.position())), 50))
 		if string.len(stealthTransparency) == 1 then stealthTransparency = "0"..stealthTransparency end
 		tech.setParentDirectives("multiply=000000"..stealthTransparency)
-		--sb.logInfo("Light: %s, Speed: %s, Sum: %s", world.lightLevel(mcontroller.position()), vec2.mag(mcontroller.velocity()), stealthCost/args.dt)
 		local check2Hand = false
 		local newAltItem = world.entityHandItemDescriptor(entity.id(), "alt")
 		local newPrimaryItem = world.entityHandItemDescriptor(entity.id(), "primary")
 		if not peaslyDeepCompare(self.altItem, newAltItem) then
-			--sb.logInfo("New Alt: %s -> %s", self.altItem, newAltItem)
 			self.altItem = newAltItem
 			check2Hand = true
 			if self.altItem and self.altItem.name ~= "sapling" then
@@ -252,7 +255,6 @@ function update(args)
 			end
 		end
 		if not peaslyDeepCompare(self.primaryItem, newPrimaryItem) then
-			--sb.logInfo("New Primary: %s -> %s", self.primaryItem, newPrimaryItem)
 			self.primaryItem = newPrimaryItem
 			check2Hand = true
 			if self.primaryItem and self.primaryItem.name ~= "sapling"then
@@ -263,11 +265,9 @@ function update(args)
 				self.heldConfig["primary"] = {}
 				self.heldWeaponType["primary"] = "none"
 			end
-			--sb.logInfo("Types: %s", self.heldWeaponType)
 		end
 		if check2Hand then
 			if self.primaryItem and not self.altItem and (self.primaryItem.parameters.twoHanded or self.heldConfig["primary"].twoHanded) and self.primaryItem.name ~= "sapling"then
-				--sb.logInfo("2Hand: Primary -> Alt")
 				self.holdingAltWeapon = isWeapon(self.primaryItem.name)
 				self.heldWeaponType["alt"] = self.heldWeaponType["primary"]
 				self.heldConfig["alt"] = self.heldConfig["primary"]
@@ -283,10 +283,24 @@ function update(args)
 	tech.setParentDirectives("")
   end
   decreaseTimers()
+
+  if self.dashDirection then
+    if args.moves[self.dashDirection > 0 and "right" or "left"] and not mcontroller.liquidMovement() and not dashBlocked() then
+      if mcontroller.facingDirection() == self.dashDirection then
+        if status.overConsumeResource("energy", self.energyCostPerSecond * args.dt) then
+          mcontroller.controlModifiers({speedModifier = self.dashSpeedModifier})
+
+          animator.setAnimationState("dashing", "on")
+          animator.setParticleEmitterActive("dashParticles", true)
+        end
+      else
+        endDash()
+      end
+    end
+  end
 end
 
 function rebootDirective()
-    --border=1;a0FFFF30;00000000
 	local borderMagnitude = string.format("%X", math.ceil(130 * (self.rebootTimer*1.3) * 1 / self.rebootCooldown))
 	if string.len(borderMagnitude) == 1 then borderMagnitude = "0"..borderMagnitude end
 	local borderColor = string.format("%X", math.ceil(200 - 50*math.cos((self.rebootCooldown - self.rebootTimer)*2)))
@@ -317,8 +331,46 @@ function peaslyDeepCompare(a1, a2)
 end
 
 function uninit()
-	if self.active then
+	if self.stealthActive then
 		deactivateStealth()
 	end
 	status.clearPersistentEffects("sneakAttack")
+  status.clearPersistentEffects("movementAbility")
+  animator.setAnimationState("dashing", "off")
+  animator.setParticleEmitterActive("dashParticles", false)
+end
+
+-- misc coroutines
+function groundValid()
+  return mcontroller.groundMovement() or not self.groundOnly
+end
+
+function dashBlocked()
+  return mcontroller.velocity()[1] == 0
+end
+
+function startDash(direction)
+  self.dashDirection = direction
+  status.setPersistentEffects("movementAbility", {{stat = "activeMovementAbilities", amount = 1}})
+  animator.setFlipped(self.dashDirection == -1)
+  animator.setAnimationState("dashing", "on")
+  animator.setParticleEmitterActive("dashParticles", true)
+end
+
+function endDash(direction)
+  status.clearPersistentEffects("movementAbility")
+
+  if self.stopAfterDash then
+    local movementParams = mcontroller.baseParameters()
+    local currentVelocity = mcontroller.velocity()
+    if math.abs(currentVelocity[1]) > movementParams.runSpeed then
+      mcontroller.setVelocity({movementParams.runSpeed * self.dashDirection, 0})
+    end
+    mcontroller.controlApproachXVelocity(self.dashDirection * movementParams.runSpeed, self.dashControlForce)
+  end
+
+  animator.setAnimationState("dashing", "off")
+  animator.setParticleEmitterActive("dashParticles", false)
+
+  self.dashDirection = nil
 end

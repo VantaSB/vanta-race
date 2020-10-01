@@ -13,7 +13,8 @@
   "icon" : "/tech/vantastealth/vantastealth2.png",
 
   "forceWalk" : false,
-  "energyDrainRate" : 20,
+  "sprintEnabled" : false,
+  "energyDrainRate" : 15,
   "energyDrainFraction" : 0.04,
   "baseRebootCooldown" : 6,
   "sneakAttackMult" : 2,
@@ -32,7 +33,7 @@
 	  "shotgun" : 6,
 	  "assault" : 6,
 	  "staff" : 7,
-	  "Launcher" : 8,
+	  "launcher" : 8,
 	  "flamethrower" : 7,
 	  "sniper" : 8,
 	  "dagger" : 1.5,
