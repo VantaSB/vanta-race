@@ -4,7 +4,7 @@
   "rarity" : "legendary",
   "category" : "fuel",
   "inventoryIcon" : "ceruleumfuelcell.png",
-  "description" : "A compact ^#3a6d73;Ceruleum^reset; fuel canister used specifically for Vanta FTL drives.",
+  "description" : "A compact ^#3a6d73;Ceruleum^reset; fuel canister that can safely be used in FTL drives.",
   "shortdescription" : "Ceruleum Fuel Cell",
   "fuelAmount" : 10
 }

@@ -6,7 +6,8 @@
       "fireTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ],
       "iceTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ],
       "electricTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ],
-      "poisonTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ]
+      "poisonTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ],
+      "ceruleumTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ]
     }
   },
 
@@ -31,6 +32,9 @@
         "projectileType" : "vantaphysicaltravelingswoosh"
       },
       "electric" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "ceruleum" : {
         "projectileType" : "vantaphysicaltravelingswoosh"
       }
     },

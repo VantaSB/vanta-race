@@ -19,5 +19,15 @@
     "op" : "add",
     "path" : "/iaijutsu",
     "value" : "/items/active/weapons/melee/abilities/broadsword/iaijutsu/iaijutsu.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/infusedcharge",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/infusedcharge/infusedcharge.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/chaosstrike",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/chaosstrike/chaosstrike.weaponability"
   }
 ]

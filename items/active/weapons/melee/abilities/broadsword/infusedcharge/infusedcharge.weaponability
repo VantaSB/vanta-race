@@ -1,0 +1,140 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "bladeCharge" : {
+          "default" : "idle",
+          "states" : {
+            "idle" : { },
+            "charge" : {
+              "cycle" : 1.2,
+              "mode" : "transition",
+              "transition" : "full",
+              "properties" : {
+                "persistentSound" : "/sfx/melee/charge_up13.ogg",
+                "persistentSoundStopTime" : 0.25
+              }
+            },
+            "full" : {
+              "mode" : "loop",
+              "properties" : {
+                "persistentSound" : "/sfx/melee/charge_full_hold1.ogg",
+                "immediateSound" : "/sfx/melee/sword_parry.ogg"
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "chargedSwing" : [ "/sfx/melee/charge_full_swing3.ogg" ],
+      "activationFail" : [ "/sfx/interface/nav_insufficient_fuel.ogg"],
+
+      //Dark Slice
+      "physicalTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ],
+      "fireTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ],
+      "iceTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ],
+      "electricTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ],
+      "poisonTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ],
+      "ceruleumTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ]
+    },
+    "particleEmitters" : {
+      "bladeCharge" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emissionRate" : 30,
+        "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
+        "particles" : [
+          { "particle" : "ceruleumcharge"},
+          { "particle" : "ceruleumcharge"},
+          { "particle" : "ceruleumcharge"}
+        ]
+      }
+    }
+  },
+
+  "ability" : {
+    "name" : "Infused Blade",
+    "type" : "infusedcharge",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/infusedcharge/infusedcharge.lua"],
+    "class" : "InfusedCharge",
+
+    "energyUsage" : 120.0,
+
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "statusEffects" : [ ],
+      "baseDamage" : 27.2,
+      "knockback" : 40,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "alt",
+      "timeout" : 0.5
+    },
+
+    "projectileOffset" : [0, 0],
+    "elementalConfig" : {
+      "physical" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "fire" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "ice" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "poison" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "electric" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "ceruleum" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      }
+    },
+
+    "baseDamage" : 20,
+    "chargeTime" : 1.2,
+    "cooldownTime" : 0.8,
+    "chargeBorder" : "0C8E9088",
+
+    "stances" : {
+      "windup" : {
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "sliceWindup" : {
+        "duration" : 0.25,
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "slash" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}
