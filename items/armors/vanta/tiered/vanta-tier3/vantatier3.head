@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "headarmour",
-  "description" : "A helmet signifying elite status.",
-  "shortdescription" : "Corsair Helm",
+  "description" : "A hood that shades the face of the wearer.",
+  "shortdescription" : "Corsair Hood",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
