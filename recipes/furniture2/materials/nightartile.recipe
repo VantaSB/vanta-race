@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ornatetiles", "count" : 10 },
+    { "item" : "durasteelbar", "count" : 5 }
+  ],
+  "output" : { "item" : "nightartile", "count" : 10 },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture2", "materials", "all" ]
+}

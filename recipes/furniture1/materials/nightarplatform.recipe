@@ -4,5 +4,5 @@
   ],
   "output" : { "item" : "nightarplatform", "count" : 10 },
   "duration" : 0.5,
-  "groups"  : [ "craftingfurniture2", "materials", "all" ]
+  "groups"  : [ "craftingfurniture1", "materials", "all" ]
 }
