@@ -4,11 +4,8 @@
   "printable" : false,
   "price" : 0,
   "rarity" : "essential",
-  /*"interactAction" : "OpenCraftingInterface",
-  "interactData" : {
-    "config" : "/interface/windowconfig/craftingcampfire.config",
-    "filter" : [ "campfire" ]
-  },*/
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/research/researchTree.config",
   "description" : "A Vanta device used for researching and controlling their psionic abilities.",
   "shortdescription" : "Vanta Research Core",
   "race" : "vanta",
@@ -26,7 +23,7 @@
   "novakidDescription" : "It ain't something I'd be able to use, but it sure is fancy!",
   "vantaDescription" : "We use these research nodes to enhance our abilities.",
 
-  "lightColor" : [125, 143, 179],
+  "lightColor" : [78, 130, 138],
 
   "flickerPeriod" : 0.3,
   "flickerMinIntensity" : 0.95,
@@ -61,7 +58,7 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/campfire.ogg",
+  "soundEffect" : "/sfx/objects/scififurnace.ogg",
   "soundEffectRangeMultiplier" : 0.5,
 
   "statusEffects" : [ ],
