@@ -23,7 +23,6 @@
 
 //InventorsTable
       { "item" : "vantaanvil" },
-      { "item" : "oreinfuser" },
 
 //Anvil1,
       { "item" : "vantatier1head" },
@@ -40,6 +39,8 @@
       { "item" : "vantathrowingknife" },
       { "item" : "vantashield" },
       { "item" : "vantabreathprotectionback" },
+
+      { "item" : "portablemonitor" },
 
 //Anvil2,
       { "item" : "vantatier3head" },
@@ -69,8 +70,6 @@
       { "item" : "vantatier5sword" },
       { "item" : "vantatier5bow" },
       { "item" : "vantatier6sword" },
-      // { "item" : "vantatier6spear" },
-      { "item" : "vantajamadhar" },
       { "item" : "stealthdaggerf" },
       { "item" : "stealthdaggeri" },
       { "item" : "stealthdaggere" },
@@ -84,10 +83,6 @@
       { "item" : "vantatier7chest" },
       { "item" : "vantatier7pants" },
 
-      { "item" : "vantatier8head" },
-      { "item" : "vantatier8chest" },
-      { "item" : "vantatier8pants" },
-
 //FurnitureTable,
       { "item" : "nightarbed" },
       { "item" : "nightarshelf" },
@@ -99,9 +94,11 @@
       { "item" : "nightarblock2" },
       { "item" : "nightarfloor" },
       { "item" : "nightarpillarblock" },
+      { "item" : "nightarplatform" },
       { "item" : "nightarsupport1" },
       { "item" : "nightarsupport2" },
       { "item" : "nightarwall1" },
+      { "item" : "nightarwall2" },
       { "item" : "nightarbox1" },
 
 //FurnitureTable2,
@@ -112,10 +109,12 @@
       { "item" : "vantashiphatch2" },
       { "item" : "nightarchandelier" },
       { "item" : "nightarpanelblock" },
-      { "item" : "nightarplatform" },
+      { "item" : "nightarroofing" },
+      { "item" : "nightartile" },
       { "item" : "nightarshipblock" },
       { "item" : "nightartechblock" },
-      { "item" : "nightarwall2" },
+      { "item" : "nightarwall3" },
+      { "item" : "nightarwall4" },
       { "item" : "nightarbox2" },
       { "item" : "vantastoragelocker" },
 

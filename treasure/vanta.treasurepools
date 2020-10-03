@@ -2,20 +2,40 @@
   "vantaStarterTreasure" : [
     [0, {
       "fill" : [
-        {"item" : "weatheredgunblade"},
+        {"item" : "weatheredvantasaber"},
+        {"item" : "weatheredbangle"},
+        {"item" : "weathereddagger"},
+        {"item" : "weatheredpicohandgun"},
         {"item" : [ "vantaration", 1 ]},
         {"item" : [ "vantaration", 1 ]},
         {"item" : [ "vantaration", 1 ]},
-        {"item" : [ "vantaration", 1 ]}
+        {"item" : [ "vantaration", 1 ]},
+        {"item" : [ "portablemonitor", 1 ]}
       ]
     }]
   ],
 
-  "vantaGunblade" : [
+  "vantaGunbladeTreasure" : [
     [0, {
       "fill" : [
         { "item" : "vantagunblade" },
         { "item" : "gunblade-codex" }
+      ]
+    }]
+  ],
+
+  "proximaRuinsTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.78, "pool" : "basicTreasure"},
+        {"weight" : 0.10, "pool" : "valuableTreasure"},
+        {"weight" : 0.10, "pool" : "goodWeapon"},
+        {"weight" : 0.02, "item" : "proximamoon-codex"}
+      ],
+      "poolRounds" : [
+        [0.55, 1],
+        [0.40, 2],
+        [0.05, 3]
       ]
     }]
   ]

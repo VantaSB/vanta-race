@@ -14,8 +14,10 @@
   ],
   "power" : 5.0,
   "speed" : 50,
-  "damageKind" : "ceruleumpoison",
+  "damageKind" : "ceruleum",
   "emitters" : [ "ceruleumplasmarocket", "ceruleumdrip" ],
+
+  "statusEffects" : [ "ceruleumcorruption" ],
 
   "renderLayer" : "Monster+50"
 }

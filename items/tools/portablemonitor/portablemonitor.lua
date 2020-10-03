@@ -1,12 +1,12 @@
 function activate(fireMode, shiftHeld)
 --ZB Quest Pane
   if fireMode == "primary" and not shiftHeld then
-    activeItem.interact("ScriptPane", "/zb/questList/questList.config")
+    activeItem.interact("ScriptPane", "/interface/scripted/corvexquestwindow/questList.config")
   end
 
 --Research Tree
   if fireMode == "primary" and shiftHeld then
-    activeItem.interact("ScriptPane", "/zb/researchTree/researchTree.config")
+    activeItem.interact("ScriptPane", "/interface/scripted/research/researchTree.config")
   end
 
 --Mech Assembly
