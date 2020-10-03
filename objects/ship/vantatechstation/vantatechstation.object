@@ -41,7 +41,7 @@
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [ "/objects/spawner/techstation.lua", "/objects/scripts/customtechstation.lua" ],
   "scriptDelta" : 20,
-  "shipPetType" : "petcat",
+  "shipPetType" : "petocubit",
   "spawnOffset" : [2, -1],
 
   "chatPortrait" : "/ai/portraits/vantaportrait.png:yell.1",
