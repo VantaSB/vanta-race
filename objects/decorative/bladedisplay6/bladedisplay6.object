@@ -1,0 +1,32 @@
+{
+  "objectName" : "bladedisplay6",
+  "colonyTags" : ["vanta","nightar","combat","pretty"],
+  "rarity" : "legendary",
+  "description" : "Display of a Nightar blade.",
+  "shortdescription" : "Blade Display",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "A sharp display blade. The Apex generally favour daggers.",
+  "avianDescription" : "A sharp decorative blade. The Avians favour spears.",
+  "floranDescription" : "Sharp blade. Floran like hammerss!",
+  "glitchDescription" : "Fascinated. A sharp blade display. The Glitch weapon of choice is the broadsword.",
+  "humanDescription" : "A sharp blade. Human warriors favor the axe.",
+  "hylotlDescription" : "A sharp blade. The Hylotl favour the shortsword over other weapons.",
+  "novakidDescription" : "A sharp blade. I'll stick with my trusty firearms.",
+  "vantaDescription" : "A sharp blade. We have more in common with the rest of the universe than most would think.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bladedisplay6.png",
+
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
