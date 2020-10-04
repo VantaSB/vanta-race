@@ -11,7 +11,7 @@
   "twoHanded" : false,
   "itemTags" : [ "pistol", "weapon", "ranged" ],
 
-  "inventoryIcon" : "weatheredhandgun.png",
+  "inventoryIcon" : "weatheredpicohandgun.png",
 
   "animation" : "weatheredpicohandgun.animation",
   "animationParts" : {
