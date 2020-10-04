@@ -54,7 +54,7 @@
   ],
 
   "interactAction" : "ScriptPane",
-  "interactData" : "/interface/scripted/vehiclerepair/vehiclerepairgui.config",
+  "interactData" : "/interface/scripted/vantavehiclerepair/vantavehiclerepairgui.config",
   /*"interactData" : {
     "config" : "/interface/scripted/vehiclerepair/vehiclerepairgui.config",
     "paneLayoutOverride" : {

@@ -4,7 +4,7 @@
   "price" : 0,
   "maxStack" : 1,
   "rarity" : "Essential",
-  "description" : "A modular bangle that amplifies psionic abilities.",
+  "description" : "A modular bangle that amplifies psionic abilities. It packs a punch!",
   "shortdescription" : "Psionic Bangle",
   "tooltipKind" : "base",
   "category" : "uniqueWeapon",
@@ -36,14 +36,14 @@
   "primaryAbility" : {
     "scripts" : [ "/items/active/weapons/ranged/gunfire.lua" ],
     "class" : "GunFire",
-    "fireTime" : 0.76,
-    "baseDps" : 9,
-    "energyUsage" : 50,
+    "fireTime" : 0.67,
+    "baseDps" : 18.9,
+    "energyUsage" : 30,
     "inaccuracy" : 0.00,
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "psipulse",
+    "projectileType" : "ceruleumplasmarocket",
     "projectileParameters" : {
       "knockback" : 20
     },
