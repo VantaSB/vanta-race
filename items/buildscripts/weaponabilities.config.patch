@@ -12,6 +12,11 @@
   },
   {
     "op" : "add",
+	  "path" : "/greenflipslash",
+	  "value" : "/items/active/weapons/melee/abilities/broadsword/greenflipslash/greenflipslash.weaponability"
+  },
+  {
+    "op" : "add",
     "path" : "/scatteredwindscombo",
     "value" : "/items/active/weapons/melee/abilities/broadsword/scatteredwindscombo.weaponability"
   },

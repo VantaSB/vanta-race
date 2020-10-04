@@ -15,14 +15,14 @@
   "animation" : "/items/active/weapons/fist/fistweapon.animation",
   "animationParts" : {
     "weapon" : "vantakatar.png",
-    "swoosh" : "swoosh/slash.png"
+    "swoosh" : "/items/active/weapons/fist/swoosh/physicalswoosh.png"
   },
   "animationCustom" : {
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
     }
   },
-  "scripts" : [ "fistweapon.lua" ],
+  "scripts" : [ "/items/active/weapons/fist/fistweapon.lua" ],
 
   "needsEdgeTrigger" : true,
   "edgeTriggerGrace" : 0.2,
