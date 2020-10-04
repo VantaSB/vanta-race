@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "nightarwall1", "count" : 1 },
-    { "item" : "nighsteelbar", "count" : 1 }
+    { "item" : "nightsteelbar", "count" : 1 }
   ],
   "output" : { "item" : "nightarwall4", "count" : 1 },
   "duration" : 0.12,
