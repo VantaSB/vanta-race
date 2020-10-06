@@ -40,7 +40,8 @@
       { "item" : "vantashield" },
       { "item" : "vantabreathprotectionback" },
 
-      { "item" : "portablemonitor" },
+      { "item" : "darkcrystal" },
+      { "item" : "nightsteelbar" },
 
 //Anvil2,
       { "item" : "vantatier3head" },

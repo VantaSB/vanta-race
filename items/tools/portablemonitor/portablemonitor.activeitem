@@ -11,6 +11,7 @@
   "itemTags" : ["tool"],
   "tooltipKind" : "base",
   "scripts" : [ "portablemonitor.lua" ],
+  "learnBlueprintsOnPickup" : [ "portablemonitor" ],
 
   "primaryAbility" : {
     "stances" : {
