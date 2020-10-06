@@ -1,4 +1,4 @@
-vanta_require("/scripts/ex_utilities/ex_util.lua")
+require("/scripts/ex_utilities/ex_util.lua")
 require("/scripts/util.lua")
 
 -- constants
@@ -32,7 +32,7 @@ function init()
 	data = root.assetJson("/interface/scripted/research/data.config")
 	for _, file in ipairs(data.researchFiles) do
 		local temp = root.assetJson(file)
-		data = zbutil.MergeTable(data, temp)
+		data = exutil.MergeTable(data, temp)
 	end
 
 	gridTileImage = data.defaultGridTileImage

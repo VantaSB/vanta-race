@@ -3,7 +3,7 @@
   "name" : "vanta/materials",
   "properties" : {},
   "spacing" : 0,
-  "tilecount" : 15,
+  "tilecount" : 18,
   "tileheight" : 16,
   "tileproperties" : {
     "0" : {
@@ -109,6 +109,27 @@
       "//name" : "nightarwall4",
       "//shortdescription" : "Nightar Hexagon Tiles",
       "material" : "nightarwall4"
+    },
+
+    "15" : {
+      "//description" : "A cluster of crushed dark fragments.",
+      "//name" : "fragmentcluster",
+      "//shortdescription" : "Fragment Cluster",
+      "material" : "fragmentcluster"
+    },
+
+    "16" : {
+      "//description" : "A type of dirt found only on Proxima Moons.",
+      "//name" : "lightlessdirt",
+      "//shortdescription" : "Lightless Dirt",
+      "material" : "lightlessdirt"
+    },
+
+    "17" : {
+      "//description" : "A dark, stone-like material.",
+      "//name" : "lightlessrock",
+      "//shortdescription" : "Lightless Rock",
+      "material" : "lightlessrock"
     }
   },
 
@@ -171,6 +192,18 @@
 
     "14" : {
       "image" : "../../tiled/vanta-custom/materials/nightarwall4.png"
+    },
+
+    "15" : {
+      "image" : "../../tiled/vanta-custom/materials/fragmentcluster.png"
+    },
+
+    "16" : {
+      "image" : "../../tiled/vanta-custom/materials/lightlessdirt.png"
+    },
+
+    "17" : {
+      "image" : "../../tiled/vanta-custom/materials/lightlessrock.png"
     }
   },
 

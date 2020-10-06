@@ -1,0 +1,51 @@
+{
+  "id" : "vantasphereupgrade2",
+  "prerequisites" : [ "vantasphereupgrade1" ],
+  "title" : "^orange;Balling On A Budget - Pt. 5",
+  "text" : "It didn't cross my mind until after your last upgrade, but your nano sphere is missing something valuable. In the spirit of science, I'd like to help you out again. This one's on the house. I'm going to incorporate one of my prototypes, the ^orange;Spike Sphere,^white; into your Nano Sphere. Bring me",
+  "completionText" : "^green;NOW^white; you're in tip-top shape with your sphere tech. Give it a whirl and see how it handles!",
+  "moneyRange" : [300, 300],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/ex_main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliot"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliot"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Elliot^reset; at the ^orange;Outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "perfectdarkcrystal",
+        "count" : 1,
+        "consume" : true
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "nightsteelbar",
+        "count" : 2,
+        "consume" : true
+      }
+    ],
+
+    "hideTech" : [
+      "vantananosphere"
+    ],
+
+    "equipTech" : [
+      "vantasnanophere2"
+    ]
+  }
+}

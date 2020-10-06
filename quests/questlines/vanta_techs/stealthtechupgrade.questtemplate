@@ -1,0 +1,45 @@
+{
+  "id" : "stealthtechupgrade",
+  "prerequisites" : [ "stealthtechtest" ],
+  "title" : "^orange;Growing Shadows",
+  "text" : "Captain, I've been gathering telemetry on your Stealth tech. Through analysis, I believe I've devised a way to enhance your current stealth capabilities. Do you remember the tech scientist, ^green;Elliot^white;? I believe she may be able to help you. Take ^orange;a Pristine Dark Crystal^white; to her at the Outpost; I have already forwarded her the details.",
+  "completionText" : "Your S.A.I.L. is one of a kind, you know? Many of them are built with basic survival protocols in mind, but yours seems to genuinely ^blue;care^white; about you. This upgrade will let you run while you're cloaked, so need to force yourself to walk anymore!",
+  "moneyRange" : [300, 300],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/ex_main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ { "image" : "/interface/scripted/research/icons/vanta.png" } ],
+        "title" : "S.A.I.L."
+      },
+      "questComplete" : {
+        "portrait" : [ { "image" : "/objects/outpost/techlab/techlabscientistportrait.png" } ],
+        "title" : "Elliot"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak with ^orange;Elliot^reset; at the ^orange;Outpost",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "perfectdarkcrystal",
+        "count" : 1,
+        "consume" : true
+      }
+    ],
+
+    "hideTech" : [
+      "vantastealth1"
+    ],
+
+    "equipTech" : [
+      "vantastealth2"
+    ]
+  }
+}

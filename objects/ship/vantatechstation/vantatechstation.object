@@ -35,8 +35,8 @@
     }
   ],
 
-  "turnInQuests" : [ "gaterepair" ],
-  "offeredQuests" : [ "gaterepair" ],
+  "turnInQuests" : [ "gaterepair", "stealthtechintro" ],
+  "offeredQuests" : [ "gaterepair", "stealthtechtest", "stealthtechupgrade" ],
 
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [ "/objects/spawner/techstation.lua", "/objects/scripts/customtechstation.lua" ],

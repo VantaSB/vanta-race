@@ -1,6 +1,6 @@
 
 --	Don't forget to add the following line to the script: (And don't forget to uncomment it(aka removing the --))
---	require "/ex/ex_util.lua"
+--	require "/scripts/ex_utilities/ex_util.lua"
 
 --		Functions:
 --	# marks optional parameters

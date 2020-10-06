@@ -5,9 +5,9 @@
   "rarity" : "Rare",
   "inventoryIcon" : "fragmentcluster.png",
   "shortdescription" : "Fragment Cluster",
-  "description" : "These fragments are giving off a lot of gravitational energy.",
-  "glitchdescription" : "Observant. These fragments can hover in mid-air.",
-  "florandescription" : "Floran likesss glowy-rocks.",
+  "description" : "A cluster of crushed dark fragments.",
+  "glitchdescription" : "Observant. There is a pecular energy radiating from these dark clusters.",
+  "florandescription" : "Floran likesss glowy-rocks!",
   "novakiddescription" : "I wonder what kinda energy is held in all that.",
 
   "materialId" : 3216

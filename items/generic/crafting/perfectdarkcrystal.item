@@ -1,0 +1,10 @@
+{
+  "itemName" : "perfectdarkcrystal",
+  "rarity" : "legendary",
+  "price" : 500,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "perfectdarkcrystal.png",
+  "description" : "A perfectly-refined dark crystal used for higher-grade fabrication.",
+  "shortdescription" : "Pristine Dark Crystal",
+  "itemTags" : [ "reagent" ]
+}

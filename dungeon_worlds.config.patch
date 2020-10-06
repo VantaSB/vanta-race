@@ -1,0 +1,19 @@
+[
+  {
+    "op" : "add",
+    "path" : "/techchallenge_stealth",
+    "value" : {
+      "primaryDungeon" : "techchallenge_stealth",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1000,
+      "dungeonSurfaceHeight" : 810,
+      "ambientLightLevel" : [32, 32, 32],
+      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+      "musicTrack" : "/music/desert-exploration2.ogg",
+      "overrideTech" : ["vantastealth1"],
+      "environmentStatusEffects" : ["dontstarve"]
+    }
+  }
+]
