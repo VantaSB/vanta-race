@@ -1,0 +1,90 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "orb" : {
+        "default" : "on",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "loop"
+          }
+        }
+      },
+
+      "portal" : {
+        "default" : "closed",
+        "states" : {
+          "closed" : {},
+          "open" : {
+            "frames" : 9,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "openloop"
+          },
+          "openloop" : {
+            "frames" : 2,
+            "cycle" : 0.1,
+            "mode" : "loop"
+          },
+          "close" : {
+            "frames" : 9,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "closed"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "orb" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "on" : {
+            "properties" : {
+              "image" : "<partImage>:default.<frame>"
+            }
+          }
+        }
+      },
+
+      "portal" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1,
+          "fullbright" : true,
+          "offset" : [0.0, 15.0]
+        },
+
+        "partStates" : {
+          "open" : {
+            "properties" : {
+              "image" : "<partImage>:open.<frame>"
+            }
+          },
+          "openloop" : {
+            "properties" : {
+              "image" : "<partImage>:openloop.<frame>"
+            }
+          },
+          "close" : {
+            "properties" : {
+              "image" : "<partImage>:close.<frame>"
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "on" : [],
+    "off" : []
+  }
+}

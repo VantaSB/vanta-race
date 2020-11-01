@@ -1,0 +1,20 @@
+{
+  "projectileName" : "psipulse",
+  "physics" : "laser",
+  "bounces" : 0,
+  "image" : "psipulse.png",
+  "fullbright" : true,
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 75,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/impact_plasma.ogg" ]
+    }
+  ],
+  "lightColor" : [60, 197, 220],
+  "damageKind" : "plasmabullet",
+  "statusEffects" : [ "stun" ]
+}

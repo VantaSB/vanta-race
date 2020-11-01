@@ -1,0 +1,74 @@
+{
+  "objectName" : "darkgate",
+  "colonyTags" : [],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "A portal leading to who knows where...",
+  "shortdescription" : "Dark Gate",
+  "offeredQuests" : [ ],
+  "race" : "generic",
+
+  "apexDescription" : "This mass of energy feels similar to that of Ancient Gates...",
+  "avianDescription" : "What intense power... I feel as though I might unravel if I get too close...",
+  "floranDescription" : "Sssstrange ball makesss Floran ssshiver...",
+  "glitchDescription" : "Apprehensive. This energy mass appears to be some sort of portal opening...",
+  "humanDescription" : "When I get close, the hairs on my body stand on edge...",
+  "hylotlDescription" : "This energy is rather intense; one wonders what its true nature is...",
+  "novakidDescription" : "Somethin' doesn't feel right about this...",
+  "vantaDescription" : "I've seen these dark gates before...",
+
+  "lightColor" : [15, 45, 44],
+
+  "inventoryIcon" : "orb.png:default.0",
+  "orientations" : [
+    {
+      "image" : "orb.png:default.<frame>",
+      "fullbright" : true,
+      "imagePosition" : [-8, 0],
+      //"animationPosition" : [0, 0],
+
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "detectArea" : [ [-0.3, 0], [4, 5] ]
+    },
+
+    {
+      "image" : "orb.png:default.<frame>",
+      "fullbright" : true,
+      "imagePosition" : [-8, 0],
+      //"animationPosition" : [0, 0],
+
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "direction" : "right",
+
+      "lightPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "detectArea" : [ [-0.3, 0], [4, 5] ]
+    }
+  ],
+
+  /*"animation" : "darkgate.animation",
+  "animationParts" : {
+    "orb" : "orb.png",
+    "portal" : "portal.png"
+  },*/
+
+  "uniqueId" : "darkgate"
+}

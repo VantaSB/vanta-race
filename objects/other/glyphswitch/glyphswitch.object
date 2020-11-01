@@ -1,0 +1,44 @@
+{
+  "objectName" : "glyphswitch",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A type of switch seen only among the Nightar and Vanta.",
+  "shortdescription" : "Glyph Switch",
+  "race" : "generic",
+
+  "apexDescription" : "Interesting; this glyph reacted to my scanner.",
+  "avianDescription" : "Ah! It lit up when I scanned it!",
+  "floranDescription" : "Bright ssswitch ssstartled Floran!",
+  "glitchDescription" : "Curious. This glyph reacted to my scanner for some reason.",
+  "humanDescription" : "This almost looks like something you'd find around Avians.",
+  "hylotlDescription" : "Ah, what a soft glow.",
+  "novakidDescription" : "Pretty neat how this thing lit up when I scanned it!",
+  "vantaDescription" : "These glyphs usually change something in the immediate area; I better look around.",
+
+  "category" : "wire",
+  "price" : 0,
+
+  "inventoryIcon" : "glyphswitchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "glyphswitch.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "glyphswitch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "glyphswitch.animation",
+  "animationCustom" : {},
+  "animationParts" : {
+    "switch" : "glyphswitch.png",
+    "switchlit" : "glyphswitchlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outputNodes" : [ [0, 0] ]
+}
