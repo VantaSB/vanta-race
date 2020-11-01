@@ -9,14 +9,14 @@
   "shortdescription" : "Nightar Wall Banner",
   "race" : "nightars",
 
-  "apexDescription" : "Nightars banner.",
-  "avianDescription" : "Nightars banner.",
-  "floranDescription" : "Nightars banner.",
-  "glitchDescription" : "Nightars banner.",
-  "humanDescription" : "Nightars banner.",
-  "hylotlDescription" : "Nightars banner.",
-  "novakidDescription" : "Nightars banner.",
-
+  "apexDescription" : "A banner flying the colors of the Nightar and Vanta.",
+  "avianDescription" : "What an elegant banner.",
+  "floranDescription" : "Floran wantsss to ussse for cape!",
+  "glitchDescription" : "Intrigued. This banner gives me a very militaristic feeling when I look at it.",
+  "humanDescription" : "I guess everyone needs to have a banner to hang somewhere.",
+  "hylotlDescription" : "The colors on the banner keep with the overall theme of the Nightar and Vanta.",
+  "novakidDescription" : "Could come in handy as a blanket in a pinch!",
+  "vantaDescription" : "Some of our proudest work isn't solely reflected in our armoring and blacksmithing, but our tapestry as well.",
 
   "inventoryIcon" : "nightarsbannersmallicon.png",
   "orientations" : [
@@ -31,7 +31,7 @@
       "spaceScan" : 0.1,
       "anchors" : []
     },
-	
+
 	{
       "image" : "nightarsbannersmall.png:<color>",
 	  "direction" : "right",

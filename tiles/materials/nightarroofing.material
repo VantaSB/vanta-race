@@ -1,0 +1,24 @@
+{
+  "materialId" : 3217,
+  "materialName" : "nightarroofing",
+  "particleColor" : [90, 90, 90, 255],
+  "itemDrop" : "nightarroofing",
+  "description" : "Durable roofing made of unknown materials.",
+  "shortdescription" : "Nightar Roofing Tiles",
+
+
+
+  "footstepSound" : "/sfx/blocks/footstep_rooftile.ogg",
+  "health" : 16,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "nightarroofing.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :false,
+    "occludesBelow" : true,
+    "zLevel" : 3460
+  }
+}

@@ -15,18 +15,38 @@
 
   "apexDescription" : "It's a portable vehicle repair station.",
   "avianDescription" : "This station will let me fix broken vehicles.",
-  "floranDescription" : "Shiny metal thing fixesss things.",
+  "floranDescription" : "Floran can fix bikesss and boatss!",
   "glitchDescription" : "Relieved. This station will let me fix broken vehicles.",
   "humanDescription" : "Rob Repairo's branching out with his services!",
   "hylotlDescription" : "It's incredibly nice of Rob Repairo to provide portable repair stations.",
   "novakidDescription" : "Rob Repairo wants you to know he has yer back!",
+  "vantaDescription" : "I can use this to repair my vehicles.",
 
-  "inventoryIcon" : "/objects/outpost/repairo/repairoicon.png",
+  "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "vehiclerepair.png:<color>.<frame>",
+      "imageLayers" : [
+        { "image" : "vehiclerepair.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "vehiclerepairlit.png:<color>.<frame>" }
+      ],
       "imagePosition" : [-8, 0],
       "frames" : 1,
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [
+        { "image" : "vehiclerepair.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "vehiclerepairlit.png:<color>.<frame>" }
+      ],
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+
+      "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -34,7 +54,19 @@
   ],
 
   "interactAction" : "ScriptPane",
-  "interactData" : "/interface/scripted/vehiclerepair/vehiclerepairgui.config",
+  "interactData" : "/interface/scripted/vantavehiclerepair/vantavehiclerepairgui.config",
+  /*"interactData" : {
+    "config" : "/interface/scripted/vehiclerepair/vehiclerepairgui.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Servicing Station",
+        "subtitle" : " ^#b9b5b2;Vehicle Repair",
+        "icon" : {
+          "file" : "/objects/other/vehiclerepair/icon.png"
+        }
+      }
+    }
+  },*/
 
   "chipRepairFactor" : 0.2
 }

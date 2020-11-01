@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "nightsteel2bar", "count" : 5 }
-
-  ],
-  "duration" : 5,
-  "output" : { "item" : "vantathrowingknife", "count" : 10 },
-  "groups" : [ "craftinganvil", "weapons", "all" ]
-}

@@ -1,0 +1,9 @@
+{
+  "name" : "ceruleumsmoglin",
+  "category" : "ceruleumsmoglin",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "ceruleumsmoglin.png"
+  }
+}

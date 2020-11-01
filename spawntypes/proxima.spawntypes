@@ -1,0 +1,107 @@
+[
+  {
+    "name" : "ceruleumpoptop",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.2,
+    "monsterType" : "ceruleumpoptop",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "ceruleumadultpoptop",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.1,
+    "monsterType" : "ceruleumadultpoptop",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "ceruleumpteropod",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.1,
+    "monsterType" : "ceruleumpteropod",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  {
+    "name" : "ceruleumsmoglin",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.1,
+    "monsterType" : "ceruleumsmoglin",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  },
+
+  // Critters
+  {
+    "name" : "ceruleumfloatbagcritter",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.02,
+    "monsterType" : "ceruleumfloatbagcritter",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ceruleumcrabcritter",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.02,
+    "monsterType" : "ceruleumcrabcritter",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "proximawormcritter",
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.02,
+    "monsterType" : "proximawormcritter",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "name" : "vantastealth2",
+  "type" : "body",
+
+  "scripts" : ["vantastealth.lua"],
+  "scriptDelta" : 1,
+  "actions" : [],
+  "animator" : "vantastealth.animation",
+
+  "description" : "Retain your ability to run while stealthed!",
+  "shortDescription" : "Vanta Stealth [^orange;R^reset;]",
+  "rarity" : "Legendary",
+  "icon" : "/tech/vantastealth/vantastealth2.png",
+
+  "forceWalk" : false,
+  "sprintEnabled" : false,
+  "energyDrainRate" : 15,
+  "energyDrainFraction" : 0.04,
+  "baseRebootCooldown" : 6,
+  "sneakAttackMult" : 2,
+  "sneakAttackWindow" : 0.5,
+  "stealthBreakCooldowns" : {
+	  "pistol" : 3,
+	  "chakram" : 3,
+	  "boomerang" : 3,
+	  "fist" : 1.5,
+	  "uzi" : 3,
+	  "thrownitem" : 3,
+	  "gun" : 4,
+	  "bow" : 4,
+	  "crossbow" : 5,
+	  "revolver" : 5,
+	  "shotgun" : 6,
+	  "assault" : 6,
+	  "staff" : 7,
+	  "launcher" : 8,
+	  "flamethrower" : 7,
+	  "sniper" : 8,
+	  "dagger" : 1.5,
+	  "shortsword" : 3,
+	  "broadsword" : 4,
+	  "spear" : 4,
+	  "axe" : 4,
+	  "hammer" : 5,
+	  "activeitem" : 5
+  }
+}

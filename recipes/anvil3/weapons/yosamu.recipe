@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkcrystal", "count" : 8 },
-    { "item" : "solariumstar", "count" : 8 },
-    { "item" : "cryonicextract", "count" : 2 }
-  ],
-  "output" : { "item" : "yosamu", "count" : 1 },
-  "groups" : [ "craftingseparator", "weapons", "all" ]
-}

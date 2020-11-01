@@ -1,0 +1,16 @@
+{
+  "name" : "ceruleumInfusion",
+  "effectConfig" : {
+    "powerModifier" : 1.65
+  },
+  "defaultDuration" : 20,
+
+  "scripts" : [
+    "ceruleuminfusion.lua"
+  ],
+
+  "animationConfig" : "ceruleuminfusion.animation",
+
+  "label" : "Ceruleum Infused",
+  "icon" : "/interface/statuses/ceruleuminfusion.png"
+}

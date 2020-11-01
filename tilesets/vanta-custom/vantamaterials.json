@@ -1,0 +1,211 @@
+{
+  "margin" : 0,
+  "name" : "vanta/materials",
+  "properties" : {},
+  "spacing" : 0,
+  "tilecount" : 18,
+  "tileheight" : 16,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "A black block made of unknown materials.",
+      "//name" : "nightarblock1",
+      "//shortdescription" : "Nightar Black Block",
+      "material" : "nightarblock1"
+    },
+
+    "1" : {
+      "//description" : "A white block made of unknown materials.",
+      "//name" : "nightarblock2",
+      "//shortdescription" : "Nightar White Block",
+      "material" : "nightarblock2"
+    },
+
+    "2" : {
+      "//description" : "Panelling made of unknown materials.",
+      "//name" : "nightarpanelblock",
+      "//shortdescription" : "Nightar Panelling",
+      "material" : "nightarpanelblock"
+    },
+
+    "3" : {
+      "//description" : "A high-tech pillar.",
+      "//name" : "nightarpillarblock",
+      "//shortdescription" : "Nightar Pillar",
+      "material" : "nightarpillarblock"
+    },
+
+    "4" : {
+      "//description" : "Panelling used in Nightar ships.",
+      "//name" : "nightarshipblock",
+      "//shortdescription" : "Nightar Ship Wall",
+      "material" : "nightarshipblock"
+    },
+
+    "5" : {
+      "//description" : "A reinforced support beam made of unknown materials.",
+      "//name" : "nightarsupport1",
+      "//shortdescription" : "Nightar Support Beam",
+      "material" : "nightarsupport1"
+    },
+
+    "6" : {
+      "//description" : "Reinforced baseboarding made of unknown materials.",
+      "//name" : "nightarsupport2",
+      "//shortdescription" : "Nightar Ship Details",
+      "material" : "nightarsupport2"
+    },
+
+    "7" : {
+      "//description" : "Nightar tech-infused blocks.",
+      "//name" : "nightartechblock",
+      "//shortdescription" : "Nightar Tech Block",
+      "material" : "nightartechblock"
+    },
+
+    "8" : {
+      "//description" : "Concrete made of unknown materials.",
+      "//name" : "nightarwall1",
+      "//shortdescription" : "Nightar Concrete",
+      "material" : "nightarwall1"
+    },
+
+    "9" : {
+      "//description" : "A black wall infused with some Nightar technology.",
+      "//name" : "nightarwall2",
+      "//shortdescription" : "Nightar Tech Wall",
+      "material" : "nightarwall2"
+    },
+
+    "10" : {
+      "//description" : "Traditional Nightar flooring.",
+      "//name" : "nightarfloor",
+      "//shortdescription" : "Nightar Floor",
+      "material" : "nightarfloor"
+    },
+
+    "11" : {
+      "//description" : "Durable roofing made of unknown materials.",
+      "//name" : "nightarroofing",
+      "//shortdescription" : "Nightar Roofing Tiles",
+      "material" : "nightarroofing"
+    },
+
+    "12" : {
+      "//description" : "Durable roofing made of unknown materials.",
+      "//name" : "nightarrtiles",
+      "//shortdescription" : "Nightar Tiles",
+      "material" : "nightartiles"
+    },
+
+    "13" : {
+      "//description" : "A stout wall made of unknown materials.",
+      "//name" : "nightarwall3",
+      "//shortdescription" : "Nightar Diagonal Tiles",
+      "material" : "nightarwall3"
+    },
+
+    "14" : {
+      "//description" : "Modular tiling made of unknown materials.",
+      "//name" : "nightarwall4",
+      "//shortdescription" : "Nightar Hexagon Tiles",
+      "material" : "nightarwall4"
+    },
+
+    "15" : {
+      "//description" : "A cluster of crushed dark fragments.",
+      "//name" : "fragmentcluster",
+      "//shortdescription" : "Fragment Cluster",
+      "material" : "fragmentcluster"
+    },
+
+    "16" : {
+      "//description" : "A type of dirt found only on Proxima Moons.",
+      "//name" : "lightlessdirt",
+      "//shortdescription" : "Lightless Dirt",
+      "material" : "lightlessdirt"
+    },
+
+    "17" : {
+      "//description" : "A dark, stone-like material.",
+      "//name" : "lightlessrock",
+      "//shortdescription" : "Lightless Rock",
+      "material" : "lightlessrock"
+    }
+  },
+
+  "tiles" : {
+    "0" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarblock1.png"
+    },
+
+    "1" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarblock2.png"
+    },
+
+    "2" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarpanelblock.png"
+    },
+
+    "3" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarpillarblock.png"
+    },
+
+    "4" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarshipblock.png"
+    },
+
+    "5" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarsupport1.png"
+    },
+
+    "6" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarsupport2.png"
+    },
+
+    "7" : {
+      "image" : "../../tiled/vanta-custom/materials/nightartechblock.png"
+    },
+
+    "8" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarwall1.png"
+    },
+
+    "9" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarwall2.png"
+    },
+
+    "10" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarfloor.png"
+    },
+
+    "11" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarroofing.png"
+    },
+
+    "12" : {
+      "image" : "../../tiled/vanta-custom/materials/nightartiles.png"
+    },
+
+    "13" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarwall3.png"
+    },
+
+    "14" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarwall4.png"
+    },
+
+    "15" : {
+      "image" : "../../tiled/vanta-custom/materials/fragmentcluster.png"
+    },
+
+    "16" : {
+      "image" : "../../tiled/vanta-custom/materials/lightlessdirt.png"
+    },
+
+    "17" : {
+      "image" : "../../tiled/vanta-custom/materials/lightlessrock.png"
+    }
+  },
+
+  "tilewidth" : 16
+}

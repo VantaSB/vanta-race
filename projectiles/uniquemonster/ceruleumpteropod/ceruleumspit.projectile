@@ -1,0 +1,23 @@
+{
+  "projectileName" : "ceruleumspit",
+  "image" : "ceruleumspit.png",
+  "physics" : "grenade",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/acidspitexplosion/acidspitexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 50,
+  "damageKind" : "ceruleum",
+  "emitters" : [ "ceruleumplasmarocket", "ceruleumdrip" ],
+
+  "statusEffects" : [ "ceruleumcorruption" ],
+
+  "renderLayer" : "Monster+50"
+}

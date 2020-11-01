@@ -1,0 +1,14 @@
+{
+  "itemName" : "fragmentcluster",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "fragmentcluster.png",
+  "shortdescription" : "Fragment Cluster",
+  "description" : "A cluster of crushed dark fragments.",
+  "glitchdescription" : "Observant. There is a pecular energy radiating from these dark clusters.",
+  "florandescription" : "Floran likesss glowy-rocks!",
+  "novakiddescription" : "I wonder what kinda energy is held in all that.",
+
+  "materialId" : 3216
+}

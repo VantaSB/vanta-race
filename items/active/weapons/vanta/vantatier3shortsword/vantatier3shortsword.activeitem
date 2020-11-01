@@ -27,7 +27,7 @@
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.63,
-    "baseDps" : 7.5
+    "baseDps" : 11.6
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

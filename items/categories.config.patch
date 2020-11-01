@@ -1,9 +1,13 @@
 [
+  //{ "op" : "replace", "path" : "/labels/eppAugment", "value" : "Augment" },
   { "op" : "add", "path" : "/labels/headarmorAug", "value" : "Augmented Head Armour" },
   { "op" : "add", "path" : "/labels/chestarmorAug", "value" : "Augmented Chest Armour" },
   { "op" : "add", "path" : "/labels/legarmorAug", "value" : "Augmented Leg Armour" },
   { "op" : "add", "path" : "/labels/energysword", "value" : "Energy Sword" },
   { "op" : "add", "path" : "/labels/energyscythe", "value" : "Energy Scythe" },
   { "op" : "add", "path" : "/labels/energyspear", "value" : "Energy Spear" },
-  { "op" : "replace", "path" : "/labels/eppAugment", "value" : "Augment" }
+  { "op" : "add", "path" : "/labels/energybow", "value" : "Energy Bow" },
+  { "op" : "add", "path" : "/labels/katar", "value" : "Katar" },
+  { "op" : "add", "path" : "/labels/katana", "value" : "Katana" },
+  { "op" : "add", "path" : "/labels/gunblade", "value" : "Gunblade" }
 ]

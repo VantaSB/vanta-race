@@ -1,9 +1,0 @@
-{
-  "itemName" : "stealthblueprint",
-  "price" : 0,
-  "rarity" : "Essential",
-  "category" : "tech",
-  "inventoryIcon" : "/codex/vanta/vantadocfile.png",
-  "description" : "A blueprint for creating a personal stealth module. Elliott will love this.",
-  "shortdescription" : "Stealth Blueprint"
-}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "nightsteel1bar", "count" : 5 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "vantatier1sword", "count" : 1 },
-  "groups" : [ "craftinganvil", "weapons", "all" ]
-}

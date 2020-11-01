@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkfragmentore", "count" : 2 }
-  ],
-  "output" : { "item" : "vantacatalyst", "count" : 1 },
-  "groups" : [ "craftingfurnace", "ingredients", "all" ]
-}

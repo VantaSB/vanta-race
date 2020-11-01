@@ -1,0 +1,47 @@
+{
+  "itemName" : "portablemonitor",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "category" : "Console",
+  "inventoryIcon" : "icon.png",
+  "twoHanded" : true,
+  "description" : "^green;[Fire]^reset;:Quests List\n^green;[Shift]^reset;:Research Tree\n^orange;[Alt Fire]^reset;: Mech Assembly\n^orange;[Shift]^reset;: Techs",
+  "shortdescription" : "Portable Monitor",
+  "itemTags" : ["tool"],
+  "tooltipKind" : "base",
+  "scripts" : [ "portablemonitor.lua" ],
+  "learnBlueprintsOnPickup" : [ "portablemonitor" ],
+
+  "primaryAbility" : {
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

@@ -1,23 +1,9 @@
 [
 	{
 		"op" : "add",
-		"path" : "/blackmoon",
+		"path" : "/proxima",
 		"value" : [
-			[0.3, "freezingrain"],
-			[0.4, "freezingstorm"],
-			[0.2, "fog"],
-			[0.1, "clear"]
-		]
-	},
-
-	{
-		"op" : "add",
-		"path" : "/shadowjungle",
-		"value" : [
-			[0.4, "clear"],
-			[0.3, "rain"],
-			[0.1, "drizzle"],
-			[0.2, "fog"]
+			[1.0, "ceruleumrain"]
 		]
 	}
 ]

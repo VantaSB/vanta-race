@@ -5,7 +5,7 @@
   "objectType" : "container",
   "tooltipKind" : "container",
 
-  "description" : "A bookcase... let's find out what nightars read.",
+  "description" : "A bookcase... let's find out what the Nightar read.",
   "shortdescription" : "Nightar Bookcase",
   "race" : "nightar",
   "category" : "decorative",
@@ -19,6 +19,7 @@
   "humanDescription" : "A Nightar bookcase. Perhaps knights are avid readers.",
   "hylotlDescription" : "This bookcase is expertly crafted.",
   "novakidDescription" : "Surely knights ain't got much time for readin'?",
+  "vantaDescription" : "Even we like to read actual books sometimes.",
 
     "inventoryIcon" : "nightarbookcaseicon.png",
   "orientations" : [

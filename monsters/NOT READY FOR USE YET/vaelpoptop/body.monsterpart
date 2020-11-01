@@ -1,9 +1,0 @@
-{
-  "name" : "vaelpoptop",
-  "category" : "vaelpoptop",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "vaelpoptop.png"
-  }
-}

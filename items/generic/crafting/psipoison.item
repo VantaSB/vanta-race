@@ -1,0 +1,10 @@
+{
+  "itemName" : "psipoison",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "psipoison.png",
+  "description" : "A basic compendium for usage in Vanta Psionic development aspected to poison.",
+  "shortdescription" : "Psionic Poison",
+  "itemTags" : [ "crafting" ]
+}

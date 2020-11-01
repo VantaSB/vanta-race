@@ -16,6 +16,7 @@
   "humanDescription" : "A Nightar sleeping bed, something feels wrong...",
   "hylotlDescription" : "The dark frame matches the rest of the Nightars' intrinsic design.",
   "novakidDescription" : "I ain't sure about the blanket on this thing...",
+  "vantaDescription" : "The spread looks thin, but it actually keeps you quite warm.",
 
   "objectType" : "loungeable",
   "sitFlipDirection" : true,

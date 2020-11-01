@@ -1,0 +1,16 @@
+[
+  {
+    "op" : "add",
+    "path" : "/ceruleum",
+    "value" : {
+      "resistanceStat" : "ceruleumCorruptionResistance",
+      "damageNumberParticles" : {
+        "hit" : "ceruleumdamagenumber",
+        "stronghit" : "ceruleumdamagenumberstrong",
+        "weakhit" : "ceruleumdamagenumberweak",
+        "shieldhit" : "ceruleumdamagenumber",
+        "kill" : "ceruleumdamagenumber"
+      }
+    }
+  }
+]

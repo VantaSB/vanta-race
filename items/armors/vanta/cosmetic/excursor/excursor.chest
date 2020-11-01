@@ -1,0 +1,23 @@
+{
+  "itemName" : "excursorchest",
+  "price" : 150,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestarmour",
+  "description" : "A durable battle vest for weathering unknown terrain.",
+  "shortdescription" : "Excursor Vest",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "BSleeve.png",
+    "frontSleeve" : "FSleeve.png"
+	},
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "BSleeve.png",
+    "frontSleeve" : "FSleeve.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "materialId" : 3216,
+  "materialName" : "fragmentcluster",
+  "particleColor" : [20, 20, 20, 255],
+  "itemDrop" : "fragmentcluster",
+  "shortdescription" : "Fragment Cluster",
+  "description" : "Clusters that haven't been fine-ground.",
+  "glitchdescription" : "Observant. These fragments can hover in mid-air.",
+  "florandescription" : "Floran likesss glowy-rocks.",
+  "novakiddescription" : "I wonder what kinda energy is held in all that.",
+  "footstepSound" : "/sfx/blocks/footstep_gravel.ogg",
+  "health" : 40,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "fragmentcluster.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 410,
+    "radiantLight" : [15, 99, 98]
+  }
+}

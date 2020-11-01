@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightarwall4",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarwall4icon.png",
+  "description" : "A stout wall made of unknown materials",
+  "shortdescription" : "Nightar Hexagon Tiles",
+
+  "materialId" : 3220
+}

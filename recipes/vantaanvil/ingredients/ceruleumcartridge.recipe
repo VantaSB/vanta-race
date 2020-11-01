@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "liquidceruleum", "count" : 2 },
+    { "item" : "darkessence", "count" : 10 },
+    { "item" : "nightsteelbar", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ceruleumcartridge", "count" : 5 },
+  "groups" : [ "vantaanvil1", "vantaingredients", "all" ]
+}

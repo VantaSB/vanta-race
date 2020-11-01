@@ -1,0 +1,10 @@
+{
+  "itemName" : "darkessence",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "darkessence.png",
+  "description" : "Energy extracted from Dark Fragments that has various applications.",
+  "shortdescription" : "Dark Essence",
+  "itemTags" : [ "reagent" ]
+}

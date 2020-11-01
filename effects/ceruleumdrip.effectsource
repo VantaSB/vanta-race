@@ -1,0 +1,29 @@
+{
+  "kind" : "ceruleumdrip",
+  "definition" : {
+    "duration" : 0.0175,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "ceruleumdrip1" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+      [ "ceruleumdrip1" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

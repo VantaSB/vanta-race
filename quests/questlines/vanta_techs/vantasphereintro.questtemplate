@@ -1,0 +1,37 @@
+{
+  "id" : "vantasphereintro",
+  "prerequisites" : [ "techscientist6", "hylotl_mission2" ],
+  "title" : "^orange;Balling On A Budget - Pt. 1",
+  "text" : "Hey you! You're the one that helped me with my ^green;Distortion Sphere^white; testing! Your S.A.I.L. was kind enough to provide me with some telemetry of your usage for it, and I think I can enhance it in a way that will be beneficial to you, and to you alone. Bring me ^orange;5 Diamonds^white; and I'll explain more.",
+  "completionText" : "Thanks. Diamonds are something of a lost comodity, and have more than just financial uses. I'll need to compare this to another material you may be familiar with. Talk to me again when you're ready.",
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/ex_main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliot"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Elliot^reset; at the ^orange;Outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "diamond",
+        "count" : 5,
+        "consume" : true
+      }
+    ]
+  }
+}

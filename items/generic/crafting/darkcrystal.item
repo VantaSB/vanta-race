@@ -4,7 +4,7 @@
   "price" : 500,
   "category" : "craftingMaterial",
   "inventoryIcon" : "darkcrystal.png",
-  "description" : "A dark crystal that gives off a powerful aura; it can be used for various purposes.",
+  "description" : "A rough-cut crystal that gives off a powerful aura.",
   "shortdescription" : "Dark Crystal",
   "itemTags" : [ "reagent" ]
 }

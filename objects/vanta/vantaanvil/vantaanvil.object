@@ -1,0 +1,198 @@
+{
+  "objectName" : "vantaanvil",
+  "colonyTags" : [ "crafting" ],
+  "rarity" : "Common",
+  "race" : "vanta",
+  "category" : "crafting",
+  "price" : 500,
+  "printable" : false,
+
+  "breakDropOptions" : [],
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+
+  "animation" : "vantaanvil.animation",
+  "animationPosition" : [16, 20],
+
+  "inventoryIcon" : "icon.png",
+  "placementImage" : "vantaanvil.png:default.default",
+  "placementImagePosition" : [-8, 0],
+
+  "description" : "A replicator that's based on the Nightars' designs.",
+  "shortdescription" : "Vanta Replicator",
+
+  "learnBlueprintsOnPickup" : [],
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 4,
+  "upgradeStages" : [
+    {
+      "animationState" : "AA",
+      "itemSpawnParameters" : {
+        "price" : 500,
+        "inventoryIcon" : "icon.png",
+        "placementImage" : "vantaanvil.png:default.default",
+        "placementImagePosition" : [-8, 0],
+        "description" : "A replicator that's based on the Nightars' designs.",
+        "shortdescription" : "Vanta Replicator"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/vantaanvil.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Vanta Replicator",
+            "subtitle" : " ^#b9b5b2;Armor, weapons, and gear",
+            "icon" : {
+              "file" : ""
+            }
+          }
+        },
+
+        "filter" : [ "vantaanvil1" ],
+        "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
+        "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "tungstenbar", "count" : 6 },
+          { "item" : "coalore", "count" : 10 },
+          { "item" : "glass", "count" : 5 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "BB",
+      "itemSpawnParameters" : {
+        "price" : 650,
+        "inventoryIcon" : "icon.png",
+        "placementImage" : "vantaanvil.png:default.default",
+        "placementImagePosition" : [-8, 0],
+        "description" : "A replicator that's based on the Nightars' designs.",
+        "shortdescription" : "Vanta Replicator ^yellow;^reset;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/vantaanvil.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Vanta Replicator",
+            "subtitle" : " ^#b9b5b2;Armor, weapons, and gear",
+            "icon" : {
+              "file" : ""
+            }
+          }
+        },
+
+        "filter" : [ "vantaanvil1", "vantaanvil2" ],
+        "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
+        "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "durasteelbar", "count" : 6 },
+          { "item" : "goldbar", "count" : 2 },
+          { "item" : "glass", "count" : 20 },
+          { "item" : "volatilepowder", "count" : 10 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "CC",
+      "itemSpawnParameters" : {
+        "price" : 875,
+        "inventoryIcon" : "icon.png",
+        "placementImage" : "vantaanvil.png:default.default",
+        "placementImagePosition" : [-8, 0],
+        "description" : "A replicator that's based on the Nightars' designs.",
+        "shortdescription" : "Vanta Replicator ^green;^reset;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/vantaanvil.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Vanta Replicator",
+            "subtitle" : " ^#b9b5b2;Armor, weapons, and gear",
+            "icon" : {
+              "file" : ""
+            }
+          }
+        },
+
+        "filter" : [ "vantaanvil1", "vantaanvil2", "vantaanvil3" ],
+        "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
+        "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "darkcrystal", "count" : 3 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare2",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "DD",
+      "itemSpawnParameters" : {
+        "price" : 1000,
+        "inventoryIcon" : "icon.png",
+        "placementImage" : "vantaanvil.png:default.default",
+        "placementImagePosition" : [-8, 0],
+        "description" : "A replicator that's based on the Nightars' designs.",
+        "shortdescription" : "Vanta Replicator ^cyan;^reset;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/vantaanvil.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Vanta Replicator",
+            "subtitle" : " ^#b9b5b2;Armor, weapons, and gear",
+            "icon" : {
+              "file" : ""
+            }
+          }
+        },
+
+        "filter" : [ "vantaanvil1", "vantaanvil2", "vantaanvil3", "vantaanvil4" ],
+        "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
+        "initialRecipeUnlocks" : []
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+
+  "orientations" : [
+    {
+      "image" : "vantaanvil.png:default.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "vantaanvil.png:default.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

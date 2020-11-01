@@ -1,0 +1,37 @@
+{
+  "itemName" : "vantatier4greatsword",
+  "price" : 960,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A uniquely-designed greatsword based on older Nightar designs.",
+  "shortdescription" : "Tyrant Guillotine",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","vanta"],
+
+  "inventoryIcon" : "vantatier4greatsword.png",
+
+  "animation" : "vantatier4greatsword.animation",
+  /*"animationParts" : {
+    "handle" : "vantatier4greatsword.png",
+    "handleFullbright" : "vantatier4greatswordlit.png",
+    "blade" : ""
+  },*/
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5
+  },
+
+  "altAbilityType" : "travelingslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

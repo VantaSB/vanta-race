@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightarwall3",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarwall3icon.png",
+  "description" : "A stout wall made of unknown materials",
+  "shortdescription" : "Nightar Tile Panels",
+
+  "materialId" : 3219
+}

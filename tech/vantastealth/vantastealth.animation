@@ -1,12 +1,28 @@
 {
   "animatedParts" : {
     "stateTypes" : {
+      "dashing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+              "properties" : {
+                "persistentSound" : "/sfx/tech/tech_sprint_loop2.ogg",
+                "immediateSound" : "/sfx/tech/tech_dash.ogg"
+              }
+          }
+        }
+      },
       "stealth" : {
         "default" : "off",
         "states" : {
           "off" : {
           },
           "on" : {
+            "properties" : {
+              "persistentSound" : "/sfx/tech/tech_sprint_loop2.ogg",
+              "immediateSound" : "/sfx/tech/tech_dash.ogg"
+            }
           }
         }
       }
@@ -28,12 +44,27 @@
 
   "sounds" : {
     "activate" : [ "/sfx/tech/tech_blink1.ogg" ],
-	"deactivate" : [ "/sfx/tech/tech_blink2.ogg" ],
-	"activationFail" : [ "/sfx/interface/nav_insufficient_fuel.ogg"],
-	"breakStealth" : [ "/sfx/gun/lightningcoil3.ogg" ]
+    "deactivate" : [ "/sfx/tech/tech_blink2.ogg" ],
+    "activationFail" : [ "/sfx/interface/nav_insufficient_fuel.ogg"],
+    "breakStealth" : [ "/sfx/gun/lightningcoil3.ogg" ]
   },
 
-   "particleEmitters" : {
+  "particleEmitters" : {
+    "dashParticles" : {
+      "emissionRate" : 40.0,
+      "particles" : [
+        {
+          "particle" : "sprint",
+          "flip" : true,
+          "offset" : [0, 0.0]
+        },
+        {
+          "particle" : "sprint",
+          "flip" : true,
+          "offset" : [0, -0.75]
+        }
+      ]
+    },
     "breakStealth" : {
       "particles" : [
         {
@@ -80,7 +111,7 @@
             }
           }
         },
-		{
+		    {
           "count" : 15,
           "particle" : {
             "type" : "ember",

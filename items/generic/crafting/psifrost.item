@@ -1,0 +1,10 @@
+{
+  "itemName" : "psifrost",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "psifrost.png",
+  "description" : "A basic compendium for usage in Vanta Psionic development aspected to ice.",
+  "shortdescription" : "Psionic Frost",
+  "itemTags" : [ "crafting" ]
+}

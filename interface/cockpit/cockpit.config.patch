@@ -1,21 +1,11 @@
 [
 	{
 		"op" : "add",
-		"path" : "/visitableTypeDescription/blackmoon",
+		"path" : "/visitableTypeDescription/proximamoon",
 		"value" : [
-			"This ^#416473;black moon^white; has an abundance of ^blue;liquid ceruleum^white;. Be wary of the ^cyan;freezing rain^white; that falls in near-perpetuity.",
-			"Small islands are scattered about the vast ^blue;liquid ceruleum^white; ^#416473;black moon^white;. Be sure to bundle up, thanks to the ^cyan;freezing rain storms^white;.",
-			"The surface of this ^#416473;black moon^white; is primarily comprised of ^blue;liquid ceruleum^white;. The ^cyan;freezing rain^white; is nearly perpetual, with hints of ^gray;fog^white;."
-		]
-	},
-
-	{
-		"op" : "add",
-		"path" : "/visitableTypeDescription/shadowjungle",
-		"value" : [
-			"For some unknown reason, sunlight can barely penetrate to the surface of this ^#353540;dark jungle^white; planet. ^blue;Rare ores^white; have been detected.",
-			"This ^#353540;dark jungle^white; planet has barely any visible sunlight, but the local flora have adapted to become bioluminescent.",
-			"The atmosphere surrounding this planet blocks out most light, except for UV light. I suggest you go down prepared."
+			"Scans indicate that this ^#416473;proxima moon^white; is similar to ^#232323;midnight^white; planets, albeit without the deadly chills.",
+			"The weather on this ^#416473;proxima moon^white; is constantly overcast with a perpetual rain of ^blue;liquid ceruleum^white;.",
+			"Prolonged exposure to the environment of this ^#416473;proxima moon^white; has made the wildlife here significantly more aggressive. Stay on your guard."
 		]
 	},
 
@@ -30,25 +20,22 @@
 
 	{
 		"op" : "add",
-		"path" : "/planetTypeNames/blackmoon",
-		"value" : "Black Moon"
+		"path" : "/displayWeathers/ceruleumrain",
+		"value" : {
+			"displayName" : "Ceruleum Rain",
+			"icon" : "/interface/cockpit/weather/ceruleumrain.png"
+		}
 	},
 
 	{
 		"op" : "add",
-		"path" : "/planetTypeNames/shadowjungle",
-		"value" : "Dark Jungle"
+		"path" : "/planetTypeNames/proximamoon",
+		"value" : "Proxima Moon"
 	},
 
 	{
 		"op" : "add",
-		"path" : "/planetTypeColors/blackmoon",
+		"path" : "/planetTypeColors/proximamoon",
 		"value" : [65, 100, 115]
-	},
-
-	{
-		"op" : "add",
-		"path" : "/planetTypeColors/shadowjungle",
-		"value" : [53, 53, 64]
 	}
 ]

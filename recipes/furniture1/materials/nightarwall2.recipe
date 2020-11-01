@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "nightarwall1", "count" : 1 }
+  ],
+  "output" : { "item" : "nightarwall2", "count" : 1 },
+  "duration" : 0.12,
+  "groups"  : [ "craftingfurniture1", "materials", "all" ]
+}

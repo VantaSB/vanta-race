@@ -1,0 +1,98 @@
+{
+  "objectName" : "heatcamera",
+  "colonyTags" : ["wired","nightar","electronic"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 400,
+  "description" : "A heat-sensing security camera.",
+  "shortdescription" : "Nightar Heat-Sensing Camera",
+  "race" : "nightar",
+
+  "ignoreStealth" : true,
+
+  "apexDescription" : "This camera has heat sensors, I should take extra caution.",
+  "avianDescription" : "A heat-sensing camera!? This is bad...",
+  "floranDescription" : "Floran make too much heat to sssneak passt...",
+  "glitchDescription" : "Alarmed. This camera has built-in heat detection.",
+  "humanDescription" : "Heat-sensing. Splendid.",
+  "hylotlDescription" : "Not even my cooler blood can escape this camera's sights.",
+  "novakidDescription" : "A heat-sensin' camera, eh?",
+  "vantaDescription" : "Bad news for my stealthing abilities...",
+
+  "inventoryIcon" : "heaticon.png",
+  "orientations" : [
+    {
+      "image" : "bracket.png:left",
+
+      "imagePosition" : [0, 0],
+      "imageLayers" : [ { "image" : "bracket.png:left" }, { "image" : "heat.png:idle", "position": [4, 12] } ],
+      "spaces" : [
+        [0, 0], [1, 0],
+        [0, 1], [1, 1],
+        [0, 2], [1, 2]
+      ],
+      "anchors" : [ "left" ],
+      "direction" : "right",
+
+      "animationParts" : {
+        "camera" : "heat.png",
+        "stand" : "bracket.png:left",
+        "lights" : "lights.png"
+      },
+      "animationPosition" : [16, 16],
+
+      "baseOffset" : [2, 2],
+      "tipOffset" : [4, 2],
+      "verticalScaling" : true
+    },
+    {
+      "image" : "bracket.png:left",
+
+      "imagePosition" : [-24, 0],
+      "spaces" : [
+        [-1, 0], [0, 0],
+        [-1, 1], [0, 1],
+        [-1, 2], [0, 2]
+      ],
+      "anchors" : [ "right" ],
+      "direction" : "left",
+
+      "imageLayers" : [ { "image" : "bracket.png:left" }, { "image" : "heat.png:idle", "position": [4, 12] } ],
+      "flipImages" : true,
+
+      "animationParts" : {
+        "camera" : "heat.png",
+        "stand" : "bracket.png:left",
+        "lights" : "lights.png"
+      },
+      "animationPosition" : [-10, 16],
+
+      "baseOffset" : [1, -2],
+      "tipOffset" : [3, -2],
+      "verticalScaling" : true
+    }
+  ],
+
+  "objectWidth" : 4,
+
+  "animation" : "camera.animation",
+
+  "scripts" : [
+    "/objects/nightar/nightarsecuritycamera/camera.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua"
+  ],
+
+  "scriptDelta" : 5,
+
+  "outputNodes" : [ [0, 0] ],
+
+  "rotationTime" : 2.5,
+  "rotationRange" : [0, 60],
+  "rotationPauseTime" : 0.5,
+
+  "maxLaserLength" : 20
+}

@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 1 },
-    { "item" : "vantacatalyst", "count" : 1 }
-  ],
-  "duration" : 0.15,
-  "output" : { "item" : "nightsteel1bar", "count" : 1 },
-  "groups" : [ "craftingfurnace", "bars", "all" ]
-}

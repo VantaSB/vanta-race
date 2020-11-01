@@ -3,10 +3,10 @@
   "rarity" : "Legendary",
   "category" : "liquid",
   "inventoryIcon" : "liquidceruleumicon.png",
-  "shortdescription" : "Liquid Ceruleum Fuel",
-  "description" : "Smells better and burns more efficiently than Erchius.",
+  "shortdescription" : "Liquid Ceruleum",
+  "description" : "This has various processing properties.",
 
-  "liquid" : "liquidceruleumfuel",
+  "liquid" : "liquidceruleum",
 
   "price" : 100
 }

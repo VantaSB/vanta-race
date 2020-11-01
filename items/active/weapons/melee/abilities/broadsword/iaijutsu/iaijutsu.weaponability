@@ -1,0 +1,123 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "swordCharge" : {
+        "active" : false,
+        "transformationGroups" : ["weapon"],
+        "emisisonRate" : 30,
+        "offsetRegion" : [-0.75, 0, 0.75, 5],
+        "particles" : [
+          {
+            "particle" : {
+              "type" : "animated",
+              "animation" : "/animations/petals/petals.animation",
+              "fullbright" : true,
+              "position" : [0, 0],
+              "finalVelocity" : [0, -1],
+              "approach" : [0, 50],
+              "size" : 1,
+              "timeToLive" : 1.45,
+              "fade" : 1.5,
+              "variance" : {
+                "finalVelocity" : [3, 3],
+                "rotation" : 180,
+                "angularVelocity" : 180
+              }
+            }
+          }
+        ]
+      }
+    },
+
+    "lights" : {
+      "glow" : {
+        "color" : [50, 80, 120]
+      }
+    },
+
+    "sounds" : {
+      "iaijutsuCharge" : [ "/sfx/melee/charge_traildash3.ogg" ],
+      "iaijutsuFire" : [ "/sfx/melee/travelingslash_poison3.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Iaijutsu",
+    "type" : "iaijutsu",
+    "scripts" : [ "/items/active/weapons/melee/abilities/broadsword/iaijutsu/iaijutsu.lua" ],
+    "class" : "Iaijutsu",
+
+    "cooldownTime" : 0.5625,
+    "energyUsage" : 80,
+
+    "dashTime" : 0.2,
+    "dashSpeed" : 160,
+
+    "trailInterval" : 1.0,
+    "projectileOffset" : [0, -1.5],
+    "projectileParameters" : {
+      "power" : 1,
+      "timeToLive" : 1,
+      "actionOnReap" : [
+        {
+          "action" : "loop",
+          "count" : 4,
+          "body" : [
+            {
+              "action" : "particle",
+              "specification" : {
+                "type" : "animated",
+                "animation" : "/animations/petals/petals.animation",
+                "initialVelocity" : [0, -3],
+                "approach" : [0.5, 0.5],
+                "timeToLive" : 0.8,
+                "variance" : {
+                  "timeToLive" : 0.15,
+                  "position" : [0.25, 0.25],
+                  "initialVelocity" : [3, 3],
+                  "rotation" : 180
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "elementalConfig" : {
+      "physical" : {
+        "projectileType" : "razorleaf"
+      }
+    },
+
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "statusEffects" : [ ],
+      "baseDamage" : 2,
+      "knockback" : 0,
+      "timeout" : 0.5,
+      "timeoutGroup" : "alt"
+    },
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.5,
+        "armRotation" : -45,
+        "weaponRotation" : 155,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+
+      "dash" : {
+        "armRotation" : 45,
+        "weaponRotation" : 135,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

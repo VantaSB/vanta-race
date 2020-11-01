@@ -5,8 +5,8 @@
   "category" : "light",
   "lightColor" : [60, 197, 220],
   "price" : 75,
-  "description" : "A Nightar castle light",
-  "shortdescription" : "Nightar light",
+  "description" : "A Nightar wall light",
+  "shortdescription" : "Nightar Light",
   "race" : "nightar",
 
   "apexDescription" : "This light's design is similar to what you would see around an Apex laboratory.",
@@ -16,7 +16,7 @@
   "humanDescription" : "A handy light.",
   "hylotlDescription" : "Waterproof lights. These would definitely work with Hylotl city designs.",
   "novakidDescription" : "A fancy lookin' light.",
-
+  "vantaDescription" : "We keep a running theme, even with our lights.",
 
 
   "inventoryIcon" : "nightarlighticon.png",
@@ -124,6 +124,6 @@
 
   "interactive" : false,
 
-  "inboundNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ]
 
 }

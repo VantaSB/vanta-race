@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 2 },
+    { "item" : "hardenedcarapace", "count" : 1 }
+  ],
+  "duration" : 10,
+  "output" : { "item" : "vantashield", "count" : 1 },
+  "groups" : [ "vantaanvil1", "weapons", "all" ]
+}

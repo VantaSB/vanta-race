@@ -1,0 +1,57 @@
+{
+  "itemName" : "vantatier5bow",
+  "price" : 750,
+  "inventoryIcon" : "vantatier5bowicon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "Uses arrows steeped in Liquid Ceruleum to corrupt enemies.",
+  "shortdescription" : "Vanta Maddening Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow"],
+
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+
+  "level" : 5,
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "vantatier5bowfull.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.125, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "drawFrameSelector" : "poisonBowImageSelector",
+    "drawArmFrames" : ["rotation", "swim.2", "swim.2", "swim.2", "swimIdle.1", "swimIdle.1"],
+    "projectileType" : "ceruleumarrow",
+    "powerProjectileType" : "chargedceruleumarrow",
+    "projectileParameters" : {
+      "power" : 17.43
+    }
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "drawFrameSelector" : "poisonBowImageSelectorNoPower",
+    "drawArmFrames" : ["rotation", "swim.2", "swim.2", "swim.2", "swimIdle.1", "swimIdle.1"],
+    "projectileType" : "ceruleumarrow",
+    "projectileParameters" : {
+      "power" : 21.38
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

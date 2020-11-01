@@ -7,7 +7,7 @@
   "description" : "Yonaga, or 'The long night', is the blade used by the Nightar kings.",
   "shortdescription" : "Yonaga",
   "tooltipKind" : "sword",
-  "category" : "broadsword",
+  "category" : "energysword",
   "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "broadsword"],
 
@@ -45,7 +45,7 @@
     }
   },
 
-  "altAbilityType" : "flipslash",
+  "altAbilityType" : "greenflipslash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

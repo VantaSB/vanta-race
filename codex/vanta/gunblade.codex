@@ -5,11 +5,13 @@
   "description" : "A historical tome of Vanta Gunblades",
   "icon" : "vantadocfile.png",
   "contentPages" : [
-    "It's often said that the reason Vanta are not considered \"true Nightars\" is because of our cultural differences. Nightarian warriors take the utmost pride in wielding strictly blades, and thus shun the use of firearms in any fashion. This obviously excludes crossbows. While the Vanta have yet to embrace some of the more diverse aspects of firearms, they have a unique take on it.\n\nEnter: the Vanta Gunblade.",
+    "It's often said that the reason Vanta are not considered \"true Nightars\" is because of our cultural differences. Nightarian warriors take the utmost pride in wielding strictly blades, and thus shun the use of firearms in any fashion (obviously, this excludes bows and crossbows). While the Vanta have yet to embrace some of the more diverse aspects of them, they have a rather unique take on firearms:\n\n^orange;The Gunblade^reset;",
 
-    "From hearing the name of it, most people would believe that a gunblade is simply a gun with a blade attached to it, allowing you to simultaneously wield gun and sword at once. These machinations, however, are paltry imitations of what a gunblade actually is. A classic gunblade, as employed by the Vanta, are still primarily martial weapons, requiring a unique skill to wield them.",
+    "From hearing the name of it, most people would believe that a gunblade is simply a gun with a blade attached to it, allowing you to simultaneously wield gun and sword at once. These types of iterations, if any exist, are paltry imitations of what the Vanta consider a gunblade to actually be. A gunblade, as employed by the Vanta, are still primarily martial weapons, requiring a unique skill to wield them.",
 
-    "The original designs of the gunblade have a triggering mechanism, yes, but rather than fire a bullet, the mechanism simply creates a combustion. The intricate design allows for the blade to absorb and focus the vibrations from that, creating a sort of harmonic resonance for only a brief moment. When pitted against other weapons, it has been known to shatter them outright, rendering the opponent without their weapon."
+    "The designs of the gunblade have a triggering mechanism, yes; but rather than fire a bullet, the mechanism simply creates a combustion through the use of ^blue;Ceruleum cartridges^reset;. The intricate design allows for the blade to absorb and focus the vibrations from that, creating a sort of harmonic resonance for only a brief moment. When pitted against other weapons, it has been known to shatter them outright, rendering the opponent without weapons and defenses.",
+
+    "INSTRUCTIONS FOR USE:\n\n[Fire] = Standard broadsword melee combo\n[AltFire] = Dark Slice (Traveling Slash)\n[Shift + AltFire] = Infused Charge (Blade Charge)\n\nInfused Charge requires that you have at least one Ceruleum Cartridge crafted and in your inventory; the ability fails to activiate if you have no remaining cartridges. Once the Ceruleum branch has been researched in the research tree, you will be able to craft Ceruleum Cartridges at the Vanta Replicator. Completely executing this ability will consume a single cartridge from your inventory."
   ],
     "itemConfig" : {
     "rarity" : "Essential",

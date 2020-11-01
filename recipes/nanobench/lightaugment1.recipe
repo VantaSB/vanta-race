@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "siliconboard", "count" : 1 },
-    { "item" : "lightbulb3", "count" : 1 },
     { "item" : "copperore", "count" : 1 }
   ],
   "duration" : 5,

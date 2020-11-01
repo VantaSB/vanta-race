@@ -1,0 +1,9 @@
+{
+  "itemName" : "ceruleumcartridge",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "reagent",
+  "description" : "These cartridges are used for activating certain weapon functions common with Vanta-built weapons.",
+  "shortdescription" : "Ceruleum Cartridge",
+  "inventoryIcon" : "ceruleumcartridge.png"
+}

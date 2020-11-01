@@ -250,14 +250,5 @@
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
     "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
-  },
-
-  "lights" : {
-    "glow" : {
-      "active" : true,
-      "position" : [0, 0],
-      "color" : [15, 99, 98],
-      "pointLight" : true
-    }
   }
 }

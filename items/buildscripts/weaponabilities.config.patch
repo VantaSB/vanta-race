@@ -2,6 +2,37 @@
   {
     "op" : "add",
 	  "path" : "/stealthdaggercombo",
-	  "value" : "/items/active/weapons/melee/stealthdagger/stealthdaggercombo.weaponability"
+	  "value" : "/items/active/weapons/melee/abilities/dagger/stealthdaggercombo.weaponability"
+  },
+
+  {
+    "op" : "add",
+	  "path" : "/darkslice",
+	  "value" : "/items/active/weapons/melee/abilities/broadsword/darkslice/darkslice.weaponability"
+  },
+  {
+    "op" : "add",
+	  "path" : "/greenflipslash",
+	  "value" : "/items/active/weapons/melee/abilities/broadsword/greenflipslash/greenflipslash.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/scatteredwindscombo",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/scatteredwindscombo.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/iaijutsu",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/iaijutsu/iaijutsu.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/infusedcharge",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/infusedcharge/infusedcharge.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/chaosstrike",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/chaosstrike/chaosstrike.weaponability"
   }
 ]

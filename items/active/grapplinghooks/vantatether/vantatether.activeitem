@@ -16,6 +16,10 @@
 
   "animation" : "vantatether.animation",
 
+  "animationParts" : {
+    "glove" : "glove.png"
+  },
+
   "fireOffset" : [0, 0],
   "ropeOffset" : [-1.2, 0],
   "ropeVisualOffset" : [0.75, 0],

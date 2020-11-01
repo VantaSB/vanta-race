@@ -1,0 +1,10 @@
+{
+  "itemName" : "nightsteelbar",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "nightsteel.png",
+  "description" : "A bar of Nightsteel.",
+  "shortdescription" : "Nightsteel Bar",
+  "itemTags" : [ "reagent" ]
+}

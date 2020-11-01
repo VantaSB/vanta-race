@@ -1,0 +1,24 @@
+{
+  "materialId" : 3218,
+  "materialName" : "nightartile",
+  "particleColor" : [20, 20, 20, 255],
+  "itemDrop" : "nightartile",
+  "description" : "A tough tile made of impervium.",
+  "shortdescription" : "Executive Tile",
+
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "nightartile.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3240
+  }
+}

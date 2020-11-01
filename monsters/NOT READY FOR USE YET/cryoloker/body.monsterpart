@@ -1,9 +1,0 @@
-{
-  "name" : "cryoloker",
-  "category" : "cryoloker",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "cryoloker.png"
-  }
-}

@@ -1,0 +1,25 @@
+{
+  "name" : "proximamoonatmosphere",
+  "friendlyName" : "Proxima Moon Atmosphere",
+
+  "parallax" : "/parallax/atmosphere/atmosphere.parallax",
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : "generatedFlying"
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 0.6, "passiveLargeFlying" ],
+          [ 0.4, "aggroLargeFlying" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {}
+  },
+
+  "hueShiftOptions" : [0]
+}

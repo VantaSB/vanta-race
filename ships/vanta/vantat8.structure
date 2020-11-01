@@ -1,21 +1,20 @@
 {
-  "config" : {
-    "shipUpgrades" : {
-      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
-      "maxFuel" : 10000,
-      "crewSize" : 12
-    }
+  "config": {
+      "shipUpgrades": {
+          "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+          "maxFuel": 10000,
+          "crewSize" : 12
+      }
   },
-
   "backgroundOverlays" : [
     {
-      "image" : "corvetteT3.png",
+      "image" : "corvetteT8.png",
       "position" : [-1, -2],
       "fullbright" : true
     },
 
     {
-      "image" : "corvetteT3lit.png",
+      "image" : "corvetteT8lit.png",
       "position" : [-1, -2]
     }
 

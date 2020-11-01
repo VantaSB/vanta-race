@@ -1,0 +1,9 @@
+{
+  "name" : "ceruleumcrabcritter",
+  "category" : "ceruleumcrabcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

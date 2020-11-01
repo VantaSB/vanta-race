@@ -1,218 +1,32 @@
 [
-	/*{
-		"op" : "add",
-		"path" : "/systemTypes/Void",
-		"value" : {
-			"selectionWeight" : 0.04,
-			"baseParameters" : {
-				"typeName" : "voidstar",
-				"image" : "celestial/system/voidstar.png",
-				"twinkleTime" : [1.0 , 1.5],
-				"spaceThreatLevel" : 7
-			},
-			"variationParameters" : [
-				{
-					"magnitude" : 3,
-					"description" : "Small Void Star",
-					"imageScale" : 0.04,
-					"twinkleFrames" : "/celestial/stars/star7pxVoid.png",
-					"twinkleBackground" : "/celestial/stars/backgrounds/star7pxVoid.png",
-					"brightness" : [1, 1]
-				},
-				{
-					"magnitude" : 5,
-					"description" : "Medium Void Star",
-					"imageScale" : 0.055,
-					"twinkleFrames" : "/celestial/stars/star13pxVoid.png",
-					"twinkleBackground" : "/celestial/stars/backgrounds/star13pxVoid.png",
-					"brightness" : [1, 1]
-				},
-				{
-					"magnitude" : 7,
-					"description" : "Large Void Star",
-					"imageScale" : 0.075,
-					"twinkleFrames" : "/celestial/stars/star17pxVoid.png",
-					"twinkleBackground" : "/celestial/stars/backgrounds/star17pxVoid.png",
-					"brightness" : [1, 1]
-				}
-			],
-			"orbitRegions" : [
-        {
-          "regionName" : "Tier7Inner",
-          "orbitRange" : [2, 5],
-          "bodyProbability" : 0.5,
-          "planetaryTypes" : [
-            {"weight" : 0.2, "item" : "Tier5"},
-            {"weight" : 0.7, "item" : "Tier6"},
-            {"weight" : 0.05, "item" : "Barren"},
-            {"weight" : 0.05, "item" : "AsteroidField"}
-          ],
-          "satelliteTypes" : [
-            {"weight" : 1, "item" : "Moon"}
-          ]
-        },
-        {
-          "regionName" : "Tier7Mid",
-          "orbitRange" : [6, 7],
-          "bodyProbability" : 0.25,
-          "planetaryTypes" : [
-            {"weight" : 0.5, "item" : "Barren"},
-            {"weight" : 0.5, "item" : "AsteroidField"}
-          ],
-          "satelliteTypes" : [
-            {"weight" : 0.1, "item" : "Moon"},
-            {"weight" : 0.2, "item" : "Tier5"},
-            {"weight" : 0.7, "item" : "Tier6"}
-          ]
-        },
-        {
-          "regionName" : "Tier7Outer",
-          "orbitRange" : [8, 10],
-          "bodyProbability" : 0.5,
-          "planetaryTypes" : [
-            {"weight" : 0.20, "item" : "Tier5"},
-            {"weight" : 0.7, "item" : "Tier6"},
-            {"weight" : 0.05, "item" : "Barren"},
-            {"weight" : 0.05, "item" : "AsteroidField"}
-          ],
-          "satelliteTypes" : [
-            {"weight" : 1, "item" : "Moon"}
-          ]
-        },
-        {
-          "regionName" : "Gate",
-          "orbitRange" : [11, 11],
-          "bodyProbability" : 1.0,
-          "planetaryTypes" : [
-            {"weight" : 0.2, "item" : "AncientGateway"},
-            {"weight" : 0.1, "item" : "AsteroidField"},
-            {"weight" : 0.1, "item" : "Barren"},
-            {"weight" : 0.1, "item" : "Tier5"},
-            {"weight" : 0.5, "item" : "Tier6"}
-          ],
-          "satelliteTypes" : []
-        }
-			]
-		}
-	},*/				//Shadow Biomes need to be finished before full implementation.
-
 	{
 		"op" : "add",
-		"path" : "/terrestrialHorizonGraphics/blackmoon",
+		"path" : "/terrestrialHorizonGraphics/proximamoon",
 		"value" : {
-			"baseImages" : "/celestial/system/terrestrial/horizon/textures/blackmoon_<selector>.png",
-			"maskTextures" : "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
-			"maskRange" : [1, 25],
+			"baseImages" : "/celestial/system/terrestrial/horizon/textures/proximamoon_<selector>.png",
 			"maskPerPlanetRange" : [3, 3]
 		}
 	},
 
 	{
 		"op" : "add",
-		"path" : "/terrestrialGraphics/blackmoon",
+		"path" : "/terrestrialGraphics/proximamoon",
 		"value" : {
-			"baseImages" : "/celestial/system/terrestrial/biomes/blackmoon/maskie<num>.png",
-			"dynamicsImages" : "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
-      "dynamicsRange" : [1, 20]
-		}
-	},
-
-	/*{
-		"op" : "add",
-		"path" : "/terrestrialHorizonGraphics/shadowjungle",
-		"value" : {
-			"baseImages" : "/celestial/system/terrestrial/horizon/textures/shadowjungle_<selector>.png",
-			"maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-			"maskRange" : [1, 25],
-			"maskPerPlanetRange" : [3, 3]
-		}
-	},
-
-	{
-		"op" : "add",
-		"path" : "/terrestrialGraphics/shadowjungle",
-		"value" : {
-			"baseImages" : "/celestial/system/terrestrial/biomes/shadowjungle/maskie<num>.png",
+			"baseImages" : "/celestial/system/terrestrial/biomes/proximamoon/maskie<num>.png",
 			"dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
-      "dynamicsRange" : [1, 20]
+      "dynamicsRange" : [1, 30]
 		}
-	},*/
-
-	{
-		"op" : "add",
-		"path" : "/satelliteTypes/Tier1/baseParameters/terrestrialType/-",
-		"value" : "blackmoon"
-	},
-
-	{
-		"op" : "add",
-		"path" : "/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
-		"value" : "blackmoon"
-	},
-
-	{
-		"op" : "add",
-		"path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
-		"value" : "blackmoon"
-	},
-
-	{
-		"op" : "add",
-		"path" : "/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
-		"value" : "blackmoon"
 	},
 
 	{
 		"op" : "add",
 		"path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
-		"value" : "blackmoon"
+		"value" : "proximamoon"
 	},
 
 	{
 		"op" : "add",
 		"path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
-		"value" : "blackmoon"
-	}//,
-
-	/*{
-		"op" : "add",
-		"path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
-		"value" : "shadowjungle"
-	},
-
-	{
-		"op" : "add",
-		"path" : "/planetaryTypes/Tier1/baseParameters/terrestrialType/-",
-		"value" : "shadowjungle"
-	},
-
-	{
-		"op" : "add",
-		"path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
-		"value" : "shadowjungle"
-	},
-
-	{
-		"op" : "add",
-		"path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
-		"value" : "shadowjungle"
-	},
-
-	{
-		"op" : "add",
-		"path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
-		"value" : "shadowjungle"
-	},
-
-	{
-		"op" : "add",
-		"path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
-		"value" : "shadowjungle"
-	},
-
-	{
-		"op" : "add",
-		"path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
-		"value" : "shadowjungle"
-	}*/
+		"value" : "proximamoon"
+	}
 ]

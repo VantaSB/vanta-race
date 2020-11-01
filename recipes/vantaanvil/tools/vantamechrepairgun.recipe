@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "smallbattery", "count" : 4 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "vantamechrepairgun", "count" : 1 },
+  "groups" : [ "vantaanvil1", "vantatools", "all" ]
+}

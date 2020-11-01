@@ -1,0 +1,10 @@
+{
+  "name" : "pteropod",
+  "category" : "ceruleumpteropod",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "ceruleumpteropod.png",
+    "bodynobright" : "ceruleumpteropodnobright.png"
+  }
+}

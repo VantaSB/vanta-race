@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "variaaugment2", "count" : 2 },
+    { "item" : "liquidceruleum", "count" : 5 },
+    { "item" : "darkcrystal", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "variaaugment3", "count" : 1 },
+  "groups" : [ "nanobench", "eppAugment", "all" ]
+}

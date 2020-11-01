@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkcrystal", "count" : 8 },
-    { "item" : "solariumstar", "count" : 8 }
-  ],
-  "output" : { "item" : "yorunokama", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "all" ]
-}

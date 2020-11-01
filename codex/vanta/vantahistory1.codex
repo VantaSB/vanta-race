@@ -2,7 +2,7 @@
   "id" : "vantahistory1",
   "title" : "Our Beginning - Pt.1",
   "species" : "other",
-  "description" : "Historical Testament of Velek Kral",
+  "description" : "Historical Testament of Kyrilu Marek",
   "icon" : "vantabook.png",
   "contentPages" : [
     "As with any other society, we have gone through the throes of a 'primitive' era, last known to us some five millennia ago. However, we lack definitive accounts from that time, so not much is known about our complete history before our Imperial Era. Our homeworld, where the first Nightars hailed from, was a world of unyielding darkness. The sun itself gave off little light, though somehow it also gave off enough heat to keep the life on the planets around it alive.",
@@ -13,7 +13,7 @@
 
     "Eventually, the war came to a stalemate, and I agreed to a summons with the Imperial generals. The proposal offered by them was laughable - we were to lay down our arms and surrender peacefully, and agree to be relocated to further depths below them. How arrogant to assume we would simply let them tower over us.",
 
-    "I counter-proposed that we would take our leave of the planet if they agreed to provide the transportation, so as not to lose any of their fleet. They deliberated on this for quite some time before finally agreeing to it, though I sensed that they would rather have seen us under their feet.\n\n-Velek Kral, 26th Chronicler of Cypheed"
+    "I counter-proposed that we would take our leave of the planet if they agreed to provide the transportation, so as not to lose any of their fleet. They deliberated on this for quite some time before finally agreeing to it, though I sensed that they would rather have seen us under their feet.\n\n-Kyrilu Marek, 26th Chronicler of Cypheed"
   ],
     "itemConfig" : {
     "rarity" : "legendary",

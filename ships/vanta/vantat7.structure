@@ -9,13 +9,13 @@
 
   "backgroundOverlays" : [
     {
-      "image" : "corvetteT3.png",
+      "image" : "corvetteT8.png",
       "position" : [-1, -2],
       "fullbright" : true
     },
 
     {
-      "image" : "corvetteT3lit.png",
+      "image" : "corvetteT8lit.png",
       "position" : [-1, -2]
     }
 

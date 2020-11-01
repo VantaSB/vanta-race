@@ -17,6 +17,7 @@
   "humanDescription" : "A battlefield flag. I can use this to bookmark this location for the teleporter.",
   "hylotlDescription" : "This battle standard can act as a way point, enabling me to return to this location at any time.",
   "novakidDescription" : "I can bookmark this Vanta battle standard for quick teleportin'.",
+  "vantaDescription" : "This battle standard will allow me to bookmark this location for future reference.",
 
   "interactAction" : "OpenTeleportDialog",
   "interactData" : "/interface/warping/destinationonly.config",

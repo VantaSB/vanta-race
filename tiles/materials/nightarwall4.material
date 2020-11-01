@@ -1,0 +1,23 @@
+{
+  "materialId" : 3220,
+  "materialName" : "nightarwall4",
+  "particleColor" : [20, 20, 20, 255],
+  "itemDrop" : "nightarwall4",
+  "description" : "Modular tiling made of unknown materials.",
+  "shortdescription" : "Nightar Hexagon Panels",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "nightarwall4.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 2100
+  }
+}

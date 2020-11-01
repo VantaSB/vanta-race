@@ -2,7 +2,7 @@
   "objectName" : "nightarhandscanner",
   "colonyTags" : ["nightar","electronic","wired"],
   "rarity" : "Rare",
-  "description" : "An advanced handprint scanner that provides complete biometric data to a server.",
+  "description" : "An advanced handprint scanner that provides biometric data to a server.",
   "shortdescription" : "Nightar Hand Scanner",
   "race" : "nightar",
   "category" : "wire",
@@ -17,6 +17,7 @@
   "humanDescription" : "A fingerprint scanner. Sadly, I'm not registered. I've always wanted to activate one of these.",
   "hylotlDescription" : "Hylotl hands can cause these things to go haywire.",
   "novakidDescription" : "A type of scannin' device for hands. Doubt it'll pick up mine.",
+  "vantaDescription" : "These hand scanners are designed to also pickup a particular energy signature.",
 
   "inventoryIcon" : "nightarhandscannericon.png",
   "orientations" : [

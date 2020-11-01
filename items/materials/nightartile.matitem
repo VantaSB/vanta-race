@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightartile",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightartileicon.png",
+  "description" : "Roofing material",
+  "shortdescription" : "Nightar Rooftop",
+
+  "materialId" : 3218
+}
