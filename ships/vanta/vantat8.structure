@@ -1,25 +1,23 @@
 {
-  "config": {
-      "shipUpgrades": {
-          "capabilities" : ["teleport", "planetTravel", "systemTravel"],
-          "maxFuel": 10000,
-          "crewSize" : 12
-      }
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "crewSize" : 12
+    }
   },
+
   "backgroundOverlays" : [
     {
-      "image" : "corvetteT8.png",
-      "position" : [-1, -2],
+      "image" : "vantaT8.png",
+      "position" : [8.39, 1.75],
       "fullbright" : true
     },
-
     {
-      "image" : "corvetteT8lit.png",
-      "position" : [-1, -2]
+      "image" : "vantaT8lit.png",
+      "position" : [8.39, 1.75]
     }
-
   ],
 
-  "blockKey" : "blockKey1.config:blockKey",
-  "blockImage" : "corvetteT8blocks.png"
+  "blockKey" : "blockKey.config:key1",
+  "blockImage" : "vantaT8blocks.png"
 }

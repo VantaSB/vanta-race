@@ -2,25 +2,22 @@
   "config" : {
     "shipUpgrades" : {
       "capabilities" : ["teleport", "planetTravel"],
-      "maxFuel" : 500,
       "crewSize" : 2
     }
   },
 
   "backgroundOverlays" : [
     {
-      "image" : "corvetteT1.png",
-      "position" : [-1, -2],
+      "image" : "vantaT2.png",
+      "position" : [8, 14],
       "fullbright" : true
     },
-
-	{
-      "image" : "corvetteT1lit.png",
-      "position" : [-1, -2]
+    {
+      "image" : "vantaT2lit.png",
+      "position" : [8, 14]
     }
-
   ],
 
-  "blockKey" : "blockKey0.config:blockKey",
-  "blockImage" : "corvetteT1blocks.png"
+  "blockKey" : "blockKey.config:key0",
+  "blockImage" : "vantaT2blocks.png"
 }
