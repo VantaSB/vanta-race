@@ -2,10 +2,9 @@
 	{ "op" : "add",
 		"path" : "/species/vanta",
 		"value" : {
-			"aiFrames" : "vantaAi.png",
+			"aiFrames" : "vantaai.png",
 			"portraitFrames" : "portraits/vantaportrait.png",
-			"staticFrames" : "staticVanta.png"
+			"staticFrames" : "staticvanta.png"
 		}
 	}
 ]
-   
