@@ -1,11 +1,11 @@
 {
-  "itemName" : "variaaugment1",
+  "itemName" : "variaaugment",
   "price" : 15000,
   "rarity" : "legendary",
   "tooltipKind" : "eppaugment",
   "category" : "eppAugment",
   "inventoryIcon" : "omniaugment.png",
-  "description" : "Adds additional protection from hazardous elements.",
+  "description" : "Adds protection from elemental attacks.",
   "shortdescription" : "Varia Augment",
 
   "augment" : {

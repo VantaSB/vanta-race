@@ -1,9 +1,0 @@
-{
-  "itemName" : "augmentadaptor",
-  "price" : 1750,
-  "rarity" : "rare",
-  "category" : "upgradeComponent",
-  "inventoryIcon" : "augmentadaptor.png",
-  "description" : "Allows for integrating augments into armors.",
-  "shortdescription" : "Augment Adapter"
-}

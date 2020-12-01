@@ -1,12 +1,12 @@
 {
-  "itemName" : "coreboostaugment2",
+  "itemName" : "coreboostaugment",
   "price" : 15000,
   "rarity" : "legendary",
   "tooltipKind" : "eppaugment",
   "category" : "eppAugment",
   "inventoryIcon" : "omniaugment.png",
-  "description" : "Further increases health, regeneration, and energy.",
-  "shortdescription" : "Core Boost II Augment",
+  "description" : "Boosts overall health, regeneration, and energy.",
+  "shortdescription" : "Core Boost Augment",
 
   "augment" : {
     "type" : "back",
