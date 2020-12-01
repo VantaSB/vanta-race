@@ -5,11 +5,11 @@
   "rarity" : "Common",
 
   // Vanilla AI window
-  // "interactAction" : "OpenAiInterface",
+  "interactAction" : "OpenAiInterface",
 
   // Vanta AI window uses ZB SAIL window natively
-  "interactAction" : "ScriptPane",
-  "interactData" : "/zb/newSail/newSail.config",
+  /*"interactAction" : "ScriptPane",
+  "interactData" : "/zb/newSail/newSail.config",*/
 
   "category" : "decorative",
   "lightColor" : [102, 61, 61],
@@ -19,6 +19,13 @@
   "shortdescription" : "S.A.I.L.",
   "race" : "vanta",
 
+  "apexDescription" : "I can talk to SAIL through this console.",
+  "avianDescription" : "I can use this station to talk to SAIL.",
+  "floranDescription" : "Floran use thisss magic panel to talk to SAIL!",
+  "glitchDescription" : "Happy. This station allows me to talk to SAIL.",
+  "humanDescription" : "This station allows me to communicate with SAIL.",
+  "hylotlDescription" : "This console allows me to communicate with SAIL.",
+  "novakidDescription" : "This here station lets me talk with SAIL.",
   "vantaDescription" : "Our S.A.I.L. modules are more or less the same as everyone else's.",
 
   "inventoryIcon" : "vantatechstationicon.png",
@@ -35,11 +42,13 @@
     }
   ],
 
-  "turnInQuests" : [ "gaterepair", "stealthtechintro" ],
   "offeredQuests" : [ "gaterepair", "stealthtechtest", "stealthtechupgrade" ],
+  "turnInQuests" : [ "stealthtechintro" ],
 
   "animation" : "/objects/ship/techstation.animation",
-  "scripts" : [ "/objects/spawner/techstation.lua", "/objects/scripts/customtechstation.lua" ],
+  "scripts" : [
+    "/objects/spawner/techstation.lua"
+  ],
   "scriptDelta" : 20,
   "shipPetType" : "petocubit",
   "spawnOffset" : [2, -1],
@@ -48,16 +57,11 @@
   "dialog" : {
     "wakeUp" : [
       [ "^yellow;Rebooting, beginning diagnostics...^reset;", "/ai/portraits/vantaportrait.png:unique.1" ],
-      [ "Systems Check:\nSubroutines - ^green;OK^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
-      [ "Systems Check:\nDatabase - ^green;OK^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
-      [ "Systems Check:\nEngine Systems - ^#ff0000;ERROR^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
-      [ "Systems Check:\nNavigation - ^#ff0000;ERROR^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
+      [ "Systems Check:\nSubroutines - ^green;OK^reset;\nDatabase - ^green;OK^reset;\nEngine & Navigation Systems - ^#ff0000;ERROR^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Diagnostics complete;\n^orange;extensive repairs required.^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Greetings, captain. I am ^cyan;S.A.I.L^reset;, your personal AI assistant.", "/ai/portraits/vantaportrait.png:talk.0"],
-      [ "I help manage the status of your ship and track your research data.", "/ai/portraits/vantaportrait.png:talk.0" ],
-      [ "I can also offer you information and advice during your travels.", "/ai/portraits/vantaportrait.png:talk.0" ],
-      [ "Our escape was accompanied by a catastrophic system failure.", "/ai/portraits/vantaportrait.png:talk.1" ],
-      [ "Heavy damage was sustained just before transit.", "/ai/portraits/vantaportrait.png:talk.1" ],
+      [ "I help manage the status of your ship and and crew. I can also offer you information and advice during your travels.", "/ai/portraits/vantaportrait.png:talk.0" ],
+      [ "Our escape was accompanied by a catastrophic system failure. Heavy damage was sustained just before transit.", "/ai/portraits/vantaportrait.png:talk.1" ],
       [ "We are currently holding orbit over an unknown planet. Its threat level is ^green;minimal^reset;.", "/ai/portraits/vantaportrait.png:talk.1" ],
       [ "I have restored power to the ^yellow;teleporter^reset;, I recommend you beam down and gather supplies.", "/ai/portraits/vantaportrait.png:talk.1" ],
       [ "Please don't hesitate to talk to me if you need assistance.", "/ai/portraits/vantaportrait.png:talk.0" ]

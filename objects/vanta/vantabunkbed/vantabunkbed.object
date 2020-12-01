@@ -1,0 +1,65 @@
+{
+  "objectName" : "vantabunkbed",
+  "colonyTags" : ["vanta"],
+  "rarity" : "Common",
+  "description" : "A bunk bed designed for ships",
+  "shortdescription" : "Vanta Ship Bunk",
+  "race" : "vanta",
+  "category" : "furniture",
+  "price" : 500,
+
+  "apexDescription" : "A sturdy bunk bed.",
+  "avianDescription" : "It's a bunk bed.",
+  "floranDescription" : "Floran want to lay down and sssleep.",
+  "glitchDescription" : "Observant. A ship-fitted bunk bed.",
+  "humanDescription" : "Bunk beds are good for sleepovers for kids!",
+  "hylotlDescription" : "A compact bed for spacefarers.",
+  "novakidDescription" : "Pretty small bunk bed, but it looks comfortable enough.",
+  "vantaDescription" : "Even we have to sleep somewhere.",
+
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/vanta/vantabunkbed/cover.png",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vantabunkbed.png:<color>", "fullbright" : true }, { "image" : "vantabunkbedlit.png:<color>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "sitPosition" : [-4, 10.3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "collision" : "platform"
+    },
+
+    {
+      "imageLayers" : [
+        { "image" : "vantabunkbed.png:<color>", "fullbright" : true },
+        { "image" : "vantabunkbedlit.png:<color>" }
+      ],
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "sitPosition" : [-12, 10.3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "collision" : "platform"
+    }
+  ]
+}

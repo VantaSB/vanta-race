@@ -14,6 +14,7 @@
   "humanDescription" : "The teleporter! Teleporting is such a rush.",
   "hylotlDescription" : "A teleporter. Teleporting feels like diving into the ocean from a mountain top.",
   "novakidDescription" : "Ship's teleporter. Let's take her for a spin!",
+  "vantaDescription" : "The ship's teleporter. It's more or less the same as any other.",
 
   "category" : "light",
   "lightColor" : [99, 132, 153],
@@ -55,16 +56,16 @@
   "inventoryIcon" : "vantashipteleportericon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantashipteleporterTier3.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantashipteleporterTier3lit.png:<color>.<frame>" } ],
+      "imageLayers" : [ { "image" : "vantashipteleporterTier3.png:<color>", "fullbright" : true }, { "image" : "vantashipteleporterTier3lit.png:<color>" } ],
 
-      "imagePosition" : [-16, 0],
-      "frames" : 12,
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
       "animationCycle" : 1.0,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid",
-      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ]
     }
   ]
 }

@@ -14,8 +14,9 @@
   "floranDescription" : "Ship teleporter. This one dead.",
   "glitchDescription" : "Disappointed. A teleporter without power. I need to power it up.",
   "humanDescription" : "The teleporter! Too bad it isn't powered up.",
-  "vantaDescription" : "This teleporter is off.",
+  "hylotlDescription" : "This teleporter is off.",
   "novakidDescription" : "Ship's teleporter. I need to power her up!",
+  "vantaDescription" : "The ship's teleporter isn't powered, I need to reboot SAIL.",
 
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
@@ -28,15 +29,15 @@
   "inventoryIcon" : "vantashipteleportericon.png",
   "orientations" : [
     {
-      "image" : "vantashipteleporterTier0.png:<default>",
-      "imagePosition" : [-16, 0],
+      "image" : "vantashipteleporterTier0.png:<color>",
+      "imagePosition" : [-32, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaceScan" : 0.1,
+       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid",
-      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ],
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ],
 
       "sitPosition" : [-8, 8]
     }
