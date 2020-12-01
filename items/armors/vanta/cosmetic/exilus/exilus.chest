@@ -1,22 +1,22 @@
 {
-  "itemName" : "excursorchest",
+  "itemName" : "exiluschest",
   "price" : 150,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "A durable battle vest for weathering unknown terrain.",
-  "shortdescription" : "Excursor Gambeson",
+  "description" : "--TBD--",
+  "shortdescription" : "Exilus Gambeson",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
-	},
+  },
 
   "femaleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   }
