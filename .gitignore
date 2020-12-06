@@ -4,3 +4,4 @@ _config.yml
 Vanta.ico
 *.disabled
 *.xcf
+*.tiled*
