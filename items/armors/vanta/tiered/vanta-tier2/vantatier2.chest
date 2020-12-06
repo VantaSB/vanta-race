@@ -5,18 +5,18 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "Crafted protection for the up-and-coming Nightar hero - better to dent your chestplate than your bodywork.",
+  "description" : "Upper body armor crafted from tungsten.",
   "shortdescription" : "Duskbringer Chestplate",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
-    "body" : "chestm.png",
+    "body" : "chest.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "chestf.png",
+    "body" : "chest.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },

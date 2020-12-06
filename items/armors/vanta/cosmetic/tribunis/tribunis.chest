@@ -1,12 +1,12 @@
 {
-  "itemName" : "vantaserfchest",
+  "itemName" : "tribunischest",
   "price" : 0,
   "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "category" : "chestarmour",
-  "description" : "This breastplate is fitted with behavior control modules to keep you in check.",
-  "shortdescription" : "Serf's Breastplate",
+  "description" : "A layered robe signifying dignity.",
+  "shortdescription" : "Tribunis Robes",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -17,7 +17,7 @@
 
   "femaleFrames" : {
     "body" : "chestf.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
+    "backSleeve" : "bsleevef.png",
+    "frontSleeve" : "fsleevef.png"
   }
 }

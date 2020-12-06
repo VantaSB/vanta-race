@@ -1,19 +1,19 @@
 {
-  "itemName" : "excursorchest",
-  "price" : 150,
+  "itemName" : "stealthtestchest",
+  "price" : 0,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
-  "category" : "chestarmour",
-  "description" : "A durable battle vest for weathering unknown terrain.",
-  "shortdescription" : "Excursor Gambeson",
+  "category" : "chestwear",
+  "description" : "A generic breastplate.",
+  "shortdescription" : "Generic Breastplate",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chest.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
-	},
+  },
 
   "femaleFrames" : {
     "body" : "chest.png",

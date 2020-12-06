@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "These robes are plain and unadorned.",
+  "description" : "Basic, lightweight armor durable enough to protect you from smaller threats.",
   "shortdescription" : "Vagabond's Robes",
   "tooltipKind" : "armor",
 

@@ -5,18 +5,18 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "chestarmour",
-  "description" : "Inspired by an equally elusive race as the Vanta, the Phantoma chest armor will keep you warm during the dark nights.",
+  "description" : "Bladed shoulders give the phantoma armor a somewhat aerodynamic edge.",
   "shortdescription" : "Phantoma Chestplate",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
 	},
 
   "femaleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },

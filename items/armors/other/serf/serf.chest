@@ -1,12 +1,12 @@
 {
-  "itemName" : "exiluschest",
-  "price" : 150,
+  "itemName" : "serfchest",
+  "price" : 0,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "--TBD--",
-  "shortdescription" : "Exilus Gambeson",
+  "description" : "This breastplate is fitted with behavior control modules to keep you in check.",
+  "shortdescription" : "Serf's Breastplate",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
