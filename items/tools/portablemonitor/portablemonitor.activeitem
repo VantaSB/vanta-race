@@ -6,7 +6,7 @@
   "category" : "Console",
   "inventoryIcon" : "icon.png",
   "twoHanded" : true,
-  "description" : "^green;[Fire]^reset;:Quests List\n^green;[Shift]^reset;:Research Tree\n^orange;[Alt Fire]^reset;: Mech Assembly\n^orange;[Shift]^reset;: Techs",
+  "description" : "^green;[Fire]^reset;: Quests List\n^green;[Shift]^reset;: Mech Assembly\n^green;[Alt Fire]^reset;: Techs",
   "shortdescription" : "Portable Monitor",
   "itemTags" : ["tool"],
   "tooltipKind" : "base",

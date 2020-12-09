@@ -3,7 +3,7 @@
   "price" : "1250",
   "level" : 7,
   "rarity" : "Essential",
-  "description" : "A scythe said to have been wielded by a legendary Nightar warrior known as the ^blue;Shadow Hunter^reset;.",
+  "description" : "Said to have been wielded by a legendary warrior known as the ^blue;Shadow Hunter^reset;.",
   "shortdescription" : "Dream Reaper",
   "tooltipKind" : "base",
   "category" : "axe",

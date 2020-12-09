@@ -1,0 +1,11 @@
+{
+  "itemName" : "vantaplatform",
+  "price" : 50,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "vantaplatformicon.png",
+  "description" : "A platform made using an advanced alloy.",
+  "shortdescription" : "Vanta Platform",
+
+  "materialId" : 3221
+}

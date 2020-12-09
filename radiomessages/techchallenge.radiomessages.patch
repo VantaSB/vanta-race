@@ -4,7 +4,7 @@
     "path" : "/techchallenge_stealth1",
     "value" : {
       "type" : "mission",
-      "text" : "To activate your cloaking, ^orange;double-tap^green; [W]^white;. Your movement will be somewhat hindered when moving. When cloaked, you are completely invisible to enemies, and certain tracking systems."
+      "text" : "To activate your cloaking, ^orange;double-tap^green; [W]^white;. Your movement will be somewhat hindered when moving. When cloaked, you are completely invisible to most enemies and certain tracking systems."
     }
   },
 
@@ -13,7 +13,7 @@
     "path" : "/techchallenge_stealth2",
     "value" : {
       "type" : "mission",
-      "text" : "Attacking while cloaked will give your first hit a major damage boost, but you become visible to your enemies. Time your attacks wisely and hide yourself again when you're able to."
+      "text" : "Some tracking devices have advanced systems, such as heat detection, and can detect you even while you are cloaked, with trip lasers and proximity sensors to name a few."
     }
   },
 
@@ -22,7 +22,7 @@
     "path" : "/techchallenge_stealth3",
     "value" : {
       "type" : "mission",
-      "text" : "You can mitigate energy usage, and in some cases, ^pink;recover energy while stealthed^white; by staying still and ^green;crouching^white;. The surrounding light levels will also affect your energy usage."
+      "text" : "Attacking while cloaked will give your first hit a major damage boost, but you become visible to your enemies. Time your attacks wisely and hide yourself again when you're able to."
     }
   },
 
@@ -31,7 +31,7 @@
     "path" : "/techchallenge_stealth4",
     "value" : {
       "type" : "mission",
-      "text" : "Some tracking devices have advanced systems, such as heat detection, and can detect you even while you are cloaked, with trip lasers and proximity sensors to name a few."
+      "text" : "You can mitigate energy usage, and in some cases, ^pink;recover energy while stealthed^white; by staying still and ^green;crouching^white;. The surrounding light levels will also affect your energy usage."
     }
   }
 ]
