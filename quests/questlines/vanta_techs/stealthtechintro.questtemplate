@@ -1,6 +1,6 @@
 {
   "id" : "stealthtechintro",
-  "prerequisites" : [],
+  "prerequisites" : [ "techscientist6" ],
   "title" : "^orange;A Shadow By Any Other Name",
   "text" : "Captain, I've been peering through some old records. It appears you may be able to adapt a sort of camouflage for yourself to hide yourself from your enemies. We'll need some basic materials to work with, but we should be able to start with ^orange;10 Dark Fragments^white;.",
   "completionText" : "Excellent work, Captain! Since we need a way to safely test it, I took the libterty of searching for a facility suitable enough for testing, and found an individual to aid us.",

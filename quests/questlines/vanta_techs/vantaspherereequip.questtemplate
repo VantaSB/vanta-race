@@ -2,7 +2,7 @@
   "id" : "vantasphereequip",
   "prerequisites" : [ "vantasphereresearch" ],
   "title" : "^orange;Balling On A Budget - Pt. 3",
-  "text" : "Remember our last discussion about how the cut of a diamond can increase its value? It's the same with your ^blue;Dark Crystals^white;. With a ^orange;Refinery^white;, most ores get processed into ^yellow;pixels^white;, but if you make certain adjustments, following this method, you can put a dark crystal into your refinery and come out with a ^orange;Pristine Dark Crystal^white;. Take the five dark crystals you created and process them in a refinery, and bring them back to me.",
+  "text" : "Remember I said how the cut of a diamond can increase its value? It's the same with your ^blue;Dark Crystals^white;. With a ^orange;Refinery^white;, most ores get processed into ^yellow;pixels^white;, but if you make certain adjustments, you can put a dark crystal into your refinery and come out with a ^orange;Pristine Dark Crystal^white;. Take the dark crystals you created, process them in a refinery, and bring them back to me.",
   "completionText" : "Now THAT is what I call perfection. With these, I can now enhance your ^orange;Distortion Sphere^white; tech to give you some slight firepower. Just a little tweak here, and... Voila; You're all set!",
   "moneyRange" : [250, 250],
   "rewards" : [
