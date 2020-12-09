@@ -1,0 +1,27 @@
+{
+  "type" : "stealthdummy",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/cultist.config:attack"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "stealthtesthead" } ],
+            "chest" : [ { "name" : "stealthtestchest" } ],
+            "legs" : [ { "name" : "stealthtestpants" } ],
+            "primary" : [ "weatheredpicohandgun" ]
+          }
+        ] ]
+    ]
+  }
+}
