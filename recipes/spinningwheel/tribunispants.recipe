@@ -4,6 +4,6 @@
     { "item" : "cottonwool", "count" : 1 }
   ],
   "duration" : 5,
-  "output" : { "item" : "exiluspants", "count" : 1 },
+  "output" : { "item" : "tribunispants", "count" : 1 },
   "groups" : [ "craftingwheel", "clothes" ]
 }

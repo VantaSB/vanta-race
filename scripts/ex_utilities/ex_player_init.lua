@@ -1,7 +1,6 @@
-
 local origInit = init
 local origUninit = uninit
-local checkingMod = "ztarbound"
+--local checkingMod = "ztarbound"
 
 -- Prevent the script from being called twice if it was patched into the player more than once for some reason
 exInited = false
@@ -12,8 +11,8 @@ function init()
 	if exInited then return end
 	exInited = true
 
-	sb.logInfo("----- ex_utilities player init -----")
-	status.setStatusProperty("ex_updatewindow_error", nil)
+	--sb.logInfo("----- ex_utilities player init -----")
+	--[[status.setStatusProperty("ex_updatewindow_error", nil)
 
 	-- popping up the update window in a safe enviorment so everything else runs as it should in case of errors with the versioning file
 	local passed, err = pcall(updateInfoWindow)
@@ -21,7 +20,7 @@ function init()
 		sb.logError("Pop-up window:\n%s", err)
 		status.setStatusProperty("ex_updatewindow_error", checkingMod)
 		player.interact("ScriptPane", "/interface/scripted/updateswindow/updateswindow_error.config", player.id())
-	end
+	end]]
 
 	-- Add the scan interaction handler if its missing
 	if not player.hasQuest("ex_scaninteraction") then
@@ -29,14 +28,14 @@ function init()
 		player.startQuest("ex_scaninteraction")
 	end
 
-	-- require "/ex/ex_util.lua"
-	-- exutil.DeepPrintTable(player)
+	 require "/ex/ex_util.lua"
+	 exutil.DeepPrintTable(player)
 
-	sb.logInfo("")
+	--sb.logInfo("")
 end
 
-function updateInfoWindow()
-	status.setStatusProperty("ex_updatewindow_pending", nil)
+--[[function updateInfoWindow()
+	--[[status.setStatusProperty("ex_updatewindow_pending", nil)
 	local data = root.assetJson("/ex/updateInfoWindow/data.config")
 	local versions = status.statusProperty("ex_updatewindow_versions", {})
 	local world = world.type()
@@ -46,7 +45,7 @@ function updateInfoWindow()
 		if world == instance then return end
 	end
 
-	sb.logInfo("Mods using update info window and their versions:")
+	--[[sb.logInfo("Mods using update info window and their versions:")
 	for mod, modData in pairs(data) do
 		checkingMod = mod
 		if mod ~= "Data" then
@@ -67,7 +66,7 @@ function updateInfoWindow()
 	else
 		status.setStatusProperty("ex_updatewindow_pending", nil)
 	end
-end
+end]]
 
 function uninit()
 	origUninit()

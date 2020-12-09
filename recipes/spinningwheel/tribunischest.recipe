@@ -4,6 +4,6 @@
     { "item" : "cottonwool", "count" : 1 }
   ],
   "duration" : 5,
-  "output" : { "item" : "excursorchest", "count" : 1 },
+  "output" : { "item" : "tribunischest", "count" : 1 },
   "groups" : [ "craftingwheel", "clothes" ]
 }

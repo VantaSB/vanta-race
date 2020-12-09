@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "variaaugment1", "count" : 1 },
-    { "item" : "phasematter", "count" : 2 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "variaaugment2", "count" : 1 },
-  "groups" : [ "nanobench", "eppAugment", "all" ]
-}
