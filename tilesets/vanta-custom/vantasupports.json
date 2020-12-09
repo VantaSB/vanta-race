@@ -3,7 +3,7 @@
   "name" : "vanta/supports",
   "properties" : {},
   "spacing" : 0,
-  "tilecount" : 1,
+  "tilecount" : 2,
   "tileheight" : 16,
   "tileproperties" : {
     "0" : {
@@ -11,12 +11,21 @@
       "//name" : "nightarplatform",
       "//shortdescription" : "Nightar Platform",
       "material" : "nightarplatform"
+    },
+    "1" : {
+      "//description" : "A platform made using advanced alloys.",
+      "//name" : "vantaplatform",
+      "//shortdescription" : "vanta Platform",
+      "material" : "vantaplatform"
     }
   },
 
   "tiles" : {
     "0" : {
       "image" : "../../tiled/vanta-custom/materials/nightarplatform.png"
+    },
+    "1" : {
+      "image" : "../../tiled/vanta-custom/materials/vantaplatform.png"
     }
   },
 

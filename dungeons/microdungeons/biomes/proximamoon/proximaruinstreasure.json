@@ -57,7 +57,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":7693,
+                 "gid":7697,
                  "height":24,
                  "id":695,
                  "name":"",
@@ -508,11 +508,11 @@
          "source":"..\/..\/..\/..\/tilesets\/vanta-custom\/vantamaterials.json"
         }, 
         {
-         "firstgid":7686,
+         "firstgid":7689,
          "source":"..\/..\/..\/..\/tilesets\/vanta-custom\/vantasupports.json"
         }, 
         {
-         "firstgid":7687,
+         "firstgid":7691,
          "source":"..\/..\/..\/..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }],
  "tilewidth":8,

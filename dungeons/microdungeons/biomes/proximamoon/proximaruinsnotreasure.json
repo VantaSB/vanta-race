@@ -1,5 +1,12 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":60,
  "infinite":false,
  "layers":[
@@ -432,11 +439,11 @@
          "source":"..\/..\/..\/..\/tilesets\/vanta-custom\/vantamaterials.json"
         }, 
         {
-         "firstgid":7686,
+         "firstgid":7689,
          "source":"..\/..\/..\/..\/tilesets\/vanta-custom\/vantasupports.json"
         }, 
         {
-         "firstgid":7687,
+         "firstgid":7691,
          "source":"..\/..\/..\/..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }],
  "tilewidth":8,
