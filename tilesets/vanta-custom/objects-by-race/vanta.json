@@ -8,7 +8,7 @@
   "margin" : 0,
   "name" : "vanta/objects",
   "spacing" : 0,
-  "tilecount" : 41,
+  "tilecount" : 46,
   "tileheight" : 75,
   "tileproperties" : {
     "0" : {
@@ -372,12 +372,58 @@
       "tilesetDirection" : "right"
     },
     "40" : {
-      "//description" : "...",
-      "//name" : "vantaspawnerguard",
-      "//shortdescription" : "Guard Spawner",
+      "//description" : "A Vanta wall light.",
+      "//name" : "vantalight_orientation0",
+      "//shortdescription" : "Vanta Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantalight",
+      "tilesetDirection" : "right"
+    },
+    "41" : {
+      "//description" : "A Vanta wall light.",
+      "//name" : "vantalight_orientation1",
+      "//shortdescription" : "Vanta Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantalight",
+      "tilesetDirection" : "right"
+    },
+    "42" : {
+      "//description" : "A Vanta wall light.",
+      "//name" : "vantalight_orientation2",
+      "//shortdescription" : "Vanta Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantalight",
+      "tilesetDirection" : "right"
+    },
+    "43" : {
+      "//description" : "A Vanta wall light.",
+      "//name" : "vantalight_orientation3",
+      "//shortdescription" : "Vanta Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantalight",
+      "tilesetDirection" : "right"
+    },
+    "44" : {
+      "//description" : "A Vanta wall light.",
+      "//name" : "vantalight_orientation4",
+      "//shortdescription" : "Vanta Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantalight",
+      "tilesetDirection" : "right"
+    },
+    "45" : {
+      "//description" : "A small turquoise light.",
+      "//name" : "vantashiplight",
+      "//shortdescription" : "Vanta Ship Light",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "vantaspawnerguard"
+      "object" : "vantashiplight",
+      "tilesetDirection" : "right"
     }
   },
   "tilepropertytypes" : {
@@ -708,6 +754,46 @@
       "imagePositionX" : "string",
       "imagePositionY" : "string",
       "object" : "string"
+    },
+    "41" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "42" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "43" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "44" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "45" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
     }
   },
   "tiles" : {
@@ -903,8 +989,8 @@
     },
     "38" : {
       "image" : "../../../tiled/vanta-custom/objects/nightartinywallswitch.png",
-      "imageheight" : 16,
-      "imagewidth" : 16
+      "imageheight" : 8,
+      "imagewidth" : 8
     },
     "39" : {
       "image" : "../../../tiled/vanta-custom/objects/nightartoilet.png",
@@ -912,8 +998,33 @@
       "imagewidth" : 16
     },
     "40" : {
-      "image" : "../../../tiled/vanta-custom/objects/vanta_spawner_guard.png",
-      "imageheight" : 40,
+      "image" : "../../../tiled/vanta-custom/objects/vantalight_0.png",
+      "imageheight" : 12,
+      "imagewidth" : 8
+    },
+    "41" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantalight_1.png",
+      "imageheight" : 12,
+      "imagewidth" : 8
+    },
+    "42" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantalight_2.png",
+      "imageheight" : 12,
+      "imagewidth" : 8
+    },
+    "43" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantalight_3.png",
+      "imageheight" : 12,
+      "imagewidth" : 8
+    },
+    "44" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantalight_4.png",
+      "imageheight" : 12,
+      "imagewidth" : 8
+    },
+    "45" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantashiplight.png",
+      "imageheight" : 8,
       "imagewidth" : 16
     }
   },
