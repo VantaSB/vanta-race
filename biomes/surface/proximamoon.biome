@@ -83,7 +83,7 @@
 
   "ores" : "proximasurface",
 
-  "parallax" : "/parallax/surface/midnight.parallax",
+  "parallax" : "/parallax/surface/proximamoon.parallax",
 
   "ambientNoises" : {
     "day" : {
