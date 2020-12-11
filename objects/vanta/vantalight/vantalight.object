@@ -1,13 +1,13 @@
 {
-  "objectName" : "nightarlight",
-  "colonyTags" : ["light","nightar"],
+  "objectName" : "vantalight",
+  "colonyTags" : ["light","vanta"],
   "rarity" : "Common",
   "category" : "light",
-  "lightColor" : [148, 232, 186],
+  "lightColor" : [60, 197, 220],
   "price" : 75,
-  "description" : "A Nightar wall light",
-  "shortdescription" : "Nightar Light",
-  "race" : "nightar",
+  "description" : "A Vanta wall light",
+  "shortdescription" : "Vanta Light",
+  "race" : "vanta",
 
   "apexDescription" : "This light's design is similar to what you would see around an Apex laboratory.",
   "avianDescription" : "What a radiant light.",
@@ -19,14 +19,14 @@
   "vantaDescription" : "We keep a running theme, even with our lights.",
 
 
-  "inventoryIcon" : "nightarlighticon.png",
+  "inventoryIcon" : "vantalighticon.png",
   "orientations" : [
     {
-      "image" : "nightarlightbackground.png:<color>.<frame>",
+      "image" : "vantalightbackground.png:<color>.<frame>",
       "direction" : "right",
       "animationParts" : {
-        "bg" : "nightarlightbackground.png",
-        "fg" : "nightarlightbackgroundlit.png"
+        "bg" : "vantalightbackground.png",
+        "fg" : "vantalightbackgroundlit.png"
       },
 
       "imagePosition" : [0, 0],
@@ -37,11 +37,11 @@
     },
 
     {
-      "image" : "nightarlightceiling.png:<color>.<frame>",
+      "image" : "vantalightceiling.png:<color>.<frame>",
       "direction" : "right",
       "animationParts" : {
-        "bg" : "nightarlightceiling.png",
-        "fg" : "nightarlightceilinglit.png"
+        "bg" : "vantalightceiling.png",
+        "fg" : "vantalightceilinglit.png"
       },
 
       "imagePosition" : [0, -4],
@@ -52,11 +52,11 @@
     },
 
     {
-      "image" : "nightarlightleft.png:<color>.<frame>",
+      "image" : "vantalightleft.png:<color>.<frame>",
       "direction" : "right",
       "animationParts" : {
-        "bg" : "nightarlightleft.png",
-        "fg" : "nightarlightleftlit.png"
+        "bg" : "vantalightleft.png",
+        "fg" : "vantalightleftlit.png"
       },
       "imagePosition" : [0, 0],
       "animationPosition" : [0, 0],
@@ -66,11 +66,11 @@
     },
 
     {
-      "image" : "nightarlightright.png:<color>.<frame>",
+      "image" : "vantalightright.png:<color>.<frame>",
       "direction" : "right",
       "animationParts" : {
-        "bg" : "nightarlightright.png",
-        "fg" : "nightarlightrightlit.png"
+        "bg" : "vantalightright.png",
+        "fg" : "vantalightrightlit.png"
       },
 
       "imagePosition" : [0, 0],
@@ -81,11 +81,11 @@
     },
 
     {
-      "image" : "nightarlightground.png:<color>.<frame>",
+      "image" : "vantalightground.png:<color>.<frame>",
       "direction" : "right",
       "animationParts" : {
-        "bg" : "nightarlightground.png",
-        "fg" : "nightarlightgroundlit.png"
+        "bg" : "vantalightground.png",
+        "fg" : "vantalightgroundlit.png"
       },
 
       "imagePosition" : [0, 0],
@@ -96,11 +96,11 @@
     },
 
     {
-      "image" : "nightarlightbackground.png:<color>.<frame>",
+      "image" : "vantalightbackground.png:<color>.<frame>",
       "direction" : "right",
       "animationParts" : {
-        "bg" : "nightarlightbackground.png",
-        "fg" : "nightarlightbackgroundlit.png"
+        "bg" : "vantalightbackground.png",
+        "fg" : "vantalightbackgroundlit.png"
       },
 
       "imagePosition" : [0, 0],
@@ -115,8 +115,8 @@
 
   "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
   "animationParts" : {
-    "bg" : "nightarlightbackground.png",
-    "fg" : "nightarlightbackgroundlit.png"
+    "bg" : "vantalightbackground.png",
+    "fg" : "vantalightbackgroundlit.png"
   },
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
