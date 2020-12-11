@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "level" : 5,
   "rarity" : "Rare",
-  "description" : "A compact Ceruleum-based machine pistol.",
+  "description" : "A compact, ceruleum-enhanced machine pistol.",
   "shortdescription" : "Vanta Machine Pistol",
   "category" : "uniqueWeapon",
   "tooltipKind" : "gun",
@@ -39,7 +39,7 @@
     "class" : "GunFire",
 
     "fireTime" : 0.13,
-    "baseDps" : 6.5,
+    "baseDps" : 19.4,
     "energyUsage" : 20,
     "inaccuracy" : 0.05,
     "projectileCount" : 1,

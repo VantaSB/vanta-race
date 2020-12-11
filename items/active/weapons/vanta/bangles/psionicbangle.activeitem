@@ -1,17 +1,17 @@
 {
-  "itemName" : "vantapsibangle",
-  "level" : 6,
-  "price" : 0,
+  "itemName" : "psibangle",
+  "level" : 3,
+  "price" : 250,
   "maxStack" : 1,
-  "rarity" : "Essential",
-  "description" : "A modular bangle that amplifies psionic abilities. It packs a punch!",
+  "rarity" : "Uncommon",
+  "description" : "A bangle amplifying your psionic abilities.",
   "shortdescription" : "Psionic Bangle",
   "tooltipKind" : "base",
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : [ "weapon" ],
 
-  "inventoryIcon" : "vantapsibangle.png",
+  "inventoryIcon" : "bangle.png",
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
@@ -39,11 +39,11 @@
     "fireTime" : 0.67,
     "baseDps" : 18.9,
     "energyUsage" : 30,
-    "inaccuracy" : 0.00,
+    "inaccuracy" : 0,
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "ceruleumplasmarocket",
+    "projectileType" : "psishot",
     "projectileParameters" : {
       "knockback" : 20
     },

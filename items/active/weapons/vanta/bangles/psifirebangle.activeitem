@@ -1,0 +1,83 @@
+{
+  "itemName" : "psifirebangle",
+  "level" : 4,
+  "price" : 275,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A bangle amplifying your psionic abilities, enhanced with ^orange;fire^reset;.",
+  "shortdescription" : "Psionic Bangle [^orange;F^reset;]",
+  "tooltipKind" : "base",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon" ],
+
+  "inventoryIcon" : "bangle.png",
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/objects/crystaltrap_off.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0, 0],
+  "muzzleOffset" : [0, 0],
+
+  "scripts" : [ "/items/active/weapons/ranged/gun.lua" ],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : [ "/items/active/weapons/ranged/gunfire.lua" ],
+    "class" : "GunFire",
+    "fireTime" : 0.67,
+    "baseDps" : 18.9,
+    "energyUsage" : 30,
+    "inaccuracy" : 0,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "psifireshot",
+    "projectileParameters" : {
+      "knockback" : 20
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

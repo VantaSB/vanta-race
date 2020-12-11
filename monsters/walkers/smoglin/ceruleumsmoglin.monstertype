@@ -130,9 +130,9 @@
       "damage" : 10,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "poison",
+      "damageSourceKind" : "ice",
       "knockback" : 20,
-      "statusEffects" : [ "weakpoison" ]
+      "statusEffects" : [ "frostslow" ]
     },
 
     "metaBoundBox" : [-4, -4, 4, 4],

@@ -1,8 +1,8 @@
 {
-  "projectileName" : "psishot",
+  "projectileName" : "psiiceshot",
   "physics" : "laser",
   "bounces" : 0,
-  "image" : "psishot.png",
+  "image" : "psiiceshot.png",
   "flippable" : false,
   "fullbright" : true,
   "animationCycle" : 0.3,
@@ -19,5 +19,5 @@
   ],
   "emitters" : [ ],
   "damageKind" : "plasmabullet",
-  "statusEffects" : [ ]
+  "statusEffects" : [ "frostslow" ]
 }

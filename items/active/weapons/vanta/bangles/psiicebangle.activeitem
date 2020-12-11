@@ -1,17 +1,17 @@
 {
-  "itemName" : "weatheredbangle",
-  "level" : 1,
-  "price" : 0,
+  "itemName" : "psiicebangle",
+  "level" : 4,
+  "price" : 275,
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "A bangle that amplifies psionic abilities, though it is considerably weathered.",
-  "shortdescription" : "Weathered Bangle",
+  "rarity" : "Uncommon",
+  "description" : "A bangle amplifying your psionic abilities, enhanced with ^cyan;ice^reset;.",
+  "shortdescription" : "Psionic Bangle [^cyan;I^reset;]",
   "tooltipKind" : "base",
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : [ "weapon" ],
 
-  "inventoryIcon" : "weatheredbangle.png",
+  "inventoryIcon" : "bangle.png",
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
@@ -31,19 +31,19 @@
 
   "scripts" : [ "/items/active/weapons/ranged/gun.lua" ],
 
-  "elementalType" : "physical",
+  "elementalType" : "ice",
 
   "primaryAbility" : {
     "scripts" : [ "/items/active/weapons/ranged/gunfire.lua" ],
     "class" : "GunFire",
-    "fireTime" : 0.84,
-    "baseDps" : 7.6,
-    "energyUsage" : 10,
-    "inaccuracy" : 0.23,
+    "fireTime" : 0.67,
+    "baseDps" : 18.9,
+    "energyUsage" : 30,
+    "inaccuracy" : 0,
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "psipulse",
+    "projectileType" : "psiiceshot",
     "projectileParameters" : {
       "knockback" : 20
     },

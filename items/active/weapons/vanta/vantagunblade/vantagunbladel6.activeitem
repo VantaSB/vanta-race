@@ -1,33 +1,33 @@
 {
-  "itemName" : "vantagunblade",
+  "itemName" : "vantagunbladel6",
   "price" : 5000,
-  "level" : 5,
+  "level" : 7,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Essential",
   "description" : "A very intricate weapon seen mostly among the Vanta.",
-  "shortdescription" : "Vanta Bayonet",
+  "shortdescription" : "Vanta Bayonet ^yellow;^reset;",
   "tooltipKind" : "sword",
   "category" : "gunblade",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword","upgradeableWeapon"],
+  "itemTags" : ["weapon","melee","broadsword"],
 
-  "inventoryIcon" : "vantagunblade.png",
+  "inventoryIcon" : "vantagunbladel6.png",
 
   "animation" : "vantagunblade.animation",
   "animationParts" : {
-    "handle" : "",
-    "blade" : "vantagunblade.png"
+    "handle" : "vantagunbladel6lit.png",
+    "blade" : "vantagunbladel6.png"
   },
   "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "ceruleum",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.84,
-    "baseDps" : 17.2,
+    "fireTime" : 0.72,
+    "baseDps" : 18.4,
 
     "stances" : {
       "idle" : {
@@ -42,7 +42,7 @@
     }
   },
 
-  "altAbilityType" : "darkslice",
+  "altAbilityType" : "infusedcharge",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
