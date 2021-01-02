@@ -31,5 +31,176 @@
         }
       }
     }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/nightfort",
+    "value" : {
+      "type" : "FloatingDungeon",
+      "dungeonWorld" : "nightfort",
+      "seed" : 1234,
+      "spawningEnabled" : false,
+      "beamUpRule" : "AnywhereWithWarning",
+      "disableDeathDrops" : true,
+
+      "skyParameters" : {
+        "dayLength" : 10000,
+        "surfaceLevel" : 1000,
+        "spaceLevel" : 3000,
+        "seed" : -5288806180628666923,
+
+        "skyType" : "atmospheric",
+        "skyColoring" : {
+          "mainColor" : [200, 200, 255],
+
+          "morningColors" : [ [120, 125, 200], [230, 150, 85] ],
+          "dayColors" : [ [120, 125, 200], [230, 150, 85] ],
+          "eveningColors" : [ [120, 125, 200], [230, 150, 85] ],
+          "nightColors" : [ [120, 125, 200], [230, 150, 85] ],
+
+          "morningLightColor" : [120, 140, 200],
+          "dayLightColor" : [120, 140, 200],
+          "eveningLightColor" : [120, 140, 200],
+          "nightLightColor" : [120, 140, 200]
+        },
+        "satellites" : [ {
+          "pos" : [ 0.310561, 0.35497 ],
+          "layers" : [ {
+            "scale" : 0.055,
+            "image" : "/celestial/system/terrestrial/liquids/water.png"
+          }, {
+            "scale" : 0.055,
+            "image" : "/celestial/system/terrestrial/biomes/forest/maskie3.png?hueshift=-45?addmask=/celestial/system/terrestrial/dynamics/temperate/2.png"
+          }, {
+            "scale" : 0.055,
+            "image" : "/celestial/system/terrestrial/biomes/forest/maskie2.png?hueshift=-45?addmask=/celestial/system/terrestrial/dynamics/temperate/20.png"
+          }, {
+            "scale" : 0.055,
+              "image" : "/celestial/system/terrestrial/biomes/forest/maskie1.png?hueshift=-45?addmask=/celestial/system/terrestrial/dynamics/temperate/5.png"
+          }, {
+            "scale" : 0.055,
+              "image" : "/celestial/system/terrestrial/shadows/9.png"
+          } ]
+        } ],
+        "planet" : {
+          "pos" : [ 0.00538729, 0.46961 ],
+          "layers" : [ {
+            "scale" : 0.15,
+            "image" : "/celestial/system/gas_giant/gas_giant_base.png?hueshift=-80"
+          }, {
+            "scale" : 0.15,
+            "image" : "/celestial/system/gas_giant/gas_giant_clouds_0.png?hueshift=-70?addmask=/celestial/system/gas_giant/gas_giant_dynamics/3.png+/celestial/system/gas_giant/gas_giant_dynamics/29.png"
+          }, {
+            "scale" : 0.15,
+            "image" : "/celestial/system/gas_giant/gas_giant_clouds_1.png?hueshift=-77?addmask=/celestial/system/gas_giant/gas_giant_dynamics/28.png+/celestial/system/gas_giant/gas_giant_dynamics/29.png"
+          }, {
+            "scale" : 0.15,
+            "image" : "/celestial/system/gas_giant/shadows/9.png"
+          } ]
+        },
+        "horizonImages" : [ ]
+      }
+    }
+  },
+
+// The following patches below are for testing proxima moons as procedurally-generated terrestrial instances, akin to the Ruin and Cyberspace instances.
+  {
+    "op" : "add",
+    "path" : "/warp_citadel",
+    "value" : {
+      "type" : "FloatingDungeon",
+      "dungeonWorld" : "warp_citadel",
+      "seed" : 1234,
+      "spawningEnabled" : false,
+      "beamUpRule" : "Anywhere",
+      "disableDeathDrops" : true,
+
+      "worldProperties" : {
+        "nonCombat" : true
+      },
+
+      "skyParameters" : {
+        "spaceLevel" : 3000,
+        "seed" : -5288806180628666923,
+        "ambientLightLevel" : [ 24, 28, 24 ],
+        "satellites" : [ {
+          "pos" : [ 0.75, 0.5 ],
+          "layers" : [ {
+            "scale" : 0.10,
+            "image" : "/celestial/system/terrestrial/liquids/water.png"
+          }, {
+            "scale" : 0.10,
+            "image" : "/celestial/system/terrestrial/biomes/jungle/maskie3.png?hueshift=75?addmask=/celestial/system/terrestrial/dynamics/temperate/22.png"
+          }, {
+            "scale" : 0.10,
+            "image" : "/celestial/system/terrestrial/biomes/jungle/maskie2.png?hueshift=75?addmask=/celestial/system/terrestrial/dynamics/temperate/24.png"
+          }, {
+            "scale" : 0.10,
+            "image" : "/celestial/system/terrestrial/biomes/jungle/maskie1.png?hueshift=75?addmask=/celestial/system/terrestrial/dynamics/temperate/2.png"
+          }, {
+            "scale" : 0.10,
+            "image" : "/celestial/system/terrestrial/shadows/3.png"
+          } ]
+        } ],
+        "planet" : {
+          "pos" : [ 0.46, 0.46 ],
+          "layers" : [ {
+            "scale" : 0.17,
+            "image" : "/celestial/system/gas_giant/gas_giant_base.png?hueshift=230"
+          }, {
+            "scale" : 0.17,
+            "image" : "/celestial/system/gas_giant/gas_giant_clouds_0.png?hueshift=220?addmask=/celestial/system/gas_giant/gas_giant_dynamics/3.png+/celestial/system/gas_giant/gas_giant_dynamics/29.png"
+          }, {
+            "scale" : 0.17,
+            "image" : "/celestial/system/gas_giant/gas_giant_clouds_1.png?hueshift=223?addmask=/celestial/system/gas_giant/gas_giant_dynamics/28.png+/celestial/system/gas_giant/gas_giant_dynamics/29.png"
+          }, {
+            "scale" : 0.17,
+            "image" : "/celestial/system/gas_giant/shadows/3.png"
+          } ]
+        },
+        "skyType" : "barren",
+        "horizonImages" : [ ],
+        "dayLength" : 1153.36,
+        "surfaceLevel" : 1200
+      }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/proxima",
+    "value" : {
+      "type" : "Terrestrial",
+      "seed" : 1234,
+      "planetType" : "proximamoon",
+      "planetSize" : "small",
+      "beamUpRule" : "Anywhere",
+      "disableDeathDrops" : false,
+
+      "skyParameters" : {
+        "spaceLevel" : 3000,
+        "ambientLightLevel" : [ 24, 28, 24 ],
+        "skyType" : "atmospheric",
+        "skyColoring" : {
+          "mainColor" : [25, 25, 25],
+
+          "morningColors" : [ [5, 25, 33], [5, 25, 33] ],
+          "dayColors" : [ [5, 25, 33], [5, 25, 33] ],
+          "eveningColors" : [ [5, 25, 33], [5, 25, 33] ],
+          "nightColors" : [ [5, 25, 33], [5, 25, 33] ],
+
+          "morningLightColor" : [5, 25, 33],
+          "dayLightColor" : [5, 25, 33],
+          "eveningLightColor" : [5, 25, 33],
+          "nightLightColor" : [5, 25, 33]
+        },
+        "satellites" : [],
+        "horizonImages" : [ ],
+        "dayLength" : 100000,
+        "surfaceLevel" : 1200,
+        "seed" : -5288806180628666923
+      }
+    }
   }
 ]

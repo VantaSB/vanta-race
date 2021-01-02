@@ -15,5 +15,41 @@
       "overrideTech" : ["vantastealth1"],
       "environmentStatusEffects" : ["dontstarve"]
     }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/nightfort",
+    "value" : {
+      "primaryDungeon" : "nightfort",
+      "weatherPool" : [
+        [ 1.0, "snowstorm" ]
+      ],
+      "threatLevel" : 7,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1000,
+      "dungeonSurfaceHeight" : 810,
+      "ambientLightLevel" : [32, 32, 32],
+      "ambientNoises" : "/sfx/environmental/tundra_night.ogg",
+      "musicTrack" : "/music/crystal-battle1-loop.ogg",
+      "environmentStatusEffects" : [ "dontstarve" ],
+      "biome" : "snow"
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/warp_citadel",
+    "value" : {
+      "primaryDungeon" : "warp_citadel",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1000,
+      "ambientLightLevel" : [128, 128, 128],
+      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+      "musicTrack" : "/music/tentacle-exploration1.ogg"
+    }
   }
 ]

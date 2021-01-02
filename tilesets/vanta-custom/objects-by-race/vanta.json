@@ -8,7 +8,7 @@
   "margin" : 0,
   "name" : "vanta/objects",
   "spacing" : 0,
-  "tilecount" : 46,
+  "tilecount" : 51,
   "tileheight" : 75,
   "tileproperties" : {
     "0" : {
@@ -424,6 +424,51 @@
       "imagePositionY" : "0",
       "object" : "vantashiplight",
       "tilesetDirection" : "right"
+    },
+    "46" : {
+      "//description" : "A door suitable for a spaceship.",
+      "//name" : "nightarshipdoor",
+      "//shortdescription" : "Nightar Ship Door",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "0",
+      "object" : "nightarshipdoor",
+      "tilesetDirection" : "right"
+    },
+    "47" : {
+      "//description" : "A hatch suitable for a spaceship.",
+      "//name" : "nightarshiphatch",
+      "//shortdescription" : "Nightar Ship Hatch",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-24",
+      "object" : "nightarshiphatch",
+      "tilesetDirection" : "right"
+    },
+    "48" : {
+      "//description" : "A portal leading to who knows where...",
+      "//name" : "darkgate",
+      "//shortdescription" : "Dark Gate",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "darkgate",
+      "tilesetDirection" : "right"
+    },
+    "49" : {
+      "//description" : "A portal leading to who knows where...",
+      "//name" : "darkgatewarp",
+      "//shortdescription" : "Dark Gate",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "darkgatewarp",
+      "tilesetDirection" : "right"
+    },
+    "50" : {
+      "//description" : "A type of reactor powering a major part of a structure.",
+      "//name" : "nightarpowercore",
+      "//shortdescription" : "Nightar Power Core",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "nightarpowercore",
+      "tilesetDirection" : "right"
     }
   },
   "tilepropertytypes" : {
@@ -794,6 +839,46 @@
       "imagePositionX" : "string",
       "imagePositionY" : "string",
       "object" : "string"
+    },
+    "46" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "47" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "48" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "49" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "50" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
     }
   },
   "tiles" : {
@@ -1026,6 +1111,31 @@
       "image" : "../../../tiled/vanta-custom/objects/vantashiplight.png",
       "imageheight" : 8,
       "imagewidth" : 16
+    },
+    "46" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarshipdoor.png",
+      "imageheight" : 48,
+      "imagewidth" : 40
+    },
+    "47" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarshiphatch.png",
+      "imageheight" : 40,
+      "imagewidth" : 44
+    },
+    "48" : {
+      "image" : "../../../tiled/vanta-custom/objects/darkgate.png",
+      "imageheight" : 24,
+      "imagewidth" : 24
+    },
+    "49" : {
+      "image" : "../../../tiled/vanta-custom/objects/darkgate.png",
+      "imageheight" : 24,
+      "imagewidth" : 24
+    },
+    "50" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarpowercore.png",
+      "imageheight" : 40,
+      "imagewidth" : 24
     }
   },
   "tilewidth" : 65,

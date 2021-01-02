@@ -1,5 +1,5 @@
 {
-  "objectName" : "darkgate",
+  "objectName" : "darkgatewarp",
   "colonyTags" : [],
   "rarity" : "Legendary",
   "category" : "other",
@@ -40,6 +40,12 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
 
+      "collision" : null,
+      "collisionSpaces" : [
+        [-1, 1], [-1, 0], [-1, -1],
+        [0, 1], [0, 0], [0, -1],
+        [1, 1], [1, 0], [1, -1]
+      ],
       "detectArea" : [ [-0.3, 0], [4, 5] ]
     },
 
@@ -56,9 +62,24 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
 
+      "collision" : null,
+      "collisionSpaces" : [
+        [-1, 1], [-1, 0], [-1, -1],
+        [0, 1], [0, 0], [0, -1],
+        [1, 1], [1, 0], [1, -1]
+      ],
       "detectArea" : [ [-0.3, 0], [4, 5] ]
     }
   ],
 
-  "animation" : "darkgate.animation"
+  "animation" : "darkgate.animation",
+
+  "scripts" : ["/objects/other/darkgate/darkgate.lua"],
+  "scriptDelta" : 20,
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/darkgatew.config",
+
+  "inactiveInteractAction" : "ScriptPane",
+  "inactiveInteractData" : "/interface/scripted/darkgateactivate/darkgateactivate.config"
 }

@@ -1,0 +1,32 @@
+{
+  "objectName" : "nightarpowercore",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1000,
+  "printable" : false,
+  "description" : "A type of advanced reactor powering a major part of a structure.",
+  "shortdescription" : "Nightar Power Core",
+  "race" : "generic",
+
+  "inventoryIcon" : "icon.png",
+  "lightColor" : [131, 218, 233],
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "nightarpowercore.png:default.<frame>", "fullbright" : true }, { "image" : "nightarpowercore2.png:default.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "lightPosition" : [0, 3],
+
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animationPosition" : [-8, 0]
+}

@@ -3,7 +3,7 @@
   "name" : "vanta/materials",
   "properties" : {},
   "spacing" : 0,
-  "tilecount" : 18,
+  "tilecount" : 19,
   "tileheight" : 16,
   "tileproperties" : {
     "0" : {
@@ -130,6 +130,13 @@
       "//name" : "lightlessrock",
       "//shortdescription" : "Lightless Rock",
       "material" : "lightlessrock"
+    },
+
+    "18" : {
+      "//description" : "A curious material made of \"Hard Light\".",
+      "//name" : "nightarslopedpolygon",
+      "//shortdescription" : "Nightar Polygon Panel",
+      "material" : "nightarslopedpolygon"
     }
   },
 
@@ -204,6 +211,10 @@
 
     "17" : {
       "image" : "../../tiled/vanta-custom/materials/lightlessrock.png"
+    },
+
+    "18" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarslopedpolygon.png"
     }
   },
 

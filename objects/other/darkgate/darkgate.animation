@@ -46,9 +46,17 @@
         },
 
         "partStates" : {
-          "on" : {
-            "properties" : {
-              "image" : "<partImage>:default.<frame>"
+          "orb" : {
+            "on" : {
+              "properties" : {
+                "image" : "/objects/other/darkgate/orb.png:default.<frame>"
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "/objects/other/darkgate/orb.png:default.off"
+              }
             }
           }
         }
@@ -59,23 +67,25 @@
           "centered" : true,
           "zLevel" : 1,
           "fullbright" : true,
-          "offset" : [0.0, 15.0]
+          "offset" : [0.0, 5.0]
         },
 
         "partStates" : {
-          "open" : {
-            "properties" : {
-              "image" : "<partImage>:open.<frame>"
-            }
-          },
-          "openloop" : {
-            "properties" : {
-              "image" : "<partImage>:openloop.<frame>"
-            }
-          },
-          "close" : {
-            "properties" : {
-              "image" : "<partImage>:close.<frame>"
+          "portal" : {
+            "open" : {
+              "properties" : {
+                "image" : "/objects/other/darkgate/portal.png:open.<frame>"
+              }
+            },
+            "openloop" : {
+              "properties" : {
+                "image" : "/objects/other/darkgate/portal.png:openloop.<frame>"
+              }
+            },
+            "close" : {
+              "properties" : {
+                "image" : "/objects/other/darkgate/portal.png:close.<frame>"
+              }
             }
           }
         }

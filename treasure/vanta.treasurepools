@@ -38,5 +38,65 @@
         [0.05, 3]
       ]
     }]
+  ],
+
+  "ceruleumSmoglinTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
+        {"weight" : 0.200, "item" : "psifrost"},
+        {"weight" : 0.001, "item" : "smoglinaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "ceruleumPteropodTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
+        {"weight" : 0.200, "item" : "psipoison"},
+        {"weight" : 0.001, "item" : "pteropodaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "ceruleumScaveranTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.799, "pool" : "flyingMonsterTreasure"},
+        {"weight" : 0.200, "item" : "psiflame"},
+        {"weight" : 0.001, "item" : "scaveranaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "ceruleumMonopusTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
+        {"weight" : 0.200, "item" : "psishock"},
+        {"weight" : 0.001, "item" : "monopusaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
   ]
  }
