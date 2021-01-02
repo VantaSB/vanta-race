@@ -1,0 +1,33 @@
+{
+  "itemName" : "vantaridechasercontroller",
+  "level" : 1,
+  "price" : 25000,
+  "rarity" : "Legendary",
+  "category" : "vehicleController",
+  "description" : "Create a Vanta-spec hoverbike from stored nanites.",
+  "shortdescription" : "Ride Chaser Controller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "/items/active/vehiclecontroller/vehiclecontroller.animation",
+  "scripts" : ["/items/active/vehiclecontroller/vehiclecontroller.lua"],
+  "animationScripts" : ["/items/active/vehiclecontroller/vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "vantaridechaser.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "vantaridechaser",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/vehicles/vantaridechaser/vantaridechaserwarp.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "vantaridechasercontroller.png"
+  },
+
+  "inventoryIcon" : "vantaridechasercontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/vantaridechasercontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/vantaridechasercontroller.png:full"
+}
