@@ -6,22 +6,53 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 10
-          },
-          "fly" : {
-            "frames" : 10,
-            "mode" : "loop",
-            "properties" : {
-              "persistentSound" : "/sfx/npc/monsters/spookit_fly_loop.ogg"
+            "frames" : 24,
+            "cycle" : 2
+            /*
+            "frameProperties" : {
+              "immediateSound" : [ "", "", "", "", "", "", "", "", "", "", "", "/sfx/npc/monsters/scaveran_idle_quick1.ogg", "", "", "", "", "", "", "", "", "", "", "", "" ]
             }
+            */
           },
-          "invulnerable" : {
-            "frames" : 10,
-            "mode" : "loop",
+          "walk" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "jump" : {
+            "frames" : 1
+          },
+          "fall" : {
+            "frames" : 1
+          },
+          "fire" : {
+            "frames" : 19,
+            "cycle" : 0.85,
+            "mode" : "transition",
+            "transition" : "idle",
             "properties" : {
-              "persistentSound" : "/sfx/npc/monsters/spookit_invulnerable_combined.ogg",
+              "persistentSound" : "/sfx/npc/monsters/scaveran_attack.ogg",
               "persistentSoundStopTime" : 0.15
             }
+          },
+          "hop" : {
+            "frames" : 2,
+            "cycle" : 0.25,
+            "mode" : "transition",
+            "transition" : "hopfull",
+            "properties" : {
+              "immediateSound" : "/sfx/npc/monsters/scaveran_hop.ogg"
+            }
+          },
+          "hopfull" : {
+            "frames" : 1,
+            "cycle" : 0.325
+          },
+          "land" : {
+            "frames" : 1,
+            "cycle" : 0.25,
+            "mode" : "transition",
+            "transition" : "idle"
           }
         }
       },
@@ -63,7 +94,7 @@
       "body" : {
         "properties" : {
           "transformationGroups" : [ "body" ],
-          "offset" : [0.0, 0.125]
+          "offset" : [-0.0625, 0.6875]
         },
         "partStates" : {
           "body" : {
@@ -72,14 +103,39 @@
                 "image" : "<partImage>:idle.<frame>"
               }
             },
-            "fly" : {
+            "walk" : {
               "properties" : {
-                "image" : "<partImage>:idle.<frame>"
+                "image" : "<partImage>:walk.<frame>"
               }
             },
-            "invulnerable" : {
+            "jump" : {
               "properties" : {
-                "image" : "<partImage>:invulnerable.<frame>"
+                "image" : "<partImage>:jump.<frame>"
+              }
+            },
+            "hop" : {
+              "properties" : {
+                "image" : "<partImage>:hop.<frame>"
+              }
+            },
+            "hopfull" : {
+              "properties" : {
+                "image" : "<partImage>:hop.3"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:fall.<frame>"
+              }
+            },
+            "land" : {
+              "properties" : {
+                "image" : "<partImage>:land.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:fire.<frame>"
               }
             }
           },
@@ -108,39 +164,6 @@
   },
 
   "particleEmitters" : {
-    "spookparticles" : {
-      "active" : true,
-      "emissionRate" : 3.5,
-      "offsetRegion" : [ -0.625, -1.25, 0.625, 1.25 ],
-      "particles" : [
-        { "particle" : "lightgreyphaseparticle" },
-        { "particle" : "darkgreyphaseparticle" }
-      ]
-    },
-    "behindGroundEmitter" : {
-      "emissionRate" : 20,
-      "offsetRegion" : [ -0.625, -1.25, 0.625, 1.25 ],
-      "particles" : [
-        { "particle" : "lightgreyphaseparticle" },
-        { "particle" : "darkgreyphaseparticle" }
-      ]
-    },
-    "groundBurstEmitter" : {
-      "offsetRegion" : [ -0.625, -1.25, 0.625, 1.25 ],
-      "particles" : [
-        { "particle" : "darkgreyphaseparticle" },
-        { "particle" : "lightgreyphaseparticle" },
-        { "particle" : "darkgreyphaseparticle" },
-        { "particle" : "lightgreyphaseparticle" },
-        { "particle" : "darkgreyphaseparticle" },
-        { "particle" : "lightgreyphaseparticle" },
-        { "particle" : "darkgreyphaseparticle" },
-        { "particle" : "lightgreyphaseparticle" },
-        { "particle" : "darkgreyphaseparticle" },
-        { "particle" : "lightgreyphaseparticle" },
-        { "particle" : "darkgreyphaseparticle" }
-      ]
-    },
     "deathPoof" : {
       "particles" : [
         { "particle" : "monstersplosion" },
@@ -191,6 +214,7 @@
 
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
+    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ],
+    "fire" : [ "/sfx/projectiles/bloodvomit1.ogg", "/sfx/projectiles/bloodvomit2.ogg", "/sfx/projectiles/bloodvomit3.ogg", "/sfx/projectiles/bloodvomit4.ogg", "/sfx/projectiles/bloodvomit5.ogg", "/sfx/projectiles/bloodvomit6.ogg", "/sfx/projectiles/bloodvomit7.ogg" ]
   }
 }

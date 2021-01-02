@@ -1,0 +1,9 @@
+{
+  "name" : "ceruleummonopus",
+  "category" : "ceruleummonopus",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "ceruleummonopus.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "ceruleumscaveran",
+  "category" : "ceruleumscaveran",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "ceruleumscaveran.png"
+  }
+}

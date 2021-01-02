@@ -1,19 +1,21 @@
 {
-  "type" : "ceruleumpteropod",
-  "shortdescription" : "Ceruleum-infused Pteropod",
-  "description" : "It splatters pools of liquid ceruleum at its targets.",
+  "type" : "ceruleummonopus",
+  "shortdescription" : "Ceruleum Monopus",
+  "description" : "An ancient species, know to be agile and mischievous. They have an intelligent look in their eye.",
 
-  "categories" : [ "ceruleumpteropod" ],
+  "categories" : [ "ceruleummonopus" ],
   "parts" : [ "body" ],
 
-  "animation" : "ceruleumpteropod.animation",
+  "animation" : "ceruleummonopus.animation",
 
-  "dropPools" : [ { "default" : "ceruleumPteropodTreasure", "bow" : "ceruleumPteropodHunting" } ],
+  "dropPools" : [ { "default" : "ceruleumMonopusTreasure", "bow" : "ceruleumMonopusHunting" } ],
 
   "baseParameters" : {
     "scripts" : [
       "/monsters/monster.lua"
     ],
+
+    "rotationOffset" : 0.0,
 
     "behavior" : "monster",
 
@@ -32,49 +34,42 @@
       "fleeActions" : [ ],
 
       "hostileActions" : [
-       {
-          "name" : "action-fire",
-          "cooldown" : 0.0,
+
+        {
+          "name" : "action-charge",
+          "cooldown" : 2.5,
           "parameters" : {
-            "requireLineOfSight" : true,
             "maximumRange" : 10,
-            "minimumRange" : 2,
-            "windupState" : "firewindup",
-            "windupTime" : 0.5,
-
-            "projectileType" : "ceruleumspit",
-            "fireOffset" : [0.75, 0.25],
-            "projectileParameters" : {
-              "speed" : 15
-            },
-            "projectileCount" : 8,
-            "projectileInterval" : 0.0,
-            "inaccuracy" : 0.7,
-            "aimAtTarget" : true,
+            "windupStopForce" : 50,
+            "windupTime" : 1,
             "onGround" : false,
-            "fireState" : "fire",
-            "fireSound" : "fire",
-            "fireDelay" : 0.1,
 
-            "fireArc": true,
-            "projectileSpeed": 50,
-            "gravityMultiplier": 0.6,
+            "wallCollide" : true,
+            "aimAtTarget" : true,
+            "rotateToTarget" : true,
+            "rotationOffset" : 1.57,
+            "chargeTime" : 0.35,
+            "chargeSpeed" : 35,
+            "chargeControlForce" : 250,
 
             "winddownState" : "",
-            "winddownTime" : 1.0
+            "winddownStopForce" : 200
           }
         }
+
       ],
 
-      "periodicActions" : [
-       ],
+      "periodicActions" : [ ],
 
       "approachActions" : [
         {
-          "name" : "approach-fly",
+          "name" : "wander-fly",
           "parameters" : {
-            "minRange" : 4,
-            "maxRange" : 8
+            "wanderTime" : [2,4],
+            "groundDistance" : 8,
+            "ceilingDistance" : 8,
+            "xVelocity" : 4,
+            "yVelocity" : 12
           }
         }
       ],
@@ -109,20 +104,20 @@
     },
 
     "touchDamage" : {
-      "poly" : [ [0.26, 0.625],  [0.625, 0.26], [0.625, -1.26], [0.26, -1.625], [-0.26, -1.625], [-0.625, -1.26], [-0.625, 0.26], [-0.26, 0.625] ],
-      "damage" : 9,
+      "poly" : [ [0.26, 0.625],  [0.625, 0.26], [0.625, -0.26], [0.26, -0.625], [-0.26, -0.625], [-0.625, -0.26], [-0.625, 0.26], [-0.26, 0.625] ],
+      "damage" : 10,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "lash",
+      "damageSourceKind" : "electrichammer",
       "knockback" : 20,
-      "statusEffects" : [ ]
+      "statusEffects" : [ "electrified" ]
     },
 
     "metaBoundBox" : [-4, -4, 4, 4],
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionPoly" : [ [0.26, 0.625],  [0.625, 0.26], [0.625, -1.26], [0.26, -1.625], [-0.26, -1.625], [-0.625, -1.26], [-0.625, 0.26], [-0.26, 0.625] ],
+      "collisionPoly" : [ [0.26, 0.625],  [0.625, 0.26], [0.625, -0.26], [0.26, -0.625], [-0.26, -0.625], [-0.625, -0.26], [-0.625, 0.26], [-0.26, 0.625] ],
 
       "mass" : 0.5,
       "walkSpeed" : 4,
@@ -220,9 +215,6 @@
 
     "mouthOffset" : [0, 0],
     "feetOffset" : [0, -8],
-    "capturable" : false,
-    "captureHealthFraction" : 0.0,
-    "nametagColor" : [64, 200, 255],
-    "captureCollectables" : { }
+    "capturable" : false
   }
 }

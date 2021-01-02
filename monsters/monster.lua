@@ -13,7 +13,13 @@ require "/scripts/vantastealthintercept.lua"
 
 -- Engine callback - called on initialization of entity
 function init()
-  performStealthFunctionOverrides()
+  -- Checks to see whether or not the entity can detect stealthed characters. If false or not declared in the NPC config, stealth tech will work against the entity.
+  self.detector = config.getParameter("detector")
+  if not self.detector then
+    performStealthFunctionOverrides()
+  end
+
+  -- Normal runtime crap now.
   self.pathing = {}
 
   self.shouldDie = true

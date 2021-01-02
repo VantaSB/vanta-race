@@ -1,38 +1,37 @@
 {
-  "type" : "ceruleumghoul",
-  "shortdescription" : "Ceruleum Ghoul",
-  "description" : "Even when you think you killed him, he's still watching.",
+  "type" : "nightarheavydroneproto",
+  "shortdescription" : "Prototype Nightar Heavy Security Drone",
+  "description" : "The pinnacle of automated defense technology. Their onboard AI is more cheerful than you may first assume.",
 
-  "categories" : [ "ceruleumghoul" ],
-  "parts" : [ "body" ],
+  "categories" : [ "nightarheavydroneproto" ],
+  "parts" : [ "body", "face", "frontgun", "backgun" ],
+  "partParameters" : "nightarheavydroneproto.partparams",
 
-  "animation" : "ceruleumghoul.animation",
+  "animation" : "nightarheavydroneproto.animation",
 
   "dropPools" : [ ],
 
   "baseParameters" : {
+    "monsterClass" : "boss",
+
     "scripts" : [
-      "/monsters/ghosts/ceruleumghoul/ceruleumghoul.lua"
+      "/monsters/unique/nightarheavydroneproto/nightarheavydroneproto.lua"
     ],
 
-    "speedupRange" : [125, 225],
-    "maxSpeed" : 45,
+    "skillCount" : 5,
+    "skills" : [ "droneBlueFlameAttack", "droneDarkGravityBallAttack", "droneOrbOfZotsAttack", "dronePlasmaTorpedoAttack", "droneStaticDischargeAttack" ],
 
-    "minSpeedRange" : [0.5, 10],
-    "ceruleumRange" : [0, 5000],
-
-    "emissionRange" : 20,
-    "maxEmissionRate" : 100,
-
-    "renderLayer" : "ForegroundEntity",
+    "approachPadding" : 8,
+    "tangentialSpeed" : 10,
+    "switchAngleTime" : 4.0,
 
     "touchDamage" : {
-      "poly" : [ [0.125, 1.25], [0.625, 0.75], [0.625, -0.75], [0.125, -1.25], [-0.125, -1.25], [-0.625, -0.75], [-0.625, 0.75], [-0.125, 1.25] ],
-      "damage" : 10,
+      "poly" : [ [-4.0, 0.5], [-2.0, 2.0], [2.0, 2.0], [4.0, 0.5], [4.0, -0.5], [2.0, -2.0], [-2.0, -2.0], [-4.0, -0.5] ],
+      "damage" : 30,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "slash",
-      "knockback" : 10,
+      "damageSourceKind" : "impact",
+      "knockback" : 20,
       "statusEffects" : [ ]
     },
 
@@ -40,22 +39,19 @@
     "scale" : 1.0,
 
     "movementSettings" : {
-      "collisionEnabled" : false,
-      "collisionPoly" : [ [0.125, 1.25], [0.625, 0.75], [0.625, -0.75], [0.125, -1.25], [-0.125, -1.25], [-0.625, -0.75], [-0.625, 0.75], [-0.125, 1.25] ],
+      "collisionPoly" : [ [-4.0, 0.5], [-2.0, 2.0], [2.0, 2.0], [4.0, 0.5], [4.0, -0.5], [2.0, -2.0], [-2.0, -2.0], [-4.0, -0.5] ],
 
-      "mass" : 1.0,
+      "mass" : 2.0,
       "walkSpeed" : 4,
       "runSpeed" : 12,
       "gravityEnabled" : false,
 
-      "airFriction" : 0.5,
-      "airForce" : 50,
-      "flySpeed" : 2,
-
-      "physicsEffectsCategories" : [ "boss" ]
+      "airFriction" : 0,
+      "airForce" : 35,
+      "flySpeed" : 35
     },
 
-    "bodyMaterialKind" : "organic",
+    "bodyMaterialKind" : "robotic",
 
     "knockoutTime" : 0.3,
     "knockoutAnimationStates" : {
@@ -64,9 +60,12 @@
     "deathParticles" : "deathPoof",
     "knockoutEffect" : "",
 
+    "healthLevelFunction" : "spaceMonsterLevelHealthMultiplier",
+    "powerLevelFunction" : "spaceMonsterLevelPowerMultiplier",
+
     "statusSettings" : {
       "statusProperties" : {
-        "targetMaterialKind" : "organic"
+        "targetMaterialKind" : "robotic"
       },
 
       "appliesEnvironmentStatusEffects" : false,
@@ -74,11 +73,14 @@
       "minimumLiquidStatusEffectPercentage" : 0.1,
 
       "primaryScriptSources" : [
-        "/stats/monster_primary.lua"
+        "/stats/spacemonster_primary.lua"
       ],
       "primaryScriptDelta" : 5,
 
       "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
         "knockbackStunTime" : {
           "baseValue" : 0.25
         },
@@ -86,10 +88,10 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 500
+          "baseValue" : 1500
         },
         "protection" : {
-          "baseValue" : 99
+          "baseValue" : 1.0
         },
         "healthRegen" : {
           "baseValue" : 0.0
@@ -97,28 +99,13 @@
         "powerMultiplier" : {
           "baseValue" : 1.0
         },
-        "physicalResistance" : {
-          "baseValue" : 0.9999
-        },
-        "fireResistance" : {
-          "baseValue" : 0.875
-        },
         "fireStatusImmunity" : {
           "baseValue" : 1.0
-        },
-        "iceResistance" : {
-          "baseValue" : 0.875
         },
         "iceStatusImmunity" : {
           "baseValue" : 1.0
         },
-        "electricResistance" : {
-          "baseValue" : 0.875
-        },
         "electricStatusImmunity" : {
-          "baseValue" : 1.0
-        },
-        "poisonResistance" : {
           "baseValue" : 1.0
         },
         "poisonStatusImmunity" : {
@@ -141,8 +128,6 @@
 
     "mouthOffset" : [0, 0],
     "feetOffset" : [0, -8],
-    "capturable" : false,
-    "captureHealthFraction" : 0.5,
-    "nametagColor" : [64, 200, 255]
+    "capturable" : false
   }
 }

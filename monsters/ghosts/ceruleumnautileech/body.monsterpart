@@ -1,0 +1,9 @@
+{
+  "name" : "ceruleumnautileech",
+  "category" : "ceruleumnautileech",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "ceruleumnautileech.png"
+  }
+}

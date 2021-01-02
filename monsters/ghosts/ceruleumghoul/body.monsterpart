@@ -1,9 +1,0 @@
-{
-  "name" : "ceruleumghoul",
-  "category" : "ceruleumghoul",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "ceruleumghoul.png"
-  }
-}

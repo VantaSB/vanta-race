@@ -1,0 +1,9 @@
+{
+  "name" : "face",
+  "category" : "nightarheavydroneproto",
+  "type" : "face",
+
+  "frames" : {
+    "face" : "face.png"
+  }
+}
