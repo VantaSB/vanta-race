@@ -1,19 +1,19 @@
 {
-  "itemName" : "vantatier3chest",
-  "price" : 3200,
+  "itemName" : "vantatier7achest",
+  "price" : 6750,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "Essential",
   "category" : "chestarmour",
-  "description" : "Titanium-reinforced pauldrons provide protection for this tabard.",
-  "shortdescription" : "Corsair Tabard",
+  "description" : "A dark coat lined with a type of ceruleum-infused twine.",
+  "shortdescription" : "Obscura Coat",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
     "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
-	},
+  },
 
   "femaleFrames" : {
     "body" : "chestf.png",
@@ -21,7 +21,7 @@
     "frontSleeve" : "fsleeve.png"
   },
 
-  "level" : 3,
+  "level" : 7,
   "leveledStatusEffects" : [
     {
       "levelFunction" : "vantaArmorLevelPowerMultiplier",
@@ -45,5 +45,5 @@
     }
   ],
 
-  "itemTags" : [ "tier3armour" ]
+  "itemTags" : [ "tier7armour" ]
 }

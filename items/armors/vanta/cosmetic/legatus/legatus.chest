@@ -1,12 +1,12 @@
 {
-  "itemName" : "tribunischest",
+  "itemName" : "legatuschest",
   "price" : 0,
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A layered robe signifying dignity.",
-  "shortdescription" : "Tribunis Robes",
+  "description" : "...",
+  "shortdescription" : "Legatus Top",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

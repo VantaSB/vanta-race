@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "headarmour",
-  "description" : "Stylized after the Apex Defector's mask and provides combat data in the field.",
-  "shortdescription" : "Duskbringer Visor",
+  "description" : "A hood that shades the face of the wearer.",
+  "shortdescription" : "Corsair Hood",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

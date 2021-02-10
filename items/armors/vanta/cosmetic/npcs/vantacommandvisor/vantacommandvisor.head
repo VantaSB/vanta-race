@@ -1,0 +1,15 @@
+{
+  "itemName" : "vantacommandvisorhead",
+  "price" : 100,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "This assists operators at Vanta HQ with processing visual data quickly.",
+  "shortdescription" : "Command Visor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png"
+}

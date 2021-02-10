@@ -1,0 +1,15 @@
+{
+  "itemName" : "vantaguardhead",
+  "price" : 100,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "A standard-issue helmet for guards at Ran's operation center.",
+  "shortdescription" : "Vanta Guard Helmet",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png"
+}

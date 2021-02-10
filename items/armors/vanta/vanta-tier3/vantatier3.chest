@@ -1,11 +1,11 @@
 {
-  "itemName" : "vantatier2chest",
-  "price" : 2400,
+  "itemName" : "vantatier3chest",
+  "price" : 3200,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "chestarmour",
-  "description" : "Upper body armor crafted from tungsten.",
+  "description" : "Upper body armor crafted using titanium.",
   "shortdescription" : "Duskbringer Chestplate",
   "tooltipKind" : "armor",
 
@@ -21,7 +21,7 @@
     "frontSleeve" : "fsleeve.png"
   },
 
-  "level" : 2,
+  "level" : 3,
   "leveledStatusEffects" : [
     {
       "levelFunction" : "vantaArmorLevelPowerMultiplier",
@@ -45,5 +45,5 @@
     }
   ],
 
-  "itemTags" : [ "tier2armour" ]
+  "itemTags" : [ "tier3armour" ]
 }
