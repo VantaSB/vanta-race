@@ -8,7 +8,7 @@
   "animator" : "vantastealth.animation",
 
   "description" : "Retain your ability to run while stealthed!",
-  "shortDescription" : "Vanta Stealth [^orange;R^reset;]",
+  "shortDescription" : "Personnel Cloaking ^cyan;EX",
   "rarity" : "Legendary",
   "icon" : "/tech/vantastealth/vantastealth2.png",
 

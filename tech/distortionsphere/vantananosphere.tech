@@ -5,8 +5,8 @@
   "scripts" : ["vantasphere.lua"],
   "animator" : "vantasphere.animation",
 
-  "description" : "Fit into even smaller spaces! ^green;[F]",
-  "shortDescription" : "Vanta Nano Sphere",
+  "description" : "Fit into even smaller spaces!",
+  "shortDescription" : "Nano Sphere",
   "rarity" : "legendary",
   "icon" : "/tech/vantananosphere.png",
 

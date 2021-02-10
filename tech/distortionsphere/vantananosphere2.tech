@@ -5,8 +5,8 @@
   "scripts" : ["vantananosphere2.lua"],
   "animator" : "vantasphere.animation",
 
-  "description" : "Scale compressed corridors! ^green;[F]",
-  "shortDescription" : "Vanta Nano Sphere ^cyan;EX^reset;",
+  "description" : "Scale compressed corridors!",
+  "shortDescription" : "Nano Sphere ^cyan;EX",
   "rarity" : "legendary",
   "icon" : "/tech/vantananosphere.png",
 

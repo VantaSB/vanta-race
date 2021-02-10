@@ -5,8 +5,8 @@
   "scripts" : ["vantasphere.lua"],
   "animator" : "vantasphere.animation",
 
-  "description" : "Drop bombs with ^orange;[Fire]^reset;! ^green;[F]",
-  "shortDescription" : "Vanta Sphere",
+  "description" : "Drop bombs with ^orange;[Fire]^reset;!",
+  "shortDescription" : "Bomb Sphere",
   "rarity" : "Legendary",
   "icon" : "/tech/vantasphere.png",
 
