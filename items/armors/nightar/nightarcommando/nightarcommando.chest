@@ -1,0 +1,49 @@
+{
+  "itemName" : "nightarcommandochest",
+  "price" : 1000,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "chestarmour",
+  "description" : "...",
+  "shortdescription" : "N. Commando's Top",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 7,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.27
+    },
+    {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.55
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "itemTags" : [ "tier7armor" ]
+}

@@ -1,0 +1,49 @@
+{
+  "itemName" : "nightarsoldierchest",
+  "price" : 1000,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "chestarmour",
+  "description" : "...",
+  "shortdescription" : "N. Soldier's Top",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 7,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.27
+    },
+    {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.55
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "itemTags" : [ "tier7armor" ]
+}
