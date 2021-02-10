@@ -1,9 +1,9 @@
 {
-  "id" : "stealthtechtest",
-  "prerequisites" : [ "stealthtechintro" ],
-  "title" : "^orange;A Living Shadow",
-  "text" : "Your ^orange;stealth tech^white; is ready for testing. During my search for willing individuals with testing facilities, I came across the scientist, ^green;Elliot^white;, who seemed most eager to see the results for herself. You'll need to travel to where she resides, a remote facility simply known as ^orange;the Outpost^white;.",
-  "completionText" : "Now ^orange;THAT^white; is some fine worksmanship for a tech not created by me! If you need any more testing, feel free to drop by! I could always use another guinea pig... What? Of course that was a joke!",
+  "id" : "stealthtech2",
+  "prerequisites" : [ "stealthtech1" ],
+  "title" : "^orange;Living Shadows",
+  "text" : "Thank you for your patience! I was able to create a prototype cloaking device that you can equip as a tech. Why don't you give it a shot? I've setup an obstacle course for you to run around in. It's a bit makeshift, but I think it will get the job done. Just let me know when you're ready!",
+  "completionText" : "Incredible! I wasn't sure it would work properly, but you've helped surpass expectations! I'll continue conducting tests in the meantime. We might even find an upgrade to patch in!",
   "moneyRange" : [250, 250],
   "rewards" : [],
 
@@ -12,12 +12,12 @@
   "scriptConfig" : {
     "portraits" : {
       "questStarted" : {
-        "portrait" : [ { "image" : "/interface/scripted/research/icons/vanta.png" } ],
-        "title" : "S.A.I.L."
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
       },
       "questComplete" : {
-        "portrait" : [ { "image" : "/objects/outpost/techlab/techlabscientistportrait.png" } ],
-        "title" : "Elliot"
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
       }
     },
 
@@ -40,8 +40,7 @@
     "turnInEntityUid" : "techlabscientist",
 
     // Completion actions
-
-    // Kept for reference
+    
     "equipTech" : [
       "vantastealth1"
     ]

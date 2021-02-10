@@ -1,4 +1,0 @@
-[
-  { "op" : "add", "path" : "/scriptConfig/showTech/-", "value" : "distortionsphere2" },
-  { "op" : "add", "path" : "/scriptConfig/showTech/-", "value" : "aquasphere2" }
-]

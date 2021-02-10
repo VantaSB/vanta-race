@@ -1,8 +1,8 @@
 {
-  "id" : "vantasphereupgrade1",
-  "prerequisites" : [ "vantasphereequip" ],
-  "title" : "^orange;Balling On A Budget - Pt. 4",
-  "text" : "Hey there. I was mulling over some of our previous research on your ^green;Vanta Sphere^white;, and I think I can actually get it to fit into even smaller places. Would you mind bringing me another ^orange;Pristine Dark Crystal^white;? I'll also need something extremely durable, like some of that infamous ^orange;Nightsteel^white; you Vanta are known for making. Two bars should suffice.",
+  "id" : "vantaspheretech2",
+  "prerequisites" : [ "vantaspheretech1" ],
+  "title" : "^orange;Micro-Managed",
+  "text" : "Hey there. I've been mulling over some of our previous research on that ^green;Bomb Sphere^white;, and I think I can actually get it to fit into even smaller places. Would you mind bringing me a ^orange;Pristine Dark Crystal^white;? I also need something extremely durable and conductive, like some ^orange;refined solarium^white;. Five should suffice.",
   "completionText" : "Excellent. This should allow you to fit into tighter spaces, and I was even able to retain the bombing ability! I have no doubt that this will come in handy for you in the future.",
   "moneyRange" : [300, 300],
   "rewards" : [
@@ -15,16 +15,16 @@
     "portraits" : {
       "questStarted" : {
         "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
-        "title" : "Elliot"
+        "title" : "Elliott"
       },
       "questComplete" : {
         "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
-        "title" : "Elliot"
+        "title" : "Elliott"
       }
     },
     "requireTurnIn" : true,
 
-    "turnInDescription" : "Speak to ^orange;Elliot^reset; at the ^orange;Outpost^reset;",
+    "turnInDescription" : "Speak to ^orange;Elliott^reset; at the ^orange;Outpost^reset;",
     "conditions" : [
       {
         "type" : "gatherItem",
@@ -34,8 +34,8 @@
       },
       {
         "type" : "gatherItem",
-        "itemName" : "nightsteelbar",
-        "count" : 2,
+        "itemName" : "refinedsolarium",
+        "count" : 5,
         "consume" : true
       }
     ],

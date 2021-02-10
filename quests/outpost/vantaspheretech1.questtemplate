@@ -1,9 +1,9 @@
 {
-  "id" : "vantasphereintro",
-  "prerequisites" : [ "techscientist6", "hylotl_mission2" ],
-  "title" : "^orange;Balling On A Budget - Pt. 1",
-  "text" : "Hey you! You're the one that helped me with my ^green;Distortion Sphere^white; testing! Your S.A.I.L. was kind enough to provide me with some telemetry of your usage for it, and I think I can enhance it in a way that will be beneficial to you, and to you alone. Bring me ^orange;5 Diamonds^white; and I'll explain more.",
-  "completionText" : "Thanks. Diamonds are something of a lost comodity, and have more than just financial uses. I'll need to compare this to another material you may be familiar with. Talk to me again when you're ready.",
+  "id" : "vantaspheretech1",
+  "prerequisites" : [ "techscientist6", "hylotl_mission2", "stealthtech1" ],
+  "title" : "^orange;Ballin' On A Budget",
+  "text" : "Ah, it's you again! I had a moment of brilliance; I've found a way to add some offensive capability to your Distortion Sphere. Can you bring me ^orange;5 diamonds^reset;? It may seem trivial, but diamonds actually help with the energy refraction needed for this module.",
+  "completionText" : "Perfect! I've gone ahead and added the new module to your tech roster. If you happen to run into a tunnel with blockage on a mission or something, you can use that to clear it out!",
   "moneyRange" : [100, 100],
   "rewards" : [
     [ [ "manipulatormodule", 1 ] ]
@@ -19,7 +19,7 @@
       },
       "questComplete" : {
         "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
-        "title" : "Elliot"
+        "title" : "Elliott"
       }
     },
     "requireTurnIn" : true,
@@ -32,6 +32,10 @@
         "count" : 5,
         "consume" : true
       }
+    ],
+
+    "equipTech" : [
+      "vantasphere"
     ]
   }
 }

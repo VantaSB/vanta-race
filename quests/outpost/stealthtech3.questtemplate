@@ -1,0 +1,46 @@
+{
+  "id" : "stealthtech3",
+  "prerequisites" : [ "stealthtech2", "avian_mission2" ],
+  "title" : "^orange;Swiftest Night",
+  "text" : "We've been doing some research into that cloaking tech, and we've found a way to add more stability so that you can move faster without breaking the stealth field. Bring me a ^orange;Pristine Dark Crystal^reset; and we'll tweak that module!",
+  "completionText" : "It's a success! You shouldn't have any worries about breaking the stealth field now.",
+  "moneyRange" : [300, 300],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/ex_main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ { "image" : "/objects/outpost/techlab/techlabscientistportrait.png" } ],
+        "title" : "Elliot"
+      },
+      "questComplete" : {
+        "portrait" : [ { "image" : "/objects/outpost/techlab/techlabscientistportrait.png" } ],
+        "title" : "Elliot"
+      }
+    },
+
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak with ^orange;Elliott^reset; at the ^orange;Outpost",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "perfectdarkcrystal",
+        "count" : 1,
+        "consume" : true
+      }
+    ],
+
+    "hideTech" : [
+      "vantastealth1"
+    ],
+
+    "equipTech" : [
+      "vantastealth2"
+    ]
+  }
+}

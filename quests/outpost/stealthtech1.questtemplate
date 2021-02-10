@@ -1,0 +1,37 @@
+{
+  "id" : "stealthtech1",
+  "prerequisites" : [ "techscientist6", "human_mission1" ],
+  "title" : "^orange;A Shadow By Any Other Name",
+  "text" : "Ah, right on time. I was sent some schematics from an undisclosed source for a type of miniaturized cloaking device. Our best minds scoured the blueprint and we found no issues with it. We're lacking a key ingredient, though. Could you bring me ^orange;10 Dark Fragments^reset;?",
+  "completionText" : "Excellent; we can begin with trials. I'm anxious to see how it works! Talk to me again when you're ready!",
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/ex_main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Elliott^reset; at the ^orange;Outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "darkfragmentore",
+        "count" : 10,
+        "consume" : true
+      }
+    ]
+  }
+}
