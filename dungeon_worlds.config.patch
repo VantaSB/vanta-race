@@ -40,16 +40,22 @@
 
   {
     "op" : "add",
-    "path" : "/warp_citadel",
+    "path" : "/vantaoutpost",
     "value" : {
-      "primaryDungeon" : "warp_citadel",
+      "primaryDungeon" : "vantaoutpost",
+      "weatherPool" : [
+        [ 1.0, "groundmist" ]
+      ],
       "threatLevel" : 1,
       "gravity" : 80,
       "worldSize" : [2000, 2000],
       "dungeonBaseHeight" : 1000,
-      "ambientLightLevel" : [128, 128, 128],
+      "dungeonSurfaceHeight" : 810,
+      "ambientLightLevel" : [32, 32, 32],
       "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
-      "musicTrack" : "/music/tentacle-exploration1.ogg"
+      "musicTrack" : "/music/underground-complex.ogg",
+      "environmentStatusEffects" : ["dontstarve"],
+      "biome" : "midnight"
     }
   }
 ]
