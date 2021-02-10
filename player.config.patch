@@ -1,5 +1,19 @@
 [
-  { "op" : "add", "path" : "/species/-", "value" : "vanta" },
+  {
+    "op" : "add",
+    "path" : "/deploymentConfig/scripts/-",
+    "value" : "/scripts/ex_utilities/hfcodex/RemotePlayer.lua"
+  },
 
-  { "op" : "add", "path" : "/defaultCodexes/vanta", "value" : [ "vantahistory1","vantahistory2","vantahistory3","vantahistory4","vantadoc1","vantadoc2","vantadoc3","vantadoc4" ] }
+  {
+    "op" : "add",
+    "path" : "/species/-",
+    "value" : "vanta"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/defaultCodexes/vanta",
+    "value" : [ "vantahistory1","vantahistory2","vantahistory3","vantahistory4","vantadoc1","vantadoc2","vantadoc3","vantadoc4" ]
+  }
 ]
