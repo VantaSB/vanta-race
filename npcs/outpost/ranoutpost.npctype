@@ -9,7 +9,9 @@
     "hairGroup" : "hair",
     "hairType" : "1",
     "personalityIdle" : "idle.4",
-    "personalityArmIdle" : "idle.3"
+    "personalityArmIdle" : "idle.4",
+    "bodyDirectives" : "?replace=ffe2c5=fbe1d4?replace=ffc181=f6baa2?replace=d39c6c=cc9582?replace=c7815b=ac7261?replace=ed1c24=00b75f",
+    "hairDirectives" : "?replace=d9c189=3b7f44?replace=a38d59=2e6a38?replace=735e3a=1d4b28"
   },
 
   "damageTeamType" : "assistant",
@@ -26,6 +28,7 @@
     "personalities" : [
       [1.0, { "personality" : "normal", "reactions" : {} }]
     ],
+
     "behaviorConfig" : {
       "greetingChance" : 0,
       "play" : false,
@@ -105,15 +108,7 @@
       "converse" : {
         "default" : {
           "default" : [
-            "I narrowly escaped the Nightar Conclave. Esther was kind enough to let me setup a spot here to study the ruins and conduct my own research."
-          ]
-        },
-        "vanta" : {
-          "default" : [
-            "I narrowly escaped the Nightar Conclave. Esther was kind enough to let me setup a spot here to study the ruins and conduct my own research."
-          ],
-          "vanta" : [
-            "You're safe from the eyes of the Conclave here, friend."
+            "We have a long way to go before we can take the Conclave head-on, but we're glad to have your support in the meantime, <entityname>."
           ]
         }
       }
@@ -124,12 +119,9 @@
     "override" : [
       [0, [
           {
-            "head" : [
-              ""
-            ],
-            "chest" : [ { "name" : "vantatier4chest", "parameters" : { "colorIndex" : 0 } } ],
-            "back" : [ { "name" : "nightarcapeback", "parameters" : { "colorIndex" : 0 } } ],
-            "legs" : [ { "name" : "vantatier4pants", "parameters" : { "colorIndex" : 0 } } ]
+            "chest" : [ { "name" : "vantatier4chest" } ],
+            "back" : [ { "name" : "nightarcapeback" } ],
+            "legs" : [ { "name" : "vantatier4pants" } ]
           }
         ] ]
     ]

@@ -1,15 +1,16 @@
 {
-  "type" : "ranproximacityruin",
-  "baseType" : "outpostcivilian",
+  "type" : "vantaoutpostboundaryguard",
+  "baseType" : "guard",
 
-  "npcname" : "Ran",
   "identity" : {
-    "imagePath" : "ran",
+    "imagePath" : "vanta",
     "gender" : "male",
     "hairGroup" : "hair",
-    "hairType" : "1",
+    "hairType" : "male52",
     "personalityIdle" : "idle.4",
-    "personalityArmIdle" : "idle.3"
+    "personalityArmIdle" : "idle.4",
+    "bodyDirectives" : "?replace=ffe2c5=ffe2c5?replace=ffc181=ffc181?replace=d39c6c=d39c6c?replace=c7815b=c7815b",
+    "hairDirectives" : "?replace=d9c189=89a1d9?replace=a38d59=596fa3?replace=735e3a=3a4b73"
   },
 
   "damageTeamType" : "assistant",
@@ -18,21 +19,21 @@
   "persistent" : true,
 
   "scriptConfig" : {
-    "uniqueId" : "ranproximacityruin",
-
-    "reaction" : {
+    "reactions" : {
       "spontaneous" : []
     },
+
     "personalities" : [
-      [1.0, { "personality" : "normal", "reactions" : {} } ]
+      [1.0, { "personality" : "normal", "reactions" : {} }]
     ],
+
     "behaviorConfig" : {
-      "greetingChange" : 0,
+      "greetingChance" : 0,
       "play" : false,
       "chat" : false
     },
 
-    //"chatPortrait" : "",
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
 
     "chatSounds" : {
       "avian" : {
@@ -97,7 +98,7 @@
       "converse" : {
         "default" : {
           "default" : [
-            "The Conclave will stop at nothing to achieve their goals. We're all glad to have you with us, <entityname>."
+            "The outskirts have been deemed off-limits for the time being, so I can't let you pass, sorry."
           ]
         }
       }
@@ -107,16 +108,12 @@
   "items" : {
     "override" : [
       [0, [
-          {
-            "head" : [
-              ""
-            ],
-            "chest" : [ { "name" : "vantatier4chest", "parameters" : { "colorIndex" : 0 } } ],
-            "back" : [ { "name" : "nightarcapeback", "parameters" : { "colorIndex" : 0 } } ],
-            "legs" : [ { "name" : "vantatier4pants", "parameters" : { "colorIndex" : 0 } } ]
-          }
-        ]
-      ]
+        {
+          "head" : [ { "name" : "vantaguardhead" } ],
+          "chest" : [ { "name" : "vantatier3chest" } ],
+          "legs" : [ { "name" : "vantatier3pants" } ]
+        }
+      ] ]
     ]
   }
 }

@@ -1,0 +1,50 @@
+{
+  "type" : "nightarcommandoguard",
+  "baseType" : "hostile",
+
+  "detector" : true,
+
+  "persistent" : true,
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "nightarcommandohead" } ],
+          "chest" : [ { "name" : "nightarcommandochest" } ],
+          "legs" : [ { "name" : "nightarcommandopants" } ],
+          "primary" : [ "nightarmachinegun" ],
+          "sheathedprimary" : [ "nightarstandardblade" ]
+        }
+      ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 500
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

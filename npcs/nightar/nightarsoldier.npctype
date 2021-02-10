@@ -1,0 +1,42 @@
+{
+  "type" : "nightarsoldier",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/nightarsoldiers.config:attack"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "nightarsoldierhead" } ],
+          "chest" : [ { "name" : "nightarsoldierchest" } ],
+          "legs" : [ { "name" : "nightarsoldierpants" } ],
+          "primary" : [ "nightarstandardrifle" ],
+          "sheathedprimary" : [ "stealthdagger" ]
+        }
+      ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.2
+      },
+      "protection" : {
+        "baseValue" : 1.1
+      }
+    }
+  }
+}

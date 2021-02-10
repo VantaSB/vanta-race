@@ -1,0 +1,49 @@
+{
+  "type" : "nightarheavytrooper",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "nightarheavyhead" } ],
+          "chest" : [ { "name" : "nightarheavychest" } ],
+          "legs" : [ { "name" : "nightarheavypants" } ],
+          "primary" : [ "nightarlauncher" ],
+          "sheathedprimary" : [ "nightarheavyblade", "nightarmachinepistol" ],
+          "sheathedalt" : [ "nightarmachinepistol" ]
+        }
+      ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 300
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.5
+      },
+      "protection" : {
+        "baseValue" : 1.1
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "type" : "nightarranger",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "nightarrangerhead" } ],
+          "chest" : [ { "name" : "nightarrangerchest" } ],
+          "legs" : [ { "name" : "nightarrangerpants" } ],
+          "primary" : [ "nightarsniperrifle" ]
+        }
+      ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 250
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.2
+      },
+      "protection" : {
+        "baseValue" : 1.1
+      }
+    }
+  }
+}

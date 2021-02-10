@@ -1,0 +1,124 @@
+{
+  "type" : "doppleroutpost",
+  "baseType" : "outpostcivilian",
+
+  "npcName" : "Morrighan Doppler",
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "female",
+    "hairGroup" : "hair",
+    "hairType" : "fem26",
+    "personalityIdle" : "idle.2",
+    "personalityArmIdle" : "idle.1",
+    "bodyDirectives" : "?replace=ffe2c5=c5ad98?replace=ffc181=a47a59?replace=d39c6c=865d40?replace=c7815b=66412e?replace=ed1c24=d36f00",
+    "hairDirectives" : "?replace=d9c189=3b7f44?replace=a38d59=2e6a38?replace=735e3a=1d4b28"
+  },
+
+  "damageTeamType" : "assistant",
+  "damageTeam" : 1,
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "uniqueId" : "doppleroutpost",
+
+    "reactions" : {
+      "spontaneous" : []
+    },
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "behavior" : "tutorial",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0,
+      "play" : false,
+      "chat" : false
+    },
+
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+
+    "chatSounds" : {
+      "avian" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ]
+      },
+      "apex" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ]
+      },
+      "floran" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ]
+      },
+      "glitch" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ]
+      },
+      "human" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ]
+      },
+      "hylotl" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ]
+      },
+      "default" : {
+        "male" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ],
+        "female" : [
+          "/sfx/humanoid/human_chatter_female2.ogg"
+        ]
+      }
+    },
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "I oversee the medical and R&D operations here. If you come across any old weapons or artifacts, let me know and I'll make sense of them as I can!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "vantacommandvisorhead" } ],
+            "chest" : [ { "name" : "tribunischest" } ],
+            "legs" : [ { "name" : "tribunispants" } ]
+          }
+        ]
+      ]
+    ]
+  }
+}
