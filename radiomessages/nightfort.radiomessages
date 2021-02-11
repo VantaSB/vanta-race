@@ -1,0 +1,147 @@
+{
+  "nightfort01" : {
+    "type" : "mission",
+    "senderName" : "Ran",
+    "portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+    "text" : "The Nightfort is up ahead. I thank you for helping my forces retake it; it's one of the few locations we have that holds a lot of value for us.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort02a" : {
+    "type" : "mission",
+    "text" : "I've completed a preliminary scan on the complex perimeter; it does not appear you will be able to gain access through the courtyard. I suggest finding an alternate route inside.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort02b" : {
+    "type" : "mission",
+    "senderName" : "Ran",
+    "portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+    "text" : "They also have a small contingent of monsters on site, so stay on your toes and try not to trip the security sensors.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort02c" : {
+    "type" : "mission",
+    "senderName" : "Nuru",
+    "portraitImage" : "/interface/chatbubbles/nuru.png:<frame>",
+    "text" : "Happy hunting!",
+    "persistTime" : 2.0
+  },
+
+  "nightfortsecurity" : {
+    "type" : "mission",
+    "senderName" : "Lana Blake",
+    "portraitImage" : "/interface/chatbubbles/lana.png:<frame>",
+    "text" : "Their security protocols far exceed those of the Miniknog. Very impressive.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort03a" : {
+    "type" : "mission",
+    "senderName" : "Koichi",
+    "portraitImage" : "/interface/chatbubbles/koichi.png:<frame>",
+    "text" : "How peculiar... our information shows that Nightars are primarily martial fighters, but these troops are all using firearms. Highly advanced firearms, I might add.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort03b" : {
+    "type" : "mission",
+    "senderName" : "Lana Blake",
+    "portraitImage" : "/interface/chatbubbles/lana.png:<frame>",
+    "text" : "This contradicts what we currently know about their combat capabilities. I'm assuming this was a fairly recent shift?",
+    "persistTime" : 2.0
+  },
+
+  "nightfort03c" : {
+    "type" : "mission",
+    "senderName" : "Ran",
+    "portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+    "text" : "If by recent you mean some few centuries ago, then sure. Above all else, they still excel with blades, but they are just as deadly with firearms as well.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort03d" : {
+    "type" : "mission",
+    "senderName" : "Esther Bright",
+    "portraitImage" : "/interface/chatbubbles/estherthoughtful.png:<frame>",
+    "text" : "Do be careful, dear. I know you've fought significant threats before, but you know I can't help but worry about you.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort03e" : {
+    "type" : "mission",
+    "senderName" : "The Baron",
+    "portraitImage" : "/interface/chatbubbles/baron.png:<frame>",
+    "text" : "Confident. I'm sure they'll give the Nightars a good thrashing!",
+    "persistTime" : 2.0
+  },
+
+  "nightfort04a" : {
+    "type" : "mission",
+    "senderName" : "Ran",
+    "portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+    "text" : "My faith in you has been rewarded Protector, that was excellent work! Now all that's left is to secure the- huh? They've walled-in the hangar, but for what?",
+    "persistTime" : 2.0
+  },
+
+  "nightfort04b" : {
+    "type" : "mission",
+    "text" : "I'm detecting some strange readings from below where the hangar should be. Further scans of the complex show that they have been tunneling into the subsurface of the planet.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort04c" : {
+    "type" : "mission",
+    "senderName" : "Ran",
+    "portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+    "text" : "You've done a lot for us thus far Protector, but I would not burden you with further requests if they weren't imperative. I ask you to investigate this matter further.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort05a" : {
+    "type" : "mission",
+    "senderName" : "Tonauac",
+    "portraitImage" : "/interface/chatbubbles/tonauactalk.png:<frame>",
+    "text" : "Kluex forefend; is that...",
+    "persistTime" : 2.0
+  },
+
+  "nightfort05b" : {
+    "type" : "mission",
+    "text" : "Gravimetric distortions confirmed. Anomalies ahead are consistent with energy readings from ancient gateways when activated.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort05c" : {
+    "type" : "mission",
+    "senderName" : "Ran",
+    "portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+    "text" : "That's how they got to this sector so quickly... They've completed the first gate!",
+    "persistTime" : 2.0
+  },
+
+  "nightfort05d" : {
+    "type" : "mission",
+    "senderName" : "Esther Bright",
+    "portraitImage" : "/interface/chatbubbles/esthersad.png:<frame>",
+    "text" : "The Occassus were looking into the Ancients' technology, too... Is it possible that Asra could have...?",
+    "persistTime" : 2.0
+  },
+
+  "nightfort05e" : {
+    "type" : "mission",
+    "senderName" : "Ran",
+    "portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+    "text" : "They were looking into this long before the rise of the Occassus. It is extremely unlikely that she or any of her cohorts ever had any contact with the Conclave.",
+    "persistTime" : 2.0
+  },
+
+  "nightfort05f" : {
+    "type" : "mission",
+    "senderName" : "Esther Bright.",
+    "portraitImage" : "/interface/chatbubbles/esthertalk.png:<frame>",
+    "text" : "That IS quite a relief, thank you dear.",
+    "persistTime" : 2.0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id" : "vantahistory01",
+  "title" : "File VH001 - ^cyan;Age of Prosperity",
+  "species" : "vanta",
+  "description" : "Historical Testament of Kyrilu Marek",
+  "icon" : "vantadocfile.png",
+  "contentPages" : [
+    "^red;ERROR: This codex entry cannot be read or stored by the standard codex reader. Data has been moved to high-fidelity storage for review and can be accessed through a High-Fidelity Codex reader.\n\nCODE: 0x80004002"
+  ],
+  "longContentPages" : [
+    "    Look here through our writings to see our heritage, to our times of peace and times of war. I will tell you the tale of our people's times of peace and war. Our homeworld was a paradise unrivaled; the songs of joy filled the streets of the imperial city, and royalty and non-royalty were all honored equally. When we launched our first vessel to the stars, we bore witness to a new frontier in science. Though we celebrated in joy, we knew not at the time that this would be the start of our downfall.
+
+    With our ships, we spread our reaches to the stars, finding stellar brethren in many of the various races scattered throughout the universe. Starborn knowledge came to us, and we gladly shared our wisdom with our new friends in return. Many of us were filled with pride, honoring our most knowledgeable minds for all the wonders provided to and from us, and our old ways began to fade. But the cheers of happiness covered the unheard cries of rage from those who mourned our primal traditions.
+
+    Over time, our myriad works and wonders of science were not enough to sate those who held the old ways in their hearts, for they believed we were destined to forever dwell in shadow, whereas our science allowed us to traverse safely in the light. Around this time, we were met with ^orange;a traveller from the stars^reset;, a being who we sensed conveyed the will of the universe through them; the traveller brought us a dire warning that a balance between our old and new ways must be found.
+
+    None of us heeded this warning, myself included, and so we forged on. The time would come shortly thereafter when the Architectus Scientia denounced the tribalists in the center of the imperial city; it was as though a flame was put to a pool of fuel, a day that marked the end of our ^orange;Age of Prosperity^reset; and the beginning of our ^orange;Age of War^reset;."
+  ],
+  "itemConfig" : {
+    "rarity" : "Legendary",
+    "price" : 0
+  }
+}

@@ -6,10 +6,10 @@
   "category" : "Console",
   "inventoryIcon" : "icon.png",
   "twoHanded" : true,
-  "description" : "^green;[Fire]^reset;: Quests List\n^green;[Shift]^reset;: Mech Assembly\n^green;[Alt Fire]^reset;: Techs",
+  "description" : "^green;[Fire]^reset;: Quests List, ^green;[Shift]^reset;: Mech Assembly\n\n^green;[AltFire]^reset;: Techs, ^green;[Shift]^reset;: H.F. Codex",
   "shortdescription" : "Portable Monitor",
   "itemTags" : ["tool"],
-  "tooltipKind" : "base",
+  "tooltipKind" : "food",
   "scripts" : [ "portablemonitor.lua" ],
   "learnBlueprintsOnPickup" : [ "portablemonitor" ],
 

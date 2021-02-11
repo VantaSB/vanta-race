@@ -7,5 +7,8 @@
   { "op" : "add", "path" : "/labels/energybow", "value" : "Energy Bow" },
   { "op" : "add", "path" : "/labels/katar", "value" : "Katar" },
   { "op" : "add", "path" : "/labels/katana", "value" : "Katana" },
-  { "op" : "add", "path" : "/labels/gunblade", "value" : "Gunblade" }
+  { "op" : "add", "path" : "/labels/gunblade", "value" : "Gunblade" },
+  { "op" : "add", "path" : "/labels/greatsword", "value" : "Greatsword" },
+  { "op" : "add", "path" : "/labels/grimoire", "value" : "Grimoire" },
+  { "op" : "add", "path" : "/labels/bangle", "value" : "Bangle" }
 ]

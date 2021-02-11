@@ -1,0 +1,63 @@
+{
+  "objectName" : "vantabigscreen",
+  "colonyTags" : ["wired","vanta"],
+  "rarity" : "Legendary",
+  "description" : "A large tactical display.",
+  "shortdescription" : "Vanta Tactical Screen",
+  "race" : "vanta",
+  "category" : "wire",
+  "price" : 200,
+
+  "lightColor" : [122, 177, 204],
+
+  "apexDescription" : "A large screen with a dark bezel.",
+  "avianDescription" : "It's a large screen.",
+  "floranDescription" : "Floran can watch all kindsss of hunting on giant screen!",
+  "glitchDescription" : "Observant. This screen can display multiple sets of data at once.",
+  "humanDescription" : "It's almost big enought to be a theater screen!",
+  "hylotlDescription" : "This looks like it would be a great asset for tactical planning.",
+  "novakidDescription" : "That sure is a pretty big screen!",
+  "vantaDescription" : "Large tactical screens like this have always aided us, much like any other military.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "vantabigscreen.png:<color>.<frame>",
+      "direction" : "left",
+
+      "imagePosition" : [-40, -16],
+      "frames" : 2,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "vantabigscreen.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-40, -16],
+      "frames" : 2,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "vantabigscreen.png",
+    "fg" : "vantabigscreenlit.png"
+  },
+  "animationPosition" : [-40, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "soundEffect" : "/sfx/objects/bunkerdisplay.ogg"
+}

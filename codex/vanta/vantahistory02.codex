@@ -1,0 +1,23 @@
+{
+  "id" : "vantahistory02",
+  "title" : "File VH002 - ^cyan;Age of War",
+  "species" : "vanta",
+  "description" : "Historical Testament of Kyrilu Marek",
+  "icon" : "vantadocfile.png",
+  "contentPages" : [
+    "^red;ERROR: This codex entry cannot be read or stored by the standard codex reader. Data has been moved to high-fidelity storage for review and can be accessed through a High-Fidelity Codex reader.\n\nCODE: 0x80004002"
+  ],
+  "longContentPages" : [
+    "    When the ^orange;Age of War^reset; first began, the skirmishes were small in size and number. However, as diplomacy eroded into brutality, they steadily grew as sure as the sun rose, and our once peaceful society became consumed by a gruesome civil war. Our scientists turned from exploration to devastation, unleashing unknown horrors upon their tribal enemies. In retaliation, the tribalists turned to the darkest of our ancient magicks, cursing us and all who served our cause. Our starborne brethren attempted desperately to ease the conflict in vain, for those who desired war were not to be denied.
+
+    This civil war became our hallmark; brothers against sisters, daughters against mothers, sons against fathers. Our world was waylaid by arcane nightmares and hellish science, forever scorching our once bountiful and beautiful fields, wracked by darkest war. Endlessly, these battles continued, and the resources needed to sustain our fighting were too great. Our world became another casualty of the war; endless black smoke filled the sky, and the soil soaked with the toxins of pollution. Calamity after calamity befell our people, until our world, once known for its wonders, became a charred husk secluded in the vastness of the stars. Only a small region remained habitable, and all survivors converged, bringing the final throes of war with them.
+
+    We, the ^orange;Praefectus Scientia^reset;, misused our science; through unyielding war, we robbed ourselves of precious resources necessary to fuel our war engines, and without them, left ourselves vulnerable to our tribalist enemies who overran many of our enclaves. What few remained fled into the darkest corners of the planet, toxified wastelands where even the bravest of the tribalists would dare not enter. In seeking the joy and solace they once knew, they found only the grim reality that their sacred world was on the verge of death.
+
+    While the tribalists cheered with cries of victory, a number of surviving scientists gathered in our last remaining sanctuary, hidden from the eyes of our enemies. We realized the folly of pursuing scientific development blindly, regretting that we ignored the words of the starborne traveller. The toxification of the world spread, and would quickly catch up to the remaining safe lands and water that remained if left to abide. Thus, did we turn our focus to planetary salvation, even as our enemeies searched the lands for us. We would create our final machines and launch them forward unto the heavens."
+  ],
+  "itemConfig" : {
+    "rarity" : "Legendary",
+    "price" : 0
+  }
+}

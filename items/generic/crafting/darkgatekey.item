@@ -1,0 +1,10 @@
+{
+  "itemName" : "darkgatekey",
+  "price" : 0,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "darkgatekey.png",
+  "description" : "A key fashioned from dark essence made to open dark portals that manifest throughout the universe.",
+  "shortdescription" : "Dark Gate Key",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,17 +1,21 @@
 [
-  // Automatically offered after initial quests started through ex_quest window
-  { "op" : "add", "path" : "/offeredQuests/-", "value" : "vantasphereresearch" },
-  { "op" : "add", "path" : "/offeredQuests/-", "value" : "vantasphereequip" },
-  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantasphereupgrade1" },
-  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantasphereupgrade2" },
+  // tech quests
+  { "op" : "add", "path" : "/offeredQuests/-", "value" : "stealthtech1" },
+  { "op" : "add", "path" : "/offeredQuests/-", "value" : "stealthtech2" },
+  { "op" : "add", "path" : "/offeredQuests/-", "value" : "stealthtech3" },
+  { "op" : "add", "path" : "/offeredQuests/-", "value" : "vantaspheretech1" },
+  { "op" : "add", "path" : "/offeredQuests/-", "value" : "vantaspheretech2" },
+  { "op" : "add", "path" : "/offeredQuests/-", "value" : "vantaspheretech3" },
+  { "op" : "add", "path" : "/offeredQuests/-", "value" : "vantaspheretech4" },
+  { "op" : "add", "path" : "/offeredQuests/-", "value" : "vantaspheretech5" },
 
 
-  // Naturally has to be coded to accept certain quests.
-  { "op" : "add", "path" : "/turnInQuests/-", "value" : "stealthtechtest" },
-  { "op" : "add", "path" : "/turnInQuests/-", "value" : "stealthtechupgrade" },
-  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantasphereintro" },
-  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantasphereresearch" },
-  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantasphereequip" },
-  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantasphereupgrade1" },
-  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantasphereupgrade2" }
+  { "op" : "add", "path" : "/turnInQuests/-", "value" : "stealthtech1" },
+  { "op" : "add", "path" : "/turnInQuests/-", "value" : "stealthtech2" },
+  { "op" : "add", "path" : "/turnInQuests/-", "value" : "stealthtech3" },
+  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantaspheretech1" },
+  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantaspheretech2" },
+  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantaspheretech3" },
+  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantaspheretech4" },
+  { "op" : "add", "path" : "/turnInQuests/-", "value" : "vantaspheretech5" }
 ]

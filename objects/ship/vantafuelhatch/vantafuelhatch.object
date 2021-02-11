@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
-  "description" : "Unlike other ships, this fuel hatch accepts Cerulem-based fuels.",
+  "description" : "Accepts Liquid Erchius and Ceruleum as fuel for the ship's FTL drive.",
   "shortdescription" : "Ceruleum Fuel Hatch",
   "race" : "vanta",
   "lightColor" : [102, 61, 61],
@@ -32,7 +32,7 @@
   ],
 
   "hasWindowIcon" : false,
-  "recipeGroup" : ["ceruleumfuelcell"],
+  "recipeGroup" : "fuel",
   "slotCount" : 6,
   "uiConfig" : "/interface/fuel/fuel.config",
   "autoCloseCooldown" : 3600,
@@ -43,5 +43,5 @@
   "scripts" : ["/stagehands/radiomessage.lua"],
   "scriptDelta" : 30,
   "broadcastArea" : [-5, -5, 5, 5],
-  "radioMessage" : "fuel"
+  "radioMessages" : [ "vantafuel01", "vantafuel02" ]
 }

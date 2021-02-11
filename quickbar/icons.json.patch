@@ -1,17 +1,23 @@
 [
 	{
-		"op": "add",
-		"path": "/normal/-",
-		"value": { "label" : "Research Tree", "pane" : "/zb/researchTree/researchTree.config", "icon" : "/items/tools/inspectiontool/inspectionmode.png" }
+		"op" : "add",
+		"path" : "/items/vanta-race:hfcodex",
+		"value" : {
+			"label" : "^essential;H.F. Codex",
+			"icon" : "/codex/vanta/vantadatafile.png",
+			"weight" : -1100,
+			"action" : [ "pane", "/interface/scripted/hfcodex/xcodexui.config" ]
+		}
 	},
+
 	{
-		"op": "add",
-		"path": "/normal/-",
-		"value": { "label": "Updates", "pane": "/zb/updateInfoWindow/updateInfoWindow.config", "icon": "/zb/newSail/zbUpdate.png" }
-	},
-	{
-		"op": "add",
-		"path": "/normal/-",
-		"value": { "label": "Quest List", "pane": "/zb/questList/questList.config", "icon": "/interface/quest.png" }
+		"op" : "add",
+		"path" : "/items/vanta-race:questwindow",
+		"value" : {
+			"label" : "^essential;Task Terminal",
+			"icon" : "/interface/quest.png",
+			"weight" : -1100,
+			"action" : [ "pane", "/interface/scripted/corvexquestwindow/questList.config" ]
+		}
 	}
 ]

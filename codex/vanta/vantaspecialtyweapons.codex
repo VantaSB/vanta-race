@@ -1,0 +1,22 @@
+{
+  "id" : "vantaspecialtyweapons",
+  "title" : "Vanta Weaponry - A Primer",
+  "species" : "other",
+  "description" : "Details of weaponry carried through Nightar & Vanta society",
+  "icon" : "vantadatafile.png",
+  "contentPages" : [
+    "This tome details some of the specific weaponry that the Vanta used in ancient times, and employ even today. I'm not the best when it comes to introductions, so I'll just get right into it.
+
+    This is revised copy version 2.14c\n(I don't know how versioning is supposed to work, just roll with it\n-Benzene)",
+
+    "^red;SWORDS & DAGGERS^reset;\n\nSwords and daggers are commonplace among every sentient society, dating back to each one's 'primitive' eras. Both Nightar and Vanta still use swords, but it has been rumored that recently, the Nightar have begun to employ advanced firearms for their rank-and-file soldiers, with the most elite soldiers still beholden to the blade. Most races categorized their swords among broadswords and shortswords, but the Vanta have employed another type of sword: the ^orange;greatsword^reset;, heavier and larger than the broadsword, and much more lethal. The only drawback to these swords is that they leave the wielder vulnerable to attack while readying for a strike.",
+
+    "^red;FIREARMS^reset;\n\nIn recent years, and by recent I mean the past century or three, the Vanta have taken up firearms as a means of fighting back against opponents, whether they be monsters or bandits. Their technological prowess far exceeds the now-defunct Protectorate's by millennia, which makes one wonder why even the Nightars never bothered to employ firearms in their military until somewhat recently. Because of the nature of modern firearms, especially with Nightar/Vanta firearms, you'll want to equip yourself with armors that ^#aaff00;enhance your energy regeneration^reset;.",
+
+    "^red;BANGLES^reset;\n\nThe Protectorate have blueprints for wands and staves, but the Vanta have had their own solution for 'magic' for quite some time in the form of ^orange;Psionic Bangles^reset; It should be noted that when it comes to Vanta and even Nightar weaponry, elemental effects aren't 'simulated', but rather directly imbued with them by a means unknown to even the universe's top scientific geniuses.",
+
+    "^red;GRIMOIRES^reset;\n\nAnother answer to wands and staves, ^orange;grimoires^reset; have advanced combat capabilities on par with or better than the aforementioned weapons. Grimoires have complex arrays and sigils recorded in their pages that can amplify certain elements to their maximum potential, and the incorporation of technology into the tomes themselves allows for maximum potential to be reached.",
+
+    "^red;GUNBLADES^reset;\n\nGunblades are something of an enigma by Protectorate standards. One would think that the word itself would imply a sword that can fire bullets, but this is not the case with what the Vanta call 'gunblades'. Rather than fire projectiles, a gunblade will use specialized cartridges to create a combustion within a specialized chamber, causing the blade to resonate. This allows for a decisive strike that the Vanta's historical texts have said to be able to shatter armor. Mastery of this weapon takes extreme discipline compared to most."
+  ]
+}

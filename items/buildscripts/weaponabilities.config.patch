@@ -34,5 +34,17 @@
     "op" : "add",
     "path" : "/chaosstrike",
     "value" : "/items/active/weapons/melee/abilities/broadsword/chaosstrike/chaosstrike.weaponability"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/elementalstorm",
+    "value" : "/items/active/weapons/vanta/grimoire/abilities/elementalstorm.weaponability"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/grimoireshooter",
+    "value" : "/items/active/weapons/vanta/grimoire/abilities/grimoireshooter.weaponability"
   }
 ]

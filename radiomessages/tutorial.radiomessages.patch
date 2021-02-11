@@ -6,5 +6,33 @@
       "type" : "tutorial",
       "text" : "You've obtained an ^cyan;omni-augment^reset;. These augment types come with combined status inhibitors compared to the many singular-types you would normally encounter."
     }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/pickupdarkfrag",
+    "value" : {
+      "type" : "tutorial",
+      "text" : "You've discovered a ^blue;dark fragment^reset;. These fragments have only recently been showing up on various planets across the universe, so their properties and uses are still being researched. What ^green;is^reset; known is that you can break them down into ^blue;Dark Essence^reset;, or meld them into a ^blue;Dark Crystal^reset;. Dark Crystals can be further smoothed into a ^blue;Pristine Dark Crystal^reset; using a ^orange;refinery^reset;."
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/vantafuel01",
+    "value" : {
+      "type" : "tutorial",
+      "text" : "Erchius fuel for your FTL drive can be mined from moons. It should be noted that recently, all moons scanned have delivered erratic readings.",
+      "persistTime" : 3.0
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/vantafuel02",
+    "value" : {
+      "type" : "tutorial",
+      "text" : "This ship's fuel drive has been reconfigured to be able to accept other types of fuel, not just erchius. Try finding different fuel sources; you may find some are more efficient!"
+    }
   }
 ]

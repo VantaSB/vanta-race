@@ -1,7 +1,7 @@
 {
   "itemName" : "vantaration",
   "rarity" : "Common",
-  "price" : 40,
+  "price" : 5,
   "category" : "food",
   "inventoryIcon" : "vantaration.png",
   "description" : "A ration pack; it contains about a quarter portion of your daily nutrients.",

@@ -1,0 +1,17 @@
+{
+  "ability" : {
+    "type" : "elementalstorm",
+    "name" : "<elementalName> Storm",
+    "scripts" : [ "/items/active/weapons/vanta/grimoire/abilities/grimoireprojectile.lua" ],
+    "class" : "GrimoireProjectile",
+
+    "energyCost" : 75,
+
+    "maxCastRange" : 25,
+
+    "projectileType" : "<elementalType>elementcloud",
+    "projectileParameters" : {
+      "baseDamage" : 25
+    }
+  }
+}

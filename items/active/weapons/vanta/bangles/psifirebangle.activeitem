@@ -29,7 +29,7 @@
   "baseOffset" : [0, 0],
   "muzzleOffset" : [0, 0],
 
-  "scripts" : [ "/items/active/weapons/ranged/gun.lua" ],
+  "scripts" : [ "/items/active/weapons/ranged/gun.lua", "/items/active/weapons/staff/staff.lua" ],
 
   "elementalType" : "fire",
 
@@ -78,6 +78,50 @@
       }
     }
   },
+
+  /*"altAbilityType" : "elementportal",
+  "altAbility" : {
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charged" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "discharge" : {
+        "duration" : 0.5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },*/
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

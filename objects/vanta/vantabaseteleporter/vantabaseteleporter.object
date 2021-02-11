@@ -1,0 +1,45 @@
+{
+  "objectName" : "vantabaseteleporter",
+  "objectType" : "teleporter",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "description" : "This teleporter will allow you to return to Ran's Base.",
+  "shortdescription" : "Vanta Base Teleporter",
+  "race" : "vanta",
+
+  "apexDescription" : "This teleporter will return me back to Ran's base.",
+  "avianDescription" : "This will beam me back to the Vanta military front.",
+  "floranDescription" : "Thisss will bring me back to the Vanta base.",
+  "glitchDescription" : "Observant. This is a teleporter designed to beam directly to Ran's forward operations base.",
+  "humanDescription" : "A teleporter designed to beam to Ran's forward HQ.",
+  "hylotlDescription" : "This teleporter will transport me back to the Vanta forward base.",
+  "novakidDescription" : "This here teleporter will take me right back to the Vanta's HQ.",
+  "vantaDescription" : "I can use this to teleport back to HQ.",
+
+  "category" : "teleporter",
+  "lightColor" : [40, 80, 100],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/vantabaseteleporter.config",
+
+  "inventoryIcon" : "icon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vantabaseteleporter.png:<color>", "fullbright" : true }, { "image" : "vantabaseteleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [-0, 0], [1, 0] ]
+    }
+  ],
+
+  "teleporterFootPosition" : [0, 1]
+}

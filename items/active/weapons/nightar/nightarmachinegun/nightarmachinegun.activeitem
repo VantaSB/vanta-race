@@ -1,0 +1,90 @@
+{
+  "itemName" : "nightarmachinegun",
+  "price" : 1000,
+  "maxStack" : 1,
+  "level" : 5,
+  "rarity" : "Rare",
+  "description" : "A machine gun enhanced with ceruleum.",
+  "shortdescription" : "Nightar Machine Gun",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","machinepistol"],
+
+  "inventoryIcon" : [
+    { "image" : "nightarmachinegun.png" }
+  ],
+
+  "animation" : "nightarmachinegun.animation",
+  "animationParts" : {
+    "middle" : "nightarmachinegun.png",
+    "middleFullbright" : "nightarmachinegunfullbright.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_pistol4.ogg" ]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [26, 221, 227]
+      }
+    }
+  },
+
+  "baseOffset" : [0.0, 0.125],
+  "muzzleOffset" : [2.25, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.15,
+    "baseDps" : 10,
+    "energyUsage" : 29,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.03,
+    "fireType" : "auto",
+
+    "projectileType" : "blueplasmabullet",
+    "projectileParameters" : {
+      "knockbackRange" : [10, 40]
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,81 @@
+{
+  "itemName" : "nightarstandardrifle",
+  "price" : 1000,
+  "inventoryIcon" : "nightarstandardrifle.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "These rifles are standard among the typical Nightar infantry.",
+  "shortdescription" : "Nightar Standard Rifle",
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "category" : "sniperRifle",
+  "itemTags" : ["weapon","ranged","rifle","nightar"],
+  "twoHanded" : true,
+
+  "animation" : "nightarstandardrifle.animation",
+  "animationParts" : {
+    "middle" : "nightarstandardrifle.png",
+    "middleFullbright" : "nightarstandardriflelit.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/plasma_pistol4.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.375, 0.0],
+  "muzzleOffset" : [1.875, 0.125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.42,
+    "baseDps" : 16.2,
+    "energyUsage" : 24,
+    "inaccuracy" : 0.008,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "blueplasmabullet",
+    "projectileParameters" : {
+      "knockback" : 20
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

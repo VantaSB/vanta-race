@@ -1,7 +1,7 @@
 {
   "itemName" : "ceruleumsolution",
   "rarity" : "Legendary",
-  "price" : 0,
+  "price" : 25,
   "category" : "craftingMaterial",
   "inventoryIcon" : "ceruleumsolution.png",
   "description" : "These micro containers are used in some weapons that are manufactured by the Vanta.",

@@ -8,5 +8,10 @@
 
   "liquid" : "liquidceruleum",
 
-  "price" : 100
+  "fuelAmount" : 5,
+  "price" : 5,
+
+  "learnBlueprintsOnPickup" : [
+    "ceruleumfuelcell"
+  ]
 }

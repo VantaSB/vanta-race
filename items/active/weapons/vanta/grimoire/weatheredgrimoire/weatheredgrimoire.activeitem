@@ -1,0 +1,83 @@
+{
+  "itemName" : "weatheredgrimoire",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An old, ragged grimoire.",
+  "shortdescription" : "Weathered Grimoire",
+  "category" : "grimoire",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","grimoire"],
+  "tooltipKind" : "staff",
+
+  "inventoryIcon" : "cover.png",
+
+  "animation" : "grimoire.animation",
+
+  "scripts" : [ "/items/active/weapons/vanta/grimoire/grimoire.lua" ],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "grimoireshooter",
+  "primaryAbility" : {},
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 90,
+      "weaponOffset" : [-0.625, 1.5],
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true,
+
+      "frontArmFrame" : "idle.4",
+      "backArmFrame" : "idle.4"
+    },
+
+    "charge" : {
+      "duration" : 1.4,
+      "armRotation" : 20,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "charged" : {
+      "armRotation" : 20,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "cooldown" : {
+      "weaponOffset" : [-0.625, 1.5],
+      "duration" : 0.5,
+      "armRotation" : 0,
+      "weaponRotation" : 90,
+      "allowRotate" : false,
+      "allowFlip" : true,
+
+      "frontArmFrame" : "idle.4",
+      "backArmFrame" : "idle.4"
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

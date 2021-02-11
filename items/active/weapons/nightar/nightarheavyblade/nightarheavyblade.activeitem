@@ -1,0 +1,29 @@
+{
+  "itemName" : "nightarheavyblade",
+  "price" : 1000,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Issued to Nightar elite troopers.",
+  "shortdescription" : "Nightar Heavy Blade",
+  "tooltipKind" : "sword",
+  "category" : "greatsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "greatsword", "nightar"],
+
+  "inventoryIcon" : "nightarheavyblade.png",
+
+  "animation" : "nightarheavyblade.animation",
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 18.3
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

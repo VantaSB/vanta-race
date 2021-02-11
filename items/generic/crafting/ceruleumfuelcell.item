@@ -1,6 +1,6 @@
 {
   "itemName" : "ceruleumfuelcell",
-  "price" : 750,
+  "price" : 40,
   "rarity" : "legendary",
   "category" : "fuel",
   "inventoryIcon" : "ceruleumfuelcell.png",

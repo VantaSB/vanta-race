@@ -8,9 +8,9 @@
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "tooltipKind" : "gun",
-  "itemTags" : ["weapon","ranged","pistol"],
+  "itemTags" : ["weapon","ranged","shotgun"],
 
-  "fixedLevel" : false,
+  "level" : 5,
 
   "inventoryIcon" : [
     { "image" : "vantashotgun.png" }
@@ -86,8 +86,6 @@
       }
     }
   },
-
-  //"altAbilityType" : "shrapnelbomb",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

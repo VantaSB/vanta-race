@@ -13,6 +13,11 @@ function activate(fireMode, shiftHeld)
   if fireMode == "alt" and not shiftHeld then
     activeItem.interact("ScriptPane", "/interface/scripted/techupgrade/techupgradegui.config")
   end
+
+--Integrated codex
+  if fireMode == "alt" and shiftHeld then
+    activeItem.interact("scriptPane", "/interface/scripted/hfcodex/xcodexui.config")
+  end
 end
 
 function update()

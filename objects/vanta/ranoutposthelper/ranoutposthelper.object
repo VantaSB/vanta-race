@@ -1,0 +1,72 @@
+{
+  "objectName" : "ranoutposthelper",
+  "colonyTags" : [ "merchant", "decorative" ],
+  "rarity" : "Common",
+  "description" : "He looks intimidating...",
+  "shortdescription" : "Benzene",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "breakDropOptions" : [],
+
+  "apexDescription" : "He looks rather imposing.",
+  "avianDescription" : "Novakids don't have faces, so it's hard to tell if he's annoyed or just stoic.",
+  "floranDescription" : "Starman feelsss like he'ss mad.",
+  "glitchDescription" : "Puzzled. I cannot tell if he's looking to start a fight or not.",
+  "humanDescription" : "I feel like I don't want to get on this guy's bad side.",
+  "hylotlDescription" : "I'm not sure if I should try to strike up a conversation or keep my distance with this fellow.",
+  "novakidDescription" : "I would say 'friendly face', but he looks like he's got a stick in his craw.",
+  "vantaDescription" : "Novakids are known for being mostly aloof, but this guy is known for being perpetually annoyed.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Benzene",
+        "subtitle" : "Material Supplier"
+      }
+    },
+    "buyFactor" : 10.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : { "name" : "ceruleumfuelcell" } },
+      { "item" : { "name" : "ceruleumsolution" } },
+      { "item" : { "name" : "vantaration" } }
+    ]
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "ranoutposthelper.png", "fullbright" : true },
+        { "image" : "ranoutposthelperlit.png" }
+      ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "imageLayers" : [
+        { "image" : "ranoutposthelper.png", "fullbright" : true },
+        { "image" : "ranoutposthelperlit.png" }
+      ],
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "uniqueId" : "benzeneoutpost"
+}

@@ -1,0 +1,36 @@
+{
+  "objectName" : "nightarpropdoor1",
+  "colonyTags" : ["decorative", "vanta"],
+  "rarity" : "Legendary",
+  "description" : "An auxiliary door.",
+  "shortdescription" : "Vanta Prop Door 1",
+  "race" : "vanta",
+  "category" : "decorative",
+  "price" : 100,
+
+  //"lightColor" : [122, 177, 204],
+
+  "apexDescription" : "A stout, bulkhead door of sorts.",
+  "avianDescription" : "It's a very sturdy door.",
+  "floranDescription" : "Floran not ssstrong enough to force door open.",
+  "glitchDescription" : "Impressed. This door appears to be built with security in mind.",
+  "humanDescription" : "What a strong-looking door!",
+  "hylotlDescription" : "Even with their doors, the Vanta and Nightar maintain a very interesting aesthetic.",
+  "novakidDescription" : "That sure is a pretty strong door!",
+  "vantaDescription" : "This door is strong enough to repel explosive blasts, albeit not infinitely.",
+
+  "inventoryIcon" : "propdoor.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "propdoor.png", "fullbright" : true }, { "image" : "propdoorlit.png" }
+      ],
+      "direction" : "left",
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background", "bottom" ]
+    }
+  ]
+}
