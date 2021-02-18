@@ -1,11 +1,11 @@
 {
   "itemName" : "vantagunblade",
   "price" : 5000,
-  "level" : 5,
+  "level" : 3,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Uncommon",
   "description" : "A very intricate weapon seen mostly among the Vanta.",
-  "shortdescription" : "Vanta Bayonet",
+  "shortdescription" : "Vanta Gunblade",
   "tooltipKind" : "sword",
   "category" : "gunblade",
   "twoHanded" : true,
@@ -13,7 +13,7 @@
 
   "inventoryIcon" : "vantagunblade.png",
 
-  "animation" : "vantagunblade.animation",
+  "animation" : "/items/active/weapons/vanta/gunblades/gunblade.animation",
   "animationParts" : {
     "handle" : "",
     "blade" : "vantagunblade.png"
@@ -42,7 +42,7 @@
     }
   },
 
-  "altAbilityType" : "darkslice",
+  "altAbilityType" : "spinslice",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

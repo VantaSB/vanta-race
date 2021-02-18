@@ -1,22 +1,22 @@
 {
-  "itemName" : "vantagunbladel6",
+  "itemName" : "honorscall",
   "price" : 5000,
   "level" : 7,
   "maxStack" : 1,
   "rarity" : "Essential",
-  "description" : "A very intricate weapon seen mostly among the Vanta.",
-  "shortdescription" : "Vanta Bayonet ^yellow;^reset;",
+  "description" : "The pinnacle of gunblade design.",
+  "shortdescription" : "Honor's Call",
   "tooltipKind" : "sword",
   "category" : "gunblade",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword"],
 
-  "inventoryIcon" : "vantagunbladel6.png",
+  "inventoryIcon" : "honorscall.png",
 
-  "animation" : "vantagunblade.animation",
+  "animation" : "/items/active/weapons/vanta/gunblades/gunblade.animation",
   "animationParts" : {
-    "handle" : "vantagunbladel6lit.png",
-    "blade" : "vantagunbladel6.png"
+    "handle" : "honorscalllit.png",
+    "blade" : "honorscall.png"
   },
   "animationCustom" : { },
 
@@ -24,7 +24,7 @@
 
   "elementalType" : "ceruleum",
 
-  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbilityType" : "scatteredwindscombo",
   "primaryAbility" : {
     "fireTime" : 0.72,
     "baseDps" : 18.4,

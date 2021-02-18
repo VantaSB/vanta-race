@@ -13,7 +13,7 @@
 
   "inventoryIcon" : "weatheredgunblade.png",
 
-  "animation" : "vantagunblade.animation",
+  "animation" : "/items/active/weapons/vanta/gunblades/gunblade.animation",
   "animationParts" : {
     "handle" : "",
     "blade" : "weatheredgunblade.png"
