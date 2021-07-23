@@ -1,0 +1,491 @@
+{
+  "muteSfx" : true,
+  "muteMusic" : true,
+  "skippable" : false,
+  "letterbox" : false,
+  "backgroundFadeTime" : 0.3,
+  "backgroundColor" : [0, 0, 0, 255],
+  "panels" : [
+
+// ------------------ Space background
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/skyspace.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 1.6,
+          "zoom" : 0.57,
+          "alpha" : 1,
+          "position" : [450, 275]
+        },
+        {
+          "timecode" : 9,
+          "zoom" : 0.57,
+          "alpha" : 1,
+          "position" : [500, 275]
+        },
+        {
+          "timecode" : 9.1,
+          "zoom" : 0.57,
+          "alpha" : 0,
+          "position" : [500, 275]
+        }
+      ]
+    },
+
+// ------------------ Space stars
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/stars2.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 2.5,
+          "zoom" : 0.5,
+          "alpha" : 0,
+          "position" : [450, 250]
+        },
+        {
+          "timecode" : 3,
+          "zoom" : 0.5,
+          "alpha" : 1,
+          "position" : [450, 250]
+        },
+        {
+          "timecode" : 3.5,
+          "zoom" : 0.5,
+          "alpha" : 0,
+          "position" : [450, 250]
+        },
+        {
+          "timecode" : 5,
+          "zoom" : 0.5,
+          "alpha" : 0,
+          "position" : [450, 250]
+        },
+        {
+          "timecode" : 5.5,
+          "zoom" : 0.5,
+          "alpha" : 1,
+          "position" : [450, 250]
+        },
+        {
+          "timecode" : 6,
+          "zoom" : 0.5,
+          "alpha" : 0,
+          "position" : [450, 250]
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/stars3.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 1.5,
+          "zoom" : 0.5,
+          "alpha" : 0,
+          "position" : [450, 250]
+        },
+        {
+          "timecode" : 1.8,
+          "zoom" : 0.5,
+          "alpha" : 1,
+          "position" : [450, 250]
+        },
+        {
+          "timecode" : 9,
+          "zoom" : 0.5,
+          "alpha" : 1,
+          "position" : [480, 250]
+        },
+        {
+          "timecode" : 9.5,
+          "zoom" : 0.5,
+          "alpha" : 0,
+          "position" : [480, 250]
+        }
+      ]
+    },
+
+
+// ------------------ black behind logo
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/black.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 6,
+          "zoom" : 10,
+          "alpha" : 0,
+          "position" : [450, 260],
+          "frame" : 90
+        },
+        {
+          "timecode" : 9,
+          "zoom" : 10,
+          "alpha" : 1,
+          "position" : [450, 260]
+        },
+        {
+          "timecode" : 12,
+          "alpha" : 1
+        }
+      ]
+    },
+
+
+
+// ------------------ LOGO
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogo.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 2.5,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 9,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 10.0,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 12,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogoshine1.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 9.00,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 9.01,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 9.07,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 9.08,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogoshine2.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 9.05,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 9.06,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 9.12,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 9.13,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogoshine3.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 9.10,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 9.11,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 9.17,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 9.18,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogoshine4.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 9.15,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 9.16,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 9.22,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 9.23,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogoshine5.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 9.20,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 9.21,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 9.27,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 9.28,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+
+// ------------------ your ship (in space...)
+
+
+
+// ----------------- cinematic bars
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/blackbar.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 1.01,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [480, 0]
+        },
+        {
+          "timecode" : 1.3,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [480, 0]
+        },
+        {
+          "timecode" : 12,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [480, 0]
+        }
+      ]
+    },
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/blackbar.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 1.01,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [480, 540]
+        },
+        {
+          "timecode" : 1.3,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [480, 540]
+        },
+        {
+          "timecode" : 12,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [480, 540]
+        }
+      ]
+    },
+
+
+
+// ----------------- BLACK
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/black.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 2.0,
+          "zoom" : 10,
+          "alpha" : 0,
+          "position" : [480, 200]
+        },
+        {
+          "timecode" : 2.1,
+          "zoom" : 10,
+          "alpha" : 1,
+          "position" : [480, 200]
+        },
+        {
+          "timecode" : 4.3,
+          "zoom" : 10,
+          "alpha" : 1,
+          "position" : [480, 200]
+        },
+        {
+          "timecode" : 5.0,
+          "zoom" : 10,
+          "alpha" : 0,
+          "position" : [480, 200]
+        },
+        {
+          "timecode" : 12.2,
+          "zoom" : 10,
+          "alpha" : 0,
+          "position" : [40, 0]
+        },
+        {
+          "timecode" : 12.5,
+          "zoom" : 10,
+          "alpha" : 1,
+          "position" : [40, 0]
+        },
+        {
+          "timecode" : 12.6,
+          "zoom" : 10,
+          "alpha" : 1,
+          "position" : [40, 0]
+        },
+        {
+          "timecode" : 12.9,
+          "zoom" : 10,
+          "alpha" : 0,
+          "position" : [40, 0]
+        }
+      ]
+    }
+  ],
+
+  "audio" : [
+
+  ]
+}
