@@ -1,9 +1,9 @@
 {
   "id" : "vantahistory02",
-  "title" : "File VH002 - ^cyan;Age of War",
+  "title" : "File VH002 - ^cyan;War",
   "species" : "vanta",
   "description" : "Historical Testament of Kyrilu Marek",
-  "icon" : "vantadocfile.png",
+  "icon" : "vantabook.png",
   "contentPages" : [
     "^red;ERROR: This codex entry cannot be read or stored by the standard codex reader. Data has been moved to high-fidelity storage for review and can be accessed through a High-Fidelity Codex reader.\n\nCODE: 0x80004002"
   ],

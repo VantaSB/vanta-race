@@ -1,9 +1,9 @@
 {
   "id" : "vantahistory03",
-  "title" : "File VH003 - ^cyan;Age of Exile",
+  "title" : "File VH003 - ^cyan;Exile",
   "species" : "vanta",
   "description" : "Historical Testament of Kyrilu Marek",
-  "icon" : "vantadocfile.png",
+  "icon" : "vantabook.png",
   "contentPages" : [
     "^red;ERROR: This codex entry cannot be read or stored by the standard codex reader. Data has been moved to high-fidelity storage for review and can be accessed through a High-Fidelity Codex reader.\n\nCODE: 0x80004002"
   ],

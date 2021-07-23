@@ -1,7 +1,6 @@
 {
   "id" : "vantadoc1",
   "title" : "The Vanta - A Perspective",
-  "species" : "other",
   "description" : "Written by an adventurer who lived among the Vanta",
   "icon" : "vantadocfile.png",
   "contentPages" : [

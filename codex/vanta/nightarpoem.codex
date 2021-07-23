@@ -1,7 +1,6 @@
 {
   "id" : "nightarpoem",
   "title" : "The Night King's Men",
-  "species" : "other",
   "description" : "A poem written by a soldier from the first Imperial Era.",
   "icon" : "nightarpoem.png",
   "contentPages" : [
