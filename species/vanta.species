@@ -18,7 +18,7 @@
     "tier1" : [
 
 //EmptyHands,
-      { "item" : "bareknuckle" }
+      { "item" : "bareknuckle" },
       { "item" : "flagvanta" },
 	    { "item" : "emptyhead"},
 
