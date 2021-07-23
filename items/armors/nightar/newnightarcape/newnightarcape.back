@@ -1,0 +1,14 @@
+{
+  "itemName" : "newnightarcapeback",
+  "price" : 150,
+  "inventoryIcon" : "newnightarcapeicon.png",
+  "rarity" : "legendary",
+  "category" : "backwear",
+  "description" : "A Nightar cape. Only esteemed individuals like military generals are seen wearing one.",
+  "shortdescription" : "Nightar Cape",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "vantadecorativerail",
+  "price" : 0,
+  "category" : "rail",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "vantaplatform",
+  "description" : "...",
+  "shortdescription" : "Decorative Rail",
+
+  "materialId" : 3223
+}

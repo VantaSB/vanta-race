@@ -1,0 +1,178 @@
+// Main mission stuff here, miscellaneous below this section.
+
+{
+  "vantaintroExitBed" : {
+    "type" : "mission",
+    "text" : "You've been in extended cryo-sleep for a while, Captain. Take a moment to get your bearings back. Press [^green;A^reset;] or [^green;D^reset;] to exit the cryopod."
+  },
+
+  "vantaintroCryoBayTutorial01" : {
+    "type" : "mission",
+    "text" : "There is some electrical interference in this section which is preventing the door from opening normally. You'll need to find the manual release switch to get it open.",
+    "persistTime" : 2.0
+  },
+
+  "vantaintroCryoBayTutorial02" : {
+    "type" : "mission",
+    "text" : "You can interact with nearby objects, doors, or people by hovering your cursor over them and pressing [^green;E^reset;]."
+  },
+
+  "vantaintroCryoBayPester" : {
+    "type" : "mission",
+    "text" : "Remember, you can open doors and flip switches by hovering over it with your cursor and pressing [^green;E^reset;]."
+  },
+
+  "vantaintroCryoBayAccessTutorial01" : {
+    "type" : "mission",
+    "text" : "We need to gather some intel on our situation, as well as getting your gear back. Try checking any nearby containers for clues. In lieu of your gear being available, you should be able to use martial combat for the time being.",
+    "persistTime" : 2.0
+  },
+
+  "vantaintroCryoBayAccessTutorial02" : {
+    "type" : "mission",
+    "text" : "Open your inventory with ^reset;[^green;I^reset;] and equip your punching gloves by dragging them to the first slot on your action bar."
+  },
+
+  "vantaintroNavigationRoom01" : {
+
+    "type" : "mission",
+    "text" : "This is appears to be a navigation terminal. I've managed to access the layout of where we are. We appear to be aboard a Nightar research station for prototype weaponry and bioweapon research.",
+    "persistTime" : 2.0
+
+  },
+
+  "vantaintroNavigationRoom02" : {
+
+    "type" : "mission",
+    "text" : "I'm still not able to break through their security ciphers, so my assistance will be somewhat limited for the time being. Though, I must confess that I'm curious...",
+    "persistTime" : 2.0
+
+  },
+
+  "vantaintroNavigationRoom03" : {
+
+    "type" : "mission",
+    "text" : "This is designated as a ^cyan;Nightar^reset; station, but we've always known them to be more 'tribalist' in nature, not so 'technological'. If this really is a Nightar complex, then this must be operated by some new faction we've not yet learned about."
+
+  },
+
+  "vantaintroLabAlert" : {
+
+    "type" : "mission",
+    "portraitImage" : "/interface/chatbubbles/nightarsoundonly.png:<frame>",
+    "text" : "^orange;UNAUTHORIZED ENTRY DETECTED IN LAB N1W3. ALL UNITS REPORT TO DESIGNATED SECURITY POSTS IMMEDIATELY. REPEAT: UNAUTHORIZED ENTRY DETECTED IN LAB N1W3. ALL UNITS REPORT TO DESIGNATED SECURITY POSTS IMMEDIATELY.",
+    "persistTime" : 2.0
+
+  },
+
+  "vantaintroWeaponsLab01" : {
+
+    "type" : "mission",
+    "text" : "They've been alerted to our presence. The remainder of your gear is being stored in this room; hurry and collect your weapons so you're better armed for future threats.",
+    "persistTime" : 2.0
+
+  },
+
+  "vantaintroWeaponsLab02" : {
+
+    "type" : "mission",
+    "text" : "It also looks like they're keeping a ^orange;matter manipulator^reset; here. You need to get that matter manipulator - it will be essential to your survival. I'll get it configured for you once you have it in your possession."
+
+  },
+
+  //---------------------------------------------------------------------------------
+
+  "vantaintroWeaponsLab03" : {
+
+    "type" : "mission",
+    "text" : "Some doors are wired to a switch. However, technologies have improved considerably and some switches aren't visible in the normal spectrum, but are detectable by basic scanners.",
+    "persistTime" : 2.0
+
+  },
+
+  "vantaintroWeaponsLab04" : {
+
+    "type" : "mission",
+    "text" : "I've activated your ^orange;scan mode^reset; on your Matter Manipulator [^green;N^reset;]. Sweep the room for hidden switches to advance. We're close to the engineering levels."
+
+  },
+
+  "vantaintroEngineeringAccess" : {
+
+    "type" : "mission",
+    "text" : "I think we can make this work to our advantage. There reactors ahead are powered by 6 fuel cells each. Destroy the fuel cells to overload the reactors and we can send the entire station into chaos."
+
+  },
+
+  "vantaintroPowerDownAlert" : {
+
+    "type" : "mission",
+    "portraitImage" : "/interface/chatbubbles/nightarsoundonly.png:<frame>",
+    "text" : "^red;EMERGENCY ALERT: MAIN REACTORS OFFLINE. MULTIPLE CONTAINMENT BREACHES DETECTED IN BIOTECH 1, 3, AND 4. NON-HUMANOID PRESENCES DETECTED IN ENGINEERING, ADMINISTRATIVE, OPERATIONS, AND MAIN HANGAR.",
+    "persistTime" : 2.0
+
+  },
+
+  "vantaintroEscape01" : {
+
+    "type" : "mission",
+    "text" : "The main power is knocked out. With the containment breaches, they'll be busy, but you'll also have to make sure that you don't become a victim of whatever bioweapons they've been experimenting on here."
+
+  },
+
+  "vantaintroEscape02" : {
+
+    "type" : "mission",
+    "text" : "I've been reviewing the layout of this compound. The operations room has a hidden escape route that winds through some of the auxiliary sections and to the main hangar."
+
+  },
+
+  "vantaintroEscape03" : {
+
+    "type" : "mission",
+    "text" : "The emergency escape door is held shut by four sonic locks in this room. Look around with your ^green;scan mode^reset; to activate them all and open the door."
+
+  },
+
+  "vantaintroEscape04" : {
+
+    "type" : "mission",
+    "text" : "This section was heavily damaged by the reactor explosions, multiple failsafes are in place. You'll need to find another way to the next auxiliary room and then the hangar."
+
+  },
+
+  "vantaintroEscape05" : {
+
+    "type" : "mission",
+    "text" : "Your ^green;Matter Manipulator^reset; can be used to clear this debris. Press [^green;R^reset;] to equip it, then click and hold over the junk pile to dig through it."
+
+  },
+
+  "vantaintroHangar" : {
+
+    "type" : "mission",
+    "text" : "I've bypassed all pre-flight checks; the engines are primed for immediate takeoff. Hurry and get aboard!"
+
+  },
+
+  "pocsecPickup" : {
+
+    "type" : "mission",
+    "text" : "Be on the lookout for datapads like these; they're used for quick communications between Nightar soldiers and commanders. We also might be able to glean some useful information."
+
+  },
+
+  "vantaintroKeypad01" : {
+
+    "type" : "mission",
+    "text" : "This keypad is highly secure. I'm not able to break through their security ciphers, so you will need to find the correct combination to it."
+
+  },
+
+  "vantaintroKeypad02" : {
+
+    "type" : "mission",
+    "text" : "Another keypad here, likely with a different combination. See if there's another datapad somewhere that might have the information."
+
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "vantacapeback",
+  "price" : 150,
+  "inventoryIcon" : "vantacapeicon.png",
+  "rarity" : "legendary",
+  "category" : "backwear",
+  "description" : "A Vanta cape.",
+  "shortdescription" : "Vanta Cape",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1
+}

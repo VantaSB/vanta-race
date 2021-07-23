@@ -1,0 +1,36 @@
+{
+  "objectName" : "scanswitch",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "This switch is invisible in normal spectrums and requires use of the scan mode.",
+  "shortdescription" : "Scan Switch",
+  "race" : "generic",
+
+  "apexDescription" : "This switch just reacted to my scanner.",
+  "avianDescription" : "This switch reacted to the scanner.",
+  "floranDescription" : "Invissible ssswitch reacted to Floran's ssscanner.",
+  "glitchDescription" : "Observant. This switch has reacted to my scanner.",
+  "humanDescription" : "Whoa, this switch reacted to the scanner!",
+  "hylotlDescription" : "This switch is designed to react to scanners.",
+  "novakidDescription" : "Pretty neat how this switch reacts to my scanner!",
+  "vantaDescription" : "This switch just activated after I scanned it.",
+
+  "category" : "wire",
+  "price" : 0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "scanswitch.png",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/scanswitch2.lua" ],
+  "scriptDelta" : 5,
+
+  "outputNodes" : [ [1, 0] ]
+}

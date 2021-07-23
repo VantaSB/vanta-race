@@ -1,0 +1,34 @@
+{
+  "objectName" : "vantaintroship",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "scannable" : false,
+  "printable" : false,
+
+  "description" : "A personal transport ship manufactured by the Nightar.",
+  "shortdescription" : "Nightar Shuttle",
+  "race" : "vanta",
+
+  "apexDescription" : "A space ship! This is my way out!",
+  "avianDescription" : "Thank the maker! This might be my chance to get out of here!",
+  "floranDescription" : "Ssspace ship! Floran has found essscape vehicle!",
+  "glitchDescription" : "Relieved. I can use this space ship to escape to safety!",
+  "humanDescription" : "Just as I hoped! This ship is my way out of here.",
+  "hylotlDescription" : "That's it! This space ship will carry me to a safer place.",
+  "novakidDescription" : "I'll be takin' that space ship to safety!",
+  "vantaDescription" : "Looks like this is my way out of here.",
+
+  "keepAlive" : true,
+
+  "inventoryIcon" : "protectorateshipicon.png",
+  "orientations" : [
+    {
+      "image" : "vantaintroship.png",
+      "imagePosition" : [0, 0],
+
+      "metaBoundBox" : [-20, -10, 20, 10],
+      "anchors" : []
+    }
+  ]
+}

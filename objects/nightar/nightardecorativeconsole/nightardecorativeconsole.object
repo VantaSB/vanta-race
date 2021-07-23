@@ -1,0 +1,56 @@
+{
+  "objectName" : "nightardecorativeconsole",
+  "colonyTags" : ["nightar","electronic"],
+  "rarity" : "Common",
+  "description" : "A command console used in Nightar complexes.",
+  "shortdescription" : "Nightar Console",
+  "race" : "nightar",
+  "category" : "decorative",
+  "price" : 100,
+  "lightColor" : [114, 127, 124],
+
+  "apexDescription" : "A console. Its design is similar to some common models.",
+  "avianDescription" : "A console. Though, this looks rather basic.",
+  "floranDescription" : "Dark consssole not shiny enough for Floran.",
+  "glitchDescription" : "Curious. This console's design seems familiar...",
+  "humanDescription" : "This console always stays on.",
+  "hylotlDescription" : "This console appears to be a secure terminal connected to a larger system.",
+  "novakidDescription" : "I can't figure out all the tiny glyphs on the screen.",
+  "vantaDescription" : "These symbols are from an older Vanta dialect.",
+
+  "inventoryIcon" : "/objects/outpost/outpostsecurityconsole/icon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "nightardecorativeconsole.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "nightardecorativeconsolelit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 3,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [
+        { "image" : "nightardecorativeconsole.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "nightardecorativeconsolelit.png:<color>.<frame>" }
+      ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 3,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

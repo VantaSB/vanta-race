@@ -135,7 +135,7 @@
  "nextobjectid":679,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.3.4",
+ "tiledversion":"1.4.3",
  "tileheight":8,
  "tilesets":[
         {
@@ -243,19 +243,23 @@
          "source":"..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }, 
         {
-         "firstgid":7709,
+         "firstgid":7731,
          "source":"..\/tilesets\/vanta-custom\/vantaliquids.json"
         }, 
         {
-         "firstgid":7710,
+         "firstgid":7732,
          "source":"..\/tilesets\/vanta-custom\/vantamaterials.json"
         }, 
         {
-         "firstgid":7728,
+         "firstgid":7751,
          "source":"..\/tilesets\/vanta-custom\/vantasupports.json"
+        }, 
+        {
+         "firstgid":7753,
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/huge-objects.json"
         }],
  "tilewidth":8,
  "type":"map",
- "version":1.2,
+ "version":1.4,
  "width":500
 }

@@ -1,0 +1,61 @@
+{
+  "objectName" : "nightarkeycardreader",
+  "colonyTags" : ["nightar","wired"],
+  "rarity" : "Common",
+  "description" : "A keycard reader.",
+  "shortdescription" : "Keycard Reader",
+  "race" : "nightar",
+  "category" : "storage",
+  "price" : 0,
+
+  "objectType" : "container",
+  "slotCount" : 1,
+  "uiConfig" : "/interface/objectcrafting/keycardreader/keycardreadergui.config",
+  "subtitle" : "",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "nightarkeycardreader.lua" ],
+
+  "apexDescription" : "A keycard reader. It keeps people from nosing around.",
+  "avianDescription" : "A keycard reader. Most Avian have little use for these.",
+  "floranDescription" : "Floran ussse leaf in reader. Nothing happenss...",
+  "glitchDescription" : "Dejected. Without the right keycard, will I be able to even try and access beyond?",
+  "humanDescription" : "A keycard reader! Is there a usable keycard around, though...?",
+  "hylotlDescription" : "A keycard reader. It boasts higher security than keypads.",
+  "novakidDescription" : "I reckon I could slip through here if I had the right keycard.",
+  "vantaDescription" : "A keycard reader. Far more effective security than keypads.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "nightarkeycardreader.png:<color>.off",
+
+      "imagePosition" : [-8, -8],
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/mission/nightarkeycardreader/nightarkeycardreader.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/outpostbutton.ogg" ],
+      "off" : [ "/sfx/objects/outpostbutton.ogg" ],
+      "error" : [ "/sfx/interface/perror.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "bg" : "nightarkeycardreader.png",
+    "fg" : "nightarkeycardreaderlit.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "outputNodes" : [ [0, -1] ],
+
+  "interval" : 13,
+
+  "requiredKey" : ["generickeycard"] //This can actually be configured in Tiled.
+}

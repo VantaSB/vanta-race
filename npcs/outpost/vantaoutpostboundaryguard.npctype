@@ -110,8 +110,8 @@
       [0, [
         {
           "head" : [ { "name" : "vantaguardhead" } ],
-          "chest" : [ { "name" : "vantatier3chest" } ],
-          "legs" : [ { "name" : "vantatier3pants" } ]
+          "chest" : [ { "name" : "vantaguardchest" } ],
+          "legs" : [ { "name" : "vantaguardpants" } ]
         }
       ] ]
     ]

@@ -34,7 +34,7 @@
       },
       {
         "type" : "gatherItem",
-        "itemName" : "refinedsolarium",
+        "itemName" : "solariumstar",
         "count" : 5,
         "consume" : true
       }

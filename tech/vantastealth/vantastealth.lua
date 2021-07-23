@@ -82,6 +82,7 @@ function input(args)
 	  end
   end
 
+
   --[[if args.moves["left"] or args.moves["right"] and self.sprintEnabled then
     if not self.lastMoves["left"] or not self.lastMoves["right"] then
       if self.doubleTapTimer <= 0 then

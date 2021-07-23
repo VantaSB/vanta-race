@@ -1,0 +1,33 @@
+{
+  "itemName" : "nightarstandardblade_lv1",
+  "price" : 960,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A replica version of a legendary blade.",
+  "shortdescription" : "Nightar Standard Blade",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "nightarstandardblade.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "blade" : "nightarstandardblade.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.80,
+    "baseDps" : 6.8
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

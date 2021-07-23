@@ -1,0 +1,33 @@
+{
+  "objectName" : "nightarincap3",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "A cadaver...",
+  "shortdescription" : "Nightar Soldier Body",
+  "race" : "nightar",
+
+  "apexDescription" : "The enemy is neutralized...",
+  "avianDescription" : "My word...",
+  "floranDescription" : "Floran upssset that I wasn't one who took thiss one down...",
+  "glitchDescription" : "Relieved. I won't have any trouble from this one.",
+  "humanDescription" : "Well, we know they aren't immortal, at least.",
+  "hylotlDescription" : "These wounds were fatal.",
+  "novakidDescription" : "Missed a good opportunity for shootin'.",
+  "vantaDescription" : "At least I don't have to worry about this one pursuing me.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "nightarincap3.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1
+    }
+  ],
+
+  "animation" : "nightarincap3.animation",
+  "animationPosition" : [-8, 0]
+}

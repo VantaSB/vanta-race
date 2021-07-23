@@ -15,6 +15,7 @@
     }]
   ],
 
+  //------------------------------ Items ------------------------------
   "vantaGunbladeTreasure" : [
     [0, {
       "fill" : [
@@ -24,6 +25,15 @@
     }]
   ],
 
+  "introSmallLockBox" : [
+    [0, {
+      "fill" : [
+        { "item" : "nightarpocsec", "noteText" : "Cargo secured. All subjects accounted for. Scheduled for delivery to site NF-247.", "consumeOnUse" : true }
+      ]
+    }]
+  ],
+
+  //------------------------------ Biome ------------------------------
   "proximaRuinsTreasure" : [
     [1, {
       "pool" : [
@@ -40,6 +50,7 @@
     }]
   ],
 
+  //------------------------------ Monster Drops ------------------------------
   "ceruleumSmoglinTreasure" : [
     [1, {
       "pool" : [

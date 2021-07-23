@@ -3,7 +3,7 @@
   "name" : "vanta/supports",
   "properties" : {},
   "spacing" : 0,
-  "tilecount" : 2,
+  "tilecount" : 3,
   "tileheight" : 16,
   "tileproperties" : {
     "0" : {
@@ -15,8 +15,14 @@
     "1" : {
       "//description" : "A platform made using advanced alloys.",
       "//name" : "vantaplatform",
-      "//shortdescription" : "vanta Platform",
+      "//shortdescription" : "Vanta Platform",
       "material" : "vantaplatform"
+    },
+    "2" : {
+      "//description" : "...",
+      "//name" : "vantadecorativerail",
+      "//shortdescription" : "Vanta Decorative Rail",
+      "material" : "vantadecorativerail"
     }
   },
 
@@ -26,6 +32,9 @@
     },
     "1" : {
       "image" : "../../tiled/vanta-custom/materials/vantaplatform.png"
+    },
+    "2" : {
+      "image" : "../../tiled/vanta-custom/materials/vantadecorativerail.png"
     }
   },
 

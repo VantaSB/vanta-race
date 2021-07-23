@@ -1,0 +1,31 @@
+{
+  "name" : "enhancedwalljump",
+  "type" : "legs",
+
+  "scripts" : ["walljump.lua"],
+  "animator" : "walljump.animation",
+
+  "description" : "A slower slide for a more stealthy wall ride!",
+  "shortDescription" : "Enhanced Wall Jump",
+  "rarity" : "Legendary",
+  "icon" : "/tech/walljump_r.png",
+
+  "chipCost" : 8,
+
+  "multiJumpCount" : 1,
+
+  "wallSensors" : [1.0, 1.75, 2.5],
+  "wallDetectThreshold" : 1,
+
+  "wallReleaseTime" : 0.15,
+
+  "wallGrabFreezeTime" : 0.15,
+  "wallJumpXVelocity" : 15,
+  "wallSlideParameters" : {
+    "airJumpProfile" : {
+      "jumpInitialPercentage" : 1.0
+    },
+    "airForce" : 0,
+    "airFriction" : 35.0
+  }
+}

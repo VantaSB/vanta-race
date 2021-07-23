@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/introCinematic",
+    "value" : "/cinematics/intro/<species>_introstart.cinematic"
+  }
+]

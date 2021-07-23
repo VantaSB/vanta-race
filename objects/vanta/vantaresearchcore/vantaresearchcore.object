@@ -5,7 +5,7 @@
   "price" : 0,
   "rarity" : "essential",
   "interactAction" : "ScriptPane",
-  "interactData" : "/interface/scripted/research/researchTree.config",
+  "interactData" : "/interface/scripted/ex_research/researchTree.config",
   "description" : "A Vanta device used for researching and controlling their psionic abilities.",
   "shortdescription" : "Vanta Research Core",
   "race" : "vanta",

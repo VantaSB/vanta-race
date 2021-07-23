@@ -1,0 +1,61 @@
+/*
+
+Yoinked from base game assets and expanded to be used beyond bounty quests. There are additional properties below that can be configured through admin spawning/Tiled:
+
+"interval" = Seen with momentary switches; adjusts the timer function before switching off.
+"persistent" = Disables the timer and tells the script to remain 'on'.
+
+"combination" = This was carried over from the original incarnation, but this can now be configured in Tiled.
+
+The script pane has been modified to auto-close after the correct combination is received, and the keypad will disable interacivity while 'on'. If 'persistent' is 'true', the keypad will permanently disable interactivity until it is forcibly removed from the world (this option should only be used in instance worlds/dungeons).
+
+*/
+
+{
+  "objectName" : "nightarkeypad",
+  "colonyTags" : ["electronic","wired","nightar"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A numeric security keypad that requires a specific combination.",
+  "shortdescription" : "Nightar Keypad",
+  "race" : "nightar",
+
+  "apexDescription" : "A Nightar security keypad. The glyphs represent numbers.",
+  "avianDescription" : "The Nightar use glyphs? I wonder if they took that queue from the Stargazers...",
+  "floranDescription" : "Floran doesn't underssstand Nightar numberss...",
+  "glitchDescription" : "Curious. These glyphs are supposed to represent numbers, but do they follow the same order?",
+  "humanDescription" : "I shouldn't be surprised that the Nightar have their own written language, but c'mon...!",
+  "hylotlDescription" : "For their faults, the Nightar at least have a beautiful written language.",
+  "novakidDescription" : "I reckon' if I could read those glyphs proper, I'd be able to waltz on through.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "nightarkeypad.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "health" : 5,
+  "rooting" : true,
+
+  "outputNodes" : [ [0, 0] ],
+
+  "scripts" : ["/objects/mission/nightarkeypad/nightarkeypad.lua"],
+  "scriptDelta" : 5,
+
+  "interval" : 50,
+  "persistent" : false,
+
+  "interactData" : {
+    "baseConfig" : "/interface/scripted/nightarkeypad/nightarkeypadgui.config"
+  },
+
+  "combinationLength" : 4,
+  "combination" : null //Set this in Tiled
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 3223,
+  "materialName" : "vantadecorativerail",
+  "collisionKind" : "none",
+  "foregroundOnly" : true,
+  "itemDrop" : "vantadecorativerail",
+  "shortdescription" : "Decorative Railing",
+  "description" : "...",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "category" : "supports",
+  "health" : 4,
+
+  "renderTemplate" : "/tiles/railtemplate.config",
+  "renderParameters" : {
+    "texture" : "vantadecorativerail.png",
+    "variants" : 1,
+    "multiColored" : true,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "zLevel" : 0
+  }
+}

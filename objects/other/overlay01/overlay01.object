@@ -1,0 +1,28 @@
+{
+  "objectName" : "overlay01",
+  "colonyTags" : [],
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "",
+  "shortdescription" : "Decorative Overlay",
+  "race" : "generic",
+
+  "inventoryIcon" : "overlay01.png",
+
+  "orientations" : [
+    {
+      "dualImage" : "overlay01.png",
+      "imagePosition" : [ -24, 0 ],
+      "renderLayer" : "Player+10",
+
+      "materialSpaces" : [
+        [[0,0], "metamaterial:rail"]
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

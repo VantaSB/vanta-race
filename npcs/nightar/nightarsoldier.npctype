@@ -8,7 +8,18 @@
 
   "scriptConfig" : {
     "dialog" : {
-      "attack" : "/dialog/nightarsoldiers.config:attack"
+      "attack" : {
+        "default" : {
+          "default" : [
+            "!"
+          ]
+        },
+        "nightar" : {
+          "default" : [
+            "!"
+          ]
+        }
+      }
     }
   },
 

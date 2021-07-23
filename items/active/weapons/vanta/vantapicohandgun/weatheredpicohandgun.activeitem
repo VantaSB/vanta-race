@@ -35,11 +35,11 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.87,
+    "fireTime" : 0.67,
     "baseDps" : 6,
     "energyUsage" : 10,
     "projectileCount" : 1,
-    "inaccuracy" : 0.21,
+    "inaccuracy" : 0.12,
 
     "projectileType" : "plasmabullet",
     "projectileParameters" : { },

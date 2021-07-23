@@ -1,0 +1,7 @@
+{
+  "sounds" : {
+    "multiJumpSound" : ["/sfx/tech/tech_doublejump.ogg"],
+    "wallJumpSound" : ["/sfx/tech/tech_walljump.ogg"],
+    "wallGrab" : [ "/sfx/blocks/footstep_stone.ogg" ]
+  }
+}

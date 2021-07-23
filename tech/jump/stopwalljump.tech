@@ -1,0 +1,31 @@
+{
+  "name" : "stopwalljump",
+  "type" : "legs",
+
+  "scripts" : ["cling.lua"],
+  "animator" : "walljump.animation",
+
+  "description" : "Stop sliding altogether and chill on a wall!",
+  "shortDescription" : "Wall Cling",
+  "rarity" : "Legendary",
+  "icon" : "/tech/walljump_ex.png",
+
+  "chipCost" : 8,
+
+  "multiJumpCount" : 1,
+
+  "wallSensors" : [1.0, 1.75, 2.5],
+  "wallDetectThreshold" : 1,
+
+  "wallReleaseTime" : 0.15,
+
+  "wallGrabFreezeTime" : 0.15,
+  "wallJumpXVelocity" : 15,
+  "wallSlideParameters" : {
+    "airJumpProfile" : {
+      "jumpInitialPercentage" : 1.0
+    },
+    "airForce" : 0,
+    "airFriction" : 100.0
+  }
+}

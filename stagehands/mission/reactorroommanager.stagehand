@@ -1,0 +1,10 @@
+{
+  "type" : "reactorroommanager",
+
+  "broadcastArea" : [-96, -54, 96, 54],
+
+  "scripts" : [ "/stagehands/mission/reactorroommanager.lua" ],
+  "scriptDelta" : 5,
+
+  "reactorIds" : [ ]
+}

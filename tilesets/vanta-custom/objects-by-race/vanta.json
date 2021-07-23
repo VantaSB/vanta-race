@@ -8,7 +8,7 @@
   "margin" : 0,
   "name" : "vanta/objects",
   "spacing" : 0,
-  "tilecount" : 61,
+  "tilecount" : 78,
   "tileheight" : 75,
   "tilewidth" : 65,
   "type" : "tileset",
@@ -55,7 +55,7 @@
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarbladedsiplay1",
+      "object" : "nightarbladedisplay1",
       "tilesetDirection" : "right"
     },
     "5" : {
@@ -64,7 +64,7 @@
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarbladedsiplay2",
+      "object" : "nightarbladedisplay2",
       "tilesetDirection" : "right"
     },
     "6" : {
@@ -73,7 +73,7 @@
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarbladedsiplay3",
+      "object" : "nightarbladedisplay3",
       "tilesetDirection" : "right"
     },
     "7" : {
@@ -82,7 +82,7 @@
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarbladedsiplay4",
+      "object" : "nightarbladedisplay4",
       "tilesetDirection" : "right"
     },
     "8" : {
@@ -91,7 +91,7 @@
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarbladedsiplay5",
+      "object" : "nightarbladedisplay5",
       "tilesetDirection" : "right"
     },
     "9" : {
@@ -100,7 +100,7 @@
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "nightarbladedsiplay6",
+      "object" : "nightarbladedisplay6",
       "tilesetDirection" : "right"
     },
     "10" : {
@@ -330,11 +330,11 @@
     },
     "35" : {
       "//description" : "A small green light. It's broken.",
-      "//name" : "brokennightarshiplight",
+      "//name" : "nightarshiplightBroken",
       "//shortdescription" : "Broken Green Ship Light",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "brokennightarshiplight",
+      "object" : "nightarshiplightBroken",
       "tilesetDirection" : "right"
     },
     "36" : {
@@ -560,6 +560,159 @@
       "imagePositionX" : "-16",
       "imagePositionY" : "-24",
       "object" : "vantashiphatch",
+      "tilesetDirection" : "right"
+    },
+    "61" : {
+      "//description" : "A command console used in Nightar complexes.",
+      "//name" : "nightardecorativeconsole",
+      "//shortdescription" : "Nightar Console",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "nightardecorativeconsole",
+      "tilesetDirection" : "right"
+    },
+    "62" : {
+      "//description" : "A server that stores massive amounts of data.",
+      "//name" : "nightarserver",
+      "//shortdescription" : "Nightar Server",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "nightarserver",
+      "tilesetDirection" : "right"
+    },
+    "63" : {
+      "//description" : "A complicated array of display data.",
+      "//name" : "nightarsuperdisplay",
+      "//shortdescription" : "Nightar Data Array",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "nightarsuperdisplay",
+      "tilesetDirection" : "right"
+    },
+    "64" : {
+      "//description" : "A compact button that activates when pressed.",
+      "//name" : "nightartinywallbutton",
+      "//shortdescription" : "Nightar Tiny Wall Button",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightartinywallbutton",
+      "tilesetDirection" : "right"
+    },
+    "65" : {
+      "//description" : "A personal transport ship manufactured by the Nightars.",
+      "//name" : "vantaintroship",
+      "//shortdescription" : "Nightar Shuttle",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantaintroship",
+      "tilesetDirection" : "right"
+    },
+    "66" : {
+      "//description" : "A cadaver...",
+      "//name" : "nightarincap1",
+      "//shortdescription" : "Nightar Soldier Body",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "nightarincap1",
+      "tilesetDirection" : "right"
+    },
+    "67" : {
+      "//description" : "A cadaver...",
+      "//name" : "nightarincap2",
+      "//shortdescription" : "Nightar Soldier Body",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "nightarincap2",
+      "tilesetDirection" : "right"
+    },
+    "68" : {
+      "//description" : "A numeric security keypad that requires a specific combination.",
+      "//name" : "nightarkeypad",
+      "//shortdescription" : "Nightar Keypad",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "nightarkeypad",
+      "tilesetDirection" : "right"
+    },
+    "69" : {
+      "//description" : "",
+      "//name" : "overlay01",
+      "//shortdescription" : "Decorative Overlay",
+      "imagePositionX" : "-28",
+      "imagePositionY" : "0",
+      "object" : "overlay01",
+      "tilesetDirection" : "right"
+    },
+    "70" : {
+      "//description" : "A cryo-stasis hibernation pod.",
+      "//name" : "nightarstasispodprop",
+      "//shortdescription" : "Nightar Stasis Pod",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightarstasispodprop",
+      "tilesetDirection" : "right"
+    },
+    "71" : {
+      "//description" : "A command console used in Nightar complexes.",
+      "//name" : "nightardecorativeconsole2",
+      "//shortdescription" : "Nightar Console",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "nightardecorativeconsole2",
+      "tilesetDirection" : "right"
+    },
+    "72" : {
+      "//description" : "A highly volatile container powering a nearby reactor.",
+      "//name" : "ceruleumpowercell",
+      "//shortdescription" : "Ceruleum Power Cell",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "ceruleumpowercell",
+      "tilesetDirection" : "right"
+    },
+    "73" : {
+      "//description" : "A Nightar reactor powered by refined ceruleum.",
+      "//name" : "nightarreactor",
+      "//shortdescription" : "Nightar Reactor",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightarreactor",
+      "tilesetDirection" : "right"
+    },
+    "74" : {
+      "//description" : "A heavy-duty shipping container. It appears these have been retro-fitted for transporting specimens.",
+      "//name" : "nightarshippingcontainer",
+      "//shortdescription" : "Research Container",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "0",
+      "object" : "nightarshippingcontainer",
+      "tilesetDirection" : "right"
+    },
+    "75" : {
+      "//description" : "Containers like this one are used for holding objects for analysis.",
+      "//name" : "researchcontainer",
+      "//shortdescription" : "Research Container",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "researchcontainer",
+      "tilesetDirection" : "right"
+    },
+    "76" : {
+      "//description" : "",
+      "//name" : "scanswitch",
+      "//shortdescription" : "Scan Switch",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "scanswitch",
+      "tilesetDirection" : "right"
+    },
+    "77" : {
+      "//description" : "A cadaver...",
+      "//name" : "nightarincap3",
+      "//shortdescription" : "Floating body",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "nightarincap3",
       "tilesetDirection" : "right"
     }
   },
@@ -1051,6 +1204,142 @@
       "imagePositionX" : "string",
       "imagePositionY" : "string",
       "object" : "string"
+    },
+    "61" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "62" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "63" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "64" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "65" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "66" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "67" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "68" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "69" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "70" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "71" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "72" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "73" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "74" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "75" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "76" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
+    },
+    "77" : {
+      "//description" : "string",
+      "//name" : "string",
+      "//shortdescription" : "string",
+      "imagePositionX" : "string",
+      "imagePositionY" : "string",
+      "object" : "string"
     }
   },
   "tiles" : {
@@ -1357,6 +1646,91 @@
     "60" : {
       "image" : "../../../tiled/vanta-custom/objects/vantashiphatch.png",
       "imageheight" : 44,
+      "imagewidth" : 40
+    },
+    "61" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightardecorativeconsole.png",
+      "imageheight" : 16,
+      "imagewidth" : 40
+    },
+    "62" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarserver.png",
+      "imageheight" : 32,
+      "imagewidth" : 24
+    },
+    "63" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarsuperdisplay.png",
+      "imageheight" : 64,
+      "imagewidth" : 112
+    },
+    "64" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightartinywallbutton.png",
+      "imageheight" : 8,
+      "imagewidth" : 8
+    },
+    "65" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantaintroship.png",
+      "imageheight" : 543,
+      "imagewidth" : 197
+    },
+    "66" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarincap1.png",
+      "imageheight" : 40,
+      "imagewidth" : 16
+    },
+    "67" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarincap2.png",
+      "imageheight" : 40,
+      "imagewidth" : 16
+    },
+    "68" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarkeypad.png",
+      "imageheight" : 16,
+      "imagewidth" : 16
+    },
+    "69" : {
+      "image" : "../../../tiled/vanta-custom/objects/overlay01.png",
+      "imageheight" : 8,
+      "imagewidth" : 56
+    },
+    "70" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarstasispodclosed.png",
+      "imageheight" : 8,
+      "imagewidth" : 56
+    },
+    "71" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightardecorativeconsole2.png",
+      "imageheight" : 16,
+      "imagewidth" : 40
+    },
+    "72" : {
+      "image" : "../../../tiled/vanta-custom/objects/ceruleumpowercell.png",
+      "imageheight" : 32,
+      "imagewidth" : 64
+    },
+    "73" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarreactor.png",
+      "imageheight" : 80,
+      "imagewidth" : 176
+    },
+    "74" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarshippingcontainer.png",
+      "imageheight" : 120,
+      "imagewidth" : 48
+    },
+    "75" : {
+      "image" : "../../../tiled/vanta-custom/objects/researchcontainer.png",
+      "imageheight" : 72,
+      "imagewidth" : 40
+    },
+    "76" : {
+      "image" : "../../../tiled/vanta-custom/objects/scanswitch.png",
+      "imageheight" : 16,
+      "imagewidth" : 16
+    },
+    "77" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarincap3.png",
+      "imageheight" : 40,
       "imagewidth" : 40
     }
   }

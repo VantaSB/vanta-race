@@ -1,0 +1,56 @@
+{
+  "objectName" : "nightarserver",
+  "colonyTags" : ["nightar","electronic"],
+  "rarity" : "Common",
+  "description" : "A server that stores massive amounts of data.",
+  "shortdescription" : "Nightar Server",
+  "race" : "nightar",
+  "category" : "decorative",
+  "price" : 100,
+  "lightcolor" : [114, 127, 124],
+
+  "apexDescription" : "A highly secure server.",
+  "avianDescription" : "The screen flickers with information I can't decipher.",
+  "floranDescription" : "Box lights makes clicky ssound.",
+  "glitchDescription" : "Impressed. This server is well-protected.",
+  "humanDescription" : "I guess even Nightars pride themselves in security standards.",
+  "hylotlDescription" : "No amount of Hylotl libraries would be enough to fill this server.",
+  "novakidDescription" : "A big ol' box of information that I can't have. Darn...",
+  "vantaDescription" : "If I had the correct security key, I could probably access countless stores of information on this server.",
+
+  "inventoryIcon" : "icon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "nightarserver.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "nightarserverlit.png:<color>.<frame>" }
+      ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [
+        { "image" : "nightarserver.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "nightarserverlit.png:<color>.<frame>" }
+      ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

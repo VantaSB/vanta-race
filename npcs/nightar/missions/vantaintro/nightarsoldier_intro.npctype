@@ -1,0 +1,57 @@
+{
+  "type" : "nightarsoldier_intro",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "!"
+          ]
+        },
+        "nightar" : {
+          "default" : [
+            "!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "headCosmetic" : [ { "name" : "nightarsoldierhead" } ],
+          "chestCosmetic" : [ { "name" : "nightarsoldierchest" } ],
+          "legsCosmetic" : [ { "name" : "nightarsoldierpants" } ],
+          "primary" : [ "weathereddagger" ],
+          "sheathedPrimary" : [ "bareknuckle" ],
+          "sheathedAlt" : [ "bareknuckle" ]
+        }
+      ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.20
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
--- Based on the Ztarbound scaninteracationexample script
+-- yoinked from Ztarbound
 
 function init()
   message.setHandler('scanInteraction', scanInteraction)

@@ -1,0 +1,46 @@
+{
+  "objectName" : "nightarsuperdisplay",
+  "colonyTags" : ["nightar","electronic"],
+  "rarity" : "Common",
+  "description" : "A complicated array of display data.",
+  "shortdescription" : "Nightar Data Array",
+  "race" : "nightar",
+  "category" : "decorative",
+  "price" : 100,
+  "lightcolor" : [114, 127, 124],
+
+  "apexDescription" : "This is a lot of information to look at all at once.",
+  "avianDescription" : "There's so much information here, it's hard to tell what is what!",
+  "floranDescription" : "Floran likesss fancy wall screen!",
+  "glitchDescription" : "Curious. There are massive amounts of data flowing simultaneously.",
+  "humanDescription" : "No way I'll be able to look at all that without getting a headache...",
+  "hylotlDescription" : "A holographic display with a large amount of data scrolling across.",
+  "novakidDescription" : "That makes for one, fancy light show!",
+  "vantaDescription" : "I'm sure there are specialists who are trained for interpreting and relaying this much data.",
+
+  "inventoryIcon" : "icon.png",
+
+  "orientations" : [
+    {
+      "image" : "nightarsuperdisplay.png", "fullbright" : true,
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "nightarsuperdisplay.png", "fullbright" : true,
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "money" , "count" : 0 }
+  ],
+
+  "output" : {
+    "item" : "bareknuckle",
+	"count" : 1
+  },
+
+  "groups" : [ "plain", "all" ]
+}

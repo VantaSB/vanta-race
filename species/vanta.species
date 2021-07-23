@@ -11,7 +11,7 @@
 
   "nameGen" : [ "/species/vantamalenamegen.config:names", "/species/vantafemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/vantahurt_male1.ogg", "/sfx/humanoid/vantahurt_female1.ogg" ],
-  "charGenTextLabels" : [ "Skin colour", "Hair style", "Shirt", "Legwear", "Eye colour", "Hair colour", "Shirt colour", "Legwear colour", "VANTA", "Personality" ],
+  "charGenTextLabels" : [ "Skin Color", "Hair Style", "Shirt", "Legwear", "Eye Color", "Hair Color", "Shirt Color", "Legwear Color", "VANTA", "Personality" ],
   "skull" : "/humanoid/human/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=E0E0E0FF?replace=31a6ffFF=B7B7B7FF",
   "defaultBlueprints" : {
@@ -121,6 +121,8 @@
       { "item" : "venatorpants" },
       { "item" : "legatuschest" },
       { "item" : "legatuspants" },
+      { "item" : "obscurachest" },
+      { "item" : "obscurapants" },
 	    { "item" : "formalhead" },
 	    { "item" : "formalchest" },
 	    { "item" : "formallegs" },
@@ -132,31 +134,31 @@
   },
   "altOptionAsUndyColor" : true,
   "headOptionAsHairColor" : true,
-  "altOptionAsHairColor" : true,
+  "altOptionAsFacialHair" : true,
   "genders" : [
     {
       "name" : "male",
       "image" : "/interface/title/vantam.png",
       "characterImage" : "/interface/title/vantamale.png",
       "hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18", "male19", "male21", "male22", "male23", "male24", "male25", "male26", "male27", "male28", "male29", "male30", "male31", "male32", "male33", "male34", "male35", "male36", "male37", "male38", "male39", "male40", "male41", "male42", "male43", "male44", "male45", "male46", "male47", "male48", "male49", "male50", "male51", "male52", "male53", "male54", "male55", "male56", "male57", "male58", "male59", "male60", "male61", "male62", "male63", "male64", "male65", "male66", "male67", "male68", "male69", "male70", "vantam1" ],
-      "shirt" : [ "venatorchest", "legatuschest", "tribunischest", "formalchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2", "novakidwaistcoat", "protectorateshirtchest", "protectoratevestchest" ],
-      "pants" : [ "venatorpants", "legatuspants", "tribunispants", "formallegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "novakidblackpants" ],
-      "facialHairGroup" : "",
-      "facialHair" : [ ],
-      "facialMaskGroup" : "brand",
-      "facialMask" : [ "0","1","2","3","4","5","6" ]
+      "shirt" : [ "venatorchest", "legatuschest", "tribunischest", "obscurachest" ],
+      "pants" : [ "venatorpants", "legatuspants", "tribunispants", "obscurapants" ],
+      "facialHairGroup" : "brand",
+      "facialHair" : [ "0","1","2","3","4","5","6" ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
     },
     {
       "name" : "female",
       "image" : "/interface/title/vantaf.png",
       "characterImage" : "/interface/title/vantafemale.png",
       "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "fem52", "fem53", "fem54", "fem55", "fem56", "fem57", "fem58", "fem59", "fem60", "fem61", "fem62", "fem63", "fem64", "fem65" ],
-      "shirt" : [ "venatorchest", "legatuschest", "tribunischest", "formalchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2", "novakidwaistcoat", "protectorateshirtchest", "protectoratevestchest" ],
-      "pants" : [ "venatorpants", "legatuspants", "tribunispants", "maidlegs", "formallegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "novakidblackpants" ],
-      "facialHairGroup" : "",
-      "facialHair" : [ ],
-      "facialMaskGroup" : "brand",
-      "facialMask" : [ "0","1","2","3","4","5","6" ]
+      "shirt" : [ "venatorchest", "legatuschest", "tribunischest", "obscurachest" ],
+      "pants" : [ "venatorpants", "legatuspants", "tribunispants", "obscurapants" ],
+      "facialHairGroup" : "brand",
+      "facialHair" : [ "0","1","2","3","4","5","6" ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
     }
   ],
   "bodyColor" : [

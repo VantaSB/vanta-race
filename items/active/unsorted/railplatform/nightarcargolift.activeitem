@@ -1,0 +1,23 @@
+{
+  "itemName" : "nightarcargolift",
+  "level" : 1,
+  "price" : 1000,
+  "rarity" : "legendary",
+  "category" : "railPlatform",
+  "description" : "A heavy-duty platform found inside Nightar complexes",
+  "shortdescription" : "Nightar Cargo Lift",
+  "twoHanded" : true,
+  "maxStack" : 1,
+
+  "inventoryIcon" : "nightarcargolifticon.png",
+
+  "scripts" : ["railplatform.lua"],
+  "animationScripts" : ["placementpreview.lua"],
+
+  "placementRange" : 15,
+  "placementBounds" : [-4.5, -0.25, 4.5, 3.75],
+  "placementPreviewImage" : "/items/active/unsorted/railplatform/nightarcargolift.png",
+  "previewOffset" : [0, 0],
+
+  "platformType" : "nightarcargolift"
+}
