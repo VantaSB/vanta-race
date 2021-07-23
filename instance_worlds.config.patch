@@ -177,6 +177,29 @@
 
   {
     "op" : "add",
+    "path" : "/vantaintro",
+    "value" : {
+      "type" : "FloatingDungeon",
+      "dungeonWorld" : "vantaintro",
+      "seed" : 1234,
+      "spawningEnabled" : false,
+      "beamUpRule" : "Nowhere",
+      "disableDeathDrops" : true,
+
+      "skyParameters" : {
+        "spaceLevel" : 3000,
+        "ambientLightLevel" : [ 24, 28, 24 ],
+        "skyType" : "barren",
+        "horizonImages" : [ ],
+        "dayLength" : 1153.36,
+        "surfaceLevel" : 1200,
+        "seed" : -5288806180628666923
+      }
+    }
+  },
+
+  {
+    "op" : "add",
     "path" : "/proxima",
     "value" : {
       "type" : "Terrestrial",

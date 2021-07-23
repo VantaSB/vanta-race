@@ -57,9 +57,9 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":7697,
+                 "gid":2147491353,
                  "height":24,
-                 "id":695,
+                 "id":700,
                  "name":"",
                  "properties":[
                         {
@@ -393,10 +393,10 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":700,
+ "nextobjectid":701,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.3.4",
+ "tiledversion":"1.4.3",
  "tileheight":8,
  "tilesets":[
         {
@@ -508,15 +508,15 @@
          "source":"..\/..\/..\/..\/tilesets\/vanta-custom\/vantamaterials.json"
         }, 
         {
-         "firstgid":7689,
+         "firstgid":7690,
          "source":"..\/..\/..\/..\/tilesets\/vanta-custom\/vantasupports.json"
         }, 
         {
-         "firstgid":7691,
+         "firstgid":7693,
          "source":"..\/..\/..\/..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }],
  "tilewidth":8,
  "type":"map",
- "version":1.2,
+ "version":1.4,
  "width":60
 }

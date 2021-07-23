@@ -447,18 +447,6 @@
                  "y":1336
                 }, 
                 {
-                 "gid":1548,
-                 "height":32,
-                 "id":1575,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":1544,
-                 "y":1384
-                }, 
-                {
                  "gid":1319,
                  "height":16,
                  "id":1579,
@@ -585,18 +573,6 @@
                  "y":1728
                 }, 
                 {
-                 "gid":1549,
-                 "height":32,
-                 "id":1622,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":1848,
-                 "y":1384
-                }, 
-                {
                  "gid":361,
                  "height":40,
                  "id":1623,
@@ -655,6 +631,30 @@
                  "width":16,
                  "x":2200,
                  "y":1344
+                }, 
+                {
+                 "gid":1553,
+                 "height":32,
+                 "id":1636,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":1544,
+                 "y":1384
+                }, 
+                {
+                 "gid":1554,
+                 "height":32,
+                 "id":1637,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":1848,
+                 "y":1384
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1160,7 +1160,7 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":1636,
+ "nextobjectid":1638,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
