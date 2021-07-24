@@ -2,10 +2,6 @@
   "vantaStarterTreasure" : [
     [0, {
       "fill" : [
-        {"item" : "weatheredvantasaber"},
-        {"item" : "weatheredbangle"},
-        {"item" : "weathereddagger"},
-        {"item" : "weatheredpicohandgun"},
         {"item" : [ "vantaration", 1 ]},
         {"item" : [ "vantaration", 1 ]},
         {"item" : [ "vantaration", 1 ]},
