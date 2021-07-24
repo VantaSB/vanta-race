@@ -30,9 +30,7 @@
           "headCosmetic" : [ { "name" : "nightarsoldierhead" } ],
           "chestCosmetic" : [ { "name" : "nightarsoldierchest" } ],
           "legsCosmetic" : [ { "name" : "nightarsoldierpants" } ],
-          "primary" : [ "weathereddagger" ],
-          "sheathedPrimary" : [ "bareknuckle" ],
-          "sheathedAlt" : [ "bareknuckle" ]
+          "primary" : [ "weathereddagger_nightar" ]
         }
       ] ]
     ]

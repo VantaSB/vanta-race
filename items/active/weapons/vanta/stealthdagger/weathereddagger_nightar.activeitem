@@ -1,5 +1,5 @@
 {
-  "itemName" : "weathereddagger",
+  "itemName" : "weathereddagger_nightar",
   "price" : 0,
   "level" : 1,
   "maxStack" : 1,
@@ -26,7 +26,7 @@
   "primaryAbilityType" : "stealthdaggercombo",
   "primaryAbility" : {
     "fireTime" : 0.68,
-    "baseDps" : 7.32
+    "baseDps" : 3.6
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

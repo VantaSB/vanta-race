@@ -27,5 +27,11 @@
     "op" : "add",
     "path" : "/companionsConfig/uniformSlots/head",
     "value" : [ "headCosmetic", "head" ]
+  },
+
+  {
+    "op" : "add",
+    "path" : "/defaultBlueprints/tier1/-",
+    "value" : { "item" : "portablemonitor" }
   }
 ]

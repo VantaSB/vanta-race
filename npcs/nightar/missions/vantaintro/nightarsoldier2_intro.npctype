@@ -30,9 +30,7 @@
           "headCosmetic" : [ { "name" : "nightaroperativehead" } ],
           "chestCosmetic" : [ { "name" : "nightarrangerchest" } ],
           "legsCosmetic" : [ { "name" : "nightarrangerpants" } ],
-          "primary" : [ "nightarstandardblade_lv1" ],
-          "sheathedPrimary" : [ "bareknuckle" ],
-          "sheathedAlt" : [ "bareknuckle" ]
+          "primary" : [ "nightarstandardblade_lv1" ]
         }
       ] ]
     ]

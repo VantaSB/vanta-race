@@ -50,8 +50,6 @@ end
 
 function questStart()
   player.giveEssentialItem("inspectiontool", "inspectionmode")
-  player.giveItem("bareknuckle")
-  player.giveItem("bareknuckle")
 
   if player.introComplete() then
     for _, item in pairs(config.getParameter("skipIntroItems", {})) do
@@ -112,8 +110,6 @@ function uninit()
     player.cleanupItems()
     player.giveItem(storage.starterChest)
     player.giveItem(storage.starterLegs)
-    player.giveItem("bareknuckle")
-    player.giveItem("bareknuckle")
   end
 end
 
@@ -206,8 +202,7 @@ function stageEnterArea(areaName)
   elseif areaName == "cryoBayAccess" and self.missionStage == 2 then
     setStage(3)
     quest.setObjectiveList({{config.getParameter("descriptions.explore"), false}})
-    player.radioMessage("vantaintroCryoBayAccessTutorial01")
-    player.radioMessage("vantaintroCryoBayAccessTutorial02")
+    player.radioMessage("vantaintroCryoBayAccessTutorial")
   elseif areaName == "navigationRoom" then
     player.radioMessage("vantaintroNavigationRoom01")
     player.radioMessage("vantaintroNavigationRoom02")

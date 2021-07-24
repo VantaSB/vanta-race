@@ -17,7 +17,13 @@
       ],
       "keyframes" : [
         {
-          "timecode" : 1.6,
+          "timecode" : 1,
+          "zoom" : 0.57,
+          "alpha" : 0,
+          "position" : [450, 275]
+        },
+        {
+          "timecode" : 2.8,
           "zoom" : 0.57,
           "alpha" : 1,
           "position" : [450, 275]
@@ -29,7 +35,7 @@
           "position" : [500, 275]
         },
         {
-          "timecode" : 9.1,
+          "timecode" : 9.5,
           "zoom" : 0.57,
           "alpha" : 0,
           "position" : [500, 275]
@@ -47,37 +53,25 @@
       ],
       "keyframes" : [
         {
-          "timecode" : 2.5,
+          "timecode" : 1,
           "zoom" : 0.5,
           "alpha" : 0,
           "position" : [450, 250]
         },
         {
-          "timecode" : 3,
+          "timecode" : 2.8,
           "zoom" : 0.5,
           "alpha" : 1,
           "position" : [450, 250]
         },
         {
-          "timecode" : 3.5,
-          "zoom" : 0.5,
-          "alpha" : 0,
-          "position" : [450, 250]
-        },
-        {
-          "timecode" : 5,
-          "zoom" : 0.5,
-          "alpha" : 0,
-          "position" : [450, 250]
-        },
-        {
-          "timecode" : 5.5,
+          "timecode" : 9,
           "zoom" : 0.5,
           "alpha" : 1,
           "position" : [450, 250]
         },
         {
-          "timecode" : 6,
+          "timecode" : 9.5,
           "zoom" : 0.5,
           "alpha" : 0,
           "position" : [450, 250]
@@ -92,13 +86,13 @@
       ],
       "keyframes" : [
         {
-          "timecode" : 1.5,
+          "timecode" : 1,
           "zoom" : 0.5,
           "alpha" : 0,
           "position" : [450, 250]
         },
         {
-          "timecode" : 1.8,
+          "timecode" : 2.8,
           "zoom" : 0.5,
           "alpha" : 1,
           "position" : [450, 250]
@@ -433,30 +427,6 @@
         }
       ],
       "keyframes" : [
-        {
-          "timecode" : 2.0,
-          "zoom" : 10,
-          "alpha" : 0,
-          "position" : [480, 200]
-        },
-        {
-          "timecode" : 2.1,
-          "zoom" : 10,
-          "alpha" : 1,
-          "position" : [480, 200]
-        },
-        {
-          "timecode" : 4.3,
-          "zoom" : 10,
-          "alpha" : 1,
-          "position" : [480, 200]
-        },
-        {
-          "timecode" : 5.0,
-          "zoom" : 10,
-          "alpha" : 0,
-          "position" : [480, 200]
-        },
         {
           "timecode" : 12.2,
           "zoom" : 10,

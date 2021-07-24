@@ -127,7 +127,7 @@
       "teamType" : "enemy",
       "damageSourceKind" : "firehammer",
       "knockback" : 20,
-      "statusEffects" : [ "burning" ]
+      "statusEffects" : [ ]
     },
 
     "metaBoundBox" : [-4, -4, 4, 4],

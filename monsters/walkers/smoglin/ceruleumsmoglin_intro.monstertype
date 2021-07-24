@@ -128,7 +128,7 @@
       "teamType" : "enemy",
       "damageSourceKind" : "ice",
       "knockback" : 20,
-      "statusEffects" : [ "frostslow" ]
+      "statusEffects" : [ ]
     },
 
     "metaBoundBox" : [-4, -4, 4, 4],
