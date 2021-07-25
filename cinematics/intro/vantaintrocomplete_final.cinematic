@@ -1,0 +1,41 @@
+{
+  "muteSfx" : true,
+  "muteMusic" : true,
+  "skippable" : false,
+  "letterbox" : false,
+  "backgroundFadeTime" : 0.3,
+  "backgroundColor" : [0, 0, 0, 255],
+  "panels" : [
+
+    // ---------- space ----------
+    {
+      "drawables" : [
+        { "image" : "/cinematics/intro/vantaintro_station.png" }
+      ],
+
+      "keyframes" : [
+        {
+          "timecode" : 4.01,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [480, 200]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        { "image" : "/cinematics/starfield1.png" }
+      ],
+
+      "keyframes" : [
+        {
+          "timecode" : 4.01,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [ 480, 200 ]
+        }
+      ]
+    }
+  ]
+}

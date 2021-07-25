@@ -33,10 +33,10 @@
       { "item" : "vantatier2chest" },
       { "item" : "vantatier2pants" },
 
-      { "item" : "vantasaber" },
-      { "item" : "vantatier1sword" },
+      //{ "item" : "vantasaber" },
+      //{ "item" : "vantatier1sword" },
       { "item" : "vantatier2broadsword" },
-      { "item" : "vantatier2broadsword2" },
+      { "item" : "vantatier1shortsword" },
       { "item" : "vantathrowingknife" },
       { "item" : "vantashield" },
       { "item" : "vantabreathprotectionback" },
@@ -68,14 +68,14 @@
       { "item" : "vantatier6chest" },
       { "item" : "vantatier6pants" },
 
-	    { "item" : "vantatier4sword" },
-      { "item" : "vantatier5sword" },
+	    { "item" : "vantatier4greatsword" },
+      { "item" : "vantatier5broadsword" },
       { "item" : "vantatier5bow" },
       { "item" : "vantatier6sword" },
-      { "item" : "stealthdaggerf" },
+      /*{ "item" : "stealthdaggerf" },
       { "item" : "stealthdaggeri" },
       { "item" : "stealthdaggere" },
-      { "item" : "stealthdaggerp" },
+      { "item" : "stealthdaggerp" },*/
 
       { "item" : "vantacoldprotectionback" },
       { "item" : "vantaheatprotectionback" },

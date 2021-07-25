@@ -1,7 +1,7 @@
 {
-  "itemName" : "vantatier2shortsword",
+  "itemName" : "vantatier1shortsword",
   "price" : 480,
-  "level" : 2,
+  "level" : 1,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "It's a basic Vanta shortsword.",
@@ -11,11 +11,11 @@
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","shortsword"],
 
-  "inventoryIcon" : "vantatier2shortsword.png",
+  "inventoryIcon" : "vantatier1shortsword.png",
 
   "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
   "animationParts" : {
-    "handle" : "vantatier2shortsword.png",
+    "handle" : "vantatier1shortsword.png",
     "blade" : ""
   },
   "animationCustom" : { },
