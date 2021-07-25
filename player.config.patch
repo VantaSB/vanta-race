@@ -20,7 +20,7 @@
   {
     "op" : "add",
     "path" : "/defaultCodexes/vanta",
-    "value" : [ "vantahistory1","vantahistory2","vantahistory3","vantahistory4","vantadoc1","vantadoc2","vantadoc3","vantadoc4" ]
+    "value" : [ "vantahistory01","vantahistory02","vantahistory03","vantahistory04","vantamissive","vantaplea" ]
   },
 
   {

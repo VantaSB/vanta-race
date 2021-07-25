@@ -29,14 +29,16 @@
       { "item" : "vantatier1head" },
       { "item" : "vantatier1chest" },
       { "item" : "vantatier1pants" },
+
+      // { "item" : "vantatier1chakram" },
+      // { "item" : "vantatier2chakram" },
+
       { "item" : "vantatier2head" },
       { "item" : "vantatier2chest" },
       { "item" : "vantatier2pants" },
 
-      //{ "item" : "vantasaber" },
-      //{ "item" : "vantatier1sword" },
-      { "item" : "vantatier2broadsword" },
       { "item" : "vantatier1shortsword" },
+      { "item" : "vantatier2broadsword" },
       { "item" : "vantathrowingknife" },
       { "item" : "vantashield" },
       { "item" : "vantabreathprotectionback" },
@@ -51,6 +53,7 @@
 
       { "item" : "vantatier3greatsword" },
 	    { "item" : "vantatier3shortsword" },
+      // { "item" : "vantatier3chakram" },
       { "item" : "stealthdagger" },
 	    { "item" : "vantakatar" },
       { "item" : "vantaradiationprotectionback" },
@@ -69,9 +72,14 @@
       { "item" : "vantatier6pants" },
 
 	    { "item" : "vantatier4greatsword" },
+      // { "item" : "vantatier4chakram" },
+      // { "item" : "vantatier5chakram" },
+      { "item" : "vantabigshield" },
       { "item" : "vantatier5broadsword" },
       { "item" : "vantatier5bow" },
       { "item" : "vantatier6sword" },
+      // { "item" : "vantawarquoit" },
+
       /*{ "item" : "stealthdaggerf" },
       { "item" : "stealthdaggeri" },
       { "item" : "stealthdaggere" },

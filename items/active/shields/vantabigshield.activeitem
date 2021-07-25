@@ -1,9 +1,9 @@
 {
   "itemName" : "vantabigshield",
-  "level" : 6,
+  "level" : 4,
   "price" : 1200,
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "Uncommon",
   "category" : "shield",
   "description" : "A larger shield, usually issued to advanced fighters.",
   "shortdescription" : "Large Vanta Shield",

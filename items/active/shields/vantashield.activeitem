@@ -1,9 +1,9 @@
 {
   "itemName" : "vantashield",
-  "level" : 3,
-  "price" : 1000,
+  "level" : 2,
+  "price" : 250,
   "maxStack" : 1,
-  "rarity" : "legendary",
+  "rarity" : "Common",
   "category" : "shield",
   "description" : "A standard Vanta shield.",
   "shortdescription" : "Vanta Shield",
