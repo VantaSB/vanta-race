@@ -37,7 +37,7 @@
         "properties" : {
           "zLevel" : 0,
           "centered" : true,
-          "image" : "vantatier4sword.png<paletteSwaps>?<directives>?<bladeDirectives>",
+          "image" : "vantatier4greatsword.png<paletteSwaps>?<directives>?<bladeDirectives>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0],
@@ -49,7 +49,7 @@
           "zLevel" : 1,
           "centered" : true,
           "fullbright" : true,
-          "image" : "vantatier4swordlit.png<paletteSwaps>?<directives>",
+          "image" : "vantatier4greatswordlit.png<paletteSwaps>?<directives>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0]
