@@ -3,7 +3,7 @@
   "name" : "vanta/materials",
   "properties" : {},
   "spacing" : 0,
-  "tilecount" : 19,
+  "tilecount" : 21,
   "tileheight" : 16,
   "tileproperties" : {
     "0" : {
@@ -137,6 +137,20 @@
       "//name" : "nightarslopedpolygon",
       "//shortdescription" : "Nightar Polygon Panel",
       "material" : "nightarslopedpolygon"
+    },
+
+    "19" : {
+      "//description" : "Reinforced wall panels made of unknown materials.",
+      "//name" : "nightarwall5",
+      "//shortdescription" : "Nightar Wall Paneling",
+      "material" : "nightarwall5"
+    },
+
+    "20" : {
+      "//description" : "This reinforced material is perfect for fortified compounds, both on the ground and in space.",
+      "//name" : "nightarslopedpanel",
+      "//shortdescription" : "Nightar Hull Panel",
+      "material" : "nightarslopedpanel"
     }
   },
 
@@ -215,6 +229,14 @@
 
     "18" : {
       "image" : "../../tiled/vanta-custom/materials/nightarslopedpolygon.png"
+    },
+
+    "19" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarwall5.png"
+    },
+
+    "20" : {
+      "image" : "../../tiled/vanta-custom/materials/nightarslopedpanel.png"
     }
   },
 

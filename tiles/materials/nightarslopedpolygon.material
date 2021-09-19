@@ -1,10 +1,10 @@
 {
   "materialId" : 3222,
   "materialName" : "nightarslopedpolygon",
-  "particleColor" : [81, 127, 16, 255],
-  "itemDrop" : "nightarslopedpolygon",
+  "particleColor" : [123, 123, 123, 255],
+  //"itemDrop" : "nightarslopedpolygon",
   "shortdescription" : "Nightar Polygon Panel",
-  "description" : "A curious material made of \"Hard Light\".",
+  "description" : "A curious material made of \"Hard Light\" that also provides illumination.",
   "glitchDescription" : "Observant. This matter is made of \"Hard Light\".",
   "floranDescription" : "It feelsss electric.",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
@@ -17,8 +17,8 @@
     "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,
-    "multiColored" : false,
+    "multiColored" : true,
     "zLevel" : 4998,
-    "radiantLight" : [125, 197, 179]
+    "radiantLight" : [128, 128, 128]
   }
 }

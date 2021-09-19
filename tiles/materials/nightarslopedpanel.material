@@ -1,0 +1,21 @@
+{
+  "materialId" : 3225,
+  "materialName" : "nightarslopedpanel",
+  "particleColor" : [20, 20, 20, 255],
+  "itemDrop" : "nightarslopedpanel",
+  "description" : "This reinforced material is perfect for fortified compounds, both on the ground and in space.",
+  "shortdescription" : "Nightar Hull Panel",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/ex_slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "nightarslopedpanel.png",
+    "variants" : 6,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4990
+  }
+}

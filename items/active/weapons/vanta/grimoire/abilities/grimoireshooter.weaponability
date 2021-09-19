@@ -1,8 +1,8 @@
 {
   "ability" : {
     "type" : "grimoireshooter",
-    "name" : "Elemental Crossfire",
-    "scripts" : [ "/items/active/weapons/vanta/grimoire/abilities/grimoireshooter.lua" ],
+    "name" : "<elementalName> Crossfire",
+    "scripts" : [ "/items/active/weapons/vanta/grimoire/abilities/scripts/grimoireshooter.lua" ],
     "class" : "GrimoireProjectile",
 
     "maxCastRange" : 30,

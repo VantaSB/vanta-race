@@ -102,7 +102,13 @@
       "converse" : {
         "default" : {
           "default" : [
-            "I oversee the medical and R&D operations here. If you come across any old weapons or artifacts, let me know and I'll make sense of them as I can!"
+            "I oversee the R&D operations here. If you come across any old weapons or artifacts, let me know and I'll make sense of them as I can."
+          ]
+        },
+
+        "vanta" : {
+          "default" : [
+            "I oversee the R&D operations here. If you come across any old weapons or artifacts, let me know and I'll make sense of them as I can."
           ]
         }
       }
@@ -114,8 +120,8 @@
       [0, [
           {
             "head" : [ { "name" : "vantacommandvisorhead" } ],
-            "chest" : [ { "name" : "tribunischest" } ],
-            "legs" : [ { "name" : "tribunispants" } ]
+            "chest" : [ { "name" : "vantatier6achest" } ],
+            "legs" : [ { "name" : "vantatier6apants" } ]
           }
         ]
       ]

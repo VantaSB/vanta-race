@@ -1,0 +1,21 @@
+{
+  "materialId" : 3224,
+  "materialName" : "nightarwall5",
+  "particleColor" : [140, 140, 140, 255],
+  "itemDrop" : "nightarwall5",
+  "description" : "Reinforced panels made of unknown materials.",
+  "shortdescription" : "Nightar Wall Paneling",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "nightarwall5.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 1600
+  }
+}

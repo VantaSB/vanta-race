@@ -16,8 +16,8 @@
     "texture" : "nightarwall4.png",
     "variants" : 1,
     "lightTransparent" : false,
-    "multiColored" : false,
+    "multiColored" : true,
     "occludesBelow" : true,
-    "zLevel" : 2100
+    "zLevel" : 2099
   }
 }

@@ -109,9 +109,9 @@
     "override" : [
       [0, [
         {
-          "head" : [ { "name" : "vantaguardhead" } ],
-          "chest" : [ { "name" : "vantaguardchest" } ],
-          "legs" : [ { "name" : "vantaguardpants" } ]
+          "head" : [ { "name" : "vantatier3head" } ],
+          "chest" : [ { "name" : "vantatier3chest" } ],
+          "legs" : [ { "name" : "vantatier3pants" } ]
         }
       ] ]
     ]

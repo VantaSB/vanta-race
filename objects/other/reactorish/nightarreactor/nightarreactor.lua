@@ -9,7 +9,7 @@ function init()
     self.msgHandler = "null"
     self.stock = 0
     animator.setAnimationState("base", "active")
-    animator.setAnimationState("orb", "inactive")
+    animator.setAnimationState("orb", "active")
     sb.logInfo("Reactor at position %s missing configuration parameters, no messages will be handled.", object.position())
   else
     object.setUniqueId(self.uniqueId)

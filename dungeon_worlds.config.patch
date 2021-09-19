@@ -44,18 +44,18 @@
     "value" : {
       "primaryDungeon" : "vantaoutpost",
       "weatherPool" : [
-        [ 1.0, "groundmist" ]
+        [ 1.0, "fog" ]
       ],
       "threatLevel" : 1,
       "gravity" : 80,
       "worldSize" : [2000, 2000],
-      "dungeonBaseHeight" : 750,
-      "dungeonSurfaceHeight" : 810,
+      "dungeonBaseHeight" : 1000,
+      "dungeonSurfaceHeight" : 850,
       "ambientLightLevel" : [32, 32, 32],
       "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
       "musicTrack" : "/music/underground-complex.ogg",
       "environmentStatusEffects" : ["dontstarve"],
-      "biome" : "midnight"
+      "biome" : "proximamoon"
     }
   },
 

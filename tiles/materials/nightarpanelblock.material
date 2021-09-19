@@ -4,7 +4,7 @@
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarpanelblock",
   "description" : "Panelling made of unknown materials.",
-  "shortdescription" : "Nightar Paneling",
+  "shortdescription" : "Nightar Tech Paneling",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
   "health" : 24,
   "category": "materials",
@@ -16,6 +16,6 @@
     "lightTransparent" : false,
     "multiColored" :true,
     "occludesBelow" : true,
-    "zLevel" : 3000
+    "zLevel" : 1000
   }
 }

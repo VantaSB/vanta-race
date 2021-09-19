@@ -8,7 +8,7 @@
   "margin" : 0,
   "name" : "vanta/objects",
   "spacing" : 0,
-  "tilecount" : 78,
+  "tilecount" : 126,
   "tileheight" : 75,
   "tilewidth" : 65,
   "type" : "tileset",
@@ -438,11 +438,11 @@
     },
     "47" : {
       "//description" : "An auxiliary door.",
-      "//name" : "nightarpropdoor1",
+      "//name" : "nightarpropdoor",
       "//shortdescription" : "Vanta Prop Door",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightarpropdoor1",
+      "object" : "nightarpropdoor",
       "tilesetDirection" : "right"
     },
     "48" : {
@@ -714,1024 +714,808 @@
       "imagePositionY" : "0",
       "object" : "nightarincap3",
       "tilesetDirection" : "right"
-    }
-  },
-  "tilepropertytypes" : {
-    "0" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "1" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "2" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "3" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "4" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "5" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "6" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "7" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "8" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "9" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "10" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "11" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "12" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "13" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "14" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "15" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "16" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "17" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "18" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "19" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "20" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "21" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "22" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "23" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "24" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "25" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "26" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "27" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "28" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "29" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "30" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "31" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "32" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "33" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "34" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "35" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "36" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "37" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "38" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "39" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "40" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "41" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "42" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "43" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "44" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "45" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "46" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "47" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "48" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "49" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "50" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "51" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "52" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "53" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "54" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "55" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "56" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "57" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "58" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "59" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "60" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "61" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "62" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "63" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "64" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "65" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "66" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "67" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "68" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "69" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "70" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "71" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "72" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "73" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "74" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "75" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "76" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
-    },
-    "77" : {
-      "//description" : "string",
-      "//name" : "string",
-      "//shortdescription" : "string",
-      "imagePositionX" : "string",
-      "imagePositionY" : "string",
-      "object" : "string"
+    },
+    "78" : {
+      "//description" : "A tall lamp with a cool glow.",
+      "//name" : "vantalamppost",
+      "//shortdescription" : "Vanta Lamp Post",
+      "imagePositionX" : "-4",
+      "imagePositionY" : "0",
+      "object" : "vantalamppost",
+      "tilesetDirection" : "right"
+    },
+    "79" : {
+      "//description" : "A round wall light.",
+      "//name" : "vantalightround",
+      "//shortdescription" : "Round Vanta Wall Lamp",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "vantalightround",
+      "tilesetDirection" : "right"
+    },
+    "80" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight1_orientation0",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight1",
+      "tilesetDirection" : "right"
+    },
+    "81" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight1_orientation1",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight1",
+      "tilesetDirection" : "right"
+    },
+    "82" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight1_orientation2",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight1",
+      "tilesetDirection" : "right"
+    },
+    "83" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight1_orientation3",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight1",
+      "tilesetDirection" : "right"
+    },
+    "84" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight1_orientation4",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight1",
+      "tilesetDirection" : "right"
+    },
+    "85" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight2_orientation0",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight2",
+      "tilesetDirection" : "right"
+    },
+    "86" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight2_orientation1",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight2",
+      "tilesetDirection" : "right"
+    },
+    "87" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight2_orientation2",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight2",
+      "tilesetDirection" : "right"
+    },
+    "88" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight2_orientation3",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight2",
+      "tilesetDirection" : "right"
+    },
+    "89" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight2_orientation4",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight2",
+      "tilesetDirection" : "right"
+    },
+    "90" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight3_orientation0",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight3",
+      "tilesetDirection" : "right"
+    },
+    "91" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight3_orientation1",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight3",
+      "tilesetDirection" : "right"
+    },
+    "92" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight3_orientation2",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight3",
+      "tilesetDirection" : "right"
+    },
+    "93" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight3_orientation3",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight3",
+      "tilesetDirection" : "right"
+    },
+    "94" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight3_orientation4",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight3",
+      "tilesetDirection" : "right"
+    },
+    "95" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight4_orientation0",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight4",
+      "tilesetDirection" : "right"
+    },
+    "96" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight4_orientation1",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight4",
+      "tilesetDirection" : "right"
+    },
+    "97" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight4_orientation2",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight4",
+      "tilesetDirection" : "right"
+    },
+    "98" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight4_orientation3",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight4",
+      "tilesetDirection" : "right"
+    },
+    "99" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight4_orientation4",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight4",
+      "tilesetDirection" : "right"
+    },
+    "100" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight5_orientation0",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight5",
+      "tilesetDirection" : "right"
+    },
+    "101" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight5_orientation1",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight5",
+      "tilesetDirection" : "right"
+    },
+    "102" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight5_orientation2",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight5",
+      "tilesetDirection" : "right"
+    },
+    "103" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight5_orientation3",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight5",
+      "tilesetDirection" : "right"
+    },
+    "104" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight5_orientation4",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight5",
+      "tilesetDirection" : "right"
+    },
+    "105" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight6_orientation0",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight6",
+      "tilesetDirection" : "right"
+    },
+    "106" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight6_orientation1",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight6",
+      "tilesetDirection" : "right"
+    },
+    "107" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight6_orientation2",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight6",
+      "tilesetDirection" : "right"
+    },
+    "108" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight6_orientation3",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight6",
+      "tilesetDirection" : "right"
+    },
+    "109" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight6_orientation4",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight6",
+      "tilesetDirection" : "right"
+    },
+    "110" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight7_orientation0",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight7",
+      "tilesetDirection" : "right"
+    },
+    "111" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight7_orientation1",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight5",
+      "tilesetDirection" : "right"
+    },
+    "112" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight7_orientation2",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight7",
+      "tilesetDirection" : "right"
+    },
+    "113" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight7_orientation3",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight7",
+      "tilesetDirection" : "right"
+    },
+    "114" : {
+      "//description" : "A bright, fluorescent light.",
+      "//name" : "ex_fluorescentlight7_orientation4",
+      "//shortdescription" : "Fluorescent Light",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_fluorescentlight7",
+      "tilesetDirection" : "right"
+    },
+    "115" : {
+      "//description" : "A sign that reads \"Cells\".",
+      "//name" : "vantabasesign_cells",
+      "//shortdescription" : "Cells Sign",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantabasesign_cells"
+    },
+    "116" : {
+      "//description" : "A sign that reads \"Command\".",
+      "//name" : "vantabasesign_command",
+      "//shortdescription" : "Command Sign",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantabasesign_command"
+    },
+    "117" : {
+      "//description" : "A sign that reads \"Energy\".",
+      "//name" : "vantabasesign_energy",
+      "//shortdescription" : "Energy Sign",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantabasesign_energy"
+    },
+    "118" : {
+      "//description" : "A sign that reads \"Hall\".",
+      "//name" : "vantabasesign_hall",
+      "//shortdescription" : "Hallway Sign",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantabasesign_hall"
+    },
+    "119" : {
+      "//description" : "A sign that reads \"Medical\".",
+      "//name" : "vantabasesign_medical",
+      "//shortdescription" : "Medical Sign",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantabasesign_medical"
+    },
+    "120" : {
+      "//description" : "A sign that reads \"Room\".",
+      "//name" : "vantabasesign_room",
+      "//shortdescription" : "Room Sign",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantabasesign_room"
+    },
+    "121" : {
+      "//description" : "A sign that reads \"Storage\".",
+      "//name" : "vantabasesign_storage",
+      "//shortdescription" : "Storage Sign",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantabasesign_storage"
+    },
+    "122" : {
+      "//description" : "A sign that reads \"Tech\".",
+      "//name" : "vantabasesign_tech",
+      "//shortdescription" : "Tech Sign",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantabasesign_tech"
+    },
+    "123" : {
+      "//description" : "A sign that reads \"Transporter\".",
+      "//name" : "vantabasesign_transporter",
+      "//shortdescription" : "Transporter Sign",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantabasesign_transporter"
+    },
+    "124" : {
+      "//description" : "A sign that reads \"Tunnel\".",
+      "//name" : "vantabasesign_tunnel",
+      "//shortdescription" : "Tunnel Sign",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "vantabasesign_tunnel"
+    },
+    "125" : {
+      "//description" : "An auxiliary door.",
+      "//name" : "vantabasedoor",
+      "//shortdescription" : "Vanta Base Door",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantabasedoor",
+      "tilesetDirection" : "right"
     }
   },
   "tiles" : {
     "0" : {
-      "image" : "../../../tiled/vanta-custom/objects/darkgate.png",
-      "imageheight" : 24,
-      "imagewidth" : 24
+      "image" : "../../../tiled/vanta-custom/objects/darkgate.png"
     },
     "1" : {
-      "image" : "../../../tiled/vanta-custom/objects/darkgate.png",
-      "imageheight" : 24,
-      "imagewidth" : 24
+      "image" : "../../../tiled/vanta-custom/objects/darkgate.png"
     },
     "2" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarbattlestandard.png",
-      "imageheight" : 40,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/nightarbattlestandard.png"
     },
     "3" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarbed.png",
-      "imageheight" : 24,
-      "imagewidth" : 56
+      "image" : "../../../tiled/vanta-custom/objects/nightarbed.png"
     },
     "4" : {
-      "image" : "../../../tiled/vanta-custom/objects/bladedisplay1.png",
-      "imageheight" : 48,
-      "imagewidth" : 17
+      "image" : "../../../tiled/vanta-custom/objects/bladedisplay1.png"
     },
     "5" : {
-      "image" : "../../../tiled/vanta-custom/objects/bladedisplay2.png",
-      "imageheight" : 48,
-      "imagewidth" : 17
+      "image" : "../../../tiled/vanta-custom/objects/bladedisplay2.png"
     },
     "6" : {
-      "image" : "../../../tiled/vanta-custom/objects/bladedisplay3.png",
-      "imageheight" : 48,
-      "imagewidth" : 17
+      "image" : "../../../tiled/vanta-custom/objects/bladedisplay3.png"
     },
     "7" : {
-      "image" : "../../../tiled/vanta-custom/objects/bladedisplay4.png",
-      "imageheight" : 48,
-      "imagewidth" : 17
+      "image" : "../../../tiled/vanta-custom/objects/bladedisplay4.png"
     },
     "8" : {
-      "image" : "../../../tiled/vanta-custom/objects/bladedisplay5.png",
-      "imageheight" : 48,
-      "imagewidth" : 17
+      "image" : "../../../tiled/vanta-custom/objects/bladedisplay5.png"
     },
     "9" : {
-      "image" : "../../../tiled/vanta-custom/objects/bladedisplay6.png",
-      "imageheight" : 48,
-      "imagewidth" : 17
+      "image" : "../../../tiled/vanta-custom/objects/bladedisplay6.png"
     },
     "10" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarbookcase.png",
-      "imageheight" : 40,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarbookcase.png"
     },
     "11" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarbox1.png",
-      "imageheight" : 24,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/nightarbox1.png"
     },
     "12" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarbox2.png",
-      "imageheight" : 24,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarbox2.png"
     },
     "13" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarcabinet.png",
-      "imageheight" : 40,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarcabinet.png"
     },
     "14" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarcastledoor.png",
-      "imageheight" : 40,
-      "imagewidth" : 40
+      "image" : "../../../tiled/vanta-custom/objects/nightarcastledoor.png"
     },
     "15" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarchandelier.png",
-      "imageheight" : 32,
-      "imagewidth" : 40
+      "image" : "../../../tiled/vanta-custom/objects/nightarchandelier.png"
     },
     "16" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarchest.png",
-      "imageheight" : 16,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/nightarchest.png"
     },
     "17" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarchest2.png",
-      "imageheight" : 16,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarchest2.png"
     },
     "18" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightardresser.png",
-      "imageheight" : 16,
-      "imagewidth" : 31
+      "image" : "../../../tiled/vanta-custom/objects/nightardresser.png"
     },
     "19" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarfridge.png",
-      "imageheight" : 32,
-      "imagewidth" : 24
+      "image" : "../../../tiled/vanta-custom/objects/nightarfridge.png"
     },
     "20" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarlight_0.png",
-      "imageheight" : 12,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/nightarlight_0.png"
     },
     "21" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarlight_1.png",
-      "imageheight" : 12,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/nightarlight_1.png"
     },
     "22" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarlight_2.png",
-      "imageheight" : 12,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/nightarlight_2.png"
     },
     "23" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarlight_3.png",
-      "imageheight" : 12,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/nightarlight_3.png"
     },
     "24" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarlight_4.png",
-      "imageheight" : 12,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/nightarlight_4.png"
     },
     "25" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarpedestal.png",
-      "imageheight" : 16,
-      "imagewidth" : 24
+      "image" : "../../../tiled/vanta-custom/objects/nightarpedestal.png"
     },
     "26" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarpicture.png",
-      "imageheight" : 24,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarpicture.png"
     },
     "27" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarsbannersmall.png",
-      "imageheight" : 37,
-      "imagewidth" : 23
+      "image" : "../../../tiled/vanta-custom/objects/nightarsbannersmall.png"
     },
     "28" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarsbannertorn.png",
-      "imageheight" : 75,
-      "imagewidth" : 34
+      "image" : "../../../tiled/vanta-custom/objects/nightarsbannertorn.png"
     },
     "29" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarcamera1.png",
-      "imageheight" : 32,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarcamera1.png"
     },
     "30" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarcamera1-l.png",
-      "imageheight" : 32,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarcamera1-l.png"
     },
     "31" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarcamera2.png",
-      "imageheight" : 32,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarcamera2.png"
     },
     "32" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarcamera2-l.png",
-      "imageheight" : 32,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarcamera2-l.png"
     },
     "33" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarshipchair.png",
-      "imageheight" : 24,
-      "imagewidth" : 24
+      "image" : "../../../tiled/vanta-custom/objects/nightarshipchair.png"
     },
     "34" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarshiplight.png",
-      "imageheight" : 8,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/nightarshiplight.png"
     },
     "35" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarshiplight.png",
-      "imageheight" : 8,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/nightarshiplight.png"
     },
     "36" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarsink.png",
-      "imageheight" : 24,
-      "imagewidth" : 18
+      "image" : "../../../tiled/vanta-custom/objects/nightarsink.png"
     },
     "37" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarstasispod.png",
-      "imageheight" : 50,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarstasispod.png"
     },
     "38" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarstoragelocker.png",
-      "imageheight" : 24,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/nightarstoragelocker.png"
     },
     "39" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightartable.png",
-      "imageheight" : 16,
-      "imagewidth" : 55
+      "image" : "../../../tiled/vanta-custom/objects/nightartable.png"
     },
     "40" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightartablechair.png",
-      "imageheight" : 24,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/nightartablechair.png"
     },
     "41" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarthrone.png",
-      "imageheight" : 71,
-      "imagewidth" : 65
+      "image" : "../../../tiled/vanta-custom/objects/nightarthrone.png"
     },
     "42" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightartinywallswitch.png",
-      "imageheight" : 8,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/nightartinywallswitch.png"
     },
     "43" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightartoilet.png",
-      "imageheight" : 24,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/nightartoilet.png"
     },
     "44" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarshipdoor.png",
-      "imageheight" : 48,
-      "imagewidth" : 40
+      "image" : "../../../tiled/vanta-custom/objects/nightarshipdoor.png"
     },
     "45" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarshiphatch.png",
-      "imageheight" : 40,
-      "imagewidth" : 44
+      "image" : "../../../tiled/vanta-custom/objects/nightarshiphatch.png"
     },
     "46" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarpowercore.png",
-      "imageheight" : 40,
-      "imagewidth" : 24
+      "image" : "../../../tiled/vanta-custom/objects/nightarpowercore.png"
     },
     "47" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarpropdoor1.png",
-      "imageheight" : 40,
-      "imagewidth" : 24
+      "image" : "../../../tiled/vanta-custom/objects/nightarpropdoor.png"
     },
     "48" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantalight_0.png",
-      "imageheight" : 12,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/vantalight_0.png"
     },
     "49" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantalight_1.png",
-      "imageheight" : 12,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/vantalight_1.png"
     },
     "50" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantalight_2.png",
-      "imageheight" : 12,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/vantalight_2.png"
     },
     "51" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantalight_3.png",
-      "imageheight" : 12,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/vantalight_3.png"
     },
     "52" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantalight_4.png",
-      "imageheight" : 12,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/vantalight_4.png"
     },
     "53" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantashiplight.png",
-      "imageheight" : 8,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/vantashiplight.png"
     },
     "54" : {
-      "image" : "../../../tiled/vanta-custom/objects/ranoutposthelper.png",
-      "imageheight" : 48,
-      "imagewidth" : 32
+      "image" : "../../../tiled/vanta-custom/objects/ranoutposthelper.png"
     },
     "55" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantabigscreen.png",
-      "imageheight" : 40,
-      "imagewidth" : 88
+      "image" : "../../../tiled/vanta-custom/objects/vantabigscreen.png"
     },
     "56" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantabunkbed.png",
-      "imageheight" : 24,
-      "imagewidth" : 48
+      "image" : "../../../tiled/vanta-custom/objects/vantabunkbed.png"
     },
     "57" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantabaseteleporter.png",
-      "imageheight" : 72,
-      "imagewidth" : 40
+      "image" : "../../../tiled/vanta-custom/objects/vantabaseteleporter.png"
     },
     "58" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantamemorybank.png",
-      "imageheight" : 33,
-      "imagewidth" : 25
+      "image" : "../../../tiled/vanta-custom/objects/vantamemorybank.png"
     },
     "59" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantashipdoor.png",
-      "imageheight" : 40,
-      "imagewidth" : 48
+      "image" : "../../../tiled/vanta-custom/objects/vantashipdoor.png"
     },
     "60" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantashiphatch.png",
-      "imageheight" : 44,
-      "imagewidth" : 40
+      "image" : "../../../tiled/vanta-custom/objects/vantashiphatch.png"
     },
     "61" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightardecorativeconsole.png",
-      "imageheight" : 16,
-      "imagewidth" : 40
+      "image" : "../../../tiled/vanta-custom/objects/nightardecorativeconsole.png"
     },
     "62" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarserver.png",
-      "imageheight" : 32,
-      "imagewidth" : 24
+      "image" : "../../../tiled/vanta-custom/objects/nightarserver.png"
     },
     "63" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarsuperdisplay.png",
-      "imageheight" : 64,
-      "imagewidth" : 112
+      "image" : "../../../tiled/vanta-custom/objects/nightarsuperdisplay.png"
     },
     "64" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightartinywallbutton.png",
-      "imageheight" : 8,
-      "imagewidth" : 8
+      "image" : "../../../tiled/vanta-custom/objects/nightartinywallbutton.png"
     },
     "65" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantaintroship.png",
-      "imageheight" : 543,
-      "imagewidth" : 197
+      "image" : "../../../tiled/vanta-custom/objects/vantaintroship.png"
     },
     "66" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarincap1.png",
-      "imageheight" : 40,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/nightarincap1.png"
     },
     "67" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarincap2.png",
-      "imageheight" : 40,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/nightarincap2.png"
     },
     "68" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarkeypad.png",
-      "imageheight" : 16,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/nightarkeypad.png"
     },
     "69" : {
-      "image" : "../../../tiled/vanta-custom/objects/overlay01.png",
-      "imageheight" : 8,
-      "imagewidth" : 56
+      "image" : "../../../tiled/vanta-custom/objects/overlay01.png"
     },
     "70" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarstasispodclosed.png",
-      "imageheight" : 8,
-      "imagewidth" : 56
+      "image" : "../../../tiled/vanta-custom/objects/nightarstasispodclosed.png"
     },
     "71" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightardecorativeconsole2.png",
-      "imageheight" : 16,
-      "imagewidth" : 40
+      "image" : "../../../tiled/vanta-custom/objects/nightardecorativeconsole2.png"
     },
     "72" : {
-      "image" : "../../../tiled/vanta-custom/objects/ceruleumpowercell.png",
-      "imageheight" : 32,
-      "imagewidth" : 64
+      "image" : "../../../tiled/vanta-custom/objects/ceruleumpowercell.png"
     },
     "73" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarreactor.png",
-      "imageheight" : 80,
-      "imagewidth" : 176
+      "image" : "../../../tiled/vanta-custom/objects/nightarreactor.png"
     },
     "74" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarshippingcontainer.png",
-      "imageheight" : 120,
-      "imagewidth" : 48
+      "image" : "../../../tiled/vanta-custom/objects/nightarshippingcontainer.png"
     },
     "75" : {
-      "image" : "../../../tiled/vanta-custom/objects/researchcontainer.png",
-      "imageheight" : 72,
-      "imagewidth" : 40
+      "image" : "../../../tiled/vanta-custom/objects/researchcontainer.png"
     },
     "76" : {
-      "image" : "../../../tiled/vanta-custom/objects/scanswitch.png",
-      "imageheight" : 16,
-      "imagewidth" : 16
+      "image" : "../../../tiled/vanta-custom/objects/scanswitch.png"
     },
     "77" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarincap3.png",
-      "imageheight" : 40,
-      "imagewidth" : 40
+      "image" : "../../../tiled/vanta-custom/objects/nightarincap3.png"
+    },
+    "78" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantalamppost.png"
+    },
+    "79" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantalightround.png"
+    },
+    "80" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight1.png"
+    },
+    "81" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight1_1.png"
+    },
+    "82" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight1_2.png"
+    },
+    "83" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight1_3.png"
+    },
+    "84" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight1_4.png"
+    },
+    "85" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight2.png"
+    },
+    "86" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight2_1.png"
+    },
+    "87" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight2_2.png"
+    },
+    "88" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight2_3.png"
+    },
+    "89" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight2_4.png"
+    },
+    "90" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight3.png"
+    },
+    "91" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight3_1.png"
+    },
+    "92" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight3_2.png"
+    },
+    "93" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight3_3.png"
+    },
+    "94" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight3_4.png"
+    },
+    "95" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight4.png"
+    },
+    "96" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight4_1.png"
+    },
+    "97" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight4_2.png"
+    },
+    "98" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight4_3.png"
+    },
+    "99" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight4_4.png"
+    },
+    "100" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight5.png"
+    },
+    "101" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight5_1.png"
+    },
+    "102" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight5_2.png"
+    },
+    "103" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight5_3.png"
+    },
+    "104" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight5_4.png"
+    },
+    "105" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight6.png"
+    },
+    "106" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight6_1.png"
+    },
+    "107" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight6_2.png"
+    },
+    "108" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight6_3.png"
+    },
+    "109" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight6_4.png"
+    },
+    "110" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight7.png"
+    },
+    "111" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight7_1.png"
+    },
+    "112" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight7_2.png"
+    },
+    "113" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight7_3.png"
+    },
+    "114" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_fluorescentlight7_4.png"
+    },
+    "115" : {
+      "image" : "../../../tiled/vanta-custom/objects/cells.png"
+    },
+    "116" : {
+      "image" : "../../../tiled/vanta-custom/objects/command.png"
+    },
+    "117" : {
+      "image" : "../../../tiled/vanta-custom/objects/energy.png"
+    },
+    "118" : {
+      "image" : "../../../tiled/vanta-custom/objects/hall.png"
+    },
+    "119" : {
+      "image" : "../../../tiled/vanta-custom/objects/medical.png"
+    },
+    "120" : {
+      "image" : "../../../tiled/vanta-custom/objects/room.png"
+    },
+    "121" : {
+      "image" : "../../../tiled/vanta-custom/objects/storage.png"
+    },
+    "122" : {
+      "image" : "../../../tiled/vanta-custom/objects/tech.png"
+    },
+    "123" : {
+      "image" : "../../../tiled/vanta-custom/objects/transporter.png"
+    },
+    "124" : {
+      "image" : "../../../tiled/vanta-custom/objects/tunnel.png"
+    },
+    "125" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantabasedoor.png"
     }
   }
 }

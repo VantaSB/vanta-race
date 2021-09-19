@@ -1,0 +1,88 @@
+{
+  "itemName" : "ruinbook1",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A basic grimoire that allows you to channel pure energy.",
+  "shortdescription" : "Book of Ruin I",
+  "category" : "grimoire",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","grimoire"],
+  "tooltipKind" : "base",
+  "level" : 1,
+
+  "inventoryIcon" : "/items/active/weapons/vanta/grimoire/book/ruin1.png:default.1",
+
+  "animation" : "/items/active/weapons/vanta/grimoire/grimoire.animation",
+
+  "animationParts" : {
+    "book" : "ruin1.png"
+  },
+
+  "scripts" : [ "/items/active/weapons/vanta/grimoire/grimoire.lua" ],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "grimoireplasmabarrage",
+  "primaryAbility" : {},
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 90,
+      "weaponOffset" : [-0.625, 1.5],
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true,
+
+      "frontArmFrame" : "idle.4",
+      "backArmFrame" : "idle.4"
+    },
+
+    "charge" : {
+      "duration" : 1.4,
+      "armRotation" : 20,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "charged" : {
+      "armRotation" : 20,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "cooldown" : {
+      "weaponOffset" : [-0.625, 1.5],
+      "duration" : 0.5,
+      "armRotation" : 0,
+      "weaponRotation" : 90,
+      "allowRotate" : false,
+      "allowFlip" : true,
+
+      "frontArmFrame" : "idle.4",
+      "backArmFrame" : "idle.4"
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

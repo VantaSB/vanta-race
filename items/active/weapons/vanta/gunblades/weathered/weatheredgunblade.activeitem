@@ -30,7 +30,7 @@
     "baseDps" : 9.6
   },
 
-  "altAbilityType" : "parry",
+  "altAbilityType" : "downstab",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

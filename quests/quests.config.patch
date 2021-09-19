@@ -3,5 +3,11 @@
 		"op" : "add",
 		"path" : "/initialquests/vanta",
 		"value" : [ "vantaintro" ]
+	},
+
+	{
+		"op" : "add",
+		"path" : "/objectiveDescriptions/giveUniqueItem",
+		"value" : "Deliver your <itemName> to <questGiver>"
 	}
 ]

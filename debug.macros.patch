@@ -92,7 +92,7 @@
       "/startquest '\"glitch_mission2\"'",
       "/completequest glitch_mission2",
       "/setuniverseflag outpost_mission6",
-      "startquest '\"destroyruin\"'",
+      "/startquest '\"destroyruin\"'",
       "/completequest destroyruin"
     ]
   }

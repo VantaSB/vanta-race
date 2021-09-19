@@ -43,7 +43,17 @@ function init()
   setStage(1)
 
   status.setPersistentEffects("vantaintroProtection", {
+    --Need to have multiple stats here due to the different types of attacks from enemies; phyiscal resistance set to near-max since death in the intro mission will
     { stat = "breathProtection", amount = 1.0 },
+    { stat = "physicalResistance", amount = 1.0 },
+    { stat = "fireResistance", amount = 1.0 },
+    { stat = "iceResistance", amount = 1.0 },
+    { stat = "electricResistance", amount = 1.0 },
+    { stat = "poisonResistance", amount = 1.0 },
+    { stat = "fireStatusImmunity", amount = 1.0 },
+    { stat = "iceStatusImmunity", amount = 1.0 },
+    { stat = "electricStatusImmunity", amount = 1.0 },
+    { stat = "poisonStatusImmunity", amount = 1.0 },
     { stat = "fallDamageMultiplier", effectiveMultiplier = 0.0 }
   })
 end
@@ -69,6 +79,8 @@ function questComplete()
   player.setIntroComplete(true)
 
   questutil.questCompleteActions()
+
+  player.startQuest("bootship")
 end
 
 function update(dt)
@@ -128,9 +140,9 @@ function setStage(newStage)
   if newStage ~= self.missionStage then
     if newStage == 1 then
       self.hasLounged = false
-      player.radioMessage("vantaintroExitBed")
     elseif newStage == 2 then
-      setPester("vantaintroCryoBayPester")
+      player.radioMessage("vantaintroExitBed", 1)
+      setPester("vantaintroCryoBayPester", 40)
     elseif newStage == 3 then
       quest.setIndicators({})
     elseif newStage == 4 then
@@ -177,7 +189,6 @@ function updateStage(dt)
       if self.missionCompleteTimer <= 0 then
         player.warp("ownship")
         quest.complete()
-        player.startQuest("bootship")
       end
     end
   end
