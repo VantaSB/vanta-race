@@ -55,7 +55,7 @@
   },
 
   "ability" : {
-    "name" : "Infused Blade",
+    "name" : "Brutal Shell",
     "type" : "infusedcharge",
     "scripts" : ["/items/active/weapons/melee/abilities/broadsword/infusedcharge/infusedcharge.lua"],
     "class" : "InfusedCharge",

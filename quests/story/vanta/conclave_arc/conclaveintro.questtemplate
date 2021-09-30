@@ -1,0 +1,41 @@
+{
+  "id" : "conclaveintro",
+  "prerequisites" : [ "destroyruin" ],
+  "title" : "Shadows Unto Dawn",
+  "text" : "Oh, perfect timing dear! We received a message from the outer fringes of the galaxy; it seems someone's heard of your exploits and would like to meet with you in person. He said it was urgent, so I've made preparations to send you directly to his base. I do hope it's nothing too serious...",
+  "completionText" : "We've still got quite a bit of groundwork to cover before we start going hard and heavy. We're glad to have your support in the meantime, though!",
+  "moneyRange" : [500, 500],
+  "rewards" : [
+    [ [ "rewardbag", 1 ] ]
+  ],
+  "canBeAbandoned" : false,
+  "questGiverIndicator" : "mainquestgiver",
+  "questReceiverIndicator" : "mainquestreceiver",
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/instance.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+
+    "descriptions" : {
+      "enterInstance" : "Talk to ^orange;Esther^reset; to be transported to ^orange;another outpost^reset;",
+      "findGoal" : "Find ^orange;the Outpost Commander^reset;",
+      "turnIn" : "Speak with ^orange;Ran^reset;"
+    },
+
+    "warpEntityUid" : "estheroutpost",
+    "warpAction" : ["intanceworld:vantaoutpost"],
+    "warpDialog" : "/interface/confirmation/teleportconfirmation.config:vantaoutpost",
+
+    "goalTrigger" : "proximity",
+    "proximityRange" : 3,
+    "goalEntityUid" : "ranoutpost",
+    "indicateGoal" : true,
+    "trackGoalEntity" : true,
+
+    "turnInEntityUid" : "ranoutpost"
+  }
+}

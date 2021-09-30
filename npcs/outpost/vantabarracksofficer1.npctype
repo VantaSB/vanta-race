@@ -1,0 +1,40 @@
+{
+  "type" : "vantabarracksofficer1",
+  "baseType" : "outpostcivilian",
+
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "male30",
+    "personalityIdle" : "idle.3",
+    "personalityArmIdle" : "idle.3"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "My job is to ensure the new recruits are properly trained. Going against even the standard rank-and-file of the Conclave can prove to be someone's demise if they aren't careful."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "vantatier4head" } ],
+          "chest" : [ { "name" : "vantatier4chest" } ],
+          "legs" : [ { "name" : "vantatier4pants" } ]
+        }
+      ] ]
+    ]
+  }
+}

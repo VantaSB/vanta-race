@@ -1,0 +1,12 @@
+{
+  "name" : "ceruleumcorruptionblur",
+  "blockingStat" : "ceruleumcorruptionImmunity",
+
+  "effectConfig" : [],
+
+  "defaultDuration" : 5,
+
+  "scripts" : [ "ceruleumcorruptionblur.lua" ],
+
+  "animationConfig" : "ceruleumcorruptionblur.animation"
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "grimoireresearchfile",
+  "price" : 2000,
+  "rarity" : "Essential",
+  "category" : "upgradeComponent",
+  "inventoryIcon" : "researchfile.png",
+  "description" : "Unlocks Grimoire research nodes.",
+  "shortdescription" : "Research: ^orange;Grimoires"
+}

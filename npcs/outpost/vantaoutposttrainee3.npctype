@@ -1,0 +1,41 @@
+{
+  "type" : "vantaoutposttrainee3",
+  "baseType" : "outpostcivilian",
+
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "male30",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.4",
+    "bodyDirectives" : "?replace=ffe2c5=e8cebc?replace=ffc181=cfa97d?replace=d39c6c=ae774b?replace=c7815b=804e34?replace=ed1c24=ff325f",
+    "hairDirectives" : "?replace=d9c189=ad2719?replace=a38d59=8f1f1b?replace=735e3a=731a1a"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Don't let my eyes deceive you. My eyes might make me LOOK like a Nightar, but I'm wholly a Vanta."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "chest" : [ { "name" : "vantatier1chest" } ],
+          "legs" : [ { "name" : "vantatier1pants" } ]
+        }
+      ] ]
+    ]
+  }
+}

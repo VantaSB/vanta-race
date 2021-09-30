@@ -1,0 +1,62 @@
+{
+  "objectName" : "vantaoperatorstation2",
+  "colonyTags" : [ "decorative", "vanta" ],
+  "printable" : false,
+  "price" : 0,
+  "rarity" : "Common",
+  "description" : "An operator for ongoing Vanta missions sits here.",
+  "shortdescription" : "Vanta Operator Station",
+  "race" : "vanta",
+  "category" : "decorative",
+
+  "apexDescription" : "An operator for ongoing Vanta missions sits here.",
+  "avianDescription" : "An operator for ongoing Vanta missions sits here.",
+  "floranDescription" : "An operator for ongoing Vanta missions sits here.",
+  "glitchDescription" : "An operator for ongoing Vanta missions sits here.",
+  "humanDescription" : "An operator for ongoing Vanta missions sits here.",
+  "hylotlDescription" : "An operator for ongoing Vanta missions sits here.",
+  "novakidDescription" : "An operator for ongoing Vanta missions sits here.",
+  "vantaDescription" : "An operator for ongoing Vanta missions sits here.",
+
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "op2.png:<color>.<frame>" }, { "image" : "baselit.png:<color>.<frame>", "fullbright" : true }
+      ],
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-24, 0],
+
+      "frames" : 2,
+      "animationCycle" : 0.65,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    },
+
+    {
+      "imageLayers" : [
+        { "image" : "op2.png:<color>.<frame>" }, { "image" : "baselit.png:<color>.<frame>", "fullbright" : true }
+      ],
+      "direction" : "right",
+      "imagePosition" : [-24, 0],
+
+      "frames" : 2,
+      "animationCycle" : 0.65,
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ],
+
+  "scripts" : ["/scripts/chattyObject.lua"],
+  "scriptDelta" : 60,
+
+  "uniqueId" : "liaoutpost",
+
+  "chatOptions" : [
+    "You're clear to engage, proceed with caution.",
+    "Confirmed Delta squadron, we await your return.",
+    "... Oh, my apologies, my hands are a bit tied up at the moment. Speak with the ^orange;Commander^reset; if you need assistance."
+  ]
+}

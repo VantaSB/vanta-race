@@ -5,7 +5,7 @@
   "itemDrop" : "nightarfloor",
   "description" : "Traditional Nightar flooring.",
   "shortdescription" : "Nightar Flooring",
-  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
   "health" : 20,
   "category" : "materials",
 

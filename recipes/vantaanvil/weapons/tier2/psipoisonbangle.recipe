@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "nightsteelbar", "count" : 2 },
+    { "item" : "psipoison", "count" : 2 },
+    { "item" : "ceruleumsolution", "count" : 1 }
+  ],
+  "output" : { "item" : "psipoisonbangle", "count" : 1 },
+  "groups" : [ "vantaanvil1", "weapons", "all" ]
+}

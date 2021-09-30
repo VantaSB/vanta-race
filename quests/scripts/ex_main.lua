@@ -5,6 +5,7 @@ require('/quests/scripts/conditions/gather.lua')
 require('/quests/scripts/conditions/ship.lua')
 require('/quests/scripts/conditions/scanning.lua')
 require('/quests/scripts/messages.lua')
+require('/quests/scripts/generated/common.lua')
 
 function init()
   self.conditions = buildConditions()

@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightarslopedpanel",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarslopedpanelicon.png",
+  "description" : "This reinforced material is perfect for fortified compounds, both on the ground and in space.",
+  "shortdescription" : "Nightar Hull Panel",
+
+  "materialId" : 3225
+}

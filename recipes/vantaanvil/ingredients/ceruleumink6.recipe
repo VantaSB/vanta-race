@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumore", "count" : 3 },
+    { "item" : "darkessence", "count" : 3 },
+    { "item" : "liquidwater", "count" : 2 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : { "item" : "ceruleumink6", "count" : 1 },
+  "groups" : [ "vantaanvil1", "vantaingredients", "all" ]
+}

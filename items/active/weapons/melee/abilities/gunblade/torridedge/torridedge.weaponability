@@ -1,0 +1,92 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "blinkCharge" : {
+          "default" : "idle",
+          "states" : {
+            "idle" : {},
+            "charge" : {
+              "cycle" : 0.5,
+              "mode" : "transition",
+              "transition" : "idle",
+              "properties" : {
+                "immediateSound" : "/sfx/melee/charge_up15.ogg"
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "activationFail" : [ "/sfx/interface/nav_insufficient_fuel.ogg" ]
+    },
+    "particleEmitters" : {
+      "fireCharge" : {
+        "active" : false,
+        "emissionRate" : 30,
+        "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
+        "particles" : [
+          { "particle" : "fastrisingice1"},
+          { "particle" : "fastrisingice2"},
+          { "particle" : "fastrisingice3"}
+        ]
+      }
+    }
+  },
+
+  "ability" : {
+    "name" : "Torrid Edge",
+    "type" : "torridedge",
+    "scripts" : ["/items/active/weapons/melee/abilities/gunblade/torridedge/torridedge.lua"],
+    "class" : "TorridEdge",
+
+    "energyUsage" : 120.0,
+    "cooldownTime" : 1.5,
+
+    "maxDistance" : 20,
+    "baseDamage" : 14,
+    "elementalConfig" : {
+      "physical" : {
+        "projectileType" : "ceruleumplasmaexplosion"
+      },
+      "fire" : {
+        "projectileType" : "ceruleumplasmaexplosion"
+      },
+      "ice" : {
+        "projectileType" : "ceruleumplasmaexplosion"
+      },
+      "electric" : {
+        "projectileType" : "ceruleumplasmaexplosion"
+      },
+      "poison" : {
+        "projectileType" : "ceruleumplasmaexplosion"
+      },
+      "ceruleum" : {
+        "projectileType" : "ceruleumplasmaexplosion"
+      }
+    },
+
+    "stances" : {
+      "charge" : {
+        "duration" : 0.3,
+        "armRotation" : 45,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+        "weaponOffset" : [0.0, 0.0],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "slash": {
+        "duration": 0.15,
+        "armRotation": -45,
+        "weaponRotation": -55,
+        "twoHanded": true,
+        "allowRotate": false,
+        "allowFlip": false
+      }
+    }
+  }
+}

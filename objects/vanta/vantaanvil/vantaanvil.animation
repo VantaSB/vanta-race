@@ -2,48 +2,56 @@
   "animatedParts" : {
     "stateTypes" : {
       "stage" : {
-        "default" : "AA",
+        "default" : "vantaanvil",
         "states" : {
-          "AA" : {
-            "frames" : 15,
-            "cycle" : 1.5,
+          "vantaanvil" : {
+            "frames" : 4,
+            "cycle" : 0.7,
             "mode" : "loop",
             "properties" : {
-              "lightsOff" : [ "fireglow" ],
 			        "lightsOn" : [ "scifiglow" ],
               "persistentSound" : "/sfx/objects/scififurnace.ogg",
               "persistentSoundRangeMultiplier" : 0.5
             }
           },
-          "BB" : {
-            "frames" : 15,
-            "cycle" : 1.5,
+          "vantaanvil2" : {
+            "frames" : 5,
+            "cycle" : 1.0,
             "mode" : "loop",
             "properties" : {
-              "lightsOff" : [ "fireglow" ],
 			        "lightsOn" : [ "scifiglow" ],
               "persistentSound" : "/sfx/objects/scififurnace.ogg",
               "persistentSoundRangeMultiplier" : 0.5
             }
           },
-          "CC" : {
-            "frames" : 15,
-            "cycle" : 1.5,
-            "mode" : "loop",
+          "vantaanvil3" : {
             "properties" : {
-              "lightsOff" : [ "fireglow" ],
-              "lightsOn" : [ "scifiglow" ],
+              "lightsOff" : [ "scifiglow", "acceleratorglow", "manipulatorglow", "separatorglow" ],
+              "lightsOn" : [ "replicatorglow" ],
               "persistentSound" : "/sfx/objects/scififurnace.ogg",
               "persistentSoundRangeMultiplier" : 0.5
             }
           },
-          "DD" : {
-            "frames" : 15,
-            "cycle" : 1.5,
-            "mode" : "loop",
+          "accelerator" : {
             "properties" : {
-              "lightsOff" : [ "fireglow" ],
-              "lightsOn" : [ "scifiglow" ],
+              "lightsOff" : [ "replicatorglow", "manipulatorglow", "separatorglow" ],
+              "lightsOn" : [ "acceleratorglow" ],
+              "persistentSound" : "/sfx/objects/scififurnace.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
+          },
+          "manipulator" : {
+            "properties" : {
+              "lightsOff" : [ "replicatorglow", "acceleratorglow", "separatorglow" ],
+              "lightsOn" : [ "manipulatorglow" ],
+              "persistentSound" : "/sfx/objects/scififurnace.ogg",
+              "persistentSoundRangeMultiplier" : 0.5
+            }
+          },
+          "separator" : {
+            "properties" : {
+              "lightsOff" : [ "replicatorglow", "acceleratorglow", "manipulatorglow" ],
+              "lightsOn" : [ "separatorglow" ],
               "persistentSound" : "/sfx/objects/scififurnace.ogg",
               "persistentSoundRangeMultiplier" : 0.5
             }
@@ -59,26 +67,36 @@
         },
         "partStates" : {
           "stage" : {
-            "AA" : {
+            "vantaanvil" : {
               "properties" : {
                 "image" : "vantaanvillit.png:<color>.<frame>"
               }
             },
 
-            "BB" : {
+            "vantaanvil2" : {
               "properties" : {
-                "image" : "vantaanvillit.png:<color>.<frame>"
+                "image" : "vantaanvil2lit.png:<color>.<frame>"
               }
             },
 
-            "CC" : {
+            "vantaanvil3" : {
               "properties" : {
-                "image" : "vantaanvillit.png:<color>.<frame>"
+                "image" : "vantaanvil3lit.png:<color>"
               }
             },
-            "DD" : {
+            "accelerator" : {
               "properties" : {
-                "image" : "vantaanvillit.png:<color>.<frame>"
+                "image" : "vantaanvil3lit.png:<color>.accelerator"
+              }
+            },
+            "manipulator" : {
+              "properties" : {
+                "image" : "vantaanvil3lit.png:<color>.manipulator"
+              }
+            },
+            "separator" : {
+              "properties" : {
+                "image" : "vantaanvil3lit.png:<color>.separator"
               }
             }
           }
@@ -92,26 +110,36 @@
         },
         "partStates" : {
           "stage" : {
-            "AA" : {
+            "vantaanvil" : {
               "properties" : {
                 "image" : "vantaanvil.png:<color>.<frame>"
               }
             },
 
-            "BB" : {
+            "vantaanvil2" : {
               "properties" : {
-                "image" : "vantaanvil.png:<color>.<frame>"
+                "image" : "vantaanvil2.png:<color>.<frame>"
               }
             },
 
-            "CC" : {
+            "vantaanvil3" : {
               "properties" : {
-                "image" : "vantaanvil.png:<color>.<frame>"
+                "image" : "vantaanvil3.png:<color>"
               }
             },
-            "DD" : {
+            "accelerator" : {
               "properties" : {
-                "image" : "vantaanvil.png:<color>.<frame>"
+                "image" : "vantaanvil3.png:<color>.accelerator"
+              }
+            },
+            "manipulator" : {
+              "properties" : {
+                "image" : "vantaanvil3.png:<color>.manipulator"
+              }
+            },
+            "separator" : {
+              "properties" : {
+                "image" : "vantaanvil3.png:<color>.separator"
               }
             }
           }
@@ -146,6 +174,54 @@
       "flickerMaxIntensity" : 1.0,
       "flickerPeriodVariance" : 0.0,
       "flickerIntensityVariance" : 0.0
+    },
+
+    "replicatorglow" : {
+      "active" : false,
+      "color" : [89, 119, 179],
+      "position" : [0, 2],
+
+      "flickerPeriod" : 0.9,
+      "flickerMinIntensity" : 0.75,
+      "flickerMaxIntensity" : 0.8,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
+    },
+
+    "acceleratorglow" : {
+      "active" : false,
+      "color" : [155, 186, 61],
+      "position" : [0, 2],
+
+      "flickerPeriod" : 0.9,
+      "flickerMinIntensity" : 0.75,
+      "flickerMaxIntensity" : 0.8,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
+    },
+
+    "separatorglow" : {
+      "active" : false,
+      "color" : [164, 81, 196],
+      "position" : [0, 2],
+
+      "flickerPeriod" : 0.9,
+      "flickerMinIntensity" : 0.75,
+      "flickerMaxIntensity" : 0.8,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
+    },
+
+    "manipulatorglow" : {
+      "active" : false,
+      "color" : [79, 172, 178],
+      "position" : [0, 2],
+
+      "flickerPeriod" : 0.9,
+      "flickerMinIntensity" : 0.75,
+      "flickerMaxIntensity" : 0.8,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
     }
   },
 

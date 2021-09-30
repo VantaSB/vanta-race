@@ -10,30 +10,40 @@
   "price" : 70,
   "radioMessagesOnPickup" : [ "pickupflag" ],
 
-  "apexDescription" : "I can use this battle standard as a waypoint for teleportation.",
-  "avianDescription" : "This battle standard can be bookmarked as a destination for my ship teleporter.",
-  "floranDescription" : "Floran likess black flag. It makesss good point to teleport back to with teleporter!.",
-  "glitchDescription" : "Observant. This battle standard has a locator module attached, allowing for teleportation bookmarking.",
-  "humanDescription" : "A battlefield flag. I can use this to bookmark this location for the teleporter.",
-  "hylotlDescription" : "This battle standard can act as a way point, enabling me to return to this location at any time.",
-  "novakidDescription" : "I can bookmark this Vanta battle standard for quick teleportin'.",
-  "vantaDescription" : "This battle standard will allow me to bookmark this location for future reference.",
+  "apexDescription" : "A Vanta flag. I can use this as a waypoint for teleportation.",
+  "avianDescription" : "This Vanta flag can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "Vanta flag makess good point to teleport back to with teleporter!.",
+  "glitchDescription" : "Observant. A small locator module attached to this flag allows it to be boodmarked for teleportation.",
+  "humanDescription" : "This Vanta flag can be saved as a location for my teleporter. Then I can return to it any time.",
+  "hylotlDescription" : "This Vanta flag can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this Vanta flag for quick teleportin'.",
+  "vantaDescription" : "This flag will allow me to bookmark this location for future reference.",
 
   "interactAction" : "OpenTeleportDialog",
   "interactData" : "/interface/warping/destinationonly.config",
 
-  "inventoryIcon" : "flagvanta.png",
+  "inventoryIcon" : "flagvantaicon.png",
   "orientations" : [
     {
-      "dualImage" : "flagvanta.png:<color>",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
+      "image" : "flagvanta.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
       "animationCycle" : 1.0,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagvanta.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
     }
   ]
 }

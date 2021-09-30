@@ -9,23 +9,20 @@
     [ [ "manipulatormodule", 1 ] ]
   ],
 
+  "questGiverIndicator" : "vanta_questgiver",
+  "questReceiverIndicator" : "vanta_questreceiver",
+
   "updateDelta" : 10,
   "script" : "/quests/scripts/ex_main.lua",
   "scriptConfig" : {
     "portraits" : {
-      "questStarted" : {
-        "portrait" : [ { "image" : "/objects/outpost/techlab/techlabscientistportrait.png" } ],
-        "title" : "Elliot"
-      },
-      "questComplete" : {
-        "portrait" : [ { "image" : "/objects/outpost/techlab/techlabscientistportrait.png" } ],
-        "title" : "Elliot"
-      }
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
     },
 
     "requireTurnIn" : true,
 
-    "turnInDescription" : "Speak with ^orange;Elliott^reset; at the ^orange;Outpost",
+    "turnInDescription" : "Speak with ^orange;Doppler^reset; at the ^orange;Ran's base",
     "conditions" : [
       {
         "type" : "gatherItem",

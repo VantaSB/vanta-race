@@ -7,22 +7,19 @@
   "moneyRange" : [0, 0],
   "rewards" : [ ],
 
+  "questGiverIndicator" : "vanta_questgiver",
+  "questReceiverIndicator" : "vanta_questreceiver",
+
   "updateDelta" : 10,
   "script" : "/quests/scripts/ex_main.lua",
   "scriptConfig" : {
     "portraits" : {
-      "questStarted" : {
-        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
-        "title" : "Elliott"
-      },
-      "questComplete" : {
-        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
-        "title" : "Elliott"
-      }
+      "questStarted" : "questGiver",
+      "questComplete" : "qeustReceiver"
     },
     "requireTurnIn" : true,
 
-    "turnInDescription" : "Speak to ^orange;Elliott^reset; at the ^orange;Outpost^reset;",
+    "turnInDescription" : "Speak to ^orange;Doppler^reset; at ^orange;Ran's base",
 
     "hideTech" : [
       "vantananosphere"

@@ -1,0 +1,41 @@
+{
+  "type" : "vantaoutposttrainee1",
+  "baseType" : "outpostcivilian",
+
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "female",
+    "hairGroup" : "hair",
+    "hairType" : "fem51",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.5",
+    "bodyDirectives" : "?replace=ffe2c5=f4e0ba?replace=ffc181=e9b768?replace=d39c6c=c18f54?replace=c7815b=a2683d?replace=ed1c24=333241",
+    "hairDirectives" : "?replace=d9c189=3b7f44?replace=a38d59=2e6a38?replace=735e3a=1d4b28"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "I would have been wandering the wastes aimlessly forever if it weren't for the Commander finding me when he did. Who knows what would have happened to me if he hadn't?"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "chest" : [ { "name" : "vantatier1chest" } ],
+          "legs" : [ { "name" : "vantatier1pants" } ]
+        }
+      ] ]
+    ]
+  }
+}

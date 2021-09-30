@@ -1,0 +1,44 @@
+{
+  "type" : "vantaoutpostjanitor",
+  "baseType" : "outpostcivilian",
+
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "male23",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.4",
+    "bodyDirectives" : "?replace=ffe2c5=e8cebc?replace=ffc181=cfa97d?replace=d39c6c=ae774b?replace=c7815b=804e34?replace=ed1c24=b57dcf",
+    "hairDirectives" : "?replace=d9c189=50422f?replace=a38d59=36261e?replace=735e3a=170f0d"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "behavior" : "tutorial",
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Sorry, I don't have much time to spare for talking. I need to stay focused or Benzene will yell at me again.",
+            "If you need something from out of here, talk to Benzene over by the corner."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "chest" : [ { "name" : "vantatier3chest" } ],
+          "legs" : [ { "name" : "vantatier3pants" } ]
+        }
+      ] ]
+    ]
+  }
+}

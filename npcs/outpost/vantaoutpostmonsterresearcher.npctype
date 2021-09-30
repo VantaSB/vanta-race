@@ -1,0 +1,46 @@
+{
+  "type" : "vantaoutpostmonsterresearcher",
+  "baseType" : "outpostcivilian",
+
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "female",
+    "hairGroup" : "hair",
+    "hairType" : "fem14",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.4",
+    "bodyDirectives" : "?replace=ffe2c5=e8cebc?replace=ffc181=cfa97d?replace=d39c6c=ae774b?replace=c7815b=804e34?replace=ed1c24=b57dcf",
+    "hairDirectives" : "?replace=d9c189=be471b?replace=a38d59=9b2f0c?replace=735e3a=702710"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "behavior" : "tutorial",
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "We have in our possession some monsters that have adapted to the local environment. They're exhibiting some interesting qualities.",
+            "I wonder if more variants like these exist for other types of monsters?",
+            "If you find any more variants, be sure to let me know with as much detail as you can!",
+            "Nothing excites me more than studying elusive creatures!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "chest" : [ { "name" : "vantaguardchest" } ],
+          "legs" : [ { "name" : "vantaguardpants" } ]
+        }
+      ] ]
+    ]
+  }
+}

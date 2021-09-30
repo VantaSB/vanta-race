@@ -1,0 +1,47 @@
+{
+  "type" : "vantaoutposttechnician",
+  "baseType" : "outpostcivilian",
+
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "male23",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.4",
+    "bodyDirectives" : "?replace=ffe2c5=f4e0ba?replace=ffc181=e9b768?replace=d39c6c=c18f54?replace=c7815b=a2683d",
+    "hairDirectives" : "?replace=d9c189=525252?replace=a38d59=363636?replace=735e3a=161616"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Liquid ceruleum has a variety of uses, most notably enhancing our weapons. But we also found more peaceful applications for it, such as fuel for starships and power reactors for settlements."
+          ]
+        },
+        "vanta" : {
+          "default" : [
+            "Liquid ceruleum has a variety of uses, most notably enhancing our weapons. But we also found more peaceful applications for it, such as fuel for starships and power reactors for settlements."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "vantacommandvisorhead" } ],
+          "chest" : [ { "name" : "vantaguardchest" } ],
+          "legs" : [ { "name" : "vantaguardpants" } ]
+        }
+      ] ]
+    ]
+  }
+}

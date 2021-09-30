@@ -1,0 +1,56 @@
+{
+  "type" : "asamioutpost",
+  "baseType" : "outpostcivilian",
+
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "female",
+    "hairGroup" : "hair",
+    "hairType" : "fem8",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.5",
+    "bodyDirectives" : "?replace=ffe2c5=fff2e5?replace=ffc181=ffe0bf?replace=d39c6c=d3b398?replace=c7815b=c79b83?replace=ed1c24=004cd9",
+    "hairDirectives" : "?replace=d9c189=eaeaea?replace=a38d59=b8b8b8?replace=735e3a=828282"
+  },
+
+  "scriptConfig" : {
+    "uniqueId" : "asamioutpost",
+
+    "reactions" : {
+      "spontaneous" : []
+    },
+    "personalities" : [
+      [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "behaviorConfig" : {
+      "greetingChance" : 0,
+      "play" : false,
+      "chat" : false
+    },
+
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "I oversee the medical operations here. Thankfully, we haven't had to utilize the medical ward as much as we thought we would, going up against the Conclave and all."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "chest" : [ { "name" : "noblechest", "parameters" : { "colorIndex" : 1 } } ],
+          "legs" : [ { "name" : "noblelegs", "parameters" : { "colorIndex" : 1 } } ]
+        }
+      ] ]
+    ]
+  }
+}

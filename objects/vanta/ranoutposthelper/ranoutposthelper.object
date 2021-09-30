@@ -32,9 +32,10 @@
     "buyFactor" : 10.0,
     "sellFactor" : 0.2,
     "items" : [
-      { "item" : { "name" : "ceruleumfuelcell" } },
-      { "item" : { "name" : "ceruleumsolution" } },
-      { "item" : { "name" : "vantaration" } }
+      { "item" : { "name" : "vantaration" } },
+      { "item" : { "name" : "vantaresearchcore" }, "prerequisiteQuest" : "vantaresearch1" },
+      { "item" : { "name" : "ceruleumfuelcell" }, "prerequisiteQuest" : "vantaresearch1" },
+      { "item" : { "name" : "ceruleumsolution" }, "prerequisiteQuest" : "vantaresearch1" }
     ]
   },
 

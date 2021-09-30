@@ -1,0 +1,9 @@
+{
+  "itemName" : "ceruleumink2",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "reagent",
+  "description" : "An ink fortified with tungsten to improve conductivity on a grimoire's pages.",
+  "shortdescription" : "Grade 2 Ceruleum Ink",
+  "inventoryIcon" : "ceruleumink.png"
+}

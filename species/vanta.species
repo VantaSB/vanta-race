@@ -171,25 +171,35 @@
     }
   ],
   "bodyColor" : [
-    { "ffe2c5" : "ffe2c5", "ffc181" : "ffc181", "d39c6c" : "d39c6c", "c7815b" : "c7815b" },
-    { "ffe2c5" : "fbe1d4", "ffc181" : "f6baa2", "d39c6c" : "cc9582", "c7815b" : "ac7261" },
-    { "ffe2c5" : "f4e0ba", "ffc181" : "e9b768", "d39c6c" : "c18f54", "c7815b" : "a2683d" },
-    { "ffe2c5" : "e8cebc", "ffc181" : "cfa97d", "d39c6c" : "ae774b", "c7815b" : "804e34" },
-    { "ffe2c5" : "c9b181", "ffc181" : "ac8348", "d39c6c" : "87633f", "c7815b" : "694c31" },
-    { "ffe2c5" : "c5ad98", "ffc181" : "a47a59", "d39c6c" : "865d40", "c7815b" : "66412e" },
-    { "ffe2c5" : "ab8c77", "ffc181" : "86644a", "d39c6c" : "684431", "c7815b" : "40271d" }
+    { "ffe2c5" : "ffe2c5", "ffc181" : "ffc181", "d39c6c" : "d39c6c", "c7815b" : "c7815b" }, // Default
+    { "ffe2c5" : "fff2e5", "ffc181" : "ffe0bf", "d39c6c" : "d3b398", "c7815b" : "c79b83" }, // 'Albino'
+    { "ffe2c5" : "fbe1d4", "ffc181" : "f6baa2", "d39c6c" : "cc9582", "c7815b" : "ac7261" }, // Average
+    { "ffe2c5" : "f4e0ba", "ffc181" : "e9b768", "d39c6c" : "c18f54", "c7815b" : "a2683d" }, // Tanned
+    { "ffe2c5" : "e8cebc", "ffc181" : "cfa97d", "d39c6c" : "ae774b", "c7815b" : "804e34" }, // Pale
+    { "ffe2c5" : "c9b181", "ffc181" : "ac8348", "d39c6c" : "87633f", "c7815b" : "694c31" }, // Olive
+    { "ffe2c5" : "c5ad98", "ffc181" : "a47a59", "d39c6c" : "865d40", "c7815b" : "66412e" }, // Light brown
+    { "ffe2c5" : "ab8c77", "ffc181" : "86644a", "d39c6c" : "684431", "c7815b" : "40271d" }, // Medium brown
+    { "ffe2c5" : "8a6145", "ffc181" : "6b462a", "d39c6c" : "523520", "c7815b" : "402816" } // Dark Brown
   ],
 
 
   "undyColor" : [
     //Or rather, 'eye' color
-    { "ED1C24" : "0B877F"},
-    { "ED1C24" : "24B395"},
-	  { "ED1C24" : "333241"},
-	  { "ED1C24" : "5B5A72"},
-	  { "ED1C24" : "5691FF"},
-	  { "ED1C24" : "FF325F"},
-	  { "ED1C24" : "b8b8b8"}
+    { "ED1C24" : "ED1C24" }, // Default
+    { "ED1C24" : "0B877F" }, // Dark turquoise
+    { "ED1C24" : "24B395" }, // Turquoise
+	  { "ED1C24" : "333241" }, // Standard dark
+	  { "ED1C24" : "5B5A72" }, // Standard medium
+    { "ED1C24" : "b57dcf" }, // Light purple
+	  { "ED1C24" : "5691FF" }, // Baby blue
+    { "ED1C24" : "004cd9" }, // Crystal Blue
+	  { "ED1C24" : "b8b8b8" }, // Silver
+    { "ED1C24" : "4ece61" }, // Green
+    { "ED1C24" : "be881d" }, // Honey
+    { "ED1C24" : "702d01" }, // Brown
+    { "ED1C24" : "3b1801" }, // Dark Brown
+    { "ED1C24" : "FF325F" }, // Hot pink
+    { "ED1C24" : "7f7fff" } // Periwinkle
   ],
 
   "hairColor" : [
@@ -205,6 +215,8 @@
     { "d9c189" : "a6671d", "a38d59" : "915622", "735e3a" : "743e1d" },
     //DIRTY BLONDE
     { "d9c189" : "eaa758", "a38d59" : "cd8b3d", "735e3a" : "93682c" },
+    //"DEFAULT"
+    { "d9c189" : "d9c189", "a38d59" : "a38d59", "735e3a" : "735e3a" },
     //GREEN
     { "d9c189" : "4ece61", "a38d59" : "34ae47", "735e3a" : "228a38" },
     //DARK GREEN

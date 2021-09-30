@@ -1,0 +1,10 @@
+{
+  "itemName" : "researchcorekey",
+  "price" : 0,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "researchcorekey.png",
+  "description" : "An identification key that grants you access to the Vanta Research Core.",
+  "shortdescription" : "Research Identification Key",
+  "itemTags" : [ "reagent" ]
+}

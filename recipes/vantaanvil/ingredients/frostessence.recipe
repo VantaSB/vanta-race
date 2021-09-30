@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkessence", "count" : 10 },
+    { "item" : "cryonicextract", "count" : 2 }
+  ],
+  "output" : { "item" : "frostessence", "count" : 10 },
+  "groups" : [ "vantaanvil1", "vantaingredients", "all" ]
+}

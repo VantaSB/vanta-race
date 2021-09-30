@@ -8,7 +8,7 @@
   "margin" : 0,
   "name" : "vanta/objects",
   "spacing" : 0,
-  "tilecount" : 126,
+  "tilecount" : 133,
   "tileheight" : 75,
   "tilewidth" : 65,
   "type" : "tileset",
@@ -565,7 +565,7 @@
     "61" : {
       "//description" : "A command console used in Nightar complexes.",
       "//name" : "nightardecorativeconsole",
-      "//shortdescription" : "Nightar Console",
+      "//shortdescription" : "Nightsteel Console",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
       "object" : "nightardecorativeconsole",
@@ -653,12 +653,12 @@
       "tilesetDirection" : "right"
     },
     "71" : {
-      "//description" : "A command console used in Nightar complexes.",
-      "//name" : "nightardecorativeconsole2",
-      "//shortdescription" : "Nightar Console",
+      "//description" : "A command console used in Vanta complexes.",
+      "//name" : "vantadecorativeconsole",
+      "//shortdescription" : "Nightsteel Console",
       "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "nightardecorativeconsole2",
+      "object" : "vantadecorativeconsole",
       "tilesetDirection" : "right"
     },
     "72" : {
@@ -1136,6 +1136,69 @@
       "imagePositionY" : "0",
       "object" : "vantabasedoor",
       "tilesetDirection" : "right"
+    },
+    "126" : {
+      "//description" : "-todo-",
+      "//name" : "vantaresearchdisplay",
+      "//shortdescription" : "Vanta Research Display",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantaresearchdisplay",
+      "tilesetDirection" : "right"
+    },
+    "127" : {
+      "//description" : "A Vanta devices used for researching their psionic abilities.",
+      "//name" : "vantaresearchcore",
+      "//shortdescription" : "Vanta Research Core",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantaresearchcore",
+      "tilesetDirection" : "right"
+    },
+    "128" : {
+      "//description" : "A deactivated research node.",
+      "//name" : "vantaresearchcore_off",
+      "//shortdescription" : "Inactive Vanta Research Core",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantaresearchcore_off",
+      "tilesetDirection" : "right"
+    },
+    "129" : {
+      "//description" : "A highly regulated container that acts as a fuel supply for power.",
+      "//name" : "ceruleumpowercell2",
+      "//shortdescription" : "Ceruleum Power Cell",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "ceruleumpowercell2",
+      "tilesetDirection" : "right"
+    },
+    "130" : {
+      "//description" : "An operator for ongoing Vanta missions sits here.",
+      "//name" : "vantaoperatorstation1",
+      "//shortdescription" : "Vanta Operator Station",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "0",
+      "object" : "vantaoperatorstation1",
+      "tilesetDirection" : "right"
+    },
+    "131" : {
+      "//description" : "An operator for ongoing Vanta missions sits here.",
+      "//name" : "vantaoperatorstation2",
+      "//shortdescription" : "Vanta Operator Station",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "0",
+      "object" : "vantaoperatorstation2",
+      "tilesetDirection" : "right"
+    },
+    "132" : {
+      "//description" : "A display that acts as a sort of gauge.",
+      "//name" : "vantascreendecal1",
+      "//shortdescription" : "Vanta Readout Screen 1",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantascreendecal1",
+      "tilesetDirection" : "right"
     }
   },
   "tiles" : {
@@ -1353,7 +1416,7 @@
       "image" : "../../../tiled/vanta-custom/objects/nightarstasispodclosed.png"
     },
     "71" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightardecorativeconsole2.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantadecorativeconsole.png"
     },
     "72" : {
       "image" : "../../../tiled/vanta-custom/objects/ceruleumpowercell.png"
@@ -1516,6 +1579,27 @@
     },
     "125" : {
       "image" : "../../../tiled/vanta-custom/objects/vantabasedoor.png"
+    },
+    "126" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantaresearchdisplay.png"
+    },
+    "127" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantaresearchcore_on.png"
+    },
+    "128" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantaresearchcore_off.png"
+    },
+    "129" : {
+      "image" : "../../../tiled/vanta-custom/objects/ceruleumpowercell2.png"
+    },
+    "130" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantaoperator1.png"
+    },
+    "131" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantaoperator2.png"
+    },
+    "132" : {
+      "image" : "../../../tiled/vanta-custom/objects/screendecal1.png"
     }
   }
 }

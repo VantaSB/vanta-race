@@ -4,42 +4,55 @@
   "rarity" : "Essential",
   "race" : "vanta",
   "category" : "crafting",
-  "price" : 500,
+  "price" : 5000,
   "printable" : false,
-
   "inventoryIcon" : "icon.png",
-  "placementImage" : "psionicstation.png",
-  "placementImagePosition" : [-8, 0],
   "description" : "A powerful station usable by Vanta for their latent psionic abilities.",
   "shortdescription" : "^orange;Psionic Harmonizer^reset;",
+
+
   "apexDescription" : "There's no way an Apex could utilize this.",
-	"avianDescription" : "It was said that Kluex had spectacular abilities; I wonder if this would let me do the same.",
+	"avianDescription" : "It was said that Kluex had spectacular abilities; I wonder if this would let me achieve the same.",
 	"floranDescription" : "Fancy machine too much for Floran to ussse.",
 	"glitchDescription" : "Disheartened. There's no plausible way for me to interact with such a fantastic machine.",
-	"humanDescription" : "Man, I can't even read these glyphs!",
-	"hylotlDescription" : "A slab entombed in machinery, with a language only readable by a Vanta.",
-	"novakidDescription" : "These marks look like some of our faces!",
-  "vantaDescription" : "The slab in this machine holds the secrets to our psionic powers.",
+	"humanDescription" : "I can't even begin to imagine how this works!",
+	"hylotlDescription" : "An intricate machine that allows the Vanta to push past their physical limitations.",
+	"novakidDescription" : "A bit TOO technical, if you ask me.",
+  "vantaDescription" : "This machine holds the secrets to our psionic powers.",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingpsionic.config",
+    "filter" : [ "craftingpsionic" ]
+  },
 
   "orientations" : [
     {
       "imageLayers" : [
-        { "image" : "psionicstation.png",  "fullbright" : true},
-        { "image" : "psionicstationlit.png" }
+        { "image" : "psionicstation.png:default.<frame>" },
+        { "image" : "psionicstationlit.png:default.<frame>",  "fullbright" : true }
       ],
       "imagePosition" : [-8, 0],
       "direction" : "left",
       "flipImages" : true,
+
+      "frames" : 3,
+      "animataionCycle" : 0.25,
+
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
     {
       "imageLayers" : [
-        { "image" : "psionicstation.png",  "fullbright" : true},
-        { "image" : "psionicstationlit.png" }
+        { "image" : "psionicstation.png:default.<frame>" },
+        { "image" : "psionicstationlit.png:default.<frame>",  "fullbright" : true }
       ],
       "imagePosition" : [-8, 0],
       "direction" : "right",
+
+      "frames" : 3,
+      "animataionCycle" : 0.25,
+
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

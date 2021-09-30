@@ -50,7 +50,7 @@ function questStart()
   if species ~= "vanta" then
     local currentInspectionTool = player.essentialItem("inspectiontool")
     if not currentInspectionTool or currentInspectionTool.name == "inspectionmode" then
-      player.giveEssentialItem("inspectiontool", "scanmode")
+      player.giveEssentialItem("inspectiontool", "vantascanmode")
     end
   end
 

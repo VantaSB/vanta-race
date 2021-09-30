@@ -22,14 +22,21 @@
   "inventoryIcon" : "nightarsbannertornicon.png",
   "orientations" : [
     {
-      "image" : "nightarsbannertorn.png:<color>",
-      "imagePosition" : [-5, -2],
-      "frames" : 1,
-      "animationCycle" : 0.5,
+      "image" : "nightarsbannertorn.png",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
 
       "spaceScan" : 0.1,
-      "anchors" : []
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "nightarsbannertorn.png",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
 
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
     }
   ]
 }

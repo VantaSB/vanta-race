@@ -1,0 +1,49 @@
+{
+  "objectName" : "vantalightround",
+  "colonyTags" : ["vanta","light"],
+  "rarity" : "Common",
+  "description" : "A round wall light.",
+  "shortdescription" : "Round Vanta Wall Light",
+  "race" : "vanta",
+
+  "apexDescription" : "A round lamp. Its cool glow actually gives a strange feeling of warmth.",
+  "avianDescription" : "This large lamp provides ample lighting.",
+  "floranDescription" : "Large light.",
+  "glitchDescription" : "Indifferent. This lamp is not stylish, but it's good at what it does.",
+  "humanDescription" : "The design is pretty neutral.",
+  "hylotlDescription" : "It's not remarkable, but it's not bad.",
+  "novakidDescription" : "This light gives off a cool glow.",
+  "vantaDescription" : "If nothing else, it gets the job done.",
+
+  "category" : "light",
+  "price" : 0,
+  "printable" : false,
+  "lightColor" : [174, 223, 232],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "vantalightround.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "vantalightround.png",
+    "fg" : "vantalightroundlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

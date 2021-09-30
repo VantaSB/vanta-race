@@ -1,0 +1,9 @@
+{
+  "itemName" : "ceruleumink1",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "reagent",
+  "description" : "An ink fortified with iron to improve conductivity on a grimoire's pages.",
+  "shortdescription" : "Grade 1 Ceruleum Ink",
+  "inventoryIcon" : "ceruleumink.png"
+}

@@ -1,7 +1,7 @@
 {
   "objectName" : "vantaanvil",
   "colonyTags" : [ "crafting" ],
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "race" : "vanta",
   "category" : "crafting",
   "price" : 500,
@@ -9,13 +9,13 @@
 
   "breakDropOptions" : [],
 
-  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+  "scripts" : [ "/scripts/objectaddons.lua", "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
 
   "animation" : "vantaanvil.animation",
-  "animationPosition" : [16, 20],
+  "animationPosition" : [8, 12],
 
   "inventoryIcon" : "icon.png",
-  "placementImage" : "vantaanvil.png:default.default",
+  "placementImage" : "vantaanvil.png:default.1",
   "placementImagePosition" : [-8, 0],
 
   "description" : "A replicator that's based on the Nightars' designs.",
@@ -24,14 +24,14 @@
   "learnBlueprintsOnPickup" : [],
 
   "startingUpgradeStage" : 1,
-  "maxUpgradeStage" : 4,
+  "maxUpgradeStage" : 3,
   "upgradeStages" : [
     {
-      "animationState" : "AA",
+      "animationState" : "vantaanvil",
       "itemSpawnParameters" : {
         "price" : 500,
         "inventoryIcon" : "icon.png",
-        "placementImage" : "vantaanvil.png:default.default",
+        "placementImage" : "vantaanvil.png:default.1",
         "placementImagePosition" : [-8, 0],
         "description" : "A replicator that's based on the Nightars' designs.",
         "shortdescription" : "Vanta Replicator"
@@ -44,7 +44,7 @@
             "title" : " Vanta Replicator",
             "subtitle" : " ^#b9b5b2;Armor, weapons, and gear",
             "icon" : {
-              "file" : ""
+              "file" : "/interface/crafting/craftinganvil.png"
             }
           }
         },
@@ -53,8 +53,8 @@
         "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
         "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
-          { "item" : "tungstenbar", "count" : 6 },
-          { "item" : "coalore", "count" : 10 },
+          { "item" : "titaniumbar", "count" : 5 },
+          { "item" : "silverbar", "count" : 5 },
           { "item" : "glass", "count" : 5 }
         ]
       },
@@ -66,14 +66,15 @@
     },
 
     {
-      "animationState" : "BB",
+      "animationState" : "vantaanvil2",
       "itemSpawnParameters" : {
         "price" : 650,
         "inventoryIcon" : "icon.png",
-        "placementImage" : "vantaanvil.png:default.default",
+        "placementImage" : "vantaanvil2.png:default.1",
         "placementImagePosition" : [-8, 0],
+        "animationPosition" : [16, 12],
         "description" : "A replicator that's based on the Nightars' designs.",
-        "shortdescription" : "Vanta Replicator ^yellow;^reset;"
+        "shortdescription" : "Vanta Replicator"
       },
 
       "interactData" : {
@@ -83,7 +84,7 @@
             "title" : " Vanta Replicator",
             "subtitle" : " ^#b9b5b2;Armor, weapons, and gear",
             "icon" : {
-              "file" : ""
+              "file" : "/interface/crafting/craftinganvil.png"
             }
           }
         },
@@ -92,48 +93,12 @@
         "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
         "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
-          { "item" : "durasteelbar", "count" : 6 },
-          { "item" : "goldbar", "count" : 2 },
-          { "item" : "glass", "count" : 20 },
-          { "item" : "volatilepowder", "count" : 10 }
-        ]
-      },
-
-      "learnBlueprintsOnPickup" : [],
-
-      "upgradeSoundEffect" : "fanfare",
-      "upgradeParticleEffect" : "dust"
-    },
-
-    {
-      "animationState" : "CC",
-      "itemSpawnParameters" : {
-        "price" : 875,
-        "inventoryIcon" : "icon.png",
-        "placementImage" : "vantaanvil.png:default.default",
-        "placementImagePosition" : [-8, 0],
-        "description" : "A replicator that's based on the Nightars' designs.",
-        "shortdescription" : "Vanta Replicator ^green;^reset;"
-      },
-
-      "interactData" : {
-        "config" : "/interface/windowconfig/vantaanvil.config",
-        "paneLayoutOverride" : {
-          "windowtitle" : {
-            "title" : " Vanta Replicator",
-            "subtitle" : " ^#b9b5b2;Armor, weapons, and gear",
-            "icon" : {
-              "file" : ""
-            }
-          }
-        },
-
-        "filter" : [ "vantaanvil1", "vantaanvil2", "vantaanvil3" ],
-        "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
-        "initialRecipeUnlocks" : [],
-        "upgradeMaterials" : [
-          { "item" : "darkcrystal", "count" : 3 }
-        ]
+          { "item" : "durasteelbar", "count" : 12 },
+          { "item" : "battery", "count" : 1 },
+          { "item" : "siliconboard", "count" : 10 },
+          { "item" : "wire", "count" : 20 }
+        ],
+        "upgradeRecipeUnlocks" : [ "vantaacceleratoraddon", "vantaseparatoraddon", "vantamanipulatoraddon" ]
       },
 
       "learnBlueprintsOnPickup" : [],
@@ -143,14 +108,44 @@
     },
 
     {
-      "animationState" : "DD",
+      "animationState" : "vantaanvil3",
       "itemSpawnParameters" : {
-        "price" : 1000,
+        "price" : 1500,
+        "rarity" : "Rare",
         "inventoryIcon" : "icon.png",
-        "placementImage" : "vantaanvil.png:default.default",
-        "placementImagePosition" : [-8, 0],
+        "placementImage" : "vantaanvil3.png:default",
+        "placementImagePosition" : [-24, 0],
+        "animationPosition" : [8, 12],
         "description" : "A replicator that's based on the Nightars' designs.",
-        "shortdescription" : "Vanta Replicator ^cyan;^reset;"
+        "shortdescription" : "Vanta Replicator",
+        "orientations" : [
+          {
+            "image" : "vantaanvil3.png:default",
+            "imagePosition" : [-24, 0],
+            "direction" : "left",
+            "flipImages" : true,
+            "spaces" : [
+              [-4, 0], [-3,0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], [3, 0],
+              [-4, 1], [-3,1], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1], [3, 1],
+              [-4, 2], [-3,2], [-2, 2], [-1, 2], [0, 2], [1, 2], [2, 2], [3, 2]
+            ],
+
+            "anchors" : [ "bottom" ]
+          },
+          {
+            "image" : "vantaanvil3.png:default",
+            "imagePosition" : [-24, 0],
+            "direction" : "right",
+            "flipImages" : true,
+            "spaces" : [
+              [-4, 0], [-3,0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], [3, 0],
+              [-4, 1], [-3,1], [-2, 1], [-1, 1], [0, 1], [1, 1], [2, 1], [3, 1],
+              [-4, 2], [-3,2], [-2, 2], [-1, 2], [0, 2], [1, 2], [2, 2], [3, 2]
+            ],
+
+            "anchors" : [ "bottom" ]
+          }
+        ]
       },
 
       "interactData" : {
@@ -160,39 +155,99 @@
             "title" : " Vanta Replicator",
             "subtitle" : " ^#b9b5b2;Armor, weapons, and gear",
             "icon" : {
-              "file" : ""
+              "file" : "/interface/crafting/craftinganvil.png"
             }
           }
         },
 
-        "filter" : [ "vantaanvil1", "vantaanvil2", "vantaanvil3", "vantaanvil4" ],
+        "filter" : [ "vantaanvil1", "vantaanvil2", "vantaanvil3" ],
         "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
-        "initialRecipeUnlocks" : []
+        "initialRecipeUnlocks" : [ "vantaacceleratoraddon", "vantamanipulatoraddon", "vantaseparatoraddon" ]
       },
 
-      "learnBlueprintsOnPickup" : []
+      "learnBlueprintsOnPickup" : [],
+
+      "materialSpaces" : [
+        [[-1, 2], "metamaterial:anviladdonbase"],
+        [[0, 2], "metamaterial:anviladdonbase"]
+      ],
+
+      "addonConfig" : {
+        "usesAddons" : [
+          {
+            "name" : "vantaAcceleratorAddon",
+            "position" : [0, 3],
+            "addonData" : {
+              "animationState" : "accelerator",
+              "interactData" : {
+                "paneLayoutOverride" : {
+                  "windowtitle" : {
+                    "title" : " Vanta Replicator",
+                    "icon" : {
+                      "file" : "/interface/crafting/craftinganvil.png"
+                    }
+                  }
+                },
+                "filter" : [ "vantaanvil1", "vantaanvil2", "vantaanvil3", "vantaaccelerator" ]
+              }
+            }
+          },
+          {
+            "name" : "vantaSeparatorAddon",
+            "position" : [0, 3],
+            "addonData" : {
+              "animationState" : "separator",
+              "interactData" : {
+                "paneLayoutOverride" : {
+                  "windowtitle" : {
+                    "title" : " Vanta Replicator",
+                    "icon" : {
+                      "file" : "/interface/crafting/craftinganvil.png"
+                    }
+                  }
+                },
+                "filter" : [ "vantaanvil1", "vantaanvil2", "vantaanvil3", "vantaseparator" ]
+              }
+            }
+          },
+          {
+            "name" : "vantaManipulatorAddon",
+            "position" : [0, 3],
+            "addonData" : {
+              "animationState" : "manipulator",
+              "interactData" : {
+                "paneLayoutOverride" : {
+                  "windowtitle" : {
+                    "title" : " Vanta Replicator",
+                    "icon" : {
+                      "file" : "/interface/crafting/craftinganvil.png"
+                    }
+                  }
+                },
+                "filter" : [ "vantaanvil1", "vantaanvil2", "vantaanvil3", "vantamanipulator" ]
+              }
+            }
+          }
+        ]
+      }
     }
   ],
 
   "orientations" : [
     {
-      "image" : "vantaanvil.png:default.<frame>",
+      "image" : "vantaanvil.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
       "direction" : "left",
       "flipImages" : true,
-      "spaceScan" : 0.1,
 
       "anchors" : [ "bottom" ]
-
     },
     {
-      "image" : "vantaanvil.png:default.<frame>",
+      "image" : "vantaanvil.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
       "direction" : "right",
-      "spaceScan" : 0.1,
 
       "anchors" : [ "bottom" ]
-
     }
   ]
 }

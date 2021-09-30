@@ -24,8 +24,9 @@
 
   "elementalType" : "physical",
 
-  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbilityType" : "scatteredwindscombo",
   "primaryAbility" : {
+    "comboSteps" : 6,
     "fireTime" : 0.72,
     "baseDps" : 18.4,
 
@@ -42,7 +43,7 @@
     }
   },
 
-  "altAbilityType" : "darkslice",
+  "altAbilityType" : "torridedge",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
