@@ -80,7 +80,7 @@ function questComplete()
 
   questutil.questCompleteActions()
 
-  player.startQuest("bootship")
+  --player.startQuest("bootship")
 end
 
 function update(dt)

@@ -222,12 +222,7 @@ function findEsther(dt)
           storage.bookmarked = true
         end
         if world.magnitude(estherResult, mcontroller.position()) < self.findRange then
-          if species == "vanta" then
-            player.playCinematic("/cinematics/story/esther/esther_vanta.cinematic")
-          else
-            player.playCinematic("/cinematics/story/esther/esther.cinematic")
-          end
-          --player.playCinematic(config.getParameter("findEstherCinema"))
+          player.playCinematic(config.getParameter("findEstherCinema"))
           storage.complete = true
         end
       end

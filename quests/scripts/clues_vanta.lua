@@ -46,12 +46,9 @@ end
 
 function questStart()
   -- make sure to give player access to scan mode if they don't have it; Vanta characters should already have Scan Mode.
-  local species = player.species()
-  if species ~= "vanta" then
-    local currentInspectionTool = player.essentialItem("inspectiontool")
-    if not currentInspectionTool or currentInspectionTool.name == "inspectionmode" then
-      player.giveEssentialItem("inspectiontool", "vantascanmode")
-    end
+  local currentInspectionTool = player.essentialItem("inspectiontool")
+  if not currentInspectionTool or currentInspectionTool.name == "inspectionmode" then
+    player.giveEssentialItem("inspectiontool", "vantascanmode")
   end
 
   -- check for any objects the player may already be carrying

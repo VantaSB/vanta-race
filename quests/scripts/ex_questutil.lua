@@ -103,7 +103,7 @@ function questutil.questCompleteActions()
   player.recordEvent(eventName, eventFields)
 
   local followUp = config.getParameter("followUp")
-  if followUp then
+  if followUp and player.canStartQuest() then
     local descriptor = followUp
     if type(descriptor) == "string" then
       descriptor = {

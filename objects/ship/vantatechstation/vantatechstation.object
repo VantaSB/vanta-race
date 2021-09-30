@@ -37,7 +37,7 @@
     }
   ],
 
-  "offeredQuests" : [ "gaterepair" ],
+  "offeredQuests" : [ "gaterepair_vanta" ],
 
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [
@@ -51,7 +51,7 @@
   "dialog" : {
     "wakeUp" : [
       [ "^yellow;Rebooting, beginning diagnostics...^reset;", "/ai/portraits/vantaportrait.png:unique.1" ],
-      [ "Systems Check:\nSubroutines - ^green;OK^reset;\nDatabase - ^green;OK^reset;\nEngine & Navigation Systems - ^#ff0000;ERROR^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
+      [ "Systems Check:\nSubroutines - ^green;OK^reset;\nDatabase - ^green;OK^reset;\nEngine & Navigation - ^#ff0000;ERROR^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Diagnostics complete;\n^orange;extensive repairs required.^reset;", "/ai/portraits/vantaportrait.png:talk.0" ],
       [ "Greetings, Captain. I am ^cyan;S.A.I.L.^reset;, your personal AI assistant.", "/ai/portraits/vantaportrait.png:talk.0"],
       [ "I help manage the status of your ship and and crew.", "/ai/portraits/vantaportrait.png:talk.0"],

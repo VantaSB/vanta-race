@@ -1,13 +1,10 @@
 [
-	{
-		"op" : "add",
-		"path" : "/initialquests/vanta",
-		"value" : [ "vantaintro" ]
-	},
+	{ "op" : "add", "path" : "/initialquests/vanta", "value" : [ "vantaintro" ] },
 
-	{
-		"op" : "add",
-		"path" : "/objectiveDescriptions/giveUniqueItem",
-		"value" : "Deliver your <itemName> to <questGiver>"
-	}
+	{ "op" : "add", "path" : "/indicators/vanta_questgiver", "value" : { "image" : "/interface/quests/vanta_questgiver.animation" } },
+	{ "op" : "add", "path" : "/indicators/vanta_questreceiver", "value" : { "image" : "/interface/quests/vanta_questreceiver.animation" } },
+	{ "op" : "add", "path" : "/indicators/vanta_mainquestgiver", "value" : { "image" : "/interface/quests/vanta_mainquestgiver.animation" } },
+	{ "op" : "add", "path" : "/indicators/vanta_mainquestreceiver", "value" : { "image" : "/interface/quests/vanta_mainquestreceiver.animation" } },
+
+	{ "op" : "add", "path" : "/objectiveDescriptions/giveUniqueItem", "value" : "Deliver your <itemName> to <questGiver>" }
 ]
