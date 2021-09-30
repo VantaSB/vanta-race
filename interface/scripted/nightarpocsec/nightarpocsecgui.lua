@@ -4,7 +4,7 @@ function init()
   self.codeImg = config.getParameter("codeImg")
   noteText = noteText:gsub("%^[#%a%x]+;", "")
   widget.setText("lblNoteText", noteText)
-  widget.setImage("imgCodeImg", self.codeSheet .. ":" .. self.codeImg)
-
-  sb.logInfo(self.codeSheet .. ":" .. self.codeImg)
+  if self.codeImg ~= "" then
+    widget.setImage("imgCodeImg", self.codeSheet .. ":" .. self.codeImg)
+  end
 end
