@@ -1,3 +1,5 @@
+require "/scripts/util.lua"
+
 local origInit = init
 local origUninit = uninit
 
@@ -15,6 +17,11 @@ function init()
 		sb.logInfo("Readded 'ex_scaninteraction' quest")
 		player.startQuest("ex_scaninteraction")
 	end
+
+	-- Add any miscellaneuos functions/message handlers below this line in the future, if applicable
+	message.setHandler("ex.spawnParticle",function (_,_,...) localAnimator.spawnParticle(...) end)
+	message.setHandler("ex.warp",function (_,_,...) player.warp(...) end)
+	message.setHandler("ex.playSound",function (_,_,...) localAnimator.playAudio(...) end)
 end
 
 function uninit()
