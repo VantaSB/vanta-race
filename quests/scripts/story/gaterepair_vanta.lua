@@ -1,5 +1,5 @@
 require "/scripts/util.lua"
-require "/quests/scripts/questutil.lua"
+require "/quests/scripts/ex_questutil.lua"
 require "/scripts/vec2.lua"
 require "/quests/scripts/portraits.lua"
 

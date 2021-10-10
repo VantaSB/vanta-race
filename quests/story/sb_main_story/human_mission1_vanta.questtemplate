@@ -11,6 +11,10 @@
     [ ["rewardbag", 1] ]
   ],
   "canBeAbandoned" : false,
+
+  "questGiverIndicator" : "vanta_mainquestgiver",
+  "questReceiverIndicator" : "vanta_mainquestreceiver",
+  
   "updateDelta" : 10,
   "script" : "/quests/scripts/story/human_mission1.lua",
   "scriptConfig" : {

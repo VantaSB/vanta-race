@@ -1,5 +1,5 @@
 {
-  "id" : "floran_mission2_questtemplate",
+  "id" : "floran_mission2_vanta",
   "mainQuest" : true,
   "prerequisites" : [ "floran_mission1_vanta" ],
   "title" : "Fetch the Floran Artifact",

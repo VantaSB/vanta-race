@@ -1,0 +1,42 @@
+[
+  /*{
+    "op" : "add",
+	  "path" : "/scriptConfig/offeredQuests/-",
+	  "value" : "nightfort_mission"
+  },
+
+  {
+    "op" : "add",
+	  "path" : "/scriptConfig/turnInQuests/-",
+	  "value" : "nightfort_mission"
+  }*/
+
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "shiprepair_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "outpostclue_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "floran_mission1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "floran_mission2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "hylotl_mission1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "hylotl_mission2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "avian_mission1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "avian_mission2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "apex_mission1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "apex_mission2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "glitch_mission1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "glitch_mission2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "destroyruin_vanta" },
+
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "gaterepair_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "shiprepair_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "outpostclue_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "floran_mission1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "floran_mission2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "hylotl_mission1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "hylotl_mission2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "avian_mission1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "avian_mission2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "apex_mission1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "apex_mission2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "glitch_mission1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "glitch_mission2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "destroyruin_vanta" }
+]

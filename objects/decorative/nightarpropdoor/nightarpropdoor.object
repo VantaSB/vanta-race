@@ -33,10 +33,5 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background", "bottom" ]
     }
-  ],
-
-  "scripts" : [ "/scripts/ex_utilities/ex_propdoorwarp.lua" ],
-
-  // Configured in Tiled
-  "dCoord" : null
+  ]
 }

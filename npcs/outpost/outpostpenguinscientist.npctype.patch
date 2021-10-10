@@ -1,0 +1,11 @@
+[
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "mechunlock_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "mechupgrade1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "penguin2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/offeredQuests/-", "value" : "mechupgrade2_vanta" },
+
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "mechunlock_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "mechupgrade1_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "penguin2_vanta" },
+  { "op" : "add", "path" : "/scriptConfig/turnInQuests/-", "value" : "mechupgrade2_vanta" }
+]

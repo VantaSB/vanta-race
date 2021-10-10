@@ -42,6 +42,8 @@ function init()
 
   setStage(1)
 
+  player.playCinematic(config.getParameter("introCinematic"))
+
   status.setPersistentEffects("vantaintroProtection", {
     --Need to have multiple stats here due to the different types of attacks from enemies; phyiscal resistance set to near-max since death in the intro mission will
     { stat = "breathProtection", amount = 1.0 },

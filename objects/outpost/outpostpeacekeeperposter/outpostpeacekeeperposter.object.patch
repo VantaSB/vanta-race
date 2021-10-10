@@ -1,0 +1,3 @@
+[
+  { "op" : "add", "path" : "/offeredQuests/-", "value" : "bountyassignment_vanta" }
+]

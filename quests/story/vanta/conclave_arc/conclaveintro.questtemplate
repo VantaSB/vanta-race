@@ -1,9 +1,9 @@
 {
   "id" : "conclaveintro",
-  "prerequisites" : [ "destroyruin" ],
+  "prerequisites" : [ "shiprepair_vanta" ],
   "title" : "Shadows Unto Dawn",
-  "text" : "Oh, perfect timing dear! We received a message from the outer fringes of the galaxy; it seems someone's heard of your exploits and would like to meet with you in person. He said it was urgent, so I've made preparations to send you directly to his base. I do hope it's nothing too serious...",
-  "completionText" : "We've still got quite a bit of groundwork to cover before we start going hard and heavy. We're glad to have your support in the meantime, though!",
+  "text" : "Captain, while you were away, I received an encrypted message",
+  "completionText" : "We've still got quite a bit of groundwork to cover before we start going hard and heavy. If you want to see about helping, feel free to check in with me any time.",
   "moneyRange" : [500, 500],
   "rewards" : [
     [ [ "rewardbag", 1 ] ]

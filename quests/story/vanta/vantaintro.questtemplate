@@ -16,10 +16,11 @@
     "portraits" : {
       "default" : "player"
     },
-    "startingMusicTime" : 11.5,
+    "startingMusicTime" : 130,
     "startingMusicTracks" : ["/music/inner-void.ogg"],
     "midpointMusicTime" : 3.0,
     "midpointMusicTracks" : ["/music/fear_within_loop.ogg"],
+    "introCinematic" : "/cinematics/intro/vantaintro_proto.cinematic",
     //"midpointCinematic" : "",
     //"midpointTeleportPosition" : [0, 0],
     "endpointCinematic" : "/cinematics/intro/vantaintrocomplete_proto.cinematic",

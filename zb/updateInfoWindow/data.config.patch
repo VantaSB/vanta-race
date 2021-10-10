@@ -1,0 +1,9 @@
+[
+  [
+    {"op" : "test", "path" : "/vanta", "inverse" : true},
+    {"op" : "add", "path" : "/vanta", "value" : {
+      "image" : "/zb/updateInfoWindow/vanta.png",
+      "file" : "/_Vantaversioning.config"
+    }}
+  ]
+]
