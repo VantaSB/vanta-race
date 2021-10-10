@@ -22,6 +22,7 @@
     "midpointMusicTracks" : ["/music/fear_within_loop.ogg"],
     //"midpointCinematic" : "",
     //"midpointTeleportPosition" : [0, 0],
+    "introCinematic" : "/cinematics/intro/vanta_introstart.cinematic",
     "endpointCinematic" : "/cinematics/intro/vantaintrocomplete_proto.cinematic",
     "confiscateItems" : [
       "weatheredvantasaber",
