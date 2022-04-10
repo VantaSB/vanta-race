@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "vantaintro_redux",
+    "species" : "vanta",
+    "rules" : [],
+
+    "anchor" : [ "vantaintro_redux" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "vantaintro_redux",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "vantaintro_redux_v1.1.json" ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "op" : "add",
+    "path" : "/-",
+    "value" : {
+      "name" : "railplatform",
+      "materialId" : 65100,
+      "collisionKind" : "platform"
+    }
+  }
+]

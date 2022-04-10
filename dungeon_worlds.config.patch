@@ -49,8 +49,8 @@
       "threatLevel" : 1,
       "gravity" : 80,
       "worldSize" : [2000, 2000],
-      "dungeonBaseHeight" : 1000,
-      "dungeonSurfaceHeight" : 850,
+      "dungeonBaseHeight" : 1400,
+      "dungeonSurfaceHeight" : 1200,
       "ambientLightLevel" : [32, 32, 32],
       "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
       "musicTrack" : "/music/underground-complex.ogg",
@@ -77,6 +77,27 @@
       "musicTrack" : "",
       "environmentStatusEffects" : ["dontstarve"],
       "biome" : "space"
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/vantaintro_redux",
+    "value" : {
+      "primaryDungeon" : "vantaintro_redux",
+      "weatherPool" : [
+        [ 1.0, "clear" ]
+      ],
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "biome" : "proximamoonocean",
+      "ambientLightLevel" : [32, 32, 32],
+      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+      "musicTrack" : "",
+      "environmentStatusEffects" : ["dontstarve"]
     }
   }
 ]

@@ -77,5 +77,53 @@
 				[0, [ "obsidiancorelayer", "blaststonecorelayer" ]]
 			]
 		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/planetTypes/proximamoonocean",
+		"value" : {
+			"blendSize" : 30,
+			"threatRange" : [5, 6],
+			"layers" : {
+				"surface" : {
+					"primaryRegion" : [ "proximamoonocean" ],
+					"baseHeight" : 1150,
+					"layerLevel" : 1050
+				},
+				"subsurface" : {
+					"primaryRegion" : [ "proximamoonoceanfloor" ]
+				}
+			}
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/regionTypes/proximamoonocean",
+		"value" : {
+			"oceanLiquid" : [ "liquidceruleum" ],
+			"blockSelector" : [ "remixedIslandsSurface" ],
+      "fgCaveSelector" : [ "empty" ],
+      "bgCaveSelector" : [ "empty" ],
+      "biome" : [
+        [0, [ "proximamoonocean" ]]
+      ]
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/regionTypes/proximamoonoceanfloor",
+		"value" : {
+			"oceanLiquid" : [ "liquidceruleum" ],
+      "oceanLevelOffset" : 1000,
+      "blockSelector" : [ "ledgesSurface" ],
+      "fgCaveSelector" : [ "emptier" ],
+      "bgCaveSelector" : [ "emptiest" ],
+      "biome" : [
+        [0, [ "proximamoonoceanfloor" ]]
+      ]
+		}
 	}
 ]
