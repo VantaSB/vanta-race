@@ -92,9 +92,9 @@
 
     "12" : {
       "//description" : "Durable roofing made of unknown materials.",
-      "//name" : "nightarrtiles",
-      "//shortdescription" : "Nightar Tiles",
-      "material" : "nightartiles"
+      "//name" : "nightarrtile",
+      "//shortdescription" : "Nightar Tile",
+      "material" : "nightartile"
     },
 
     "13" : {

@@ -30,13 +30,21 @@
             "frames" : 1,
             "cycle" : 0.07,
             "mode" : "transition",
-            "transition" : "closed"
+            "transition" : "closed",
+            "properties" : {
+              "immediateSound" : "/sfx/tech/tramplatform_close.ogg",
+              "immediateSoundRangeMultiplier" : 0.5
+            }
           },
           "opening" : {
             "frames" : 1,
             "cycle" : 0.07,
             "mode" : "transition",
-            "transition" : "open"
+            "transition" : "open",
+            "properties" : {
+              "immediateSound" : "/sfx/tech/tramplatform_open.ogg",
+              "immediateSoundRangeMultiplier" : 0.5
+            }
           }
         }
       },
@@ -56,6 +64,7 @@
       "tramControls" : {
         "properties" : {
           "centered" : true,
+          //"fullbright" : true,
           "offset" : [0, 2.0],
           "zLevel" : -2
         },
@@ -88,7 +97,7 @@
         "properties" : {
           "centered" : true,
           "offset" : [0, 2.0],
-          "zLevel" : -1,
+          "zLevel" : 1,
           "standPosition" : [0, 1.0]
         },
 

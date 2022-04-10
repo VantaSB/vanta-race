@@ -3,6 +3,22 @@
 		"op" : "add",
 		"path" : "/proxima",
 		"value" : [
+			[1.0, "ceruleumrainstatus"]
+		]
+	},
+
+	{
+		"op" : "add",
+		"path" : "/proximaocean",
+		"value" : [
+			[1.0, "ceruleumrainstatus"]
+		]
+	},
+
+	{
+		"op" : "add",
+		"path" : "/proximaintro",
+		"value" : [
 			[1.0, "ceruleumrain"]
 		]
 	}

@@ -1,0 +1,20 @@
+{
+  "materialId" : 3227,
+  "materialName" : "ex_wreckladder",
+  "collisionKind" : "platform",
+  //"itemDrop" : "vantaladder",
+  "shortdescription" : "Wrecked Ladder",
+  "description" : "...",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "category" : "supports",
+
+  "renderTemplate" : "/tiles/ex_laddertemplate.config",
+  "renderParameters" : {
+    "texture" : "ex_wreckladder.png",
+    "variants" : 1,
+    "multiColored" : true,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "zLevel" : 0
+  }
+}
