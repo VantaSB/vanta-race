@@ -1,0 +1,52 @@
+{
+  "objectName" : "nightarshipdoorprop",
+  "colonyTags" : ["nightar","door"],
+  "rarity" : "common",
+
+  "category" : "door",
+  "price" : 250,
+  "description" : "A door suitable for a spaceship.",
+  "shortdescription" : "Nightar Ship Door",
+  "race" : "nightar",
+
+  "apexDescription" : "A spaceship door.",
+  "avianDescription" : "A spaceship door.",
+  "floranDescription" : "Ssspaceship door.",
+  "glitchDescription" : "Proud. A ship door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic ship door.",
+  "novakidDescription" : "A door.",
+
+
+  "inventoryIcon" : "nightarshipdooricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "nightarshipdoorsideprop.png" },
+        { "image" : "nightarshipdoorsideproplit.png", "fullbright" : true }
+      ],
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [0, -2], [0, -1], [0, 0], [0, 1], [0, 2] ]
+    },
+
+    {
+      "imageLayers" : [
+        { "image" : "nightarshipdoorsideprop.png" },
+        { "image" : "nightarshipdoorsideproplit.png", "fullbright" : true }
+      ],
+      "direction" : "right",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [0, -2], [0, -1], [0, 0], [0, 1], [0, 2] ]
+    }
+  ]
+}

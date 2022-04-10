@@ -1,0 +1,28 @@
+{
+  "objectName" : "largerunway",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Large Runway",
+  "shortdescription" : "Large Runway",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+
+  "health" : 2000,
+
+  "inventoryIcon" : "largerunway.png",
+  "orientations" : [
+    {
+      "dualImage" : "largerunway.png",
+      "imagePosition" : [-704, -112],
+
+      "renderLayer" : "Object-1",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-50, -20, 50, 20]
+    }
+  ]
+}

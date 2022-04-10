@@ -4,9 +4,11 @@
   "printable" : false,
   "rarity" : "Common",
   "price" : 0,
-  "description" : "Containers like this one are used for holding objects for analysis.",
+  "description" : "I need to grab this Matter Manipulator and get out of here.",
   "shortdescription" : "Research Container",
   "race" : "generic",
+
+  "keepAlive" : true,
 
   // "apexDescription" : "-N/A-",
   // "avianDescription" : "-N/A-",
@@ -15,10 +17,9 @@
   // "humanxDescription" : "-N/A-",
   // "hylotlDescription" : "-N/A-",
   // "novakidDescription" : "-N/A-",
-  "vantaDescription" : "A matter manipulator? I thought this was only given to Protectors.",
 
   "pickedUpParameters" : {
-    "description" : "I need to get out of here.",
+    "description" : "Time to get going."
     // "apexDescription" : "-N/A-",
     // "avianDescription" : "-N/A-",
     // "floranDescription" : "-N/A-",
@@ -26,35 +27,26 @@
     // "humanxDescription" : "-N/A-",
     // "hylotlDescription" : "-N/A-",
     // "novakidDescription" : "-N/A-",
-    "vantaDescription" : "Time to move on."
   },
 
-  //"containerItem" : "",
-  "isEssential" : true, //Triggers the script to run the vanta MM subroutine
-
-  "animation" : "researchcontainer.animation",
-  "animationParts" : {
-    "item" : "/objects/other/reactorish/researchcontainer/items/vantamanipulator.png"
-  },
-  "animationPosition" : [0, 0],
-
-  "scripts" : [ "/objects/other/reactorish/researchcontainer/researchcontainer.lua" ],
-  "scriptDelta" : 0,
-
-  "placementImage" : "researchcontainer.png:1",
-  "placementImagePosition" : [0, 0],
-  "inventoryIcon" : "researchcontainer.png:1",
+  "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [
-        { "image" : "researchcontainer.png:<frame>", "fullbright" : true },
-        { "image" : "researchcontainerlit.png:<frame>" }
-      ],
+      "image" : "researchcontainer.png:<color>.<frame>",
       "direction" : "right",
-      "imagePosition" : [0, 0],
-
+      "imagePosition" : [-24, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
+  ],
+
+  "animation" : "researchcontainerbeamaxe.animation",
+  "animationPosition" : [-24, 0],
+
+  "scripts" : [ "researchcontainerbeamaxe.lua" ],
+  "scriptDelta" : 0,
+
+  "outputNodes" : [
+    [0, 1]
   ]
 }

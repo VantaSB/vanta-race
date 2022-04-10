@@ -30,7 +30,7 @@
     }
   ],
 
-  "outputNodes" : [ [2, 3] ],
+  "outputNodes" : [ [0, 3] ],
 
   "smashable" : true,
   "smashSounds" : [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ],

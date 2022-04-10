@@ -7,7 +7,7 @@
   "race" : "nightar",
   "category" : "decorative",
   "price" : 100,
-  "lightColor" : [114, 127, 124],
+  "lightColor" : [81, 127, 116, 255],
 
   "apexDescription" : "A console. Its design is similar to some common models.",
   "avianDescription" : "A console. Though, this looks rather basic.",
@@ -26,31 +26,24 @@
         { "image" : "nightardecorativeconsole.png:<color>.<frame>", "fullbright" : true },
         { "image" : "nightardecorativeconsolelit.png:<color>.<frame>" }
       ],
-      "flipImages" : true,
-      "direction" : "left",
-      "lightPosition" : [0, 1],
-
-      "imagePosition" : [-16, 0],
-      "frames" : 4,
-      "animationCycle" : 1.0,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "imageLayers" : [
-        { "image" : "nightardecorativeconsole.png:<color>.<frame>", "fullbright" : true },
-        { "image" : "nightardecorativeconsolelit.png:<color>.<frame>" }
-      ],
-      "direction" : "right",
-      "lightPosition" : [0, 1],
-
-      "imagePosition" : [-16, 0],
-      "frames" : 4,
-      "animationCycle" : 1.0,
+      "imagePosition" : [-32, -8],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
+  ],
+
+  "scripts" : [ "/objects/decorative/nightsteelconsole/nightsteelconsole.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "nightsteelconsole.animation",
+  "animationParts" : {
+    "bg" : "nightardecorativeconsole.png",
+    "fg" : "nightardecorativeconsolelit.png"
+  },
+  "animationPosition" : [-32, -8],
+
+  "outputNodes" : [
+    [0, 0]
   ]
 }

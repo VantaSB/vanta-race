@@ -1,0 +1,80 @@
+{
+  "objectName" : "nightsteelairlockdoor",
+  "colonyTags" : ["nightsteel","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 175,
+  "description" : "A sturdy airlock door.",
+  "shortdescription" : "Nightsteel Airlock Door",
+  "race" : "vanta",
+
+  "apexDescription" : "A great big airlock door. Sturdy.",
+  "avianDescription" : "An intimidatingly large metal door.",
+  "floranDescription" : "Darkman build big sturdy doors! Not bad, Darkman... Not bad...",
+  "glitchDescription" : "Curious. Where is the doorknob?",
+  "humanDescription" : "This is similar to the Hylotl's more mechanical aesthetic.",
+  "hylotlDescription" : "This airlock door provides top-notch security.",
+  "novakidDescription" : "A tough lookin' door.",
+  "vantaDescription" : "We like our security as much as the next person.",
+
+  "inventoryIcon" : "nightsteelairlockdooricon.png",
+  "orientations" : [
+    {
+      "image" : "nightsteelairlockdoor.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationParts" : {
+        "bg" : "nightsteelairlockdoor.png",
+        "fg" : "nightsteelairlockdoorlit.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "image" : "nightsteelairlockdoor.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "left",
+
+      "animationParts" : {
+        "bg" : "nightsteelairlockdoor.png",
+        "fg" : "nightsteelairlockdoorlit.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/lockingdoorfullbright.animation",
+
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+
+  "animationParts" : {
+    "door" : "nightsteelairlockdoor.png"
+  },
+
+  "inputNodes" : [ [-1, 7] ],
+  "outputNodes" : [ [1, 0] ]
+}

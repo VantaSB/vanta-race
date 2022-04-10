@@ -9,22 +9,20 @@
   "shortdescription" : "Nightar Soldier Body",
   "race" : "nightar",
 
-  "apexDescription" : "The enemy is neutralized...",
-  "avianDescription" : "My word...",
-  "floranDescription" : "Floran upssset that I wasn't one who took thiss one down...",
-  "glitchDescription" : "Relieved. I won't have any trouble from this one.",
-  "humanDescription" : "Well, we know they aren't immortal, at least.",
-  "hylotlDescription" : "These wounds were fatal.",
-  "novakidDescription" : "Missed a good opportunity for shootin'.",
-  "vantaDescription" : "At least I don't have to worry about this one pursuing me.",
+  "objectType" : "container",
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "nightarincap2.png:<color>",
+      "dualImage" : "nightarincap2.png",
       "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
 
       "spaceScan" : 0.1
     }

@@ -30,10 +30,10 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scripts" : [ "/objects/wired/door/ex_door.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/door/door.animation",
+  "animation" : "/objects/wired/door/fullbrightdoor.animation",
   "animationCustom" : {
     "sounds" : {
       "open" : {
@@ -47,10 +47,14 @@
     }
   },
   "animationParts" : {
+    "bg" : "nightarshipdoor.png",
+    "fg" : "nightarshipdoorlit.png",
     "door" : "nightarshipdoor.png"
   },
   "animationPosition" : [-20, 0],
 
   "inputNodes" : [ [-1, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "uniqueId" : null
 }

@@ -9,6 +9,8 @@
   "price" : 0,
   "printable" : false,
 
+  "lightColor" : [18, 204, 224],
+
   "apexDescription" : "A stout, bulkhead door of sorts.",
   "avianDescription" : "It's a very sturdy door.",
   "floranDescription" : "Floran not ssstrong enough to force door open.",
@@ -41,6 +43,7 @@
 
   "orientations" : [
     {
+      "lightPosition" : [0, 5],
       "image" : "base.png:default",
       "direction" : "right",
 

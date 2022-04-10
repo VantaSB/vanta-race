@@ -1,0 +1,21 @@
+{
+  "objectName" : "monsterincap1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "A dead monster...",
+  "shortdescription" : "Ceruleum Adult Poptop Body",
+  "race" : "generic",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "monsterincap1.png",
+      "imagePosition" : [-32, -24],
+
+      "spaceScan" : 0.1
+    }
+  ]
+}

@@ -1,6 +1,7 @@
--- yoinked from Ztarbound, this one's for lighting
+-- yoinked from Ztarbound, this one is for 'invisible' switches with graphics akin to bounty scan clues.
 
 function init()
+  self.persistent = config.getParameter("persistent", false)
   message.setHandler('scanInteraction', scanInteraction)
 
   if storage.state == nil then
@@ -16,7 +17,7 @@ end
 
 function scanInteraction(_, _, playerID)
   if not self.scanned then
-    animator.setAnimationState("switchState", "on")
+    animator.setAnimationState("switch", "switching")
     object.setAllOutputNodes(true)
     self.scanned = true
   end
@@ -30,10 +31,10 @@ end
 function output(state)
   storage.state = state
   if state then
-    animator.setAnimationState("switchState", "on")
+    animator.setAnimationState("switch", "switching")
     object.setAllOutputNodes(true)
   else
-    animator.setAnimationState("switchState", "off")
+    animator.setAnimationState("switch", "off")
     object.setAllOutputNodes(false)
   end
 end

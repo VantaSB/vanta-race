@@ -1,0 +1,38 @@
+{
+  "objectName" : "nightsteelsecuritymonitor",
+  "tags" : ["nightsteel", "nightar", "vanta", "decorative", "electronic"],
+  "price" : 1000,
+  "category" : "decorative",
+  "rarity" : "Common",
+  "lightColor" : [7, 88, 89],
+
+  "description" : "...",
+  "shortdescription" : "Nighsteel Security Monitor",
+  "race" : "generic",
+
+  "inventoryIcon" : "nightsteelsecuritymonitor.png:default.4",
+  "orientations" : [
+    {
+      "image" : "nightsteelsecuritymonitor.png:<color>.<frame>",
+      "imagePosition" : [ 0, 0 ],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "nightsteelsecuritymonitor.animation",
+  "animationParts" : {
+    "bg" : "nightsteelsecuritymonitor.png",
+    "fg" : "nightsteelsecuritymonitorlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputeNodes" : [ [5, 2] ]
+}

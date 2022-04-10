@@ -5,6 +5,7 @@
 
   "category" : "decorative",
   "price" : 0,
+  "scannable" : false,
   "description" : "",
   "shortdescription" : "Decorative Overlay",
   "race" : "generic",
@@ -22,7 +23,7 @@
       ],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "anchors" : [ ]
     }
   ]
 }

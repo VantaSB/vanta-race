@@ -1,0 +1,45 @@
+{
+  "objectName" : "nightsteellightbanner",
+  "colonyTags" : ["vanta","nightar","light","wired"],
+  "rarity" : "Common",
+  "category" : "light",
+  "printable" : false,
+  "description" : "A strobing light that comes in different colors denoting clearance levels.",
+  "shortdescription" : "Nightsteel Light Banner",
+  "race" : "generic",
+
+  "lightColor" : [0, 0, 0],
+
+  /*"apexDescription" : "--TODO--",
+  "avianDescription" : "--TODO--",
+  "floranDescription" : "--TODO--",
+  "glitchDescription" : "--TODO--",
+  "humanDescription" : "--TODO--",
+  "hylotlDescription" : "--TODO--",
+  "novakidDescription" : "--TODO--",
+  "vantaDescription" : "--TODO--",*/
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "lv0.png:<frame>.off",
+      "imagePosition" : [0, -8],
+
+      "spaces" : [ [0, 0], [0, -1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 3,
+
+  "animation" : "nightsteellightbanner.animation",
+
+  "animationParts" : {
+    "bg" : "lv0.png",
+    "fg" : "lv0lit.png"
+  },
+  "animationPosition" : [0, -8],
+
+  "inputNodes" : [ [0, 0] ]
+}

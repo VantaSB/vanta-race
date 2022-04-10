@@ -1,0 +1,102 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "light" : {
+        "default" : "default",
+        "states" : {
+          "comm" : {
+            "frames" : 8,
+            "cycle" : 1.3,
+            "mode" : "loop"
+          },
+          "default" : {
+            "frames" : 8,
+            "cycle" : 1.3,
+            "mode" : "loop"
+          },
+          "on" : {
+            "frames" : 8,
+            "cycle" : 1.3,
+            "mode" : "loop"
+          },
+          "off" : {
+            "frames" : 8,
+            "cycle" : 1.3,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "light" : {
+            "comm" : {
+              "properties" : {
+                "image" : "<partImage>:comm.<frame>"
+              }
+            },
+
+            "default" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:comm.<frame>"
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "light" : {
+            "comm" : {
+              "properties" : {
+                "image" : "<partImage>:comm.<frame>"
+              }
+            },
+
+            "default" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:comm.<frame>"
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

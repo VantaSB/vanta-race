@@ -1,0 +1,21 @@
+{
+  "objectName" : "monsterincap3",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "A dead monster...",
+  "shortdescription" : "Ceruleum Smoglin Body",
+  "race" : "generic",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "monsterincap3.png",
+      "imagePosition" : [-24, -8],
+
+      "spaceScan" : 0.1
+    }
+  ]
+}

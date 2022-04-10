@@ -1,0 +1,30 @@
+{
+  "objectName" : "ex_liquidgen",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Blubblubblubblub",
+  "shortdescription" : "Large Faucet",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 15,
+
+  "inventoryIcon" : "ex_liquidgen.png",
+  "orientations" : [
+    {
+      "image" : "ex_liquidgen.png",
+      "imagePosition" : [-2, -2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/drain/ex_liquidgen.lua" ],
+  "scriptDelta" : 5,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "interval" : 15
+}

@@ -8,6 +8,8 @@ function init()
   else
     --sb.logInfo("Powercell at position %s configured: msgHandler = %s  |  targetEntity = %s", object.position(), self.msgHandler, self.targetEntity)
   end
+
+  object.setAllOutputNodes(true)
 end
 
 function die()

@@ -74,7 +74,6 @@
 
       "fg" : {
         "properties" : {
-          "fullbright" : true,
           "centered" : false,
           "zLevel" : 2
         },
@@ -83,44 +82,41 @@
           "doorState" : {
             "open" : {
               "properties" : {
+                "fullbright" : true,
                 "image" : "<partImage>:open<doorDirection>.<frame>"
               }
             },
 
             "closing" : {
               "properties" : {
+                "fullbright" : true,
                 "image" : "<partImage>:close<doorDirection>.<frame>"
               }
             },
 
             "closed" : {
               "properties" : {
+                "fullbright" : true,
                 "image" : "<partImage>:close<doorDirection>.2"
               }
             },
 
             "locking" : {
               "properties" : {
+                "fullbright" : false,
                 "image" : "<partImage>:close<doorDirection>.<frame>"
               }
             },
 
             "locked" : {
               "properties" : {
+                "fullbright" : false,
                 "image" : "<partImage>:close<doorDirection>.2"
               }
             }
           }
         }
       }
-    }
-  },
-
-  "lights" : {
-    "fg" : {
-      "active" : true,
-      "color" : [130, 217, 232],
-      "position" : [0.0, 5.0]
     }
   },
 

@@ -18,6 +18,8 @@
   "novakidDescription" : "An operator for ongoing Vanta missions sits here.",
   "vantaDescription" : "An operator for ongoing Vanta missions sits here.",
 
+  "inventoryIcon" : "op1.png:<color>.1",
+
   "orientations" : [
     {
       "imageLayers" : [

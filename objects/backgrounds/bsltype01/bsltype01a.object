@@ -1,0 +1,36 @@
+{
+  "objectName" : "bsltype01a",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  //"lightColor" : [126, 230, 206],
+
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Set Piece Background",
+  "shortdescription" : "Set Piece Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+
+  "health" : 2000,
+
+  "inventoryIcon" : "bsltype01a.png:default.0",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "bsltype01a.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "bsltype01alit.png:<color>.<frame>" }
+      ],
+
+      "imagePosition" : [-176, -80],
+      "frames" : 4,
+      "animationCycle" : 0.64,
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "objectName" : "nightarreactor2",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "printable" : false,
+  "description" : "A reactor powered by refined ceruleum.",
+  "shortdescription" : "Nightar Reactor",
+  "race" : "nightar",
+
+  // "apexDescription" : -todo-
+  // "avianDescription" : -todo-
+  // "floranDescription" : -todo-
+  // "glitchDescription" : -todo-
+  // "humanDescription" : -todo-
+  // "hylotlDescription" : -todo-
+  // "novakidDescription" : -todo-
+  // "vantaDescription" : -todo-
+
+  "animation" : "nightarreactor2.animation",
+
+  "scripts" : ["/objects/other/reactorish/nightarreactor/nightarreactor2.lua"],
+  "scriptDelta" : 5,
+
+  "msgHandler" : null,
+  "uniqueId" : null,
+  "stock" : 0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "nightarreactor2.png:<frame>", "fullbright" : true },
+        { "image" : "nightarreactor2lit.png:<frame>" }
+      ],
+      "placementImage" : "nightarreactor2.png:active",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "inputNodes" : [
+    [5, 17]
+  ],
+
+  "outputNodes" : [
+    [5, 3]
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "objectName" : "vantascreendecal2",
+  "colonyTags" : [ "vanta", "pretty", "electronic" ],
+  "rarity" : "Common",
+  "description" : "A display that shows various bits of information.",
+  "shortdescription" : "Vanta Readout Screen 2",
+  "race" : "generic",
+
+  "category" : "decorative",
+  "price" : 100,
+  "lightColor" : [5, 63, 64],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.0,
+
+  "apexDescription" : "These appear to be system diagnostics. I don't understand them.",
+  "avianDescription" : "I believe this screen describes the state of nearby integrated systems. Only certain Vanta personnel understand it.",
+  "floranDescription" : "Darkman technology. Floran not understand.",
+  "glitchDescription" : "Confused. I can not interface with this machine.",
+  "humanDescription" : "This looks like complex stuff. Perhaps it describes the state of Vanta tech.",
+  "hylotlDescription" : "The Hylotl can not read these. They appear to be system stats.",
+  "novakidDescription" : "I can't make any sense of this information.",
+  "vantaDescription" : "These screens are only readable to specically-trained technicians.",
+
+  "inventoryIcon" : "icon2.png",
+  "orientations" : [
+    {
+      "image" : "screen2.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+
+    {
+      "image" : "screen2.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "screen.animation",
+  "animationParts" : {
+    "bg" : "screen2.png",
+    "fg" : "screen2lit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "interactive" : false,
+
+  "animationPosition" : [0, 0],
+
+  "soundEffect" : "/sfx/objects/screen1.ogg",
+  "soundEffectRangeMultiplier" : 0.5
+}

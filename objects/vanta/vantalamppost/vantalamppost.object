@@ -23,8 +23,8 @@
   "orientations" : [
     {
       "image" : "vantalamppost.png:<color>.<frame>",
-      "imagePosition" : [-4, 0],
-      "animationPosition" : [-4, 0],
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
 
       "direction" : "left",
       "flipImages" : true,
@@ -36,8 +36,8 @@
     },
     {
       "image" : "vantalamppost.png:<color>.<frame>",
-      "imagePosition" : [-4, 0],
-      "animationPosition" : [-4, 0],
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
 
       "direction" : "right",
 

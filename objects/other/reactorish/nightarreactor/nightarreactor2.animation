@@ -1,0 +1,106 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "base" : {
+        "default" : "active",
+        "states" : {
+          "active" : {},
+          "inactive" : {}
+        }
+      },
+      "orb" : {
+        "default" : "active",
+        "states" : {
+          "active" : {
+            "frames" : 8,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "inactive" : {}
+        }
+      }
+    },
+
+    "parts" : {
+      "base" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 2
+        },
+
+        "partStates" : {
+          "base" : {
+            "active" : {
+              "properties" : {
+                "image" : "nightarreactor2lit.png:active"
+              }
+            },
+
+            "inactive" : {
+              "properties" : {
+                "image" : "nightarreactor2lit.png:inactive"
+              }
+            }
+          }
+        }
+      },
+      "baselit" : {
+        "properties" : {
+          "centered" : false,
+          "fullbright" : true,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "base" : {
+            "active" : {
+              "properties" : {
+                "image" : "nightarreactor2.png:active"
+              }
+            },
+
+            "inactive" : {
+              "properties" : {
+                "image" : "nightarreactor2.png:inactive"
+              }
+            }
+          }
+        }
+      },
+      "orb" : {
+        "properties" : {
+          "centered" : false,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "orb" : {
+            "active" : {
+              "properties" : {
+                "image" : "fusion.png:<frame>",
+                "lights" : {
+                  "orb" : {
+                    "active" : true,
+                    "position" : [0, 11],
+                    "color" : [130, 217, 232],
+                    "pointLight" : false
+                  }
+                }
+              }
+            },
+            "inactive" : {
+              "properties" : {
+                "image" : "",
+                "lights" : {
+                  "orb" : {
+                    "active" : false
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "objectName" : "momentaryscanswitch",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "There's a hidden emitter here that reacts only to scanning tools.",
+  "shortdescription" : "Scan Switch",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "scanswitch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "animation" : "scanswitch.animation",
+
+  "scripts" : [ "/objects/wired/switch/momentaryscanswitch.lua" ],
+  "scriptDelta" : 15,
+
+  "outputNodes" : [ [1, 0] ]
+}

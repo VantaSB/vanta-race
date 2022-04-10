@@ -17,13 +17,13 @@
   "flickerIntensityVariance" : 0.0,
 
   "apexDescription" : "These appear to be system diagnostics. I don't understand them.",
-  "avianDescription" : "I believe this screen describes the state of nearby integrated systems. Only stargazers understand it.",
+  "avianDescription" : "I believe this screen describes the state of nearby integrated systems. Only certain Vanta personnel understand it.",
   "floranDescription" : "Darkman technology. Floran not understand.",
   "glitchDescription" : "Confused. I can not interface with this machine.",
   "humanDescription" : "This looks like complex stuff. Perhaps it describes the state of Vanta tech.",
   "hylotlDescription" : "The Hylotl can not read these. They appear to be system stats.",
   "novakidDescription" : "I can't make any sense of this information.",
-  "vantaDescription" : "These screens are only readable to specifically-trained technicians.",
+  "vantaDescription" : "These screens are only readable to specially-trained technicians.",
 
   "inventoryIcon" : "icon1.png",
   "orientations" : [

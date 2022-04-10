@@ -1,0 +1,28 @@
+{
+  "objectName" : "mmx1type01a_h",
+  "colonyTags" : [],
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Set Piece Background",
+  "shortdescription" : "Set Piece Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+
+  "inventoryIcon" : "mmx1type01a_h.png",
+  "orientations" : [
+    {
+      "image" : "mmx1type01a_h.png",
+
+      "imagePosition" : [-40, -32],
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    }
+  ]
+}

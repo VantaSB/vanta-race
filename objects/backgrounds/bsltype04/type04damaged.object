@@ -1,0 +1,28 @@
+{
+  "objectName" : "type04damaged",
+  "colonnyTags" : [],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "A damaged specimen container.",
+  "shortdescription" : "Set Piece Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+
+  "health" : 2000,
+
+  "inventoryIcon" : "type04damaged.png:<color>.0",
+  "orientations" : [
+    {
+      "image" : "type04damaged.png:<color>.<frame>",
+
+      "imagePosition" : [-40, -24],
+      "frames" : 4,
+      "animationCycle" : 0.45,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "mmx1type01bc_junction",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "lightColor" : [69, 89, 84],
+
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Set Piece Background",
+  "shortdescription" : "Set Piece Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+
+  "inventoryIcon" : "mmx1type01bc_junction.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "mmx1type01bc_junction.png", "fullbright" : true },
+        { "image" : "mmx1type01bc_junctionlit.png" }
+      ],
+
+      "imagePosition" : [-24, -24],
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    }
+  ]
+}
