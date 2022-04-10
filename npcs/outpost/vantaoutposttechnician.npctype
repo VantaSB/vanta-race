@@ -38,8 +38,8 @@
       [0, [
         {
           "head" : [ { "name" : "vantacommandvisorhead" } ],
-          "chest" : [ { "name" : "vantaguardchest" } ],
-          "legs" : [ { "name" : "vantaguardpants" } ]
+          "chest" : [ { "name" : "vantaenvirosuitchest" } ],
+          "legs" : [ { "name" : "vantaenvirosuitpants" } ]
         }
       ] ]
     ]

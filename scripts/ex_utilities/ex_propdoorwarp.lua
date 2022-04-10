@@ -17,7 +17,6 @@ function init()
   storage.dCoord = config.getParameter("dCoord")
   if storage.dCoord == nil then
     storage.locked = true
-    animator.setLightActive("fg", false)
   end
 
   object.setInteractive(true)

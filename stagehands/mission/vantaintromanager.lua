@@ -20,7 +20,7 @@ function init()
     --world.setProperty("nonCombat", false)
   end)
 
-  message.setHandler("reactorDestroyed", function(...)
+  --[[message.setHandler("reactorDestroyed", function(...)
     self.reactorDestroyed = self.reactorDestroyed + 1
     if self.reactorDestroyed == 5 then
       --world.placeDungeon("reactorRoomDestroyed", {276, 163}, "vantaintro")
@@ -31,7 +31,7 @@ function init()
 
   message.setHandler("setSpecies", function(_, _, species) self.species = species end)
 
-  self.hasUpdatedShip = false
+  self.hasUpdatedShip = false]]
 
   --sb.logInfo("Initializing Vanta Intro manager with broadcastArea %s", self.broadcastArea)
 end
@@ -40,11 +40,11 @@ function update(dt)
   world.loadRegion(self.signalRegion)
   queryPlayers()
 
-  if self.species and not self.hasUpdatedShip then
+  --[[if self.species and not self.hasUpdatedShip then
     local shipSearchArea = rect.translate({800, -50, 900, 50}, entity.position())
     local ships = world.objectQuery(rect.ll(shipSearchArea), rect.ur(shipSearchArea), {callScript = "setSpecies", callScriptArgs = {self.species}})
     self.hasUpdatedShip = #ships > 0
-  end
+  end]]
 end
 
 function queryPlayers()

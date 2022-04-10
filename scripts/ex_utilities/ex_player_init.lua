@@ -41,40 +41,6 @@ function init()
 	message.setHandler("ex.playSound",function (_,_,...) localAnimator.playAudio(...) end)
 end
 
-
---///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
--- For some reason, this breaks mech deployment, so this is going to be nixed. Will need to find a way to update MM tool skins outside of ex_player_init that doesn't interfere with the MM Upgrade or Quickbar utility windows.
--- Curiously, this was also breaking the ability to begin the initial bounty hunting quest normally.
-
---[[function update(dt)
-		checkMatterManipulator()
-end
-
---[[function checkMatterManipulator()
-	local playerSpecies = player.species()
-	local wireTool = player.essentialItem("wiretool")
-	local paintTool = player.essentialItem("painttool")
-
-	-- If there is a wire tool equipped, let's make sure it's the species-appropriate variant, otherwise ignore
-	if playerSpecies == "vanta" then
-		if not paintTool then
-			return
-		elseif paintTool and paintTool.name ~= "vantapainttool" then
-			player.giveEssentialItem("painttool", "vantapainttool")
-		end
-
-		if not wireTool then
-			return
-		elseif wireTool and wireTool.name ~= "vantawiretool" then
-			player.giveEssentialItem("wiretool", "vantawiretool")
-		end
-	end
-end]]
-
---///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
 function uninit()
 	origUninit()
 	if exUninited then return end

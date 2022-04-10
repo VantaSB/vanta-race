@@ -37,7 +37,7 @@
     "override" : [
       [0, [
         {
-          "head" : [ { "name" : "vantaguardhead" } ],
+          "head" : [ { "name" : "vantaenvirosuithead" } ],
           "chest" : [ { "name" : "vantatier3chest" } ],
           "legs" : [ { "name" : "vantatier3pants" } ]
         }
