@@ -1,0 +1,43 @@
+{
+  "objectName" : "vantakeypad",
+  "colonyTags" : ["electronic","wired","vanta"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A numeric security keypad that requires a specific combination.",
+  "shortdescription" : "Vanta Keypad",
+  "race" : "vanta",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "vantakeypad.png" },
+        { "image" : "vantakeypadlit.png", "fullbright" : true }
+      ],
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "health" : 5,
+  "rooting" : true,
+
+  "outputNodes" : [ [0, 0] ],
+
+  "scripts" : ["/objects/mission/vantakeypad/vantakeypad.lua"],
+  "scriptDelta" : 5,
+
+  "interval" : 50,
+  "openCfg" : null,
+
+  "interactData" : {
+    "baseConfig" : "/interface/scripted/vantakeypad/vantakeypadgui.config"
+  },
+
+  "combinationLength" : 4,
+  "combination" : null
+}
