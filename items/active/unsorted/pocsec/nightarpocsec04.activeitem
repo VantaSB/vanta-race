@@ -1,0 +1,17 @@
+{
+  "itemName" : "nightarpocsec04",
+  "rarity" : "Common",
+  "category" : "other",
+  "inventoryIcon" : "icon.png",
+  "description" : "A small datapad that was left lying on its own.",
+  "shortdescription" : "Nightar Datapad",
+  "radioMessagesOnPickup" : [ "pocsecPickup" ],
+
+  "scripts" : ["pocsec.lua"],
+
+  "theme" : "nightar",
+
+  "consumeOnUse" : false,
+  "noteText" : "FROM: HC-5\nTO: NG-003745\nSUBJECT: Transfer to Operations\n\nGreetings,\n\nThis is to inform you that your transfer to Operations has been approved. The code below will allow you to access the Operations Room. Please keep this code secured; do not allow anyone else access to this code.\n\nThank you.",
+  "codeImg" : "opsDeck"
+}

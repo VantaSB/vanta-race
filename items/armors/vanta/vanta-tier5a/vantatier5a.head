@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "headarmour",
-  "description" : "The face shielding on this helmet is transparent on the inside.",
-  "shortdescription" : "Battlemage Cap",
+  "description" : "Good for keeping your hair out of the way when you're trying to focus on a target.",
+  "shortdescription" : "Battlemage Circlet",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

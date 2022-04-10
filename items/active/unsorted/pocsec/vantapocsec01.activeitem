@@ -1,0 +1,15 @@
+{
+  "itemName" : "vantapocsec01",
+  "rarity" : "Common",
+  "inventoryIcon" : "icon2.png",
+  "description" : "A small datapad containing communications logs.",
+  "shortdescription" : "Vanta Datapad",
+  "radioMessagesOnPickup" : [ "pocsecPickup" ],
+
+  "scripts" : ["pocsec.lua"],
+
+  "theme" : "vanta",
+
+  "consumeOnUse" : false,
+  "noteText" : "ATTENTION - ALL CREW\n\nUNIDENTIFIED HUMANOID LIFEFORMS HAVE BEEN DETECTED IN BIOLABS. ALL RESEARCH PERSONNEL ARE TO REMAIN IN THEIR ASSIGNED OFFICES WHILE SECURITY TEAMS INVESTIGATE. THIS IS NOT A DRILL."
+}
