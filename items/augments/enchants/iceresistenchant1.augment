@@ -1,0 +1,24 @@
+{
+  "itemName" : "iceresistenchant1",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "armorenchant",
+  "category" : "armorEnchant",
+  "inventoryIcon" : "iceenchant.png",
+  "description" : "Adds 25% ^cyan;ice^reset; resistance to your armor.",
+  "shortdescription" : "Ice Resistance I",
+
+  "augment" : {
+    "type" : "enchant",
+    "name" : "iceresistenchant1",
+    "displayName" : "Ice Resistance I",
+    "displayIcon" : "/items/augments/enchants/iceenchant.png",
+    "effects" : [
+      {"stat" : "iceResistance", "amount" : 0.25}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

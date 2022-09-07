@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkessence", "count" : 1 },
+    { "item" : "scorchedcore", "count" : 2 }
+  ],
+  "output" : { "item" : "fireessence", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "essences", "all" ]
+}

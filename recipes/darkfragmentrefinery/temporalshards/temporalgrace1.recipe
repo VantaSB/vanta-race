@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 2 },
+    { "item" : "darkfragmentore", "count" : 1 }
+  ],
+  "output" : { "item" : "temporalgrace1", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "temporalshards", "all" ]
+}

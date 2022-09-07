@@ -1,0 +1,25 @@
+{
+  "itemName" : "temporaldrift",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "legenchant",
+  "category" : "legEnchant",
+  "inventoryIcon" : "drift.png",
+  "description" : "Slows falling speed and increases jump strength.",
+  "shortdescription" : "Temporal Drift",
+
+  "augment" : {
+    "type" : "temporalshard",
+    "name" : "temporaldrift",
+    "displayName" : "Temporal Drift",
+    "displayIcon" : "/items/augments/temporalshards/drift.png",
+    "effects" : [
+      "jumpboostaugment",
+      "lowgravaugment"
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

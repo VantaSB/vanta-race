@@ -1,0 +1,24 @@
+{
+  "itemName" : "focusvigor1",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "headenchant",
+  "category" : "headEnchant",
+  "inventoryIcon" : "vigor.png",
+  "description" : "Slightly increases overall energy.",
+  "shortdescription" : "Focus Vigor I",
+
+  "augment" : {
+    "type" : "focusgem",
+    "name" : "focusvigor1",
+    "displayName" : "Focus Vigor I",
+    "displayIcon" : "/items/augments/focusgems/vigor.png",
+    "effects" : [
+      {"stat" : "maxEnergy", "amount" : 20}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

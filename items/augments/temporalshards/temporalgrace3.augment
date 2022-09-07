@@ -1,0 +1,24 @@
+{
+  "itemName" : "temporalgrace3",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "legenchant",
+  "category" : "legEnchant",
+  "inventoryIcon" : "grace.png",
+  "description" : "Reduces falling damage by 75%.",
+  "shortdescription" : "Temporal Grace III",
+
+  "augment" : {
+    "type" : "temporalshard",
+    "name" : "temporalgrace3",
+    "displayName" : "Temporal Grace III",
+    "displayIcon" : "/items/augments/temporalshards/grace.png",
+    "effects" : [
+      {"stat" : "fallDamageMultiplier", "amount" : 0.25}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

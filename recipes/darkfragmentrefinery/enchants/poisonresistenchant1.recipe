@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "poisonessence", "count" : 2 },
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "nightsteelbar", "count" : 1 }
+  ],
+  "output" : { "item" : "poisonresistenchant1", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "enchants", "all" ]
+}

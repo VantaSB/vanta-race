@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 2 },
+    { "item" : "darkfragmentore", "count" : 1 }
+  ],
+  "output" : { "item" : "temporaladrenaline", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "temporalshards", "all" ]
+}

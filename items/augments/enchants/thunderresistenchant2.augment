@@ -1,0 +1,24 @@
+{
+  "itemName" : "thunderresistenchant2",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "armorenchant",
+  "category" : "armorEnchant",
+  "inventoryIcon" : "thunderenchant.png",
+  "description" : "Adds 50% ^#ff00ff;electric^reset; resistance to your armor.",
+  "shortdescription" : "Electric Resistance II",
+
+  "augment" : {
+    "type" : "enchant",
+    "name" : "thunderenchant2",
+    "displayName" : "Electric Resistance II",
+    "displayIcon" : "/items/augments/enchants/thunderenchant.png",
+    "effects" : [
+      {"stat" : "electricResistance", "amount" : 0.50}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

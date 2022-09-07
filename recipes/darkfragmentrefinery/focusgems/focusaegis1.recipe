@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "hardenedcarapace", "count" : 2 },
+    { "item" : "perfectdarkcrystal", "count" : 1 }
+  ],
+  "output" : { "item" : "focusaegis1", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "focusgems", "all" ]
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "focusresolve2",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "headenchant",
+  "category" : "headEnchant",
+  "inventoryIcon" : "resolve.png",
+  "description" : "Slightly increases overall health.",
+  "shortdescription" : "Focus Resolve II",
+
+  "augment" : {
+    "type" : "focusgem",
+    "name" : "focusresolve2",
+    "displayName" : "Focus Resolve II",
+    "displayIcon" : "/items/augments/focusgems/resolve.png",
+    "effects" : [
+      {"stat" : "maxHealth", "amount" : 40}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

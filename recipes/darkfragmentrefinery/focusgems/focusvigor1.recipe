@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "phasematter", "count" : 2 },
+    { "item" : "perfectdarkcrystal", "count" : 1 }
+  ],
+  "output" : { "item" : "focusvigor1", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "focusgems", "all" ]
+}

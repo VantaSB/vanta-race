@@ -1,0 +1,25 @@
+{
+  "itemName" : "fireresistenchant3",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "armorenchant",
+  "category" : "armorEnchant",
+  "inventoryIcon" : "fireenchant.png",
+  "description" : "Adds 75% ^orange;fire^reset; resistance to your armor and grants immunity from burning.",
+  "shortdescription" : "Fire Resistance III",
+
+  "augment" : {
+    "type" : "enchant",
+    "name" : "fireresistenchant3",
+    "displayName" : "Fire Resistance III",
+    "displayIcon" : "/items/augments/enchants/fireenchant.png",
+    "effects" : [
+      {"stat" : "fireResistance", "amount" : 0.75},
+      {"stat" : "fireStatusImmunity", "amount" : 1}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

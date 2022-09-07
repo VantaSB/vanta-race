@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "fireresistenchant2", "count" : 3 }
+  ],
+  "output" : { "item" : "fireresistenchant3", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "enchants", "all" ]
+}

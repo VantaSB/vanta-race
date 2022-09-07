@@ -1,0 +1,25 @@
+{
+  "itemName" : "temporaladrenaline",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "legenchant",
+  "category" : "legEnchant",
+  "inventoryIcon" : "adrenaline.png",
+  "description" : "Increases ground movement and swimming speeds.",
+  "shortdescription" : "Temporal Adrenaline",
+
+  "augment" : {
+    "type" : "temporalshard",
+    "name" : "temporaladrenaline",
+    "displayName" : "Temporal Adrenaline",
+    "displayIcon" : "/items/augments/temporalshards/adrenaline.png",
+    "effects" : [
+      "runboostaugment",
+      "swimboost"
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

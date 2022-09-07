@@ -1,0 +1,24 @@
+{
+  "itemName" : "focusresolve3",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "headenchant",
+  "category" : "headEnchant",
+  "inventoryIcon" : "resolve.png",
+  "description" : "Slightly increases overall health.",
+  "shortdescription" : "Focus Resolve III",
+
+  "augment" : {
+    "type" : "focusgem",
+    "name" : "focusresolve3",
+    "displayName" : "Focus Resolve III",
+    "displayIcon" : "/items/augments/focusgems/resolve.png",
+    "effects" : [
+      {"stat" : "maxHealth", "amount" : 60}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}
