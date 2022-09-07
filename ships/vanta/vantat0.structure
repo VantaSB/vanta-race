@@ -8,12 +8,12 @@
 
   "backgroundOverlays" : [
     {
-      "image" : "vantaT1.png",
+      "image" : "vantaT0.png",
       "position" : [8, 14],
       "fullbright" : true
     },
     {
-      "image" : "vantaT1lit.png",
+      "image" : "vantaT0lit.png",
       "position" : [8, 14]
     }
   ],
