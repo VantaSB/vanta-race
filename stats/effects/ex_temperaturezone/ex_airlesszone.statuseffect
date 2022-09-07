@@ -1,0 +1,10 @@
+{
+  "name" : "ex_airlesszone",
+  "blockingStat" : "breathProtection",
+
+  "effectConfig" : {
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [ "ex_airlesszone.lua" ]
+}

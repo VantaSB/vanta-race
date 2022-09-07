@@ -1,0 +1,9 @@
+{
+  "name" : "ex_stealthtrigger",
+  "blockingStat" : "ex_stealthtriggerStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [ "ex_stealthtrigger.lua" ]
+}

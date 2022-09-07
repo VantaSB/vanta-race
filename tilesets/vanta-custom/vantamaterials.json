@@ -3,7 +3,7 @@
   "name" : "vanta/materials",
   "properties" : {},
   "spacing" : 0,
-  "tilecount" : 21,
+  "tilecount" : 24,
   "tileheight" : 16,
   "tileproperties" : {
     "0" : {
@@ -151,6 +151,26 @@
       "//name" : "nightarslopedpanel",
       "//shortdescription" : "Nightar Hull Panel",
       "material" : "nightarslopedpanel"
+    },
+
+    "21" : {
+      "//description" : "Light-transparent invisible platform that players can climb",
+      "//shortdescription" : "Invisible Platform",
+      "material" : "metamaterial:ex_invisibleplatform"
+    },
+
+    "22" : {
+      "//description" : "A pile of random junk.",
+      "//name" : "ex_introjunkmaterial",
+      "//shortdescription" : "Junk Pile",
+      "material" : "ex_introjunkmaterial"
+    },
+
+    "23" : {
+      "//description" : "Tubing used for a type of hydroponics system.",
+      "//name" : "nightsteelaeroponicstube",
+      "//shortdescription" : "Nightsteel Aeroponics",
+      "material" : "nightsteelaeroponicstube"
     }
   },
 
@@ -237,6 +257,18 @@
 
     "20" : {
       "image" : "../../tiled/vanta-custom/materials/nightarslopedpanel.png"
+    },
+
+    "21" : {
+      "image" : "../../tiled/vanta-custom/materials/ex_invisibleplatform.png"
+    },
+
+    "22" : {
+      "image" : "../../tiled/vanta-custom/materials/ex_introjunkmaterial.png"
+    },
+
+    "23" : {
+      "image" : "../../tiled/vanta-custom/materials/nightsteelaeroponicstube.png"
     }
   },
 

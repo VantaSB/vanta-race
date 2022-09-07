@@ -4,8 +4,8 @@
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarblock2",
   "description" : "A white block made of unknown materials.",
-  "shortdescription" : "Nightar White Block",
-  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "shortdescription" : "Nightsteel White Composite",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
   "health" : 20,
   "category" : "materials",
 
@@ -16,6 +16,6 @@
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 2690
+    "zLevel" : 1
   }
 }

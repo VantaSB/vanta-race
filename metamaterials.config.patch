@@ -3,9 +3,10 @@
     "op" : "add",
     "path" : "/-",
     "value" : {
-      "name" : "railplatform",
+      "name" : "ex_invisibleplatform",
       "materialId" : 65100,
-      "collisionKind" : "platform"
+      "collisionKind" : "platform",
+      "blocksLiquidFlow" : false
     }
   }
 ]

@@ -1,0 +1,11 @@
+{
+  "type" : "ex_temperaturezone",
+  "keepAlive" : true,
+
+  "broadcastArea" : [-5, -5, 5, 5],
+
+  "scripts" : ["/stagehands/ex_temperaturezone/ex_temperaturezone.lua"],
+  "scriptDelta" : 20,
+
+  "zoneType" : ""
+}

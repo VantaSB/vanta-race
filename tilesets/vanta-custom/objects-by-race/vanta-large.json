@@ -8,7 +8,7 @@
   "margin" : 0,
   "name" : "vanta/large-objects",
   "spacing" : 0,
-  "tilecount" : 42,
+  "tilecount" : 86,
   "tileheight" : 64,
   "tilewidth" : 64,
   "type" : "tileset",
@@ -89,8 +89,8 @@
       "//description" : "Set Piece Background",
       "//name" : "bsltype03a",
       "//shortdescription" : "Set Piece Background",
-      "imagePositionX" : "-48",
-      "imagePositionY" : "-24",
+      "imagePositionX" : "-64",
+      "imagePositionY" : "-32",
       "object" : "bsltype03a",
       "tilesetDirection" : "right"
     },
@@ -390,6 +390,402 @@
       "imagePositionY" : "-56",
       "object" : "bsltype04d",
       "tilesetDirection" : "right"
+    },
+    "42" : {
+      "//description" : "Set Piece",
+      "//name" : "trainassemblyengine",
+      "//shortdescription" : "Hovertrain Engine",
+      "imagePositionX" : "-256",
+      "imagePositionY" : "-96",
+      "object" : "trainassemblyengine",
+      "tilesetDirection" : "right"
+    },
+    "43" : {
+      "//description" : "Set Piece",
+      "//name" : "trainassemblycartinterior",
+      "//shortdescription" : "Hovertrain Cart",
+      "imagePositionX" : "-208",
+      "imagePositionY" : "-72",
+      "object" : "trainassemblycartinterior",
+      "tilesetDirection" : "right"
+    },
+    "44" : {
+      "//description" : "Set Piece",
+      "//name" : "trainassemblycartplatform",
+      "//shortdescription" : "Hovertrain Cart",
+      "imagePositionX" : "-208",
+      "imagePositionY" : "-72",
+      "object" : "trainassemblycartplatform",
+      "tilesetDirection" : "right"
+    },
+    "45" : {
+      "//description" : "Set Piece",
+      "//name" : "trainassemblyrear",
+      "//shortdescription" : "Hovertrain Cart",
+      "imagePositionX" : "-152",
+      "imagePositionY" : "-72",
+      "object" : "trainassemblyrear",
+      "tilesetDirection" : "right"
+    },
+    "46" : {
+      "//description" : "Set Piece",
+      "//name" : "trainassemblyengineprop",
+      "//shortdescription" : "Hovertrain Engine Prop",
+      "imagePositionX" : "-256",
+      "imagePositionY" : "-96",
+      "object" : "trainassemblyengineprop",
+      "tilesetDirection" : "right"
+    },
+    "47" : {
+      "//description" : "Set Piece",
+      "//name" : "ex_underground01",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-120",
+      "imagePositionY" : "-120",
+      "object" : "ex_underground01",
+      "tilesetDirection" : "right"
+    },
+    "48" : {
+      "//description" : "Set Piece",
+      "//name" : "ex_underground02",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-120",
+      "imagePositionY" : "-120",
+      "object" : "ex_underground02",
+      "tilesetDirection" : "right"
+    },
+    "49" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype03b",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-64",
+      "imagePositionY" : "-56",
+      "object" : "bsltype03b",
+      "tilesetDirection" : "right"
+    },
+    "50" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype07",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-64",
+      "imagePositionY" : "-48",
+      "object" : "bsltype07",
+      "tilesetDirection" : "right"
+    },
+    "51" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype06c",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-128",
+      "imagePositionY" : "-48",
+      "object" : "bsltype06c",
+      "tilesetDirection" : "right"
+    },
+    "52" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype08a",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "-64",
+      "object" : "bsltype08a",
+      "tilesetDirection" : "right"
+    },
+    "53" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype08b",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-64",
+      "object" : "bsltype08b",
+      "tilesetDirection" : "right"
+    },
+    "54" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype08c",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-64",
+      "object" : "bsltype08c",
+      "tilesetDirection" : "right"
+    },
+    "55" : {
+      "//description" : "Set Piece",
+      "//name" : "mmx3type03",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "-32",
+      "object" : "mmx3type03",
+      "tilesetDirection" : "right"
+    },
+    "56" : {
+      "//description" : "Set Piece",
+      "//name" : "mmx3type03a",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "-32",
+      "object" : "mmx3type03a",
+      "tilesetDirection" : "right"
+    },
+    "57" : {
+      "//description" : "Set Piece",
+      "//name" : "mmx3type04",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "-32",
+      "object" : "mmx3type04",
+      "tilesetDirection" : "right"
+    },
+    "58" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype09a",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-64",
+      "imagePositionY" : "-40",
+      "object" : "bsltype09a",
+      "tilesetDirection" : "right"
+    },
+    "59" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype09b",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-64",
+      "imagePositionY" : "-40",
+      "object" : "bsltype09b",
+      "tilesetDirection" : "right"
+    },
+    "60" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype09c",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-64",
+      "imagePositionY" : "-40",
+      "object" : "bsltype09c",
+      "tilesetDirection" : "right"
+    },
+    "61" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype09d",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-64",
+      "imagePositionY" : "-40",
+      "object" : "bsltype09d",
+      "tilesetDirection" : "right"
+    },
+    "62" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype10",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "-24",
+      "object" : "bsltype10",
+      "tilesetDirection" : "right"
+    },
+    "63" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype06d",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-88",
+      "imagePositionY" : "-48",
+      "object" : "bsltype06d",
+      "tilesetDirection" : "right"
+    },
+    "64" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype11",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-128",
+      "imagePositionY" : "-80",
+      "object" : "bsltype11",
+      "tilesetDirection" : "right"
+    },
+    "65" : {
+      "//description" : "Set Piece",
+      "//name" : "mmx3type05",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-64",
+      "imagePositionY" : "-32",
+      "object" : "mmx3type05",
+      "tilesetDirection" : "right"
+    },
+    "66" : {
+      "//description" : "Set Piece",
+      "//name" : "mmx3type06a",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-40",
+      "object" : "mmx3type06a",
+      "tilesetDirection" : "right"
+    },
+    "67" : {
+      "//description" : "Set Piece",
+      "//name" : "mmx3type06b",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-40",
+      "object" : "mmx3type06b",
+      "tilesetDirection" : "right"
+    },
+    "68" : {
+      "//description" : "Set Piece",
+      "//name" : "mmx3type07",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-16",
+      "object" : "mmx3type07",
+      "tilesetDirection" : "right"
+    },
+    "69" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype04e",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-64",
+      "imagePositionY" : "-32",
+      "object" : "bsltype04e",
+      "tilesetDirection" : "right"
+    },
+    "70" : {
+      "//description" : "Set Piece",
+      "//name" : "lakeback01",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-128",
+      "imagePositionY" : "-96",
+      "object" : "lakeback01",
+      "tilesetDirection" : "right"
+    },
+    "71" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype06e",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-88",
+      "imagePositionY" : "-48",
+      "object" : "bsltype06e",
+      "tilesetDirection" : "right"
+    },
+    "72" : {
+      "//description" : "Set Piece",
+      "//name" : "bsltype01column",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-80",
+      "object" : "bsltype01column",
+      "tilesetDirection" : "right"
+    },
+    "73" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype02_noc",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-80",
+      "imagePositionY" : "-64",
+      "object" : "bsltype02_noc",
+      "tilesetDirection" : "right"
+    },
+    "74" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype02a_noc",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-80",
+      "imagePositionY" : "-64",
+      "object" : "bsltype02a_noc",
+      "tilesetDirection" : "right"
+    },
+    "75" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype02b_noc",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-80",
+      "imagePositionY" : "-64",
+      "object" : "bsltype02b_noc",
+      "tilesetDirection" : "right"
+    },
+    "76" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype12",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-32",
+      "object" : "bsltype12",
+      "tilesetDirection" : "right"
+    },
+    "77" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype12a",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-16",
+      "object" : "bsltype12a",
+      "tilesetDirection" : "right"
+    },
+    "78" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype12cornerb",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-32",
+      "object" : "bsltype12cornerb",
+      "tilesetDirection" : "right"
+    },
+    "79" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype12corneru",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-32",
+      "object" : "bsltype12corneru",
+      "tilesetDirection" : "right"
+    },
+    "80" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype12cross",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-32",
+      "object" : "bsltype12cross",
+      "tilesetDirection" : "right"
+    },
+    "81" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype13",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-24",
+      "object" : "bsltype13",
+      "tilesetDirection" : "right"
+    },
+    "82" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype14",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-40",
+      "imagePositionY" : "-16",
+      "object" : "bsltype14",
+      "tilesetDirection" : "right"
+    },
+    "83" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype14a",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-24",
+      "object" : "bsltype14a",
+      "tilesetDirection" : "right"
+    },
+    "84" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype14b",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-24",
+      "object" : "bsltype14b",
+      "tilesetDirection" : "right"
+    },
+    "85" : {
+      "//description" : "Set Piece Background",
+      "//name" : "bsltype09",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-64",
+      "imagePositionY" : "-40",
+      "object" : "bsltype09",
+      "tilesetDirection" : "right"
     }
   },
   "tiles" : {
@@ -518,6 +914,138 @@
     },
     "41" : {
       "image" : "../../../tiled/vanta-custom/large-objects/bsltype04d.png"
+    },
+    "42" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/trainassemblyengine.png"
+    },
+    "43" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/trainassemblycartinterior.png"
+    },
+    "44" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/trainassemblycartplatform.png"
+    },
+    "45" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/trainassemblyrear.png"
+    },
+    "46" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/trainassemblyengineprop.png"
+    },
+    "47" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/ex_underground01.png"
+    },
+    "48" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/ex_underground02.png"
+    },
+    "49" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype03b.png"
+    },
+    "50" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype07.png"
+    },
+    "51" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype06c.png"
+    },
+    "52" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype08a.png"
+    },
+    "53" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype08b.png"
+    },
+    "54" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype08c.png"
+    },
+    "55" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/mmx3type03.png"
+    },
+    "56" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/mmx3type03a.png"
+    },
+    "57" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/mmx3type04.png"
+    },
+    "58" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype09a.png"
+    },
+    "59" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype09b.png"
+    },
+    "60" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype09c.png"
+    },
+    "61" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype09d.png"
+    },
+    "62" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype10.png"
+    },
+    "63" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype06d.png"
+    },
+    "64" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype11.png"
+    },
+    "65" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/mmx3type05.png"
+    },
+    "66" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/mmx3type06a.png"
+    },
+    "67" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/mmx3type06b.png"
+    },
+    "68" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/mmx3type07.png"
+    },
+    "69" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype04e.png"
+    },
+    "70" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/lakeback01.png"
+    },
+    "71" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype06e.png"
+    },
+    "72" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype01column.png"
+    },
+    "73" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype02_noc.png"
+    },
+    "74" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype02a_noc.png"
+    },
+    "75" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype02b_noc.png"
+    },
+    "76" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype12.png"
+    },
+    "77" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype12a.png"
+    },
+    "78" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype12cornerb.png"
+    },
+    "79" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype12corneru.png"
+    },
+    "80" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype12cross.png"
+    },
+    "81" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype13.png"
+    },
+    "82" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype14.png"
+    },
+    "83" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype14a.png"
+    },
+    "84" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype14b.png"
+    },
+    "85" : {
+      "image" : "../../../tiled/vanta-custom/large-objects/bsltype09.png"
     }
   }
 }

@@ -8,7 +8,7 @@
   "margin" : 0,
   "name" : "vanta/objects",
   "spacing" : 0,
-  "tilecount" : 221,
+  "tilecount" : 244,
   "tileheight" : 64,
   "tilewidth" : 64,
   "type" : "tileset",
@@ -26,8 +26,8 @@
       "//description" : "A portal leading to who knows where...",
       "//name" : "darkgatewarp",
       "//shortdescription" : "Dark Gate",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "0",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "-32",
       "object" : "darkgatewarp",
       "tilesetDirection" : "right"
     },
@@ -1210,7 +1210,7 @@
       "//name" : "overlay02",
       "//shortdescription" : "Decorative Overlay",
       "imagePositionX" : "-24",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-8",
       "object" : "overlay02",
       "tilesetDirection" : "right"
     },
@@ -1825,6 +1825,213 @@
       "imagePositionY" : "0",
       "object" : "vantakeypad",
       "tilesetDirection" : "right"
+    },
+    "221" : {
+      "//description" : "",
+      "//name" : "bsltype01monitor",
+      "//shortdescription" : "Security Monitor",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "bsltype01monitor",
+      "tilesetDirection" : "right"
+    },
+    "222" : {
+      "//description" : "-todo-",
+      "//name" : "psipedestal",
+      "//shortdescription" : "Psi Pedestal",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "psipedestal",
+      "tilesetDirection" : "right"
+    },
+    "223" : {
+      "//description" : "-todo-",
+      "//name" : "vantaoutpostlight",
+      "//shortdescription" : "Basic Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "vantaoutpostlight",
+      "tilesetDirection" : "right"
+    },
+    "224" : {
+      "//description" : "-todo-",
+      "//name" : "carbonscoring01",
+      "//shortdescription" : "Basic Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-8",
+      "object" : "carbonscoring01",
+      "tilesetDirection" : "right"
+    },
+    "225" : {
+      "//description" : "-todo-",
+      "//name" : "carbonscoring02",
+      "//shortdescription" : "Basic Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-8",
+      "object" : "carbonscoring02",
+      "tilesetDirection" : "right"
+    },
+    "226" : {
+      "//description" : "-todo-",
+      "//name" : "carbonscoring03",
+      "//shortdescription" : "Basic Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-8",
+      "object" : "carbonscoring03",
+      "tilesetDirection" : "right"
+    },
+    "227" : {
+      "//description" : "-todo-",
+      "//name" : "carbonscoring04",
+      "//shortdescription" : "Basic Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-8",
+      "object" : "carbonscoring04",
+      "tilesetDirection" : "right"
+    },
+    "228" : {
+      "//description" : "-todo-",
+      "//name" : "carbonscoring05",
+      "//shortdescription" : "Basic Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-8",
+      "object" : "carbonscoring05",
+      "tilesetDirection" : "right"
+    },
+    "229" : {
+      "//description" : "-todo-",
+      "//name" : "nightsteelwalltarget",
+      "//shortdescription" : "Nightsteel Wall Target",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-8",
+      "object" : "nightsteelwalltarget",
+      "tilesetDirection" : "right"
+    },
+    "230" : {
+      "//description" : "-todo-",
+      "//name" : "vantamanipulatorstation",
+      "//shortdescription" : "Vanta Manipulator Station",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantamanipulatorstation",
+      "tilesetDirection" : "right"
+    },
+    "231" : {
+      "//description" : "An empty specimen container.",
+      "//name" : "type04aempty",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-40",
+      "imagePositionY" : "-48",
+      "object" : "type04aempty",
+      "tilesetDirection" : "right"
+    },
+    "232" : {
+      "//description" : "A broken specimen container.",
+      "//name" : "type04abroken",
+      "//shortdescription" : "Set Piece Background",
+      "imagePositionX" : "-40",
+      "imagePositionY" : "-48",
+      "object" : "type04abroken",
+      "tilesetDirection" : "right"
+    },
+    "233" : {
+      "//description" : "A sewer pipe.",
+      "//name" : "nightsteelwallpipe",
+      "//shortdescription" : "Wall Pipe",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "-24",
+      "object" : "nightsteelwallpipe",
+      "tilesetDirection" : "right"
+    },
+    "234" : {
+      "//description" : "A sewer pipe.",
+      "//name" : "nightsteelwallpipe2",
+      "//shortdescription" : "Wall Pipe",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "-24",
+      "object" : "nightsteelwallpipe2",
+      "tilesetDirection" : "right"
+    },
+    "235" : {
+      "//description" : "-TODO-",
+      "//name" : "nightsteelcolumnbottom",
+      "//shortdescription" : "Nightsteel Column",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "nightsteelcolumnbottom",
+      "tilesetDirection" : "right"
+    },
+    "236" : {
+      "//description" : "-TODO-",
+      "//name" : "nightsteelcolumnmiddle",
+      "//shortdescription" : "Nightsteel Column",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "nightsteelcolumnmiddle",
+      "tilesetDirection" : "right"
+    },
+    "237" : {
+      "//description" : "-TODO-",
+      "//name" : "nightsteelcolumntop",
+      "//shortdescription" : "Nightsteel Column",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "nightsteelcolumntop",
+      "tilesetDirection" : "right"
+    },
+    "238" : {
+      "//description" : "The tube is empty.",
+      "//name" : "nightarsupportpod1",
+      "//shortdescription" : "Empty Gene Sequencing Tube",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "nightarsupportpod1",
+      "tilesetDirection" : "right"
+    },
+    "239" : {
+      "//description" : "There seems to be someone in there, connected to a bunch of wires and tubes.",
+      "//name" : "nightarsupportpod2",
+      "//shortdescription" : "Gene Sequencing Tube",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "nightarsupportpod2",
+      "tilesetDirection" : "right"
+    },
+    "240" : {
+      "//description" : "-TODO-",
+      "//name" : "groundtransport",
+      "//shortdescription" : "Ground Transport",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "0",
+      "object" : "groundtransport",
+      "tilesetDirection" : "right"
+    },
+    "241" : {
+      "//description" : "It looks to be some sort of precision assembly machine.",
+      "//name" : "nanobench_deco",
+      "//shortdescription" : "Nanobench",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "nanobench_deco",
+      "tilesetDirection" : "right"
+    },
+    "242" : {
+      "//description" : "An auxiliary door that leads to another area.",
+      "//name" : "nightsteelwallhatch",
+      "//shortdescription" : "Nightsteel Wall Hatch",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "nightsteelwallhatch",
+      "tilesetDirection" : "right"
+    },
+    "243" : {
+      "//description" : "An auxiliary door that leads to another area.",
+      "//name" : "nightsteelbulkheadprop",
+      "//shortdescription" : "Nightsteel Bulkhead Door",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "0",
+      "object" : "nightsteelbulkheadprop",
+      "tilesetDirection" : "right"
     }
   },
   "tiles" : {
@@ -1832,7 +2039,7 @@
       "image" : "../../../tiled/vanta-custom/objects/darkgate.png"
     },
     "1" : {
-      "image" : "../../../tiled/vanta-custom/objects/darkgate.png"
+      "image" : "../../../tiled/vanta-custom/objects/darkgatewarp.png"
     },
     "2" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarbattlestandard.png"
@@ -2490,6 +2697,75 @@
     },
     "220" : {
       "image" : "../../../tiled/vanta-custom/objects/vantakeypad.png"
+    },
+    "221" : {
+      "image" : "../../../tiled/vanta-custom/objects/bsltype01monitor.png"
+    },
+    "222" : {
+      "image" : "../../../tiled/vanta-custom/objects/psipedestal.png"
+    },
+    "223" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantaoutpostlight.png"
+    },
+    "224" : {
+      "image" : "../../../tiled/vanta-custom/objects/carbonscoring01.png"
+    },
+    "225" : {
+      "image" : "../../../tiled/vanta-custom/objects/carbonscoring02.png"
+    },
+    "226" : {
+      "image" : "../../../tiled/vanta-custom/objects/carbonscoring03.png"
+    },
+    "227" : {
+      "image" : "../../../tiled/vanta-custom/objects/carbonscoring04.png"
+    },
+    "228" : {
+      "image" : "../../../tiled/vanta-custom/objects/carbonscoring05.png"
+    },
+    "229" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelwalltarget.png"
+    },
+    "230" : {
+      "image" : "../../../tiled/vanta-custom/objects/vantamanipulatorstation.png"
+    },
+    "231" : {
+      "image" : "../../../tiled/vanta-custom/objects/type04aempty.png"
+    },
+    "232" : {
+      "image" : "../../../tiled/vanta-custom/objects/type04abroken.png"
+    },
+    "233" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelwallpipe.png"
+    },
+    "234" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelwallpipe2.png"
+    },
+    "235" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelcolumnbottom.png"
+    },
+    "236" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelcolumnmiddle.png"
+    },
+    "237" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelcolumntop.png"
+    },
+    "238" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarsupportpod1.png"
+    },
+    "239" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightarsupportpod2.png"
+    },
+    "240" : {
+      "image" : "../../../tiled/vanta-custom/objects/groundtransport.png"
+    },
+    "241" : {
+      "image" : "../../../tiled/vanta-custom/objects/nanobench.png"
+    },
+    "242" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelwallhatch.png"
+    },
+    "243" : {
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelbulkheadprop.png"
     }
   }
 }
