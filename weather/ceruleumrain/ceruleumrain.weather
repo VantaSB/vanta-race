@@ -75,9 +75,7 @@
     }
   ],
 
-  "statusEffects" : [
-    "ceruleumcorruption"
-  ],
+  "statusEffects" : [ ],
 
   "duration" : [50, 400],
   "maximumWind" : 45.0,

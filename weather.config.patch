@@ -21,5 +21,9 @@
 		"value" : [
 			[1.0, "ceruleumrain"]
 		]
+	},
+
+	{
+		"op" : "add", "path" : "/ex_void", "value" : [ [1.0, "voidrain"] ]
 	}
 ]

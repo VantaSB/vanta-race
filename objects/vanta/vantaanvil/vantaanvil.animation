@@ -5,34 +5,19 @@
         "default" : "vantaanvil",
         "states" : {
           "vantaanvil" : {
-            "frames" : 4,
-            "cycle" : 0.7,
+            "frames" : 2,
+            "cycle" : 0.2,
             "mode" : "loop",
             "properties" : {
 			        "lightsOn" : [ "scifiglow" ],
-              "persistentSound" : "/sfx/objects/scififurnace.ogg",
-              "persistentSoundRangeMultiplier" : 0.5
-            }
-          },
-          "vantaanvil2" : {
-            "frames" : 5,
-            "cycle" : 1.0,
-            "mode" : "loop",
-            "properties" : {
-			        "lightsOn" : [ "scifiglow" ],
-              "persistentSound" : "/sfx/objects/scififurnace.ogg",
-              "persistentSoundRangeMultiplier" : 0.5
-            }
-          },
-          "vantaanvil3" : {
-            "properties" : {
-              "lightsOff" : [ "scifiglow", "acceleratorglow", "manipulatorglow", "separatorglow" ],
-              "lightsOn" : [ "replicatorglow" ],
               "persistentSound" : "/sfx/objects/scififurnace.ogg",
               "persistentSoundRangeMultiplier" : 0.5
             }
           },
           "accelerator" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "loop",
             "properties" : {
               "lightsOff" : [ "replicatorglow", "manipulatorglow", "separatorglow" ],
               "lightsOn" : [ "acceleratorglow" ],
@@ -41,6 +26,9 @@
             }
           },
           "manipulator" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "loop",
             "properties" : {
               "lightsOff" : [ "replicatorglow", "acceleratorglow", "separatorglow" ],
               "lightsOn" : [ "manipulatorglow" ],
@@ -49,6 +37,9 @@
             }
           },
           "separator" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "loop",
             "properties" : {
               "lightsOff" : [ "replicatorglow", "acceleratorglow", "manipulatorglow" ],
               "lightsOn" : [ "separatorglow" ],
@@ -69,34 +60,22 @@
           "stage" : {
             "vantaanvil" : {
               "properties" : {
-                "image" : "vantaanvillit.png:<color>.<frame>"
-              }
-            },
-
-            "vantaanvil2" : {
-              "properties" : {
-                "image" : "vantaanvil2lit.png:<color>.<frame>"
-              }
-            },
-
-            "vantaanvil3" : {
-              "properties" : {
-                "image" : "vantaanvil3lit.png:<color>"
+                "image" : "vantaanvillit.png:default.<frame>"
               }
             },
             "accelerator" : {
               "properties" : {
-                "image" : "vantaanvil3lit.png:<color>.accelerator"
+                "image" : "vantaanvillit.png:accelerator.<frame>"
               }
             },
             "manipulator" : {
               "properties" : {
-                "image" : "vantaanvil3lit.png:<color>.manipulator"
+                "image" : "vantaanvillit.png:manipulator.<frame>"
               }
             },
             "separator" : {
               "properties" : {
-                "image" : "vantaanvil3lit.png:<color>.separator"
+                "image" : "vantaanvillit.png:separator.<frame>"
               }
             }
           }
@@ -112,34 +91,22 @@
           "stage" : {
             "vantaanvil" : {
               "properties" : {
-                "image" : "vantaanvil.png:<color>.<frame>"
-              }
-            },
-
-            "vantaanvil2" : {
-              "properties" : {
-                "image" : "vantaanvil2.png:<color>.<frame>"
-              }
-            },
-
-            "vantaanvil3" : {
-              "properties" : {
-                "image" : "vantaanvil3.png:<color>"
+                "image" : "vantaanvil.png:default.<frame>"
               }
             },
             "accelerator" : {
               "properties" : {
-                "image" : "vantaanvil3.png:<color>.accelerator"
+                "image" : "vantaanvil.png:accelerator.<frame>"
               }
             },
             "manipulator" : {
               "properties" : {
-                "image" : "vantaanvil3.png:<color>.manipulator"
+                "image" : "vantaanvil.png:manipulator.<frame>"
               }
             },
             "separator" : {
               "properties" : {
-                "image" : "vantaanvil3.png:<color>.separator"
+                "image" : "vantaanvil.png:separator.<frame>"
               }
             }
           }
@@ -148,10 +115,7 @@
     }
   },
 
-  "sounds" : {
-    "fanfare" : ["/sfx/cinematics/mission_unlock_event.ogg"],
-    "fanfare2" : ["/sfx/cinematics/license_acquired_event.ogg"]
-  },
+  "sounds" : {},
 
   "lights" : {
     "fireglow" : {
@@ -225,12 +189,5 @@
     }
   },
 
-  "particleEmitters" : {
-    "dust" : {
-      "emissionRate" : 0.0,
-      "burstCount"  : 10,
-      "offsetRegion" : [-2, -2, 2, 2],
-      "particles" : [{ "particle" : "dust2"}]
-    }
-  }
+  "particleEmitters" : {}
 }

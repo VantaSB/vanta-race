@@ -1,13 +1,9 @@
 {
   "frameGrid" : {
-    "size" : [32, 24],
-    "dimensions" : [4, 1],
+    "size" : [48, 40],
+    "dimensions" : [8, 1],
     "names" : [
-      [ "default.1", "default.2", "default.3", "default.4" ]
+      [ "default.1", "default.2", "accelerator.1", "accelerator.2", "manipulator.1", "manipulator.2", "separator.1", "separator.2" ]
     ]
-  },
-
-  "aliases" : {
-    "default" : "default.1"
   }
 }
