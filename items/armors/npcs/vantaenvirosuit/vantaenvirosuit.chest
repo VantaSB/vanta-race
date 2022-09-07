@@ -3,7 +3,7 @@
   "price" : 0,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Essential",
   "category" : "chestarmour",
   "description" : "",
   "shortdescription" : "Vanta Envirosuit Armor",

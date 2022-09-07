@@ -7,7 +7,7 @@
   "category" : "headarmour",
   "description" : "This helmet is a symbol of prestige among Vanta warriors.",
   "shortdescription" : "Noct Helm",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "headaugment",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -36,6 +36,35 @@
       "amount" : 5
     }
   ],
+
+  "colorOptions" : [
+    // DEFAULT
+    { "8a8c91" : "8a8c91", "b0b3b6" : "b0b3b6", "d7d9dc" : "d7d9dc", "eeeff1" : "eeeff1", "0c8e90" : "0c8e90", "10b0c3" : "10b0c3", "12cce0" : "12cce0", "82d9e8" : "82d9e8" },
+    // BLACK
+    { "8a8c91" : "17171c", "b0b3b6" : "24242b", "d7d9dc" : "2d2d34", "eeeff1" : "353540", "0c8e90" : "e20000", "10b0c3" : "ff1c1c", "12cce0" : "ff4949", "82d9e8" : "ff8e8e" },
+    // GREY
+    { "8a8c91" : "363b3d", "b0b3b6" : "5b6364", "d7d9dc" : "797f7f", "eeeff1" : "9da1a4", "0c8e90" : "517f74", "10b0c3" : "7dc5b3", "12cce0" : "94e8ba", "82d9e8" : "b9f5c8" },
+    // WHITE
+    { "8a8c91" : "8a8c91", "b0b3b6" : "b0b3b6", "d7d9dc" : "d7d9dc", "eeeff1" : "eeeff1", "0c8e90" : "0c8e90", "10b0c3" : "10b0c3", "12cce0" : "12cce0", "82d9e8" : "82d9e8" },
+    // RED
+    { "8a8c91" : "571d1d", "b0b3b6" : "923131", "d7d9dc" : "bc3f3f", "eeeff1" : "d07171", "0c8e90" : "36aa00", "10b0c3" : "44d400", "12cce0" : "4ef500", "82d9e8" : "6eff2a" },
+    // ORANGE
+    { "8a8c91" : "aa5400", "b0b3b6" : "d46900", "d7d9dc" : "f57a00", "eeeff1" : "ff942a", "0c8e90" : "363b3d", "10b0c3" : "5b6364", "12cce0" : "797f7f", "82d9e8" : "9da1a4" },
+    // YELLOW
+    { "8a8c91" : "4b4b26", "b0b3b6" : "7e7e3f", "d7d9dc" : "a3a352", "eeeff1" : "bdbd7b", "0c8e90" : "517f74", "10b0c3" : "7dc5b3", "12cce0" : "94e8ba", "82d9e8" : "b9f5c8" },
+    // GREEN
+    { "8a8c91" : "1d3a1d", "b0b3b6" : "316131", "d7d9dc" : "3f7e3f", "eeeff1" : "50a050", "0c8e90" : "aa5400", "10b0c3" : "d46900", "12cce0" : "f57a00", "82d9e8" : "ff942a" },
+    // BLUE
+    { "8a8c91" : "162657", "b0b3b6" : "244092", "d7d9dc" : "2f52bc", "eeeff1" : "5777d5", "0c8e90" : "e20000", "10b0c3" : "ff1c1c", "12cce0" : "ff4949", "82d9e8" : "ff8e8e" },
+    // PURPLE
+    { "8a8c91" : "251d3a", "b0b3b6" : "3e3161", "d7d9dc" : "503f7e", "eeeff1" : "6650a0", "0c8e90" : "00aae2", "10b0c3" : "1cc6ff", "12cce0" : "49d1ff", "82d9e8" : "8ee3ff" },
+    // PINK
+    { "8a8c91" : "a452a2", "b0b3b6" : "b368b1", "d7d9dc" : "bc79bb", "eeeff1" : "c78fc5", "0c8e90" : "00aae2", "10b0c3" : "1cc6ff", "12cce0" : "49d1ff", "82d9e8" : "8ee3ff" },
+    // BROWN
+    { "8a8c91" : "3a240e", "b0b3b6" : "613d18", "d7d9dc" : "7e4e1f", "eeeff1" : "a06428", "0c8e90" : "17171c", "10b0c3" : "24242b", "12cce0" : "2d2d34", "82d9e8" : "353540" }
+  ],
+
+  "acceptsAugmentType" : "focusgem",
 
   "itemTags" : [ "tier5armour" ]
 }
