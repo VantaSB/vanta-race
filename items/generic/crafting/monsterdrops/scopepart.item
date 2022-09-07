@@ -1,0 +1,10 @@
+{
+  "itemName" : "scopepart",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "scopepart.png",
+  "description" : "A key component used for adding the ^orange;Scan Module^reset; to your ^orange;Matter Manipulator^reset;.",
+  "shortdescription" : "Scope Part",
+  "itemTags" : [ "crafting" ]
+}

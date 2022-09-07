@@ -4,7 +4,7 @@
   "rarity" : "legendary",
   "category" : "craftingMaterial",
   "inventoryIcon" : "darkfragmentore.png",
-  "description" : "A jet-black, yet luminescent shard that's useful for bonding special properties to equipment.",
+  "description" : "A jet-black ore with the ability to transmutate.",
   "shortdescription" : "Dark Fragment",
   "itemTags" : [ "reagent" ]
 }

@@ -5,7 +5,6 @@
   "inventoryIcon" : "icon.png",
   "description" : "A small datapad that was left lying on its own.",
   "shortdescription" : "Nightar Datapad",
-  "radioMessagesOnPickup" : [ "pocsecPickup" ],
 
   "scripts" : ["pocsec.lua"],
 

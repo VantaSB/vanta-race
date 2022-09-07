@@ -1,12 +1,12 @@
 {
   "itemName" : "vantascythe",
   "price" : "1250",
-  "level" : 7,
-  "rarity" : "Essential",
-  "description" : "Said to have been wielded by a legendary warrior known as the ^blue;Shadow Hunter^reset;.",
-  "shortdescription" : "Dream Reaper",
+  "level" : 6,
+  "rarity" : "Legendary",
+  "description" : "-TODO-",
+  "shortdescription" : "Ceruleum Crux",
   "tooltipKind" : "base",
-  "category" : "axe",
+  "category" : "scythe",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "melee", "scythe", "vanta" ],
 
@@ -14,8 +14,8 @@
 
   "animation" : "vantascythe.animation",
   "animationParts" : {
-    "handle" : "vantascythelit.png",
-    "blade" : "vantascythe.png"
+    "blade" : "vantascythe.png",
+    "bladeLit" : "vantascythelit.png"
   },
 
   "animationCustom" : { },
@@ -24,33 +24,30 @@
 
   "elementalType" : "ceruleum",
 
-  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbilityType" : "vantascythecombo",
   "primaryAbility" : {
-    "fireTime" : 0.72,
-    "baseDps" : 18.1,
-
     "stances" : {
       "idle" : {
         "armRotation" : 25,
         "weaponRotation" : 25,
         "weaponRotationCenter" : [-1.25, 0.0],
-        "weaponOffset" : [0.0125, -0.0125],
+        "weaponOffset" : [0.6125, -1.125],
 
         "frontArmFrame" : "run.1",
         "backArmFrame" : "jump.2"
-      },
+      }/*,
 
       "fire" : {
-        "weaponOffset" : [1.875, 0]
+        "weaponOffset" : [1.4125, 0]
       },
 
       "fire2" : {
-        "weaponOffset" : [1.875, 0]
+        "weaponOffset" : [1.4125, 0]
       },
 
       "fire3" : {
-        "weaponOffset" : [0.875, -0.25]
-      }
+        "weaponOffset" : [1.4125, -0.725]
+      }*/
     }
   },
 

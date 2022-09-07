@@ -23,6 +23,12 @@
     "value" : "/items/active/weapons/melee/abilities/broadsword/scatteredwindscombo.weaponability"
   },
 
+  {
+    "op" : "add",
+    "path" : "/vantascythecombo",
+    "value" : "/items/active/weapons/melee/abilities/scythe/vantascythecombo.weaponability"
+  },
+
 
   // --------------------- Available to use, but needs work ---------------------
   {
@@ -84,5 +90,11 @@
     "op" : "add",
     "path" : "/darkdenizen",
     "value" : "/items/active/weapons/vanta/grimoire/abilities/darkdenizen.weaponability"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/ex_grapple",
+    "value" : "/items/active/weapons/whip/abilities/ex_grapple.weaponability"
   }
 ]

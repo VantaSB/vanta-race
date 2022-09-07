@@ -1,14 +1,17 @@
 [
   //{ "op" : "replace", "path" : "/labels/eppAugment", "value" : "Augment" },
-  { "op" : "add", "path" : "/labels/armoraug", "value" : "Augmented Armour" },
-  { "op" : "add", "path" : "/labels/energysword", "value" : "Energy Sword" },
-  { "op" : "add", "path" : "/labels/energyscythe", "value" : "Energy Scythe" },
-  { "op" : "add", "path" : "/labels/energyspear", "value" : "Energy Spear" },
-  { "op" : "add", "path" : "/labels/energybow", "value" : "Energy Bow" },
+  { "op" : "add", "path" : "/labels/headEnchant", "value" : "Focus Gem" },
+  { "op" : "add", "path" : "/labels/armorEnchant", "value" : "Enchantment" },
+  { "op" : "add", "path" : "/labels/legEnchant", "value" : "Temporal Shard" },
+  { "op" : "add", "path" : "/labels/energySword", "value" : "Energy Sword" },
+  { "op" : "add", "path" : "/labels/energyScythe", "value" : "Energy Scythe" },
+  { "op" : "add", "path" : "/labels/energySpear", "value" : "Energy Spear" },
+  { "op" : "add", "path" : "/labels/energyBow", "value" : "Energy Bow" },
   { "op" : "add", "path" : "/labels/katar", "value" : "Katar" },
   { "op" : "add", "path" : "/labels/katana", "value" : "Katana" },
   { "op" : "add", "path" : "/labels/gunblade", "value" : "Gunblade" },
   { "op" : "add", "path" : "/labels/greatsword", "value" : "Greatsword" },
   { "op" : "add", "path" : "/labels/grimoire", "value" : "Grimoire" },
-  { "op" : "add", "path" : "/labels/bangle", "value" : "Bangle" }
+  { "op" : "add", "path" : "/labels/bangle", "value" : "Bangle" },
+  { "op" : "add", "path" : "/labels/scythe", "value" : "War Scythe" }
 ]

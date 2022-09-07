@@ -1,0 +1,63 @@
+{
+  "itemName" : "shieldmodule",
+  "level" : 1,
+  "price" : 0,
+  "rarity" : "Essential",
+  "description" : "An experimental module fitted for matter manipulators. ^green;Quick select with [N] key.",
+  "shortdescription" : "Shield Module",
+  "largeImage" : "shieldmodulelarge.png",
+  "tooltipKind" : "mm",
+  "category" : "Tool",
+  "twoHanded" : false,
+  "itemTags" : [ "shield" ],
+
+  "inventoryIcon" : "shieldmodule.png",
+
+  "animation" : "/items/active/shields/shieldlit.animation",
+  "animationParts" : {
+    "shield" : "/items/active/shields/images/vantashield/vantashieldmodule.png",
+    "shieldLit" : "/items/active/shields/images/vantashield/vantashieldmodulelit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_ice_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_ice.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_ice.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/shields/shield.lua"],
+
+  "minActiveTime" : 0.2,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 200,
+  "cooldownTime" : 0.45,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.2,
+
+  "knockback" : 10,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -45,
+      "shieldRotation" : 45,
+      "allowRotate" : false,
+      "allowFlip" : true,
+
+      "frontArmFrame" : "run.2",
+      "backArmFrame" : "run.5"
+    },
+
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}

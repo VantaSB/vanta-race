@@ -1,0 +1,98 @@
+{
+  "itemName" : "durasteelscythe",
+  "price" : "1250",
+  "level" : 4,
+  "rarity" : "Uncommon",
+  "description" : "-TODO-",
+  "shortdescription" : "Durasteel Scythe",
+  "tooltipKind" : "base",
+  "category" : "scythe",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "melee", "scythe", "vanta", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "durasteelscythe.png",
+
+  "animation" : "vantascythe.animation",
+  "animationParts" : {
+    "blade" : "durasteelscythe.png"
+  },
+
+  "animationCustom" : {
+    "sounds" : {
+      "fire": [ "/sfx/melee/swing_broadsword.ogg" ],
+      "fire2": [ "/sfx/melee/swing_shortsword.ogg" ],
+      "fire3": [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/items/active/weapons/melee/meleeweapon.lua" ],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "vantascythecombo",
+  "primaryAbility" : {
+    "comboSteps" : 3,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 25,
+        "weaponRotation" : 25,
+        "weaponRotationCenter" : [-1.25, 0.0],
+        "weaponOffset" : [0.6125, -1.125],
+
+        "frontArmFrame" : "run.1",
+        "backArmFrame" : "jump.2"
+      },
+
+      "fire" : {
+        "weaponOffset" : [1.4125, 0]
+      },
+
+      "fire2" : {
+        "weaponOffset" : [1.4125, 0]
+      },
+
+      "fire3" : {
+        "weaponOffset" : [1.4125, -0.725]
+      }
+    }
+  },
+
+  "upgradeParameters" : {
+    "level" : 6,
+    "rarity" : "Legendary",
+    "shortdescription" : "Vanta War Scythe ^yellow;^reset;",
+    "animationParts" : {
+      "blade" : "vantascythe.png",
+      "bladeLit" : "vantascythelit.png"
+    },
+    "elementalType" : "ceruleum",
+    "comboSteps" : 5,
+    "primaryAbility" : {
+      "stances" : {
+        "idle" : {
+          "armRotation" : 25,
+          "weaponRotation" : 25,
+          "weaponRotationCenter" : [-1.25, 0.0],
+          "weaponOffset" : [0.6125, -1.125],
+
+          "frontArmFrame" : "run.1",
+          "backArmFrame" : "jump.2"
+        },
+
+        "fire" : {
+          "weaponOffset" : [1.4125, 0]
+        },
+
+        "fire2" : {
+          "weaponOffset" : [1.4125, 0]
+        },
+
+        "fire3" : {
+          "weaponOffset" : [1.4125, -0.725]
+        }
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
