@@ -16,7 +16,6 @@
     "tier1" : [
 
 //EmptyHands,
-      { "item" : "bareknuckle" },
       { "item" : "flagvanta" },
 	    { "item" : "emptyhead"},
 
@@ -30,6 +29,7 @@
 
       // { "item" : "vantatier1chakram" },
       // { "item" : "vantatier2chakram" },
+      { "item" : "vantakatar" },
 
       { "item" : "vantatier2head" },
       { "item" : "vantatier2chest" },
@@ -53,7 +53,7 @@
 	    { "item" : "vantatier3shortsword" },
       // { "item" : "vantatier3chakram" },
       { "item" : "stealthdagger" },
-	    { "item" : "vantakatar" },
+	    { "item" : "vantajamadhar" },
       { "item" : "vantaradiationprotectionback" },
 
 //Anvil3,
@@ -61,13 +61,29 @@
       { "item" : "vantatier4chest" },
       { "item" : "vantatier4pants" },
 
-      { "item" : "vantatier5head" },
-      { "item" : "vantatier5chest" },
-      { "item" : "vantatier5pants" },
+      { "item" : "vantatier5ahead" },
+      { "item" : "vantatier5achest" },
+      { "item" : "vantatier5apants" },
 
-      { "item" : "vantatier6head" },
-      { "item" : "vantatier6chest" },
-      { "item" : "vantatier6pants" },
+      { "item" : "vantatier5mhead" },
+      { "item" : "vantatier5mchest" },
+      { "item" : "vantatier5mpants" },
+
+      { "item" : "vantatier5shead" },
+      { "item" : "vantatier5schest" },
+      { "item" : "vantatier5spants" },
+
+      { "item" : "vantatier6ahead" },
+      { "item" : "vantatier6achest" },
+      { "item" : "vantatier6apants" },
+
+      { "item" : "vantatier6mhead" },
+      { "item" : "vantatier6mchest" },
+      { "item" : "vantatier6mpants" },
+
+      { "item" : "vantatier6shead" },
+      { "item" : "vantatier6schest" },
+      { "item" : "vantatier6spants" },
 
 	    { "item" : "vantatier4greatsword" },
       // { "item" : "vantatier4chakram" },
@@ -76,7 +92,7 @@
       { "item" : "vantatier5broadsword" },
       { "item" : "vantatier5bow" },
       { "item" : "vantatier6sword" },
-      // { "item" : "vantawarquoit" },
+      { "item" : "vantawarquoit" },
 
       /*{ "item" : "stealthdaggerf" },
       { "item" : "stealthdaggeri" },
@@ -124,12 +140,10 @@
 //SpinningWheel,
       { "item" : "tribunischest" },
       { "item" : "tribunispants" },
+      { "item" : "opifexchest" },
+      { "item" : "opifexpants" },
       { "item" : "venatorchest" },
       { "item" : "venatorpants" },
-      { "item" : "legatuschest" },
-      { "item" : "legatuspants" },
-      { "item" : "obscurachest" },
-      { "item" : "obscurapants" },
 	    { "item" : "formalhead" },
 	    { "item" : "formalchest" },
 	    { "item" : "formallegs" },
@@ -148,8 +162,8 @@
       "image" : "/interface/title/vantam.png",
       "characterImage" : "/interface/title/vantamale.png",
       "hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18", "male19", "male21", "male22", "male23", "male24", "male25", "male26", "male27", "male28", "male29", "male30", "male31", "male32", "male33", "male34", "male35", "male36", "male37", "male38", "male39", "male40", "male41", "male42", "male43", "male44", "male45", "male46", "male47", "male48", "male49", "male50", "male51", "male52", "male53", "male54", "male55", "male56", "male57", "male58", "male59", "male60", "male61", "male62", "male63", "male64", "male65", "male66", "male67", "male68", "male69", "male70", "vantam1" ],
-      "shirt" : [ "venatorchest", "opifexchest", "tribunischest" ],
-      "pants" : [ "venatorpants", "opifexpants", "tribunispants" ],
+      "shirt" : [ "venatorchest", "tribunischest", "formalchest" ],
+      "pants" : [ "venatorpants", "tribunispants", "formallegs" ],
       "facialHairGroup" : "brand",
       "facialHair" : [ "0","1","2","3","4","5","6" ],
       "facialMaskGroup" : "",
@@ -160,8 +174,8 @@
       "image" : "/interface/title/vantaf.png",
       "characterImage" : "/interface/title/vantafemale.png",
       "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "fem52", "fem53", "fem54", "fem55", "fem56", "fem57", "fem58", "fem59", "fem60", "fem61", "fem62", "fem63", "fem64", "fem65" ],
-      "shirt" : [ "venatorchest", "opifexchest", "tribunischest" ],
-      "pants" : [ "venatorpants", "opifexpants", "tribunispants" ],
+      "shirt" : [ "venatorchest", "tribunischest", "formalchest" ],
+      "pants" : [ "venatorpants", "tribunispants", "formallegs" ],
       "facialHairGroup" : "brand",
       "facialHair" : [ "0","1","2","3","4","5","6" ],
       "facialMaskGroup" : "",
