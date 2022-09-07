@@ -1,6 +1,6 @@
 {
-  "name" : "proximamoon",
-  "friendlyName" : "Proxima Moon",
+  "name" : "proximamooncity",
+  "friendlyName" : "Proxima Moon City",
 
   "hueShiftOptions" : [0],
 
@@ -83,7 +83,7 @@
 
   "ores" : "proximasurface",
 
-  "parallax" : "/parallax/surface/proximamoon.parallax",
+  "parallax" : "/parallax/surface/proximamooncity.parallax",
 
   "ambientNoises" : {
     "day" : {

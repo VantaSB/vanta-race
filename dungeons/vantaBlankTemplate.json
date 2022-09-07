@@ -266,12 +266,16 @@
          "source":"..\/tilesets\/vanta-custom\/vantamaterials.json"
         }, 
         {
-         "firstgid":7692,
+         "firstgid":7694,
          "source":"..\/tilesets\/vanta-custom\/vantasupports.json"
         }, 
         {
-         "firstgid":7697,
+         "firstgid":7699,
          "source":"..\/tilesets\/vanta-custom\/objects-by-race\/vanta-large.json"
+        }, 
+        {
+         "firstgid":7771,
+         "source":"..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }],
  "tilewidth":8,
  "type":"map",

@@ -210,61 +210,45 @@
       "disableDeathDrops" : true,
 
       "skyParameters" : {
+        "dayLength" : 10000,
+        "surfaceLevel" : 1000,
         "spaceLevel" : 3000,
-        "ambientLightLevel" : [ 24, 28, 24 ],
-        "skyType" : "atmospheric",
+        "seed" : -5288806180628666923,
+
+        // Planet biome
+        /*"skyType" : "atmospheric",
+
         "skyColoring" : {
-          "mainColor" : [255, 255, 255],
+          "mainColor" : [25, 25, 25],
 
-          "morningColors" : [ [5, 25, 33], [5, 25, 33] ],
-          "dayColors" : [ [5, 25, 33], [5, 25, 33] ],
-          "eveningColors" : [ [5, 25, 33], [5, 25, 33] ],
-          "nightColors" : [ [5, 25, 33], [5, 25, 33] ],
+          "morningColors" : [ [36, 36, 43], [36, 36, 43] ],
+          "dayColors" : [ [36, 36, 43], [36, 36, 43] ],
+          "eveningColors" : [ [36, 36, 43], [36, 36, 43] ],
+          "nightColors" : [ [36, 36, 43], [36, 36, 43] ],
 
-          "morningLightColor" : [5, 25, 33],
-          "dayLightColor" : [5, 25, 33],
-          "eveningLightColor" : [5, 25, 33],
-          "nightLightColor" : [5, 25, 33]
-        },
-        "satellites" : [ {
-          "pos" : [ 0.310561, 0.35497 ],
-          "layers" : [ {
-            "scale" : 0.055,
-            "image" : "/celestial/system/terrestrial/liquids/water.png"
-          }, {
-            "scale" : 0.055,
-            "image" : "/celestial/system/terrestrial/biomes/forest/maskie3.png?hueshift=-45?addmask=/celestial/system/terrestrial/dynamics/temperate/2.png"
-          }, {
-            "scale" : 0.055,
-            "image" : "/celestial/system/terrestrial/biomes/forest/maskie2.png?hueshift=-45?addmask=/celestial/system/terrestrial/dynamics/temperate/20.png"
-          }, {
-            "scale" : 0.055,
-              "image" : "/celestial/system/terrestrial/biomes/forest/maskie1.png?hueshift=-45?addmask=/celestial/system/terrestrial/dynamics/temperate/5.png"
-          }, {
-            "scale" : 0.055,
-              "image" : "/celestial/system/terrestrial/shadows/9.png"
-          } ]
-        } ],
-        "planet" : {
-          "pos" : [ 0.00538729, 0.46961 ],
-          "layers" : [ {
-            "scale" : 0.15,
-            "image" : "/celestial/system/gas_giant/gas_giant_base.png?hueshift=-80"
-          }, {
-            "scale" : 0.15,
-            "image" : "/celestial/system/gas_giant/gas_giant_clouds_0.png?hueshift=-70?addmask=/celestial/system/gas_giant/gas_giant_dynamics/3.png+/celestial/system/gas_giant/gas_giant_dynamics/29.png"
-          }, {
-            "scale" : 0.15,
-            "image" : "/celestial/system/gas_giant/gas_giant_clouds_1.png?hueshift=-77?addmask=/celestial/system/gas_giant/gas_giant_dynamics/28.png+/celestial/system/gas_giant/gas_giant_dynamics/29.png"
-          }, {
-            "scale" : 0.15,
-            "image" : "/celestial/system/gas_giant/shadows/9.png"
-          } ]
-        },
-        "horizonImages" : [ ],
-        "dayLength" : 1153.36,
-        "surfaceLevel" : 1200,
-        "seed" : -5288806180628666923
+          "morningLightColor" : [36, 36, 43],
+          "dayLightColor" : [36, 36, 43],
+          "eveningLightColor" : [36, 36, 43],
+          "nightLightColor" : [36, 36, 43]
+        }*/
+
+
+        // Space biome
+        "skyType" : "barren",
+
+        "skyColoring" : { // <- space lighting
+          "mainColor" : [100, 100, 100],
+
+          "morningColors" : [[100, 100, 100], [100, 100, 100]],
+          "dayColors" : [[100, 100, 100], [100, 100, 100]],
+          "eveningColors" : [[100, 100, 100], [100, 100, 100]],
+          "nightColors" : [[100, 100, 100], [100, 100, 100]],
+
+          "morningLightColor" : [100, 100, 100],
+          "dayLightColor" : [100, 100, 100],
+          "eveningLightColor" : [100, 100, 100],
+          "nightLightColor" : [100, 100, 100]
+        }
       }
     }
   },
@@ -282,7 +266,7 @@
 
       "skyParameters" : {
         "spaceLevel" : 3000,
-        "ambientLightLevel" : [ 24, 28, 24 ],
+        "ambientLightLevel" : [ 23, 23, 28 ],
         "skyType" : "atmospheric",
         "skyColoring" : {
           "mainColor" : [25, 25, 25],
@@ -302,6 +286,42 @@
         "dayLength" : 100000,
         "surfaceLevel" : 1200,
         "seed" : -5288806180628666923
+      }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/ex_voiddungeontest",
+    "value" : {
+      "type" : "FloatingDungeon",
+      "dungeonWorld" : "ex_voiddungeontest",
+      "seed" : 1234,
+      "spawningEnabled" : false,
+      "beamUpRule" : "Anywhere",
+      "disableDeathDrops" : true,
+
+      "skyParameters" : {
+        "dayLength" : 10000,
+        "surfaceLevel" : 1000,
+        "spaceLevel" : 3000,
+        "seed" : -5288806180628666923,
+
+        "skyType" : "atmospheric",
+
+        "skyColoring" : {
+          "mainColor" : [100, 100, 100],
+
+          "morningColors" : [ [51, 102, 103], [51, 102, 103] ],
+          "dayColors" : [ [51, 102, 103], [51, 102, 103] ],
+          "eveningColors" : [ [51, 102, 103], [51, 102, 103] ],
+          "nightColors" : [ [51, 102, 103], [51, 102, 103] ],
+
+          "morningLightColor" : [51, 102, 103],
+          "dayLightColor" : [51, 102, 103],
+          "eveningLightColor" : [51, 102, 103],
+          "nightLightColor" : [51, 102, 103]
+        }
       }
     }
   }

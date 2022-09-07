@@ -17,7 +17,7 @@
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "vantaintro_redux_v1.1.json" ]
+      "def" : [ "tmx", "vantaintro_redux.json" ]
     }
   ]
 }

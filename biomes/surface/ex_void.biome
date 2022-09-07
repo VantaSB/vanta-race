@@ -1,0 +1,75 @@
+{
+  "name" : "ex_void",
+  "friendlyName" : "Void",
+
+  "statusEffects" : [ ],
+
+  "hueShiftOptions" : [ 0 ],
+
+  "weather" : [
+    [0, [
+      "/weather.config:ex_void"
+    ]]
+  ],
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [
+          [ 1, "cosmicintruder" ]
+        ]
+      }
+    ]
+  },
+
+  "skyOptions" : [
+    {
+      "mainColor" : [100, 100, 100],
+
+      "morningColors" : [ [51, 102, 103], [51, 102, 103] ],
+      "dayColors" : [ [51, 102, 103], [51, 102, 103] ],
+      "eveningColors" : [ [51, 102, 103], [51, 102, 103] ],
+      "nightColors" : [ [51, 102, 103], [51, 102, 103] ],
+
+      "morningLightColor" : [51, 102, 103],
+      "dayLightColor" : [51, 102, 103],
+      "eveningLightColor" : [51, 102, 103],
+      "nightLightColor" : [51, 102, 103]
+    }
+  ],
+
+  "mainBlock" : "lightlessrock",
+  "subBlocks" : [ "obsidian", "lightlessdirt" ],
+  "ores" : "none",
+
+  "parallax" : "/parallax/surface/ex_void.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/tundra_day.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/tundra_night.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ ]
+    },
+    "night" : {
+      "tracks" : [ ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ ],
+
+    "items" : [ ]
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [ ]
+  }
+}
