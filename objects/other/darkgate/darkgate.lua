@@ -5,13 +5,18 @@ function init()
   self.detectArea[1] = object.toAbsolutePosition(self.detectArea[1])
   self.detectArea[2] = object.toAbsolutePosition(self.detectArea[2])
 
-  animator.setAnimationState("orb", "on")
+  animator.setAnimationState("base", "off")
+  animator.setAnimationState("baseLit", "off")
+  animator.setAnimationState("orb", "off")
+  animator.setAnimationState("portal", "closed")
+  object.setLightColor(config.getParameter("lightColor", {0, 0, 0}))
 
   storage.active = storage.active or config.getParameter("startActive", false)
 
   message.setHandler("activate", function()
     storage.active = true
-    --animator.setAnimationState("gate", "turnon")
+    animator.setAnimationState("base", "on")
+    animator.setAnimationState("baseLit", "on")
     object.setLightColor(config.getParameter("lightColor", {255, 255, 255}))
   end)
 
@@ -20,7 +25,14 @@ function init()
   end)
 
   if storage.active then
+    animator.setAnimationState("base", "on")
+    animator.setAnimationState("baseLit", "on")
+    animator.setAnimationState("orb", "on")
     animator.setAnimationState("portal", "openloop")
+    object.setLightColor(config.getParameter("lightColor", {255, 255, 255}))
+    for parameter,value in pairs(config.getParameter("activatedParameters")) do
+      object.setConfigParameter(parameter, value)
+    end
   end
 end
 
@@ -40,13 +52,11 @@ function update(dt)
     })
 
     if #players > 0 and animator.animationState("portal") == "closed" then
-      animator.setAnimationState("orb", "off")
+      --animator.setAnimationState("orb", "off")
       animator.setAnimationState("portal", "open")
-      object.setLightColor(config.getParameter("lightColor", {255, 255, 255}))
     elseif #players == 0 and animator.animationState("portal") == "openloop" then
       animator.setAnimationState("portal", "close")
-      animator.setAnimationState("orb", "on")
-      object.setLightColor({0, 0, 0, 0})
+      --animator.setAnimationState("orb", "on")
     end
   end
 end

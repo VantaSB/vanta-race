@@ -19,7 +19,7 @@ function nodePosition()
 end
 
 function updateActive()
-  object.setMaterialSpaces({{{0, 0}, (storage.active and not storage.waiting) and "metamaterial:railsafe" or "metamaterial:railstop"}})
+  object.setMaterialSpaces({{{0, 0}, (storage.active and not storage.waiting) and "metamaterial:railsafe" or "metamaterial:railstop"}, {{-3, 0}, "metamaterial:ex_invisibleplatform"}, {{-2, 0}, "metamaterial:ex_invisibleplatform"}, {{-1, 0}, "metamaterial:ex_invisibleplatform"}, {{1, 0}, "metamaterial:ex_invisibleplatform"}, {{2, 0}, "metamaterial:ex_invisibleplatform"}, {{3, 0}, "metamaterial:ex_invisibleplatform"}})
   if storage.waiting then
     animator.setAnimationState("stopState", "wait")
   elseif storage.active then

@@ -1,4 +1,4 @@
-require "/scripts/vantastealthintercept.lua"
+require "/stats/ex_stealthtrigger/ex_stealthtrigger.lua"
 
 function init()
   self.state = stateMachine.create({

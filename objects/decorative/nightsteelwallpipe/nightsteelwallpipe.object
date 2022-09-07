@@ -1,0 +1,39 @@
+{
+  "objectName" : "nightsteelwallpipe",
+  "colonyTags" : ["nightar","vanta","glitchsewer"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A sewer pipe.",
+  "shortdescription" : "Wall Pipe",
+  "race" : "generic",
+
+  "apexDescription" : "A functional, if filthy, pipe.",
+  "avianDescription" : "A sewer pipe, I don't want to get mucky feathers!",
+  "floranDescription" : "Sssewer pipe.",
+  "glitchDescription" : "Observant. A pipe.",
+  "humanDescription" : "A pipe. Looks kinda...grimy.",
+  "hylotlDescription" : "A pipe for sewer usage.",
+  "novakidDescription" : "Just a pipe. Hope no critters are lurking in it.",
+
+  "inventoryIcon" : "nightsteelwallpipe.png",
+  "orientations" : [
+    {
+      "image" : "nightsteelwallpipe.png",
+      "imagePosition" : [-24, -24],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "nightsteelwallpipe.png",
+      "imagePosition" : [-24, -24],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

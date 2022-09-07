@@ -9,29 +9,32 @@
   "price" : 0,
   "printable" : false,
 
-  "inventoryIcon" : "nightsteelwallhatch.png:default",
+  "openLight" : [0, 0, 0],
 
-  "animation" : "/objects/wired/door/door.animation",
+  "inventoryIcon" : "base.png:default",
+
+  "animation" : "/objects/wired/door/lockingpropdoor.animation",
   "animationCustom" : {
     "sounds" : {
       "open" : {
-        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "pool" : [ "/sfx/objects/ddooropen.ogg" ],
         "rangeMultiplier" : 0.5
       },
       "close" : {
-        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "pool" : [ "/sfx/objects/ddoorclose.ogg" ],
         "rangeMultiplier" : 0.5
       }
     }
   },
   "animationParts" : {
-    "door" : "nightsteelwallhatch.png"
+    "bg" : "base.png",
+    "fg" : "lit.png"
   },
   "animationPosition" : [-16, 0],
 
   "orientations" : [
     {
-      "image" : "nightsteelwallhatch.png:default",
+      "image" : "base.png:default",
       "direction" : "right",
 
       "imagePosition" : [-16, 0],
@@ -41,11 +44,11 @@
     }
   ],
 
-  "scripts" : [ "/scripts/ex_utilities/ex_propdoorwarp.lua" ],
+  "scripts" : [ "/scripts/ex_utilities/ex_doorwarp.lua" ],
   "scriptDelta" : 5,
 
-  "interval" : 15,
+  "interval" : 30,
 
-  // Configured in Tiled
-  "dCoord" : null
+  "inputNodes" : [ [1, 3], [-2, 3] ],
+  "outputNodes" : [ [1, 0] ]
 }

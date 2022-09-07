@@ -28,5 +28,8 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  "animationPosition" : [-8, 0]
+  "animationPosition" : [-8, 0],
+
+  "soundEffect" : "/sfx/objects/nightarpowercore.ogg",
+  "soundEffectRangeMultiplier" : 0.5
 }

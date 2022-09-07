@@ -1,0 +1,24 @@
+{
+  "objectName" : "nightsteelcolumntop",
+  "colonyTags" : [],
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 0,
+  "scannable" : false,
+  "description" : "",
+  "shortdescription" : "Nightsteel Column",
+  "race" : "generic",
+
+  "inventoryIcon" : "nightsteelcolumntop.png",
+
+  "orientations" : [
+    {
+      "dualImage" : "nightsteelcolumntop.png",
+      "imagePosition" : [ -24, -8 ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ]
+}

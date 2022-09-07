@@ -1,0 +1,59 @@
+{
+  "objectName" : "nightarsupportpod1",
+  "colonyTags" : ["nightar","science","evil","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "printable" : false,
+  "price" : 0,
+  "lightColor" : [148, 232, 168],
+
+  "flickerPeriod" : 1.5,
+  "flickerMinIntensity" : 0.8,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "description" : "The tube is empty.",
+  "shortdescription" : "Empty Gene Sequencing Tube",
+  "race" : "nightar",
+
+  "apexDescription" : "Thankfully this pod is empty. Is this how the Nightar attempt genetic sequencing?",
+  "avianDescription" : "This is dark science...",
+  "floranDescription" : "Sssuch machines are unnatural.",
+  "glitchDescription" : "Attentive. Machine appears to attempt to alter and extract DNA.",
+  "humanDescription" : "This doesn't look good. I can't help but expect something to jump out at me.",
+  "hylotlDescription" : "This machine attempts to alter DNA in a way that's not remotely sustainable.",
+  "novakidDescription" : "I ain't going near that.",
+  "vantaDescription" : "They stuff a number of different organisms in these tubes for genetic experimentation.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "nightarsupportpod1.png", "fullbright" : true },
+        { "image" : "nightarsupportpodlit.png" }
+      ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [
+        { "image" : "nightarsupportpod1.png", "fullbright" : true },
+        { "image" : "nightarsupportpodlit.png" }
+      ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+      "lightPosition" : [0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

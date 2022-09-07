@@ -4,7 +4,7 @@
   "colonyTags" : ["vanta"],
   "rarity" : "Common",
   "description" : "The Vanta flag. Use ^green;[E]^reset; to bookmark a teleportation location.",
-  "shortdescription" : "Vanta Battle Standard",
+  "shortdescription" : "Vanta Flag",
   "race" : "vanta",
   "category" : "teleportMarker",
   "price" : 70,

@@ -11,68 +11,60 @@
   "offeredQuests" : [ ],
   "race" : "generic",
 
-  "apexDescription" : "This mass of energy feels similar to that of Ancient Gates...",
-  "avianDescription" : "What intense power... I feel as though I might unravel if I get too close...",
-  "floranDescription" : "Sssstrange ball makesss Floran ssshiver...",
-  "glitchDescription" : "Apprehensive. This energy mass appears to be some sort of portal opening...",
-  "humanDescription" : "When I get close, the hairs on my body stand on edge...",
-  "hylotlDescription" : "This energy is rather intense; one wonders what its true nature is...",
-  "novakidDescription" : "Somethin' doesn't feel right about this...",
-  "vantaDescription" : "This energy doesn't feel right...",
+  "apexDescription" : "This appears to be some sort of teleportation device, but it's not a configuration I recognize.",
+  "avianDescription" : "It looks like a teleporter, but I'm not sure how it functions.",
+  "floranDescription" : "Floran wondersss what makess teleporter work.",
+  "glitchDescription" : "Confused. I cannot figure out the configuration of this teleporter.",
+  "humanDescription" : "What an odd design for a teleporter.",
+  "hylotlDescription" : "The outward appearance of this teleporter implies an advanced function of some sort.",
+  "novakidDescription" : "What a weird lookin' teleporter.",
+  "vantaDescription" : "There were rumors of advanced teleportation technology being researched by the Conclave. This must be it.",
 
-  "lightColor" : [15, 45, 44],
+  "activatedParameters" : {
+    "apexDescription" : "This mass of energy feels similar to that of Ancient Gates...",
+    "avianDescription" : "What intense power... I feel as though I might unravel if I get too close...",
+    "floranDescription" : "Sssstrange ball makesss Floran ssshiver...",
+    "glitchDescription" : "Apprehensive. This energy mass appears to be some sort of portal opening...",
+    "humanDescription" : "When I get close, the hairs on my body stand on edge...",
+    "hylotlDescription" : "This energy is almost smothering me; one can only wonder what its true nature is...",
+    "novakidDescription" : "Somethin' doesn't feel right about this...",
+    "vantaDescription" : "This energy doesn't feel right..."
+  },
 
-  "inventoryIcon" : "orb.png:default.1",
-  "placementImage" : "orb.png:default.1",
-  "placementImagePosition" : [-8, 0],
+  "lightColor" : [18, 204, 224],
+
+  "inventoryIcon" : "icon.png",
+  "placementImagePosition" : [-56, -32],
   "orientations" : [
     {
-      "image" : "orb.png:default.<frame>",
-      "fullbright" : true,
-      "imagePosition" : [-8, 0],
-      "animationPosition" : [4, 12],
-
-      "direction" : "left",
-      "flipImages" : true,
-
-      "lightPosition" : [0, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ],
-
-      "collision" : null,
-      "collisionSpaces" : [
-        [-1, 1], [-1, 0], [-1, -1],
-        [0, 1], [0, 0], [0, -1],
-        [1, 1], [1, 0], [1, -1]
+      "imageLayers" : [
+        { "image" : "gate.png:default.<frame>", "fullbright" : true },
+        { "image" : "gatelit.png:default.<frame>" }
       ],
-      "detectArea" : [ [-0.3, 0], [4, 5] ]
-    },
-
-    {
-      "image" : "orb.png:default.<frame>",
       "fullbright" : true,
-      "imagePosition" : [-8, 0],
-      "animationPosition" : [4, 12],
-
-      "direction" : "right",
+      "imagePosition" : [-56, -32],
+      "animationPosition" : [-56, -32],
 
       "lightPosition" : [0, 0],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "background" ],
+      "anchors" : [ "bottom" ],
 
-      "collision" : null,
+      "collision" : "solid",
       "collisionSpaces" : [
-        [-1, 1], [-1, 0], [-1, -1],
-        [0, 1], [0, 0], [0, -1],
-        [1, 1], [1, 0], [1, -1]
+        [-5, -4], [-4, -4], [-3, -4], [-2, -4], [-1, -4], [0, -4], [1, -4], [2, -4], [3, -4], [4, -4]
       ],
       "detectArea" : [ [-0.3, 0], [4, 5] ]
     }
   ],
 
   "animation" : "darkgate.animation",
+  "animationParts" : {
+    "base" : "gate.png",
+    "baseLit" : "gatelit.png",
+    "orb" : "orb.png",
+    "portal" : "portal.png"
+  },
 
   "scripts" : ["/objects/other/darkgate/darkgate.lua"],
   "scriptDelta" : 20,

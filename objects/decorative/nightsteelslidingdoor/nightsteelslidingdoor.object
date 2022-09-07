@@ -18,7 +18,7 @@
   "novakidDescription" : "I like these sleek slidin' doors.",
 
 
-  "inventoryIcon" : "nightsteelslidingdooricon.png",
+  "inventoryIcon" : "nightsteelslidingdoor.png:closed",
   "orientations" : [
     {
       "dualImage" : "nightsteelslidingdoor.png:closed",

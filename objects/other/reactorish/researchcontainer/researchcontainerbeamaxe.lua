@@ -1,19 +1,17 @@
 function init()
-  animator.setAnimationState("beamaxe", "active")
+  self.lightColor = config.getParameter("lightColor", {12, 142, 144})
+  object.setLightColor(self.lightColor)
+  animator.setAnimationState("container", "active")
   object.setInteractive(true)
   object.setAllOutputNodes(true)
 end
 
-function showBeamaxe()
-  animator.setAnimationState("beamaxe", "active")
-  object.setInteractive(true)
-end
-
 function onInteraction(args)
-  animator.setAnimationState("beamaxe", "inactive")
+  animator.setAnimationState("container", "inactive")
   object.setInteractive(false)
-  world.sendEntityMessage(args.sourceId, "giveBeamaxe")
+  object.setLightColor({0, 0, 0})
   object.setAllOutputNodes(false)
+  world.sendEntityMessage(args.sourceId, "giveBeamaxe")
 
   for parameter,value in pairs(config.getParameter("pickedUpParameters")) do
     object.setConfigParameter(parameter, value)

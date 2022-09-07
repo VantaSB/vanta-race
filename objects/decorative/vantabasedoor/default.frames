@@ -3,19 +3,26 @@
     "size" : [40, 56],
     "dimensions" : [6, 1],
     "names" : [
-      [ "closed", "halfLeft", "left", null, "halfRight", "right" ]
+      [ "closed", "halfLeft", "left", "locked", "halfRight", "right" ]
     ]
   },
 
   "aliases" : {
     "default" : "closed",
-    "closeLeft.1" : "halfLeft",
-    "closeLeft.2" : "closed",
-    "closeRight.1" : "halfRight",
+    "closeLeft" : "halfLeft",
+    "closeRight.1" : "halfLeft",
     "closeRight.2" : "closed",
     "openLeft.1" : "halfLeft",
     "openLeft.2" : "left",
-    "openRight.1" : "halfRight",
-    "openRight.2" : "right"
+    "openRight.1" : "halfLeft",
+    "openRight.2" : "left",
+    "lockOpenLeft.1" : "halfRight",
+    "lockOpenLeft.2" : "right",
+    "lockOpenRight.1" : "halfRight",
+    "lockOpenRight.2" : "right",
+    "lockCloseLeft.1" : "halfRight",
+    "lockCloseLeft.2" : "locked",
+    "lockCloseRight.1" : "halfRight",
+    "lockCloseRight.2" : "locked"
   }
 }

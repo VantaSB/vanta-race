@@ -7,7 +7,8 @@
   "race" : "nightar",
   "category" : "decorative",
   "price" : 100,
-  "lightColor" : [114, 127, 124],
+
+  "lightColor" : [0, 0, 0, 0],
 
   "apexDescription" : "A console. Its design is similar to some common models.",
   "avianDescription" : "A console. Though, this looks rather basic.",

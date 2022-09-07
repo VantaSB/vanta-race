@@ -29,8 +29,7 @@
       "spaceScan" : 0.1,
       "anchors" : []
     },
-
-	{
+	  {
       "image" : "nightarsbannersmall.png",
 	    "direction" : "right",
       "imagePosition" : [0, 0],

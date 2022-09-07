@@ -1,0 +1,43 @@
+{
+  "objectName" : "groundtransport",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "scannable" : false,
+  "printable" : false,
+
+  "description" : "-TODO-",
+  "shortdescription" : "Ground Transport",
+  "race" : "vanta",
+
+  "keepAlive" : true,
+
+  "inventoryIcon" : "groundtransport.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "groundtransport.png", "fullbright" : true },
+        { "image" : "groundtransportlit.png" }
+      ],
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-56, 0],
+
+      "renderLayer" : "Object+5",
+
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [
+        { "image" : "groundtransport.png", "fullbright" : true },
+        { "image" : "groundtransportlit.png" }
+      ],
+      "direction" : "right",
+      "imagePosition" : [-56, 0],
+
+      "renderLayer" : "Object+5",
+
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

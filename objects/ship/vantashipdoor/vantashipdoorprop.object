@@ -1,0 +1,52 @@
+{
+  "objectName" : "vantashipdoorprop",
+  "colonyTags" : ["vanta","door"],
+  "rarity" : "common",
+
+  "category" : "door",
+  "price" : 250,
+  "description" : "A door suitable for a spaceship.",
+  "shortdescription" : "Vanta Ship Door",
+  "race" : "vanta",
+
+  "apexDescription" : "A spaceship door.",
+  "avianDescription" : "A spaceship door.",
+  "floranDescription" : "Ssspaceship door.",
+  "glitchDescription" : "Proud. A ship door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic ship door.",
+  "novakidDescription" : "A door.",
+
+
+  "inventoryIcon" : "vantashipdooricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "vantashipdoorsideprop.png" },
+        { "image" : "vantashipdoorsideproplit.png", "fullbright" : true }
+      ],
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [0, -2], [0, -1], [0, 0], [0, 1], [0, 2] ]
+    },
+
+    {
+      "imageLayers" : [
+        { "image" : "vantashipdoorsideprop.png" },
+        { "image" : "vantashipdoorsideproplit.png", "fullbright" : true }
+      ],
+      "direction" : "right",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [0, -2], [0, -1], [0, 0], [0, 1], [0, 2] ]
+    }
+  ]
+}

@@ -7,6 +7,7 @@
   "description" : "I need to grab this Matter Manipulator and get out of here.",
   "shortdescription" : "Research Container",
   "race" : "generic",
+  "lightColor" : [18, 204, 224],
 
   "keepAlive" : true,
 
@@ -30,6 +31,14 @@
   },
 
   "inventoryIcon" : "icon.png",
+
+  "animation" : "researchcontainer.animation",
+  "animationPosition" : [-24, 0],
+  "animationParts" : {
+    "container" : "researchcontainerbeamaxe.png",
+    "containerLit" : "researchcontainerlit.png"
+  },
+
   "orientations" : [
     {
       "image" : "researchcontainer.png:<color>.<frame>",
@@ -40,13 +49,10 @@
     }
   ],
 
-  "animation" : "researchcontainerbeamaxe.animation",
-  "animationPosition" : [-24, 0],
-
   "scripts" : [ "researchcontainerbeamaxe.lua" ],
   "scriptDelta" : 0,
 
   "outputNodes" : [
-    [0, 1]
+    [0, 0]
   ]
 }

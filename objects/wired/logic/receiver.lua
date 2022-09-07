@@ -7,8 +7,8 @@ function init()
   self.triggerTime = config.getParameter("openDelay")
   self.timer = 0
 
-  self.receiverCfg = config.getParameter("messageType")
-  message.setHandler(self.receiverCfg, function(...)
+  self.messageType = config.getParameter("messageType")
+  message.setHandler(self.messageType, function(...)
     self.open = true
   end)
 end

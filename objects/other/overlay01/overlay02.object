@@ -9,24 +9,31 @@
   "shortdescription" : "Decorative Overlay",
   "race" : "generic",
 
-  "inventoryIcon" : "overlay02.png:default.on",
+  "inventoryIcon" : "overlay02.png:default.off",
 
   "orientations" : [
     {
-      "image" : "overlay02.png:default.on",
-      "imagePosition" : [-24, 0],
+      "image" : "overlay02.png:default.off",
+      "imagePosition" : [-24, -8],
       "renderLayer" : "Player+10",
 
       "materialSpaces" : [
-        [[0, 0], "metamaterial:rail"]
+        [[-3, 0], "metamaterial:ex_invisibleplatform"],
+        [[-2, 0], "metamaterial:ex_invisibleplatform"],
+        [[-1, 0], "metamaterial:ex_invisibleplatform"],
+        [[0, 0], "metamaterial:rail"],
+        [[1, 0], "metamaterial:ex_invisibleplatform"],
+        [[2, 0], "metamaterial:ex_invisibleplatform"],
+        [[3, 0], "metamaterial:ex_invisibleplatform"]
       ],
 
-      "fgAnchors" : [[-3, 0], [-2, 0], [-1, 0], [1, 0], [2, 0], [3, 0]],
+      "fgAnchors" : [
+        [-3, 1], [-2, 1], [-1, 1], [1, 1], [2, 1], [3, 1],
+        [-3, 0], [-2, 0], [-1, 0], [1, 0], [2, 0], [3, 0],
+        [-3, -1], [-2, -1], [-1, -1], [1, -1], [2, -1], [3, -1]
+      ],
       "bgAnchors" : [[0, 0]],
       "anchorAny" : true,
-
-      "collision" : "platform",
-      "collisionSpaces" : [ [-3,0], [-2,0], [-1,0], [0,0], [1,0], [2,0], [3,0] ],
 
       "direction" : "right"
     }
@@ -37,7 +44,7 @@
     "stop" : "overlay02.png",
     "stopfullbright" : "overlay02lit.png"
   },
-  "animationPosition" : [-24, 0],
+  "animationPosition" : [-24, -8],
 
   "scripts" : [
     "/objects/other/overlay01/tramstop.lua"
