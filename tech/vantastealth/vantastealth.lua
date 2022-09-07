@@ -2,7 +2,6 @@ require "/scripts/vec2.lua"
 
 function init()
   self.stealthActive = false
-  self.sprintEnabled = config.getParameter("sprintEnabled")
   world.setProperty("entity["..tostring(entity.id()).."]Stealthed", nil)
   self.lastMoves = {} --used to keep track of held buttons
   self.primaryItem = nil
@@ -20,10 +19,9 @@ function init()
 	  alt = nil
   }
   sneakStats = {
-	{stat = "grit", amount = 1}
+    {stat = "grit", amount = 1}
   }
   self.forceWalk = config.getParameter("forceWalk", false)
-  self.techType = config.getParameter("type")
   self.holdingPrimaryWeapon = false
   self.holdingAltWeapon = false
   self.doubleTapTimer = 0
@@ -35,21 +33,14 @@ function init()
   self.energyCost = config.getParameter("energyDrainRate")
   self.energyFraction = config.getParameter("energyDrainFraction")
 
-  --Sprint stuff
-  self.sprintEnergyCostPerSecond = config.getParameter("sprintEnergyCostPerSecond")
-  self.dashControlForce = config.getParameter("dashControlForce")
-  self.dashSpeedModifier = config.getParameter("dashSpeedModifier")
-  self.groundOnly = config.getParameter("groundOnly")
-  self.stopAfterDash = config.getParameter("stopAfterDash")
-
   self.weaponTypes = {
-  ["gun"] = true,
-  ["staff"] = true,
-  ["sword"] = true,
-  ["thrownitem"] = true
+    ["gun"] = true,
+    ["staff"] = true,
+    ["sword"] = true,
+    ["thrownitem"] = true
   }
   self.stealthBreakCooldowns = config.getParameter("stealthBreakCooldowns")
-  world.sendEntityMessage(entity.id(), "enableTech", "vantastealth")
+  --world.sendEntityMessage(entity.id(), "enableTech", "vantastealth")
 end
 
 function isWeapon(name)
@@ -65,7 +56,7 @@ function isWeapon(name)
 end
 
 function input(args)
-  if self.techType == "body" and args.moves["up"] then
+  if args.moves["up"] then
 	  if not self.lastMoves["up"] then
 		  if self.doubleTapTimer <= 0 then
 			  self.doubleTapTimer = 0.25
@@ -81,20 +72,6 @@ function input(args)
 		  end
 	  end
   end
-
-
-  --[[if args.moves["left"] or args.moves["right"] and self.sprintEnabled then
-    if not self.lastMoves["left"] or not self.lastMoves["right"] then
-      if self.doubleTapTimer <= 0 then
-        self.doubleTapTimer = 0.25
-      else
-        local direction = "left" and -1 or 1
-        if not self.dashDirection and groundValid() and mcontroller.facingDirection() == direction and not mcontroller.crouching() and not status.resourceLocked("energy") and not status.statPositive("activeMovementAbilities") then
-          startDash(direction)
-        end
-      end
-    end
-  end]]
 
   if args.moves["primaryFire"] and self.stealthActive and not self.lastMoves["primaryFire"] and self.holdingPrimaryWeapon then
 	local windup = self.heldConfig["primary"].level2ChargeTime
@@ -284,21 +261,6 @@ function update(args)
 	tech.setParentDirectives("")
   end
   decreaseTimers()
-
-  if self.dashDirection then
-    if args.moves[self.dashDirection > 0 and "right" or "left"] and not mcontroller.liquidMovement() and not dashBlocked() then
-      if mcontroller.facingDirection() == self.dashDirection then
-        if status.overConsumeResource("energy", self.energyCostPerSecond * args.dt) then
-          mcontroller.controlModifiers({speedModifier = self.dashSpeedModifier})
-
-          animator.setAnimationState("dashing", "on")
-          animator.setParticleEmitterActive("dashParticles", true)
-        end
-      else
-        endDash()
-      end
-    end
-  end
 end
 
 function rebootDirective()
@@ -336,42 +298,4 @@ function uninit()
 		deactivateStealth()
 	end
 	status.clearPersistentEffects("sneakAttack")
-  status.clearPersistentEffects("movementAbility")
-  animator.setAnimationState("dashing", "off")
-  animator.setParticleEmitterActive("dashParticles", false)
-end
-
--- misc coroutines
-function groundValid()
-  return mcontroller.groundMovement() or not self.groundOnly
-end
-
-function dashBlocked()
-  return mcontroller.velocity()[1] == 0
-end
-
-function startDash(direction)
-  self.dashDirection = direction
-  status.setPersistentEffects("movementAbility", {{stat = "activeMovementAbilities", amount = 1}})
-  animator.setFlipped(self.dashDirection == -1)
-  animator.setAnimationState("dashing", "on")
-  animator.setParticleEmitterActive("dashParticles", true)
-end
-
-function endDash(direction)
-  status.clearPersistentEffects("movementAbility")
-
-  if self.stopAfterDash then
-    local movementParams = mcontroller.baseParameters()
-    local currentVelocity = mcontroller.velocity()
-    if math.abs(currentVelocity[1]) > movementParams.runSpeed then
-      mcontroller.setVelocity({movementParams.runSpeed * self.dashDirection, 0})
-    end
-    mcontroller.controlApproachXVelocity(self.dashDirection * movementParams.runSpeed, self.dashControlForce)
-  end
-
-  animator.setAnimationState("dashing", "off")
-  animator.setParticleEmitterActive("dashParticles", false)
-
-  self.dashDirection = nil
 end

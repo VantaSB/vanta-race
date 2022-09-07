@@ -1,5 +1,6 @@
+
 require "/scripts/util.lua"
-require "/scripts/vantastealthintercept.lua"
+require "/scripts/ex_utilities/ex_stealthintercept.lua"
 
 function init()
   performStealthFunctionOverrides()

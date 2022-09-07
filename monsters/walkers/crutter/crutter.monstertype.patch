@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "crutterTreasure", "bow" : "crutterHunting", "scythe" : "crutterPsiReaping" } ] }
+]

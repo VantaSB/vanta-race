@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "bobfaeTreasure", "bow" : "bobfaeHunting", "scythe" : "bobfaePsiReaping" } ] }
+]

@@ -1,4 +1,24 @@
+function init()
+	self.detector = config.getParameter("detector", false)
+	self.checked = false
+	-- Yoinked from playermechdeployment.lua
+	-- World properties cannot be obtained on first update, so we need to delay getting the world update functions
+	if not self.detector then self.updateTicks = 60 end
+end
+
+function update(dt)
+	if not self.checked and self.updateTicks then
+		self.updateTicks = self.updateTicks - 1
+		if self.updateTicks <= 0 then
+			if not self.detector then
+				performStealthFunctionOverrides()
+			end
+		end
+	end
+end
+
 function performStealthFunctionOverrides()
+	self.checked = true
 	if iHaveStealthPatched then return nil end
 	iHaveStealthPatched = true
 	if type(world) == "table" then

@@ -43,5 +43,6 @@
 	  "axe" : 4,
 	  "hammer" : 5,
 	  "activeitem" : 5
-  }
+  },
+  "broadcastArea" : [-100, -100, 100, 100]
 }

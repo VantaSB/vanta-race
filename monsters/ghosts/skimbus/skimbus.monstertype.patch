@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "skimbusTreasure", "bow" : "skimbusHunting", "scythe" : "skimbusPsiReaping" } ] }
+]

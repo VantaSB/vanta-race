@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "squeemTreasure", "bow" : "squeemHunting", "scythe" : "squeemPsiReaping" } ] }
+]

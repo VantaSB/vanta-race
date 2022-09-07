@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "crabcanoTreasure", "bow" : "crabcanoHunting", "scythe" : "crabcanoPsiReaping" } ] }
+]

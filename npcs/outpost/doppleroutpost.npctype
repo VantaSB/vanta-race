@@ -58,8 +58,8 @@
       [0, [
           {
             "head" : [ { "name" : "vantacommandvisorhead" } ],
-            "chest" : [ { "name" : "vantatier1chest" } ],
-            "legs" : [ { "name" : "vantatier3pants" } ]
+            "chest" : [ { "name" : "didactchest" } ],
+            "legs" : [ { "name" : "didactpants" } ]
           }
         ]
       ]

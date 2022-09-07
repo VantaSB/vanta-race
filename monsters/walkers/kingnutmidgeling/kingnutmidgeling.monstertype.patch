@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "nutmidgelingTreasure", "bow" : "nutmidgelingHunting", "scythe" : "nutmidgelingPsiReaping" } ] }
+]

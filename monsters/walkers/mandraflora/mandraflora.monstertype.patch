@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "mandrafloraTreasure", "bow" : "mandrafloraHunting", "scythe" : "mandrafloraPsiReaping" } ] }
+]

@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "lumothTreasure", "bow" : "lumothHunting", "scythe" : "lumothPsiReaping" } ] }
+]

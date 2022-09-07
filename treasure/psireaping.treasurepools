@@ -1,0 +1,930 @@
+{
+  // ==============================================================================================
+  //                          PSI REAPING TREASURE POOLS, FOR WAR SCYTHES
+  // ==============================================================================================
+
+  // ================================
+  //        Unique Monsters
+  // ================================
+
+  "adultpoptopPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "adultpoptopaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "anglurePsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "staticcell"},
+        {"weight" : 0.001, "item" : "anglureaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "agrobatPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "rawpoultry"},
+        {"weight" : 0.200, "item" : "leather"},
+        {"weight" : 0.001, "item" : "agrobataf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "batongPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "rawpoultry"},
+        {"weight" : 0.200, "item" : "leather"},
+        {"weight" : 0.001, "item" : "batongaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "bobfaePsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "hardenedcarapace"},
+        {"weight" : 0.001, "item" : "bobfaeaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "bobotPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "staticcell"},
+        {"weight" : 0.399, "item" : "stickofram"},
+        {"weight" : 0.001, "item" : "bobotaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "bulbopPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "livingroot"},
+        {"weight" : 0.001, "item" : "bulbopaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "capricoatPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "leather"},
+        {"weight" : 0.001, "item" : "capricoataf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "crabcanoPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.100, "item" : "scorchedcore"},
+        {"weight" : 0.100, "item" : "hardenedcarapace"},
+        {"weight" : 0.001, "item" : "crabcanoaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "crustoisePsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "hardenedcarapace"},
+        {"weight" : 0.001, "item" : "crustoiseaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "crutterPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "venomsample"},
+        {"weight" : 0.001, "item" : "crutteraf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "fennixPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.100, "item" : "scorchedcore"},
+        {"weight" : 0.100, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "fennixaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "gleapPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "livingroot"},
+        {"weight" : 0.001, "item" : "gleapaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "hemogoblinPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "rawribmeat"},
+        {"weight" : 0.200, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "hemogoblinaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "hypnarePsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "livingroot"},
+        {"weight" : 0.001, "item" : "hypnareaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "ignomePsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.299, "item" : "scorchedcore"},
+        {"weight" : 0.299, "item" : "phasematter"},
+        {"weight" : 0.002, "item" : "ignomeaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "iguarmorPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "hardenedcarapace"},
+		    {"weight" : 0.001, "item" : "iguarmoraf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "lilodonPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "lilodonaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "lumothPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.299, "item" : "staticcell"},
+        {"weight" : 0.299, "item" : "phasematter"},
+        {"weight" : 0.002, "item" : "lumothaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "mandrafloraPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "livingroot"},
+        {"weight" : 0.001, "item" : "mandrafloraaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "miasmopPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.299, "item" : "venomsample"},
+        {"weight" : 0.299, "item" : "livingroot"},
+        {"weight" : 0.001, "item" : "miasmopaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "monopusPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "hardenedcarapace"},
+        {"weight" : 0.001, "item" : "monopusaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "narfinPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "cryonicextract"},
+        {"weight" : 0.001, "item" : "narfinaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "nautileechPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.600, "item" : "phasematter"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "nutmidgelingPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "livingroot"},
+        {"weight" : 0.001, "item" : "nutmidgeaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "oculobPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "venomsample"},
+        {"weight" : 0.001, "item" : "oculobaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "ooglerPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.100, "item" : "leather"},
+        {"weight" : 0.100, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "oogleraf"}
+      ]
+    } ]
+  ],
+
+  "orbidePsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "orbideaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "paraspritePsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "paraspriteaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "paratailPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "leather"},
+        {"weight" : 0.001, "item" : "paratailaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "peblitPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "hardenedcarapace"},
+        {"weight" : 0.001, "item" : "peblitaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "petricubPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "petricubaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "pipkinPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "stickofram"},
+        {"weight" : 0.001, "item" : "pipkinaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "poptopPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "poptopaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "pteropodPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "venomsample"},
+		    {"weight" : 0.001, "item" : "pteropodaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "pulpinPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "cryonicextract"},
+        {"weight" : 0.001, "item" : "pulpinaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "pyromantlePsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "scorchedcore"},
+        {"weight" : 0.001, "item" : "pyromantleaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "quagmuttPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "venomsample"},
+        {"weight" : 0.001, "item" : "guagmuttaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "ringramPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "leather"},
+        {"weight" : 0.001, "item" : "ringramaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "scandroidPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "staticcell"},
+        {"weight" : 0.399, "item" : "stickofram"},
+        {"weight" : 0.001, "item" : "scandroidaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "scaveranPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "rawpoultry"},
+        {"weight" : 0.200, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "scaveranaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "skimbusPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.299, "item" : "cryonicextract"},
+        {"weight" : 0.299, "item" : "phasematter"},
+        {"weight" : 0.002, "item" : "skimbusaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "smoglinPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "scorchedcore"},
+        {"weight" : 0.001, "item" : "smoglinaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "snagglerPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "venomsample"},
+        {"weight" : 0.001, "item" : "snaggleraf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "snauntPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.100, "item" : "venomsample"},
+        {"weight" : 0.100, "item" : "hardenedcarapace"},
+        {"weight" : 0.001, "item" : "snauntaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "spookitPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "phasematter"},
+        {"weight" : 0.001, "item" : "spookitaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "snuffishPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "rawfish"},
+        {"weight" : 0.200, "item" : "cryonicextract"},
+        {"weight" : 0.001, "item" : "snuffishaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "sporgusPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "venomsample"},
+        {"weight" : 0.001, "item" : "sporgusaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "squeemPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "phasematter"},
+        {"weight" : 0.001, "item" : "squeemaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "gosmetPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "phasematter"},
+        {"weight" : 0.001, "item" : "gosmetaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "taroniPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "leather"},
+        {"weight" : 0.001, "item" : "taroniaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "tinticPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "hardenedcarapace"},
+        {"weight" : 0.001, "item" : "tinticaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "toumingoPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "rawpoultry"},
+        {"weight" : 0.200, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "toumingoaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "trictusPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "livingroot"},
+        {"weight" : 0.001, "item" : "trictusaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ]
+    } ]
+  ],
+
+  "triplodPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "staticcell"},
+        {"weight" : 0.399, "item" : "stickofram"},
+        {"weight" : 0.001, "item" : "triplodaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "voltipPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.599, "item" : "staticcell"},
+        {"weight" : 0.001, "item" : "voltipaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "wisperPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "cryonicextract"},
+        {"weight" : 0.399, "item" : "phasematter"},
+        {"weight" : 0.002, "item" : "wisperaf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+
+  "yokatPsiReaping" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.399, "item" : "alienmeat"},
+        {"weight" : 0.200, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "yokataf"},
+        {"weight" : 0.100, "item" : "psiflame"},
+        {"weight" : 0.100, "item" : "psifrost"},
+        {"weight" : 0.100, "item" : "psishock"},
+        {"weight" : 0.100, "item" : "psipoison"}
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

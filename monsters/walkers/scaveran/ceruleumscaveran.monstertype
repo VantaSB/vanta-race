@@ -8,7 +8,7 @@
 
   "animation" : "ceruleumscaveran.animation",
 
-  "dropPools" : [ { "default" : "ceruleumScaveranTreasure", "bow" : "ceruleumScaveranHunting" } ],
+  "dropPools" : [ { "default" : "scaveranTreasure", "bow" : "scaveranHunting", "scythe" : "scaveranPsiReaping" } ],
 
   "baseParameters" : {
     "monsterClass" : "rare",

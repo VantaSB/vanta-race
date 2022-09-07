@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "pulpinTreasure", "bow" : "pulpinHunting", "scythe" : "pulpinPsiReaping" } ] }
+]
