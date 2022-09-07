@@ -1,0 +1,42 @@
+{
+  "objectName" : "bsltype12corneru",
+  "colonyTags" : [],
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Set Piece Background",
+  "shortdescription" : "Set Piece Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+
+  "health" : 2000,
+
+  "inventoryIcon" : "bsltype12corneru.png",
+  "orientations" : [
+    {
+      "image" : "bsltype12corneru.png",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-32, -32],
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    },
+    {
+      "image" : "bsltype12corneru.png",
+      "direction" : "right",
+      "imagePosition" : [-32, -32],
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    }
+  ]
+}

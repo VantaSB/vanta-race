@@ -1,0 +1,33 @@
+{
+  "objectName" : "mmx3type07",
+  "colonyTags" : [],
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Set Piece Background",
+  "shortdescription" : "Set Piece Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+
+  "health" : 2000,
+
+  "inventoryIcon" : "mmx3type07.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "mmx3type07.png", "fullbright" : true },
+        { "image" : "mmx3type07lit.png" }
+      ],
+
+      "imagePosition" : [-32, -16],
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    }
+  ]
+}

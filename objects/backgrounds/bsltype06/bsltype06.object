@@ -17,10 +17,7 @@
   "inventoryIcon" : "bsltype06.png",
   "orientations" : [
     {
-      "imageLayers" : [
-        { "image" : "bsltype06.png", "fullbright" : true },
-        { "image" : "bsltype06lit.png" }
-      ],
+      "image" : "bsltype06.png",
 
       "imagePosition" : [-48, -48],
 
