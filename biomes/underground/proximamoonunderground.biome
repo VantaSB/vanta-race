@@ -2,7 +2,7 @@
   "name" : "proximamoonunderground",
   "friendlyName" : "proximamoonunderground",
 
-  "parallax" : "/parallax/underground/underground1a.parallax",
+  "parallax" : "/parallax/underground/proximaunderground01.parallax",
 
   "mainBlock" : "lightlessrock",
   "subBlocks" : [ "lightlessdirt", "obsidian" ],

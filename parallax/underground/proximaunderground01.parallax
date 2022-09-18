@@ -1,0 +1,27 @@
+{
+  "layers" : [
+    {
+      "kind" : "tile/smoothgreygap",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.2,
+      "repeatY" : true
+    },
+    {
+      "kind" : "tile/proximaunderground01unlit",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.9999999,
+      "repeatY" : true,
+      "unlit" : true
+    },
+    {
+      "kind" : "tile/proximaunderground01",
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 2,
+      "repeatY" : true,
+      "unlit" : false
+    }
+  ]
+}
