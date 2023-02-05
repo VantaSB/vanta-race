@@ -7,7 +7,7 @@ function init()
   if storage.triggered == nil then
     storage.triggered = false
   end
-  self.interval = config.getParameter("interval")
+  self.interval = config.getParameter("interval", 15)
   storage.timer = 0
 end
 
@@ -22,7 +22,7 @@ function update(dt)
     storage.timer = storage.timer - 1
 
     if storage.timer == 0 then
-      animator.setAnimationState("switch", "off", startNew)
+      animator.setAnimationState("switch", "off")
       object.setAllOutputNodes(false)
     end
   end

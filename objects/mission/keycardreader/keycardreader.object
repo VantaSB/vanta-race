@@ -13,6 +13,7 @@
     "bg" : "keycardreader.png",
     "fg" : "keycardreaderlit.png"
   },
+  "animationPosition" : [-8, 0],
 
   "orientations" : [
     {
@@ -37,9 +38,9 @@
   "interval" : 50,
   "openCfg" : null,
 
-  /*"interactData" : {
-    "baseConfig" : "/interface/scripted/vantakeypad/vantakeypadgui.config"
-  },*/
+  "interactData" : {
+    "baseConfig" : "/interface/scripted/keycardreader/keycardreadergui.config"
+  },
 
   "keycardType" : null,
   "requiredLevel" : 0

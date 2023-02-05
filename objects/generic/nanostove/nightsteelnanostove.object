@@ -26,6 +26,9 @@
   "lightColor" : [172, 221, 229],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.1,
+  "pointLight" : true,
+  "pointBeam" : 0,
+  "pointAngle" : 0,
 
   "particleEmitter" : {
     "emissionRate" : 1.0,

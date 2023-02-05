@@ -46,5 +46,10 @@
 
   "outputNodes" : [
     [5, 0]
-  ]
+  ],
+
+  "broadcastArea" : [-5, -5, 5, 5],
+  "useRadioMessages" : false,
+  "radioMessage" : null,
+  "radioMessages" : []
 }

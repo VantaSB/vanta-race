@@ -22,7 +22,7 @@
         { "image" : "bsltype01columnlit.png" }
       ],
 
-      "imagePosition" : [-96, -80],
+      "imagePosition" : [-32, -80],
 
       "renderLayer" : "BackgroundTile-10",
 

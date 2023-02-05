@@ -1,22 +1,20 @@
 {
   "animatedParts" : {
     "stateTypes" : {
-      "base" : {
+      "baseState" : {
         "default" : "off",
         "states" : {
-          "on" : {},
+          "on" : {
+            "mode" : "loop",
+            "properties" : {
+              "persistentSound" : "/sfx/objects/terraformer_small_loop.ogg",
+              "persistentSoundRangeMultiplier" : 0.5,
+              "persistentSoundStopTime" : 0.2
+            }
+          },
           "off" : {}
         }
       },
-
-      "baseLit" : {
-        "default" : "off",
-        "states" : {
-          "on" : {},
-          "off" : {}
-        }
-      },
-
       "orb" : {
         "default" : "off",
         "states" : {
@@ -28,7 +26,6 @@
           }
         }
       },
-
       "portal" : {
         "default" : "closed",
         "states" : {
@@ -58,12 +55,11 @@
       "base" : {
         "properties" : {
           "centered" : false,
-          "fullbright" : true,
-          "zLevel" : 1
+          "fullbright" : true
         },
 
         "partStates" : {
-          "base" : {
+          "baseState" : {
             "on" : {
               "properties" : {
                 "image" : "<partImage>:default.on"
@@ -81,11 +77,11 @@
       "baseLit" : {
         "properties" : {
           "centered" : false,
-          "zLevel" : 2
+          "zLevel" : 1
         },
 
         "partStates" : {
-          "baseLit" : {
+          "baseState" : {
             "on" : {
               "properties" : {
                 "image" : "<partImage>:default.on"
@@ -104,8 +100,8 @@
         "properties" : {
           "centered" : true,
           "fullbright" : true,
-          "zLevel" : -1,
-          "offset" : [7, 15]
+          "zLevel" : 2,
+          "offset" : [7, 5]
         },
 
         "partStates" : {
@@ -129,6 +125,7 @@
         "properties" : {
           "centered" : true,
           "fullbright" : true,
+          "zLevel" : 2,
           "offset" : [7, 15]
         },
 
@@ -156,7 +153,7 @@
   },
 
   "sounds" : {
-    "on" : [],
+    "activate" : ["/sfx/melee/elemental_aura_activate.ogg"],
     "off" : []
   }
 }

@@ -1,0 +1,49 @@
+{
+  "objectName" : "vantaintroshipalt",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "scannable" : false,
+  "printable" : false,
+  "lightColor" : [87, 119, 213],
+
+  "description" : "Your personal ship.",
+  "shortdescription" : "Vanta Ship",
+  "race" : "vanta",
+
+  "keepAlive" : true,
+
+  "inventoryIcon" : "protectorateshipicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "vantaintroshipalt.png:default.<frame>", "fullbright" : true },
+        { "image" : "vantaintroshipaltlit.png:default.<frame>"}
+      ],
+      "imagePosition" : [0, 0],
+      "frames" : 12,
+      "animationCycle" : 1.25,
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "metaBoundBox" : [-10, -30, 10, 30],
+      "anchors" : []
+    },
+
+    {
+      "imageLayers" : [
+        { "image" : "vantaintroshipalt.png:default.<frame>", "fullbright" : true },
+        { "image" : "vantaintroshipaltlit.png:default.<frame>"}
+      ],
+      "imagePosition" : [0, 0],
+      "frames" : 12,
+      "animationCycle" : 1.25,
+
+      "direction" : "right",
+
+      "metaBoundBox" : [-10, -30, 10, 30],
+      "anchors" : []
+    }
+  ]
+}

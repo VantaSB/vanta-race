@@ -40,6 +40,10 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
+  "pointLight" : true,
+  "pointBeam" : 0,
+  "pointAngle" : 0,
+
   "inputNodes" : [ [0, 0] ],
   "interactive" : false,
 

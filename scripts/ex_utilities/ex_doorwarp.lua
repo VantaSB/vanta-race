@@ -29,6 +29,9 @@ function init()
 end
 
 function update(dt)
+  if not self.networkedDoor then
+    checkNodes()
+  end
   if storage.timer > 0 then
     storage.timer = storage.timer - 1
     if storage.timer == 10 and self.sourceId ~= nil then

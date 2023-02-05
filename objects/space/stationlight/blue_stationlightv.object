@@ -35,13 +35,17 @@
 
   "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
   "animationParts" : {
-    "bg" : "stationlightv.png",
-    "fg" : "stationlightvlit.png"
+    "bg" : "blue_stationlightv.png",
+    "fg" : "blue_stationlightvlit.png"
   },
   "animationPosition" : [0, -16],
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
+
+  "pointLight" : true,
+  "pointBeam" : 0,
+  "pointAngle" : 0,
 
   "inputNodes" : [ [0, 0] ],
   "interactive" : false,

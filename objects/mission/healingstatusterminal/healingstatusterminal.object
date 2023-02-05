@@ -1,0 +1,47 @@
+{
+  "objectName" : "healingstatusterminal",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "printable" : false,
+  "category" : "other",
+  "price" : 0,
+  "description" : "A healing terminal.",
+  "shortdescription" : "Healing Terminal",
+  "race" : "generic",
+
+  "inventoryIcon" : "icon.png",
+  "lightColor" : [120, 120, 120],
+
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "healingstatusterminal.png:expire.3", "fullbright" : true },
+        { "image" : "healingstatusterminallit.png:expire.3"}
+      ],
+      "flipImages" : true,
+      "imagePosition" : [-8, -32],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-1, -4], [0, -4], [1, -4], [2, -4] ]
+    }
+  ],
+
+  "scripts" : [ "/objects/mission/healingstatusterminal/statusProjectile.lua" ],
+  "scriptDelta" : 10,
+  "activationTime" : 50,
+  "animation" : "healingstatusterminal.animation",
+  "animationParts" : {
+    "bg" : "healingstatusterminal.png",
+    "fg" : "healingstatusterminallit.png"
+  },
+  "animationPosition" : [-8, -32],
+
+  "projectileOptions" : [
+    {
+      "projectileType" : "healingstatusprojectile",
+      "projectileParams" : { }
+    }
+  ]
+}

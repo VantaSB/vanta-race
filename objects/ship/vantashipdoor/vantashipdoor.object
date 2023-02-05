@@ -53,7 +53,7 @@
   },
   "animationPosition" : [-20, 0],
 
-  "inputNodes" : [ [-1, 4] ],
+  "inputNodes" : [ [-1, 4], [0, 4] ],
   "outputNodes" : [ [0, 0] ],
 
   "uniqueId" : null

@@ -21,6 +21,9 @@
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
   "flickerTiming" : 4,
+  "pointLight" : true,
+  "pointBeam" : 0,
+  "pointAngle" : 0,
 
   "particleEmitter" : {
     "emissionRate" : 3,

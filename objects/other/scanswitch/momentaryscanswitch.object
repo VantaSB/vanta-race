@@ -24,5 +24,7 @@
   "scripts" : [ "/objects/wired/switch/momentaryscanswitch.lua" ],
   "scriptDelta" : 15,
 
-  "outputNodes" : [ [1, 0] ]
+  "outputNodes" : [ [1, 0] ],
+
+  "interval" : 60
 }
