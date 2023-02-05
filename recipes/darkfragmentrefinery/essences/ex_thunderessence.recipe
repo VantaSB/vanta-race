@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "darkessence", "count" : 1 },
-    { "item" : "cryonicextract", "count" : 2 }
+    { "item" : "staticcell", "count" : 2 }
   ],
-  "output" : { "item" : "frostessence", "count" : 1 },
+  "output" : { "item" : "ex_thunderessence", "count" : 1 },
   "groups" : [ "darkfragmentrefinery", "essences", "all" ]
 }

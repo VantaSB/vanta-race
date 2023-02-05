@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkessence", "count" : 10 },
-    { "item" : "venomsample", "count" : 2 }
-  ],
-  "output" : { "item" : "poisonessence", "count" : 10 },
-  "groups" : [ "vantaanvil1", "vantaingredients", "all" ]
-}

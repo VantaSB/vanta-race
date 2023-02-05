@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "fireessence", "count" : 2 },
+    { "item" : "ex_flameessence", "count" : 2 },
     { "item" : "diamond", "count" : 1 },
     { "item" : "nightsteelbar", "count" : 1 }
   ],

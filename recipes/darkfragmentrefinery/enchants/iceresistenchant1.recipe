@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "frostessence", "count" : 2 },
+    { "item" : "ex_frostessence", "count" : 2 },
     { "item" : "diamond", "count" : 1 },
     { "item" : "nightsteelbar", "count" : 1 }
   ],

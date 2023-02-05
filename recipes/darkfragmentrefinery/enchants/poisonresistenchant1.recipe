@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "poisonessence", "count" : 2 },
+    { "item" : "ex_poisonessence", "count" : 2 },
     { "item" : "diamond", "count" : 1 },
     { "item" : "nightsteelbar", "count" : 1 }
   ],
