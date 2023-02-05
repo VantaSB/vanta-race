@@ -1,0 +1,9 @@
+{
+  "name" : "ex_fogblur",
+
+  "effectConfig" : {},
+
+  "defaultDuration" : 0.25,
+
+  "scripts" : [ "ex_fogblur.lua" ]
+}

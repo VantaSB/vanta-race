@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 12 },
+    { "item" : "vantatier5mhead", "count" : 1 }
+  ],
+
+  "duration" : 5,
+  "output" : { "item" : "vantatier6mhead", "count" : 1 },
+  "groups" : [ "vantamanipulator", "armours", "all" ]
+}

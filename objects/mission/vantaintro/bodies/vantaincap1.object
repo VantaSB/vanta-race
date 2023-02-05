@@ -1,0 +1,30 @@
+{
+  "objectName" : "vantaincap1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "A cadaver...",
+  "shortdescription" : "Vanta Researcher Body",
+  "race" : "vanta",
+
+  "objectType" : "container",
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vantaincap1.png",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1
+    }
+  ]
+}

@@ -1,7 +1,6 @@
 {
   "input" : [
     { "item" : "liquidceruleum", "count" : 2 },
-    { "item" : "darkessence", "count" : 10 },
     { "item" : "nightsteelbar", "count" : 2 }
   ],
   "duration" : 5,

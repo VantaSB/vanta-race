@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 4 },
+    { "item" : "leather", "count" : 1 },
+    { "item" : "syntheticmaterial", "count" : 1 }
+  ],
+
+  "duration" : 5,
+  "output" : { "item" : "vantatier5spants", "count" : 1 },
+  "groups" : [ "vantaseparator", "armours", "all" ]
+}

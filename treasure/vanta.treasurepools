@@ -42,8 +42,8 @@
   "ceruleumSmoglinTreasure" : [
     [1, {
       "pool" : [
-        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
-        {"weight" : 0.200, "item" : "psifrost"},
+        {"weight" : 0.999, "pool" : "basicMonsterTreasure"},
+        //{"weight" : 0.200, "item" : "psifrost"},
         {"weight" : 0.001, "item" : "smoglinaf"}
       ],
       "poolRounds" : [
@@ -57,8 +57,8 @@
   "ceruleumPteropodTreasure" : [
     [1, {
       "pool" : [
-        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
-        {"weight" : 0.200, "item" : "psipoison"},
+        {"weight" : 0.999, "pool" : "basicMonsterTreasure"},
+        //{"weight" : 0.200, "item" : "psipoison"},
         {"weight" : 0.001, "item" : "pteropodaf"}
       ],
       "poolRounds" : [
@@ -72,8 +72,8 @@
   "ceruleumScaveranTreasure" : [
     [1, {
       "pool" : [
-        {"weight" : 0.799, "pool" : "flyingMonsterTreasure"},
-        {"weight" : 0.200, "item" : "psiflame"},
+        {"weight" : 0.999, "pool" : "flyingMonsterTreasure"},
+        //{"weight" : 0.200, "item" : "psiflame"},
         {"weight" : 0.001, "item" : "scaveranaf"}
       ],
       "poolRounds" : [
@@ -87,8 +87,8 @@
   "ceruleumMonopusTreasure" : [
     [1, {
       "pool" : [
-        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
-        {"weight" : 0.200, "item" : "psishock"},
+        {"weight" : 0.999, "pool" : "basicMonsterTreasure"},
+        //{"weight" : 0.200, "item" : "psishock"},
         {"weight" : 0.001, "item" : "monopusaf"}
       ],
       "poolRounds" : [

@@ -1,0 +1,24 @@
+{
+  "itemName" : "focusmight3",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "headenchant",
+  "category" : "headEnchant",
+  "inventoryIcon" : "might.png",
+  "description" : "Slightly increases overall strength.",
+  "shortdescription" : "Focus Might III",
+
+  "augment" : {
+    "type" : "focusgem",
+    "name" : "focusmight3",
+    "displayName" : "Focus Might III",
+    "displayIcon" : "/items/augments/focusgems/might.png",
+    "effects" : [
+      {"stat" : "powerMultiplier", "amount" : 1.30}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

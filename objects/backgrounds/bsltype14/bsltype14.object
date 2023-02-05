@@ -1,0 +1,45 @@
+{
+  "objectName" : "bsltype14",
+  "colonyTags" : [],
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Set Piece Background",
+  "shortdescription" : "Set Piece Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+
+  "health" : 2000,
+
+  "inventoryIcon" : "bsltype14.png",
+  "orientations" : [
+    {
+      "image" : "bsltype14.png",
+      "imagePosition" : [-40, -16],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    },
+
+    {
+      "image" : "bsltype14.png",
+      "imagePosition" : [-40, -16],
+
+      "direction" : "right",
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    }
+  ]
+}

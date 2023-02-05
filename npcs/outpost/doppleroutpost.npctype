@@ -37,78 +37,16 @@
       "chat" : false
     },
 
-    "questGenerator" : { "pools" : [], "enableParticipation" : false },
-
-    "chatSounds" : {
-      "avian" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ]
-      },
-      "apex" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ]
-      },
-      "floran" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ]
-      },
-      "glitch" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ]
-      },
-      "human" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ]
-      },
-      "hylotl" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ]
-      },
-      "default" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_female2.ogg"
-        ]
-      }
-    },
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
 
     "dialog" : {
       "converse" : {
         "default" : {
           "default" : [
-            "I oversee the R&D operations here. If you come across any old weapons or artifacts, let me know and I'll make sense of them as I can."
-          ]
-        },
-
-        "vanta" : {
-          "default" : [
-            "I oversee the R&D operations here. If you come across any old weapons or artifacts, let me know and I'll make sense of them as I can."
+            "I oversee the R&D operations here. If you come across any strange weapons or artifacts, bring them here and we'll work out what details we can.",
+            "Are you familiar with the tech scientist, Elliott? He was kind enough to furnish us with our own tech lab. Needless to say, it's been a godsend.",
+            "Feel free to stop by and manage your techs or peruse our library. Well, with what little information we have, anyways."
           ]
         }
       }
@@ -120,8 +58,8 @@
       [0, [
           {
             "head" : [ { "name" : "vantacommandvisorhead" } ],
-            "chest" : [ { "name" : "vantatier6achest" } ],
-            "legs" : [ { "name" : "vantatier6apants" } ]
+            "chest" : [ { "name" : "didactchest" } ],
+            "legs" : [ { "name" : "didactpants" } ]
           }
         ]
       ]

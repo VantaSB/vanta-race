@@ -1,0 +1,65 @@
+{
+  "objectName" : "impoundclamp",
+  "colonyTags" : [ "nightar", "vanta", "door" ],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 0,
+  "printable" : false,
+  "description" : "A large magnetic clamp used for impounding small ships.",
+  "shortdescription" : "Impound Clamp",
+  "race" : "generic",
+
+  "scannable" : false,
+  /*"apexDescription" : "A spaceship door.",
+  "avianDescription" : "A spaceship door.",
+  "floranDescription" : "Ssspaceship door.",
+  "glitchDescription" : "Proud. A ship door.",
+  "humanDescription" : "Cool door.",
+  "hylotlDescription" : "A basic ship door.",
+  "novakidDescription" : "A door.",*/
+
+
+  "inventoryIcon" : "impoundclamp.png:default",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "impoundclamp.png:default" },
+        { "image" : "impoundclamplit.png:default", "fullbright" : true }
+      ],
+      "imagePosition" : [-32, -48],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/ex_door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/fullbrightdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "bg" : "impoundclamp.png",
+    "fg" : "impoundclamplit.png",
+    "door" : "impoundclamp.png"
+  },
+  "animationPosition" : [-32, -48],
+
+  "inputNodes" : [ [-4, 12] ],
+  "outputNodes" : [ [0, 3] ],
+
+  "uniqueId" : null
+}

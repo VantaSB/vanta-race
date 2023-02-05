@@ -1,0 +1,130 @@
+{
+  "verticalOrigin" : -10,
+
+  "layers" : [
+    {
+      "kind" : "ex_void",
+      "baseCount" : 1,
+      "offset" : [0, 200],
+      "parallax" : 80,
+      "minSpeed" : 300000,
+      "maxSpeed" : 300000,
+      "repeatY" : true,
+      "directives" : "?scale=0.65"
+    },
+    {
+      "kind" : "ex_voidunlit",
+      "baseCount" : 1,
+      "offset" : [0, 200],
+      "parallax" : 70,
+      "minSpeed" : 300000,
+      "maxSpeed" : 300000,
+      "repeatY" : true,
+      "unlit" : true,
+      "directives" : "?scale=0.65"
+    },
+    {
+      "kind" : "ex_voidunlit",
+      "baseCount" : 1,
+      "offset" : [250, 60],
+      "parallax" : 71,
+      "minSpeed" : 550000,
+      "maxSpeed" : 550000,
+      "repeatY" : true,
+      "unlit" : true,
+      "directives" : "?scale=0.75;?setcolor=86B9BC"
+    },
+    {
+      "kind" : "ex_voidunlit",
+      "baseCount" : 1,
+      "offset" : [0, 95],
+      "parallax" : 72,
+      "minSpeed" : 150000,
+      "maxSpeed" : 150000,
+      "repeatY" : true,
+      "unlit" : true,
+      "directives" : "?setcolor=2B5B5D"
+    },
+    {
+      "kind" : "ex_voidunlit",
+      "baseCount" : 1,
+      "offset" : [250, 400],
+      "parallax" : 73,
+      "minSpeed" : 300000,
+      "maxSpeed" : 300000,
+      "repeatY" : true,
+      "unlit" : true,
+      "directives" : "?scale=0.65"
+    },
+    {
+      "kind" : "ex_voidunlit",
+      "baseCount" : 1,
+      "offset" : [0, 260],
+      "parallax" : 74,
+      "minSpeed" : 550000,
+      "maxSpeed" : 550000,
+      "repeatY" : true,
+      "unlit" : true,
+      "directives" : "?scale=0.75;?setcolor=86B9BC"
+    },
+    {
+      "kind" : "ex_voidunlit",
+      "baseCount" : 1,
+      "offset" : [250, 295],
+      "parallax" : 75,
+      "minSpeed" : 150000,
+      "maxSpeed" : 150000,
+      "repeatY" : true,
+      "unlit" : true,
+      "directives" : "?setcolor=2B5B5D"
+    },
+    {
+      "kind" : "ex_voidstorm",
+      "baseCount" : 1,
+      "offset" : [0, 240],
+      "parallax" : 76,
+      "minSpeed" : 3000000,
+      "maxSpeed" : 3000000,
+      //"fadePercent" : 0.0,
+      "repeatY" : true,
+      "unlit" : true,
+  	  "directives" : "?setcolor=2B5B5D"
+    },
+    {
+      "kind" : "ex_voidstorm",
+      "baseCount" : 1,
+      "offset" : [0, 63],
+      "parallax" : 69,
+      "minSpeed" : -2500000,
+      "maxSpeed" : -2500000,
+      //"fadePercent" : 0.0,
+      "repeatY" : true,
+      "unlit" : true,
+  	  "directives" : "?setcolor=2B5B5D"
+    },
+    {
+      "kind" : "ex_voidstorm",
+      "baseCount" : 1,
+      "offset" : [0, 128],
+      "parallax" : 69,
+      "minSpeed" : -9000000,
+      "maxSpeed" : -9000000,
+      //"fadePercent" : 0.0,
+      "repeatY" : true,
+      "unlit" : true,
+  	  "directives" : "?setcolor=B9F5C8"
+    },
+    {
+      "kind" : "ex_voidstorm",
+      "baseCount" : 1,
+      "offset" : [0, 45],
+      "parallax" : 69,
+      "minSpeed" : 6000000,
+      "maxSpeed" : 6000000,
+      //"fadePercent" : 0.0,
+      "repeatY" : true,
+      "unlit" : true,
+  	  "directives" : "?setcolor=B9F5C8"
+    }
+  ]
+}

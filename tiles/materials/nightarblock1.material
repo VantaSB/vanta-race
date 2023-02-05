@@ -4,8 +4,8 @@
   "particleColor" : [110, 110, 110, 255],
   "itemDrop" : "nightarblock1",
   "description" : "A black block made of unknown materials.",
-  "shortdescription" : "Nightar Black Block",
-  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "shortdescription" : "Nightsteel Black Composite",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
   "health" : 20,
   "category" : "materials",
 
@@ -16,6 +16,6 @@
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 2690
+    "zLevel" : 1
   }
 }

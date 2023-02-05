@@ -1,0 +1,42 @@
+{
+  "objectName" : "ceruleumtube",
+  "colonyTags" : ["vanta","nightar"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 0,
+  "lightColor" : [12, 142, 144],
+  "description" : "A tube of concentrated ceruleum that is susceptible to violent explosions when ruptured.",
+  "shortdescription" : "Ceruleum Tube",
+  "race" : "generic",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "ceruleumtube.png:<frame>", "fullbright" : true },
+        { "image" : "ceruleumtubelit.png:<frame>" }
+      ],
+      "imagePosition" : [0, -24],
+      "frames" : 4,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ],
+      "direction" : "right"
+    }
+  ],
+
+  "outputNodes" : [ [0, 1] ],
+
+  "smashable" : true,
+  "smashOnBreak" : false,
+  "smashSounds" : [ "/sfx/gun/grenadeblast1.ogg", "/sfx/gun/grenadeblast2.ogg", "/sfx/gun/grenadeblast3.ogg" ],
+  "smashDropPool" : "empty",
+
+  "scripts" : [
+    "/objects/wired/ceruleumtube/ceruleumtube.lua"
+  ],
+  "explosionProjectile" : "ceruleumplasmaexplosion",
+  "explosionOffset" : [0, 2]
+}

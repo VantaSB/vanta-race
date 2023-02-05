@@ -1,0 +1,13 @@
+{
+  "projectileName" : "voidrain",
+  "image" : "voidrain.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "power" : 0.0,
+  "lightColor" : [131, 172, 168],
+  "emitters" : [ "sparks" ],
+  "onlyHitTerrain" : true,
+  "hydrophobic" : true
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "op" : "add",
+    "path" : "/-",
+    "value" : {
+      "name" : "ex_invisibleplatform",
+      "materialId" : 65100,
+      "collisionKind" : "platform",
+      "blocksLiquidFlow" : false
+    }
+  }
+]

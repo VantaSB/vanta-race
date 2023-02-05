@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "agrobatTreasure", "bow" : "agrobatHunting", "scythe" : "agrobatPsiReaping" } ] }
+]

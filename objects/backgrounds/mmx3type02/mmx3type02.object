@@ -2,7 +2,7 @@
   "objectName" : "mmx3type02",
   "colonyTags" : [],
   "rarity" : "Common",
-  "lightColor" : [126, 230, 206],
+  "lightColor" : [185, 245, 200],
 
   "category" : "decorative",
   "price" : 0,
@@ -18,8 +18,8 @@
   "orientations" : [
     {
       "imageLayers" : [
-        { "image" : "mmx3type02.png", "fullbright" : true },
-        { "image" : "mmx3type02lit.png" }
+        { "image" : "mmx3type02.png" },
+        { "image" : "mmx3type02lit.png", "fullbright" : true }
       ],
 
       "direction" : "left",
@@ -36,8 +36,8 @@
 
     {
       "imageLayers" : [
-        { "image" : "mmx3type02.png", "fullbright" : true },
-        { "image" : "mmx3type02lit.png" }
+        { "image" : "mmx3type02.png" },
+        { "image" : "mmx3type02lit.png", "fullbright" : true }
       ],
 
       "direction" : "right",

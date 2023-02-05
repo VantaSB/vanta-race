@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 2 },
+    { "item" : "darkfragmentore", "count" : 1 }
+  ],
+  "output" : { "item" : "temporaldrift", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "temporalshards", "all" ]
+}

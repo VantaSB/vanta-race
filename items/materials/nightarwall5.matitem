@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightarwall5",
+  "price" : 15,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nightarwall5icon.png",
+  "description" : "Reinforced wall panels made of unknown materials.",
+  "shortdescription" : "Nightar Wall Paneling",
+
+  "materialId" : 3224
+}

@@ -1,0 +1,50 @@
+{
+  "objectName" : "blueshiplight",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "description" : "Strip lighting, for use on a spaceship.",
+  "shortdescription" : "Blue Ship Light",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 45,
+  "lightColor" : [36, 100, 212],
+
+  "apexDescription" : "Lights.",
+  "avianDescription" : "Lights.",
+  "floranDescription" : "Bright lightss.",
+  "glitchDescription" : "Observative. Lights.",
+  "humanDescription" : "Lights.",
+  "hylotlDescription" : "Lights.",
+  "novakidDescription" : "Just some lights.",
+  "vantaDescription" : "A blue light.",
+
+  "inventoryIcon" : "blueshiplight.png:default.on",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "blueshiplight.png:<color>.<frame>", "fullbright" : true }, { "image" : "blueshiplightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "blueshiplight.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "pointLight" : true,
+  "pointBeam" : 0,
+  "pointAngle" : 0,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

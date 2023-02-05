@@ -8,7 +8,7 @@
 
   "animation" : "ceruleummonopus.animation",
 
-  "dropPools" : [ { "default" : "ceruleumMonopusTreasure", "bow" : "ceruleumMonopusHunting" } ],
+  "dropPools" : [ { "default" : "monopusTreasure", "bow" : "monopusHunting", "scythe" : "monopusPsiReaping" } ],
 
   "baseParameters" : {
     "scripts" : [

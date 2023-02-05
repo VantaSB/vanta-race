@@ -1,0 +1,53 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "switch" : {
+        "default" : "off",
+        "states" : {
+          "on" : {},
+          "off" : {
+            "frames" : 4,
+            "cycle" : 1,
+            "mode" : "loop"
+          },
+          "switching" : {
+            "frames" : 3,
+            "cycle" : 0.65,
+            "mode" : "transition",
+            "transition" : "on"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "switch" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "switch" : {
+            "off" : {
+              "properties" : {
+                "image" : "scanswitch.png:off.<frame>"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "scanswitch.png:default.off"
+              }
+            },
+
+            "switching" : {
+              "properties" : {
+                "image" : "scanswitch.png:switching.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

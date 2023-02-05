@@ -1,0 +1,32 @@
+{
+  "objectName" : "wallmachine01",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "printable" : false,
+  "scannable" : false,
+  "description" : "...",
+  "shortdescription" : "Prop Piece",
+  "race" : "generic",
+
+  "inventoryIcon" : "wallmachine01.png",
+
+  "orientations" : [
+    {
+      "image" : "wallmachine01.png",
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    },
+    {
+      "image" : "wallmachine01.png",
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ]
+}

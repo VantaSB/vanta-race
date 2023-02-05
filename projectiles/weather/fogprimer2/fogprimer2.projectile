@@ -1,0 +1,13 @@
+{
+  "projectileName" : "fogprimer2",
+  "image" : "fogprimer2.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [ ],
+
+  "onlyHitTerrain" : true,
+  "power" : 0.0,
+  "damageKind" : "default"
+}

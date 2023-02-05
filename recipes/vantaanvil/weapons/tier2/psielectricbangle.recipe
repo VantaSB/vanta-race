@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "nightsteelbar", "count" : 2 },
+    { "item" : "psishock", "count" : 2 },
+    { "item" : "ceruleumsolution", "count" : 1 }
+  ],
+  "output" : { "item" : "psielectricbangle", "count" : 1 },
+  "groups" : [ "vantaanvil1", "weapons", "all" ]
+}

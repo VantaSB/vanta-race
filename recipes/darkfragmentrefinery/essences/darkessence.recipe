@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "darkfragmentore", "count" : 2 }
+  ],
+  "output" : { "item" : "darkessence", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "essences", "all" ]
+}

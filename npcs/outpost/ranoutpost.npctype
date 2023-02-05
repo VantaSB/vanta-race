@@ -35,8 +35,6 @@
       "chat" : false
     },
 
-    "questGenerator" : { "pools" : [], "enableParticipation" : false },
-
     "offeredQuests" : [
       //"gunblade"
     ],
@@ -44,65 +42,6 @@
     "turnInQuests" : [
       //"gunblade"
     ],
-
-    "chatSounds" : {
-      "avian" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "apex" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "floran" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "glitch" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "human" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "hylotl" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "default" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      }
-    },
 
     "dialog" : {
       "converse" : {
@@ -119,9 +58,9 @@
     "override" : [
       [0, [
           {
-            "chest" : [ { "name" : "vantatier4chest" } ],
-            "back" : [ { "name" : "nightarcapeback" } ],
-            "legs" : [ { "name" : "vantatier4pants" } ]
+            "chest" : [ { "name" : "vantatier6schest" } ],
+            "legs" : [ { "name" : "vantatier6spants" } ],
+            "back" : [ { "name" : "vantacapeback" } ]
           }
         ] ]
     ]

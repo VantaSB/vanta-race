@@ -7,7 +7,7 @@
   "printable" : false,
 
   "description" : "A personal transport ship manufactured by the Nightar.",
-  "shortdescription" : "Nightar Shuttle",
+  "shortdescription" : "Escape Ship",
   "race" : "vanta",
 
   "apexDescription" : "A space ship! This is my way out!",
@@ -25,7 +25,7 @@
   "orientations" : [
     {
       "image" : "vantaintroship.png",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-288, -80],
 
       "metaBoundBox" : [-20, -10, 20, 10],
       "anchors" : []

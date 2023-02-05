@@ -6,6 +6,6 @@
   "duration" : 2.0,
   "steps" : [
     // body, frontArm, backArm, headOffset, frontArmOffset, backArmOffset
-    [ "swim.2", "rotation", "idle.1", [0, -1], [0, -1], [0, 0] ]
+    [ null, "rotation", "idle.1", [0, -1], [0, -1], [0, 0] ]
   ]
 }

@@ -1,37 +1,23 @@
 [
-  {
-    "op" : "add",
-    "path" : "/deploymentConfig/scripts/-",
-    "value" : "/scripts/ex_utilities/hfcodex/RemotePlayer.lua"
-  },
+  //add species
+  [{ "op" : "add", "path" : "/species/-", "value" : "vanta" }],
 
-  {
-    "op" : "add",
-    "path" : "/deploymentConfig/scripts/-",
-    "value" : "/scripts/ex_utilities/ex_player_init.lua"
-  },
+  //starter codexes
+  [{ "op" : "add", "path" : "/defaultCodexes/vanta", "value" : [ "vantahistory01","vantahistory02","vantahistory03" ] }],
 
-  {
-    "op" : "add",
-    "path" : "/species/-",
-    "value" : "vanta"
-  },
+  //deployment config
 
-  {
-    "op" : "add",
-    "path" : "/defaultCodexes/vanta",
-    "value" : [ "vantahistory01","vantahistory02","vantahistory03","vantahistory04","vantamissive","vantaplea" ]
-  },
+      //custom player init functions
+  [{ "op" : "add", "path" : "/deploymentConfig/scripts/-", "value" : "/scripts/ex_utilities/ex_player_init.lua" }],
+  [{ "op" : "add", "path" : "/deploymentConfig/scripts/-", "value" : "/scripts/ex_utilities/hfcodex/RemotePlayer.lua" }],
 
-  {
-    "op" : "add",
-    "path" : "/companionsConfig/uniformSlots/head",
-    "value" : [ "headCosmetic", "head" ]
-  },
+      //starter mech body
+  [{ "op" : "add", "path" : "/deploymentConfig/speciesStarterMechBody/vanta", "value" : "mechbodyhumanproto" }],
 
-  {
-    "op" : "add",
-    "path" : "/defaultBlueprints/tier1/-",
-    "value" : { "item" : "portablemonitor" }
-  }
+  //companions config
+      //uniform slots
+  [{ "op" : "add", "path" : "/companionsConfig/uniformSlots/head", "value" : [ "headCosmetic", "head" ] }],
+
+  //add a default blueprint
+  [{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "portablemonitor" } }]
 ]

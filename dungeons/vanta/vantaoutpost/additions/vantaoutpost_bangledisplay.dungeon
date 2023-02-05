@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "vantaoutpost_bangledisplay",
+    "species" : "generic",
+    "rules" : [],
+
+    "anchor" : [ "vantaoutpost_bangledisplay" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "vantaoutpost_bangledisplay",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "vantaoutpost_bangledisplay.json" ]
+    }
+  ]
+}

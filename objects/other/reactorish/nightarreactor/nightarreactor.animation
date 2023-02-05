@@ -81,7 +81,7 @@
                 "lights" : {
                   "orb" : {
                     "active" : true,
-                    "position" : [5, 11],
+                    "position" : [0, 11],
                     "color" : [130, 217, 232],
                     "pointLight" : false
                   }

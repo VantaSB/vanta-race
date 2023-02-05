@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumore", "count" : 1 },
+    { "item" : "darkessence", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : { "item" : "ceruleumink3", "count" : 1 },
+  "groups" : [ "vantaanvil1", "vantaingredients", "all" ]
+}

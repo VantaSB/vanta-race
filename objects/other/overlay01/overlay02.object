@@ -1,0 +1,56 @@
+{
+  "objectName" : "overlay02",
+  "colonyTags" : [],
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Doubles as a caller and stopper of rail trams",
+  "shortdescription" : "Decorative Overlay",
+  "race" : "generic",
+
+  "inventoryIcon" : "overlay02.png:default.off",
+
+  "orientations" : [
+    {
+      "image" : "overlay02.png:default.off",
+      "imagePosition" : [-24, -8],
+      "renderLayer" : "Player+10",
+
+      "materialSpaces" : [
+        [[-3, 0], "metamaterial:ex_invisibleplatform"],
+        [[-2, 0], "metamaterial:ex_invisibleplatform"],
+        [[-1, 0], "metamaterial:ex_invisibleplatform"],
+        [[0, 0], "metamaterial:rail"],
+        [[1, 0], "metamaterial:ex_invisibleplatform"],
+        [[2, 0], "metamaterial:ex_invisibleplatform"],
+        [[3, 0], "metamaterial:ex_invisibleplatform"]
+      ],
+
+      "fgAnchors" : [
+        [-3, 1], [-2, 1], [-1, 1], [1, 1], [2, 1], [3, 1],
+        [-3, 0], [-2, 0], [-1, 0], [1, 0], [2, 0], [3, 0],
+        [-3, -1], [-2, -1], [-1, -1], [1, -1], [2, -1], [3, -1]
+      ],
+      "bgAnchors" : [[0, 0]],
+      "anchorAny" : true,
+
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "tramstop.animation",
+  "animationParts" : {
+    "stop" : "overlay02.png",
+    "stopfullbright" : "overlay02lit.png"
+  },
+  "animationPosition" : [-24, -8],
+
+  "scripts" : [
+    "/objects/other/overlay01/tramstop.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "inputNodes" : [ [0, 0], [0, 1] ],
+  "outputNodes" : [ [0, -1] ]
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "poisonresistenchant3",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "armorenchant",
+  "category" : "armorEnchant",
+  "inventoryIcon" : "poisonenchant.png",
+  "description" : "Adds 75% ^green;poison^reset; resistance to your armor and grants immunity from toxic infection.",
+  "shortdescription" : "Poison Resistance III",
+
+  "augment" : {
+    "type" : "enchant",
+    "name" : "poisonresistenchant3",
+    "displayName" : "Poison Resistance III",
+    "displayIcon" : "/items/augments/enchants/poisonenchant.png",
+    "effects" : [
+      {"stat" : "poisonResistance", "amount" : 0.75},
+      {"stat" : "poisonStatusImmunity", "amount" : 1}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

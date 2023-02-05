@@ -1,0 +1,38 @@
+{
+  "id" : "vantaspheretech1",
+  "prerequisites" : [ "techscientist6", "hylotl_mission2", "stealthtech2" ],
+  "title" : "^orange;Ballin' On A Budget",
+  "text" : "Ah, it's you again! I had a moment of brilliance; I've found a way to add some offensive capability to your Distortion Sphere. Can you bring me ^orange;5 diamonds^reset;? It may seem trivial, but diamonds actually help with the energy refraction needed for this module.",
+  "completionText" : "Perfect! I've gone ahead and added the new module to your tech roster. If you happen to run into a tunnel with blockage on a mission or something, you can use that to clear it out!",
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "questGiverIndicator" : "vanta_questgiver",
+  "questReceiverIndicator" : "vanta_questreceiver",
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/ex_main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "qeustReceiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Doppler^reset; at ^orange;Ran's base",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "diamond",
+        "count" : 5,
+        "consume" : true
+      }
+    ],
+
+    "equipTech" : [
+      "vantasphere"
+    ]
+  }
+}

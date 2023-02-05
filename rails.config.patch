@@ -6,5 +6,32 @@
       "friction" : 1.0,
       "speedLimit" : 60
     }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/ex_invisiblerail",
+    "value" : {
+      "friction" : 1.0,
+      "speedlimit" : 15
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/ex_invisiblerailmed",
+    "value" : {
+      "friction" : 1.0,
+      "speedlimit" : 10
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/ex_invisiblerailslow",
+    "value" : {
+      "friction" : 1.0,
+      "speedlimit" : 5
+    }
   }
 ]

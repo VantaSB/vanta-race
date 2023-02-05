@@ -9,7 +9,7 @@ require "/scripts/companions/capturable.lua"
 require "/scripts/tenant.lua"
 require "/scripts/actions/movement.lua"
 require "/scripts/actions/animator.lua"
-require "/scripts/vantastealthintercept.lua"
+require "/scripts/ex_utilities/ex_stealthintercept.lua"
 
 -- Engine callback - called on initialization of entity
 function init()

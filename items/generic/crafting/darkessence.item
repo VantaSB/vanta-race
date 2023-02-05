@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "craftingMaterial",
   "inventoryIcon" : "darkessence.png",
-  "description" : "Energy extracted from Dark Fragments that has various applications.",
+  "description" : "A powder that has the ability to transmutate.",
   "shortdescription" : "Dark Essence",
   "itemTags" : [ "reagent" ]
 }

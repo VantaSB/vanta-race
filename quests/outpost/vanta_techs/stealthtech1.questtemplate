@@ -1,0 +1,35 @@
+{
+  "id" : "stealthtech1",
+  "prerequisites" : [ "techscientist2", "human_mission1", "conclaveintro" ],
+  "title" : "^orange;A Shadow By Any Other Name",
+
+  "text" : "Hello there. Are you familiar with the researcher Elliott? He's been very instrumental in helping us advance our own technologies. Our unique physiology has prompted us to explore what you would call 'psionic' abilities, and we've recently come up with a blueprint that helps draw on our latent traits. If you've got some ^oranage;dark fragments^reset; to spare, we can put it to the test. About ^orange;10^reset should suffice.",
+  "completionText" : "Excellent; we can begin with trials. I'm anxious to see how it works! Talk to me again when you're ready!",
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "questGiverIndicator" : "vanta_questgiver",
+  "questReceiverIndicator" : "vanta_questreceiver",
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/ex_main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "qeustReceiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Doppler^reset; at ^orange;Ran's Base^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "darkfragmentore",
+        "count" : 10,
+        "consume" : true
+      }
+    ]
+  }
+}

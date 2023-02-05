@@ -1,0 +1,25 @@
+{
+  "itemName" : "iceresistenchant3",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "armorenchant",
+  "category" : "armorEnchant",
+  "inventoryIcon" : "iceenchant.png",
+  "description" : "Adds 75% ^cyan;ice^reset; resistance to your armor and grants immunity from freezing.",
+  "shortdescription" : "Ice Resistance III",
+
+  "augment" : {
+    "type" : "enchant",
+    "name" : "iceresistenchant3",
+    "displayName" : "Ice Resistance III",
+    "displayIcon" : "/items/augments/enchants/iceenchant.png",
+    "effects" : [
+      {"stat" : "iceResistance", "amount" : 0.75},
+      {"stat" : "iceStatusImmunity", "amount" : 1}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

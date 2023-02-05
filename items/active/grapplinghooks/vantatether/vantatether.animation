@@ -23,6 +23,6 @@
   },
 
   "sounds" : {
-    "fire" : ["/sfx/weapons/protopistol.ogg"]
+    "fire" : ["/sfx/gun/mech_splitshot2.ogg"]
   }
 }

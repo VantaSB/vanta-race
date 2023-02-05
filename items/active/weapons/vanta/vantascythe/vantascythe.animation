@@ -27,6 +27,24 @@
             "cycle" : 0.1,
             "mode" : "transition",
             "transition" : "idle"
+          },
+          "fire4" : {
+            "frames": 3,
+            "cycle": 0.5,
+            "mode": "transition",
+            "transition": "idle",
+            "properties": {
+              "persistentSound": "/sfx/melee/spear_twirl_loop.ogg"
+            }
+          },
+          "fire5" : {
+            "frames": 1,
+            "cycle": 0.5,
+            "mode": "transition",
+            "transition": "idle",
+            "properties": {
+              "persistentSound": "/sfx/melee/spear_twirl_loop.ogg"
+            }
           }
         }
       }
@@ -37,7 +55,19 @@
         "properties" : {
           "zLevel" : 0,
           "centered" : true,
-          "image" : "<partImage><paletteSwaps>?<directives>?<bladeDirectives>",
+          "image" : "<partImage>",
+          "offset" : [0, 1.875],
+          "transformationGroups" : ["weapon"],
+          "rotationCenter" : [0, 0],
+          "damageArea" : [ [-0.7, -1.0], [-0.7, 2.5], [0.5, 2.5], [0.5, -1.0] ]
+        }
+      },
+      "bladeFullbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "fullbright" : true,
+          "image" : "<partImage>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0],
@@ -48,11 +78,21 @@
         "properties" : {
           "zLevel" : 1,
           "centered" : true,
-          "fullbright" : true,
-          "image" : "<partImage><paletteSwaps>?<directives>",
+          "image" : "<partImage>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0]
+        },
+        "handleFullbright" : {
+          "properties" : {
+            "zLevel" : 0,
+            "centered" : true,
+            "fullbright" : true,
+            "image" : "<partImage>",
+            "offset" : [0, 1.875],
+            "transformationGroups" : ["weapon"],
+            "rotationCenter" : [0, 0]
+          }
         }
       },
       "swoosh" : {
@@ -72,23 +112,39 @@
             },
             "fire" : {
               "properties" : {
-                "image" : "/items/active/weapons/melee/broadsword/swoosh/vantaphysicalswoosh/vantaphysicalswoosh.png:<frame>",
+                "image" : "/items/active/weapons/melee/broadsword/swoosh/protectorswoosh.png:<frame>",
                 "offset" : [0, 2.5],
                 "damageArea" : [[-5, 2], [-2.5, 3], [1, 3], [4, 1.75], [5, -0.25], [5, -2.25], [4, -3.25], [0, -2.5]]
               }
             },
             "fire2" : {
               "properties" : {
-                "image" : "/items/active/weapons/melee/broadsword/swoosh2/vantaphysicalswoosh/vantaphysicalswoosh.png:<frame>",
+                "image" : "/items/active/weapons/melee/abilities/broadsword/spinslash/spinswoosh.png:<frame>?replace;e7eff7=291f40;94dee7=181725;ffffff00=00000000?scalebicubic=1.5",
                 "offset" : [5.0, 1.0],
                 "damageArea" : [[-4, 1], [2.5, 1], [2.5, -2], [-4, -2]]
               }
             },
             "fire3" : {
               "properties" : {
-                "image" : "/items/active/weapons/melee/broadsword/swoosh3/vantaphysicalswoosh/vantaphysicalswoosh.png:<frame>",
+                "image" : "/items/active/weapons/melee/broadsword/swoosh2/tearswoosh.png:<frame>?scalebicubic=2.5",
                 "offset" : [3.5, 0],
                 "damageArea" : [[-4.75, 1.5], [3, 1], [3, -1], [-4.75, -1.5]]
+              }
+            },
+            "fire4" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/hammer/swoosh/fireswoosh.png:<frame>",
+                "offset" : [ 1, 2 ],
+                "damageArea" : [[ -3.5, 2 ], [ -2.5, 3 ], [ 1, 3 ], [ 3, 1.75 ], [ 4, -0.25 ], [ 4, -2.25 ], [ 3, -3.25 ], [ 0, -2.5 ]],
+                "transformationGroups" : [ "swoosh" ]
+              }
+            },
+            "fire5" : {
+              "properties": {
+                "image": "/items/active/weapons/melee/abilities/spear/elementalspin/poisonspinswoosh.png:<frame>?hueshift=-145?flipx",
+                "offset": [ -1, 0 ],
+                "damageArea": [[ -7.5, 3.5 ], [ -3.5, 7.5 ], [ 3.5, 7.5 ], [ 7.5, 3.5 ], [ 7.5, -3.5 ], [ 3.5, -7.5 ], [ -3.5, -7.5 ], [ -7.5, -3.5 ]],
+                "transformationGroups": [ "swoosh" ]
               }
             }
           }
@@ -103,6 +159,27 @@
   },
 
   "particleEmitters" : {
+    "fire5": {
+      "active": false,
+      "offsetRegion": [ -1, 0, -1, 0 ],
+      "transformationGroups": [ "swoosh" ],
+      "emissionRate": 1,
+      "burstCount": 1,
+      "particles": [
+        {
+          "particle": {
+            "type": "animated",
+            "looping": false,
+            "animation": "/animations/spacemonsterspawn/spacemonsterspawn.animation",
+            "size": 1,
+            "timeToLive": 0.5,
+            "destructionAction": "fade",
+            "destructionTime": 0.1,
+            "layer": "front"
+          }
+        }
+      ]
+    },
     "physicalswoosh" : {
       "active" : false,
       "transformationGroups" : ["swoosh"],
@@ -166,6 +243,8 @@
   "sounds" : {
     "fire" : [ ],
     "fire2" : [ ],
-    "fire3" : [ ]
+    "fire3" : [ ],
+    "fire4" : [ ],
+    "fire5" : [ ]
   }
 }

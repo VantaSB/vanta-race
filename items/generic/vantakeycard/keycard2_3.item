@@ -1,0 +1,11 @@
+{
+  "itemName" : "keycard2_3",
+  "rarity" : "Essential",
+  "price" : 0,
+  "printable" : false,
+  "category" : "quest",
+  "inventoryIcon" : "keycard2_3.png",
+  "description" : "A keycard for a keycard reader.",
+  "shortdescription" : "Keycard",
+  "itemTags" : [ ]
+}

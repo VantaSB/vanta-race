@@ -1,127 +1,67 @@
 {
   "animatedParts" : {
     "stateTypes" : {
-      "base" : {
+      "container" : {
         "default" : "active",
         "states" : {
           "active" : {},
-          "opening" : {
-            "frames" : 3,
-            "cycle" : 0.3,
-            "mode" : "transition",
-            "transition" : "inactive"
-          },
-          "inactive" : {},
-          "taken" : {}
-        }
-      },
-      "item" : {
-        "default" : "active",
-        "states" : {
-          "active" : {},
-          "opening" : {
-            "frames" : 3,
-            "cycle" : 0.3,
-            "mode" : "transition",
-            "transition" : "inactive"
-          },
-          "inactive" : {},
-          "taken" : {}
+          "inactive" : {}
         }
       }
     },
 
     "parts" : {
-      "base" : {
+      "container" : {
         "properties" : {
-          "centered" : false,
-          "fullbright" : true
+          "centered" : false
         },
 
         "partStates" : {
-          "base" : {
+          "container" : {
             "active" : {
               "properties" : {
-                "image" : "/objects/other/reactorish/researchcontainer/researchcontainer.png:1"
-              }
-            },
-            "opening" : {
-              "properties" : {
-                "image" : "/objects/other/reactorish/researchcontainer/researchcontainer.png:<frame>"
+                "image" : "<partImage>:default.1"
               }
             },
             "inactive" : {
               "properties" : {
-                "image" : "/objects/other/reactorish/researchcontainer/researchcontainer.png:4"
-              }
-            },
-            "taken" : {
-              "properties" : {
-                "image" : "/objects/other/reactorish/researchcontainer/researchcontainer.png:5"
+                "image" : "<partImage>:default.2"
               }
             }
           }
         }
       },
 
-      "baseLit" : {
+      "containerLit" : {
         "properties" : {
           "centered" : false,
+          "fullbright" : true,
           "zLevel" : 1
         },
 
         "partStates" : {
-          "base" : {
+          "container" : {
             "active" : {
               "properties" : {
-                "image" : "/objects/other/reactorish/researchcontainer/researchcontainerlit.png:1"
-              }
-            },
-            "opening" : {
-              "properties" : {
-                "image" : "/objects/other/reactorish/researchcontainer/researchcontainerlit.png:<frame>"
+                "image" : "researchcontainerlit.png:default.1",
+                "lights" : {
+                  "container" : {
+                    "active" : true,
+                    "position" : [0, 4],
+                    "color" : [18, 204, 224],
+                    "pointLight" : false
+                  }
+                }
               }
             },
             "inactive" : {
               "properties" : {
-                "image" : "/objects/other/reactorish/researchcontainer/researchcontainerlit.png:4"
-              }
-            },
-            "taken" : {
-              "properties" : {
-                "image" : "/objects/other/reactorish/researchcontainer/researchcontainerlit.png:5"
-              }
-            }
-          }
-        }
-      },
-
-      "item" : {
-        "properties" : {
-          "centered" : false,
-          "zLevel" : 2
-        },
-
-        "partStates" : {
-          "item" : {
-            "active" : {
-              "properties" : {
-                "image" : "<partImage>:1"
-              }
-            },
-            "opening" : {
-              "properties" : {
-                "image" : "<partImage>:<frame>"
-              }
-            },
-            "inactive" : {
-              "properties" : {
-                "image" : "<partImage>:4"
-              }
-            },
-            "taken" : {
-              "properties" : {
-                "image" : "<partImage>:5"
+                "image" : "researchcontainerlit.png:default.2",
+                "lights" : {
+                  "container" : {
+                    "active" : false
+                  }
+                }
               }
             }
           }

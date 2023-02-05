@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "vantaoutpost_grimoiredisplay",
+    "species" : "generic",
+    "rules" : [],
+
+    "anchor" : [ "vantaoutpost_grimoiredisplay" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "vantaoutpost_grimoiredisplay",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "vantaoutpost_grimoiredisplay.json" ]
+    }
+  ]
+}

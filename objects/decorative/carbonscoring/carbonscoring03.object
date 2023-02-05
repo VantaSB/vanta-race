@@ -1,0 +1,32 @@
+{
+  "objectName" : "carbonscoring03",
+  "colonyTags" : ["wreck"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "-todo-",
+  "shortdescription" : "Carbon Scoring",
+  "race" : "generic",
+
+  "inventoryIcon" : "carbonscoring03.png",
+
+  "orientations" : [
+    {
+      "image" : "carbonscoring03.png",
+      "imagePosition" : [0, -8],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+
+    {
+      "image" : "carbonscoring03.png",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

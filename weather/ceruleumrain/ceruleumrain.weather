@@ -75,6 +75,8 @@
     }
   ],
 
+  "statusEffects" : [ ],
+
   "duration" : [50, 400],
   "maximumWind" : 45.0,
   "weatherNoises" : [ "/sfx/weather/rain_medium.ogg" ]

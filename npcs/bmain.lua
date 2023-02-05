@@ -10,7 +10,7 @@ require "/scripts/drops.lua"
 require "/scripts/statusText.lua"
 require "/scripts/tenant.lua"
 require "/scripts/companions/recruitable.lua"
-require "/scripts/vantastealthintercept.lua"
+require "/scripts/ex_utilities/ex_stealthintercept.lua"
 
 -- Engine callback - called on initialization of entity
 function init()

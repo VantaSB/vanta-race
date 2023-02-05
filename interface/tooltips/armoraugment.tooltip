@@ -7,32 +7,32 @@
   },
   "moneyIcon" : {
     "type" : "image",
-    "position" : [97, 23],
+    "position" : [105, 31],
     "file" : "/interface/money.png"
   },
   "priceLabel" : {
     "type" : "label",
-    "position" : [110, 23],
+    "position" : [118, 31],
     "hAnchor" : "left",
     "value" : "0"
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [9, 115],
+    "position" : [17, 123],
     "hAnchor" : "left",
     "vAnchor" : "top",
     "wrapWidth" : 123
   },
   "rarityLabel" : {
     "type" : "label",
-    "position" : [7, 23],
+    "position" : [15, 31],
     "hAnchor" : "left",
     "centered" : true,
     "wrapWidth" : 126
   },
   "objectImage" : {
     "type" : "image",
-    "position" : [30, 159],
+    "position" : [38, 167],
     "file" : "",
     "centered" : true,
 	"scale" : 2,
@@ -43,7 +43,7 @@
     "scissoring" : false,
     "type" : "list",
     "fillDown" : true,
-    "position" : [0, 195],
+    "position" : [8, 203],
     "schema" : {
       "spacing" : [0, 3],
       "memberSize" : [999, 15],
@@ -71,19 +71,19 @@
   },
   "augmentIconImageBackground" : {
     "type" : "image",
-    "position" : [11, 166],
+    "position" : [19, 174],
     "zlevel" : 2,
     "file" : "/interface/tooltips/augment.png"
   },
   "augmentIconImage" : {
     "type" : "image",
-    "position" : [6, 38],
+    "position" : [14, 46],
     "zlevel" : 3,
     "file" : ""
   },
   "augmentNameLabel" : {
     "type" : "label",
-    "position" : [30, 42],
+    "position" : [38, 50],
     "value" : ""
   }
 }

@@ -1,0 +1,33 @@
+{
+  "objectName" : "vantaresearchcore_off",
+  "colonyTags" : [ "decorative", "vanta" ],
+  "printable" : false,
+  "price" : 0,
+  "rarity" : "Common",
+  "description" : "A deactivated research node.",
+  "shortdescription" : "Inactive Vanta Research Core",
+  "race" : "vanta",
+  "category" : "decorative",
+
+  "apexDescription" : "This device appears to be much more complex than anything the apex have ever constructed.",
+  "avianDescription" : "Avians are used to crystals; the Vanta use pure forms of energy.",
+  "floranDescription" : "Floran wondersss if floating ball can be eaten.",
+  "glitchDescription" : "Intrigued. This device is used by the Vanta for research purposes.",
+  "humanDescription" : "A strange device the Vanta use for enhancing themselves.",
+  "hylotlDescription" : "I admire the intricate designs the Vanta use for self-improvement.",
+  "novakidDescription" : "It ain't something I'd be able to use, but it sure is fancy!",
+  "vantaDescription" : "We use these research nodes to enhance our abilities.",
+
+  "inventoryIcon" : "vantaresearchcoreicon.png",
+
+  "orientations" : [
+    {
+      "image" : "off.png",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

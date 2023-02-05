@@ -1,0 +1,24 @@
+{
+  "itemName" : "focusaegis3",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "headenchant",
+  "category" : "headEnchant",
+  "inventoryIcon" : "aegis.png",
+  "description" : "Slightly increases overall protection.",
+  "shortdescription" : "Focus Aegis III",
+
+  "augment" : {
+    "type" : "focusgem",
+    "name" : "focusaegis3",
+    "displayName" : "Focus Aegis III",
+    "displayIcon" : "/items/augments/focusgems/aegis.png",
+    "effects" : [
+      {"stat" : "protection", "amount" : 25}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

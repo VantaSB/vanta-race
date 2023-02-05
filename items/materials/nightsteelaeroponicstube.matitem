@@ -1,0 +1,11 @@
+{
+  "itemName" : "nightsteelaeroponicstube",
+  "price" : 750,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "nightsteelaeroponics.png",
+  "description" : "Tubing used for a type of hydroponics system.",
+  "shortdescription" : "Nightsteel Aeroponics",
+
+  "materialId" : 3229
+}

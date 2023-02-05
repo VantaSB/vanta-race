@@ -64,17 +64,17 @@
 
   "skyOptions" : [
     {
-      "mainColor" : [25, 25, 25],
+      "mainColor" : [100, 100, 100],
 
-      "morningColors" : [ [5, 25, 33], [5, 25, 33] ],
-      "dayColors" : [ [5, 25, 33], [5, 25, 33] ],
-      "eveningColors" : [ [5, 25, 33], [5, 25, 33] ],
-      "nightColors" : [ [5, 25, 33], [5, 25, 33] ],
+      "morningColors" : [ [51, 102, 103], [51, 102, 103] ],
+      "dayColors" : [ [51, 102, 103], [51, 102, 103] ],
+      "eveningColors" : [ [51, 102, 103], [51, 102, 103] ],
+      "nightColors" : [ [51, 102, 103], [51, 102, 103] ],
 
-      "morningLightColor" : [5, 25, 33],
-      "dayLightColor" : [5, 25, 33],
-      "eveningLightColor" : [5, 25, 33],
-      "nightLightColor" : [5, 25, 33]
+      "morningLightColor" : [51, 102, 103],
+      "dayLightColor" : [51, 102, 103],
+      "eveningLightColor" : [51, 102, 103],
+      "nightLightColor" : [51, 102, 103]
     }
   ],
 

@@ -83,31 +83,31 @@
     {
       "kind" : "midnightclouds",
       "baseCount" : 2,
-      "offset" : [0, 340],
+      "offset" : [0, 300],
       "parallax" : 15
     },
     {
       "kind" : "midnightclouds2",
       "baseCount" : 2,
-      "offset" : [0, 300],
+      "offset" : [0, 260],
       "parallax" : 20
     },
     {
       "kind" : "midnightclouds2",
       "baseCount" : 2,
-      "offset" : [0, 300],
+      "offset" : [0, 220],
       "parallax" : 20
     },
     {
       "kind" : "midnightclouds3",
       "baseCount" : 2,
-      "offset" : [0, 260],
+      "offset" : [0, 180],
       "parallax" : 25
     },
     {
       "kind" : "midnightclouds3",
       "baseCount" : 2,
-      "offset" : [0, 260],
+      "offset" : [0, 140],
       "parallax" : 25
     },
     {

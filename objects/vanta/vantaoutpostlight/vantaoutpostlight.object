@@ -1,0 +1,45 @@
+{
+  "objectName" : "vantaoutpostlight",
+  "colonyTags" : ["vanta","outpost","light"],
+  "rarity" : "Common",
+  "description" : "A wall light.",
+  "shortdescription" : "Simple Wall Light",
+  "race" : "vanta",
+
+  "category" : "light",
+  "price" : 0,
+  "scannable" : false,
+  "printable" : false,
+  "lightColor" : [174, 223, 232],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "vantaoutpostlight.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "vantaoutpostlight.png",
+    "fg" : "vantaoutpostlight.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "pointLight" : true,
+  "pointBeam" : 0,
+  "pointAngle" : 0,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

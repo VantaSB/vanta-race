@@ -8,7 +8,7 @@
 
   "animation" : "ceruleumpteropod.animation",
 
-  "dropPools" : [ { "default" : "ceruleumPteropodTreasure", "bow" : "ceruleumPteropodHunting" } ],
+  "dropPools" : [ { "default" : "pteropodTreasure", "bow" : "pteropodHunting", "scythe" : "pteropodPsiReaping" } ],
 
   "baseParameters" : {
     "scripts" : [

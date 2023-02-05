@@ -1,0 +1,15 @@
+{
+  "itemName" : "vantapocsec02",
+  "rarity" : "Common",
+  "inventoryIcon" : "icon2.png",
+  "description" : "A small datapad containing communications logs.",
+  "shortdescription" : "Vanta Datapad",
+  "radioMessagesOnPickup" : [ "pocsecPickup" ],
+
+  "scripts" : ["pocsec.lua"],
+
+  "theme" : "vanta",
+
+  "consumeOnUse" : false,
+  "noteText" : "TO: VG-419\nFROM: N. JARA\n\nGreetings.\n\nThe maintenance team has finished work on Docking Bay 04. You are hereby assigned to this post. Your personal code to get to the docking bay commons is enclosed below. Please do not share this code with any other personnel.\n\nThank you for your service.\n\nCODE: 3642"
+}

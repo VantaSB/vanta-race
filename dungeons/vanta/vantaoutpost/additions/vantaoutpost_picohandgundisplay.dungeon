@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "vantaoutpost_picohandgundisplay",
+    "species" : "generic",
+    "rules" : [],
+
+    "anchor" : [ "vantaoutpost_picohandgundisplay" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "vantaoutpost_picohandgundisplay",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "vantaoutpost_picohandgundisplay.json" ]
+    }
+  ]
+}

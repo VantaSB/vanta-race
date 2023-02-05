@@ -1,0 +1,49 @@
+{
+  "objectName" : "vantadecorativeconsole",
+  "colonyTags" : ["vanta","electronic"],
+  "rarity" : "Common",
+  "description" : "A command console used in Vanta complexes.",
+  "shortdescription" : "Nightsteel Console",
+  "race" : "vanta",
+  "category" : "decorative",
+  "price" : 100,
+  "lightColor" : [114, 127, 124],
+
+  "apexDescription" : "A console. Its design is similar to some common models.",
+  "avianDescription" : "A console. Though, this looks rather basic.",
+  "floranDescription" : "Dark consssole not shiny enough for Floran.",
+  "glitchDescription" : "Curious. This console's design seems familiar...",
+  "humanDescription" : "This console always stays on.",
+  "hylotlDescription" : "This console appears to be a secure terminal connected to a larger system.",
+  "novakidDescription" : "I can't figure out all the tiny glyphs on the screen.",
+  "vantaDescription" : "These symbols are from an older Vanta dialect.",
+
+  "inventoryIcon" : "/objects/outpost/outpostsecurityconsole/icon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "vantadecorativeconsole.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "vantadecorativeconsolelit.png:<color>.<frame>" }
+      ],
+      "imagePosition" : [-32, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/decorative/nightsteelconsole/nightsteelconsole.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "nightsteelconsole.animation",
+  "animationParts" : {
+    "bg" : "vantadecorativeconsole.png",
+    "fg" : "vantadecorativeconsolelit.png"
+  },
+  "animationPosition" : [-32, 8],
+
+  "outputNodes" : [
+    [0, 0]
+  ]
+}

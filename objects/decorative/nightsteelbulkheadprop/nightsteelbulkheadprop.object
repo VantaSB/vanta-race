@@ -1,0 +1,64 @@
+{
+  "objectName" : "nightsteelbulkheadprop",
+  "colonyTags" : ["decorative", "vanta"],
+  "rarity" : "Legendary",
+  "description" : "An auxiliary door that leads to another area.",
+  "shortdescription" : "Nightsteel Bulkhead DOor",
+  "race" : "vanta",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "openLight" : [0, 0, 0],
+  "closedLight" : [0, 0, 0],
+
+  "apexDescription" : "A stout, bulkhead door of sorts.",
+  "avianDescription" : "It's a very sturdy door.",
+  "floranDescription" : "Floran not ssstrong enough to force door open.",
+  "glitchDescription" : "Impressed. This door appears to be built with security in mind.",
+  "humanDescription" : "What a strong-looking door!",
+  "hylotlDescription" : "Even with their doors, the Vanta and Nightar maintain a very interesting aesthetic.",
+  "novakidDescription" : "That sure is a pretty strong door!",
+  "vantaDescription" : "This door is strong enough to repel explosive blasts, albeit not infinitely.",
+
+  "inventoryIcon" : "base.png:default",
+
+  "animation" : "/objects/wired/door/lockingpropdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/ddooropen.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/ddoorclose.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "bg" : "base.png",
+    "fg" : "lit.png"
+  },
+  "animationPosition" : [-32, 0],
+
+  "orientations" : [
+    {
+      "image" : "base.png:default",
+      "direction" : "right",
+
+      "imagePosition" : [-32, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background", "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/ex_utilities/ex_doorwarp.lua" ],
+  "scriptDelta" : 5,
+
+  "interval" : 30,
+
+  "inputNodes" : [ [3, 7], [-3, 5] ],
+  "outputNodes" : [ [2, 0] ]
+}

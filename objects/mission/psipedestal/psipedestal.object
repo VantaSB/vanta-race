@@ -1,0 +1,40 @@
+{
+  "objectName" : "psipedestal",
+  "colonyTags" : ["vanta", "electronic"],
+  "rarity" : "Common",
+  "printable" : false,
+  "scannable" : false,
+  "description" : "-todo-",
+  "shortdescription" : "Psi Pedestal",
+  "race" : "vanta",
+  "category" : "decorative",
+  "price" : 0,
+
+  "lightColor" : [0, 0, 0, 0],
+
+  "inventoryIcon" : "psipedestal.png:on",
+
+  "animation" : "psipedestal.animation",
+  "animationPosition" : [0, 0],
+  "animationParts" : {
+    "bg" : "psipedestal.png",
+    "fg" : "psipedestallit.png"
+  },
+
+  "orientations" : [
+    {
+      "image" : "psipedestal.png:<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/mission/psipedestal/psipedestal.lua" ],
+  "scriptDelta" : 5,
+
+  "giveItem" : "psicore"
+}

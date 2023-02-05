@@ -1,0 +1,28 @@
+{
+  "objectName" : "vantahologramsml3",
+  "colonyTags" : [ "vanta", "electronic" ],
+  "rarity" : "Common",
+  "printable" : false,
+  "description" : "Small window with a spinning double helix.",
+  "shortdescription" : "Double Helix Hologram",
+  "race" : "vanta",
+  "category" : "decorative",
+  "price" : 20,
+
+  "flickerDistance" : 0.05,
+  "flickerStrength" : 0.05,
+
+  "inventoryIcon" : "vantahologramsmlicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vantahologramsml3.png:<color>.<frame>", "fullbright" : true,
+
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1
+
+    }
+  ]
+}

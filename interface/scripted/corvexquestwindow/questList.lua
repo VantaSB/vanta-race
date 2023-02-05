@@ -3,10 +3,18 @@ require("/scripts/ex_utilities/ex_util.lua")
 
 QD = nil
 GD = nil
+defaultSpecies = { "apex", "avian", "floran", "glitch", "human", "hylotl", "novakid" }
 
 function init()
 	GD = root.assetJson("/interface/scripted/corvexquestwindow/questList.config")
-	QD = root.assetJson("/interface/scripted/corvexquestwindow/data.config")
+	for _, s in ipairs(defaultSpecies) do
+		if player.species() == defaultSpecies[i] then
+			QD = root.assetJson("/interface/scripted/corvexquestwindow/defaultData.config")
+		else
+			QD = root.assetJson("/interface/scripted/corvexquestwindow/" .. player.species() .. ".config")
+		end
+	end
+	--QD = root.assetJson("/interface/scripted/corvexquestwindow/data.config")
 
 	for _, file in ipairs(QD.questlineFiles) do
 		local temp = root.assetJson(file)

@@ -1,0 +1,10 @@
+{
+  "itemName" : "ex_frostessence",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "ex_frostessence.png",
+  "description" : "Dark essence that has adopted ice properties.",
+  "shortdescription" : "Frost Essence",
+  "itemTags" : [ "reagent" ]
+}

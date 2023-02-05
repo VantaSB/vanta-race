@@ -1,0 +1,47 @@
+{
+  "objectName" : "keycardreader",
+  "colonyTags" : ["electronic","wired","vanta","nightar"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A numeric security keypad that requires a specific combination.",
+  "shortdescription" : "Vanta Keypad",
+  "race" : "vanta",
+
+  "inventoryIcon" : "keycardreader.png:default.on",
+  "animation" : "keycardreader.animation",
+  "animationParts" : {
+    "bg" : "keycardreader.png",
+    "fg" : "keycardreaderlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "orientations" : [
+    {
+      "image" : "keycardreader.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "health" : 5,
+  "rooting" : true,
+
+  "outputNodes" : [ [0, 0] ],
+
+  "scripts" : ["/objects/mission/keycardreader/keycardreader.lua"],
+  "scriptDelta" : 5,
+
+  "interval" : 50,
+  "openCfg" : null,
+
+  "interactData" : {
+    "baseConfig" : "/interface/scripted/keycardreader/keycardreadergui.config"
+  },
+
+  "keycardType" : null,
+  "requiredLevel" : 0
+}

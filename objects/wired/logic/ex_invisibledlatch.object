@@ -1,0 +1,38 @@
+{
+  "objectName" : "ex_invisibledlatch",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 0,
+  "health" : 0.1,
+  "description" : "...",
+  "shortdescription" : "Invisible Latch",
+  "race" : "generic",
+
+  "smashOnBreak" : true,
+
+  "inventoryIcon" : "ex_invisibledlatch.png:default.1",
+  "orientations" : [
+    {
+      "image" : "ex_invisibledlatch.png:<color>.off",
+      "imagePosition" : [-8, -8],
+      "spaceScan" : 0.1,
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/ex_dlatch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "invisiblelogicgatehidden.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inputNodes" : [ [-1, 0] ],
+  "outputNodes" : [ [0, -1] ],
+  "interval" : 15
+}

@@ -1,0 +1,53 @@
+{
+  "objectName" : "laboratorylight_blue",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 85,
+  "description" : "A sleek blue wall light.",
+  "shortdescription" : "Laboratory Light",
+  "race" : "generic",
+
+  "apexDescription" : "This light is made to run even on low power.",
+  "avianDescription" : "This lamp is distractingly bright.",
+  "floranDescription" : "Light putsss Floran at easse.",
+  "glitchDescription" : "Impressed. This is a very power-efficient lamp.",
+  "humanDescription" : "This lamp gives off a cool, blue glow. It's very pleasant.",
+  "hylotlDescription" : "This light uses very little power.",
+  "novakidDescription" : "Glows blue.",
+
+  "lightColor" : [130, 217, 232],
+
+  "inventoryIcon" : "laboratorylighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "laboratorylight_blue.png:<color>.<frame>", "fullbright" : true }, { "image" : "laboratorylight_bluelit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "laboratorylight_blue.png",
+    "fg" : "laboratorylight_bluelit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "pointLight" : true,
+  "pointBeam" : 0,
+  "pointAngle" : 0,
+
+  "inputNodes" : [ [0, 0] ],
+  "interactive" : false,
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5
+
+}

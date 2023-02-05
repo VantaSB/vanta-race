@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "quagmuttTreasure", "bow" : "quagmuttHunting", "scythe" : "quagmuttPsiReaping" } ] }
+]

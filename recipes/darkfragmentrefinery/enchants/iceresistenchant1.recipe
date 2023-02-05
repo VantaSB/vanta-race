@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ex_frostessence", "count" : 2 },
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "nightsteelbar", "count" : 1 }
+  ],
+  "output" : { "item" : "iceresistenchant1", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "enchants", "all" ]
+}

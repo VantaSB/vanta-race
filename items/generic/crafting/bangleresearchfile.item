@@ -1,0 +1,9 @@
+{
+  "itemName" : "bangleresearchfile",
+  "price" : 2000,
+  "rarity" : "Essential",
+  "category" : "upgradeComponent",
+  "inventoryIcon" : "researchfile.png",
+  "description" : "Unlocks Bangle research nodes.",
+  "shortdescription" : "Research: ^orange;Bangles"
+}

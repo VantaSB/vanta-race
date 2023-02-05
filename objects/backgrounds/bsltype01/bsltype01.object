@@ -2,7 +2,7 @@
   "objectName" : "bsltype01",
   "colonyTags" : [],
   "rarity" : "Common",
-  //"lightColor" : [126, 230, 206],
+  "lightColor" : [148, 232, 186],
 
   "category" : "decorative",
   "price" : 0,
@@ -22,7 +22,7 @@
         { "image" : "bsltype01lit.png" }
       ],
 
-      "imagePosition" : [-96, -80],
+      "imagePosition" : [-32, -80],
 
       "renderLayer" : "BackgroundTile-10",
 

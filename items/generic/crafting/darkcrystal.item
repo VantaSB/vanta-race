@@ -4,7 +4,7 @@
   "price" : 500,
   "category" : "craftingMaterial",
   "inventoryIcon" : "darkcrystal.png",
-  "description" : "A rough-cut crystal that gives off a powerful aura.",
+  "description" : "A rough-cut crystal that gives off a powerful aura. Can be refined using a ^orange;Refinery^reset;.",
   "shortdescription" : "Dark Crystal",
   "itemTags" : [ "reagent" ]
 }

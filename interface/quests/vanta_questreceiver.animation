@@ -1,0 +1,6 @@
+{
+  "frames" : "vanta_questreceiver.png:<index>",
+  "mode" : "loopForever",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1
+}

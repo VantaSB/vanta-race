@@ -3,7 +3,7 @@
   "name" : "vanta/supports",
   "properties" : {},
   "spacing" : 0,
-  "tilecount" : 3,
+  "tilecount" : 5,
   "tileheight" : 16,
   "tileproperties" : {
     "0" : {
@@ -23,6 +23,18 @@
       "//name" : "vantadecorativerail",
       "//shortdescription" : "Vanta Decorative Rail",
       "material" : "vantadecorativerail"
+    },
+    "3" : {
+      "//description" : "...",
+      "//name" : "vantaladder",
+      "//shortdescription" : "Vanta Ladder",
+      "material" : "vantaladder"
+    },
+    "4" : {
+      "//description" : "...",
+      "//name" : "ex_wreckladder",
+      "//shortdescription" : "Wrecked Ladder",
+      "material" : "ex_wreckladder"
     }
   },
 
@@ -35,6 +47,12 @@
     },
     "2" : {
       "image" : "../../tiled/vanta-custom/materials/vantadecorativerail.png"
+    },
+    "3" : {
+      "image" : "../../tiled/vanta-custom/materials/vantaladder.png"
+    },
+    "4" : {
+      "image" : "../../tiled/vanta-custom/materials/ex_wreckladder.png"
     }
   },
 

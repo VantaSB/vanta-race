@@ -1,0 +1,63 @@
+{
+  "objectName" : "darkfragmentrefinery",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "price" : 1250,
+  "radioMessagesOnPickup" : [],
+  "printable" : false,
+  "description" : "Used to transmute dark fragments.",
+  "shortdescription" : "^cyan;Dark Fragment Refinery^reset;",
+  "race" : "vanta",
+  "category" : "crafting",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingdarkfragmentrefinery.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Dark Fragment Refinery",
+        "subtitle" : "Transmute dark fragments into essences and enchants.",
+        "icon" : {
+          "file" : "/interface/crafting/craftingicon.png"
+        }
+      }
+    },
+    "filter" : [ "darkfragmentrefinery" ]
+  },
+
+  /* --TODO--
+
+  "apexDescription" : "--todo--",
+  "avianDescription" : "--todo--",
+  "floranDescription" : "--todo--",
+  "glitchDescription" : "--todo--",
+  "humanDescription" : "--todo--",
+  "hylotlDescription" : "--todo--",
+  "novakidDescription" : "--todo--",
+  "vantaDescription" : "--todo--"
+
+  */
+
+  "inventoryIcon" : "icon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "darkfragmentrefineryleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "darkfragmentrefineryleftlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "frames" : 4,
+      "animationCycle" : 0.8,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "darkfragmentrefinery.png:<color>.<frame>", "fullbright" : true }, { "image" : "darkfragmentrefinerylit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "frames" : 4,
+      "animationCycle" : 0.8,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

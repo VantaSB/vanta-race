@@ -1,0 +1,34 @@
+{
+  "objectName" : "bsltype05",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "lightColor" : [174, 233, 232],
+
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Set Piece Background",
+  "shortdescription" : "Set Piece Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+
+  "health" : 2000,
+
+  "inventoryIcon" : "bsltype05.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "bsltype05.png" },
+        { "image" : "bsltype05lit.png", "fullbright" : true }
+      ],
+
+      "imagePosition" : [-128, -64],
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    }
+  ]
+}

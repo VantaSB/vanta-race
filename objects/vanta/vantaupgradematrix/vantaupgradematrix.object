@@ -1,0 +1,45 @@
+{
+  "objectName" : "vantaupgradematrix",
+  "colonyTags" : ["crafting","vanta"],
+  "rarity" : "Essential",
+  "race" : "vanta",
+  "category" : "other",
+  "price" : 0,
+  "printable" : false,
+  "inventoryIcon" : "icon.png",
+  "description" : "A station for fine-tuning Vanta weaponry that can't be upgraded by typical means.",
+  "shortdescription" : "^orange;Upgrade Matrix^reset;",
+
+
+  "apexDescription" : "There's no way an Apex could utilize this.",
+	"avianDescription" : "It was said that Kluex had spectacular abilities; I wonder if this would let me achieve the same.",
+	"floranDescription" : "Fancy machine too much for Floran to ussse.",
+	"glitchDescription" : "Disheartened. There's no plausible way for me to effectively use such a fantastic machine.",
+	"humanDescription" : "I can't even begin to imagine how this works!",
+	"hylotlDescription" : "An intricate machine that allows the Vanta to push their technical limitations.",
+	"novakidDescription" : "A bit TOO technical, if you ask me.",
+  "vantaDescription" : "An upgrade matrix. I can use this for upgrading some of my weapons.",
+
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/vantaupgrade/vantaupgradegui.config",
+
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "vantaupgradematrix.png:default.<frame>", "fullbright" : true },
+        { "image" : "vantaupgradematrixlit.png:default.<frame>" }
+      ],
+      "imagePosition" : [-32, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 3,
+      "animataionCycle" : 0.375,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "itemName" : "durasteelscythe",
+  "price" : "1250",
+  "level" : 4,
+  "rarity" : "Uncommon",
+  "description" : "-TODO-",
+  "shortdescription" : "Durasteel Scythe",
+  "tooltipKind" : "base",
+  "category" : "scythe",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "melee", "scythe", "vanta", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "durasteelscythe.png",
+
+  "animation" : "vantascythe.animation",
+  "animationParts" : {
+    "blade" : "durasteelscythe.png"
+  },
+
+  "animationCustom" : {
+    "sounds" : {
+      "fire": [ "/sfx/melee/swing_broadsword.ogg" ],
+      "fire2": [ "/sfx/melee/swing_shortsword.ogg" ],
+      "fire3": [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/items/active/weapons/melee/meleeweapon.lua" ],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "vantascythecombo",
+  "primaryAbility" : {
+    "comboSteps" : 3,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 25,
+        "weaponRotation" : 55,
+        "weaponRotationCenter" : [-0.5, 0.0],
+        "weaponOffset" : [-1.125, -0.6125],
+
+        "frontArmFrame" : "run.1",
+        "backArmFrame" : "jump.2"
+      }
+    }
+  },
+
+  "upgradeParameters" : {
+    "level" : 6,
+    "inventoryIcon" : "vantascythe.png",
+    "rarity" : "Legendary",
+    "shortdescription" : "^cyan;Ceruleum Crux^reset;",
+    "animationParts" : {
+      "blade" : "vantascythe.png",
+      "bladeFullbright" : "vantascythelit.png"
+    },
+    "elementalType" : "ceruleum",
+    "primaryAbility" : {
+      "comboSteps" : 5,
+      "stances" : {
+        "idle" : {
+          "armRotation" : 25,
+          "weaponRotation" : 55,
+          "weaponRotationCenter" : [-0.5, 0.0],
+          "weaponOffset" : [-1.125, -0.6125],
+
+          "frontArmFrame" : "run.1",
+          "backArmFrame" : "jump.2"
+        }
+      }
+    },
+
+    "altAbilityType" : "traildash"
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

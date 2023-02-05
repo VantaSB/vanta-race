@@ -1,0 +1,15 @@
+{
+  "itemName" : "nightarpocsec01",
+  "rarity" : "Common",
+  "category" : "other",
+  "inventoryIcon" : "icon.png",
+  "description" : "A small datapad.",
+  "shortdescription" : "Nightar Datapad",
+
+  "scripts" : ["pocsec.lua"],
+
+  "theme" : "nightar",
+
+  "consumeOnUse" : false,
+  "noteText" : "FROM: R.DAGDA\nTO: ALL\nSUBJECT: OBJECTIVES\n\nAs stated by high command, we are to secure any and all living specimens from this facility for transport to Alpha R&D. Secondary objectives include securing any other research and development data and their respective prototypes, if applicable. Do NOT leave anyone alive, and make sure you rendezvous with your COs once you've obtained what we need. We will be scuttling the entire facility."
+}

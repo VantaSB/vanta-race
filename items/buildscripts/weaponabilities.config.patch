@@ -10,30 +10,50 @@
 	  "path" : "/darkslice",
 	  "value" : "/items/active/weapons/melee/abilities/broadsword/darkslice/darkslice.weaponability"
   },
+
   {
     "op" : "add",
 	  "path" : "/greenflipslash",
 	  "value" : "/items/active/weapons/melee/abilities/broadsword/greenflipslash/greenflipslash.weaponability"
   },
+
   {
     "op" : "add",
     "path" : "/scatteredwindscombo",
     "value" : "/items/active/weapons/melee/abilities/broadsword/scatteredwindscombo.weaponability"
   },
+
+  {
+    "op" : "add",
+    "path" : "/vantascythecombo",
+    "value" : "/items/active/weapons/melee/abilities/scythe/vantascythecombo.weaponability"
+  },
+
+
+  // --------------------- Available to use, but needs work ---------------------
   {
     "op" : "add",
     "path" : "/iaijutsu",
     "value" : "/items/active/weapons/melee/abilities/broadsword/iaijutsu/iaijutsu.weaponability"
   },
+
+  {
+    "op" : "add",
+    "path" : "/chaosstrike",
+    "value" : "/items/active/weapons/melee/abilities/broadsword/chaosstrike/chaosstrike.weaponability"
+  },
+  // ---------------------------------------------------------------------------
+
   {
     "op" : "add",
     "path" : "/infusedcharge",
     "value" : "/items/active/weapons/melee/abilities/broadsword/infusedcharge/infusedcharge.weaponability"
   },
+
   {
     "op" : "add",
-    "path" : "/chaosstrike",
-    "value" : "/items/active/weapons/melee/abilities/broadsword/chaosstrike/chaosstrike.weaponability"
+    "path" : "/torridedge",
+    "value" : "/items/active/weapons/melee/abilities/gunblade/torridedge/torridedge.weaponability"
   },
 
   {
@@ -70,5 +90,11 @@
     "op" : "add",
     "path" : "/darkdenizen",
     "value" : "/items/active/weapons/vanta/grimoire/abilities/darkdenizen.weaponability"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/ex_grapple",
+    "value" : "/items/active/weapons/whip/abilities/ex_grapple.weaponability"
   }
 ]

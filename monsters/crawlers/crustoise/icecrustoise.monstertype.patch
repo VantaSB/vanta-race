@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "crustoiseTreasure", "bow" : "crustoiseHunting", "scythe" : "crustoisePsiReaping" } ] }
+]

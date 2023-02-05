@@ -1,0 +1,7 @@
+{
+  "switchToggleTest" : {
+    "type" : "mission",
+    "text" : "It appears that this test was successful. We can now expand our scripted events using object parameters in Tiled!",
+    "unique" : false
+  }
+}

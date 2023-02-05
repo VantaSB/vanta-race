@@ -1,0 +1,21 @@
+{
+  "materialId" : 3229,
+  "materialName" : "nightsteelaeroponicstube",
+  "particleColor" : [138, 140, 145, 255],
+  "itemDrop" : "nightsteelaeroponicstube",
+  "shortdescription" : "Nightsteel Aeroponics",
+  "description" : "Tubing used for a type of hydroponics system.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 30,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "nightsteelaeroponicstube.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 3380
+  }
+}

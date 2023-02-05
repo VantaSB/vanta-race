@@ -7,7 +7,7 @@
       "description" : "You shouldn't be seeing this."
   },
 
-  "humanoidConfig" : "/species/vantanoid.config",
+  "humanoidConfig" : "/species/nightarnoid.config",
 
   "nameGen" : [ "/species/vantamalenamegen.config:names", "/species/vantafemalenamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/vantahurt_male1.ogg", "/sfx/humanoid/vantahurt_female1.ogg" ],

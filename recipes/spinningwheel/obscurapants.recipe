@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "canvas", "count" : 1 },
-    { "item" : "cottonwool", "count" : 1 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "obscurapants", "count" : 1 },
-  "groups" : [ "craftingwheel", "clothes" ]
-}

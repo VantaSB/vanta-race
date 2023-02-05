@@ -1,11 +1,12 @@
 {
   "projectileName" : "spherebomb",
-  "physics" : "stickybomb",
+  "physics" : "ex_zerogravbomb",
   "bounces" : -1,
   "timeToLive" : 1.65,
   "image" : "spherebomb.png",
   "fullbright" : true,
   "animationCycle" : 1.15,
+  "lightColor" : [20, 20, 20],
   "frameNumber" : 7,
   "actionOnReap" : [
     {
@@ -14,15 +15,16 @@
     },
     {
       "action" : "projectile",
-      "type" : "spherebombexplosion",
+      "type" : "ngravityexplosion",
       "fuzzAngle" : 0,
       "inheritDamageFactor" : 0,
       "angleAdjust" : 0,
-      "config" : { "timeToLive" : 0.1 }
+      "config" : { "timeToLive" : 0.08 }
     }
   ],
-  "power" : 50,
+  "power" : 60,
   "damageType" : "NoDamage",
   "damageKind" : "default",
-  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "emitters" : [ "sparks" ]
 }

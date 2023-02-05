@@ -1,0 +1,52 @@
+{
+  "objectName" : "smashbarrier6x1_v",
+  "colonyTags" : ["vanta","nightar"],
+  "printable" : false,
+  "scannable" : false,
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 0,
+  "lightColor" : [12, 142, 144],
+  "description" : "...",
+  "shortdescription" : "Volatile Barrier",
+  "race" : "generic",
+  "health" : 15,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "smashbarrier6x1_v.png", "fullbright" : true },
+        { "image" : "smashbarrier6x1_vlit.png" }
+      ],
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ],
+      "direction" : "right"
+    },
+    {
+      "imageLayers" : [
+        { "image" : "smashbarrier6x1_v.png", "fullbright" : true },
+        { "image" : "smashbarrier6x1_vlit.png" }
+      ],
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ],
+      "direction" : "left",
+      "flipImages" : true
+    }
+  ],
+
+  "smashable" : true,
+  "smashOnBreak" : false,
+  "smashSounds" : [ "/sfx/gun/grenadeblast1.ogg", "/sfx/gun/grenadeblast2.ogg", "/sfx/gun/grenadeblast3.ogg" ],
+  "smashParticles" : [ { "count" : 6, "particle" : "greytargetshard" } ],
+  "smashDropPool" : "empty",
+
+  "scripts" : [ "/objects/other/reactorish/ceruleumpowercell/power.lua" ],
+  "scriptDelta" : 5,
+
+  "outputNodes" : [ [0, 0] ]
+}

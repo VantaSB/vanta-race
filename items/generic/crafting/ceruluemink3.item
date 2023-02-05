@@ -1,0 +1,9 @@
+{
+  "itemName" : "ceruleumink3",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "reagent",
+  "description" : "An ink fortified with titanium to improve conductivity on a grimoire's pages.",
+  "shortdescription" : "Grade 3 Ceruleum Ink",
+  "inventoryIcon" : "ceruleumink.png"
+}

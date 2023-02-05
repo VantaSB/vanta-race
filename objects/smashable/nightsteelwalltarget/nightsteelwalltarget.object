@@ -1,0 +1,56 @@
+{
+  "objectName" : "nightsteelwalltarget",
+  "colonyTags" : ["vanta","nightar","wired"],
+  "printable" : false,
+  "scannable" : false,
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 0,
+  "description" : "-todo-",
+  "shortdescription" : "Nightsteel Wall Target",
+  "race" : "generic",
+
+  "inventoryIcon" : "nightsteelwalltarget.png:on",
+
+  "animation" : "nightsteelwalltarget.animation",
+  "animationPosition" : [0, -8],
+  "animationParts" : {
+    "bg" : "nightsteelwalltarget.png",
+    "fg" : "nightsteelwalltargetlit.png"
+  },
+
+  "orientations" : [
+    {
+      "image" : "nightsteelwalltarget.png:<frame>",
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ],
+      "direction" : "left",
+      "flipImages" : true
+    },
+    {
+      "image" : "nightsteelwalltarget.png:<frame>",
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ],
+      "direction" : "right"
+    }
+  ],
+
+  "inputNodes" : [ [0, 0] ],
+  "outputNodes" : [ [0, -1] ],
+
+  "smashable" : true,
+  "smashOnBreak" : false,
+  "smashSounds" : [ "/sfx/gun/grenadeblast1.ogg", "/sfx/gun/grenadeblast2.ogg", "/sfx/gun/grenadeblast3.ogg" ],
+  "smashDropPool" : "empty",
+
+  "scripts" : [
+    "/objects/smashable/nightsteelwalltarget/nightsteelwalltarget.lua"
+  ],
+  "scriptDelta" : 5,
+  "explosionProjectile" : "ceruleumplasmaexplosion",
+  "explosionOffset" : [0, 0]
+}

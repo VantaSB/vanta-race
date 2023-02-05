@@ -1,0 +1,36 @@
+{
+  "objectName" : "smashbarrier6x1_h",
+  "colonyTags" : ["vanta","nightar"],
+  "printable" : false,
+  "scannable" : false,
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 0,
+  "lightColor" : [12, 142, 144],
+  "description" : "...",
+  "shortdescription" : "Volatile Barrier",
+  "race" : "generic",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "smashbarrier6x1_h.png", "fullbright" : true },
+        { "image" : "smashbarrier6x1_hlit.png" }
+      ],
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ],
+      "direction" : "right",
+      "collision" : "solid",
+      "collisionSpaces" : [ [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashOnBreak" : false,
+  "smashSounds" : [ "/sfx/gun/grenadeblast1.ogg", "/sfx/gun/grenadeblast2.ogg", "/sfx/gun/grenadeblast3.ogg" ],
+  "smashParticles" : [ { "count" : 6, "particle" : "greytargetshard" } ],
+  "smashDropPool" : "empty"
+}

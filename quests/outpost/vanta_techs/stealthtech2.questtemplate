@@ -1,0 +1,45 @@
+{
+  "id" : "stealthtech2",
+  "prerequisites" : [ "stealthtech1" ],
+  "title" : "^orange;Living Shadows",
+  "text" : "Thank you for your patience! I was able to create a prototype cloaking device that you can equip as a tech. Why don't you give it a shot? I've set up an obstacle course for you to run around in. It's a bit makeshift, but I think it will get the job done. Just let me know when you're ready!",
+  "completionText" : "Incredible! I wasn't sure it would work properly, but you've helped surpass expectations! I'll continue conducting tests in the meantime. We might even find an upgrade to patch in!",
+  "moneyRange" : [250, 250],
+  "rewards" : [],
+
+  "questGiverIndicator" : "vanta_questgiver",
+  "questReceiverIndicator" : "vanta_questreceiver",
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/ex_instance.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questReceiver"
+    },
+
+    "descriptions" : {
+      "enterInstance" : "Talk to ^orange;Doppler^reset; to enter the ^orange;obstacle course^reset;",
+      "findGoal" : "Complete the ^orange;Stealth Tech obstacle course^reset;",
+      "turnIn" : "Return to ^orange;Doppler^reset; at ^orange;Ran's base^reset;"
+    },
+
+    "warpEntityUid" : "doppleroutpost",
+    "warpAction" : "instanceworld:techchallenge_stealth",
+    "warpDialog" : "/interface/confirmation/teleportconfirmation.config:techscientist_stealth",
+
+    "goalTrigger" : "proximity",
+    "proximityRange" : 10,
+    "goalEntityUid" : "stealthchallengeteleporter",
+    "indicateGoal" : false,
+    "trackGoalEntity" : false,
+
+    "turnInEntityUid" : "doppleroutpost",
+
+    // Completion actions
+
+    "equipTech" : [
+      "vantastealth1"
+    ]
+  }
+}

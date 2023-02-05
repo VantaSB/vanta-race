@@ -1,0 +1,10 @@
+{
+  "itemName" : "psicore",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "psicore.png",
+  "description" : "A core module used for unlocking latent psionic abilities.",
+  "shortdescription" : "Psionic Core",
+  "itemTags" : [ "crafting" ]
+}

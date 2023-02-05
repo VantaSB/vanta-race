@@ -1,0 +1,35 @@
+[
+  {
+    "op" : "add",
+    "path" : "/animationCustom/particleEmitters/ceruleumSwordCharge",
+    "value" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 30,
+      "offsetRegion" : [-0.75, 0.0, 0.75, 5.5],
+      "particles" : [
+        { "particle" : "iceswoosh2"},
+        { "particle" : "ceruleumsmoke"},
+        { "particle" : "iceswoosh3"}
+      ]
+    }
+  },
+
+  {
+      "op" : "add",
+      "path" : "/animationCustom/sounds/ceruleumTrailDashCharge",
+      "value" : [ "/sfx/melee/charge_traildash3.ogg" ]
+  },
+
+  {
+      "op" : "add",
+      "path" : "/animationCustom/sounds/ceruleumTrailDashFire",
+      "value" : [ "/sfx/melee/travelingslash_poison3.ogg" ]
+  },
+
+  {
+      "op" : "add",
+      "path" : "/ability/elementalConfig/ceruleum",
+      "value" : { "projectileType" : "ceruleumtrail" }
+  }
+]

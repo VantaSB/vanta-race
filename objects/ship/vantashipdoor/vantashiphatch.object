@@ -22,21 +22,18 @@
   "orientations" : [
     {
       "dualImage" : "vantashiphatch.png:default",
-      "imagePosition" : [-16, -20],
+      "imagePosition" : [-24, -20],
       "renderLayer" : "Object+5",
 
-      "spaces" : [
-                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0],
-                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
-      ],
+      "spaceScan" : 0.1,
       "anchors" : [ "left", "right" ]
     }
   ],
 
-  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scripts" : [ "/objects/wired/door/ex_door.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/door/door.animation",
+  "animation" : "/objects/wired/door/fullbrightdoor.animation",
   "animationCustom" : {
     "sounds" : {
       "open" : {
@@ -50,10 +47,14 @@
     }
   },
   "animationParts" : {
+    "bg" : "vantashiphatch.png",
+    "fg" : "vantashiphatchlit.png",
     "door" : "vantashiphatch.png"
   },
-  "animationPosition" : [-16, -20],
+  "animationPosition" : [-24, -20],
 
-  "inputNodes" : [ [-1, 0] ],
-  "outputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [-3, 0] ],
+  "outputNodes" : [ [1, -1] ],
+
+  "uniqueId" : null
 }

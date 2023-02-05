@@ -1,9 +1,9 @@
 {
   "itemName" : "vantajamadhar",
-  "price" : 500,
-  "level" : 6,
+  "price" : 1000,
+  "level" : 4,
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "Uncommon",
   "description" : "Katars reforged and infused with the power of Ceruleum.",
   "shortdescription" : "Vanta Jamadhar",
   "tooltipKind" : "fistweapon",
@@ -27,7 +27,7 @@
   "needsEdgeTrigger" : true,
   "edgeTriggerGrace" : 0.2,
 
-  "comboSteps" : 6,
+  "comboSteps" : 4,
   "comboTiming" : [0.2, 0.5],
   "comboCooldown" : 0.3,
   "comboFinisherSource" : "/items/active/weapons/fist/combofinishers/dashslash.combofinisher",

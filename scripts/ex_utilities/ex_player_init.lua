@@ -1,3 +1,5 @@
+require "/scripts/util.lua"
+
 local origInit = init
 local origUninit = uninit
 
@@ -15,6 +17,29 @@ function init()
 		sb.logInfo("Readded 'ex_scaninteraction' quest")
 		player.startQuest("ex_scaninteraction")
 	end
+
+	-- Add any miscellaneuos functions/message handlers below this line in the future, if applicable
+	message.setHandler("player.isAdmin", player.isAdmin)
+	message.setHandler("player.uniqueId",player.uniqueId)
+	message.setHandler("player.worldId",player.worldId)
+	message.setHandler("player.hasCompletedQuest",function (_,_,...) return player.hasCompletedQuest(...) end)
+	status.setStatusProperty("player.worldId",player.worldId())
+	status.setStatusProperty("player.ownShipWorldId",player.ownShipWorldId())
+	message.setHandler("player.equippedItem",function (_,_,...) return player.equippedItem(...) end)
+	message.setHandler("player.hasItem",function (_,_,...) return player.hasItem(...) end)
+	message.setHandler("player.hasCountOfItem",function (_,_,...) return player.hasCountOfItem(...) end)
+	message.setHandler("player.availableTechs", player.availableTechs)
+	message.setHandler("player.enabledTechs", player.enabledTechs)
+	message.setHandler("player.shipUpgrades", player.shipUpgrades)
+	message.setHandler("player.isLounging", player.isLounging)
+	message.setHandler("player.loungingIn", player.loungingIn)
+	message.setHandler("playerIsInMech", playerIsInMech)
+	message.setHandler("playerIsInVehicle", playerIsInVehicle)
+
+	message.setHandler("ex.spawnParticle",function (_,_,...) localAnimator.spawnParticle(...) end)
+	message.setHandler("ex.warp",function (_,_,...) player.warp(...) end)
+	message.setHandler("ex.playSound",function (_,_,...) localAnimator.playAudio(...) end)
+	message.setHandler("ex.temperaturezone",function (_, _, effectName) status.addEphemeralEffect(effectName) end)
 end
 
 function uninit()

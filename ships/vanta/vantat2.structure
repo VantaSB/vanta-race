@@ -2,22 +2,23 @@
   "config" : {
     "shipUpgrades" : {
       "capabilities" : ["teleport", "planetTravel"],
-      "crewSize" : 2
+      "maxFuel" : 1000,
+	    "crewSize" : 2
     }
   },
 
   "backgroundOverlays" : [
     {
       "image" : "vantaT2.png",
-      "position" : [8, 14],
+      "position" : [2.5, -5.35],
       "fullbright" : true
     },
     {
       "image" : "vantaT2lit.png",
-      "position" : [8, 14]
+      "position" : [2.5, -5.35]
     }
   ],
 
-  "blockKey" : "blockKey.config:key1",
+  "blockKey" : "blockKey.config:key0",
   "blockImage" : "vantaT2blocks.png"
 }

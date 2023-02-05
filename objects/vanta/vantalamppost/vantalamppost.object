@@ -1,0 +1,63 @@
+{
+  "objectName" : "vantalamppost",
+  "colonyTags" : ["vanta","light"],
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "price" : 450,
+  "description" : "A tall lamp with a cool glow.",
+  "shortdescription" : "Vanta Lamp Post",
+  "race" : "vanta",
+
+  "apexDescription" : "A tough, dark lamp post. It's cool glow is inviting.",
+  "avianDescription" : "A tall, dark lamp post.",
+  "floranDescription" : "Floran wantsss to use long lamp as ssspear!",
+  "glitchDescription" : "Impressed. This is a very tall lamp.",
+  "humanDescription" : "Lamp post, to keep the streets safe at night!",
+  "hylotlDescription" : "This lamp post is made from exotic materials - I'm sure it could withstand a lot.",
+  "novakidDescription" : "Light the way, lamp post!",
+  "vantaDescription" : "We tend to have a running theme with our colors and lights.",
+
+  "lightColor" : [174, 233, 232],
+
+  "inventoryIcon" : "vantalampposticon.png",
+  "orientations" : [
+    {
+      "image" : "vantalamppost.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, 6],
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [-1, 5], [0, 5], [1, 5], [0, 6], [0, 7] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "vantalamppost.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "lightPosition" : [0, 6],
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [-1, 5], [0, 5], [1, 5], [0, 6], [0, 7] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "vantalamppost.png",
+    "fg" : "vantalamppostlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 6] ]
+}

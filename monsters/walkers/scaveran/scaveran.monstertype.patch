@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "scaveranTreasure", "bow" : "scaveranHunting", "scythe" : "scaveranPsiReaping" } ] }
+]

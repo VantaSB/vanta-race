@@ -1,0 +1,1432 @@
+{
+  "skippable" : false,
+  "muteSfx" : true,
+  "muteMusic" : true,
+  "scissor" : false,
+  "backgroundColor" : [0, 0, 0, 255],
+  "backgroundFadeTime" : 0.5,
+  "panels" : [
+
+  // Station and initial escape
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/starfield1_dbl.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [-600, 640]
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 1,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "position" : [-640, 640]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/starfield1_dbl.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [640, 640]
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 1,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "position" : [600, 640]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/station.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [280, 250]
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 1,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "zoom" : 0.95,
+          "position" : [260, 240]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/tinybooster.png:<frame>"
+        }
+      ],
+      "animationFrames" : 3,
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.5,
+          "alpha" : 0,
+          "position" : [280, 250],
+          "frame" : 0
+        },
+        {
+          "timecode" : 3.9,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 4,
+          "position" : [272, 246],
+          "alpha" : 1
+        },
+        {
+          "timecode" : 6.9,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 7,
+          "alpha" : 0,
+          "zoom" : 1,
+          "position" : [-720, 50],
+          "frame" : 168
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/vantaship.png:<frame>"
+        }
+      ],
+      "animationFrames" : 3,
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.5,
+          "alpha" : 0,
+          "position" : [-720, -100],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 1,
+          "frame" : 12
+        },
+        {
+          "timecode" : 7.5,
+          "position" : [-720, -100]
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1,
+          "frame" : 228
+        },
+        {
+          "timecode" : 10,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [1140, 470],
+          "frame" : 240
+        }
+      ]
+    },
+
+    {
+      "startTime" : 1.5,
+      "endTime" : 6.55,
+      "drawables" : [
+        {
+          "image" : "/cinematics/radiomessagebg.png:<frame>"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1.0,
+          "zoom" : 1.0,
+          "position" : [480, 100],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "frame" : 6
+        },
+        {
+          "timecode" : 4.5,
+          "frame" : 6
+        },
+        {
+          "timecode" : 5,
+          "frame" : 12,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 5.05,
+          "alpha" : 0.0
+        }
+      ]
+    },
+
+    {
+      "startTime" : 2,
+      "endTime" : 6,
+      "drawables" : [
+        {
+          "image" : "/ai/portraits/<species>portrait.png:talk.<frame>"
+        }
+      ],
+      "animationFrames" : 2,
+      "text" : "Flight path clear and finalized. Departing.",
+      "textPosition" : {
+        "position" : [34, 21],
+        "vAnchor" : "top",
+        "wrapWidth" : 218
+      },
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1,
+          "zoom" : 1.0,
+          "position" : [366.5, 100],
+          "frame" : 0,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 0.1,
+          "textPercentage" : 0.01
+        },
+        {
+          "timecode" : 2.5,
+          "frame" : 22,
+          "textPercentage" : 1
+        }
+      ]
+    },
+
+
+
+    // Frigates and gunship deployment
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/starfield1_dbl.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [640, 640]
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 10.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 19.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 20,
+          "alpha" : 0,
+          "position" : [600, 640]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/frigate1.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.25,
+          "alpha" : 0,
+          "position" : [300, 470]
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 10.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 19.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 20,
+          "alpha" : 0,
+          "position" : [350, 470]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/frigate1.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.25,
+          "alpha" : 0,
+          "position" : [480, 220]
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 10.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 19.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 20,
+          "alpha" : 0,
+          "position" : [530, 220]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/frigate2.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.5,
+          "alpha" : 0,
+          "position" : [340, 320]
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 10.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 19.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 20,
+          "alpha" : 0,
+          "position" : [450, 320]
+        }
+      ]
+    },
+
+    {
+      "startTime" : 10,
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/nightargunship.png:<frame>"
+        }
+      ],
+      "animationFrames" : 3,
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.85,
+          "alpha" : 0,
+          "position" : [-260, 270],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 5.5,
+          "position" : [-260, 270]
+        },
+        {
+          "timecode" : 6.5,
+          "alpha" : 1,
+          "position" : [1280, 270]
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "frame" : 240
+        }
+      ]
+    },
+
+    {
+      "startTime" : 10,
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/nightargunship.png:<frame>"
+        }
+      ],
+      "animationFrames" : 3,
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.85,
+          "alpha" : 0,
+          "position" : [-200, 290],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 6.5,
+          "position" : [-200, 290]
+        },
+        {
+          "timecode" : 7.5,
+          "alpha" : 1,
+          "position" : [1220, 290]
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "frame" : 240
+        }
+      ]
+    },
+
+    {
+      "startTime" : 10,
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/nightargunship.png:<frame>"
+        }
+      ],
+      "animationFrames" : 3,
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.85,
+          "alpha" : 0,
+          "position" : [-230, 240],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 7.5,
+          "position" : [-230, 240]
+        },
+        {
+          "timecode" : 8.5,
+          "alpha" : 1,
+          "position" : [1250, 240]
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "frame" : 240
+        }
+      ]
+    },
+
+    {
+      "startTime" : 11,
+      "endTime" : 17.5,
+      "drawables" : [
+        {
+          "image" : "/cinematics/radiomessagebg.png:<frame>"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1.0,
+          "zoom" : 1.0,
+          "position" : [480, 100],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "frame" : 6
+        },
+        {
+          "timecode" : 5.5,
+          "frame" : 6
+        },
+        {
+          "timecode" : 6,
+          "frame" : 12,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 6.05,
+          "alpha" : 0.0
+        }
+      ]
+    },
+
+    {
+      "startTime" : 11.5,
+      "endTime" : 16.5,
+      "drawables" : [
+        {
+          "image" : "/ai/portraits/<species>portrait.png:talk.<frame>"
+        }
+      ],
+      "animationFrames" : 2,
+      "text" : "The Conclave's fleet has detected us. They are mobilizing a strike force to intercept.",
+      "textPosition" : {
+        "position" : [34, 21],
+        "vAnchor" : "top",
+        "wrapWidth" : 218
+      },
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1,
+          "zoom" : 1.0,
+          "position" : [366.5, 100],
+          "frame" : 0,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 0.1,
+          "textPercentage" : 0.01
+        },
+        {
+          "timecode" : 4,
+          "frame" : 38,
+          "textPercentage" : 1
+        }
+      ]
+    },
+
+
+
+
+    // Chased by gunships and escape
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/starfield1_dbl.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [640, 270]
+        },
+        {
+          "timecode" : 3.5,
+          "position" : [-1920, 270]
+        },
+        {
+          "timecode" : 19.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 20,
+          "alpha" : 0
+        }
+      ],
+      "startTime" : 20,
+      "loopTime" : 3.5,
+      "endTime" : 30
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/starfield1_dbl.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [1920, 270]
+        },
+        {
+          "timecode" : 3.5,
+          "position" : [-640, 270]
+        },
+        {
+          "timecode" : 19.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 20,
+          "alpha" : 0
+        }
+      ],
+      "startTime" : 20,
+      "loopTime" : 3.5,
+      "endTime" : 30
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/starfield1_dbl.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [3200, 270]
+        },
+        {
+          "timecode" : 3.5,
+          "position" : [640, 270]
+        },
+        {
+          "timecode" : 19.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 20,
+          "alpha" : 0
+        }
+      ],
+      "startTime" : 20,
+      "loopTime" : 3.5,
+      "endTime" : 30
+    },
+
+    {
+      "startTime" : 20,
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/vantaship.png:<frame>"
+        }
+      ],
+      "animationFrames" : 3,
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [720, 270],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 1,
+          "frame" : 12
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1,
+          "frame" : 228
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "position" : [640, 270],
+          "frame" : 240
+        }
+      ]
+    },
+
+    {
+      "startTime" : 20,
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/nightargunship.png:<frame>"
+        }
+      ],
+      "animationFrames" : 3,
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.85,
+          "alpha" : 0,
+          "position" : [210, 270],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "position" : [430, 270],
+          "frame" : 240
+        }
+      ]
+    },
+
+    {
+      "startTime" : 20,
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/nightargunship.png:<frame>"
+        }
+      ],
+      "animationFrames" : 3,
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.85,
+          "alpha" : 0,
+          "position" : [150, 290],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "position" : [370, 290],
+          "frame" : 240
+        }
+      ]
+    },
+
+    {
+      "startTime" : 20,
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/nightargunship.png:<frame>"
+        }
+      ],
+      "animationFrames" : 3,
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 0.85,
+          "alpha" : 0,
+          "position" : [180, 240],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "position" : [400, 240],
+          "frame" : 240
+        }
+      ]
+    },
+
+    {
+      "startTime" : 20.5,
+      "endTime" : 27.5,
+      "drawables" : [
+        {
+          "image" : "/cinematics/radiomessagebg.png:<frame>"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1.0,
+          "zoom" : 1.0,
+          "position" : [480, 100],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "frame" : 6
+        },
+        {
+          "timecode" : 6.5,
+          "frame" : 6
+        },
+        {
+          "timecode" : 7,
+          "frame" : 12,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 7.05,
+          "alpha" : 0.0
+        }
+      ]
+    },
+
+    {
+      "startTime" : 21,
+      "endTime" : 27,
+      "drawables" : [
+        {
+          "image" : "/ai/portraits/<species>portrait.png:talk.<frame>"
+        }
+      ],
+      "animationFrames" : 2,
+      "text" : "Navigation systems damaged, I cannot calculate an exact FTL jump. Pray I do not warp us into a supernova.",
+      "textPosition" : {
+        "position" : [34, 21],
+        "vAnchor" : "top",
+        "wrapWidth" : 218
+      },
+      "keyframes" : [
+        {
+          "timecode" : 0.0,
+          "alpha" : 1,
+          "zoom" : 1.0,
+          "position" : [366.5, 100],
+          "frame" : 0,
+          "textPercentage" : 0
+        },
+        {
+          "timecode" : 0.1,
+          "textPercentage" : 0.01
+        },
+        {
+          "timecode" : 4.5,
+          "frame" : 40,
+          "textPercentage" : 1
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/white.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 500,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 29.5,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 30,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 30.5,
+          "alpha" : 0
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/starfield1_dbl.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [640, 270]
+        },
+        {
+          "timecode" : 2,
+          "position" : [-1920, 270]
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0
+        }
+      ],
+      "startTime" : 30,
+      "loopTime" : 2,
+      "endTime" : 40
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/starfield1_dbl.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [1920, 270]
+        },
+        {
+          "timecode" : 2,
+          "position" : [-640, 270]
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0
+        }
+      ],
+      "startTime" : 30,
+      "loopTime" : 2,
+      "endTime" : 40
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/starfield1_dbl.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 1,
+          "position" : [3200, 270]
+        },
+        {
+          "timecode" : 2,
+          "position" : [640, 270]
+        },
+        {
+          "timecode" : 7.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 8,
+          "alpha" : 0
+        }
+      ],
+      "startTime" : 30,
+      "loopTime" : 2,
+      "endTime" : 38
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/black.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 35,
+          "zoom" : 10,
+          "alpha" : 0,
+          "position" : [450, 260]
+        },
+        {
+          "timecode" : 35.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 44.5,
+          "alpha" : 1
+        }
+        ,
+        {
+          "timecode" : 45,
+          "alpha" : 0
+        }
+      ]
+    },
+
+    {
+      "startTime" : 30,
+      "drawables" : [
+        {
+          "image" : "/cinematics/intro/vantaship2.png:<frame>"
+        }
+      ],
+      "animationFrames" : 3,
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 1,
+          "alpha" : 0,
+          "position" : [500, 270],
+          "frame" : 0
+        },
+        {
+          "timecode" : 0.5,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 3.5,
+          "alpha" : 1,
+          "position" : [500, 270]
+        },
+        {
+          "timecode" : 4,
+          "alpha" : 1,
+          "position" : [450, 270]
+        },
+        {
+          "timecode" : 5,
+          "alpha" : 1,
+          "position" : [1500, 270]
+        },
+        {
+          "timecode" : 9.5,
+          "alpha" : 1,
+          "position" : [1500, 270]
+        },
+        {
+          "timecode" : 10,
+          "alpha" : 0,
+          "frame" : 240
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/white.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 0,
+          "zoom" : 500,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 34.5,
+          "alpha" : 0
+        },
+        {
+          "timecode" : 35,
+          "alpha" : 1
+        },
+        {
+          "timecode" : 35.5,
+          "alpha" : 0
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogo.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 37.5,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 45,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 46,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 48,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogoshine1.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 45,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 45.01,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 45.07,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 45.08,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogoshine2.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 45.05,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 45.06,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 45.12,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 45.13,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogoshine3.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 45.10,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 45.11,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 45.17,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 45.18,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogoshine4.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 45.15,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 45.16,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 45.22,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 45.23,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    },
+
+    {
+      "drawables" : [
+        {
+          "image" : "/cinematics/story/SBlogoshine5.png"
+        }
+      ],
+      "keyframes" : [
+        {
+          "timecode" : 45.20,
+          "zoom" : 0.34,
+          "alpha" : 0,
+          "position" : [483, 275],
+          "frame" : 90
+        },
+        {
+          "timecode" : 45.21,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 45.27,
+          "zoom" : 0.35,
+          "alpha" : 1,
+          "position" : [483, 275]
+        },
+        {
+          "timecode" : 45.28,
+          "zoom" : 0.35,
+          "alpha" : 0,
+          "position" : [483, 275]
+        }
+      ]
+    }
+  ],
+  "audio" : [
+    {
+      "timecode" : 0,
+      "endTimecode" : 10,
+      "resource" : "/sfx/environmental/moon_surface.ogg"
+    },
+    {
+      "timecode" : 2,
+      "endTimecode" : 4.5,
+      "loops" : -1,
+      "resource" : "/sfx/interface/aichatter1_loop.ogg"
+    },
+    {
+      "timecode" : 4,
+      "resource" : "/sfx/cinematics/protectorate/ship_takeoff_distant1.ogg"
+    },
+    {
+      "timecode" : 7.5,
+      "resource" : "/sfx/cinematics/protectorate/ship_takeoff_distant2.ogg"
+    },
+    {
+      "timecode" : 7.6,
+      "resource" : "/sfx/cinematics/protectorate/ship_takeoff_distant2.ogg"
+    },
+    {
+      "timecode" : 10,
+      "endTimecode" : 20,
+      "resource" : "/sfx/environmental/moon_underground.ogg"
+    },
+    {
+      "timecode" : 9.99,
+      "endTimecode" : 20,
+      "loops" : -1,
+      "resource" : "/sfx/objects/boosterflame.ogg"
+    },
+    {
+      "timecode" : 10,
+      "endTimecode" : 20,
+      "loops" : -1,
+      "resource" : "/sfx/objects/boosterflame.ogg"
+    },
+    {
+      "timecode" : 10.01,
+      "endTimecode" : 20,
+      "loops" : -1,
+      "resource" : "/sfx/objects/boosterflame.ogg"
+    },
+    {
+      "timecode" : 11.5,
+      "endTimecode" : 15.5,
+      "loops" : -1,
+      "resource" : "/sfx/interface/aichatter1_loop.ogg"
+    },
+    {
+      "timecode" : 14.75,
+      "resource" : "/sfx/cinematics/protectorate/ship_takeoff_distant1.ogg"
+    },
+    {
+      "timecode" : 15,
+      "resource" : "/sfx/cinematics/protectorate/ship_takeoff_distant2.ogg"
+    },
+    {
+      "timecode" : 15.75,
+      "resource" : "/sfx/cinematics/protectorate/ship_takeoff_distant1.ogg"
+    },
+    {
+      "timecode" : 16,
+      "resource" : "/sfx/cinematics/protectorate/ship_takeoff_distant2.ogg"
+    },
+    {
+      "timecode" : 16.75,
+      "resource" : "/sfx/cinematics/protectorate/ship_takeoff_distant1.ogg"
+    },
+    {
+      "timecode" : 17,
+      "resource" : "/sfx/cinematics/protectorate/ship_takeoff_distant2.ogg"
+    },
+    {
+      "timecode" : 20,
+      "endTimecode" : 30,
+      "loops" : -1,
+      "resource" : "/sfx/interface/ship_thrusters.ogg"
+    },
+    {
+      "timecode" : 20,
+      "endTimecode" : 30,
+      "loops" : -1,
+      "resource" : "/sfx/interface/ship_thrusters.ogg"
+    },
+    {
+      "timecode" : 21,
+      "endTimecode" : 25.5,
+      "loops" : -1,
+      "resource" : "/sfx/interface/aichatter1_loop.ogg"
+    },
+    {
+      "timecode" : 27.5,
+      "resource" : "/sfx/interface/hyperspace_start.ogg"
+    },
+    {
+      "timecode" : 30,
+      "endTimecode" : 35,
+      "loops" : -1,
+      "resource" : "/sfx/interface/hyperspace_loop.ogg"
+    },
+    {
+      "timecode" : 30,
+      "endTimecode" : 35,
+      "loops" : -1,
+      "resource" : "/sfx/interface/hyperspace_loop.ogg"
+    },
+    {
+      "timecode" : 34.5,
+      "resource" : "/sfx/interface/hyperspace_end_shortened.ogg"
+    }
+  ]
+}

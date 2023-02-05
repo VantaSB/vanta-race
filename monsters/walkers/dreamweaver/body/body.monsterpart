@@ -1,0 +1,9 @@
+{
+  "name" : "dreamweaver",
+  "category" : "dreamweaver",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "dreamweaver.png"
+  }
+}

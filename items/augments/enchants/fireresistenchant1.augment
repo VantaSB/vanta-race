@@ -1,0 +1,24 @@
+{
+  "itemName" : "fireresistenchant1",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "armorenchant",
+  "category" : "armorEnchant",
+  "inventoryIcon" : "fireenchant.png",
+  "description" : "Adds 25% ^orange;fire^reset; resistance to your armor.",
+  "shortdescription" : "Fire Resistance I",
+
+  "augment" : {
+    "type" : "enchant",
+    "name" : "fireresistenchant1",
+    "displayName" : "Fire Resistance I",
+    "displayIcon" : "/items/augments/enchants/fireenchant.png",
+    "effects" : [
+      {"stat" : "fireResistance", "amount" : 0.25}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

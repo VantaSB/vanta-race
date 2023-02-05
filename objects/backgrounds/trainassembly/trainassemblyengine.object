@@ -1,0 +1,46 @@
+{
+  "objectName" : "trainassemblyengine",
+  "colonyTags" : ["nightar", "large", "decorative", "midnight"],
+  "printable" : false,
+  "scannable" : false,
+  "price" : 0,
+  "rarity" : "Common",
+  "description" : "Set piece",
+  "shortdescription" : "Hovertrain Engine",
+
+  "inventoryIcon" : "trainassemblyengine.png",
+  "placementImage" : "trainassemblyengine.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "trainassemblyengine.png" },
+        { "image" : "trainassemblyengine_lit.png" }
+      ],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [ -256, -96 ],
+      "renderLayer" : "Object-1",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    },
+    {
+      "imageLayers" : [
+        { "image" : "trainassemblyengine.png" },
+        { "image" : "trainassemblyengine_lit.png", "fullbright" : true }
+      ],
+
+      "direction" : "right",
+
+      "imagePosition" : [ -256, -96 ],
+      "renderLayer" : "BackgroundTile+1",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    }
+  ]
+}

@@ -45,8 +45,6 @@
               "immediateSound" : "/sfx/tech/tramplatform_open.ogg",
               "immediateSoundRangeMultiplier" : 0.5
             }
-
-
           }
         }
       },

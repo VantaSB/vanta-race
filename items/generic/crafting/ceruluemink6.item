@@ -1,0 +1,9 @@
+{
+  "itemName" : "ceruleumink6",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "reagent",
+  "description" : "An ink fortified with solarium to improve conductivity on a grimoire's pages.",
+  "shortdescription" : "Grade 6 Ceruleum Ink",
+  "inventoryIcon" : "ceruleumink.png"
+}

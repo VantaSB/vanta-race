@@ -27,7 +27,7 @@
   "needsEdgeTrigger" : true,
   "edgeTriggerGrace" : 0.2,
 
-  "comboSteps" : 3,
+  "comboSteps" : 2,
   "comboTiming" : [0.2, 0.5],
   "comboCooldown" : 0.3,
   "comboFinisherSource" : "/items/active/weapons/fist/combofinishers/powerpunch.combofinisher",

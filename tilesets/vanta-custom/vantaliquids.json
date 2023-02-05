@@ -4,17 +4,27 @@
   "properties" : {
   },
   "spacing" : 0,
-  "tilecount" : 1,
+  "tilecount" : 2,
   "tileheight" : 8,
   "tileproperties" : {
     "0" : {
       "//name" : "liquidceruleum",
+      "//shortdescription" : "Liquid Ceruleum",
       "liquid" : "liquidceruleum"
+    },
+    "1" : {
+      "//name" : "liquidceruleum_source",
+      "//shortdescription" : "Endless Liquid Ceruleum",
+      "liquid" : "liquidceruleum",
+      "source" : true
     }
   },
   "tiles" : {
     "0" : {
       "image" : "../../tiled/vanta-custom/liquids/liquidceruleum.png"
+    },
+    "1" : {
+      "image" : "../../tiled/vanta-custom/liquids/liquidceruleumsource.png"
     }
   },
   "tilewidth" : 8

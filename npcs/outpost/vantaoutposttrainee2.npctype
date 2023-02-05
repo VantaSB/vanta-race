@@ -1,0 +1,41 @@
+{
+  "type" : "vantaoutposttrainee2",
+  "baseType" : "outpostcivilian",
+
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "male65",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.4",
+    "bodyDirectives" : "?replace=ffe2c5=ab8c77?replace=ffc181=86644a?replace=d39c6c=684431?replace=c7815b=40271d?replace=ed1c24=b8b8b8",
+    "hairDirectives" : "?replace=d9c189=d9c189?replace=a38d59=a38d59?replace=735e3a=735e3a"
+  },
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Before the Commander's troops found me, I only knew of the tribalists. The Conclave is a whole new scale to tango with, and I'd be lying if I said the thought of going up against them doesn't terrify me."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "chest" : [ { "name" : "vantatier1chest" } ],
+          "legs" : [ { "name" : "vantatier1pants" } ]
+        }
+      ] ]
+    ]
+  }
+}

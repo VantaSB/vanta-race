@@ -1,0 +1,24 @@
+{
+  "itemName" : "poisonresistenchant2",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "armorenchant",
+  "category" : "armorEnchant",
+  "inventoryIcon" : "poisonenchant.png",
+  "description" : "Adds 50% ^green;poison^reset; resistance to your armor.",
+  "shortdescription" : "Poison Resistance II",
+
+  "augment" : {
+    "type" : "enchant",
+    "name" : "poisonresistenchant2",
+    "displayName" : "Poison Resistance II",
+    "displayIcon" : "/items/augments/enchants/poisonenchant.png",
+    "effects" : [
+      {"stat" : "poisonResistance", "amount" : 0.50}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

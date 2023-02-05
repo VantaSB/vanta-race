@@ -1,0 +1,55 @@
+{
+  "objectName" : "nightsteelgreebleC0",
+  "colonyTags" : ["nightsteel"],
+  "printable" : false,
+  "rarity" : "legendary",
+  "category" : "decorative",
+
+  "price" : 25,
+  "description" : "An aesthetic nightsteel embellishment.",
+  "shortdescription" : "Nighsteel Greeble",
+  "race" : "generic",
+
+  "apexDescription" : "A tasteful aesthetic nightsteel embellishment.",
+  "avianDescription" : "An aesthetic nightsteel embellishment.",
+  "floranDescription" : "Nightsteel thing doesss what?",
+  "glitchDescription" : "Curious. This nightsteel object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic nightsteel embellishment.",
+  "novakidDescription" : "Purdy piece o' nightsteel styling there.",
+
+  "inventoryIcon" : "nightsteelgreebleC0icon.png",
+
+  "orientations" : [
+    {
+      "image" : "nightsteelgreebleC0.png",
+      "imagePosition" : [0,-8],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [1,1],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightsteelgreebleC0.png?flipx",
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [-1,1],[-1,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightsteelgreebleC0bottom.png",
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [-1,-1],[1,-1] ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "nightsteelgreebleC0top.png",
+      "imagePosition" : [-8, 0],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [-1,1],[1,1] ],
+      "collision" : "solid"
+    }
+  ]
+}

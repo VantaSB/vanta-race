@@ -6,7 +6,7 @@
 
   "animation" : "ceruleumnautileech.animation",
 
-  "dropPools" : [ { "default" : "nautileechTreasure", "bow" : "nautileechHunting" } ],
+  "dropPools" : [ { "default" : "nautileechTreasure", "bow" : "nautileechHunting", "scythe" : "nautileechPsiReaping" } ],
 
   "baseParameters" : {
     "scripts" : [

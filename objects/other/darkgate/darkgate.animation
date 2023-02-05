@@ -1,18 +1,31 @@
 {
   "animatedParts" : {
     "stateTypes" : {
+      "baseState" : {
+        "default" : "off",
+        "states" : {
+          "on" : {
+            "mode" : "loop",
+            "properties" : {
+              "persistentSound" : "/sfx/objects/terraformer_small_loop.ogg",
+              "persistentSoundRangeMultiplier" : 0.5,
+              "persistentSoundStopTime" : 0.2
+            }
+          },
+          "off" : {}
+        }
+      },
       "orb" : {
-        "default" : "on",
+        "default" : "off",
         "states" : {
           "off" : {},
           "on" : {
-            "frames" : 3,
-            "cycle" : 0.3,
+            "frames" : 6,
+            "cycle" : 0.25,
             "mode" : "loop"
           }
         }
       },
-
       "portal" : {
         "default" : "closed",
         "states" : {
@@ -39,23 +52,69 @@
     },
 
     "parts" : {
+      "base" : {
+        "properties" : {
+          "centered" : false,
+          "fullbright" : true
+        },
+
+        "partStates" : {
+          "baseState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default.on"
+              }
+            },
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            }
+          }
+        }
+      },
+
+      "baseLit" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "baseState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default.on"
+              }
+            },
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            }
+          }
+        }
+      },
+
       "orb" : {
         "properties" : {
           "centered" : true,
-          "fullbright" : true
+          "fullbright" : true,
+          "zLevel" : 2,
+          "offset" : [7, 5]
         },
 
         "partStates" : {
           "orb" : {
             "on" : {
               "properties" : {
-                "image" : "/objects/other/darkgate/orb.png:default.<frame>"
+                "image" : "<partImage>:default.<frame>"
               }
             },
 
             "off" : {
               "properties" : {
-                "image" : "/objects/other/darkgate/orb.png:default.off"
+                "image" : "<partImage>:default.off"
               }
             }
           }
@@ -65,9 +124,9 @@
       "portal" : {
         "properties" : {
           "centered" : true,
-          "zLevel" : 1,
           "fullbright" : true,
-          "offset" : [0.0, 5.0]
+          "zLevel" : 2,
+          "offset" : [7, 15]
         },
 
         "partStates" : {
@@ -94,7 +153,7 @@
   },
 
   "sounds" : {
-    "on" : [],
+    "activate" : ["/sfx/melee/elemental_aura_activate.ogg"],
     "off" : []
   }
 }

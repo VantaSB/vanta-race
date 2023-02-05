@@ -1,0 +1,10 @@
+{
+  "itemName" : "ex_flameessence",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "ex_flameessence.png",
+  "description" : "Dark essence that has adopted fire properties.",
+  "shortdescription" : "Fire Essence",
+  "itemTags" : [ "reagent" ]
+}

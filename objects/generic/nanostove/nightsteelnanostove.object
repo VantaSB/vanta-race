@@ -1,0 +1,89 @@
+{
+  "objectName" : "nightsteelnanostove",
+  "colonyTags" : [ "cooking", "light" ],
+  "printable" : false,
+  "price" : 200,
+  "rarity" : "Common",
+  /*"interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Nightsteel Nanostove",
+        "subtitle" : " ^#b9b5b2;Hi-tech cooking",
+        "icon" : {
+          "file" : "/interface/crafting/culinaryarts.png"
+        }
+      }
+    },
+    "filter" : [ "campfire" ]
+  },*/
+  "description" : "Provides exceptional heat and a good place to cook.",
+  "shortdescription" : "Nightsteel Nanostove",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "lightColor" : [172, 221, 229],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  "pointLight" : true,
+  "pointBeam" : 0,
+  "pointAngle" : 0,
+
+  "particleEmitter" : {
+    "emissionRate" : 1.0,
+    "emissionVariance" : 0.5,
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [172, 221, 229, 255],
+      "light" : [100, 100, 150],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, 5.0],
+      "finalVelocity" : [0.0, 3.0],
+      "approach" : [0, 20],
+      "timeToLive" : 2,
+      "layer" : "middle"
+    },
+
+    "particleVariance" : {
+      "initialVelocity" : [0.5, 2.0]
+    }
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "nightsteelnanostove.png:<color>.<frame>",
+      "imageLayers" : [
+        { "image" : "nightsteelnanostove.png:<color>.<frame>" },
+        { "image" : "nightsteelnanostovelit.png:<color>.<frame>", "fullbright" : true }
+      ],
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "nightsteelnanostove.png:<color>.<frame>",
+      "imageLayers" : [
+        { "image" : "nightsteelnanostove.png:<color>.<frame>" },
+        { "image" : "nightsteelnanostovelit.png:<color>.<frame>", "fullbright" : true }
+      ],
+      "direction" : "right",
+
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

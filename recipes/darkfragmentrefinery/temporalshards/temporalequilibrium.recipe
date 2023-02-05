@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "temporalgrace3", "count" : 1 },
+    { "item" : "temporaladrenaline", "count" : 1 },
+    { "item" : "temporaldrift", "count" : 1 },
+    { "item" : "solariumstar", "count" : 3 }
+  ],
+  "output" : { "item" : "temporalequilibrium", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "temporalshards", "all" ]
+}

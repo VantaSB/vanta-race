@@ -1,0 +1,14 @@
+{
+  "itemName" : "vantaflagofficerlegs",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A sleek pair of uniform pants lined with synaptic feedback sensors.",
+  "shortdescription" : "Flag Officer Bottoms",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png"
+}

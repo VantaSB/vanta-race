@@ -1,0 +1,25 @@
+{
+  "itemName" : "thunderresistenchant3",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "tooltipKind" : "armorenchant",
+  "category" : "armorEnchant",
+  "inventoryIcon" : "thunderenchant.png",
+  "description" : "Adds 75% ^#ff00ff;electric^reset; resistance to your armor and grants immunity from electrocution.",
+  "shortdescription" : "Electric Resistance III",
+
+  "augment" : {
+    "type" : "enchant",
+    "name" : "thunderresistenchant3",
+    "displayName" : "Electric Resistance III",
+    "displayIcon" : "/items/augments/enchants/thunderenchant.png",
+    "effects" : [
+      {"stat" : "electricResistance", "amount" : 0.75},
+      {"stat" : "electricStatusImmunity", "amount" : 1}
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -1,0 +1,54 @@
+{
+  "objectName" : "nightsteelwallhatch",
+  "colonyTags" : ["decorative", "vanta"],
+  "rarity" : "Legendary",
+  "description" : "An auxiliary door that leads to another area.",
+  "shortdescription" : "Nightsteel Wall Hatch",
+  "race" : "vanta",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "openLight" : [0, 0, 0],
+
+  "inventoryIcon" : "base.png:default",
+
+  "animation" : "/objects/wired/door/lockingpropdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/ddooropen.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/ddoorclose.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "bg" : "base.png",
+    "fg" : "lit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "orientations" : [
+    {
+      "image" : "base.png:default",
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/ex_utilities/ex_doorwarp.lua" ],
+  "scriptDelta" : 5,
+
+  "interval" : 30,
+
+  "inputNodes" : [ [1, 3], [-2, 3] ],
+  "outputNodes" : [ [1, 0] ]
+}

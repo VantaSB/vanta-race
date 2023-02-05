@@ -1,0 +1,52 @@
+{
+	"objectName" : "ex_invisiblenpcspawner",
+	"colonyTags" : ["misc","wired"],
+	"rarity" : "Common",
+	"description" : "...",
+	"shortdescription" : "Invisible NPC Spawner",
+	"race" : "human",
+	"printable" : false,
+  "scannable" : false,
+	"category" : "spawner",
+	"price" : 0,
+
+	"inventoryIcon" : "ex_invisiblenpcspawner.png",
+	"orientations" : [
+		{
+			"image" : "ex_invisiblenpcspawner.png",
+			"imagePosition" : [-8, 0],
+
+			"spaceScan" : 0.1
+		}
+	],
+
+	"scripts" : [ "ex_npcspawner.lua" ],
+	"scriptDelta" : 10,
+
+	"animation" : "ex_invisiblenpcspawner.animation",
+
+	"animationParts" : {
+		"switch" : "ex_invisiblenpcspawnerhidden.png"
+	},
+	"animationPosition" : [-8, 0],
+
+	"inputNodes" : [ [-1, 1] ],
+
+	"spawner" : {
+		"npcTypes" : ["hostile"], //type of npc to spawn (random from list)
+		"npcSpecies" : [ "apex", "avian", "floran", "glitch", "human", "hylotl", "novakid" ], //species of NPC to spawn.
+		//"npcLevel" : [1, 10], //level of npc to spawn (random within range, or leave blank for world threat level)
+		//"npcLevelOffset" : 2, //if npcLevel is omitted, this can be used to offset the level
+		"npcParams" : { //additional parameters of spawned npc
+			"aggressive" : true
+		},
+		"position" : [0, 1], //relative position to spawn at
+		"positionVariance" : [10, 0], //[x,y] size of randomized spawn area, centered on position
+		"frequency" : [5.0, 5.0], //cooldown time between spawns (random within range)
+		"stock" : 5, //total number of spawns, -1 for infinite
+		"trigger" : null, //options include "wire", "interact", "break", null (periodic)
+		"outOfSight" : false //only spawn where the player can't see
+	},
+
+	"smashOnBreak" : true
+}

@@ -1,0 +1,44 @@
+{
+  "objectName" : "bsltype01monitor",
+  "colonyTags" : ["wired", "vanta", "electronic"],
+  "rarity" : "Common",
+  "printable" : false,
+  "scannable" : false,
+  "description" : "-todo-",
+  "shortdescription" : "Navigation Monitor",
+  "race" : "vanta",
+  "category" : "decorative",
+  "price" : 0,
+
+  "lightColor" : [18, 204, 224, 255],
+
+  "inventoryIcon" : "bsltype01monitor.png:default.0",
+
+  "animation" : "bsltype01monitor.animation",
+  "animationParts" : {
+    "bg" : "bsltype01monitor.png",
+    "fg" : "bsltype01monitorlit.png"
+  },
+
+  "orientations" : [
+    {
+      "image" : "bsltype01monitor.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "lightPosition" : [4, 2]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [4, 2] ],
+
+  "interactive" : false,
+
+  "animationPosition" : [0, 0]
+}

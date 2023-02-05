@@ -1,0 +1,48 @@
+{
+  "id" : "vantaspheretech2",
+  "prerequisites" : [ "vantaspheretech1" ],
+  "title" : "^orange;Micro-Managed",
+  "text" : "Hey there. I've been mulling over some of our previous research on that ^green;Bomb Sphere^white;, and I think I can actually get it to fit into even smaller places. Would you mind bringing me a ^orange;Pristine Dark Crystal^white;? I also need something extremely durable and conductive, like some ^orange;refined solarium^white;. Five should suffice.",
+  "completionText" : "Excellent. This should allow you to fit into tighter spaces, and I was even able to retain the bombing ability! I have no doubt that this will come in handy for you in the future.",
+  "moneyRange" : [300, 300],
+  "rewards" : [
+    [ [ "manipulatormodule", 1 ] ]
+  ],
+
+  "questGiverIndicator" : "vanta_questgiver",
+  "questReceiverIndicator" : "vanta_questreceiver",
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/ex_main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "qeustReceiver"
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Doppler^reset; at ^orange;Ran's base",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "perfectdarkcrystal",
+        "count" : 1,
+        "consume" : true
+      },
+      {
+        "type" : "gatherItem",
+        "itemName" : "solariumstar",
+        "count" : 5,
+        "consume" : true
+      }
+    ],
+
+    "hideTech" : [
+      "vantasphere"
+    ],
+
+    "equipTech" : [
+      "vantananosphere"
+    ]
+  }
+}

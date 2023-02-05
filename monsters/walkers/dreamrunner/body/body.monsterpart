@@ -1,0 +1,9 @@
+{
+  "name" : "dreamrunner",
+  "category" : "dreamrunner",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "dreamrunner.png"
+  }
+}

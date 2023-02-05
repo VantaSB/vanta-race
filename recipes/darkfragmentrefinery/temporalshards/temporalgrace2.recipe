@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "temporalgrace1", "count" : 3 }
+  ],
+  "output" : { "item" : "temporalgrace2", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "temporalshards", "all" ]
+}

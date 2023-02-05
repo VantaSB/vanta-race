@@ -1,0 +1,46 @@
+{
+  "objectName" : "trainassemblycartinterior",
+  "colonyTags" : ["nightar", "large", "decorative", "midnight"],
+  "printable" : false,
+  "scannable" : false,
+  "price" : 0,
+  "rarity" : "Common",
+  "description" : "Set piece",
+  "shortdescription" : "Hovertrain Cart",
+
+  "inventoryIcon" : "trainassemblycartinterior.png",
+  "placementImage" : "trainassemblycartinterior.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "trainassemblycartinterior.png" },
+        { "image" : "trainassemblycartinterior_lit.png" }
+      ],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [ -208, -72 ],
+      "renderLayer" : "Object-1",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    },
+    {
+      "imageLayers" : [
+        { "image" : "trainassemblycartinterior.png" },
+        { "image" : "trainassemblycartinterior_lit.png", "fullbright" : true }
+      ],
+
+      "direction" : "right",
+
+      "imagePosition" : [ -208, -72 ],
+      "renderLayer" : "BackgroundTile+1",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    }
+  ]
+}

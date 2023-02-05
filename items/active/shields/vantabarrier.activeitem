@@ -15,7 +15,8 @@
 
   "animation" : "shieldlit.animation",
   "animationParts" : {
-    "shield" : "images/vantashield/vantabarrier.png"
+    "shield" : "",
+    "shieldLit" : "images/vantashield/vantabarrier.png"
   },
   "animationCustom" : {
     "sounds" : {

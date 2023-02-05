@@ -1,0 +1,50 @@
+{
+  "objectName" : "redshiplight",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "description" : "Strip lighting, for use on a spaceship.",
+  "shortdescription" : "Red Ship Light",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 45,
+  "lightColor" : [185, 0, 0],
+
+  "apexDescription" : "Lights.",
+  "avianDescription" : "Lights.",
+  "floranDescription" : "Bright lightss.",
+  "glitchDescription" : "Observative. Lights.",
+  "humanDescription" : "Lights.",
+  "hylotlDescription" : "Lights.",
+  "novakidDescription" : "Just some lights.",
+  "vantaDescription" : "A red light.",
+
+  "inventoryIcon" : "redshiplight.png:default.on",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "redshiplight.png:<color>.<frame>", "fullbright" : true }, { "image" : "redshiplightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "redshiplight.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "pointLight" : true,
+  "pointBeam" : 0,
+  "pointAngle" : 0,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}
