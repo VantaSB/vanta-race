@@ -2,8 +2,8 @@
   "id" : "vantaintro",
   "mainQuest" : true,
   "title" : "New Chapter",
-  "text" : "Escape the research station",
-  "completionText" : "You've escaped from the Nightar research station, and now you're free to begin your own adventures.",
+  "text" : "Escape the detention facility",
+  "completionText" : "You've escaped from the Conclave's detention facility, and you are now free to start your own adventure.",
   "moneyRange" : [50, 50],
   "canBeAbandoned" : false,
   "showAcceptDialog" : false,
@@ -16,47 +16,35 @@
     "portraits" : {
       "default" : "player"
     },
-    "startingMusicTime" : 130,
-    "startingMusicTracks" : ["/music/inner-void.ogg"],
-    "midpointMusicTime" : 3.0,
+    "midpointMusicTime" : 15.0,
     "midpointMusicTracks" : ["/music/fear_within_loop.ogg"],
-    "introCinematic" : "/cinematics/intro/vantaintro_proto.cinematic",
-    //"midpointCinematic" : "",
-    //"midpointTeleportPosition" : [0, 0],
-    "endpointCinematic" : "/cinematics/intro/vantaintrocomplete_proto.cinematic",
+    "introCienamatic" : "/cinematics/intro/vantaintro_start.cinematic",
+    "endpointCinematic" : "/cinematics/intro/vantaintro_complete.cinematic",
     "confiscateItems" : [
-      "weatheredvantasaber",
-      "weatheredpicohandgun",
-      "weatheredgrimoire",
-      "weatheredbangle",
-      "weatheredgunblade",
-      "weathereddagger",
-      "nightarpocsec01",
-      "nightarpocsec02",
-      "nightarpocsec03",
-      "nightarpocsec04",
-      "nightarpocsec05",
-      ["money", 5000],
-      ["bandage", 1000],
-      ["salve", 1000],
-      ["junk", 1000]
+      "brokennoxcalibur",
+      "vantaemgpistol",
+      "vantaadepthead",
+      "vantaadeptchest",
+      "vantaadeptlegs",
+      "keycard1_0",
+      ["money", 1000],
+      ["bandage", 1000]
     ],
     "skipIntroItems" : [
-      "weatheredvantasaber",
-      "weatheredpicohandgun",
-      "weatheredgrimoire",
-      "weatheredbangle",
-      "weatheredgunblade",
-      "weathereddagger"
+      "brokennoxcalibur",
+      "vantaemgpistol",
+      "vantaadepthead",
+      "vantaadeptchest",
+      "vantaadeptlegs",
+      "keycard1_0"
     ],
 
     "descriptions" : {
-      "leaveCryoBay" : "Leave the cryobay",
-      "explore" : "Find your gear",
-      "getMM" : "Get the matter manipulator",
-      "findEngineering" : "Locate the reactor room",
-      "reactorRoom" : "Destroy central reactors",
-      "escape" : "Make your escape"
+      "exitSolitary" : "Leave detention cell",
+      "findGear" : "Find and equip your gear",
+      "leaveRestrictedArea" : "Leave the restricted area",
+      "matterManipulator" : "Take the matter manipulator",
+      "escape" : "Survive while you escape from the facility"
     },
 
     "followUp" : "bootship_vanta"
