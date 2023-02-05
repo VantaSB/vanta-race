@@ -6,7 +6,7 @@
   "rarity" : "Essential",
   "pickupQuestTemplates" : [ ],
   "category" : "enviroProtectionPack",
-  "description" : "This upgrade compresses your EPP into a compact module and further protects you from other environmental hazards on ^red;all planets^reset;.",
+  "description" : "This compressed EPP further protects you from other environmental hazards on ^red;all planets^reset; and grants various movement enhancements.",
   "shortdescription" : "Vanta Hazard Module",
 
   "maleFrames" : "back.png",
@@ -18,9 +18,13 @@
     { "stat" : "biomecoldImmunity", "amount" : 1.0 },
     { "stat" : "biomeradiationImmunity", "amount" : 1.0 },
     { "stat" : "breathProtection", "amount" : 1.0 },
-    { "stat" : "wetStatusImmunity", "amount" : 1.0 },
+    { "stat" : "poisonStatusImmunity", "amount" : 1.0 },
     { "stat" : "tarStatusImmunity", "amount" : 1.0 },
-    { "stat" : "lavaImmunity", "amount" : 1.0 }
+    { "stat" : "lavaImmunity", "amount" : 1.0 },
+		"jumpboostaugment",
+		"lowgravaugment",
+		"runboostaugment",
+		"swimboost"
   ],
 
   "radioMessagesOnPickup" : [ "pickupepp" ]

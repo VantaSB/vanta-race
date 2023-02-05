@@ -35,63 +35,42 @@
     "stances" : {
       "idle" : {
         "armRotation" : 25,
-        "weaponRotation" : 25,
-        "weaponRotationCenter" : [-1.25, 0.0],
-        "weaponOffset" : [0.6125, -1.125],
+        "weaponRotation" : 55,
+        "weaponRotationCenter" : [-0.5, 0.0],
+        "weaponOffset" : [-1.125, -0.6125],
 
         "frontArmFrame" : "run.1",
         "backArmFrame" : "jump.2"
-      },
-
-      "fire" : {
-        "weaponOffset" : [1.4125, 0]
-      },
-
-      "fire2" : {
-        "weaponOffset" : [1.4125, 0]
-      },
-
-      "fire3" : {
-        "weaponOffset" : [1.4125, -0.725]
       }
     }
   },
 
   "upgradeParameters" : {
     "level" : 6,
+    "inventoryIcon" : "vantascythe.png",
     "rarity" : "Legendary",
-    "shortdescription" : "Vanta War Scythe ^yellow;^reset;",
+    "shortdescription" : "^cyan;Ceruleum Crux^reset;",
     "animationParts" : {
       "blade" : "vantascythe.png",
-      "bladeLit" : "vantascythelit.png"
+      "bladeFullbright" : "vantascythelit.png"
     },
     "elementalType" : "ceruleum",
-    "comboSteps" : 5,
     "primaryAbility" : {
+      "comboSteps" : 5,
       "stances" : {
         "idle" : {
           "armRotation" : 25,
-          "weaponRotation" : 25,
-          "weaponRotationCenter" : [-1.25, 0.0],
-          "weaponOffset" : [0.6125, -1.125],
+          "weaponRotation" : 55,
+          "weaponRotationCenter" : [-0.5, 0.0],
+          "weaponOffset" : [-1.125, -0.6125],
 
           "frontArmFrame" : "run.1",
           "backArmFrame" : "jump.2"
-        },
-
-        "fire" : {
-          "weaponOffset" : [1.4125, 0]
-        },
-
-        "fire2" : {
-          "weaponOffset" : [1.4125, 0]
-        },
-
-        "fire3" : {
-          "weaponOffset" : [1.4125, -0.725]
         }
       }
-    }
+    },
+
+    "altAbilityType" : "traildash"
   },
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

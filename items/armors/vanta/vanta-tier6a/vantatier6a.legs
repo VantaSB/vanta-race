@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "legarmour",
-  "description" : "...",
-  "shortdescription" : "Inquisitor Tonban",
+  "description" : "Durable boots to help you traverse even the most treacherous terrain.",
+  "shortdescription" : "Delver's Jackboots",
   "tooltipKind" : "legaugment",
 
   "maleFrames" : "pants.png",

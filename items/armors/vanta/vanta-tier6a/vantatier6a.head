@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "headarmour",
-  "description" : "...",
-  "shortdescription" : "Inquisitor Helm",
+  "description" : "A helmet reinforced with Nightsteel.",
+  "shortdescription" : "Delver Apparatus",
   "tooltipKind" : "headaugment",
 
   "maleFrames" : "head.png",

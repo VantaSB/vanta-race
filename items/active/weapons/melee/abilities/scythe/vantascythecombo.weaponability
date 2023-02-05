@@ -2,11 +2,11 @@
   "animationParts" : { },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/npc/boss/cultistboss_sphere_attack.ogg" ],
-      "fire2" : [ "/sfx/npc/boss/cultistboss_sphere_attack.ogg" ],
-      "fire3" : [ "/sfx/npc/boss/cultistboss_beamwindup.ogg" ],
-      "fire4" : [ "/sfx/npc/boss/dragonboss_fireball1.ogg" ],
-      "fire5" : [ "/sfx/npc/boss/crystalboss_death.ogg" ]
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_axe.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_axe.ogg" ],
+      "fire4" : [ "/sfx/melee/flip_slash.ogg" ],
+      "fire5" : [ "/sfx/npc/boss/dragonboss_fireball1.ogg" ]
     }
   },
   "ability" : {
@@ -49,29 +49,29 @@
       "timeout" : 0.5
     },
     "stepDamageConfig" : [
-    {
-      "baseDamageFactor" : 0.75,
-      "knockback" : 20,
-      "timeout" : 0.2
-    },
-    {
-      "baseDamageFactor" : 0.75,
-      "knockback" : 10
-    },
-    {
-      "baseDamageFactor" : 0.75,
-      "knockback" : 10
-    },
-    {
-      "baseDamageFactor" : 1,
-      "knockback" : 20,
-      "timeout" : 0.2
-    },
-    {
-      "baseDamageFactor" : 0.5,
-      "knockback" : 100,
-      "timeout" : 0.2
-    }
+      {
+        "baseDamageFactor" : 0.75,
+        "knockback" : 20,
+        "timeout" : 0.2
+      },
+      {
+        "baseDamageFactor" : 0.75,
+        "knockback" : 10
+      },
+      {
+        "baseDamageFactor" : 0.75,
+        "knockback" : 10
+      },
+      {
+        "baseDamageFactor" : 1,
+        "knockback" : 20,
+        "timeout" : 0.2
+      },
+      {
+        "baseDamageFactor" : 0.5,
+        "knockback" : 100,
+        "timeout" : 0.2
+      }
     ],
 
     "stances" : {

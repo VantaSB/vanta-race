@@ -1,0 +1,28 @@
+{
+  "globalTagDefaults" : {
+    "hand" : "front"
+  },
+
+  "animatedParts" : {
+    "parts" : {
+      "glove" : {
+        "properties" : {
+          "transformationGroups" : [ "glove" ],
+          "rotationCenter" : [-0.5 ,0.5],
+          "centered" : false,
+          "image" : "glove.png",
+          "offset" : [-0.8, -0.35],
+          "fireSound" : "fire"
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "glove" : { }
+  },
+
+  "sounds" : {
+    "fire" : ["/sfx/gun/mech_splitshot2.ogg"]
+  }
+}

@@ -5,8 +5,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A very neat, elegant bottom piece.",
-  "shortdescription" : "Venator Sarouel",
+  "description" : "Durable trousers for scouting and exploring, likely in all directions.",
+  "shortdescription" : "Venator Trousers",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",

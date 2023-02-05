@@ -53,9 +53,9 @@
     "parts" : {
       "blade" : {
         "properties" : {
-          "zLevel" : 1,
+          "zLevel" : 0,
           "centered" : true,
-          "image" : "<partImage><paletteSwaps>?<directives>?<bladeDirectives>",
+          "image" : "<partImage>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0],
@@ -64,10 +64,10 @@
       },
       "bladeFullbright" : {
         "properties" : {
-          "zLevel" : 0,
+          "zLevel" : 1,
           "centered" : true,
           "fullbright" : true,
-          "image" : "<partImage><paletteSwaps>?<directives>?<bladeDirectives>",
+          "image" : "<partImage>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0],
@@ -78,7 +78,7 @@
         "properties" : {
           "zLevel" : 1,
           "centered" : true,
-          "image" : "<partImage><paletteSwaps>?<directives>",
+          "image" : "<partImage>",
           "offset" : [0, 1.875],
           "transformationGroups" : ["weapon"],
           "rotationCenter" : [0, 0]
@@ -88,7 +88,7 @@
             "zLevel" : 0,
             "centered" : true,
             "fullbright" : true,
-            "image" : "<partImage><paletteSwaps>?<directives>",
+            "image" : "<partImage>",
             "offset" : [0, 1.875],
             "transformationGroups" : ["weapon"],
             "rotationCenter" : [0, 0]
@@ -141,7 +141,7 @@
             },
             "fire5" : {
               "properties": {
-                "image": "/items/active/weapons/melee/abilities/spear/elementalspin/poisonspinswoosh.png:<frame>?hueshift=-145?scalebicubic=2?flipx",
+                "image": "/items/active/weapons/melee/abilities/spear/elementalspin/poisonspinswoosh.png:<frame>?hueshift=-145?flipx",
                 "offset": [ -1, 0 ],
                 "damageArea": [[ -7.5, 3.5 ], [ -3.5, 7.5 ], [ 3.5, 7.5 ], [ 7.5, 3.5 ], [ 7.5, -3.5 ], [ 3.5, -7.5 ], [ -3.5, -7.5 ], [ -7.5, -3.5 ]],
                 "transformationGroups": [ "swoosh" ]
@@ -159,6 +159,27 @@
   },
 
   "particleEmitters" : {
+    "fire5": {
+      "active": false,
+      "offsetRegion": [ -1, 0, -1, 0 ],
+      "transformationGroups": [ "swoosh" ],
+      "emissionRate": 1,
+      "burstCount": 1,
+      "particles": [
+        {
+          "particle": {
+            "type": "animated",
+            "looping": false,
+            "animation": "/animations/spacemonsterspawn/spacemonsterspawn.animation",
+            "size": 1,
+            "timeToLive": 0.5,
+            "destructionAction": "fade",
+            "destructionTime": 0.1,
+            "layer": "front"
+          }
+        }
+      ]
+    },
     "physicalswoosh" : {
       "active" : false,
       "transformationGroups" : ["swoosh"],

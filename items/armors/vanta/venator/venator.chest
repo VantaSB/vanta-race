@@ -5,8 +5,8 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A dark top.",
-  "shortdescription" : "Venator Top",
+  "description" : "A lightweight, cropped jacket with a pioneering demeanor. You feel like you could probably take on a giant or two!",
+  "shortdescription" : "Venator Jacket",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

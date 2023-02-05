@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "chestarmour",
-  "description" : "...",
-  "shortdescription" : "Inquisitor Harness",
+  "description" : "A durable, lightweight coat to protect you from harsher environments.",
+  "shortdescription" : "Delver Coat",
   "tooltipKind" : "armoraugment",
 
   "maleFrames" : {

@@ -3,10 +3,10 @@
   "price" : 100,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
-  "rarity" : "Essential",
+  "rarity" : "Common",
   "category" : "headwear",
   "description" : "",
-  "shortdescription" : "Vanta Envirosuit Helmet",
+  "shortdescription" : "Envirosuit Helmet",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

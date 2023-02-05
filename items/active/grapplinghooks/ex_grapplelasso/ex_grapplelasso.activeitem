@@ -1,0 +1,164 @@
+{
+  "itemName" : "ex_grapplelasso",
+  "price" : 1250,
+  "level" : 1,
+  "rarity" : "Essential",
+  "description" : "An experimental module fitted for matter manipulators. ^green;Quick select with [N] key.",
+  "shortdescription" : "Grapple Lasso",
+  "inventoryIcon" : "icon.png",
+  "largeImage" : "grapplemodulelarge.png",
+  "tooltipKind" : "mm",
+  "category" : "whip",
+  "twoHanded" : false,
+  "itemTags" : [ "weapon", "upgradeableWeapon" ],
+
+  "animation" : "/items/active/weapons/whip/ex_grapplefist.animation",
+
+  "animationParts" : {
+    "weapon" : "/items/active/weapons/whip/grappleglove.png",
+    "weaponFullbright" : "/items/active/weapons/whip/grappleglovelit.png"
+  },
+
+  "animationCustom" : {
+    "particleEmitters" : { "crack" : { "particles" : [ ]}},
+    "sounds" : {
+      "swing" : [ "/sfx/gun/erchiuseyebeam_start.ogg" ],
+      "crack" : [ "/sfx/npc/boss/cultistboss_sphere_attack.ogg" ],
+      "fireLoop" : [ "/sfx/gun/aegisaltpistol_loop2.ogg" ],
+      "disconnect" : [ "/sfx/gun/mech_splitshot2.ogg" ]
+    }
+  },
+
+  "chain" : {
+    "startOffset" : [0.375, 0.0625],
+    "length" : [3, 18],
+    "segmentImage" : "/items/active/grapplinghooks/ex_grapplelasso/vantagrapplebeam.png",
+    "endSegmentImage" : "/items/active/grapplinghooks/ex_grapplelasso/vantagrapplebeamend.png",
+    "segmentSize" : 0.48,
+
+    "overdrawLength" : 0.2,
+    "taper" : 0,
+    "waveform" : {
+      "frequency" : 2.0,
+      "amplitude" : 0.125,
+      "movement" : 40.0
+    },
+
+    "fullbright" : true
+  },
+
+  "scripts" : ["/items/active/weapons/whip/ex_grapplefist.lua"],
+
+  "primaryAbilityType" : "ex_grapple",
+  "primaryAbility" : {
+    "cutoffRange": 50,
+    "minSwingDistance": 2.5,
+    "onlyPullWhenAboveAnchor": false,
+
+    "fireTime" : 1.12,
+    "chainDps" : 0.0,
+    "crackDps" : 0.0,
+
+    "projectileType" : "invisibleprojectile",
+    "projectileConfig" : {},
+
+    "DoTTickSpeed" : 1,
+    "dotProjectileType" : "",
+    "dotProjectileConfig" : {
+      "power" : 0,
+      "statusEffects" : [ ]
+    },
+
+    "doSpawnRandomRopeProjectiles": false,
+    "ropeRandomProjectileSpeed": 1,
+    "ropeRandomProjectileType" : "",
+    "ropeRandomProjectileConfig" : {
+      "statusEffects" : [ ],
+      "power" : 0.0,
+	    "speed" : 1
+    },
+    "minChainSegmentLengthToSpawnOn": 40,
+    "spawnRopeProjectileWhileMoving": true,
+    "killRopeProjectileWhenMoving": true,
+
+    "targetTypes": [ "player", "npc", "monster" ],
+    "canSnagTerrain" : true,
+    "onlyPullWhileAirborne" : false,
+    "maxControlForce": 1000,
+
+    "controllable" : true,
+    "reelSpeed" : 15,
+    "airForce" : 150
+  },
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_l6.png",
+    "largeImage" : "grapplemodulelarge_l6.png",
+    "description" : "A grpple module upgrade that delivers continuous voltage. ^green;Quick select with [N] key.",
+    "level" : 6,
+    "shortdescription" : "Grapple Voltage",
+    "animationParts" : {
+      "weapon" : "/items/active/weapons/whip/grappleglove_l6.png",
+      "weaponFullbright" : "/items/active/weapons/whip/grappleglovelit.png"
+    },
+    "chain" : {
+      "startOffset" : [0.375, 0.0625],
+      "length" : [3, 18],
+      "segmentImage" : "/items/active/grapplinghooks/ex_grapplelasso/vantagrapplevoltage.png",
+      "endSegmentImage" : "/items/active/grapplinghooks/ex_grapplelasso/vantagrapplevoltageend.png",
+      "segmentSize" : 0.48,
+
+      "overdrawLength" : 0.2,
+      "taper" : 0,
+      "waveform" : {
+        "frequency" : 2.0,
+        "amplitude" : 0.125,
+        "movement" : 40.0
+      },
+
+      "fullbright" : true
+    },
+    "primaryAbility" : {
+      "cutoffRange": 50,
+      "minSwingDistance": 2.5,
+      "onlyPullWhenAboveAnchor": false,
+
+      "fireTime" : 1.12,
+      "chainDps" : 3.0,
+      "crackDps" : 5.0,
+
+      "projectileType" : "invisibleprojectile",
+      "projectileConfig" : {},
+
+      "DoTTickSpeed" : 1,
+      "dotProjectileType" : "electricshockwave",
+      "dotProjectileConfig" : {
+        "power" : 30,
+        "statusEffects" : [ "staffslow", "electrified" ]
+      },
+
+      "doSpawnRandomRopeProjectiles": true,
+      "ropeRandomProjectileSpeed": 0.111,
+      "ropeRandomProjectileType" : "ex_grappleshock",
+      "ropeRandomProjectileConfig" : {
+        "statusEffects" : [ "electrified" ],
+        "power" : 0.5,
+  	    "speed" : 1
+      },
+      "minChainSegmentLengthToSpawnOn": 40,
+      "spawnRopeProjectileWhileMoving": true,
+      "killRopeProjectileWhenMoving": true,
+
+      "targetTypes": [ "player", "npc", "monster" ],
+      "canSnagTerrain" : true,
+      "onlyPullWhileAirborne" : false,
+      "maxControlForce": 1000,
+
+      "controllable" : true,
+      "reelSpeed" : 15,
+      "airForce" : 150
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildwhip.lua"
+}

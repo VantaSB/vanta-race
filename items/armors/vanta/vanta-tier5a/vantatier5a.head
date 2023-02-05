@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "headarmour",
-  "description" : "Good for keeping your hair out of the way when you're trying to focus on a target.",
-  "shortdescription" : "Battlemage Circlet",
+  "description" : "A light-weight, high-tech visor reinforced with Nightsteel.",
+  "shortdescription" : "Didact Visor",
   "tooltipKind" : "headaugment",
 
   "maleFrames" : "head.png",

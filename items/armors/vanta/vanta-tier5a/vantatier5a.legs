@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "category" : "legarmour",
   "description" : "An elegant robe that lacks durability, but allows for easier movement on the field.",
-  "shortdescription" : "Battlemage Tassets",
+  "shortdescription" : "Didact Tassets",
   "tooltipKind" : "legaugment",
 
   "maleFrames" : "pants.png",

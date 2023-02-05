@@ -15,7 +15,7 @@
   "animation" : "vantascythe.animation",
   "animationParts" : {
     "blade" : "vantascythe.png",
-    "bladeLit" : "vantascythelit.png"
+    "bladeFullbright" : "vantascythelit.png"
   },
 
   "animationCustom" : { },
@@ -29,27 +29,17 @@
     "stances" : {
       "idle" : {
         "armRotation" : 25,
-        "weaponRotation" : 25,
-        "weaponRotationCenter" : [-1.25, 0.0],
-        "weaponOffset" : [0.6125, -1.125],
+        "weaponRotation" : 55,
+        "weaponRotationCenter" : [-0.5, 0.0],
+        "weaponOffset" : [-1.125, -0.6125],
 
         "frontArmFrame" : "run.1",
         "backArmFrame" : "jump.2"
-      }/*,
-
-      "fire" : {
-        "weaponOffset" : [1.4125, 0]
-      },
-
-      "fire2" : {
-        "weaponOffset" : [1.4125, 0]
-      },
-
-      "fire3" : {
-        "weaponOffset" : [1.4125, -0.725]
-      }*/
+      }
     }
   },
+
+  "altAbilityType" : "traildash",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -3,7 +3,7 @@
   "rarity" : "Common",
   "category" : "other",
   "inventoryIcon" : "icon.png",
-  "description" : "A small datapad that was left lying on its own.",
+  "description" : "A small datapad.",
   "shortdescription" : "Nightar Datapad",
 
   "scripts" : ["pocsec.lua"],
@@ -11,5 +11,5 @@
   "theme" : "nightar",
 
   "consumeOnUse" : false,
-  "noteText" : "ATTN: ALL PERSONNEL\n\nThe subjects being held in Containment Bay V1T4 are not to be used as target practice. I shouldn't need to remind anyone that ensuring their pristine condition was a direct order from Alpha R&D with a grade-one priority from High Command. Any offenders will be punished accordingly.\n\n-Cpt. Dagda"
+  "noteText" : "FROM: R.DAGDA\nTO: ALL\nSUBJECT: OBJECTIVES\n\nAs stated by high command, we are to secure any and all living specimens from this facility for transport to Alpha R&D. Secondary objectives include securing any other research and development data and their respective prototypes, if applicable. Do NOT leave anyone alive, and make sure you rendezvous with your COs once you've obtained what we need. We will be scuttling the entire facility."
 }
