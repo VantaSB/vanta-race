@@ -1,0 +1,19 @@
+{
+  "projectileName" : "ex_webshot",
+  "image" : "webshot.png",
+  "physics" : "stickybomb",
+  "animationCycle" : 0.2,
+  "frameNumber" : 2,
+  "damageKindImage" : "icon.png",
+  "power" : 5,
+  "speed" : 30,
+  "timeToLive" : 0.95,
+  "bounces" : -1,
+  "piercing" : true,
+  "damagePoly" : [ [0, 2.5], [5, 2.5], [5, -2.5], [0, -2.5]],
+  "damageKind" : "plasma",
+
+  "renderLayer" : "Monster+10",
+  "persistentStatusEffects" : ["glueslow"],
+  "statusEffectArea" : [ [-1, 0], [-1, -1], [0, -1], [1, -1], [1, 0], [1, 1], [0, 1], [-1, 1] ]
+}
