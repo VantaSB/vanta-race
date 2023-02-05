@@ -56,8 +56,11 @@ For the most part, you won't have any reason to worry about the **Milestone** or
 
 | Label Name | Search Link | Description |
 | --- | --- | --- |
-| `component : asset` | [search][search-vanta-race-label-component-asset] | A fault that lies within a JSON asset file |
-| `component : documentation` | [search][search-vanta-race-label-component-script] | Improvements or additions to any documentation |
+| `component : asset` | [search][search-vanta-race-label-component-asset] | A fault due to a missing or mismatched asset file |
+| `component : documentation` | [search][search-vanta-race-label-component-documentation] | Improvements or additions to any documentation |
+| `component : item` | [search][search-vanta-race-label-component-item] | A fault that lies within an item configuration file |
+| `component : object` | [search][search-vanta-race-label-component-object] | A fault that lies within an object configuration asset file |
+| `component : quest` | [search][search-vanta-race-label-component-quest] | A fault that lies within an individual quest or questline |
 | `component : script` | [search][search-vanta-race-label-component-script] | A fault that lies within a Lua script |
 
 #### Priority
@@ -87,7 +90,11 @@ For the most part, you won't have any reason to worry about the **Milestone** or
 
 [search-vanta-race-label-component-asset]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20asset
 [search-vanta-race-label-component-documentation]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20documentation
+[search-vanta-race-label-component-item]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20item
+[search-vanta-race-label-component-object]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20object
+[search-vanta-race-label-component-quest]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20quest
 [search-vanta-race-label-component-script]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20script
+[search-vanta-race-label-component-quest]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20vehicle
 [search-vanta-race-label-priority-low]: https://github.com/VantaSB/vanta-race/labels/priority%20%3A%20low
 [search-vanta-race-label-priority-medium]: https://github.com/VantaSB/vanta-race/labels/priority%20%3A%20medium
 [search-vanta-race-label-priority-high]: https://github.com/VantaSB/vanta-race/labels/priority%20%3A%20high
