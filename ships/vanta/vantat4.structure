@@ -2,19 +2,20 @@
   "config" : {
     "shipUpgrades" : {
       "capabilities" : ["teleport", "planetTravel", "systemTravel"],
-      "crewSize" : 4
+      "maxFuel" : 1000,
+	    "crewSize" : 4
     }
   },
 
   "backgroundOverlays" : [
     {
       "image" : "vantaT4.png",
-      "position" : [7, 11.5],
+      "position" : [2.5, -5.35],
       "fullbright" : true
     },
     {
       "image" : "vantaT4lit.png",
-      "position" : [7, 11.5]
+      "position" : [2.5, -5.35]
     }
   ],
 

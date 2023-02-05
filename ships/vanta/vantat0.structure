@@ -2,6 +2,7 @@
   "config" : {
     "shipUpgrades" : {
       "capabilities" : [],
+      "maxFuel" : 1000,
       "crewSize" : 2
     }
   },
@@ -9,12 +10,12 @@
   "backgroundOverlays" : [
     {
       "image" : "vantaT0.png",
-      "position" : [8, 14],
+      "position" : [9, 12],
       "fullbright" : true
     },
     {
       "image" : "vantaT0lit.png",
-      "position" : [8, 14]
+      "position" : [9, 12]
     }
   ],
 
