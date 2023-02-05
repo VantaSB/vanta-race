@@ -34,8 +34,14 @@ function update(dt)
   widget.setText("itemLabel", self.keycardText)
   widget.setFontColor("itemLabel", self.textColor)
   widget.setButtonEnabled("activateButton", current)
+  if current then
+    widget.setText("costLabel", "[^#00FF00;O^reset;]")
+  else
+    widget.setText("costLabel", "[^#FF0000;X^reset;]")
+  end
 end
 
 function activate()
+  world.sendEntityMessage(pane.sourceEntity(), "activate")
   pane.dismiss()
 end
