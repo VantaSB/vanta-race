@@ -8,7 +8,7 @@
   "margin" : 0,
   "name" : "vanta/objects",
   "spacing" : 0,
-  "tilecount" : 244,
+  "tilecount" : 246,
   "tileheight" : 64,
   "tilewidth" : 64,
   "type" : "tileset",
@@ -51,56 +51,56 @@
     },
     "4" : {
       "//description" : "A display of an older Nightar blade.",
-      "//name" : "bladesiplay1",
+      "//name" : "bladedisplay1",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "bladesiplay1",
+      "object" : "bladedisplay1",
       "tilesetDirection" : "right"
     },
     "5" : {
       "//description" : "A display of an older Nightar blade.",
-      "//name" : "bladesiplay2",
+      "//name" : "bladedisplay2",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "bladesiplay2",
+      "object" : "bladedisplay2",
       "tilesetDirection" : "right"
     },
     "6" : {
       "//description" : "A display of an older Nightar blade.",
-      "//name" : "bladesiplay3",
+      "//name" : "bladedisplay3",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "bladesiplay3",
+      "object" : "bladedisplay3",
       "tilesetDirection" : "right"
     },
     "7" : {
       "//description" : "A display of an older Nightar blade.",
-      "//name" : "bladesiplay4",
+      "//name" : "bladedisplay4",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "bladesiplay4",
+      "object" : "bladedisplay4",
       "tilesetDirection" : "right"
     },
     "8" : {
       "//description" : "A display of an older Nightar blade.",
-      "//name" : "bladesiplay5",
+      "//name" : "bladedisplay5",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "bladesiplay5",
+      "object" : "bladedisplay5",
       "tilesetDirection" : "right"
     },
     "9" : {
       "//description" : "A display of an older Nightar blade.",
-      "//name" : "bladesiplay6",
+      "//name" : "bladedisplay6",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
       "imagePositionY" : "0",
-      "object" : "bladesiplay6",
+      "object" : "bladedisplay6",
       "tilesetDirection" : "right"
     },
     "10" : {
@@ -437,12 +437,12 @@
       "tilesetDirection" : "right"
     },
     "47" : {
-      "//description" : "An auxiliary door.",
-      "//name" : "nightarpropdoor",
-      "//shortdescription" : "Vanta Prop Door",
-      "imagePositionX" : "-16",
+      "//description" : "Strip Lighting, for use on a spaceship.",
+      "//name" : "redshiplight",
+      "//shortdescription" : "Red Ship Light",
+      "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightarpropdoor",
+      "object" : "redshiplight",
       "tilesetDirection" : "right"
     },
     "48" : {
@@ -602,8 +602,8 @@
       "//description" : "A personal transport ship manufactured by the Nightars.",
       "//name" : "vantaintroship",
       "//shortdescription" : "Nightar Shuttle",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
+      "imagePositionX" : "-288",
+      "imagePositionY" : "-80",
       "object" : "vantaintroship",
       "tilesetDirection" : "right"
     },
@@ -734,24 +734,50 @@
       "tilesetDirection" : "right"
     },
     "80" : {
-      "//name" : "ex_fluorescentlight1_orientation0",
-      "invalid" : "true"
+      "//description" : "A keycard reader.",
+      "//name" : "keycardreader",
+      "//shortdescription" : "Keycard Reader",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "keycardreader",
+      "tilesetDirection" : "right"
     },
     "81" : {
-      "//name" : "ex_fluorescentlight1_orientation1",
-      "invalid" : "true"
+      "//description" : "An auxiliary door that leads to another area.",
+      "//name" : "nightsteelwalldoor",
+      "//shortdescription" : "Nightsteel Wall Door",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "nightsteelwalldoor",
+      "tilesetDirection" : "right",
+        "parameters" : "{ \"animationParts\" : { \"base\" : \"basedark.png\",\n\"door\" : \"doorlighta.png\",\n\"banner\" : \"banner0.png\",\n\"bannerlit\" : \"banner0lit.png\" } }"
     },
     "82" : {
-      "//name" : "ex_fluorescentlight1_orientation2",
-      "invalid" : "true"
+      "//description" : "This blade is...!?",
+      "//name" : "brokennightarbladedisplay",
+      "//shortdescription" : "Broken Nightar Blade Display",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "brokennightarbladedisplay",
+      "tilesetDirection" : "right"
     },
     "83" : {
-      "//name" : "ex_fluorescentlight1_orientation3",
-      "invalid" : "true"
+      "//description" : "Strip Lighting, for use on a spaceship.",
+      "//name" : "blueshiplight",
+      "//shortdescription" : "Blue Ship Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "blueshiplight",
+      "tilesetDirection" : "right"
     },
     "84" : {
-      "//name" : "ex_fluorescentlight1_orientation4",
-      "invalid" : "true"
+      "//description" : "A station for fine-tuning Vanta weaponry that can't be upgraded by typical means.",
+      "//name" : "vantaupgradematrix",
+      "//shortdescription" : "Blue Ship Light",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "0",
+      "object" : "vantaupgradematrix",
+      "tilesetDirection" : "right"
     },
     "85" : {
       "//name" : "ex_fluorescentlight2_orientation0",
@@ -1704,7 +1730,7 @@
       "imagePositionY" : "0",
       "object" : "nightsteelslidingdoortall",
       "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv1tall.png\" } }"
+      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv1.png\" } }"
     },
     "208" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
@@ -1714,7 +1740,7 @@
       "imagePositionY" : "0",
       "object" : "nightsteelslidingdoortall",
       "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv2tall.png\" } }"
+      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv2.png\" } }"
     },
     "209" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
@@ -1724,7 +1750,7 @@
       "imagePositionY" : "0",
       "object" : "nightsteelslidingdoortall",
       "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv3tall.png\" } }"
+      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv3.png\" } }"
     },
     "210" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
@@ -1734,7 +1760,7 @@
       "imagePositionY" : "0",
       "object" : "nightsteelslidingdoortall",
       "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv4tall.png\" } }"
+      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv4.png\" } }"
     },
     "211" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
@@ -2032,6 +2058,22 @@
       "imagePositionY" : "0",
       "object" : "nightsteelbulkheadprop",
       "tilesetDirection" : "right"
+    },
+    "244" : {
+      "//description" : "...",
+      "//name" : "ex_invisiblenpcspawner",
+      "//shortdescription" : "Invisible NPC Spawner",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ex_invisiblenpcspawner"
+    },
+    "245" : {
+      "//description" : "A healing terminal.",
+      "//name" : "healingstatusterminal",
+      "//shortdescription" : "Healing Terminal",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "healingstatusterminal"
     }
   },
   "tiles" : {
@@ -2177,7 +2219,7 @@
       "image" : "../../../tiled/vanta-custom/objects/nightarpowercore.png"
     },
     "47" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightarpropdoor.png"
+      "image" : "../../../tiled/vanta-custom/objects/redshiplight.png"
     },
     "48" : {
       "image" : "../../../tiled/vanta-custom/objects/vantalight_0.png"
@@ -2276,19 +2318,19 @@
       "image" : "../../../tiled/vanta-custom/objects/vantalightround.png"
     },
     "80" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/keycardreader.png"
     },
     "81" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantabasedoor.png"
     },
     "82" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/brokennightarbladedisplay.png"
     },
     "83" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/blueshiplight.png"
     },
     "84" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantaupgradematrix.png"
     },
     "85" : {
       "image" : "../../../tiled/vanta-custom/invalid.png"
@@ -2766,6 +2808,12 @@
     },
     "243" : {
       "image" : "../../../tiled/vanta-custom/objects/nightsteelbulkheadprop.png"
+    },
+    "244" : {
+      "image" : "../../../tiled/vanta-custom/objects/ex_invisiblenpcspawner.png"
+    },
+    "245" : {
+      "image" : "../../../tiled/vanta-custom/objects/healingstatusterminal.png"
     }
   }
 }
