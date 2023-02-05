@@ -1,0 +1,10 @@
+{
+  "itemName" : "temporalshard",
+  "price" : 0,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "temporalshard.png",
+  "description" : "A temporal shard that's been nearly completely drained of its enhancement capabilities.",
+  "shortdescription" : "Temporal Shard",
+  "itemTags" : [ "crafting" ]
+}

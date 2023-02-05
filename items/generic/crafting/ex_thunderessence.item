@@ -1,10 +1,10 @@
 {
-  "itemName" : "poisonessence",
+  "itemName" : "ex_thunderessence",
   "price" : 0,
   "rarity" : "Uncommon",
   "category" : "craftingMaterial",
-  "inventoryIcon" : "poisonessence.png",
+  "inventoryIcon" : "ex_thunderessence.png",
   "description" : "Dark essence that has adopted electric properties.",
-  "shortdescription" : "Poison Essence",
+  "shortdescription" : "Thunder Essence",
   "itemTags" : [ "reagent" ]
 }
