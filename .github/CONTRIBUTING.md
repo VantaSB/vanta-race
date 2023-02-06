@@ -1,9 +1,9 @@
 # Contributing to the mod
 
 ## Table of Contents
-* Reporting Bugs
-* Suggesting Enhancements
-* Issue Labels
+* [Reporting Bugs](#reporting-bugs)
+* [Suggesting Enhancements](#suggesting-enhancements)
+* [Issue Labels](#issue-labels)
 
 Reporting Bugs
 --------------
@@ -58,10 +58,12 @@ For the most part, you won't have any reason to worry about the **Milestone** or
 | --- | --- | --- |
 | `component : asset` | [search][search-vanta-race-label-component-asset] | A fault due to a missing or mismatched asset file |
 | `component : documentation` | [search][search-vanta-race-label-component-documentation] | Improvements or additions to any documentation |
+| `component : dungeon` | [search][search-vanta-race-label-component-dungeon] | Issue concerns a dungeon file or files |
 | `component : item` | [search][search-vanta-race-label-component-item] | A fault that lies within an item configuration file |
 | `component : object` | [search][search-vanta-race-label-component-object] | A fault that lies within an object configuration asset file |
 | `component : quest` | [search][search-vanta-race-label-component-quest] | A fault that lies within an individual quest or questline |
 | `component : script` | [search][search-vanta-race-label-component-script] | A fault that lies within a Lua script |
+| `component : vehicle` | [search][search-vanta-race-label-component-vehicle] | Issue concerns a mech or vehicle file or files |
 
 #### Priority
 | Label Name | Search Link | Description |
@@ -77,6 +79,7 @@ For the most part, you won't have any reason to worry about the **Milestone** or
 | `status : confirmed` | [search][search-vanta-race-label-status-confirmed] | The issue reported has been confirmed to cause issues |
 | `status : duplicate` | [search][search-vanta-race-label-status-duplicate] | The issue or pull request already exists |
 | `status : hold` | [search][search-vanta-race-label-status-hold] | The resolution is currently on hold for an unspecified amount of time |
+| `status : in-progress` | [search][search-vanta-race-label-status-in-progress] | A resolution for the issue is currently underway |
 | `status : invalid` | [search][search-vanta-race-label-status-invalid] | The issue is not related to the Vanta Race mod |
 | `status : investigating` | [search][search-vanta-race-label-status-investigating] | The reported issue is currently being investigated |
 | `status : more-info-needed` | [search][search-vanta-race-label-status-more-info-needed] | Additional information is needed from the issue creator |
@@ -85,16 +88,19 @@ For the most part, you won't have any reason to worry about the **Milestone** or
 #### Type
 | Label Name | Search Link | Description |
 | --- | --- | --- |
+| `type : bug` | [search][search-vanta-race-label-type-bug] | For issue creators: used for starting bug reports |
 | `type : enhancement` | [search][search-vanta-race-label-type-enhancement] | New feature or request |
+| `type : planned-development` | [search][search-vanta-race-label-type-planned-development] | Implementation was planned by developers |
 | `type : question` | [search][search-vanta-race-label-type-question] | Further information is requested about a certain topic |
 
 [search-vanta-race-label-component-asset]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20asset
 [search-vanta-race-label-component-documentation]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20documentation
+[search-vanta-race-label-component-dungeon]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20dungeon
 [search-vanta-race-label-component-item]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20item
 [search-vanta-race-label-component-object]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20object
 [search-vanta-race-label-component-quest]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20quest
 [search-vanta-race-label-component-script]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20script
-[search-vanta-race-label-component-quest]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20vehicle
+[search-vanta-race-label-component-vehicle]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20vehicle
 [search-vanta-race-label-priority-low]: https://github.com/VantaSB/vanta-race/labels/priority%20%3A%20low
 [search-vanta-race-label-priority-medium]: https://github.com/VantaSB/vanta-race/labels/priority%20%3A%20medium
 [search-vanta-race-label-priority-high]: https://github.com/VantaSB/vanta-race/labels/priority%20%3A%20high
@@ -105,5 +111,7 @@ For the most part, you won't have any reason to worry about the **Milestone** or
 [search-vanta-race-label-status-investigating]: https://github.com/VantaSB/vanta-race/labels/status%20%3A%20investigating
 [search-vanta-race-label-status-more-info-needed]: https://github.com/VantaSB/vanta-race/labels/status%20%3A%20more-info-needed
 [search-vanta-race-label-status-wontfix]: https://github.com/VantaSB/vanta-race/labels/status%20%3A%20wontfix
+[search-vanta-race-label-type-bug]: https://github.com/VantaSB/vanta-race/labels/type%20%3A%20bug
 [search-vanta-race-label-type-enhancement]: https://github.com/VantaSB/vanta-race/labels/type%20%3A%20enhancement
+[search-vanta-race-label-type-planned-development]: https://github.com/VantaSB/vanta-race/labels/type%20%3A%20planned-development
 [search-vanta-race-label-type-question]: https://github.com/VantaSB/vanta-race/labels/type%20%3A%20question
