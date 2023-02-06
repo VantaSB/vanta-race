@@ -109,6 +109,7 @@ For the most part, you won't have any reason to worry about the **Milestone** or
 [search-vanta-race-label-status-hold]: https://github.com/VantaSB/vanta-race/labels/status%20%3A%20hold
 [search-vanta-race-label-status-invalid]: https://github.com/VantaSB/vanta-race/labels/status%20%3A%20invalid
 [search-vanta-race-label-status-investigating]: https://github.com/VantaSB/vanta-race/labels/status%20%3A%20investigating
+[search-vanta-race-label-status-in-progress]: https://github.com/VantaSB/vanta-race/labels/status%20%3A%20in-progress
 [search-vanta-race-label-status-more-info-needed]: https://github.com/VantaSB/vanta-race/labels/status%20%3A%20more-info-needed
 [search-vanta-race-label-status-wontfix]: https://github.com/VantaSB/vanta-race/labels/status%20%3A%20wontfix
 [search-vanta-race-label-type-bug]: https://github.com/VantaSB/vanta-race/labels/type%20%3A%20bug
