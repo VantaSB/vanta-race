@@ -1,0 +1,23 @@
+name: Feature Request
+description: Suggest an idea for the mod
+labels: ["type : enhancement"]
+body:
+  - type: textarea
+    id: solution
+    attributes:
+      label: Description of Request
+      description: Provide a clear and concise description of your idea.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Let us know about other solutions you have tried or researched.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: |
+        Is there anything else you can add about the proposal?
+        You might want to link to related issues here if you haven't already.
