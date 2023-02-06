@@ -1,0 +1,33 @@
+name: Bug Report
+description: Create an issue that details broken or unexpected behavior
+labels: ["type : bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue you are experiencing in detail:
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Copy and paste from your starbound.log file, or attach a copy of the log file itself.
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: howto
+    attributes:
+      label: How to Reproduce
+      description: If you have not stated in the description of the result already, please give us a short guide how we can reproduce your issue.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-mods
+    attributes:
+      label: Additional Mods Used
+      description: Please list any additional mods you have loaded. This could help isolate whether or not there is a conflict between this mod and another mod.
+    validations:
+      required: true
