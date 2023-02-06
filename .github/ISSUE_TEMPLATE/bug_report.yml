@@ -6,7 +6,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: Describe the issue you are experiencing in detail:
+      description: Describe the issue you are experiencing in detail.
     validations:
       required: true
   - type: textarea
