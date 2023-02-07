@@ -1,6 +1,8 @@
 # Contributing to the mod
 
-## Table of Contents
+Table of Contents
+-----------------
+
 * [Reporting Bugs](#reporting-bugs)
 * [Suggesting Enhancements](#suggesting-enhancements)
 * [Issue Labels](#issue-labels)
