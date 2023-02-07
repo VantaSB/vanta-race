@@ -581,6 +581,7 @@ function draw()
 	if drawLines then
 		local startPoint = {0,0}
 		local endPoint = {0,0}
+		local color = "#000000"
 
 		for i, tbl in pairs(drawLines) do
 			if tbl.endPoints and #tbl.endPoints > 0 then
@@ -591,8 +592,14 @@ function draw()
 					endPoint[1] = drawLines[ending].position[1] + dragOffset.x
 					endPoint[2] = drawLines[ending].position[2] + dragOffset.y
 
+					if drawLines[ending].position[2] < 0 then
+						color = "#cf40ff"
+					else
+						color = "#ff40cf"
+					end
+
 					if withinBounds(startPoint, endPoint) then
-						canvas:drawLine(startPoint, endPoint, tbl.lineColor or "#ff0080", 2)
+						canvas:drawLine(startPoint, endPoint, color, 2)
 					end
 				end
 			end
@@ -604,7 +611,6 @@ function draw()
 		local startPoint = {0,0}
 		local endPoint = {0,0}
 		local color = "#000000"
-		local alpha = "FF"
 		local state = ""
 		local scale = 1
 
@@ -656,22 +662,18 @@ function draw()
 			if withinBounds(startPoint, endPoint) then
 				if tbl.state ~= "hidden" or (tbl.state == "hidden" and tbl.alwaysShow) then
 					color = "#696969"
-					alpha = "ff"
 
 					if not tbl.state or tbl.state == "unavailable" then
 						--color = "#FF5555"
 						color = "#696969"
-						alpha = "ff"
 					elseif tbl.state == "researched" then
 						color = "#37db42"
-						alpha = "ff"
 					elseif tbl.state == "available" then
 						if canAfford(research) then
 							color = "#55ffff"
 						else
 							color = "#dfb326"
 						end
-						alpha = "ff"
 					end
 
 					-- draw text over icons if applicable
@@ -681,15 +683,15 @@ function draw()
 
 					-- begin old draw behavior
 					--[[if research == selected then
-						canvas:drawImage("/interface/scripted/ex_research/iconBackground.png:selected", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color..alpha, false)
+						canvas:drawImage("/interface/scripted/ex_research/iconBackground.png:selected", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color, false)
 					else
-						canvas:drawImage("/interface/scripted/ex_research/iconBackground.png:default", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color..alpha, false)
+						canvas:drawImage("/interface/scripted/ex_research/iconBackground.png:default", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color, false)
 					end
 
 					if tbl.state == "researched" then
-						canvas:drawImage(tbl.icon, {startPoint[1]+0.5, startPoint[2]+0.5}, 1, "#FFFFFF"..alpha, false)
+						canvas:drawImage(tbl.icon, {startPoint[1]+0.5, startPoint[2]+0.5}, 1, "#FFFFFF", false)
 					else
-						canvas:drawImage(tbl.icon, {startPoint[1]+0.5, startPoint[2]+0.5}, 1, color..alpha, false)
+						canvas:drawImage(tbl.icon, {startPoint[1]+0.5, startPoint[2]+0.5}, 1, color, false)
 					end]]
 					-- end old draw behavior
 
@@ -703,21 +705,21 @@ function draw()
 						end
 
 						if tbl.state == "researched" then
-							canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1.25, "#ffffff"..alpha, false)
+							canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1.25, "#ffffff", false)
 						else
-							canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1.25, color..alpha, false)
+							canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1.25, color, false)
 						end
 					else
 						if research == selected then
-							canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX2.png:selected", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color..alpha, false)
+							canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX2.png:selected", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color, false)
 						else
-							canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX2.png:default", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color..alpha, false)
+							canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX2.png:default", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color, false)
 						end
 
 						if tbl.state == "researched" then
-							canvas:drawImage("/interface/scripted/ex_research/subnode.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, "#ffffff"..alpha, false)
+							canvas:drawImage("/interface/scripted/ex_research/subnode.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, "#ffffff", false)
 						else
-							canvas:drawImage("/interface/scripted/ex_research/subnode.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color..alpha, false)
+							canvas:drawImage("/interface/scripted/ex_research/subnode.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, "#696969", false)
 						end
 					end
 					-- end new draw behavior
