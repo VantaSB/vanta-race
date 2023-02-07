@@ -26,6 +26,7 @@ panningTo = nil
 readOnly = false
 selected = nil
 noCost = false
+drawLines = nil
 
 -- Basic GUI functions
 function init()
@@ -577,6 +578,27 @@ function draw()
 		canvas:drawText("READ ONLY!", {position = {57, canvasSize[2]-2}}, 7, "#FF5E66F0")
 	end
 
+	if drawLines then
+		local startPoint = {0,0}
+		local endPoint = {0,0}
+
+		for i, tbl in pairs(drawLines) do
+			if tbl.endPoints and #tbl.endPoints > 0 then
+				startPoint[1] = tbl.position[1] + dragOffset.x
+				startPoint[2] = tbl.position[2] + dragOffset.y
+
+				for _, ending in ipairs(tbl.endPoints) do
+					endPoint[1] = drawLines[ending].position[1] + dragOffset.x
+					endPoint[2] = drawLines[ending].position[2] + dragOffset.y
+
+					if withinBounds(startPoint, endPoint) then
+						canvas:drawLine(startPoint, endPoint, tbl.lineColor or "#ff0080", 2)
+					end
+				end
+			end
+		end
+	end
+
 	-- Draw research nodes
 	if researchTree then
 		local startPoint = {0,0}
@@ -586,43 +608,39 @@ function draw()
 		local state = ""
 		local scale = 1
 
-		-- draw tree lines
-		if not data.noLineDraw then
-			for research, tbl in pairs(researchTree) do
-				if tbl.state ~= "hidden" then
-					if tbl.children and #tbl.children > 0 then
-						startPoint[1] = tbl.position[1] + dragOffset.x
-						startPoint[2] = tbl.position[2] + dragOffset.y
+		-- draw tree lines (old behavior)
+		--[[for research, tbl in pairs(researchTree) do
+			if tbl.state ~= "hidden" then
+				if tbl.children and #tbl.children > 0 then
+					startPoint[1] = tbl.position[1] + dragOffset.x
+					startPoint[2] = tbl.position[2] + dragOffset.y
 
-						for _, child in ipairs(tbl.children) do
-							endPoint[1] = researchTree[child].position[1] + dragOffset.x
-							endPoint[2] = researchTree[child].position[2] + dragOffset.y
+					for _, child in ipairs(tbl.children) do
+						endPoint[1] = researchTree[child].position[1] + dragOffset.x
+						endPoint[2] = researchTree[child].position[2] + dragOffset.y
 
-							if whithinBounds(startPoint, endPoint) then
-								state = researchTree[child].state
+						if withinBounds(startPoint, endPoint) then
+							state = researchTree[child].state
 
-								if state ~= "hidden" then
-									if not state or state == "unavailable" then
-										color = "#FF0000"
-									elseif state == "researched" then
-										color = "#00FF00"
-									elseif state == "available" then
-										if canAfford(child) then
-											color = "#00FFFF"
-										else
-											color = "#df7126"
-										end
+							if state ~= "hidden" then
+								if not state or state == "unavailable" then
+									color = "#FF0000"
+								elseif state == "researched" then
+									color = "#00FF00"
+								elseif state == "available" then
+									if canAfford(child) then
+										color = "#00FFFF"
+									else
+										color = "#df7126"
 									end
-									canvas:drawLine(startPoint, endPoint, color, 2)
 								end
+								canvas:drawLine(startPoint, endPoint, color, 2)
 							end
 						end
 					end
 				end
 			end
-		end
-
-		-- draw text over icons if applicable
+		end]]
 
 		-- draw icons
 		for research, tbl in pairs(researchTree) do
@@ -633,49 +651,77 @@ function draw()
 			endPoint[2] = startPoint[2] + data.iconSizes
 
 			txtPos[1] = tbl.position[1] + dragOffset.x
-			txtPos[2] = tbl.position[2] + dragOffset.y + 30
+			txtPos[2] = tbl.position[2] + dragOffset.y - 25
 
-			if whithinBounds(startPoint, endPoint) then
-				if tbl.state ~= "hidden" then
-					color = "#000000"
-					alpha = "00"
+			if withinBounds(startPoint, endPoint) then
+				if tbl.state ~= "hidden" or (tbl.state == "hidden" and tbl.alwaysShow) then
+					color = "#696969"
+					alpha = "ff"
 
 					if not tbl.state or tbl.state == "unavailable" then
 						--color = "#FF5555"
 						color = "#696969"
-						alpha = "7F"
+						alpha = "ff"
 					elseif tbl.state == "researched" then
 						color = "#37db42"
-						alpha = "FF"
+						alpha = "ff"
 					elseif tbl.state == "available" then
 						if canAfford(research) then
-							color = "#55FFFF"
+							color = "#55ffff"
 						else
 							color = "#dfb326"
 						end
-						alpha = "FF"
+						alpha = "ff"
 					end
 
-					--[[if tbl.isRoot then
-						scale = 0.5
-					end]]
-
+					-- draw text over icons if applicable
 					if tbl.displayText ~= nil then
-						canvas:drawText(tbl.displayText, {position = {txtPos[1], txtPos[2]}, horizontalAnchor = "mid", verticalAnchor = "mid"}, 8, "#B6E9F2F0")
+						canvas:drawText(tbl.displayText, {position = {txtPos[1], txtPos[2]}, horizontalAnchor = "mid", verticalAnchor = "mid"}, 8, "#b6e9f2f0")
 					end
 
-					-- old draw behavior
-					if research == selected then
-						canvas:drawImage("/interface/scripted/ex_research/iconBackground.png:selected", {startPoint[1]-1.5, startPoint[2]-1.5}, scale, color..alpha, false)
+					-- begin old draw behavior
+					--[[if research == selected then
+						canvas:drawImage("/interface/scripted/ex_research/iconBackground.png:selected", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color..alpha, false)
 					else
-						canvas:drawImage("/interface/scripted/ex_research/iconBackground.png:default", {startPoint[1]-1.5, startPoint[2]-1.5}, scale, color..alpha, false)
+						canvas:drawImage("/interface/scripted/ex_research/iconBackground.png:default", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color..alpha, false)
 					end
 
 					if tbl.state == "researched" then
 						canvas:drawImage(tbl.icon, {startPoint[1]+0.5, startPoint[2]+0.5}, 1, "#FFFFFF"..alpha, false)
 					else
 						canvas:drawImage(tbl.icon, {startPoint[1]+0.5, startPoint[2]+0.5}, 1, color..alpha, false)
+					end]]
+					-- end old draw behavior
+
+
+					-- begin new draw behavior
+					if tbl.isRoot then
+						if research == selected then
+							canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX.png:selected", {startPoint[1]-11.5, startPoint[2]-1.5}, 1, "#ffffff", false)
+						else
+							canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX.png:default", {startPoint[1]-11.5, startPoint[2]-1.5}, 1, "#ffffff", false)
+						end
+
+						if tbl.state == "researched" then
+							canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1.25, "#ffffff"..alpha, false)
+						else
+							canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1.25, color..alpha, false)
+						end
+					else
+						if research == selected then
+							canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX2.png:selected", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color..alpha, false)
+						else
+							canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX2.png:default", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color..alpha, false)
+						end
+
+						if tbl.state == "researched" then
+							canvas:drawImage("/interface/scripted/ex_research/subnode.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, "#ffffff"..alpha, false)
+						else
+							canvas:drawImage("/interface/scripted/ex_research/subnode.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color..alpha, false)
+						end
 					end
+					-- end new draw behavior
+
 				end
 			end
 		end
@@ -727,7 +773,7 @@ function panTo(pos)
 	else panningTo = {0,0} end
 end
 
-function whithinBounds(startPoint, endPoint)
+function withinBounds(startPoint, endPoint)
 	local xPass = false
 	local yPass = false
 
@@ -919,6 +965,7 @@ function buildStates(tree)
 	end
 
 	researchTree = copy(data.researchTree[selectedTree])
+	drawLines = copy(data.drawLines)
 
 	local researchedTable = status.statusProperty("vanta_researchtree_researched", {}) or {}
 	local dataString = researchedTable[selectedTree] or ""
@@ -972,11 +1019,15 @@ end
 
 function hideResearchBranch(research)
 	if not researchTree[research].state then
-		researchTree[research].state = "hidden"
+		if not researchTree[research].alwaysShow then
+			researchTree[research].state = "hidden"
+		end
 
 		if researchTree[research].children then
-			for _, child in ipairs(researchTree[research].children) do
-				hideResearchBranch(child)
+			if not researchTree[research].alwaysShow then
+				for _, child in ipairs(researchTree[research].children) do
+					hideResearchBranch(child)
+				end
 			end
 		end
 	end
