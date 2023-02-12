@@ -1,0 +1,23 @@
+{
+  "projectileName" : "psipoisonshot3",
+	"physics" : "laser",
+	"bounces" : 0,
+  "image" : "psipoisonshot3.png",
+	"flippable" : true,
+	"fullbright" : true,
+  "animationCycle" : 0.2,
+	"animationLoops" : true,
+  "frameNumber" : 2,
+  "lightColor" : [205, 238, 211],
+	"power" : 100,
+	"speed" : 75,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/poisonrailgun1.ogg" ]
+    }
+  ],
+  "emitters" : [ ],
+  "damageKind" : "plasmabullet",
+	"statusEffects" : [ ]
+}

@@ -8,7 +8,7 @@
   "animationCycle" : 0.3,
   "animationLoops" : true,
   "frameNumber" : 5,
-  "lightColor" : [37, 183, 208],
+  "lightColor" : [205, 238, 211],
   "power" : 50,
   "speed" : 75,
   "actionOnReap" : [
@@ -19,5 +19,5 @@
   ],
   "emitters" : [ ],
   "damageKind" : "plasmabullet",
-  "statusEffects" : [ "weakpoison" ]
+  "statusEffects" : [ ]
 }
