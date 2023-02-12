@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "solariumore", "count" : 2 },
-    { "item" : "darkessence", "count" : 2 }
-  ],
-  "duration" : 0.15,
-  "output" : { "item" : "nightsteelbar", "count" : 1 },
-  "groups" : [ "vantaanvil1", "vantaingredients", "all" ]
-}

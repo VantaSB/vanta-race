@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedviolium", "count" : 5 },
-    { "item" : "nightsteelbar", "count" : 5 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "vantatier5broadsword", "count" : 1 },
-  "groups" : [ "vantaanvil3", "weapons", "all" ]
-}

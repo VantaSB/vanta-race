@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "liquidceruleum", "count" : 2 },
+    { "item" : "nightsteelbar", "count" : 2 }
+  ],
+  "output" : { "item" : "ceruleumcartridge", "count" : 5 },
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}
