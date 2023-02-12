@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "voltipTreasure", "bow" : "voltipHunting", "scythe" : "voltipPsiReaping" } ] }
-]

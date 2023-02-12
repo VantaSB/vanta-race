@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "orbideTreasure", "bow" : "orbideHunting", "scythe" : "orbidePsiReaping" } ] }
-]

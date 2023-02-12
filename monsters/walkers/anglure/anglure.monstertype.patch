@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "anglureTreasure", "bow" : "anglureHunting", "scythe" : "anglurePsiReaping" } ] }
-]

@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "taroniTreasure", "bow" : "taroniHunting", "scythe" : "taroniPsiReaping" } ] }
-]
