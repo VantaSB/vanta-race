@@ -42,7 +42,7 @@ function init()
 	canvas = widget.bindCanvas("canvas")
 	canvasSize = widget.getSize("canvas")
 
-	verified = verifyAcronims()
+	verified = verifyAcronyms()
 	if not verified then return end
 
 	for _, file in ipairs(data.externalScripts) do
@@ -102,6 +102,7 @@ function init()
 					-- Check whether there's data for the acronym, and then if it has tree data.
 					if acronymTest and data.researchTree[tree][acronymTest] then
 						unlockType = type(data.researchTree[tree][acronymTest].unlocks)
+						itemType = type(data.researchTree[tree][acronymTest].items)
 					end
 
 					-- Remove acronyms that don't have a linked research
@@ -118,6 +119,20 @@ function init()
 						end
 					elseif unlockType == "string" then
 						player.giveBlueprint(data.researchTree[tree][data.acronyms[tree][acr]].unlocks)
+					end
+
+					if not itemType then
+						if i == 1 then
+							dataString = string.gsub(dataString, acr..",", "")
+						else
+							dataString = string.gsub(dataString, ","..acr..",", ",")
+						end
+					elseif itemType == "table" then
+						for _, item in ipairs(data.researchTree[tree][data.acronyms[tree][acr]].items) do
+							player.giveItem(item)
+						end
+					elseif itemType == "string" then
+						player.giveItem(data.researchTree[tree][data.acronyms[tree][acr]].items)
 					end
 
 				end
@@ -593,9 +608,9 @@ function draw()
 					endPoint[2] = drawLines[ending].position[2] + dragOffset.y
 
 					if drawLines[ending].position[2] < 0 then
-						color = "#cf40ff"
+						color = "#af40ff"
 					else
-						color = "#ff40cf"
+						color = "#ff40af"
 					end
 
 					if withinBounds(startPoint, endPoint) then
@@ -705,9 +720,9 @@ function draw()
 						end
 
 						if tbl.state == "researched" then
-							canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1.25, "#ffffff", false)
+							canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, "#ffffff", false)
 						else
-							canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1.25, color, false)
+							canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color, false)
 						end
 					else
 						if research == selected then
@@ -904,7 +919,7 @@ end
 
 
 -- Research tree functions
-function verifyAcronims()
+function verifyAcronyms()
 	local found = false
 	local missing = ""
 	local tree = ""
