@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ornatewood", "count" : 2 },
+    { "item" : "paper", "count" : 10 },
+    { "item" : "ceruleumink", "count" : 1 }
+  ],
+	"output" : { "item" : "vantagrimoire", "count" : 1 },
+	"groups" : [ "craftinganvil2", "weapons", "all" ]
+}

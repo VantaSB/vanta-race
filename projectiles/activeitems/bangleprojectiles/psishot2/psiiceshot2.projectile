@@ -1,0 +1,23 @@
+{
+  "projectileName" : "psiiceshot2",
+	"physics" : "laser",
+	"bounces" : 0,
+  "image" : "psiiceshot2.png",
+	"flippable" : true,
+	"fullbright" : true,
+  "animationCycle" : 0.2,
+	"animationLoops" : true,
+  "frameNumber" : 4,
+  "lightColor" : [210, 224, 240],
+	"power" : 75,
+	"speed" : 75,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/electricrailgun1.ogg" ]
+    }
+  ],
+  "emitters" : [ ],
+  "damageKind" : "plasmabullet",
+	"statusEffects" : [ "frostslow" ]
+}

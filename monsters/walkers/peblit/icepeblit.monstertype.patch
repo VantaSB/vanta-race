@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "peblitTreasure", "bow" : "peblitHunting", "scythe" : "peblitPsiReaping" } ] }
-]

@@ -58,14 +58,16 @@ For the most part, you won't have any reason to worry about the **Milestone** or
 
 | Label Name | Search Link | Description |
 | --- | --- | --- |
-| `component : asset` | [search][search-vanta-race-label-component-asset] | A fault due to a missing or mismatched asset file |
+| `component : asset` | [search][search-vanta-race-label-component-asset] | Issue concerns a missing or mismatched asset file |
+| `component : biome` | [search][search-vanta-race-label-component-biome] | Issue concerns a biome configuration |
 | `component : documentation` | [search][search-vanta-race-label-component-documentation] | Improvements or additions to any documentation |
-| `component : dungeon` | [search][search-vanta-race-label-component-dungeon] | Issue concerns a dungeon file or files |
-| `component : item` | [search][search-vanta-race-label-component-item] | A fault that lies within an item configuration file |
-| `component : object` | [search][search-vanta-race-label-component-object] | A fault that lies within an object configuration asset file |
-| `component : quest` | [search][search-vanta-race-label-component-quest] | A fault that lies within an individual quest or questline |
-| `component : script` | [search][search-vanta-race-label-component-script] | A fault that lies within a Lua script |
-| `component : vehicle` | [search][search-vanta-race-label-component-vehicle] | Issue concerns a mech or vehicle file or files |
+| `component : dungeon` | [search][search-vanta-race-label-component-dungeon] | Issue concerns a dungeon configuration |
+| `component : item` | [search][search-vanta-race-label-component-item] | Issue concerns an item configuration |
+| `component : object` | [search][search-vanta-race-label-component-object] | Issue concerns an object configuration |
+| `component : quest` | [search][search-vanta-race-label-component-quest] | Issue concerns a quest or questline configuration |
+| `component : script` | [search][search-vanta-race-label-component-script] | Issue concerns a script configuration |
+| `component : tech` | [search][search-vanta-race-label-component-tech] | Issue concerns a tech configuration |
+| `component : vehicle` | [search][search-vanta-race-label-component-vehicle] | Issue concerns a mech or vehicle configuration |
 
 #### Priority
 | Label Name | Search Link | Description |
@@ -96,12 +98,14 @@ For the most part, you won't have any reason to worry about the **Milestone** or
 | `type : question` | [search][search-vanta-race-label-type-question] | Further information is requested about a certain topic |
 
 [search-vanta-race-label-component-asset]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20asset
+[search-vanta-race-label-component-biome]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20biome
 [search-vanta-race-label-component-documentation]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20documentation
 [search-vanta-race-label-component-dungeon]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20dungeon
 [search-vanta-race-label-component-item]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20item
 [search-vanta-race-label-component-object]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20object
 [search-vanta-race-label-component-quest]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20quest
 [search-vanta-race-label-component-script]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20script
+[search-vanta-race-label-component-tech]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20tech
 [search-vanta-race-label-component-vehicle]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20vehicle
 [search-vanta-race-label-priority-low]: https://github.com/VantaSB/vanta-race/labels/priority%20%3A%20low
 [search-vanta-race-label-priority-medium]: https://github.com/VantaSB/vanta-race/labels/priority%20%3A%20medium

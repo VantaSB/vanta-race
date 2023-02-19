@@ -8,7 +8,7 @@
   "animationCycle" : 0.3,
   "animationLoops" : true,
   "frameNumber" : 5,
-  "lightColor" : [37, 183, 208],
+  "lightColor" : [210, 224, 240],
   "power" : 50,
   "speed" : 75,
   "actionOnReap" : [
@@ -19,5 +19,5 @@
   ],
   "emitters" : [ ],
   "damageKind" : "plasmabullet",
-  "statusEffects" : [ "frostslow" ]
+  "statusEffects" : [ ]
 }

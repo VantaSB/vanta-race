@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "trictusTreasure", "bow" : "trictusHunting", "scythe" : "trictusPsiReaping" } ] }
-]

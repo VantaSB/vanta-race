@@ -43,6 +43,7 @@
 
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [
+		"/objects/spawner/techstation.lua",
 		"/objects/scripts/customtechstation.lua"
   ],
   "scriptDelta" : 20,

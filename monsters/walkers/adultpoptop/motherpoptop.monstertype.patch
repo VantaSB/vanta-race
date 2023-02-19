@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "motherpoptopTreasure", "bow" : "motherpoptopHunting", "scythe" : "motherpoptopPsiReaping" } ] }
-]

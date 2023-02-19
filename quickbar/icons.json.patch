@@ -8,16 +8,5 @@
 			"weight" : -1100,
 			"action" : [ "pane", "/interface/scripted/hfcodex/xcodexui.config" ]
 		}
-	},
-
-	{
-		"op" : "add",
-		"path" : "/items/vanta-race:questwindow",
-		"value" : {
-			"label" : "Task Terminal",
-			"icon" : "/quickbar/queststerminal.png",
-			"weight" : -1100,
-			"action" : [ "pane", "/interface/scripted/corvexquestwindow/questList.config" ]
-		}
 	}
 ]

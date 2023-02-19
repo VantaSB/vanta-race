@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "solariumore", "count" : 2 },
+    { "item" : "darkessence", "count" : 2 }
+  ],
+  "output" : { "item" : "nightsteelbar", "count" : 1 },
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}

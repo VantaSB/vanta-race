@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "oculobTreasure", "bow" : "oculobHunting", "scythe" : "oculobPsiReaping" } ] }
-]

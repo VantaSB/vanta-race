@@ -1,0 +1,23 @@
+{
+  "projectileName" : "psifireshot3",
+	"physics" : "laser",
+	"bounces" : 0,
+  "image" : "psifireshot3.png",
+	"flippable" : true,
+	"fullbright" : true,
+  "animationCycle" : 0.2,
+	"animationLoops" : true,
+  "frameNumber" : 2,
+  "lightColor" : [255, 238, 186],
+	"power" : 100,
+	"speed" : 75,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/electricrailgun1.ogg" ]
+    }
+  ],
+  "emitters" : [ ],
+  "damageKind" : "plasmabullet",
+	"statusEffects" : [ ]
+}

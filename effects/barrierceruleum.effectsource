@@ -1,0 +1,29 @@
+{
+  "kind" : "barrierceruleum",
+  "definition" : {
+    "duration" : 1.9,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "iceswoosh1", "iceswoosh2", "fireswoosh2", "iceswoosh2", "fireswoosh2", "iceswoosh1", "iceswoosh2", "fireswoosh2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "iceswoosh1", "iceswoosh2", "fireswoosh2", "iceswoosh2", "fireswoosh2", "iceswoosh2", "fireswoosh2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "fireswoosh4", "fireswoosh4", "fireswoosh4", "fireswoosh4", "fireswoosh4", "fireswoosh4" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

@@ -8,7 +8,7 @@
 
   "animation" : "ceruleumpoptop.animation",
 
-  "dropPools" : [ { "default" : "poptopTreasure", "bow" : "poptopHunting", "scythe" : "poptopPsiReaping" } ],
+  "dropPools" : [ { "default" : "poptopTreasure", "bow" : "poptopHunting" } ],
 
   "baseParameters" : {
     "scripts" : [

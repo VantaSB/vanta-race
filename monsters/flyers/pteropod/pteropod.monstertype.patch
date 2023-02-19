@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "pteropodTreasure", "bow" : "pteropodHunting", "scythe" : "pteropodPsiReaping" } ] }
-]

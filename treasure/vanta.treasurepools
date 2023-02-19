@@ -6,7 +6,8 @@
         {"item" : [ "vantaration", 1 ]},
         {"item" : [ "vantaration", 1 ]},
         {"item" : [ "vantaration", 1 ]},
-        {"item" : [ "portablemonitor", 1 ]}
+        {"item" : [ "portablemonitor", 1 ]},
+				{"item" : [ "darkfragmentore", 20 ]}
       ]
     }]
   ],
@@ -43,7 +44,6 @@
     [1, {
       "pool" : [
         {"weight" : 0.999, "pool" : "basicMonsterTreasure"},
-        //{"weight" : 0.200, "item" : "psifrost"},
         {"weight" : 0.001, "item" : "smoglinaf"}
       ],
       "poolRounds" : [
@@ -58,7 +58,6 @@
     [1, {
       "pool" : [
         {"weight" : 0.999, "pool" : "basicMonsterTreasure"},
-        //{"weight" : 0.200, "item" : "psipoison"},
         {"weight" : 0.001, "item" : "pteropodaf"}
       ],
       "poolRounds" : [
@@ -73,7 +72,6 @@
     [1, {
       "pool" : [
         {"weight" : 0.999, "pool" : "flyingMonsterTreasure"},
-        //{"weight" : 0.200, "item" : "psiflame"},
         {"weight" : 0.001, "item" : "scaveranaf"}
       ],
       "poolRounds" : [
@@ -88,7 +86,6 @@
     [1, {
       "pool" : [
         {"weight" : 0.999, "pool" : "basicMonsterTreasure"},
-        //{"weight" : 0.200, "item" : "psishock"},
         {"weight" : 0.001, "item" : "monopusaf"}
       ],
       "poolRounds" : [

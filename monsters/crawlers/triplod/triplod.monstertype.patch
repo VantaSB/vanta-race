@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "triplodTreasure", "bow" : "triplodHunting", "scythe" : "triplodPsiReaping" } ] }
-]
