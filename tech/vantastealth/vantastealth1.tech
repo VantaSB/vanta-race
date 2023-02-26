@@ -7,8 +7,8 @@
   "actions" : [],
   "animator" : "vantastealth.animation",
 
-  "description" : "Double-tap ^green;[Up]^reset; to become invisible!",
-  "shortDescription" : "Personnel Cloaking",
+  "description" : "Double-tap [^green;W^reset;] to activate cloaking!",
+  "shortDescription" : "Personal Cloaking",
   "rarity" : "Legendary",
   "icon" : "/tech/vantastealth/vantastealth1.png",
 
