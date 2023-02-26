@@ -1,5 +1,5 @@
 function init()
-  self.activationTime = config.getParameter("activationTime") or 600
+  self.activationTime = config.getParameter("activationTime")
 
   if storage.active == nil then activate() end
 
@@ -8,12 +8,12 @@ end
 
 function onInteraction(args)
   if storage.active then
-      use(args)
+    use(args)
   end
 end
 
 function update(dt)
-  if isTimeToActivate() and not world.isVisibleToPlayer(object.boundBox()) then
+  if isTimeToActivate() then
     activate()
   end
 end
@@ -24,7 +24,6 @@ end
 
 function use(args)
   if storage.active then
-    animator.playSound("use")
 
     deactivate()
 
@@ -46,6 +45,7 @@ function use(args)
 end
 
 function activate()
+	animator.playSound("ready")
   animator.setAnimationState("terminalState", "active")
   storage.active = true
   storage.lastActive = false
@@ -53,6 +53,7 @@ function activate()
 end
 
 function deactivate()
+	animator.playSound("use")
   animator.setAnimationState("terminalState", "expire")
   storage.active = false
   storage.lastActive = world.time()

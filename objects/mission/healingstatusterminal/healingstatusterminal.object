@@ -30,7 +30,7 @@
 
   "scripts" : [ "/objects/mission/healingstatusterminal/statusProjectile.lua" ],
   "scriptDelta" : 10,
-  "activationTime" : 50,
+  "activationTime" : 5,
   "animation" : "healingstatusterminal.animation",
   "animationParts" : {
     "bg" : "healingstatusterminal.png",

@@ -2,9 +2,9 @@
   "kind" : "vanta",
 
   "charCreationTooltip" : {
-      "title" : "Vanta",
-      "subTitle" : "Nd",
-      "description" : "The Vanta are a new generation of Nightar, having cast aside their dogmatic traditions and outgrowing their weakness to direct sunlight. Though still in the process of shaking off the antisocial and xenophobic habits of their predecessors, the Vanta are still significantly more outgoing."
+    "title" : "Vanta",
+    "subTitle" : "Nd",
+    "description" : "The Vanta are a new generation of Nightar, having cast aside their dogmatic traditions and outgrowing their weakness to direct sunlight. Though still in the process of shaking off the antisocial and xenophobic habits of their predecessors, the Vanta are still significantly more outgoing."
   },
 
   "nameGen" : [ "/species/vantamalenamegen.config:names", "/species/vantafemalenamegen.config:names" ],
@@ -27,8 +27,6 @@
       { "item" : "vantatier1chest" },
       { "item" : "vantatier1pants" },
 
-      // { "item" : "vantatier1chakram" },
-      // { "item" : "vantatier2chakram" },
       { "item" : "vantakatar" },
 
       { "item" : "vantatier2head" },
@@ -49,9 +47,7 @@
       { "item" : "vantatier3chest" },
       { "item" : "vantatier3pants" },
 
-      { "item" : "vantatier3greatsword" },
 	    { "item" : "vantatier3shortsword" },
-      // { "item" : "vantatier3chakram" },
       { "item" : "stealthdagger" },
 	    { "item" : "vantajamadhar" },
       { "item" : "vantaradiationprotectionback" },
@@ -85,22 +81,10 @@
       { "item" : "vantatier6schest" },
       { "item" : "vantatier6spants" },
 
-	    { "item" : "vantatier4greatsword" },
-      // { "item" : "vantatier4chakram" },
-      // { "item" : "vantatier5chakram" },
-      { "item" : "vantabigshield" },
+			{ "item" : "vantatier4greatsword" },
+			{ "item" : "vantabigshield" },
       { "item" : "vantatier5broadsword" },
-      { "item" : "vantatier5bow" },
       { "item" : "vantatier6sword" },
-      { "item" : "vantawarquoit" },
-
-      /*{ "item" : "stealthdaggerf" },
-      { "item" : "stealthdaggeri" },
-      { "item" : "stealthdaggere" },
-      { "item" : "stealthdaggerp" },*/
-
-      { "item" : "vantacoldprotectionback" },
-      { "item" : "vantaheatprotectionback" },
 
 //FurnitureTable,
       { "item" : "nightarbed" },
