@@ -17,11 +17,11 @@ dpsBonus = 1
 -- The ability names for the bangle and grimoire are actually not used internally, this is more so for easier referencing when building the skill lines.
 banglePrimaryAbilities = { "beambolt1" }
 bangleAltAbilities = { "offensive1" }
-grimoireAbilities = { "physbarrage" }
 
 function reinit() --when "forgottenmemories" is triggered, clear all stat bonuses
 	player.setProperty("banglePrimaryAbilities", banglePrimaryAbilities)
-	player.setProperty("grimoireAbilities", grimoireAbilities)
+	player.setProperty("bangleAltAbilities", bangleAltAbilities)
+
 	status.clearPersistentEffects("ex_fireResistance")
 	status.clearPersistentEffects("ex_iceResistance")
 	status.clearPersistentEffects("ex_electricResistance")
@@ -120,7 +120,7 @@ function dpsPlus(params)
 	})
 end
 
-function addBangleAbility(params)
+function addBanglePrimaryAbility(params)
 	local index = tonumber(params[1])
 	local newAbility = tostring(params[2])
 
@@ -129,23 +129,23 @@ function addBangleAbility(params)
 	player.setProperty("banglePrimaryAbilities", banglePrimaryAbilities)
 end
 
-function addGrimoireAbility(params)
+function addBangleAltAbility(params)
 	local index = tonumber(params[1])
 	local newAbility = tostring(params[2])
 
-	grimoireAbilities[index] = newAbility
+	bangleAltAbilities[index] = newAbility
 
-	player.setProperty("grimoireAbilities", grimoireAbilities)
+	player.setProperty("bangleAltAbilities", bangleAltAbilities)
 end
 
-function listBangleAbilities()
+function listBanglePrimaryAbilities()
 	banglePrimaryAbilities = player.getProperty("banglePrimaryAbilities")
 	return banglePrimaryAbilities
 end
 
-function listGrimoireAbilities()
-	grimoireAbilities = player.getProperty("grimoireAbilities")
-	return grimoireAbilities
+function listBangleAltAbilities()
+	bangleAltAbilities = player.getProperty("bangleAltAbilities")
+	return bangleAltAbilities
 end
 
 function modifyTech(params)

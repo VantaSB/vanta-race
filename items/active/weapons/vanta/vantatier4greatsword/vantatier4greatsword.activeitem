@@ -4,34 +4,33 @@
   "level" : 4,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "A uniquely-designed greatsword based on older Nightar designs.",
-  "shortdescription" : "Tyrant Guillotine",
+  "description" : "A greatsword based on older Nightar specifications.",
+  "shortdescription" : "Durasteel Greatsword",
   "tooltipKind" : "sword",
-  "category" : "broadsword",
+  "category" : "greatsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword","vanta"],
+  "itemTags" : ["weapon","melee","greatsword"],
 
   "inventoryIcon" : "vantatier4greatsword.png",
 
-  "animation" : "vantatier4greatsword.animation",
-  /*"animationParts" : {
-    "handle" : "vantatier4greatsword.png",
-    "handleFullbright" : "vantatier4greatswordlit.png",
-    "blade" : ""
-  },*/
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "vantatier4greatsword.png"
+  },
   "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "fire",
+  "elementalType" : "physical",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.83,
-    "baseDps" : 11.5
+    "fireTime" : 0.84,
+    "baseDps" : 17.6
   },
 
-  "altAbilityType" : "travelingslash",
+  "altAbilityType" : "greatwave",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

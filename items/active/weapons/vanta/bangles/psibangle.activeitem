@@ -1,15 +1,15 @@
 {
   "itemName" : "psibangle",
   "level" : 3,
-  "price" : 250,
+  "price" : 0,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "A bangle amplifying your psionic abilities.",
+  "description" : "A bangle that allows you to fire off elemental blasts. Use [^green;AltFire^reset;] to cycle through abilities.",
   "shortdescription" : "Psionic Bangle",
-  "tooltipKind" : "base",
+  "tooltipKind" : "object",
   "category" : "uniqueWeapon",
   "twoHanded" : true,
-  "itemTags" : [ "weapon" ],
+  "itemTags" : ["weapon","bangle"],
 
   "inventoryIcon" : "bangle.png",
   "animation" : "/items/active/weapons/ranged/gun.animation",
@@ -22,7 +22,7 @@
 
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/objects/crystaltrap_off.ogg" ]
+      "fire" : [ "/sfx/gun/electricrailgun1.ogg" ]
     }
   },
 
@@ -36,14 +36,16 @@
   "primaryAbility" : {
     "scripts" : [ "/items/active/weapons/ranged/gunfire.lua" ],
     "class" : "GunFire",
+
     "fireTime" : 0.67,
-    "baseDps" : 18.9,
-    "energyUsage" : 30,
-    "inaccuracy" : 0,
+    "baseDps" : 8,
+    "energyUsage" : 24,
+    "inaccuracy" : 0.008,
+
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "psishot",
+    "projectileType" : "psiphysicalshot",
     "projectileParameters" : {
       "knockback" : 20
     },
@@ -78,6 +80,8 @@
       }
     }
   },
+
+	"altAbilityType" : "banglechange",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

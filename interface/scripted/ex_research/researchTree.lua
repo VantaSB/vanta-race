@@ -608,9 +608,11 @@ function draw()
 					endPoint[2] = drawLines[ending].position[2] + dragOffset.y
 
 					if drawLines[ending].position[2] < 0 then
-						color = "#af40ff"
-					else
+						color = "#4070ff"
+					elseif drawLines[ending].position[2] > 0 then
 						color = "#ff40af"
+					else
+						color = "#af40ff"
 					end
 
 					if withinBounds(startPoint, endPoint) then
