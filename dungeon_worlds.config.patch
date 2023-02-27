@@ -90,16 +90,13 @@
       ],
       "threatLevel" : 1,
       "gravity" : 80,
-      "worldSize" : [3000, 500],
-      "dungeonBaseHeight" : 500, // <- space
-      //"dungeonBaseHeight" : 1000, // <- planet
-      "dungeonSurfaceHeight" : 0, // <- space
-      //"dungeonSurfaceHeight" : 100, // <- planet
+      "worldSize" : [2000, 1000],
+      "dungeonBaseHeight" : 750,
+      "dungeonSurfaceHeight" : 810,
       "ambientLightLevel" : [128, 128, 128],
       "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
       "musicTrack" : "",
       "environmentStatusEffects" : ["dontstarve"],
-      //"biome" : "proximamooncity"
       "biome" : "space"
     }
   },
@@ -116,7 +113,7 @@
       "gravity" : 80,
       "worldSize" : [500, 500],
       "dungeonBaseHeight" : 500,
-      "dungeonSurfaceHeight" : 200, // <- planet
+      "dungeonSurfaceHeight" : 200,
       "ambientLightLevel" : [128, 128, 128],
       "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
       "musicTrack" : "",

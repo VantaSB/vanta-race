@@ -215,39 +215,20 @@
         "spaceLevel" : 3000,
         "seed" : -5288806180628666923,
 
-        // Planet biome
-        /*"skyType" : "atmospheric",
-
-        "skyColoring" : {
-          "mainColor" : [25, 25, 25],
-
-          "morningColors" : [ [36, 36, 43], [36, 36, 43] ],
-          "dayColors" : [ [36, 36, 43], [36, 36, 43] ],
-          "eveningColors" : [ [36, 36, 43], [36, 36, 43] ],
-          "nightColors" : [ [36, 36, 43], [36, 36, 43] ],
-
-          "morningLightColor" : [36, 36, 43],
-          "dayLightColor" : [36, 36, 43],
-          "eveningLightColor" : [36, 36, 43],
-          "nightLightColor" : [36, 36, 43]
-        }*/
-
-
-        // Space biome
         "skyType" : "barren",
 
-        "skyColoring" : { // <- space lighting
-          "mainColor" : [100, 100, 100],
+        "skyColoring" : {
+          "mainColor" : [200, 200, 255],
 
-          "morningColors" : [[100, 100, 100], [100, 100, 100]],
-          "dayColors" : [[100, 100, 100], [100, 100, 100]],
-          "eveningColors" : [[100, 100, 100], [100, 100, 100]],
-          "nightColors" : [[100, 100, 100], [100, 100, 100]],
+          "morningColors" : [[200, 200, 255], [200, 200, 255]],
+          "dayColors" : [[200, 200, 255], [200, 200, 255]],
+          "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+          "nightColors" : [[200, 200, 255], [200, 200, 255]],
 
-          "morningLightColor" : [100, 100, 100],
-          "dayLightColor" : [100, 100, 100],
-          "eveningLightColor" : [100, 100, 100],
-          "nightLightColor" : [100, 100, 100]
+          "morningLightColor" : [200, 200, 255],
+          "dayLightColor" : [200, 200, 255],
+          "eveningLightColor" : [200, 200, 255],
+          "nightLightColor" : [200, 200, 255]
         }
       }
     }
