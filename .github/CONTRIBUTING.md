@@ -95,7 +95,7 @@ For the most part, you won't have any reason to worry about the **Milestone** or
 | `type : bug` | [search][search-vanta-race-label-type-bug] | For issue creators: used for starting bug reports |
 | `type : enhancement` | [search][search-vanta-race-label-type-enhancement] | New feature or request |
 | `type : planned-development` | [search][search-vanta-race-label-type-planned-development] | Implementation was planned by developers |
-| `type : question` | [search][search-vanta-race-label-type-question] | Further information is requested about a certain topic |
+| `type : question` | [search][search-vanta-race-label-type-question] | Further information is being requested about a certain topic |
 
 [search-vanta-race-label-component-asset]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20asset
 [search-vanta-race-label-component-biome]: https://github.com/VantaSB/vanta-race/labels/component%20%3A%20biome
