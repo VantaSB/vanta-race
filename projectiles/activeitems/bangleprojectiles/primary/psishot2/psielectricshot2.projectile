@@ -12,9 +12,9 @@
 	"power" : 75,
 	"speed" : 75,
   "actionOnReap" : [
-    {
+		{
       "action" : "sound",
-      "options" : [ "/sfx/gun/electricrailgun1.ogg" ]
+      "options" : [ "/sfx/gun/impact_plasma.ogg" ]
     }
   ],
   "emitters" : [ ],

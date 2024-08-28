@@ -60,5 +60,41 @@
     "op" : "add",
     "path" : "/banglechange",
     "value" : "/items/active/weapons/vanta/bangles/banglechange.weaponability"
+  },
+
+	{
+    "op" : "add",
+    "path" : "/darkdenizen",
+    "value" : "/items/active/weapons/vanta/grimoire/abilities/darkdenizen.weaponability"
+  },
+
+	{
+    "op" : "add",
+    "path" : "/grimoireelementorb",
+    "value" : "/items/active/weapons/vanta/grimoire/abilities/grimoireelementorb.weaponability"
+  },
+
+	{
+    "op" : "add",
+    "path" : "/grimoireelementportal",
+    "value" : "/items/active/weapons/vanta/grimoire/abilities/grimoireelementportal.weaponability"
+  },
+
+	{
+    "op" : "add",
+    "path" : "/grimoireelementswarm",
+    "value" : "/items/active/weapons/vanta/grimoire/abilities/grimoireelementswarm.weaponability"
+  },
+
+	{
+    "op" : "add",
+    "path" : "/grimoireplasmabarrage",
+    "value" : "/items/active/weapons/vanta/grimoire/abilities/grimoireplasmabarrage.weaponability"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/grimoireshooter",
+    "value" : "/items/active/weapons/vanta/grimoire/abilities/grimoireshooter.weaponability"
   }
 ]

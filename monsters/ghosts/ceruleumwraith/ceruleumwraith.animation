@@ -62,9 +62,9 @@
     "parts" : {
       "body" : {
         "properties" : {
-		  "fullbright" : false,
-          "transformationGroups" : [ "body" ],
-          "offset" : [0.0, 0.125]
+		  	"fullbright" : true,
+        "transformationGroups" : [ "body" ],
+        "offset" : [0.0, 0.125]
         },
         "partStates" : {
           "body" : {
@@ -95,12 +95,12 @@
       }
     }
   },
-  
+
   "lights" : {
     "glow" : {
       "active" : true,
       "position" : [0, 0],
-      "color" : [36, 159, 184],
+      "color" : [36, 180, 220],
       "pointLight" : true
     }
   },

@@ -1,0 +1,46 @@
+{
+  "objectName" : "nightsteeldampener",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1000,
+  "printable" : false,
+  "description" : "A generator that creates a wide-range dampening field to interfere with EPP gear.",
+  "shortdescription" : "Dampening Field Generator",
+  "race" : "nightar",
+
+  "inventoryIcon" : "icon.png",
+  "lightColor" : [131, 218, 233],
+
+	"scripts" : [ "/objects/other/reactorish/nightarpowercore/nightsteeldampener.lua" ],
+	"scriptDelta" : 10,
+
+  "orientations" : [
+    {
+      "imageLayers" : [
+				{ "image" : "nightsteeldampener.png:<color>.<frame>", "fullbright" : true },
+				{ "image" : "nightsteeldampenerlit.png:<color>.<frame>" }
+			],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "lightPosition" : [0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animationPosition" : [-8, 0],
+	"animation" : "nightsteeldampener.animation",
+  "animationParts" : {
+    "bg" : "nightsteeldampener.png",
+    "fg" : "nightsteeldampenerlit.png"
+  },
+
+  "soundEffectRangeMultiplier" : 0.5,
+
+	"inputNodes" : [
+		[0, 1]
+	]
+}

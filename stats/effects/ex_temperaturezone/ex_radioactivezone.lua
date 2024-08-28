@@ -1,6 +1,6 @@
 function init()
-  effect.setParentDirectives(config.getParameter("directives", ""))
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "radioactivezone")
+	effect.setParentDirectives(config.getParameter("directives", ""))
+	world.sendEntityMessage(entity.id(), "queueRadioMessage", "radioactivezone")
   self.healthPercentage = config.getParameter("healthPercentage", 0.1)
 end
 

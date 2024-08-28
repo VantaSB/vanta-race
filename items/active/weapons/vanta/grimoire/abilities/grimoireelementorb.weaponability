@@ -1,0 +1,17 @@
+{
+  "ability" : {
+    "type" : "grimoireelementorb",
+    "name" : "<elementalType> Orb",
+    "scripts" : [ "/items/active/weapons/vanta/grimoire/abilities/scripts/grimoireprojectile.lua" ],
+    "class" : "GrimoireProjectile",
+
+    "energyCost" : 75,
+
+    "maxCastRange" : 25,
+
+    "projectileType" : "<elementalType>orb",
+    "projectileParameters" : {
+      "baseDamage" : 4
+    }
+  }
+}

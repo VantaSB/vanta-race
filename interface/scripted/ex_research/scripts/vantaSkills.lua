@@ -12,15 +12,15 @@ hpBonus = 0
 epBonus = 0
 epRePercentRate = 0
 spBonus = 0
-dpsBonus = 1
+dpsBonus = 1.0
 
--- The ability names for the bangle and grimoire are actually not used internally, this is more so for easier referencing when building the skill lines.
+-- The ability names for the bangle are actually not used internally, this is more so for easier referencing when building the skill lines.
 banglePrimaryAbilities = { "beambolt1" }
-bangleAltAbilities = { "offensive1" }
+--bangleAltAbilities = { "offensive1" }
 
 function reinit() --when "forgottenmemories" is triggered, clear all stat bonuses
 	player.setProperty("banglePrimaryAbilities", banglePrimaryAbilities)
-	player.setProperty("bangleAltAbilities", bangleAltAbilities)
+	--player.setProperty("bangleAltAbilities", bangleAltAbilities)
 
 	status.clearPersistentEffects("ex_fireResistance")
 	status.clearPersistentEffects("ex_iceResistance")
@@ -53,9 +53,9 @@ function elrPlus(params)
 		resistIce = resistIce + params[2] or 0
 		immuneIce = immuneIce + params[3] or 0
 
-		status.setPersistentEffects("ex_fireResistance", {
-			{stat = "fireResistance", amount = resistIce},
-			{stat = "fireStatusImmunity", amount = immuneIce}
+		status.setPersistentEffects("ex_iceResistance", {
+			{stat = "iceResistance", amount = resistIce},
+			{stat = "iceStatusImmunity", amount = immuneIce}
 		})
 	end
 
@@ -63,9 +63,9 @@ function elrPlus(params)
 		resistElec = resistElec + params[2] or 0
 		immuneElec = immuneElec + params[3] or 0
 
-		status.setPersistentEffects("ex_fireResistance", {
-			{stat = "fireResistance", amount = resistElec},
-			{stat = "fireStatusImmunity", amount = immuneElec}
+		status.setPersistentEffects("ex_electricResistance", {
+			{stat = "electricResistance", amount = resistElec},
+			{stat = "electricStatusImmunity", amount = immuneElec}
 		})
 	end
 
@@ -73,15 +73,49 @@ function elrPlus(params)
 		resistPoison = resistPoison + params[2] or 0
 		immunePoison = immunePoison + params[3] or 0
 
-		status.setPersistentEffects("ex_fireResistance", {
-			{stat = "fireResistance", amount = resistPoison},
-			{stat = "fireStatusImmunity", amount = immunePoison}
+		status.setPersistentEffects("ex_poisonResistance", {
+			{stat = "poisonResistance", amount = resistPoison},
+			{stat = "poisonStatusImmunity", amount = immunePoison}
+		})
+	end
+end
+
+function statPlus(params)
+	if params[1] == "hpPlus" then
+		hpBonus = hpBonus + tonumber(params[2])
+
+		status.setPersistentEffects("ex_maxHealth", {
+			{stat = "maxHealth", amount = hpBonus}
+		})
+	elseif params[1] == "epPlus" then
+		epBonus = epBonus + tonumber(params[2])
+
+		status.setPersistentEffects("ex_maxEnergy", {
+			{stat = "maxEnergy", amount = epBonus}
+		})
+	elseif params[1] == "epRePlus" then
+		epRePercentRate = epRePercentRate + tonumber(params[2])
+
+		status.setPersistentEffects("ex_energyRegenBonus", {
+			{stat = "energyRegenPercentageRate", amount = epRePercentRate}
+		})
+	elseif params[1] == "spPlus" then
+		spBonus = spBonus + tonumber(params[2])
+
+		status.setPersistentEffects("ex_protection", {
+			{stat = "protection", amount = spBonus}
+		})
+	elseif params[1] == "dpsPlus" then
+		dpsBonus = dpsBonus + tonumber(params[2])
+
+		status.setPersistentEffects("ex_powerMultiplier", {
+			{stat = "powerMultiplier", effectiveMultiplier = dpsBonus}
 		})
 	end
 end
 
 function hpPlus(params)
-	hpBonus = hpBonus + tonumber(params[1]) or 0
+	hpBonus = hpBonus + tonumber(params[1])
 
 	status.setPersistentEffects("ex_maxHealth", {
 		{stat = "maxHealth", amount = hpBonus}
@@ -89,7 +123,7 @@ function hpPlus(params)
 end
 
 function epPlus(params)
-	epBonus = epBonus + tonumber(params[1]) or 0
+	epBonus = epBonus + tonumber(params[1])
 
 	status.setPersistentEffects("ex_maxEnergy", {
 		{stat = "maxEnergy", amount = epBonus}
@@ -97,15 +131,15 @@ function epPlus(params)
 end
 
 function epRePlus(params)
-	epRePercentRate = epRePercentRate + tonumber(params[1]) or 0
+	epRePercentRate = epRePercentRate + tonumber(params[1])
 
 	status.setPersistentEffects("ex_energyRegenBonus", {
-		{stat = "energyRegenPercentageRate", amount = epRePercentRate or 0}
+		{stat = "energyRegenPercentageRate", amount = epRePercentRate}
 	})
 end
 
 function spPlus(params)
-	spBonus = spBonus + tonumber(params[1]) or 0
+	spBonus = spBonus + tonumber(params[1])
 
 	status.setPersistentEffects("ex_protection", {
 		{stat = "protection", amount = spBonus}
@@ -113,7 +147,7 @@ function spPlus(params)
 end
 
 function dpsPlus(params)
-	dpsBonus = dpsBonus + tonumber(params[1]) or 1
+	dpsBonus = dpsBonus + tonumber(params[1])
 
 	status.setPersistentEffects("ex_powerMultiplier", {
 		{stat = "powerMultiplier", effectiveMultiplier = dpsBonus}

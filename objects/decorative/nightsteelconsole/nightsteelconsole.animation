@@ -13,6 +13,11 @@
             "mode" : "loop",
             "frames" : 4,
             "cycle" : 1.0
+          },
+          "locked" : {
+            "mode" : "loop",
+            "frames" : 4,
+            "cycle" : 1.0
           }
         }
       }
@@ -38,6 +43,13 @@
                 "image" : "<partImage>:off.<frame>",
                 "fullbright" : true
               }
+            },
+
+            "locked" : {
+              "properties" : {
+                "image" : "<partImage>:locked.<frame>",
+								"fullbright" : true
+              }
             }
           }
         }
@@ -60,6 +72,12 @@
               "properties" : {
                 "image" : "<partImage>:off.<frame>"
               }
+            },
+
+            "locked" : {
+              "properties" : {
+                "image" : "<partImage>:locked.<frame>"
+              }
             }
           }
         }
@@ -68,7 +86,8 @@
   },
 
   "sounds" : {
-    "on" : [],
-    "off" : []
+    "on" : [ "/sfx/objects/apexconsole1on.ogg" ],
+    "off" : [ "/sfx/objects/apexconsole1off.ogg" ],
+		"error" : [ "/sfx/interface/clickon_error.ogg" ]
   }
 }

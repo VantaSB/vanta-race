@@ -102,7 +102,7 @@
         }
       ],
       "animationFrames" : 2,
-      "text" : "Connection re-established, bypassing cryopod security... ... ... Complete.",
+      "text" : "Wake up...",
       "textPosition" : {
         "position" : [34, 21],
         "vAnchor" : "top",
@@ -139,7 +139,7 @@
         }
       ],
       "animationFrames" : 2,
-      "text" : "Hurry, Captain. It is time you made your escape. Do not worry, they don't appear to be aware of my presence at this time.",
+      "text" : "Wake up. You've nearly overslept.",
       "textPosition" : {
         "position" : [34, 21],
         "vAnchor" : "top",

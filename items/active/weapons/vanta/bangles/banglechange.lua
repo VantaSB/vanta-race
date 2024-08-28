@@ -4,7 +4,7 @@ BangleChange = WeaponAbility:new()
 
 function BangleChange:init()
 	banglePrimaryAbilities = listBanglePrimaryAbilities()
-	bangleAltAbilities = listBangleAltAbilities()
+	--bangleAltAbilities = listBangleAltAbilities()
 	self.shotIndex = config.getParameter("shotIndex", 1)
 	self:adaptPrimaryAbility()
 
@@ -23,8 +23,8 @@ function BangleChange:update(dt, fireMode, shiftHeld)
 	if not self.weapon.currentAbility and self.fireMode == (self.activatingFireMode or self.abilitySlot) then
 		if not self.shiftHeld then
 			self:setState(self.switchPrimaryShot)
-		else
-			self:setState(self.switchAltShot)
+		--else
+			--self:setState(self.switchAltShot)
 		end
 	end
 end
@@ -50,7 +50,7 @@ function BangleChange:switchPrimaryShot()
 	util.wait(self.stances.switch.duration)
 end
 
-function BangleChange:switchAltShot()
+--[[function BangleChange:switchAltShot()
 	bangleAltAbilities = listBangleAltAbilities()
 
 	self.shotIndex = next(bangleAltAbilities, self.shotIndex)
@@ -69,17 +69,17 @@ function BangleChange:switchAltShot()
 	self.weapon:setStance(self.stances.switch)
 
 	util.wait(self.stances.switch.duration)
-end
+end]]
 
 function BangleChange:adaptPrimaryAbility()
 	local ability = self.weapon.abilities[self.adaptedAbilityIndex]
 	util.mergeTable(ability, self.primaryShotTypes[self.shotIndex])
 end
 
-function BangleChange:adaptAltAbility()
+--[[function BangleChange:adaptAltAbility()
 	local ability = self.weapon.abilities[self.adaptedAbilityIndex]
 	util.mergeTable(ability, self.altShotTypes[self.shotIndex])
-end
+end]]
 
 function BangleChange:uninit()
 end

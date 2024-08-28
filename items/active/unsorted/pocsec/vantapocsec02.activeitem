@@ -1,10 +1,11 @@
 {
   "itemName" : "vantapocsec02",
-  "rarity" : "Common",
+  "rarity" : "Essential",
   "inventoryIcon" : "icon2.png",
   "description" : "A small datapad containing communications logs.",
   "shortdescription" : "Vanta Datapad",
   "radioMessagesOnPickup" : [ "pocsecPickup" ],
+	"category" : "quest",
 
   "scripts" : ["pocsec.lua"],
 

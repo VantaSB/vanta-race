@@ -1,0 +1,18 @@
+{
+  "name" : "ex_heatzone_override",
+  "blockingState" : "",
+	"override" : true,
+
+  "effectConfig" : {
+    "tickRate" : 0.5,
+    "tickDamage" : 5
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [ "ex_heatzone_override.lua" ],
+
+  "animationConfig" : "/stats/effects/biomeheat/biomeheat.animation",
+
+  "label" : "^red;EPP GEAR MALFUNCTION",
+  "icon" : "/interface/statuses/crash.png"
+}

@@ -1,38 +1,11 @@
 {
-  "skippable" : false,
-  "muteSfx" : true,
+	"skippable" : false,
+  "muteSfx" : false,
   "muteMusic" : true,
-  "backgroundColor" : [255, 255, 255, 0],
-  "scissor" : false,
-  "backgroundFadeTime" : 0.0,
+  "letterbox" : false,
+  "backgroundColor" : [0, 0, 0, 200],
+  "backgroundFadeTime" : 0.5,
   "panels" : [
-    {
-      "drawables" : [
-        {
-          "image" : "/cinematics/respawn/black.png"
-        }
-      ],
-      "keyframes" : [
-        {
-          "timecode" : 0,
-          "zoom" : 500,
-          "alpha" : 0,
-          "position" : [480, 270]
-        },
-        {
-          "timecode" : 0.5,
-          "alpha" : 0.85
-        },
-        {
-          "timecode" : 4.5,
-          "alpha" : 0.85
-        },
-        {
-          "timecode" : 5.4,
-          "alpha" : 0
-        }
-      ]
-    },
     {
       "drawables" : [
         {
@@ -218,173 +191,6 @@
           "position" : [480, 210]
         }
       ]
-    },
-    {
-      "drawables" : [
-        {
-          "image" : "/cinematics/intro/ex_alarmoverlay.png"
-        }
-      ],
-      "keyframes" : [
-        {
-          "timecode" : 0.0,
-          "zoom" : 10.0,
-          "alpha" : 0,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 0.75,
-          "zoom" : 10.0,
-          "alpha" : 1,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 1.5,
-          "zoom" : 10.0,
-          "alpha" : 0,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 2.25,
-          "zoom" : 10.0,
-          "alpha" : 1,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 3.0,
-          "zoom" : 10.0,
-          "alpha" : 0,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 3.75,
-          "zoom" : 10.0,
-          "alpha" : 1,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 4.5,
-          "zoom" : 10.0,
-          "alpha" : 0,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 5.25,
-          "zoom" : 10.0,
-          "alpha" : 1,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 6.0,
-          "zoom" : 10.0,
-          "alpha" : 0,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 6.75,
-          "zoom" : 10.0,
-          "alpha" : 1,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 7.5,
-          "zoom" : 10.0,
-          "alpha" : 0,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 8.25,
-          "zoom" : 10.0,
-          "alpha" : 1,
-          "position" : [0, 0]
-        },
-        {
-          "timecode" : 9.0,
-          "zoom" : 10.0,
-          "alpha" : 0,
-          "position" : [0, 0]
-        }
-      ],
-      "startTime" : 6.0,
-      "endTime" : 15.0
-    },
-
-    // radio message popup background
-    {
-      "startTime" : 7,
-      "endTime" : 14,
-      "drawables" : [
-        {
-          "image" : "/cinematics/radiomessagebg.png:<frame>"
-        }
-      ],
-      "keyframes" : [
-        {
-          "timecode" : 0.0,
-          "alpha" : 1.0,
-          "zoom" : 1.0,
-          "position" : [480, 100],
-          "frame" : 0
-        },
-        {
-          "timecode" : 0.5,
-          "frame" : 6
-        },
-        {
-          "timecode" : 6,
-          "frame" : 6
-        },
-        {
-          "timecode" : 6.5,
-          "frame" : 12,
-          "alpha" : 1
-        },
-        {
-          "timecode" : 6.55,
-          "alpha" : 0.0
-        }
-      ]
-    },
-
-    // first radio message
-    {
-      "startTime" : 7.5,
-      "endTime" : 13,
-      "drawables" : [
-        {
-          "image" : "/interface/chatbubbles/vantasoundonly.png:<frame>"
-        }
-      ],
-      "animationFrames" : 2,
-      "text" : "^red;UNAUTHORIZED ENTRY DETECTED IN LAB M1Z4. ALL UNITS REPORT TO DESIGNATED SECURITY POSTS. REPEAT: UNAUTHORIZED ENTRY DETECTED IN LAB M1Z4. ALL UNITS REPORT TO DESIGNATED SECURITY POSTS.^reset;",
-      "textPosition" : {
-        "position" : [34, 21],
-        "vAnchor" : "top",
-        "wrapWidth" : 218
-      },
-      "keyframes" : [
-        {
-          "timecode" : 0.0,
-          "alpha" : 1.0,
-          "zoom" : 1.0,
-          "position" : [366.5, 100],
-          "frame" : 0,
-          "textPercentage" : 0
-        },
-        {
-          "timecode" : 0.3,
-          "textPercentage" : 0
-        },
-        {
-          "timecode" : 4.2,
-          "frame" : 34,
-          "textPercentage" : 1
-        },
-        {
-          "timecode" : 5.5,
-          "frame" : 44
-        }
-      ]
     }
   ],
   "audio" : [
@@ -395,18 +201,6 @@
     {
       "timecode" : 4.5,
       "resource" : "/sfx/interface/item_equip.ogg"
-    },
-    {
-      "timecode" : 6,
-      "endTimecode" : 15,
-      "loops" : -1,
-      "resource" : "/sfx/cinematics/ex_klaxon_alert.ogg"
-    },
-    {
-      "timecode" : 7.5,
-      "endTimecode" : 11.2,
-      "loops" : -1,
-      "resource" : "/sfx/interface/aichatter1_loop.ogg"
     }
   ]
 }

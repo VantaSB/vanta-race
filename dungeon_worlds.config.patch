@@ -53,7 +53,7 @@
       "dungeonSurfaceHeight" : 1200,
       "ambientLightLevel" : [32, 32, 32],
       "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
-      "musicTrack" : "/music/underground-complex.ogg",
+      "musicTrack" : "/music/doc_ffvii-underground_complex.ogg",
       "environmentStatusEffects" : ["dontstarve"],
       "biome" : "proximamoon"
     }
@@ -72,7 +72,7 @@
       "worldSize" : [2000, 2000],
       "dungeonBaseHeight" : 750,
       "dungeonSurfaceHeight" : 810,
-      "ambientLightLevel" : [32, 32, 32],
+      "ambientLightLevel" : [128, 128, 128],
       "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
       "musicTrack" : "",
       "environmentStatusEffects" : ["dontstarve"],
@@ -80,23 +80,20 @@
     }
   },
 
-  {
+	{
     "op" : "add",
-    "path" : "/vantaintro_redux",
+    "path" : "/vantamission1",
     "value" : {
-      "primaryDungeon" : "vantaintro_redux",
-      "weatherPool" : [
-        [ 1.0, "clear" ]
-      ],
-      "threatLevel" : 1,
+      "primaryDungeon" : "vantamission1",
+      "threatLevel" : 6,
       "gravity" : 80,
-      "worldSize" : [2000, 1000],
-      "dungeonBaseHeight" : 750,
+      "worldSize" : [2500, 1500],
+      "dungeonBaseHeight" : 1000,
       "dungeonSurfaceHeight" : 810,
-      "ambientLightLevel" : [128, 128, 128],
-      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
-      "musicTrack" : "",
+      "ambientLightLevel" : [32, 32, 32],
+      "musicTrack" : "/music/fpm-light_speed.ogg",
       "environmentStatusEffects" : ["dontstarve"],
+	    "worldEdgeForceRegions" : "TopAndBottom",
       "biome" : "space"
     }
   },
@@ -107,7 +104,7 @@
     "value" : {
       "primaryDungeon" : "ex_voiddungeontest",
       "weatherPool" : [
-        [ 1.0, "clear" ]
+        [ 1.0, "voidrain" ]
       ],
       "threatLevel" : 1,
       "gravity" : 80,

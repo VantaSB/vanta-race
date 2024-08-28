@@ -17,7 +17,7 @@
       "//description" : "Set Piece Background",
       "//name" : "bsltype01",
       "//shortdescription" : "Set Piece Background",
-      "imagePositionX" : "-96",
+      "imagePositionX" : "-32",
       "imagePositionY" : "-80",
       "object" : "bsltype01",
       "tilesetDirection" : "right"

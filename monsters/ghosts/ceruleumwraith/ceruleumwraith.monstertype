@@ -1,7 +1,7 @@
 {
   "type" : "ceruleumwraith",
   "shortdescription" : "Ceruleum Wraith",
-  "description" : "A ghostly amalgimation of dead souls and liquid ceruleum.",
+  "description" : "A ghostly amalgimation of souls and liquid ceruleum.",
 
   "categories" : [ "ceruleumwraith" ],
   "parts" : [ "body" ],

@@ -1,0 +1,44 @@
+{
+	"itemName" : "vantamechcontroller",
+	"rarity" : "Essential",
+	"inventoryIcon" : "vantamechcontroller.png",
+	"description" : "Summon your assembled mech at any time!",
+	"shortdescription" : "Mech Controller",
+	"category" : "VehicleController",
+	"twoHanded" : true,
+	"maxStack" : 1,
+	"itemTags" : ["vehiclecontroller"],
+	"scripts" : [ "/items/active/vehiclecontroller/ex_mechcontroller.lua" ],
+
+  "primaryAbility" : {
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

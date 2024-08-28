@@ -4,7 +4,7 @@
 
   "persistent" : true,
 
-  "dropPools" : [ "money" ],
+  "dropPools" : [ ],
 
   "scriptConfig" : {
     "dialog" : {
@@ -30,7 +30,7 @@
           "headCosmetic" : [ { "name" : "nightarsoldierhead" } ],
           "chestCosmetic" : [ { "name" : "nightarsoldierchest" } ],
           "legsCosmetic" : [ { "name" : "nightarsoldierpants" } ],
-          "primary" : [ "weathereddagger_nightar" ]
+          "primary" : [ "nightarstandardrifle_intro" ]
         }
       ] ]
     ]
@@ -39,10 +39,10 @@
   "statusControllerSettings" : {
     "stats" : {
       "maxHealth" : {
-        "baseValue" : 40.0
+        "baseValue" : 15.0
       },
       "powerMultiplier" : {
-        "baseValue" : 0.20
+        "baseValue" : 0.10
       },
       "protection" : {
         "baseValue" : 0.0

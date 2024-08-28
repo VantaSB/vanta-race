@@ -1,10 +1,11 @@
 {
   "itemName" : "nightarpocsec03",
-  "rarity" : "Common",
-  "category" : "other",
+	"rarity" : "Essential",
   "inventoryIcon" : "icon.png",
-  "description" : "A small datapad that was left lying on its own.",
+  "description" : "A small datapad.",
   "shortdescription" : "Nightar Datapad",
+  "radioMessagesOnPickup" : [ "pocsecPickup" ],
+	"category" : "quest",
 
   "scripts" : ["pocsec.lua"],
 

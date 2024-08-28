@@ -10,12 +10,34 @@
     }
   },
 
+	{
+    "op" : "add",
+    "path" : "/coldzone_over",
+    "value" : {
+      "unique" : false,
+      "text" : "WARNING! THE TEMPERATURE IN THIS ZONE IS DANGEROUSLY LOW!\nFURTHER EXPLORATION IS NOT RECOMMENDED DUE TO GEAR DAMPENING!",
+      "portraitImage" : "yell.<frame>",
+      "textSpeed" : 70
+    }
+  },
+
   {
     "op" : "add",
     "path" : "/hotzone",
     "value" : {
       "unique" : false,
       "text" : "WARNING! THE TEMPERATURE IN THIS ZONE IS DANGEROUSLY HIGH!\nFURTHER EXPLORATION IS NOT RECOMMENDED WITHOUT THE PROPER GEAR!",
+      "portraitImage" : "yell.<frame>",
+      "textSpeed" : 70
+    }
+  },
+
+	{
+    "op" : "add",
+    "path" : "/hotzone_over",
+    "value" : {
+      "unique" : false,
+      "text" : "WARNING! THE TEMPERATURE IN THIS ZONE IS DANGEROUSLY HIGH!\nFURTHER EXPLORATION IS NOT RECOMMENDED DUE TO GEAR DAMPENING!",
       "portraitImage" : "yell.<frame>",
       "textSpeed" : 70
     }
@@ -32,6 +54,17 @@
     }
   },
 
+	{
+    "op" : "add",
+    "path" : "/radioactivezone_over",
+    "value" : {
+      "unique" : false,
+      "text" : "WARNING! THIS ZONE IS SATURATED WITH HIGH LEVELS OF RADIATION!\nFURTHER EXPLORATION IS NOT RECOMMENDED DUE TO GEAR DAMPENING!",
+      "portraitImage" : "yell.<frame>",
+      "textSpeed" : 70
+    }
+  },
+
   {
     "op" : "add",
     "path" : "/airlesszone",
@@ -41,5 +74,26 @@
       "portraitImage" : "yell.<frame>",
       "textSpeed" : 70
     }
-  }
+  },
+
+	{
+    "op" : "add",
+    "path" : "/airlesszone_over",
+    "value" : {
+      "unique" : false,
+      "text" : "WARNING! THIS ZONE CURRENTLY HAS NO OXYGEN FOR LIFE SUPPORT!\nFURTHER EXPLORATION IS NOT RECOMMENDED DUE TO GEAR DAMPENING!",
+      "portraitImage" : "yell.<frame>",
+      "textSpeed" : 70
+    }
+  },
+
+	{
+		"op" : "add",
+		"path" : "/vantamissions_consolelockedgeneric",
+		"value" : {
+			"unique" : false,
+			"text" : "This console appears to be locked. You will need to figure out how to manually override it.",
+			"persistTime" : 3.0
+		}
+	}
 ]

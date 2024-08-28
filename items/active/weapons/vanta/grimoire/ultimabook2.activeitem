@@ -1,0 +1,394 @@
+{
+  "itemName" : "ultimabook2",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A grimoire that details how to summon destructive forces.",
+  "shortdescription" : "Enigma Codex",
+  "category" : "grimoire",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","grimoire"],
+  "tooltipKind" : "base",
+  "level" : 5,
+
+  "inventoryIcon" : "/items/active/weapons/vanta/grimoire/book/ultima2.png:default.1",
+
+  "animation" : "/items/active/weapons/vanta/grimoire/grimoire.animation",
+
+  "animationParts" : {
+    "book" : "ultima2.png"
+  },
+
+  "scripts" : [ "/items/active/weapons/vanta/grimoire/grimoire.lua" ],
+
+  "elementalType" : "ceruleum",
+
+  "primaryAbilityType" : "grimoireelementorb",
+  "primaryAbility" : {
+    "projectileType": "kluexstaffplasma",
+    "projectileParameters": {
+      "processing": "?brightness=-90?saturation=-100?border=4;12CCE0;0C8E90",
+      "controlRotation": {
+        "maxSpeed": 40,
+        "controlForce": 70,
+        "friction": 5
+      },
+      "actionOnReap": [
+        {
+          "action": "projectile",
+          "type": "ngravityexplosion"
+        }
+      ],
+      "periodicActions": [
+        {
+          "time": 3,
+          "repeat": true,
+          "action": "projectile",
+          "type": "forcecage",
+          "config": {
+            "timeToLive": 0.2,
+            "speed": 40,
+            "processing": "?multiply=00000000"
+          }
+        },
+        {
+          "time": 0.02,
+          "inheritDamageFactor": 0.1,
+          "repeat": true,
+          "action": "projectile",
+          "type": "teslabolt",
+          "config": {
+            "speed": 80,
+            "processing": "?saturation=-100?brightness=-90?border=1;12CCE0;0C8E90"
+          }
+        },
+        {
+          "time": 0.02,
+          "angleAdjust": 180,
+          "inheritDamageFactor": 0.1,
+          "repeat": true,
+          "action": "projectile",
+          "type": "teslabolt",
+          "config": {
+            "speed": 80,
+            "processing": "?saturation=-100?brightness=-90?border=1;12CCE0;0C8E90"
+          }
+        }
+      ]
+    }
+  },
+
+  "altAbilityType" : "grimoireelementswarm",
+  "altAbility": {
+    "energyCost": 150,
+    "projectileCount": 6,
+    "projectileType": "shortbeam",
+    "projectileParameters": {
+      "speed": 40,
+      "baseDamage": 5,
+      "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+      "actionOnReap": [
+        {
+          "action": "projectile",
+          "type": "shortbeam",
+          "inheritDamageFactor": 1,
+          "angleAdjust": 0,
+          "config": {
+            "speed": 40,
+            "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+            "actionOnReap": [
+              {
+                "action": "projectile",
+                "type": "shortbeam",
+                "inheritDamageFactor": 1,
+                "angleAdjust": 150,
+                "config": {
+                  "speed": 40,
+                  "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                  "actionOnReap": [
+                    {
+                      "action": "projectile",
+                      "type": "shortbeam",
+                      "inheritDamageFactor": 1,
+                      "angleAdjust": 0,
+                      "config": {
+                        "speed": 40,
+                        "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                        "actionOnReap": [
+                          {
+                            "action": "projectile",
+                            "type": "shortbeam",
+                            "angleAdjust": 90,
+                            "inheritDamageFactor": 1,
+                            "config": {
+                              "speed": 40,
+                              "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "action": "projectile",
+                "type": "shortbeam",
+                "inheritDamageFactor": 1,
+                "angleAdjust": 210,
+                "config": {
+                  "speed": 40,
+                  "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                  "actionOnReap": [
+                    {
+                      "action": "projectile",
+                      "type": "shortbeam",
+                      "inheritDamageFactor": 1,
+                      "angleAdjust": 60,
+                      "config": {
+                        "speed": 40,
+                        "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                        "actionOnReap": [
+                          {
+                            "action": "projectile",
+                            "type": "shortbeam",
+                            "angleAdjust": 90,
+                            "inheritDamageFactor": 1,
+                            "config": {
+                              "speed": 40,
+                              "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "action": "projectile",
+          "type": "shortbeam",
+          "inheritDamageFactor": 1,
+          "angleAdjust": 120,
+          "config": {
+            "speed": 40,
+            "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+            "actionOnReap": [
+              {
+                "action": "projectile",
+                "type": "shortbeam",
+                "inheritDamageFactor": 1,
+                "angleAdjust": 150,
+                "config": {
+                  "speed": 40,
+                  "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                  "actionOnReap": [
+                    {
+                      "action": "projectile",
+                      "type": "shortbeam",
+                      "inheritDamageFactor": 1,
+                      "angleAdjust": 120,
+                      "config": {
+                        "speed": 40,
+                        "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                        "actionOnReap": [
+                          {
+                            "action": "projectile",
+                            "type": "shortbeam",
+                            "angleAdjust": 90,
+                            "inheritDamageFactor": 1,
+                            "config": {
+                              "speed": 40,
+                              "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "action": "projectile",
+                "type": "shortbeam",
+                "inheritDamageFactor": 1,
+                "angleAdjust": 210,
+                "config": {
+                  "speed": 40,
+                  "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                  "actionOnReap": [
+                    {
+                      "action": "projectile",
+                      "type": "shortbeam",
+                      "inheritDamageFactor": 1,
+                      "angleAdjust": 180,
+                      "config": {
+                        "speed": 40,
+                        "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                        "actionOnReap": [
+                          {
+                            "action": "projectile",
+                            "type": "shortbeam",
+                            "angleAdjust": 90,
+                            "inheritDamageFactor": 1,
+                            "config": {
+                              "speed": 40,
+                              "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "action": "projectile",
+          "type": "shortbeam",
+          "inheritDamageFactor": 1,
+          "angleAdjust": 240,
+          "config": {
+            "speed": 40,
+            "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+            "actionOnReap": [
+              {
+                "action": "projectile",
+                "type": "shortbeam",
+                "inheritDamageFactor": 1,
+                "angleAdjust": 150,
+                "config": {
+                  "speed": 40,
+                  "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                  "actionOnReap": [
+                    {
+                      "action": "projectile",
+                      "type": "shortbeam",
+                      "inheritDamageFactor": 1,
+                      "angleAdjust": 240,
+                      "config": {
+                        "speed": 40,
+                        "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                        "actionOnReap": [
+                          {
+                            "action": "projectile",
+                            "type": "shortbeam",
+                            "angleAdjust": 90,
+                            "inheritDamageFactor": 1,
+                            "config": {
+                              "speed": 40,
+                              "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "action": "projectile",
+                "type": "shortbeam",
+                "inheritDamageFactor": 1,
+                "angleAdjust": 210,
+                "config": {
+                  "speed": 40,
+                  "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                  "actionOnReap": [
+                    {
+                      "action": "projectile",
+                      "type": "shortbeam",
+                      "inheritDamageFactor": 1,
+                      "angleAdjust": 300,
+                      "config": {
+                        "speed": 40,
+                        "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90",
+                        "actionOnReap": [
+                          {
+                            "action": "projectile",
+                            "type": "shortbeam",
+                            "angleAdjust": 90,
+                            "inheritDamageFactor": 1,
+                            "config": {
+                              "speed": 40,
+                              "processing": "?brightness=-90?saturation=-100?border=1;12CCE0;0C8E90"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 90,
+      "weaponOffset" : [-0.625, 1.5],
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true,
+
+      "frontArmFrame" : "idle.4",
+      "backArmFrame" : "idle.4"
+    },
+
+    "charge" : {
+      "duration" : 1.4,
+      "armRotation" : 20,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "charged" : {
+      "armRotation" : 20,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "cooldown" : {
+      "weaponOffset" : [-0.625, 1.5],
+      "duration" : 0.5,
+      "armRotation" : 0,
+      "weaponRotation" : 90,
+      "allowRotate" : false,
+      "allowFlip" : true,
+
+      "frontArmFrame" : "idle.4",
+      "backArmFrame" : "idle.4"
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

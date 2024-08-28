@@ -13,11 +13,11 @@
 	"speed" : 75,
   "actionOnReap" : [
     {
-      "action" : "sound",
-      "options" : [ "/sfx/gun/electricrailgun1.ogg" ]
+			"action" : "sound",
+      "options" : [ "/sfx/gun/impact_plasma.ogg" ]
     }
   ],
   "emitters" : [ ],
   "damageKind" : "plasmabullet",
-	"statusEffects" : [ ]
+	"statusEffects" : [ "burning" ]
 }

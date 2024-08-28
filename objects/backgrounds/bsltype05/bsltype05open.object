@@ -18,11 +18,13 @@
   "orientations" : [
     {
       "imageLayers" : [
-        { "image" : "bsltype05open.png" },
-        { "image" : "bsltype05lit.png", "fullbright" : true }
+        { "image" : "bsltype05open.png:<color>.<frame>" },
+        { "image" : "bsltype05openlit.png:<color>.<frame>", "fullbright" : true }
       ],
 
       "imagePosition" : [-128, -64],
+			"frames" : 2,
+			"animationCycle" : 0.20,
 
       "renderLayer" : "BackgroundTile-10",
 

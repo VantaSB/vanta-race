@@ -1,0 +1,164 @@
+{
+  "itemName" : "icebook2",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "An enhanced book of ice attacks.",
+  "shortdescription" : "Book of Frost II",
+  "category" : "grimoire",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","grimoire"],
+  "tooltipKind" : "base",
+  "level" : 4,
+
+  "inventoryIcon" : "/items/active/weapons/vanta/grimoire/book/ice2.png:default.1",
+
+  "animation" : "/items/active/weapons/vanta/grimoire/grimoire.animation",
+
+  "animationParts" : {
+    "book" : "ice2.png"
+  },
+
+  "scripts" : [ "/items/active/weapons/vanta/grimoire/grimoire.lua" ],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "grimoireshooter",
+  "primaryAbility" : {},
+
+  "altAbilityType" : "grimoireshooter",
+  "altAbility" : {
+    "maxCastRange": 45,
+    "energyPerShot": 100,
+    "projectileSpawnInterval": 100,
+    "projectileType": "iceportal",
+    "baseDamage": 0,
+    "projectileParameters": {
+      "baseDamage": 0,
+      "timeToLive": 5,
+      "projectileType": "iceswarmer",
+      "projectileParameters": {
+        "periodicActions": [
+          {
+            "action": "sound",
+            "options": [
+              "/sfx/objects/flametrap_on.ogg"
+            ],
+            "time": 0.01,
+            "repeat": false
+          },
+          {
+            "action": "projectile",
+            "type": "orangeglobe",
+            "time": 0,
+            "repeat": false,
+            "config": {
+              "speed": 0,
+              "baseDamage": 0,
+              "processing": "?0",
+              "timeToLive": 0.3,
+              "damageKind": "noDamage",
+              "actionOnReap": []
+            }
+          }
+        ],
+        "timeToLive": 0.4,
+        "speed": 1,
+        "damageKind": "noDamage",
+        "actionOnReap": [
+          {
+            "action": "projectile",
+            "type": "plasma4",
+            "config": {
+              "speed": 50,
+              "power": 2.5,
+              "baseDamage": 0,
+              "processing": "?hueshift=-20",
+              "damageKind": "noDamage"
+            }
+          },
+          {
+            "action": "sound",
+            "options": [
+              "/sfx/projectiles/fire_out.ogg"
+            ]
+          }
+        ]
+      },
+      "spawnRate": 0.03,
+      "innacuracy": 0.1,
+      "persistentAudio": "/sfx/projectiles/iceorb_loop1.ogg",
+      "periodicActions": [
+        {
+          "time": 0,
+          "repeat": false,
+          "action": "sound",
+          "options": [
+            "/sfx/gun/pulsecannon2.ogg"
+          ]
+        }
+      ],
+      "actionOnReap": []
+    }
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 90,
+      "weaponOffset" : [-0.625, 1.5],
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true,
+
+      "frontArmFrame" : "idle.4",
+      "backArmFrame" : "idle.4"
+    },
+
+    "charge" : {
+      "duration" : 1.4,
+      "armRotation" : 20,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "charged" : {
+      "armRotation" : 20,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -90,
+      "weaponOffset" : [-0.125, 0.375],
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+
+    "cooldown" : {
+      "weaponOffset" : [-0.625, 1.5],
+      "duration" : 0.5,
+      "armRotation" : 0,
+      "weaponRotation" : 90,
+      "allowRotate" : false,
+      "allowFlip" : true,
+
+      "frontArmFrame" : "idle.4",
+      "backArmFrame" : "idle.4"
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

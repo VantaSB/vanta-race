@@ -1,7 +1,7 @@
 {
   "itemName" : "weatheredpicohandgun",
   "level" : 1,
-  "price" : 250,
+  "price" : 500,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "It's seen better days, but it can still get the job done in a pinch.",
@@ -39,10 +39,13 @@
     "baseDps" : 6,
     "energyUsage" : 5,
     "projectileCount" : 1,
-    "inaccuracy" : 0.0125,
+    "inaccuracy" : 0.02,
 
     "projectileType" : "plasmabullet",
-    "projectileParameters" : { },
+    "projectileParameters" : {
+			"power" : 5.0,
+			"speed" : 150
+		},
 
     "stances" : {
       "idle" : {

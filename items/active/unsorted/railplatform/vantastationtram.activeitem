@@ -1,0 +1,23 @@
+{
+  "itemName" : "vantastationtram",
+  "level" : 1,
+  "price" : 1000,
+  "rarity" : "Legendary",
+  "category" : "railPlatform",
+  "description" : "An elevator-type platform found inside Vanta complexes",
+  "shortdescription" : "Vanta Rail Tram",
+  "twoHanded" : true,
+  "maxStack" : 1,
+
+  "inventoryIcon" : "vantastationtramicon.png",
+
+  "scripts" : ["railplatform.lua"],
+  "animationScripts" : ["placementpreview.lua"],
+
+  "placementRange" : 15,
+  "placementBounds" : [-2.5, -0.25, 2.5, 3.75],
+  "placementPreviewImage" : "/items/active/unsorted/railplatform/nightarstationtrampreview.png",
+  "previewOffset" : [0, 2.0],
+
+  "platformType" : "vantastationtram"
+}

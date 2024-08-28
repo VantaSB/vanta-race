@@ -1,0 +1,247 @@
+{
+  "ability" : {
+    "type" : "darkdenizen",
+    "name" : "Dark Denizen",
+    "scripts" : ["/items/active/weapons/vanta/grimoire/abilities/scripts/grimoireprojectile.lua"],
+    "class" : "GrimoireProjectile",
+
+    "energyCost" : 200,
+
+    "maxCastRange" : 100,
+
+    "energyPerShot" : 0,
+
+    "projectileType" : "ceruleumorb",
+    "projectileParameters" : {
+      "baseDamage" : 4,
+
+      "power": 0,
+      "controlMovement": {
+        "maxSpeed": 20,
+        "controlForce": 1000
+      },
+      "statusEffects": [],
+      "persistentAudio": "/sfx/humanoid/shadowvillager_chatter1.ogg",
+      "timeToLive": 10,
+      "periodicActions": [
+        {
+          "time": 0,
+          "action": "particle",
+          "specification": {
+            "type": "animated",
+            "animation": "/animations/shadowsmoke/shadowsmoke.animation",
+            "light": [
+              255,
+              0,
+              0
+            ],
+            "size": 0.6,
+            "color": [
+              255,
+              25,
+              25,
+              100
+            ],
+            "initialVelocity": [
+              0,
+              2.3
+            ],
+            "finalVelocity": [
+              0,
+              4
+            ],
+            "approach": [
+              0.1,
+              0.2
+            ],
+            "timeToLive": 3.25,
+            "fade": 1,
+            "destructionAction": "shrink",
+            "destructionTime": 1.65,
+            "layer": "front",
+            "variance": {
+              "initialVelocity": [
+                0,
+                1
+              ],
+              "position": [
+                1.6,
+                2.6
+              ],
+              "size": 1
+            }
+          }
+        },
+        {
+          "time": 0,
+          "action": "particle",
+          "specification": {
+            "type": "animated",
+            "animation": "/animations/shadowsmoke/shadowsmoke.animation",
+            "light": [
+              255,
+              0,
+              0
+            ],
+            "size": 0.6,
+            "color": [
+              255,
+              25,
+              25,
+              100
+            ],
+            "initialVelocity": [
+              0,
+              2.3
+            ],
+            "finalVelocity": [
+              0,
+              4
+            ],
+            "approach": [
+              0.1,
+              0.2
+            ],
+            "timeToLive": 3.25,
+            "fade": 1,
+            "destructionAction": "shrink",
+            "destructionTime": 1.65,
+            "layer": "front",
+            "variance": {
+              "initialVelocity": [
+                0,
+                1
+              ],
+              "position": [
+                1.6,
+                2.6
+              ],
+              "size": 1
+            }
+          }
+        },
+        {
+          "time": 0.3,
+          "action": "projectile",
+          "type": "electricshockwave",
+          "fuzzAngle": 360,
+          "config": {
+            "timeToLive": 0.2,
+            "processing": "?brightness=-100",
+            "speed": 40,
+            "damageKind": "default",
+            "knockback": 0.2,
+            "power": 0,
+            "periodicActions": [],
+            "actionOnReap": [],
+            "persistentAudio": "/sfx/humanoid/shadowvillager_chatter2.ogg"
+          }
+        },
+        {
+          "time": 0.06,
+          "action": "projectile",
+          "type": "spinslash",
+          "angle": 180,
+          "config": {
+            "timeToLive": 0.7,
+            "persistentAudio": "/sfx/humanoid/shadowvillager_chatter3.ogg",
+            "processing": "?brightness=-100",
+            "speed": 0,
+            "damageKind": "default",
+            "power": 0,
+            "knockback": 0.2,
+            "actionOnReap": [
+              {
+                "action": "projectile",
+                "type": "swipe",
+                "fuzzAngle": 360,
+                "config": {
+                  "timeToLive": 0.1,
+                  "power": 4.3,
+                  "knockback": 20,
+                  "processing": "?saturation=50?brightness=40?hueshift=-100"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "time": 1,
+          "action": "projectile",
+          "type": "smokering",
+          "angle": -90,
+          "config": {
+            "timeToLive": 1,
+            "persistentAudio": "",
+            "processing": "?brightness=-100",
+            "speed": 30,
+            "power": 20,
+            "knockback": 0.5,
+            "actionOnReap": [
+              {
+                "action": "projectile",
+                "type": "iceeruption",
+                "angle": 0,
+                "config": {
+                  "timeToLive": 1,
+                  "processing": "?brightness=-100",
+                  "speed": 0,
+                  "damageKind": "default",
+                  "knockback": 3.2,
+                  "power": 5
+                }
+              }
+            ]
+          }
+        },
+        {
+          "time": 0,
+          "action": "projectile",
+          "type": "crystallaser",
+          "angle": -90,
+          "config": {
+            "timeToLive": 0.01,
+            "persistentAudio": "/sfx/npc/monsters/orbide_creepy_loop.ogg",
+            "processing": "?hueshift=120?saturation=10?brightness=10",
+            "speed": 0,
+            "power": 1,
+            "knockback": 0.5,
+            "actionOnReap": []
+          }
+        },
+        {
+          "time": 0,
+          "action": "projectile",
+          "type": "lightning",
+          "angle": 45,
+          "config": {
+            "timeToLive": 0.07,
+            "persistentAudio": "",
+            "processing": "?brightness=-1000",
+            "speed": 140,
+            "power": 1,
+            "knockback": 0.5,
+            "actionOnReap": [],
+            "periodicActions": []
+          }
+        },
+        {
+          "time": 0,
+          "action": "projectile",
+          "type": "lightning",
+          "angle": 135,
+          "config": {
+            "timeToLive": 0.07,
+            "persistentAudio": "/sfx/npc/monsters/orbide_creepy_loop.ogg",
+            "processing": "?brightness=-1000",
+            "speed": 140,
+            "power": 1,
+            "knockback": 0.5,
+            "actionOnReap": [],
+            "periodicActions": []
+          }
+        }
+      ]
+    }
+  }
+}

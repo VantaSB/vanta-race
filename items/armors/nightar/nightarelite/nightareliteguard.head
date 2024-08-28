@@ -1,6 +1,6 @@
 {
   "itemName" : "nightareliteguardhead",
-  "price" : 2880,
+  "price" : 1000,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Legendary",
@@ -9,9 +9,9 @@
   "shortdescription" : "N. Elite Guard Helm",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "nightareliteguardhead.png",
-  "femaleFrames" : "nightareliteguardhead.png",
-  "mask" : "nightareliteguardheadmask.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
 
   "level" : 7,
   "leveledStatusEffects" : [

@@ -1,0 +1,41 @@
+{
+	"vantamission1_1" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "If we can take this station back, we'll be back in shape to coordinate our efforts with other militias against the Nightar Empire. We're counting on you!"
+	},
+
+	"vantamission1_2" : {
+		"type" : "mission",
+		"text" : "Captain, we have a problem - the occupying force has setup EPP dampening fields in various sectors of the base. Your EPP will be rendered useless in those sectors. Try to avoid them unless absolutely necessary."
+	},
+
+	"vantamission1_consolelocked1" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "The console in the operations room is linked directly to the central computer, so its security was taken into consideration. Much of the data was wiped before we escaped, but we should be able to restore it once we have it back under our control.",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_consolelocked2" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "There are four overrides you'll need to activate in order to reactivate the central computer. Once it's been reactivated, we can remotely trigger data restoration on a secure link. This will also reactivate and recalibrate our security systems.",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_consolelocked3" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "Unfortunately, due to security reasons, we don't have the override terminals mapped out - you'll have to make do with your skills and intuition."
+	},
+
+	"vantamission1_opsConsoleActivated" : {
+		"type" : "mission",
+		"text" : "--TODO--"
+	}
+}

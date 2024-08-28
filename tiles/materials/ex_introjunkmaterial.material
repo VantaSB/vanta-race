@@ -11,7 +11,7 @@
   "footstepSound" : "/sfx/blocks/footstep_bone.ogg",
   "falling" : true,
   "cascading" : true,
-  "health" : 4,
+  "health" : 2,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
