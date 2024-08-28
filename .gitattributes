@@ -1,5 +1,5 @@
 *.2functions linguist-language=json
-"achievement linguist-language=json
+*.achievement linguist-language=json
 *.activeitem linguist-language=json
 *.aimission linguist-language=json
 *.animation linguist-language=json
