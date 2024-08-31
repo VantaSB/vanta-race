@@ -9,6 +9,6 @@
     "eslint-config-wikimedia": "^0.21.0"
   },
   "scripts": {
-    "test": "json-syntax.js"
+    "test": "node json-syntax.js"
   }
 }
