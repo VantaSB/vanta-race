@@ -106,7 +106,7 @@ function explore()
 
   storage.stage = 2
 
-  player.radioMessage("gaterepair-findGate")
+  player.radioMessage("v-gaterepair-findGate")
 
   util.wait(8)
 
@@ -134,9 +134,9 @@ end
 function gateFound()
   quest.setProgress(nil)
   quest.setCompassDirection(nil)
-  player.radioMessage("gaterepair-gateFound1")
-  player.radioMessage("gaterepair-gateFound1b")
-  player.radioMessage("gaterepair-gateFound2")
+  player.radioMessage("v-gaterepair-gateFound1a")
+  player.radioMessage("v-gaterepair-gateFound1b")
+  player.radioMessage("v-gaterepair-gateFound1c")
   storage.stage = 3
 
   util.wait(14)
@@ -197,8 +197,8 @@ function gateRepaired()
 
   storage.stage = 5
 
-  player.radioMessage("gaterepair-gateOpened1")
-  player.radioMessage("gaterepair-gateOpened2")
+  player.radioMessage("v-gaterepair-gateOpened1")
+  player.radioMessage("v-gaterepair-gateOpened2")
 
   self.state:set(self.stages[storage.stage])
 end
