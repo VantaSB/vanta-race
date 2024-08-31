@@ -50,5 +50,5 @@ jobs:
         with:
           files: vanta-race.pak
         env:
-          GITHUB_TOKEN: ${{ secret.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
