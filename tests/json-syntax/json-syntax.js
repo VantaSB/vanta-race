@@ -34,7 +34,6 @@ class JsonAssetsTest {
 		this.analyzeAssets();
 
 		this.loadExceptionLists();
-		this.loadTricorderTechs();
 		this.loadCraftingRecipes();
 
 		this.checkTreasurePools();
