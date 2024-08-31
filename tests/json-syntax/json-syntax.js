@@ -254,7 +254,6 @@ class JsonAssetsTest {
 			this.placeableMaterials.add( parseInt( materialIdAsString ) );
 		} );
 	}
-	}
 
 	// Check all recipe files for unknown inputs/outputs and remember which items are craftable
 	loadCraftingRecipes() {
