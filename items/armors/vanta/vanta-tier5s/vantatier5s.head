@@ -4,7 +4,7 @@
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Rare",
-  "category" : "headarmour",
+  "category" : "exHeadArmorSep",
   "description" : "This helmet is a symbol of prestige among Vanta warriors.",
   "shortdescription" : "Phantoma Helm",
   "tooltipKind" : "armor",

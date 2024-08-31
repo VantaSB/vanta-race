@@ -4,7 +4,7 @@
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "category" : "headarmour",
+  "category" : "exHeadArmorAcc",
   "description" : "A helmet reinforced with Nightsteel.",
   "shortdescription" : "Delver Apparatus",
   "tooltipKind" : "armor",

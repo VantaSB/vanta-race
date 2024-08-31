@@ -2,6 +2,7 @@ require "/scripts/util.lua"
 require "/scripts/vec2.lua"
 
 function init()
+	storage.state = storage.state or false
   self.sourceId = nil
   self.networkedDoor = nil
   self.locked = true
@@ -9,7 +10,17 @@ function init()
   self.warpDest = config.getParameter("warpDest", {0, 0})
   storage.timer = 0
 
+	if not storage.sight then
+		local perimeter = entity.position()
+		storage.sight = { perimeter[1]-20, perimeter[2]-20, perimeter[1]+20, perimeter[2]+20 }
+		sb.logInfo("Region: %s", storage.sight)
+	end
+
   message.setHandler("openDoor", function()
+		sb.logInfo("Message Received from %s", entity.id())
+		if not world.regionActive(storage.sight) then
+			world.loadRegion(storage.sight)
+		end
     if animator.animationState("doorState") == "closed" or animator.animationState("doorState") == "closing" or animator.animationState("doorState") == "locked" or animator.animationState("doorState") == "locking" then
       if self.locked then
         animator.setAnimationState("doorState", "lockOpen")
@@ -49,6 +60,17 @@ function update(dt)
       self.sourceId = nil
     end
   end
+
+	if object.isInputNodeConnected(0) then
+		storage.state = object.getInputNodeLevel(0)
+		if not world.regionActive(storage.sight) then
+			world.loadRegion(storage.sight)
+		end
+	end
+
+	if storage.state then
+		world.loadRegion(storage.sight)
+	end
 end
 
 function onInteraction(args)
@@ -60,6 +82,7 @@ function onInteraction(args)
       animator.setAnimationState("doorState", "open")
       animator.playSound("open")
       storage.timer = self.interval
+			world.loadUniqueEntity(self.networkedDoor)
       world.sendEntityMessage(self.networkedDoor, "openDoor")
       world.sendEntityMessage(self.sourceId, "playCinematic", "/cinematics/teleport/ex_doorwarp.cinematic")
     end
@@ -90,6 +113,7 @@ function checkNodes()
     for id,_ in pairs(object.getOutputNodeIds(0)) do
       if world.entityExists(id) then
         self.networkedDoor = id
+				object.setOutputNodeLevel(0, true)
         if object.isInputNodeConnected(0) then
           if object.getInputNodeLevel(0) then
             self.locked = false

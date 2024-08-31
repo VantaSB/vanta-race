@@ -2,7 +2,7 @@
   "objectName" : "mmx3type01",
   "colonyTags" : [],
   "rarity" : "Common",
-  //"lightColor" : [126, 230, 206],
+  "lightColor" : [185, 245, 200],
 
   "category" : "decorative",
   "price" : 0,

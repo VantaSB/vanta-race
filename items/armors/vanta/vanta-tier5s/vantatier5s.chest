@@ -4,7 +4,7 @@
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Rare",
-  "category" : "chestarmour",
+  "category" : "exChestArmorSep",
   "description" : "Bladed shoulders give the phantoma armor a somewhat aerodynamic edge.",
   "shortdescription" : "Phantoma Chestplate",
   "tooltipKind" : "armor",

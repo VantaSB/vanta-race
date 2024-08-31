@@ -71,7 +71,19 @@
          "color":"#ffff00",
          "draworder":"topdown",
          "id":5,
-         "name":"wiring - lights & guns",
+         "name":"wiring - lights, consoles, guns",
+         "objects":[],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "color":"#00ffff",
+         "draworder":"topdown",
+         "id":7,
+         "name":"wiring - doors and sensors",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
@@ -84,29 +96,6 @@
          "draworder":"topdown",
          "id":6,
          "name":"monsters & npcs",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "color":"#00ffff",
-         "draworder":"topdown",
-         "id":7,
-         "name":"wiring - locked door",
-         "objects":[],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":8,
-         "name":"outside the map",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
@@ -130,7 +119,7 @@
          "color":"#5500ff",
          "draworder":"topdown",
          "id":10,
-         "name":"items",
+         "name":"vehicles & items",
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
@@ -154,131 +143,131 @@
  "nextobjectid":679,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.8.1",
+ "tiledversion":"1.9.2",
  "tileheight":8,
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/materials.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/materials.json"
         }, 
         {
          "firstgid":198,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/supports.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/supports.json"
         }, 
         {
          "firstgid":235,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
          "firstgid":259,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/liquids.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/liquids.json"
         }, 
         {
          "firstgid":287,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-race\/ancient.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/ancient.json"
         }, 
         {
          "firstgid":450,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-race\/apex.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/apex.json"
         }, 
         {
          "firstgid":821,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-race\/avian.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/avian.json"
         }, 
         {
          "firstgid":1126,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-race\/floran.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/floran.json"
         }, 
         {
          "firstgid":1321,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-race\/generic.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/generic.json"
         }, 
         {
          "firstgid":3305,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-race\/glitch.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/glitch.json"
         }, 
         {
          "firstgid":3531,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-race\/human.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/human.json"
         }, 
         {
          "firstgid":3819,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-race\/hylotl.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/hylotl.json"
         }, 
         {
          "firstgid":4051,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-race\/novakid.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-race\/novakid.json"
         }, 
         {
          "firstgid":4115,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/breakable.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/breakable.json"
         }, 
         {
          "firstgid":4425,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/decorative.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/decorative.json"
         }, 
         {
          "firstgid":5866,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/door.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/door.json"
         }, 
         {
          "firstgid":5998,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/farmable.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/farmable.json"
         }, 
         {
          "firstgid":6073,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/furniture.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/furniture.json"
         }, 
         {
          "firstgid":6427,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/light.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/light.json"
         }, 
         {
          "firstgid":6885,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/railpoint.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/railpoint.json"
         }, 
         {
          "firstgid":6890,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/teleporter.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/teleporter.json"
         }, 
         {
          "firstgid":6932,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/trap.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/trap.json"
         }, 
         {
          "firstgid":7136,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
          "firstgid":7358,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-type\/container.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/container.json"
         }, 
         {
          "firstgid":7643,
-         "source":"..\/..\/..\/..\/Starbound - Unstable\/assets\/packed\/tilesets\/packed\/objects-by-type\/teleporter.json"
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-type\/teleporter.json"
         }, 
         {
          "firstgid":7670,
          "source":"..\/tilesets\/vanta-custom\/vantaliquids.json"
         }, 
         {
-         "firstgid":7671,
+         "firstgid":7672,
          "source":"..\/tilesets\/vanta-custom\/vantamaterials.json"
         }, 
         {
-         "firstgid":7694,
+         "firstgid":7696,
          "source":"..\/tilesets\/vanta-custom\/vantasupports.json"
         }, 
         {
-         "firstgid":7699,
+         "firstgid":7701,
          "source":"..\/tilesets\/vanta-custom\/objects-by-race\/vanta-large.json"
         }, 
         {
-         "firstgid":7771,
+         "firstgid":7794,
          "source":"..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
         }],
  "tilewidth":8,
  "type":"map",
- "version":"1.8",
+ "version":"1.9",
  "width":2000
 }

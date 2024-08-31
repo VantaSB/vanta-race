@@ -1,0 +1,33 @@
+{
+  "objectName" : "mmx3type05a",
+  "colonyTags" : [],
+  "rarity" : "Common",
+
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "Set Piece Background",
+  "shortdescription" : "Set Piece Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "generic",
+
+  "health" : 2000,
+
+  "inventoryIcon" : "mmx3type05a.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "mmx3type05a.png", "fullbright" : true },
+        { "image" : "mmx3type05lit.png" }
+      ],
+
+      "imagePosition" : [-64, -32],
+
+      "renderLayer" : "BackgroundTile-10",
+
+      "spaces" : [ ],
+      "anchors" : [ ],
+      "metaBoundBox" : [-17, -17, 17, 17]
+    }
+  ]
+}

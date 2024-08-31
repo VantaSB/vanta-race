@@ -4,7 +4,7 @@
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "category" : "headarmour",
+  "category" : "exHeadArmorSep",
   "description" : "This sleek helmet boasts durability.",
   "shortdescription" : "Queenbreaker Helm",
   "tooltipKind" : "armor",

@@ -1,0 +1,21 @@
+[
+	[
+		{
+			"op" : "test",
+			"path" : "/prerequisites",
+			"inverse" : true
+		},
+		{
+			"op" : "add",
+			"path" : "/prerequisites",
+			"value" : []
+		}
+	],
+	[
+		{
+			"op" : "add",
+			"path" : "/prerequisites/-",
+			"value" : "protectorateintro"
+		}
+	]
+]

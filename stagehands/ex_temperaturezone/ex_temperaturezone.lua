@@ -8,11 +8,11 @@ function init()
   self.broadcastArea = rect.translate(config.getParameter("broadcastArea", {-8, -8, 8, 8}), entity.position())
   self.zoneType = config.getParameter("zoneType", "ex_airlesszone")
 
-	message.setHandler("toggle", function()
-		if self.active then
+	message.setHandler("ex_tempzonetoggle", function(_, _, args)
+		if args == "disable" then
 			self.active = false
 			if self.zoneType == "ex_airlesszone" then toggleAirless(self.active) end
-		elseif not self.active then
+		elseif args == "enable" then
 			self.active = true
 			if self.zoneType == "ex_airlesszone" then toggleAirless(self.active) end
 		end
@@ -36,8 +36,8 @@ end
 
 function toggleAirless(newState)
 	if newState then
-    world.setDungeonBreathable(1, false)
+    world.setDungeonBreathable(1, true)
 	else
-		world.setDungeonBreathable(1, true)
+		world.setDungeonBreathable(1, false)
 	end
 end

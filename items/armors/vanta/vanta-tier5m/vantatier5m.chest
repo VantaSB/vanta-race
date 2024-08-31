@@ -4,7 +4,7 @@
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Rare",
-  "category" : "chestarmour",
+  "category" : "exChestArmorMan",
   "description" : "A chestpiece intricately crafted with ferozium.",
   "shortdescription" : "Noct Mail",
   "tooltipKind" : "armor",

@@ -11,6 +11,21 @@
 		"text" : "Captain, we have a problem - the occupying force has setup EPP dampening fields in various sectors of the base. Your EPP will be rendered useless in those sectors. Try to avoid them unless absolutely necessary."
 	},
 
+	"vantamission1_3" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+		"text" : "It's been a while since you've seen the ^orange;main deck^reset;. Most of the time, you were in your own suite on the ^orange;operations deck^reset;. It was easier for having you quartered there for quicker deployment.",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_4" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+		"text" : "We're gping to retake this station. It's been our home for the longest time, and I see no reason to give it up just yet. Keep pressing forward - we'll aid you as we can."
+	},
+
 	"vantamission1_consolelocked1" : {
 		"type" : "mission",
 		"senderName" : "Ran",

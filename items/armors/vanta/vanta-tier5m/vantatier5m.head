@@ -4,7 +4,7 @@
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Rare",
-  "category" : "headarmour",
+  "category" : "exHeadArmorMan",
   "description" : "This helmet is a symbol of prestige among Vanta warriors.",
   "shortdescription" : "Noct Helm",
   "tooltipKind" : "armor",

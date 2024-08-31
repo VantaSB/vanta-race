@@ -33,6 +33,7 @@
 
   "inputNodes" : [ [-1, 0] ],
 
+	"targetId" : null,
   "messageType" : null,
-	"messageTargetEntity" : null
+	"messageArgs" : null
 }

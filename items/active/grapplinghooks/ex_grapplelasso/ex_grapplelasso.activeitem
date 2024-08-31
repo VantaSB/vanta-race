@@ -3,7 +3,7 @@
   "price" : 1250,
   "level" : 1,
   "rarity" : "Essential",
-  "description" : "An experimental module fitted for matter manipulators. ^green;Quick select with [N] key.",
+  "description" : "An experimental weapon with additional utility purposes.",
   "shortdescription" : "Grapple Lasso",
   "inventoryIcon" : "icon.png",
   "largeImage" : "grapplemodulelarge.png",
@@ -12,11 +12,11 @@
   "twoHanded" : false,
   "itemTags" : [ "weapon", "upgradeableWeapon" ],
 
-  "animation" : "/items/active/weapons/whip/ex_grapplefist.animation",
+  "animation" : "/items/active/grapplinghooks/ex_grapplelasso/ex_grapplelasso.animation",
 
   "animationParts" : {
-    "weapon" : "/items/active/weapons/whip/grappleglove.png",
-    "weaponFullbright" : "/items/active/weapons/whip/grappleglovelit.png"
+    "weapon" : "/items/active/grapplinghooks/ex_grapplelasso/grappleglove.png",
+    "weaponFullbright" : "/items/active/grapplinghooks/ex_grapplelasso/grappleglovelit.png"
   },
 
   "animationCustom" : {
@@ -47,7 +47,7 @@
     "fullbright" : true
   },
 
-  "scripts" : ["/items/active/weapons/whip/ex_grapplefist.lua"],
+  "scripts" : ["/items/active/grapplinghooks/ex_grapplelasso/ex_grapplelasso.lua"],
 
   "primaryAbilityType" : "ex_grapple",
   "primaryAbility" : {
@@ -94,12 +94,12 @@
   "upgradeParameters" : {
     "inventoryIcon" : "icon_l6.png",
     "largeImage" : "grapplemodulelarge_l6.png",
-    "description" : "A grpple module upgrade that delivers continuous voltage. ^green;Quick select with [N] key.",
+    "description" : "A grapple module upgrade that delivers continuous voltage. ^green;Quick select with [N] key.",
     "level" : 6,
     "shortdescription" : "Grapple Voltage",
     "animationParts" : {
-      "weapon" : "/items/active/weapons/whip/grappleglove_l6.png",
-      "weaponFullbright" : "/items/active/weapons/whip/grappleglovelit.png"
+			"weapon" : "/items/active/grapplinghooks/ex_grapplelasso/grappleglove_l6.png",
+	    "weaponFullbright" : "/items/active/grapplinghooks/ex_grapplelasso/grappleglovelit.png"
     },
     "chain" : {
       "startOffset" : [0.375, 0.0625],
@@ -142,7 +142,7 @@
       "ropeRandomProjectileType" : "ex_grappleshock",
       "ropeRandomProjectileConfig" : {
         "statusEffects" : [ "electrified" ],
-        "power" : 0.5,
+        "power" : 15,
   	    "speed" : 1
       },
       "minChainSegmentLengthToSpawnOn": 40,

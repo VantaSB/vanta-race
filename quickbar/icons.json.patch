@@ -3,7 +3,7 @@
 		"op" : "add",
 		"path" : "/items/vanta-race:hfcodex",
 		"value" : {
-			"label" : "H.F. Codex",
+			"label" : "Vanta Codex",
 			"icon" : "/quickbar/hfcodex.png",
 			"weight" : -1100,
 			"action" : [ "pane", "/interface/scripted/hfcodex/xcodexui.config" ]

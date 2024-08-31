@@ -96,5 +96,11 @@
     "op" : "add",
     "path" : "/grimoireshooter",
     "value" : "/items/active/weapons/vanta/grimoire/abilities/grimoireshooter.weaponability"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/ex_grapple",
+    "value" : "/items/active/weapons/whip/abilities/ex_grapple.weaponability"
   }
 ]
