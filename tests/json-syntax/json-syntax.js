@@ -343,7 +343,6 @@ class JsonAssetsTest {
 	}
 
 	checkTreeUnlocks() {
-		checkTreeUnlocks() {
 		for ( var treeFilename of [
 			'interface/scripted/ex_research/researchFiles/vantaresearch.config'
 		] ) {
