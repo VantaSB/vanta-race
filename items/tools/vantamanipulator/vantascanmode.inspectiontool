@@ -5,7 +5,7 @@
   "inventoryIcon" : "vantascanmodeicon.png",
   "rarity" : "Essential",
   "maxStack" : 1,
-  "description" : "Describe things in the world and scan objects for printing. ^green;Quick select with [N] key.",
+  "description" : "Describe things in the world and scan objects for printing. ^green;Quick select with [N] key.^reset;",
   "shortdescription" : "Scanning Mode",
   "largeImage" : "vantascanmodelarge.png",
   "tooltipKind" : "mm",

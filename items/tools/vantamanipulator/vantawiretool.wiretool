@@ -4,7 +4,7 @@
   "inventoryIcon" : "vantawiretoolicon.png",
   "maxStack" : 1,
   "rarity" : "Essential",
-  "description" : "Built to place optical wires between input points. ^green;Quick select with [T] key.",
+  "description" : "Built to place optical wires between input points. ^green;Quick select with [T] key.^reset;",
   "shortdescription" : "Wire Mode",
   "largeImage" : "vantawiretoollarge.png",
   "tooltipKind" : "mm",

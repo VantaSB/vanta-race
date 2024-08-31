@@ -4,7 +4,7 @@
   "inventoryIcon" : "vantapainttoolicon.png",
   "maxStack" : 1,
   "rarity" : "Essential",
-  "description" : "Primary fire applies paint, secondary changes colour. ^green;Quick select with [Y] key.",
+  "description" : "Primary fire applies paint, secondary changes colour. ^green;Quick select with [Y] key.^reset;",
   "shortdescription" : "Paint Mode",
 
   "fireTime" : 0.05,

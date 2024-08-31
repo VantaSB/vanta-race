@@ -9,14 +9,14 @@
   "race" : "vanta",
   "category" : "decorative",
 
-  "apexDescription" : "An operator for ongoing Vanta missions sits here.",
-  "avianDescription" : "An operator for ongoing Vanta missions sits here.",
-  "floranDescription" : "An operator for ongoing Vanta missions sits here.",
-  "glitchDescription" : "An operator for ongoing Vanta missions sits here.",
-  "humanDescription" : "An operator for ongoing Vanta missions sits here.",
-  "hylotlDescription" : "An operator for ongoing Vanta missions sits here.",
-  "novakidDescription" : "An operator for ongoing Vanta missions sits here.",
-  "vantaDescription" : "An operator for ongoing Vanta missions sits here.",
+	"apexDescription" : "The operator is diligently working.",
+  "avianDescription" : "I hope that seat is comfortable enough for her.",
+  "floranDescription" : "Floran won't sssit still for long at desssk...",
+  "glitchDescription" : "Observant. The operator is working tirelessly to coordinate efforts with her fellows.",
+  "humanDescription" : "I can't magine sitting still for that long.",
+  "hylotlDescription" : "This operator is fulfilling her duty. It is best I don't disturb her too much.",
+  "novakidDescription" : "I reckon she gets a lot done with that small console.",
+  "vantaDescription" : "If not for operators like her, we'd be in major disarray.",
 
   "inventoryIcon" : "op2.png:<color>.1",
 

@@ -218,7 +218,7 @@ class JsonAssetsTest {
 				'tests',
 				'_previewimage',
 				'**/*.gun', // legacy files (JSON, but are not loaded by the game)
-				'**/*.{lua,png,xcf,wav,ogg,txt,md,tsx,aup,ico,tmx,pdn,zip,au,old,unused,disabled,rar}'
+				'**/*.{lua,png,xcf,wav,ogg,txt,md,tsx,aup,ico,tmx,pdn,zip,au,old,unused,disabled,rar,yml}'
 			],
 			caseSensitiveMatch: false
 		};

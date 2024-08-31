@@ -10,12 +10,12 @@
   "shortdescription" : "Nightsteel Greeble",
   "race" : "generic",
 
-  "apexDescription" : "A tasteful aesthetic nightsteel embellishment.",
-  "avianDescription" : "An aesthetic nightsteel embellishment.",
+	"apexDescription" : "A tasteful aesthetic nightsteel decoration.",
+  "avianDescription" : "What a lovely nightsteel embellishment.",
   "floranDescription" : "Nightsteel thing doesss what?",
-  "glitchDescription" : "Curious. This nightsteel object appears to have no function.",
+  "glitchDescription" : "Curious. This nightsteel embellishment appears to have no function.",
   "humanDescription" : "I believe they call this kind of embellishment a greeble.",
-  "hylotlDescription" : "An aesthetic nightsteel embellishment.",
+  "hylotlDescription" : "Nighsteel products are rather monochromatic, but this is still a unique aesthetic.",
   "novakidDescription" : "Purdy piece o' nightsteel styling there.",
 
   "inventoryIcon" : "nightsteelgreebleC1icon.png",

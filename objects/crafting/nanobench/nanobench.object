@@ -6,7 +6,7 @@
   "radioMessagesOnPickup" : [ ],
   "printable" : false,
   "description" : "Create your own augments without having to wait for Lana's shipments!",
-  "shortdescription" : "^orange;Augment Station^white;",
+  "shortdescription" : "^orange;Augment Station^reset;",
   "race" : "generic",
   "category" : "crafting",
 

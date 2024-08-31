@@ -3,7 +3,7 @@
   "level" : 1,
   "price" : 0,
   "rarity" : "Essential",
-  "description" : "An experimental module fitted for matter manipulators. ^green;Quick select with [N] key.",
+  "description" : "An experimental module fitted for matter manipulators. ^green;Quick select with [N] key.^reset;",
   "shortdescription" : "Shield Module",
   "largeImage" : "shieldmodulelarge.png",
   "tooltipKind" : "mm",
