@@ -1,29 +1,28 @@
-name: Vanta Race PAK Repack
+name: Vanta Race - RePAK
 
 on: [push, pull_request, workflow_dispatch]
 jobs:
-  # JSON and Lua checking disabled until I figure out why the error codes are the way they are
-  # json-lint:
-    # runs-on: ubuntu-latest
-    # steps:
-      # - uses: actions/checkout@v4
+  json-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       
-      # - name: Install Dependencies
-        # run: npm install
+      - name: Install Dependencies
+        run: ( cd tests/json-syntax npm install )
         
-      # - name: Run NPM Test
-        # run: npm test
+      - name: Run NPM Test
+        run: ( cd tests/json-syntax npm test )
 
-  # luacheck:
-    # runs-on: ubuntu-latest
-    # steps:
-      # - uses: actions/checkout@v4
+  luacheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       
-      # - name: Install Dependencies
-        # run: sudo apt-get install -y luarocks && sudo luarocks install luacheck
+      - name: Install Dependencies
+        run: sudo apt-get install -y luarocks && sudo luarocks install luacheck
       
-      # - name: Run Lua Check
-        # run: luacheck --no-color --quiet .
+      - name: Run Lua Check
+        run: luacheck --no-color --quiet .
 
   check-unoptimized-png:
     if: ${{ github.base_ref || github.ref != 'refs/heads/master' }}
@@ -40,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Remove unneeded paths in PAK file (i.e., ".git", ".disabled")
+      - name: Remove unneeded paths & files in PAK file (i.e., ".git", ".disabled")
         run: rm -rf .git .disabled
 
       - uses: edwardspec/github-action-pack-starbound-mod@v1
