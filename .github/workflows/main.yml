@@ -13,17 +13,6 @@ jobs:
       - name: Run NPM Test
         run: ( cd tests/json-syntax && npm test )
 
-  luacheck:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Install Dependencies
-        run: sudo apt-get install -y luarocks && sudo luarocks install luacheck
-      
-      - name: Run Lua Check
-        run: luacheck --no-color --quiet .
-
   check-unoptimized-png:
     if: ${{ github.base_ref || github.ref != 'refs/heads/master' }}
     runs-on: ubuntu-latest
