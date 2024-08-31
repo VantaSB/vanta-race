@@ -1,5 +1,6 @@
 require "/scripts/vec2.lua"
 require "/scripts/util.lua"
+require "/items/active/weapons/vanta/grimoire/abilities/scripts/chapterselect.lua"
 
 GrimoireProjectile = WeaponAbility:new()
 
@@ -35,11 +36,12 @@ function GrimoireProjectile:update(dt, fireMode, shiftHeld)
 end
 
 function GrimoireProjectile:charge()
+	self.elementalType = self.elementalType or self.weapon.elementalType
   self.weapon:setStance(self.stances.charge)
 
-  animator.playSound(self.elementalType.."charge")
+  animator.playSound(self.elementalType.."charge" or "charge")
   animator.setAnimationState("charge", "charge")
-  animator.setParticleEmitterActive(self.elementalType .. "charge", true)
+  animator.setParticleEmitterActive(self.elementalType.."charge", true)
   activeItem.setCursor("/cursors/charge2.cursor")
 
   local chargeTimer = self.stances.charge.duration
@@ -51,12 +53,12 @@ function GrimoireProjectile:charge()
     coroutine.yield()
   end
 
-  animator.stopAllSounds(self.elementalType.."charge")
+  animator.stopAllSounds(self.elementalType.."charge" or "charge")
 
   if chargeTimer <= 0 then
     self:setState(self.charged)
   else
-    animator.playSound(self.elementalType.."discharge")
+    animator.playSound(self.elementalType.."discharge" or "discharge")
     self:setState(self.cooldown)
   end
 end
@@ -64,9 +66,9 @@ end
 function GrimoireProjectile:charged()
   self.weapon:setStance(self.stances.charged)
 
-  animator.playSound(self.elementalType.."fullcharge")
-  animator.playSound(self.elementalType.."chargedloop", -1)
-  animator.setParticleEmitterActive(self.elementalType .. "charge", true)
+  animator.playSound(self.elementalType.."fullcharge" or "fullcharge")
+  animator.playSound(self.elementalType.."chargedloop" or "chargedloop", -1)
+  animator.setParticleEmitterActive(self.elementalType.."charge" or "charge", true)
 
   local targetValid
   while self.fireMode == (self.activatingFireMode or self.abilitySlot) do
@@ -87,10 +89,10 @@ function GrimoireProjectile:discharge()
   activeItem.setCursor("/cursors/reticle0.cursor")
 
   if self:targetValid(activeItem.ownerAimPosition()) and status.overConsumeResource("energy", self.energyCost * self.baseDamageFactor) then
-    animator.playSound(self.elementalType.."activate")
+    animator.playSound(self.elementalType.."activate" or "activate")
     self:createProjectiles()
   else
-    animator.playSound(self.elementalType.."discharge")
+    animator.playSound(self.elementalType.."discharge" or "discharge")
     self:setState(self.cooldown)
     return
   end
@@ -109,8 +111,8 @@ function GrimoireProjectile:discharge()
     coroutine.yield()
   end
 
-  animator.playSound(self.elementalType.."discharge")
-  animator.stopAllSounds(self.elementalType.."chargedloop")
+  animator.playSound(self.elementalType.."discharge" or "discharge")
+  animator.stopAllSounds(self.elementalType.."chargedloop" or "chargedloop")
 
   self:setState(self.cooldown)
 end
@@ -120,7 +122,7 @@ function GrimoireProjectile:cooldown()
   self.weapon.aimAngle = 0
 
   animator.setAnimationState("charge", "discharge")
-  animator.setParticleEmitterActive(self.elementalType .. "charge", false)
+  animator.setParticleEmitterActive(self.elementalType.."charge", false)
   activeItem.setCursor("/cursors/reticle0.cursor")
 
   util.wait(self.stances.cooldown.duration, function()
@@ -202,10 +204,10 @@ end
 
 function GrimoireProjectile:reset()
   self.weapon:setStance(self.stances.idle)
-  animator.stopAllSounds(self.elementalType.."chargedloop")
-  animator.stopAllSounds(self.elementalType.."fullcharge")
+  animator.stopAllSounds(self.elementalType.."chargedloop" or "chargedloop")
+  animator.stopAllSounds(self.elementalType.."fullcharge" or "fullcharge")
   animator.setAnimationState("charge", "idle")
-  animator.setParticleEmitterActive(self.elementalType .. "charge", false)
+  animator.setParticleEmitterActive(self.elementalType.."charge", false)
   activeItem.setCursor("/cursors/reticle0.cursor")
 end
 

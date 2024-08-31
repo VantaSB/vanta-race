@@ -64,6 +64,7 @@
   },
 
   "sounds" : {
-    "use" : [ "/sfx/objects/bardoor_open.ogg" ]
+    "use" : [ "/sfx/objects/bardoor_open.ogg" ],
+		"ready" : [ "/sfx/interface/scan.ogg" ]
   }
 }

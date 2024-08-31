@@ -2,8 +2,8 @@
   "id" : "vantaintro",
   "mainQuest" : true,
   "title" : "New Chapter",
-  "text" : "Escape the detention facility",
-  "completionText" : "You've escaped from the Conclave's detention facility, and you are now free to start your own adventure.",
+  "text" : "Work through your promotion",
+  "completionText" : "You narrowly escaped the Nighar Empire's grasp. With no active chain of command, you must now forge your way forward on your own.",
   "moneyRange" : [50, 50],
   "canBeAbandoned" : false,
   "showAcceptDialog" : false,
@@ -16,35 +16,38 @@
     "portraits" : {
       "default" : "player"
     },
-    "midpointMusicTime" : 15.0,
-    "midpointMusicTracks" : ["/music/fear_within_loop.ogg"],
-    "introCienamatic" : "/cinematics/intro/vantaintro_start.cinematic",
-    "endpointCinematic" : "/cinematics/intro/vantaintro_complete.cinematic",
+		"introCinematic" : "/cinematics/intro/vanta_introstart.cinematic",
+		"startingMusicTime" : 11.5,
+		"startingMusicTracks" : ["/music/doc_ffvii-underground_complex.ogg"],
+    "midpointMusicTime" : 11.75,
+    "midpointMusicTracks" : ["/music/pom-collision.ogg"],
+		"midpointCinematic" : "/cinematics/intro/vanta_introswitch.cinematic",
+    "endpointCinematic" : "/cinematics/intro/vanta_introcomplete.cinematic",
     "confiscateItems" : [
-      "brokennoxcalibur",
-      "vantaemgpistol",
-      "vantaadepthead",
-      "vantaadeptchest",
-      "vantaadeptlegs",
-      "keycard1_0",
+      "weatheredgunblade",
+      "weatheredpicohandgun",
+      "vantaflagofficerhead",
+      "vantaflagofficerchest",
+      "vantaflagofficerlegs",
+      "vantaenvirosuitchest",
+      "vantaenvirosuitpants",
+      "vantapocsec01",
       ["money", 1000],
       ["bandage", 1000]
     ],
     "skipIntroItems" : [
-      "brokennoxcalibur",
-      "vantaemgpistol",
-      "vantaadepthead",
-      "vantaadeptchest",
-      "vantaadeptlegs",
-      "keycard1_0"
+			"weatheredgunblade",
+      "weatheredpicohandgun",
+      "vantaflagofficerchest",
+      "vantaflagofficerlegs"
     ],
 
     "descriptions" : {
-      "exitSolitary" : "Leave detention cell",
-      "findGear" : "Find and equip your gear",
-      "leaveRestrictedArea" : "Leave the restricted area",
-      "matterManipulator" : "Take the matter manipulator",
-      "escape" : "Survive while you escape from the facility"
+      "briefing" : "Attend your morning briefing with the Admiral",
+			"matterManipulator" : "Retrieve the matter manipulator from R&D",
+			"return" : "Return to the Operations Deck",
+			"repel" : "Repel the intruders",
+			"escape" : "Escape from the station"
     },
 
     "followUp" : "bootship_vanta"

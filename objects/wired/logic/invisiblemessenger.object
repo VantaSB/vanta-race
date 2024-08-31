@@ -1,0 +1,39 @@
+{
+  "objectName" : "invisiblemessenger",
+  "colonyTags" : ["wired"],
+  "rarity" : "Common",
+  "category" : "wire",
+  "health" : 0.1,
+  "description" : "...",
+  "shortdescription" : "Invisible Messenger",
+  "race" : "generic",
+
+  "smashOnBreak" : true,
+  "scannable" : false,
+
+  "inventoryIcon" : "invisiblemessenger.png:default.1",
+  "orientations" : [
+    {
+      "image" : "invisiblemessenger.png:<color>.off",
+      "imagePosition" : [-8, -8],
+      "spaceScan" : 0.1,
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/wiredmessenger.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "invisiblelogicgatehidden.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inputNodes" : [ [-1, 0] ],
+
+	"targetId" : null,
+  "messageType" : null,
+	"messageArgs" : null
+}

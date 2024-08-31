@@ -2,7 +2,7 @@
   "objectName" : "vantabunkbed",
   "colonyTags" : ["vanta"],
   "rarity" : "Common",
-  "description" : "A bunk bed designed for ships",
+  "description" : "A compact bed designed for ships.",
   "shortdescription" : "Vanta Ship Bunk",
   "race" : "vanta",
   "category" : "furniture",
@@ -14,7 +14,7 @@
   "glitchDescription" : "Observant. A ship-fitted bunk bed.",
   "humanDescription" : "Bunk beds are good for sleepovers for kids!",
   "hylotlDescription" : "A compact bed for spacefarers.",
-  "novakidDescription" : "Pretty small bunk bed, but it looks comfortable enough.",
+  "novakidDescription" : "Pretty small bunk bed, but I reckon it looks comfortable enough.",
   "vantaDescription" : "Even we have to sleep somewhere.",
 
   "objectType" : "loungeable",
@@ -23,9 +23,7 @@
   "sitOrientation" : "lay",
   "sitAngle" : 90,
   "sitEmote" : "sleep",
-  "sitStatusEffects" : [
-    "bed1"
-  ],
+  "sitStatusEffects" : [ ],
   "sitEffectEmitters" : [ ],
 
   "inventoryIcon" : "icon.png",

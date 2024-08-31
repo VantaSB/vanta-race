@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 6 }
-  ],
-  "duration" : 5,
-  "output" : { "item" : "vantatier4greatsword", "count" : 1 },
-  "groups" : [ "vantaanvil3", "weapons", "all" ]
-}

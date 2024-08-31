@@ -6,7 +6,7 @@
   "category" : "Console",
   "inventoryIcon" : "icon.png",
   "twoHanded" : true,
-  "description" : "^green;[Fire]^reset;: Quests List, ^green;[Shift]^reset;: Mech Assembly\n\n^green;[AltFire]^reset;: Techs, ^green;[Shift]^reset;: H.F. Codex",
+  "description" : "^green;[Fire]^reset;: Techs, ^green;[Shift]^reset;: Mech Assembly\n\n^green;[AltFire]^reset;: H.F. Codex, ^green;[Shift]^reset;: Vanta Skill Tree",
   "shortdescription" : "Portable Monitor",
   "itemTags" : ["tool"],
   "tooltipKind" : "food",

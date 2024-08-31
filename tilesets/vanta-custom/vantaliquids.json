@@ -16,7 +16,7 @@
       "//name" : "liquidceruleum_source",
       "//shortdescription" : "Endless Liquid Ceruleum",
       "liquid" : "liquidceruleum",
-      "source" : true
+      "source" : "true"
     }
   },
   "tiles" : {

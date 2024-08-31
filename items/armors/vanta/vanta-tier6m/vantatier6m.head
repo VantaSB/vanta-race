@@ -4,10 +4,10 @@
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "category" : "headarmour",
+  "category" : "exHeadArmorMan",
   "description" : "...",
   "shortdescription" : "Kingslayer Helm",
-  "tooltipKind" : "headaugment",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -63,8 +63,6 @@
     // BROWN
     { "8a8c91" : "3a240e", "b0b3b6" : "613d18", "d7d9dc" : "7e4e1f", "eeeff1" : "a06428", "0c8e90" : "17171c", "10b0c3" : "24242b", "12cce0" : "2d2d34", "82d9e8" : "353540" }
   ],
-
-  "acceptsAugmentType" : "focusgem",
 
   "itemTags" : [ "tier6armour" ]
 }

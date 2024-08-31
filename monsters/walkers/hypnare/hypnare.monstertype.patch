@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "hypnareTreasure", "bow" : "hypnareHunting", "scythe" : "hypnarePsiReaping" } ] }
-]

@@ -1,0 +1,23 @@
+{
+  "projectileName" : "psipoisonshot",
+  "physics" : "laser",
+  "bounces" : 0,
+  "image" : "psipoisonshot.png",
+  "flippable" : false,
+  "fullbright" : true,
+  "animationCycle" : 0.3,
+  "animationLoops" : true,
+  "frameNumber" : 5,
+  "lightColor" : [205, 238, 211],
+  "power" : 50,
+  "speed" : 75,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/impact_plasma.ogg" ]
+    }
+  ],
+  "emitters" : [ ],
+  "damageKind" : "plasmabullet",
+  "statusEffects" : [ ]
+}

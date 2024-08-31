@@ -1,0 +1,119 @@
+{
+	"itemName" : "vantagrimoire",
+	"level" : 3,
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A grimoire that allows you to perform various attacks. Use [^green;AltFire^reset;] to cycle through abilities.",
+  "shortdescription" : "Vanta Grimoire",
+	"tooltipKind" : "object",
+  "category" : "grimoire",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","grimoire"],
+
+	"inventoryIcon" : "/items/active/weapons/vanta/grimoire/book/ultima1.png:default.1",
+
+  "animation" : "/items/active/weapons/vanta/grimoire/grimoire.animation",
+
+  "animationParts" : {
+    "book" : "ultima1.png"
+  },
+
+  "scripts" : [ "/items/active/weapons/vanta/grimoire/grimoire.lua" ],
+
+	"primaryAbility" : {
+		"elementalType" : "physical",
+		"scripts" : [ "/items/active/weapons/vanta/grimoire/abilities/scripts/grimoireplasmabarrage.lua" ],
+    "class" : "GrimoireProjectile",
+
+    "energyCost" : 80,
+
+    "maxCastRange" : 25,
+
+    "projectileCount" : 6,
+    "projectileDistance" : 3,
+    "projectileType" : "physicalplasmaball",
+    "projectileParameters" : {
+      "baseDamage" : 40
+    },
+    "triggerSound" : ["/sfx/gun/plasma_mp2.ogg"],
+
+    "projectileDelayFirst" : 1.0,
+    "projectileDelayEach" : 0.15
+	},
+
+	"altAbilityType" : "chapterselect",
+
+	"stances" : {
+		"idle" : {
+			"armRotation" : 0,
+			"weaponRotation" : 90,
+			"weaponOffset" : [-0.625, 1.5],
+			"twoHanded" : false,
+
+			"allowRotate" : false,
+			"allowFlip" : true,
+
+			"frontArmFrame" : "idle.4",
+			"backArmFrame" : "idle.4"
+		},
+
+		"switch" : {
+			"aimAngle" : 0,
+			"armRotation" : -40,
+			"weaponRotation" : 60,
+			"weaponAngularVelocity" : -150,
+			"armAngularVelocity" : 100,
+			"twoHanded" : true,
+			"duration" : 0.4,
+
+			"allowRotate" : false,
+			"allowFlip" : true
+		},
+
+		"charge" : {
+			"duration" : 1.4,
+			"armRotation" : 20,
+			"weaponRotation" : -90,
+			"weaponOffset" : [-0.125, 0.375],
+			"twoHanded" : true,
+
+			"allowRotate" : false,
+			"allowFlip" : true
+		},
+
+		"charged" : {
+			"armRotation" : 20,
+			"weaponRotation" : -90,
+			"weaponOffset" : [-0.125, 0.375],
+			"twoHanded" : true,
+
+			"allowRotate" : false,
+			"allowFlip" : true
+		},
+
+		"discharge" : {
+			"duration" : 0.5,
+			"armRotation" : -10,
+			"weaponRotation" : -90,
+			"weaponOffset" : [-0.125, 0.375],
+
+			"allowRotate" : false,
+			"allowFlip" : true
+		},
+
+		"cooldown" : {
+			"weaponOffset" : [-0.625, 1.5],
+			"duration" : 0.5,
+			"armRotation" : 0,
+			"weaponRotation" : 90,
+			"allowRotate" : false,
+			"allowFlip" : true,
+
+			"frontArmFrame" : "idle.4",
+			"backArmFrame" : "idle.4"
+		}
+	},
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

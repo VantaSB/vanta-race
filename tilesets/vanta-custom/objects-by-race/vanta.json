@@ -8,7 +8,7 @@
   "margin" : 0,
   "name" : "vanta/objects",
   "spacing" : 0,
-  "tilecount" : 246,
+  "tilecount" : 247,
   "tileheight" : 64,
   "tilewidth" : 64,
   "type" : "tileset",
@@ -771,17 +771,22 @@
       "tilesetDirection" : "right"
     },
     "84" : {
-      "//description" : "A station for fine-tuning Vanta weaponry that can't be upgraded by typical means.",
-      "//name" : "vantaupgradematrix",
-      "//shortdescription" : "Blue Ship Light",
-      "imagePositionX" : "-32",
-      "imagePositionY" : "0",
-      "object" : "vantaupgradematrix",
+      "//description" : "A tube of concentrated ceruleum that is susceptible to violent explosions when ruptured.",
+      "//name" : "ceruleumtube",
+      "//shortdescription" : "Ceruleum Tube",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-24",
+      "object" : "ceruleumtube",
       "tilesetDirection" : "right"
     },
     "85" : {
-      "//name" : "ex_fluorescentlight2_orientation0",
-      "invalid" : "true"
+			"//description" : "A fire rages here.",
+      "//name" : "ex_largefire",
+      "//shortdescription" : "Large Fire",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "ex_largefire",
+      "tilesetDirection" : "right"
     },
     "86" : {
       "//name" : "ex_fluorescentlight2_orientation1",
@@ -2072,8 +2077,16 @@
       "//name" : "healingstatusterminal",
       "//shortdescription" : "Healing Terminal",
       "imagePositionX" : "-8",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-32",
       "object" : "healingstatusterminal"
+    },
+    "246" : {
+      "//description" : "...",
+      "//name" : "invisiblemessenger",
+      "//shortdescription" : "Invisible Messenger",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "invisiblemessenger"
     }
   },
   "tiles" : {
@@ -2330,10 +2343,10 @@
       "image" : "../../../tiled/vanta-custom/objects/blueshiplight.png"
     },
     "84" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantaupgradematrix.png"
+      "image" : "../../../tiled/vanta-custom/objects/ceruleumtube.png"
     },
     "85" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/ex_largefire.png"
     },
     "86" : {
       "image" : "../../../tiled/vanta-custom/invalid.png"
@@ -2814,6 +2827,9 @@
     },
     "245" : {
       "image" : "../../../tiled/vanta-custom/objects/healingstatusterminal.png"
+    },
+    "246" : {
+      "image" : "../../../tiled/vanta-custom/objects/invisiblemessenger.png"
     }
   }
 }

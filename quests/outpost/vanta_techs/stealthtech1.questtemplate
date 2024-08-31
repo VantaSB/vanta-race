@@ -1,6 +1,6 @@
 {
   "id" : "stealthtech1",
-  "prerequisites" : [ "techscientist2", "human_mission1", "conclaveintro" ],
+  "prerequisites" : [ "techscientist2", "human_mission1_vanta", "conclaveintro" ],
   "title" : "^orange;A Shadow By Any Other Name",
 
   "text" : "Hello there. Are you familiar with the researcher Elliott? He's been very instrumental in helping us advance our own technologies. Our unique physiology has prompted us to explore what you would call 'psionic' abilities, and we've recently come up with a blueprint that helps draw on our latent traits. If you've got some ^oranage;dark fragments^reset; to spare, we can put it to the test. About ^orange;10^reset should suffice.",

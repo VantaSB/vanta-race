@@ -187,23 +187,36 @@
       "disableDeathDrops" : true,
 
       "skyParameters" : {
+        "dayLength" : 10000,
+        "surfaceLevel" : 1000,
         "spaceLevel" : 3000,
-        "ambientLightLevel" : [ 24, 28, 24 ],
+        "seed" : -5288806180628666923,
+
         "skyType" : "barren",
-        "horizonImages" : [ ],
-        "dayLength" : 1153.36,
-        "surfaceLevel" : 1200,
-        "seed" : -5288806180628666923
+
+        "skyColoring" : {
+          "mainColor" : [200, 200, 255],
+
+          "morningColors" : [[200, 200, 255], [200, 200, 255]],
+          "dayColors" : [[200, 200, 255], [200, 200, 255]],
+          "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+          "nightColors" : [[200, 200, 255], [200, 200, 255]],
+
+          "morningLightColor" : [200, 200, 255],
+          "dayLightColor" : [200, 200, 255],
+          "eveningLightColor" : [200, 200, 255],
+          "nightLightColor" : [200, 200, 255]
+        }
       }
     }
   },
 
-  {
-    "op" : "add",
-    "path" : "/vantaintro_redux",
+	{
+		"op" : "add",
+    "path" : "/vantamission1",
     "value" : {
       "type" : "FloatingDungeon",
-      "dungeonWorld" : "vantaintro_redux",
+      "dungeonWorld" : "vantamission1",
       "seed" : 1234,
       "spawningEnabled" : false,
       "beamUpRule" : "Nowhere",
@@ -215,44 +228,26 @@
         "spaceLevel" : 3000,
         "seed" : -5288806180628666923,
 
-        // Planet biome
-        /*"skyType" : "atmospheric",
-
-        "skyColoring" : {
-          "mainColor" : [25, 25, 25],
-
-          "morningColors" : [ [36, 36, 43], [36, 36, 43] ],
-          "dayColors" : [ [36, 36, 43], [36, 36, 43] ],
-          "eveningColors" : [ [36, 36, 43], [36, 36, 43] ],
-          "nightColors" : [ [36, 36, 43], [36, 36, 43] ],
-
-          "morningLightColor" : [36, 36, 43],
-          "dayLightColor" : [36, 36, 43],
-          "eveningLightColor" : [36, 36, 43],
-          "nightLightColor" : [36, 36, 43]
-        }*/
-
-
-        // Space biome
         "skyType" : "barren",
 
-        "skyColoring" : { // <- space lighting
-          "mainColor" : [100, 100, 100],
+        "skyColoring" : {
+          "mainColor" : [200, 200, 255],
 
-          "morningColors" : [[100, 100, 100], [100, 100, 100]],
-          "dayColors" : [[100, 100, 100], [100, 100, 100]],
-          "eveningColors" : [[100, 100, 100], [100, 100, 100]],
-          "nightColors" : [[100, 100, 100], [100, 100, 100]],
+          "morningColors" : [[200, 200, 255], [200, 200, 255]],
+          "dayColors" : [[200, 200, 255], [200, 200, 255]],
+          "eveningColors" : [[200, 200, 255], [200, 200, 255]],
+          "nightColors" : [[200, 200, 255], [200, 200, 255]],
 
-          "morningLightColor" : [100, 100, 100],
-          "dayLightColor" : [100, 100, 100],
-          "eveningLightColor" : [100, 100, 100],
-          "nightLightColor" : [100, 100, 100]
+          "morningLightColor" : [200, 200, 255],
+          "dayLightColor" : [200, 200, 255],
+          "eveningLightColor" : [200, 200, 255],
+          "nightLightColor" : [200, 200, 255]
         }
       }
     }
-  },
+	},
 
+	//Proxima procedural generation
   {
     "op" : "add",
     "path" : "/proxima",
@@ -290,6 +285,7 @@
     }
   },
 
+	//Void biome
   {
     "op" : "add",
     "path" : "/ex_voiddungeontest",

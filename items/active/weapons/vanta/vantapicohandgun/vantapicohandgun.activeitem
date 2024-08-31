@@ -4,11 +4,11 @@
   "price" : 250,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A prototype sidearm, useful against smaller enemies.",
+  "description" : "A standard-issue sidearm. It's useful against smaller enemies.",
   "shortdescription" : "Pico Handgun",
   "tooltipKind" : "gun",
   "category" : "pistol",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "itemTags" : [ "pistol", "weapon", "ranged" ],
 
   "inventoryIcon" : "vantapicohandgun.png",
@@ -21,7 +21,8 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/plasma_pistol4.ogg"]
+      "fire" : ["/sfx/gun/plasma_pistol4.ogg"],
+      "altFire" : [ "/sfx/gun/plasma_shotgun1.ogg" ]
     }
   },
 
@@ -39,7 +40,8 @@
     "baseDps" : 10,
     "energyUsage" : 10,
     "projectileCount" : 1,
-    "inaccuracy" : 0.032,
+    "inaccuracy" : 0.0125,
+		"fireType" : "auto",
 
     "projectileType" : "plasmabullet",
     "projectileParameters" : { },
@@ -75,6 +77,57 @@
       }
     }
   },
+
+	"altAbility" : {
+		"name" : "Stun Shot",
+		"scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "fireTime" : 0.42,
+    "baseDps" : 0,
+    "energyUsage" : 10,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.032,
+		"fireType" : "auto",
+
+    "useParticleEmitter" : false,
+
+    "projectileType" : "electro",
+    "projectileParameters" : {
+			"statusEffects" : [ "techstun" ]
+		},
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+	},
 
   "builder" : "/items/buildscripts/buildweapon.lua"
 }

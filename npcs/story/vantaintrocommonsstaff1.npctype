@@ -1,0 +1,53 @@
+{
+	"type" : "vantaintrocommonsstaff1",
+	"baseType" : "base",
+
+	"identity" : {
+    "gender" : "male",
+    "hairType" : "male66",
+    "bodyDirectives" : "?replace=ffe2c5=c9b181?replace=ffc181=ac8348?replace=d39c6c=87633f?replace=c7815b=694c31?replace=ed1c24=ff325f",
+    "hairDirectives" : "?replace=d9c189=eaa758?replace=a38d59=cd8b3d?replace=735e3a=93682c"
+  },
+
+	"damageTeamType" : "ghostly",
+
+	"persistent" : true,
+
+	"dropPools" : [ ],
+
+	"scriptConfig" : {
+		"behavior" : "simple",
+
+		"behaviorConfig" : {
+      "alwaysRun" : false,
+      "wanderWaitTime" : [4.0, 8.0],
+      "wanderTime" : [0.25, 0.5],
+      "wanderDistance" : 10
+    },
+
+		"dialogMode" : "sequence",
+		"dialog" : {
+			"converse" : {
+				"default" : {
+					"default" : [
+						"The Admiral seldom shows explicit trust in anyone. Even me, who has been serving since the beginning.",
+						"You should feel honored that he trusts you as much as he does.",
+						"I'll have to work extra-hard if I'm going to catch up to you!"
+					]
+				}
+			}
+		}
+	},
+
+	"matchColorIndices" : true,
+	"items" : {
+		"override" : [
+			[0, [
+					{
+						"chest" : [ { "name" : "vantaflagofficerchest" } ],
+	          "legs" : [ { "name" : "vantaflagofficerlegs" } ]
+					}
+				] ]
+		]
+	}
+}

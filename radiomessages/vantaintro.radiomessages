@@ -1,0 +1,140 @@
+{
+	"vantaIntroExitBed" : {
+		"type" : "mission",
+		"text" : "Good morning! You nearly overslept. Admiral Ran has requested your presence on the Operations Deck.",
+		"persistTime" : 1.75
+	},
+
+	"vantaIntroBarracks" : {
+		"type" : "mission",
+		"text" : "Your uniform is in the indicated locker - be sure to wear it before leaving the barracks. As an officer, it's imperative to maintain decorum.",
+		"persistTime" : 1.75
+	},
+
+	"vantaIntroAlertScene01" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+    "text" : "All hands to stations, on the double! Get that breach under control and seal off Xenoresearch!",
+		"persistTime" : 2.0
+	},
+
+	"vantaIntroAlertScene02a" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+    "text" : "Captain, it appears they took out a majority of our security in that area. Xenoresearch has sustained some damage, but we can worry about the specimens later - prioritize wiping out the enemy forces.",
+		"persistTime" : 2.0
+	},
+
+	"vantaIntroAlertScene02b" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+    "text" : "Your weapons are in the cabinet. We weren't able to complete repairs on them with everything that's been going on, so you'll have to use them as-is. Even with their current wear, they should hold out for at least getting through this mess.",
+		"persistTime" : 2.0
+	},
+
+	"vantaIntroAlertScene02c" : {
+		"type" : "mission",
+    "text" : "Be sure to equip that gear as your primary. It will provide you with a modicum of protection against the intruders.",
+		"persistTime" : 2.0
+	},
+
+	"vantaIntroLooting" : {
+		"type" : "mission",
+    "text" : "While it may seem like a terrible practice, checking the bodies of fallen soldiers may yield clues that can help you progress through your journeys. Stand next to a fallen soldier and use [^orange;E^reset;] to search the body."
+	},
+
+	"vantaIntroAlertScene03a" : {
+		"type" : "mission",
+		"senderName" : "Doppler",
+		"portraitImage" : "/interface/chatbubbles/dopplerserious.png:<frame>",
+    "text" : "Admiral, our defense systems are still under maintenance! We have no means of fending off their warships, and there are more boarding parties on the way!",
+		"persistTime" : 1.75
+	},
+
+	"vantaIntroAlertScene03b" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+    "text" : "Damn it all, we can't let them get their hands on our research... All personnel prepare to evacuate - we'll use ^orange;the gate^reset;!",
+		"persistTime" : 1.75
+	},
+
+	"vantaIntroAlertScene03c" : {
+		"type" : "mission",
+		"senderName" : "Doppler",
+		"portraitImage" : "/interface/chatbubbles/dopplerserious.png:<frame>",
+    "text" : "What!? It's nowhere near stabilized, there's no telling where we'll all end up!",
+		"persistTime" : 1.75
+	},
+
+	"vantaIntroAlertScene03d" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+    "text" : "We don't have enough ships to transport everyone off the station. Unless you have any better ideas, the gate is our best bet.",
+		"persistTime" : 1.75
+	},
+
+	"vantaIntroAlertScene03e" : {
+		"type" : "mission",
+		"senderName" : "Doppler",
+		"portraitImage" : "/interface/chatbubbles/dopplerserious.png:<frame>",
+    "text" : "... ... ... I'll do what I can to stabilize the gate. All data has been backed up, and the on-board systems have been wiped. We're ready to leave on your mark, Admiral!",
+		"persistTime" : 1.75
+	},
+
+	"vantaIntroAlertScene03f" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+    "text" : "That's what I like to hear. Captain, get yourself to the emergency launch bay and use the ship there to escape. It's the only one capable of outrunning the fleet - we'll re-establish contact with you later on. Good luck out there...!",
+		"persistTime" : 1.75
+	},
+
+	"vantaIntroMMTip" : {
+		"type" : "mission",
+    "text" : "The doorway is blocked by the wreckage. You can clear it away with your ^orange;matter manipulator^reset;. Equip it with [^orange;R^reset;]. Unlike most materials, you won't be able to collect this for later - its integrity is severely weakened.",
+		"persistTime" : 1.75
+	},
+
+	"vantaIntroStrangeComms01a" : {
+		"type" : "mission",
+    "text" : "I've picked up some chatter from the enemy's communications.",
+		"persistTime" : 1.0
+	},
+
+	"vantaIntroStrangeComms01b" : {
+		"type" : "mission",
+		"senderName" : "???",
+		"portraitImage" : "/interface/chatbubbles/nightarelite.png:<frame>",
+    "text" : "All of the data has been purged - I have all remaining units on high alert for this ^orange;captain commander^reset; of theirs. They have little time left with the self-destruct active. Obliterate anything coming out of this station that's not ours.",
+		"persistTime" : 2.0
+	},
+
+	"vantaIntroStrangeComms01c" : {
+		"type" : "mission",
+    "text" : "It appears there is a manhunt on for you now. We are close to the emergency launch bay - we can make it if you hurry.",
+		"persistTime" : 1.5
+	},
+
+	"vantaIntroScanTip" : {
+		"type" : "mission",
+    "text" : "This door is locked with a sonic lock system. Use your scan mode [^orange;N^reset;] to look around and highlight the invisible emitter. Scanning the emitter will deactivate it.",
+		"persistTime" : 3.0
+	},
+
+	"vantaIntroMedRoom" : {
+		"type" : "mission",
+    "text" : "We appear to be safe for the moment. If you need to replenish your health, enter the second door in this hallway to use a medical pod. If you want to keep going, use the ventilation gate at the end of this hall.",
+		"persistTime" : 3.0
+	},
+
+	"vantaIntroEmgLaunchBay" : {
+		"type" : "mission",
+    "text" : "Pre-flight checks have been bypassed, hurry aboard!",
+		"persistTime" : 3.0
+	}
+}

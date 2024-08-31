@@ -1,0 +1,9 @@
+{
+	"itemName" : "vantacerttier8",
+	"price" : 0,
+	"rarity" : "Essential",
+	"category" : "quest",
+	"description" : "A certificate issued to prove mastery in the Threefold Path trials.",
+	"shortdescription" : "Ruby Certification",
+	"inventoryIcon" : "vcert8.png"
+}

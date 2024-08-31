@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {"type": "string"},
+    "position": {"type": "string", "enum": ["forward", "midfielder", "defender"]},
+    "goals": {"type": "integer"}
+  },
+  "required": ["name", "position"]
+}

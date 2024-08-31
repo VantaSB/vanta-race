@@ -1,0 +1,54 @@
+{
+	"type" : "vantaintrocommonsworker2",
+	"baseType" : "base",
+
+	"identity" : {
+    "gender" : "female",
+    "hairType" : "fem24",
+    "bodyDirectives" : "?replace=ffe2c5=fff2e5?replace=ffc181=ffe0bf?replace=d39c6c=d39c6c?replace=c7815b=c79b83?replace=ed1c24=b57dcf",
+    "hairDirectives" : "?replace=d9c189=3b7f44?replace=a38d59=2e6a38?replace=735e3a=1d4b28"
+  },
+
+	"damageTeamType" : "ghostly",
+
+	"persistent" : true,
+
+	"dropPools" : [ ],
+
+	"scriptConfig" : {
+		"behavior" : "simple",
+
+		"behaviorConfig" : {
+      "alwaysRun" : false,
+      "wanderWaitTime" : [6.0, 10.0],
+      "wanderTime" : [0.2, 0.3],
+      "wanderDistance" : 7
+    },
+
+		"dialogMode" : "sequence",
+		"dialog" : {
+			"converse" : {
+				"default" : {
+					"default" : [
+						"Did you sleep through your SAIL alarms, <entityname>? Your last mission must have been rough.",
+						"You're not looking too bad for having just woken up, though!",
+						"If you forgot, the Operations Deck is on the top floor here and to the right from the lift.",
+						"Hurry along now, you don't want to keep the Admiral waiting!"
+					]
+				}
+			}
+		}
+	},
+
+	"matchColorIndices" : true,
+	"items" : {
+		"override" : [
+			[0, [
+					{
+						"chest" : [ { "name" : "vantaenvirosuitchest" } ],
+	          "legs" : [ { "name" : "vantaenvirosuitpants" } ]
+					}
+				] ]
+		]
+	}
+}

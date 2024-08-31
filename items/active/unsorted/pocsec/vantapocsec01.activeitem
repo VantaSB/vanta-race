@@ -1,15 +1,17 @@
 {
   "itemName" : "vantapocsec01",
-  "rarity" : "Common",
+  "rarity" : "Essential",
   "inventoryIcon" : "icon2.png",
   "description" : "A small datapad containing communications logs.",
   "shortdescription" : "Vanta Datapad",
   "radioMessagesOnPickup" : [ "pocsecPickup" ],
+	"category" : "quest",
 
   "scripts" : ["pocsec.lua"],
 
   "theme" : "vanta",
 
   "consumeOnUse" : false,
-  "noteText" : "ATTENTION - ALL CREW\n\nUNIDENTIFIED HUMANOID LIFEFORMS HAVE BEEN DETECTED IN BIOLABS. ALL RESEARCH PERSONNEL ARE TO REMAIN IN THEIR ASSIGNED OFFICES WHILE SECURITY TEAMS INVESTIGATE. THIS IS NOT A DRILL."
+  "noteText" : "TO: VG-419\nFROM: N. JARA\n\nYou are hereby assigned to monitor Xenoresearch I. Your personal code to get to the Xenoresearch auxiliary access hall is enclosed below. Please do not share this code with any other personnel.\n\nThank you.",
+	"codeImg" : "intro1"
 }

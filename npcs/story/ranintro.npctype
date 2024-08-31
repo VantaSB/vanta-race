@@ -1,0 +1,86 @@
+{
+  "type" : "ranintro",
+  "baseType" : "base",
+
+  "npcname" : "Ran",
+  "identity" : {
+    "imagePath" : "ran",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "1",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.4",
+    "bodyDirectives" : "?replace=ffe2c5=fbe1d4?replace=ffc181=f6baa2?replace=d39c6c=cc9582?replace=c7815b=ac7261?replace=ed1c24=00b75f",
+    "hairDirectives" : "?replace=d9c189=3b7f44?replace=a38d59=2e6a38?replace=735e3a=1d4b28"
+  },
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "uniqueId" : "ran",
+
+    "reactions" : {
+      "spontaneous" : []
+    },
+    "personalities" : [
+      [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+		//"behavior" : "tutorial",
+
+		"chatPortrait" : "/interface/chatbubbles/ran.png:<frame>",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0,
+      "play" : false,
+      "chat" : false
+    },
+
+		"offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Your continued efforts haven't gone unnoticed. I'm glad to have someone as reliable as you aboard."
+          ]
+        }
+      },
+			"vantaintrobriefing" : {
+				"introduction" : {
+					"default" : {
+						"default" : [
+							"Ah, <entityname>. Glad to see you're wide awake! It's a big day today, so I hope you're prepared!",
+							"R&D recently completed reconstructing a ^orange;Matter Manipulator^reset;, courtesy of the Terrene Protectorate.",
+							"We were recently welcomed in as a recognized race, and offered to share their designs with us.",
+							"Today, you have the honor of claiming it as yours! I've let R&D know you'll be along shortly.",
+							"Additionally, you are hereby promoted to the rank of ^orange;Captain Commander^reset;.",
+							"We'll talk about your new assignment shorly. For now, head on down to R&D for the matter manipulator."
+						]
+					}
+				},
+				"end" : {
+					"default" : {
+						"default" : [
+							"Once you have the matter manipulator, come back and see me for your next assignment."
+						]
+					}
+				}
+			}
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "vantatier6achest" } ],
+            "legs" : [ { "name" : "vantatier6apants" } ]
+          }
+        ] ]
+    ]
+  }
+}

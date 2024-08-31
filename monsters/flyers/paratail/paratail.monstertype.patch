@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "paratailTreasure", "bow" : "paratailHunting", "scythe" : "paratailPsiReaping" } ] }
-]

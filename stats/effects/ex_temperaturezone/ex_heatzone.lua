@@ -1,5 +1,5 @@
 function init()
-  local bounds = mcontroller.boundBox()
+	local bounds = mcontroller.boundBox()
   animator.setParticleEmitterBurstCount("flames", 6)
   animator.setParticleEmitterOffsetRegion("flames", {bounds[1], bounds[2] - 0.25, bounds[3], bounds[2] + 0.25})
   animator.setParticleEmitterOffsetRegion("drips", bounds)
@@ -12,7 +12,7 @@ function init()
 
   self.tickTimer = self.tickRate
 
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "hotzone")
+	world.sendEntityMessage(entity.id(), "queueRadioMessage", "hotzone")
 end
 
 function update(dt)

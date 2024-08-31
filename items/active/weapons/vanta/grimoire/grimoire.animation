@@ -70,7 +70,7 @@
             }
           }
         }
-      },
+      }/*,
 
       "chargeEffect" : {
         "properties" : {
@@ -85,27 +85,27 @@
           "charge" : {
             "charge" : {
               "properties" : {
-                "image" : "/items/active/weapons/vanta/grimoire/glow/<elementalType>.png:charging.<frame>"
+                "image" : "/items/active/weapons/vanta/grimoire/glow/<element>:charging.<frame>"
               }
             },
             "spark" : {
               "properties" : {
-                "image" : "/items/active/weapons/vanta/grimoire/glow/<elementalType>.png:spark.<frame>"
+                "image" : "/items/active/weapons/vanta/grimoire/glow/<element>:spark.<frame>"
               }
             },
             "charged" : {
               "properties" : {
-                "image" : "/items/active/weapons/vanta/grimoire/glow/<elementalType>.png:loop.<frame>"
+                "image" : "/items/active/weapons/vanta/grimoire/glow/<element>:loop.<frame>"
               }
             },
             "discharge" : {
               "properties" : {
-                "image" : "/items/active/weapons/vanta/grimoire/glow/<elementalType>.png:discharge.<frame>"
+                "image" : "/items/active/weapons/vanta/grimoire/glow/<element>:discharge.<frame>"
               }
             }
           }
         }
-      }
+      }*/
     }
   },
 
@@ -190,7 +190,7 @@
   },
 
   "sounds" : {
-    "physicalcharge" : ["/sfx/melee/staff_charge1.ogg"],
+		"physicalcharge" : ["/sfx/melee/staff_charge1.ogg"],
     "physicalfullcharge" : ["/sfx/melee/elemental_aura_activate.ogg"],
     "physicalchargedloop" : ["/sfx/melee/charge_full_hold1.ogg"],
     "physicaldischarge" : ["/sfx/melee/elemental_aura_deactivate1.ogg"],

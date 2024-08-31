@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 1 },
+    { "item" : "darkessence", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : { "item" : "ceruleumink", "count" : 1 },
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}

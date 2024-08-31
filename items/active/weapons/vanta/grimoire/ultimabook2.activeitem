@@ -11,12 +11,12 @@
   "tooltipKind" : "base",
   "level" : 5,
 
-  "inventoryIcon" : "/items/active/weapons/vanta/grimoire/book/ultima3.png:default.1",
+  "inventoryIcon" : "/items/active/weapons/vanta/grimoire/book/ultima2.png:default.1",
 
   "animation" : "/items/active/weapons/vanta/grimoire/grimoire.animation",
 
   "animationParts" : {
-    "book" : "ultima3.png"
+    "book" : "ultima2.png"
   },
 
   "scripts" : [ "/items/active/weapons/vanta/grimoire/grimoire.lua" ],

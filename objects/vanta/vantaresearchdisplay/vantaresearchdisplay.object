@@ -1,40 +1,39 @@
 {
   "objectName" : "vantaresearchdisplay",
-  "colonyTags" : [],
+	"colonyTags" : ["light","research","vanta"],
   "printable" : false,
-  "rarity" : "Common",
   "price" : 0,
-  "description" : "-todo-",
-  "shortdescription" : "Research Display",
-  "inventoryIcon" : "vantaresearchdisplay.png",
+  "rarity" : "essential",
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/ex_research/researchTree.config",
+  "description" : "A Vanta device used for researching and controlling their psionic abilities.",
+  "shortdescription" : "Vanta Research Display",
   "race" : "vanta",
+  "category" : "crafting",
 
-  // "apexDescription" : -todo-
-  // "avianDescription" : -todo-
-  // "floranDescription" : -todo-
-  // "glitchDescription" : -todo-
-  // "humanDescription" : -todo-
-  // "hylotlDescription" : -todo-
-  // "novakidDescription" : -todo-
-  // "vantaDescription" : -todo-
+	"apexDescription" : "It appears that the Vanta use this device for augmenting their abilities.",
+  "avianDescription" : "We Avians tend to keep to more practical approaches to training ourselves.",
+  "floranDescription" : "Floran likesss pretty lightss.",
+  "glitchDescription" : "Intrigued. This device is used by the Vanta for research purposes.",
+  "humanDescription" : "A dedicated computer that the Vanta use for enhancing themselves.",
+  "hylotlDescription" : "I admire the intricate designs the Vanta use for self-improvement.",
+  "novakidDescription" : "It ain't something I'd be able to use, but it sure is fancy!",
+  "vantaDescription" : "We use these research computers to enhance our abilities.",
 
-  "animation" : "vantaresearchdisplay.animation",
-  "animationParts" : {
-    "item" : "" // To be configured in Tiled
-  },
-  "animationPosition" : [0, 0],
-
-  "offeredQuests" : [],
-  "turnInQuests" : [],
-
+  "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "vantaresearchdisplay.png" }, { "image" : "vantaresearchdisplaylit.png", "fullbright" : true } ],
-      "direction" : "right",
-      "imagePosition" : [0, 0],
+      "imageLayers" : [ { "image" : "vantaresearchdisplay.png:<color>.<frame>", "fullbright" : true }, { "image" : "vantaresearchdisplaylit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "lightPosition" : [ -1, 2],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "bgAnchors" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+
     }
   ]
 }

@@ -18,8 +18,7 @@
   "orientations" : [
     {
       "imageLayers" : [
-        { "image" : "bsltype06b.png", "fullbright" : true },
-        { "image" : "bsltype06blit.png" }
+        { "image" : "bsltype06b.png" }
       ],
 
       "imagePosition" : [-48, -48],

@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "sporgusTreasure", "bow" : "sporgusHunting", "scythe" : "sporgusPsiReaping" } ] }
-]

@@ -12,6 +12,7 @@
     }
   },
 
+	"matchColorIndices" : true,
   "items" : {
     "override" : [
       [0, [

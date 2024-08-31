@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "ex_spaceparasite",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "ex_spaceparasite.png"
+  }
+}

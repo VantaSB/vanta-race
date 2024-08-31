@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "price" : 0,
-  "description" : "I need to grab this Matter Manipulator and get out of here.",
+  "description" : "This is a matter manipulator. The Admiral is entrusting me with this.",
   "shortdescription" : "Research Container",
   "race" : "generic",
   "lightColor" : [18, 204, 224],
@@ -20,7 +20,7 @@
   // "novakidDescription" : "-N/A-",
 
   "pickedUpParameters" : {
-    "description" : "Time to get going."
+    "description" : "A sturdy container, but I need to head back to the Operations Deck."
     // "apexDescription" : "-N/A-",
     // "avianDescription" : "-N/A-",
     // "floranDescription" : "-N/A-",

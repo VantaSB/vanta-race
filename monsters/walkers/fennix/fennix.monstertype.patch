@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "fennixTreasure", "bow" : "fennixHunting", "scythe" : "fennixPsiReaping" } ] }
-]

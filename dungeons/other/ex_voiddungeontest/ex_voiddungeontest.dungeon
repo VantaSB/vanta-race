@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "name" : "ex_voiddungeontest",
+    "species" : "generic",
+    "rules" : [ ],
+    "anchor" : [ "ex_voiddungeontest" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "ex_voiddungeontest",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "ex_voiddungeontest.json" ]
+    }
+  ]
+}

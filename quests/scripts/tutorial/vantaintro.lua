@@ -8,49 +8,24 @@ function init()
 
   message.setHandler("vantaintroManagerId", function(_, _, id)
     self.managerId = id
-    world.sendEntityMessage(self.managerId, "setSpecies", world.entitySpecies(entity.id()))
-  end)
-
-  message.setHandler("giveStarterContents", function(...)
-    world.sendEntityMessage(entity.id(), "playCinematic", "/cinematics/intro/ex_equipgear.cinematic")
-    player.consumeItem(storage.starterChest)
-    player.consumeItem(storage.starterLegs)
-    player.giveItem("vantaemgpistol")
-    player.giveItem("brokennoxcalibur")
-    player.giveItem(storage.starterChest)
-    player.giveItem(storage.starterLegs)
-    player.radioMessage("vantaIntroEquipment1")
-    player.radioMessage("vantaIntroEquipment2")
   end)
 
   message.setHandler("giveBeamaxe", function(...)
-    if self.missionStage == 4 then
-      quest.setIndicators({})
-      quest.setObjectiveList({{config.getParameter("descriptions.findEngineering"), false}})
-      setStage(5)
+    if self.missionStage == 5 then
+      quest.setObjectiveList({{config.getParameter("descriptions.return"), false}})
+      setStage(6)
     end
   end)
 
-  message.setHandler("reactorsDestroyed", function(...)
-    player.radioMessage("vantaintroPowerDownAlert")
-    self.midpointTransitionTimer = 2.0
-    self.midpointMusicTimer = config.getParameter("midpointMusicTime")
-    world.sendEntityMessage(entity.id(), "playAltMusic", nil, 1.0)
-    quest.setObjectiveList({{config.getParameter("descriptions.escape"), false}})
-    setStage(6)
-  end)
-
-  quest.setParameter("starterGear", {type = "item", item = "nightarcachepod"})
+  quest.setParameter("uniformLocker", {type = "item", item = "nightarstoragelocker"})
   quest.setParameter("beamaxe", {type = "item", item = "researchcontainerbeamaxe"})
+	quest.setParameter("battleGear", {type = "item", item = "vantalockers2"})
   quest.setIndicators({})
 
   setPortraits()
 
   self.startingMusicTimer = config.getParameter("startingMusicTime")
   self.midpointMusicTimer = 0
-
-  self.navRoomDelayTrigger1 = 0
-  self.navRoomDelayTrigger2 = 0
 
   self.pesterTimer = 0
 
@@ -90,7 +65,7 @@ function questStart()
   storage.starterChest = player.equippedItem("chest")
   storage.starterLegs = player.equippedItem("legs")
 
-  quest.setObjectiveList({{config.getParameter("descriptions.exitSolitary"), false}})
+  quest.setObjectiveList({{config.getParameter("descriptions.briefing"), false}})
 end
 
 function questComplete()
@@ -111,20 +86,6 @@ function update(dt)
     self.midpointMusicTimer = self.midpointMusicTimer - dt
     if self.midpointMusicTimer <= 0 then
       world.sendEntityMessage(entity.id(), "playAltMusic", config.getParameter("midpointMusicTracks"))
-    end
-  end
-
-  if self.navRoomDelayTrigger1 > 0 then
-    self.navRoomDelayTrigger1 = self.navRoomDelayTrigger1 - dt
-    if self.navRoomDelayTrigger1 <= 0 then
-      world.sendEntityMessage("navRoom1Door", "unlock")
-    end
-  end
-
-  if self.navRoomDelayTrigger2 > 0 then
-    self.navRoomDelayTrigger2 = self.navRoomDelayTrigger2 - dt
-    if self.navRoomDelayTrigger2 <= 0 then
-      world.sendEntityMessage("navRoom1Door", "unlock")
     end
   end
 
@@ -156,37 +117,63 @@ function uninit()
 end
 
 -- MISSION STAGES
--- 1 - start -> leave cryopod
--- 2 - restricted hall
--- 3 - acquired gear
--- 4 - manipulator room
--- 5 - have MM & scan mode
--- 6 - find ship => finish
+-- 1 - start -> exit bed
+-- 2 - barracks
+-- 3 - full uniform equipped
+-- 4 - go to ops deck
+-- 5 - get MM & scanner
+-- 6 - return to ops deck
+-- 7 - alert cutscene
+-- 8 - equip battle gear
+-- 9 - enter combat
+-- 10 - find ship -> finish
 
 function setStage(newStage)
   if newStage ~= self.missionStage then
     if newStage == 1 then
       self.hasLounged = false
-    elseif newStage == 2 then
-      player.radioMessage("vantaIntroExitPod", 1)
-      setPester("vantaIntroConfinementPester", 40)
-    elseif newStage == 3 then
+			player.radioMessage("vantaIntroExitBed", 1)
+			quest.setObjectiveList({{config.getParameter("descriptions.briefing"), false}})
+
+		elseif newStage == 2 then
+			quest.setIndicators({"uniformLocker"})
+			player.radioMessage("vantaIntroBarracks", 1)
+
+		elseif newStage == 3 then
       quest.setIndicators({})
-    elseif newStage == 4 then
-      --
+
+		elseif newStage == 4 then
+
     elseif newStage == 5 then
-      player.giveEssentialItem("beamaxe", "vantamanipulator")
+
+    elseif newStage == 6 then
+			player.giveEssentialItem("beamaxe", "vantamanipulator")
       player.giveEssentialItem("inspectionTool", "vantascanmode")
       world.sendEntityMessage(entity.id(), "playCinematic", "/cinematics/vantabeamaxe.cinematic")
       quest.setIndicators({})
-    elseif newstage == 6 then
-      world.sendEntityMessage(entity.id(), "playAltMusic", nil, 1.0)
+
+		elseif newstage == 7 then
+
+		elseif newStage == 8 then
+
+		elseif newStage == 9 then
+			player.radioMessage("vantaIntroAlertScene02c", 1)
+			quest.setIndicators({})
+
+		elseif newStage == 10 then
+
+		elseif newStage == 11 then
+
     end
     self.missionStage = newStage
   end
 end
 
 function updateStage(dt)
+	if self.missionStage < 7 then
+		mcontroller.controlModifiers({runningSuppressed = true})
+	end
+
   if self.missionStage == 1 then
     if self.hasLounged == false then
       local loungeables = world.loungeableQuery(entity.position(), 10, {order = "nearest"})
@@ -197,14 +184,35 @@ function updateStage(dt)
 
     if self.hasLounged and not player.isLounging() then
       setStage(2)
-      quest.setObjectiveList({{config.getParameter("descriptions.exitSolitary"), false}})
     end
 
-  elseif self.missionStage == 4 then
-    quest.setIndicators({"beamaxe"})
+	elseif self.missionStage == 2 then
+		if hasUniform() then
+			setStage(3)
+		end
+	elseif self.missionStage == 3 then
+
+	elseif self.missionStage == 4 then
+
+  elseif self.missionStage == 5 then
+		quest.setIndicators({"beamaxe"})
     quest.setObjectiveList({{config.getParameter("descriptions.matterManipulator"), false}})
 
-  elseif self.missionStage == 9 then
+	elseif self.missionStage == 6 then
+
+	elseif self.missionStage == 7 then
+		quest.setObjectiveList({{config.getParameter("descriptions.repel"), false}})
+
+	elseif self.missionStage == 8 then
+		if hasGear() then
+			setStage(9)
+		end
+
+	elseif self.missionStage == 9 then
+
+	elseif self.missionStage == 10 then
+
+  elseif self.missionStage == 11 then
     if self.missionCompleteTimer > 0 then
       self.missionCompleteTimer = self.missionCompleteTimer - dt
       if self.missionCompleteTimer <= 0 then
@@ -216,68 +224,67 @@ function updateStage(dt)
 end
 
 -- MISSION AREAS
--- Confinement Room
--- Restricted Hall
--- Biotech 1
--- Weapons Cache
--- Elevator A
--- Manipulator Research
--- Data Vault
--- Nav Room 1
--- Elevator B
--- Biotech 2
+-- Barracks
 -- Commons
--- Nav Room 2
--- Outer Plaza
--- Ship Platform
+-- Operations Deck
+-- Research & Development
+-- Main Annex
+-- Exterior Docking Bays
+-- Xenoresearch
+-- Offices
+-- Emergency Launch Bay
 
 function enterMissionArea(areaName)
-  if areaName == "detentionHall" and self.missionStage == 2 then
-    setStage(3)
-    player.radioMessage("vantaIntroDetentionHall1")
-    player.radioMessage("vantaIntroDetentionHall2")
-  elseif areaName == "bioTech1" then
-    player.radioMessage("vantaIntroBioTech")
-    quest.setObjectiveList({{config.getParameter("descriptions.findGear"), false}})
-  elseif areaName == "bioTech2" then
-    player.radioMessage("vantaIntroMedkit")
-  elseif areaName == "bioTech3" then
-    player.radioMessage("vantaIntroCacheHall")
-  elseif areaName == "weaponsLab" then
-    setStage(4)
-    player.radioMessage("vantaintroLabAlert")
-    player.radioMessage("vantaintroWeaponsLab01")
-    player.radioMessage("vantaintroWeaponsLab02")
-  elseif areaName == "scanSwitch" then
-    player.radioMessage("vantaintroWeaponsLab03")
-    player.radioMessage("vantaintroWeaponsLab04")
-  elseif areaName == "engineeringAccess" then
-    player.radioMessage("vantaintroEngineeringAccess")
-    quest.setObjectiveList({{config.getParameter("descriptions.reactorRoom"), false}})
-  elseif areaName == "escapeHall01" then
-    player.radioMessage("vantaintroEscape01")
-  elseif areaName == "adminElevators" then
-    player.radioMessage("vantaintroEscape02")
-  elseif areaName == "opsRoomElevators" then
-    --
-  elseif areaName == "opsRoom" and self.missionStage == 6 then
-    player.radioMessage("vantaintroEscape03")
-    setStage(7)
-  elseif areaName == "auxRoom01" then
-    player.radioMessage("vantaintroEscape04")
-  elseif areaName == "auxRoom02" and self.missionStage == 7 then
-    player.radioMessage("vantaintroEscape05")
-    setStage(8)
-  elseif areaName == "hangar" then
-    player.radioMessage("vantaintroHangar")
+  if areaName == "commons" and self.missionStage == 3 then
+		setStage(4)
+
+	elseif areaName == "opsDeck" and self.missionStage == 4 then
+		setStage(5)
+
+	elseif areaName == "rnd" and self.missionStage == 6 then
+		world.sendEntityMessage(self.managerId, "midpointSwitch")
+		world.sendEntityMessage(entity.id(), "playAltMusic", nil, 1.0)
+		self.midpointMusicTimer = config.getParameter("midpointMusicTime")
+		world.sendEntityMessage(entity.id(), "playCinematic", config.getParameter("midpointCinematic"))
+		player.radioMessage("vantaIntroAlertScene01", 1)
+		setStage(7)
+
+	elseif areaName == "mainAnnex1" and self.missionStage == 7 then
+		setStage(8)
+		player.radioMessage("vantaIntroAlertScene02a", 1)
+		player.radioMessage("vantaIntroAlertScene02b", 1)
+
+	elseif areaName == "mainAnnex2" and self.missionStage == 8 then
+		player.radioMessage("vantaIntroAlertScene02c", 1)
+		quest.setIndicators({"battleGear"})
+
+	elseif areaName == "exteriorDockingBays" and self.missionStage == 9 then
+		setStage(10)
+		player.radioMessage("vantaIntroLooting", 1)
+
+	elseif areaName == "xenoresearch01" and self.missionStage == 10 then
+		player.radioMessage("vantaIntroAlertScene03a", 1)
+		player.radioMessage("vantaIntroAlertScene03b", 1)
+		player.radioMessage("vantaIntroAlertScene03c", 1)
+		player.radioMessage("vantaIntroAlertScene03d", 1)
+		player.radioMessage("vantaIntroAlertScene03e", 1)
+		player.radioMessage("vantaIntroAlertScene03f", 1)
+		quest.setObjectiveList({{config.getParameter("descriptions.escape"), false}})
+
   elseif areaName == "ship" then
-    setStage(9)
+    setStage(11)
     self.missionCompleteTimer = 2.0
     world.sendEntityMessage(entity.id(), "playCinematic", config.getParameter("endpointCinematic"))
   end
 end
 
+function hasUniform()
+	return player.hasItem("vantaflagofficerchest") and player.hasItem("vantaflagofficerlegs")
+end
 
+function hasGear()
+	return player.hasItem("vantaenvirosuitchest") and player.hasItem("vantaenvirosuitpants")
+end
 
 function setPester(messageId, timeout)
   self.pesterMessage = messageId

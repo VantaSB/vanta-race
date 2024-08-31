@@ -1,0 +1,85 @@
+{
+  "type" : "dopplerintro",
+  "baseType" : "villager",
+
+  "npcname" : "Morrighan Doppler",
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "female",
+    "hairGroup" : "hair",
+		"hairType" : "fem10",
+    "personalityIdle" : "idle.2",
+    "personalityArmIdle" : "idle.1",
+    "bodyDirectives" : "?replace=ffe2c5=c5ad98?replace=ffc181=a47a59?replace=d39c6c=865d40?replace=c7815b=66412e?replace=ed1c24=d36f00",
+    "hairDirectives" : "?replace=d9c189=3b7f44?replace=a38d59=2e6a38?replace=735e3a=1d4b28"
+  },
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "uniqueId" : "dopplerintro",
+
+    "reactions" : {
+      "spontaneous" : []
+    },
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    //"behavior" : "tutorial",
+
+		"chatPortrait" : "/interface/chatbubbles/doppler.png:<frame>",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0,
+      "play" : false,
+      "chat" : false
+    },
+
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Be sure to take good care of the matter manipulator."
+          ]
+        }
+      },
+			"vantaintroswitch" : {
+				"introduction" : {
+					"default" : {
+						"default" : [
+							"Hey there, <entityname>! The Commander told me you'd be coming down, so here it is - the Matter Manipulator!",
+							"We took some liberties with the outward design, but the inner workings are the same as the Protectorate's.",
+							"That the Commander personally assigned it to you before himself shows how much he trusts you.",
+							"I've disabled the locking field, so go ahead and grab it when you're ready!"
+						]
+					}
+				},
+				"end" : {
+					"default" : {
+						"default" : [
+							"I've disabled the locking field, so go ahead and grab it when you're ready!"
+						]
+					}
+				}
+			}
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "vantatier5achest" } ],
+            "legs" : [ { "name" : "vantatier5apants" } ]
+          }
+        ]
+      ]
+    ]
+  }
+}

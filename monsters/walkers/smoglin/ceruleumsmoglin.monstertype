@@ -8,7 +8,7 @@
 
   "animation" : "ceruleumsmoglin.animation",
 
-  "dropPools" : [ { "default" : "smoglinTreasure", "bow" : "smoglinHunting", "scythe" : "smoglinPsiReaping" } ],
+  "dropPools" : [ { "default" : "smoglinTreasure", "bow" : "smoglinHunting" } ],
 
   "baseParameters" : {
     "monsterClass" : "rare",

@@ -1,0 +1,46 @@
+{
+	"type" : "vantaintrocommonslounger",
+	"baseType" : "base",
+
+	"identity" : {
+    "gender" : "male",
+    "hairType" : "male52",
+		"bodyDirectives" : "?replace=ffe2c5=8a6145?replace=ffc181=6b462a?replace=d39c6c=523520?replace=c7815b=402816?replace=ed1c24=ed1c24",
+    "hairDirectives" : "?replace=d9c189=89a1d9?replace=a38d59=596fa3?replace=735e3a=3a4b73"
+  },
+
+	"damageTeamType" : "ghostly",
+
+	"persistent" : true,
+
+	"dropPools" : [ ],
+
+	"scriptConfig" : {
+		"behavior" : "lounger",
+
+		"dialogMode" : "sequence",
+		"dialog" : {
+			"converse" : {
+				"default" : {
+					"default" : [
+						"Oh, good morning, <entityname>!",
+						"I've been working the late shift, so I'm in my 'wind-down' time right now.",
+						"Hurry on up to the Operations Deck!"
+					]
+				}
+			}
+		}
+	},
+
+	"matchColorIndices" : true,
+	"items" : {
+		"override" : [
+			[0, [
+					{
+						"chest" : [ { "name" : "vantaflagofficerchest" } ],
+						"legs" : [ { "name" : "vantaflagofficerlegs" } ]
+					}
+				] ]
+		]
+	}
+}

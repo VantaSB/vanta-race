@@ -1,0 +1,497 @@
+{
+	"animationCustom" : {
+		"particleEmitters" : {
+			"beambolt1" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Beam Bolt I",
+							"size" : 0.55,
+							"color" : [127, 191, 0, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"firebolt1" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Fire Bolt I",
+							"size" : 0.55,
+							"color" : [191, 127, 0, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"icebolt1" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Ice Bolt I",
+							"size" : 0.55,
+							"color" : [0, 127, 191, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"thunderbolt1" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Thunder Bolt I",
+							"size" : 0.55,
+							"color" : [127, 127, 191, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"biobolt1" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Bio Bolt I",
+							"size" : 0.55,
+							"color" : [0, 191, 127, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"beambolt2" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Beam Bolt II",
+							"size" : 0.55,
+							"color" : [127, 191, 0, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"firebolt2" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Fire Bolt II",
+							"size" : 0.55,
+							"color" : [191, 127, 0, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"icebolt2" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Ice Bolt II",
+							"size" : 0.55,
+							"color" : [0, 127, 191, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"thunderbolt2" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Thunder Bolt II",
+							"size" : 0.55,
+							"color" : [127, 127, 191, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"biobolt2" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Bio Bolt II",
+							"size" : 0.55,
+							"color" : [0, 191, 127, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"beambolt3" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Beam Bolt III",
+							"size" : 0.55,
+							"color" : [127, 191, 0, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"firebolt3" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Fire Bolt III",
+							"size" : 0.55,
+							"color" : [191, 127, 0, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"icebolt3" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Ice Bolt III",
+							"size" : 0.55,
+							"color" : [0, 127, 191, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"thunderbolt3" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"text" : "Thunder Bolt III",
+							"type" : "text",
+							"size" : 0.55,
+							"color" : [127, 127, 191, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"biobolt3" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Bio Bolt III",
+							"size" : 0.55,
+							"color" : [0, 191, 127, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 0],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"offensive1" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Offensive I",
+							"size" : 0.55,
+							"color" : [191, 191, 191, 191],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 0],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			}
+		},
+    "sounds" : {
+      "switch" : [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
+    }
+  },
+
+	"ability" : {
+		"type" : "banglechange",
+		"name" : "Bangle Adapt",
+		"scripts" : [
+			"/items/active/weapons/vanta/bangles/banglechange.lua"
+		],
+		"class" : "BangleChange",
+
+		"adaptedAbilityIndex" : 1,
+
+		"primaryShotTypes" : [
+			{
+				"projectileType" : "psiphysicalshot",
+				"energyUsage" : 24
+			},
+			{
+				"projectileType" : "psifireshot",
+				"energyUsage" : 24
+			},
+			{
+				"projectileType" : "psiiceshot",
+				"energyUsage" : 24
+			},
+			{
+				"projectileType" : "psielectricshot",
+				"energyUsage" : 24
+			},
+			{
+				"projectileType" : "psipoisonshot",
+				"energyUsage" : 24
+			},
+			{
+				"projectileType" : "psiphysicalshot2",
+				"energyUsage" : 36
+			},
+			{
+				"projectileType" : "psifireshot2",
+				"energyUsage" : 36
+			},
+			{
+				"projectileType" : "psiiceshot2",
+				"energyUsage" : 36
+			},
+			{
+				"projectileType" : "psielectricshot2",
+				"energyUsage" : 36
+			},
+			{
+				"projectileType" : "psipoisonshot2",
+				"energyUsage" : 36
+			},
+			{
+				"projectileType" : "psiphysicalshot3",
+				"energyUsage" : 48
+			},
+			{
+				"projectileType" : "psifireshot3",
+				"energyUsage" : 48
+			},
+			{
+				"projectileType" : "psiiceshot3",
+				"energyUsage" : 48
+			},
+			{
+				"projectileType" : "psielectricshot3",
+				"energyUsage" : 48
+			},
+			{
+				"projectileType" : "psipoisonshot3",
+				"energyUsage" : 48
+			}
+		],
+
+		"altShotTypes" : [
+			{
+				"projectileType" : "psiphysicalshot",
+				"energyUsage" : 12
+			}
+		],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+	}
+}

@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "poptopTreasure", "bow" : "poptopHunting", "scythe" : "poptopPsiReaping" } ] }
-]

@@ -7,8 +7,8 @@
   "actions" : [],
   "animator" : "vantastealth.animation",
 
-  "description" : "Retain your ability to run while stealthed!",
-  "shortDescription" : "Personnel Cloaking ^cyan;EX",
+  "description" : "Retain your ability to run while cloaked!",
+  "shortDescription" : "Personal Cloaking Mk.II",
   "rarity" : "Legendary",
   "icon" : "/tech/vantastealth/vantastealth2.png",
 

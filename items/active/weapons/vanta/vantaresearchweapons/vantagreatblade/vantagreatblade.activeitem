@@ -1,0 +1,32 @@
+{
+  "itemName" : "vantagreatblade",
+  "price" : 0,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "An advanced Vanta weapon designed to tackle larger monsters.",
+  "shortdescription" : "Vanta Great Blade",
+  "tooltipKind" : "sword",
+  "category" : "greatsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","vanta"],
+
+  "inventoryIcon" : "vantagreatblade.png",
+
+  "animation" : "vantagreatblade.animation",
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5
+  },
+
+  "altAbilityType" : "travelingslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

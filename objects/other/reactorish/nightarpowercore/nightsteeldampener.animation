@@ -1,0 +1,69 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "podState" : {
+        "default" : "active",
+        "states" : {
+          "active" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+					"off" : {}
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "podState" : {
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>",
+								"fullbright" : true
+              }
+            },
+
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off",
+								"fullbright" : true
+							}
+						}
+          }
+        }
+      },
+
+			"fg" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "podState" : {
+            "active" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>"
+              }
+            },
+
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:<color>.off"
+							}
+						}
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+		"pod" : [ "/sfx/objects/nightarpowercore.ogg" ]
+	}
+}

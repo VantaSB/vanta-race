@@ -1,3 +1,0 @@
-[
-  { "op" : "replace", "path" : "/dropPools", "value" : [ { "default" : "yokatTreasure", "bow" : "yokatHunting", "scythe" : "yokatPsiReaping" } ] }
-]

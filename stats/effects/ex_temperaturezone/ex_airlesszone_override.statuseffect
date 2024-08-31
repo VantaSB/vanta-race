@@ -1,0 +1,14 @@
+{
+  "name" : "ex_airlesszone_override",
+  "blockingStat" : "",
+	"override" : true,
+
+  "effectConfig" : {
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [ "ex_airlesszone_override.lua" ],
+
+  "label" : "^red;EPP GEAR MALFUNCTION",
+  "icon" : "/interface/statuses/crash.png"
+}

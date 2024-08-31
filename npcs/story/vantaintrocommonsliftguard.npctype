@@ -1,0 +1,60 @@
+{
+	"type" : "vantaintrocommonsliftguard",
+	"baseType" : "guard",
+
+	"identity" : {
+    "imagePath" : "vanta",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "male23",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.4",
+    "bodyDirectives" : "?replace=ffe2c5=f4e0ba?replace=ffc181=e9b768?replace=d39c6c=c18f54?replace=c7815b=a2683d",
+    "hairDirectives" : "?replace=d9c189=525252?replace=a38d59=363636?replace=735e3a=161616"
+  },
+
+	"damageTeamType" : "ghostly",
+
+	"persistent" : true,
+
+	"dropPools" : [ ],
+
+	"scriptConfig" : {
+		"reactions" : {
+      "spontaneous" : []
+    },
+
+    "personalities" : [
+      [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+		"behaviorConfig" : {
+			"greetingChance" : 0,
+      "play" : false,
+      "chat" : false
+    },
+
+		"dialog" : {
+			"converse" : {
+				"default" : {
+					"default" : [
+						"Sorry, the lift is currently under maintenance. If you're looking for the operations room, it's at the other end of this level."
+					]
+				}
+			}
+		}
+	},
+
+	"matchColorIndices" : true,
+	"items" : {
+		"override" : [
+			[0, [
+					{
+						"head" : [ { "name" : "vantacommandvisorhead" } ],
+						"chest" : [ { "name" : "vantaenvirosuitchest" } ],
+	          "legs" : [ { "name" : "vantaenvirosuitpants" } ]
+					}
+				] ]
+		]
+	}
+}
