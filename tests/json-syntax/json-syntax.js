@@ -216,10 +216,9 @@ class JsonAssetsTest {
 			ignore: [
 				// Exclude everything that is not a JSON asset: images, documentation, examples, etc.
 				'tests',
-				'a_modders',
 				'_previewimage',
 				'**/*.gun', // legacy files (JSON, but are not loaded by the game)
-				'**/*.{lua,png,xcf,wav,ogg,txt,md,tsx,aup,ico,tmx,pdn,zip,au,old,unused,disabled}'
+				'**/*.{lua,png,xcf,wav,ogg,txt,md,tsx,aup,ico,tmx,pdn,zip,au,old,unused,disabled,rar}'
 			],
 			caseSensitiveMatch: false
 		};
