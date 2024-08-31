@@ -8,10 +8,10 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Install Dependencies
-        run: ( cd tests/json-syntax npm install )
+        run: ( cd tests/json-syntax && npm install )
         
       - name: Run NPM Test
-        run: ( cd tests/json-syntax npm test )
+        run: ( cd tests/json-syntax && npm test )
 
   luacheck:
     runs-on: ubuntu-latest
