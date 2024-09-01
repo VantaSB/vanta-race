@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "headarmour",
-  "description" : "Stylized after the Apex Defector's mask and provides combat data in the field.",
+  "description" : "Stylized with Apex aesthetics, this mask is capable of recording combat data in the field.",
   "shortdescription" : "Duskbringer Visor",
   "tooltipKind" : "armor",
 
@@ -16,22 +16,22 @@
   "level" : 3,
   "leveledStatusEffects" : [
     {
-      "levelFunction" : "vantaArmorLevelPowerMultiplier",
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
       "baseMultiplier" : 1.15
     },
     {
-      "levelFunction" : "vantaArmorLevelProtectionMultiplier",
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
       "stat" : "protection",
       "amount" : 0.3
     },
     {
-      "levelFunction" : "vantaArmorLevelMaxEnergyMultiplier",
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
       "amount" : 3
     },
     {
-      "levelFunction" : "vantaArmorLevelMaxHealthMultiplier",
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
       "amount" : 3
     }

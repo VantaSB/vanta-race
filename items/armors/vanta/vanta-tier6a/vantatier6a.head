@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "exHeadArmorAcc",
-  "description" : "A helmet reinforced with Nightsteel.",
-  "shortdescription" : "Delver Apparatus",
+  "description" : "Despite its modest appearance, this cap is durable enough that it was rated safe for combat.",
+  "shortdescription" : "Gloam Cap",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
