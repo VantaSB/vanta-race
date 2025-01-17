@@ -21,7 +21,7 @@ jobs:
         run: luacheck --no-color --quiet .
 
   check-unoptimized-png:
-    if: ${{ github.base_ref || github.ref != 'refs/heads/master' }}
+    # if: ${{ github.base_ref || github.ref != 'refs/heads/master' }}
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
