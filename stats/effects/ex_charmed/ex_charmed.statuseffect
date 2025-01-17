@@ -1,0 +1,16 @@
+{
+	"name" : "ex_charmed",
+	"effectConfig" : {
+		"particleEmitters" : ["love"]
+	},
+	"defaultDuration" : 15,
+
+	"scripts" : [
+		"ex_charmed.lua"
+	],
+
+	"animationConfig" : "ex_charmed.animation",
+
+	"label" : "Charmed",
+	"icon" : "/interface/statuses/ex_charmed.png"
+}

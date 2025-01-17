@@ -1,0 +1,57 @@
+{
+  "id" : "vantaintro",
+  "mainQuest" : true,
+  "title" : "New Chapter",
+  "text" : "Work through your promotion",
+  "completionText" : "You narrowly escaped the Nighar Empire's grasp. With no active chain of command, you must now forge your way forward on your own.",
+  "moneyRange" : [50, 50],
+  "canBeAbandoned" : false,
+  "showAcceptDialog" : false,
+  "showCompleteDialog" : false,
+  "showFailDialog" : false,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/tutorial/vantaintro.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "player"
+    },
+		"introCinematic" : "/cinematics/intro/vanta_introstart.cinematic",
+		"startingMusicTime" : 11.5,
+		"startingMusicTracks" : ["/music/doc_ffvii-underground_complex.ogg"],
+    "midpointMusicTime" : 11.75,
+    "midpointMusicTracks" : ["/music/pom-collision.ogg"],
+		"midpointCinematic" : "/cinematics/intro/vanta_introswitch.cinematic",
+    "endpointCinematic" : "/cinematics/intro/vanta_introcomplete.cinematic",
+    "confiscateItems" : [
+      "vsaber",
+      "weatheredpicohandgun",
+      "vantaflagofficerhead",
+      "vantaflagofficerchest",
+      "vantaflagofficerlegs",
+      "vantaintroenvirosuitchest",
+      "vantaintroenvirosuitpants",
+      "vantapocsec01",
+      ["money", 1000],
+      ["bandage", 1000]
+    ],
+    "skipIntroItems" : [
+			"vsaber",
+      "weatheredpicohandgun",
+      "vantaflagofficerchest",
+      "vantaflagofficerlegs",
+			"vantaintroenvirosuitchest",
+      "vantaintroenvirosuitpants"
+    ],
+
+    "descriptions" : {
+      "briefing" : "Attend your morning briefing with the Admiral",
+			"matterManipulator" : "Retrieve the matter manipulator from R&D",
+			"return" : "Return to the Operations Deck",
+			"repel" : "Repel the intruders",
+			"escape" : "Escape from the station"
+    },
+
+    "followUp" : "bootship_vanta"
+  }
+}

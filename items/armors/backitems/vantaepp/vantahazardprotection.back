@@ -6,7 +6,7 @@
   "rarity" : "Essential",
   "pickupQuestTemplates" : [ ],
   "category" : "enviroProtectionPack",
-  "description" : "This compressed EPP grants protections additional protection from some elemental hazards.",
+  "description" : "This compressed EPP grants additional protection from some elemental hazards.",
   "shortdescription" : "Vanta Hazard Module",
 
   "maleFrames" : "back.png",

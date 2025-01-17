@@ -1,0 +1,64 @@
+{
+  "objectName" : "ceruleumpowercell3",
+  "colonyTags" : ["nightar","merchant"],
+	"printable" : false,
+  "rarity" : "Common",
+	"price" : 0,
+  "description" : "A power cell connected to nearby devices.",
+  "shortdescription" : "Ceruleum Power Cell",
+	"race" : "generic",
+
+	// "apexDescription" : "-todo-",
+  // "avianDescription" : "-todo-",
+  // "floranDescription" : "-todo-",
+  // "glitchDescription" : "-todo-",
+  // "humanxDescription" : "-todo-",
+  // "hylotlDescription" : "-todo-",
+  // "novakidDescription" : "-todo-",
+  // "vantaDescription" : "-todo-",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+				{ "image" : "ceruleumpowercell3.png:<color>.<frame>", "fullbright" : true },
+				{ "image" : "ceruleumpowercell3lit.png:<color>.<frame>" }
+			],
+	  	"flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [
+				{ "image" : "ceruleumpowercell3.png:<color>.<frame>", "fullbright" : true },
+				{ "image" : "ceruleumpowercell3lit.png:<color>.<frame>" }
+			],
+	  	"direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+	"outputNodes" : [ [0, 2] ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ],
+  "smashParticles" : [ { "count" : 6, "particle" : "greytargetshard" } ],
+
+  "scripts" : [ "/objects/other/reactorish/ceruleumpowercell/power.lua" ],
+  "scriptDelta" : 5,
+
+  "msgHandler" : null,
+  "targetEntity" : null
+}

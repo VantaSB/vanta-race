@@ -1,0 +1,223 @@
+{
+  "itemName" : "vsaber",
+  "price" : 0,
+  "level" : 1,
+	"upgradeNum" : 0,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "Your personal saber. It's seen better days, but it has a unique weapon core that allows it to evolve.",
+  "shortdescription" : "Weathered Vanta Saber",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","nightar","vanta","vSaberUpgrade"],
+
+  "inventoryIcon" : "vsaber_l0.png",
+
+  "animation" : "vsaber.animation",
+  "animationParts" : {
+    "blade" : "vsaber_l0.png",
+		"handle" : ""
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "scatteredwindscombo",
+  "primaryAbility" : {
+		"comboSteps" : 3,
+    "fireTime" : 0.8,
+    "baseDps" : 7.5
+  },
+
+  "altAbilityType" : "spinslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+	"upgrades" : [
+		{
+			"level" : 1,
+			"upgradeNum" : 1,
+			"inventoryIcon" : "vsaber_l1.png",
+			"animationParts" : {
+				"blade" : "vsaber_l1.png",
+				"handle" : ""
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "Vanta Saber",
+			"primaryAbility" : {
+				"comboSteps" : 3,
+		    "fireTime" : 0.625,
+		    "baseDps" : 8.5
+			},
+			"altAbilityType" : "spinslash"
+		},
+		{
+			"level" : 2,
+			"upgradeNum" : 2,
+			"inventoryIcon" : "vsaber_l2.png",
+			"animationParts" : {
+				"blade" : "vsaber_l2.png",
+				"handle" : "vsaber_l2_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "Vanta Saber ^yellow;ß^reset;",
+			"primaryAbility" : {
+				"comboSteps" : 3,
+				"fireTime" : 0.625,
+				"baseDps" : 9.5
+			},
+			"altAbilityType" : "risingslash"
+		},
+		{
+			"level" : 3,
+			"upgradeNum" : 3,
+			"inventoryIcon" : "vsaber_l3.png",
+			"animationParts" : {
+				"blade" : "vsaber_l3.png",
+				"handle" : "vsaber_l3_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "Vanta Saber ^yellow;Г^reset;",
+			"primaryAbility" : {
+				"comboSteps" : 3,
+				"fireTime" : 0.625,
+				"baseDps" : 10.5
+			},
+			"altAbilityType" : "bladecharge"
+		},
+		{
+			"level" : 4,
+			"upgradeNum" : 4,
+			"inventoryIcon" : "vsaber_l4.png",
+			"animationParts" : {
+				"blade" : "vsaber_l4.png",
+				"handle" : "vsaber_l4_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "Vanta Saber ^yellow;Ø^reset;",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 6,
+				"fireTime" : 0.625,
+				"baseDps" : 11.5
+			},
+			"altAbilityType" : "darkslice"
+		},
+		{
+			"level" : 5,
+			"upgradeNum" : 5,
+			"inventoryIcon" : "vsaber_l5.png",
+			"animationParts" : {
+				"blade" : "vsaber_l5.png",
+				"handle" : "vsaber_l5_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^cyan;Nova Vanta Saber",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 9,
+				"fireTime" : 0.625,
+				"baseDps" : 11.5
+			},
+			"altAbilityType" : "ceruleumfang"
+		},
+		{
+			"level" : 6,
+			"upgradeNum" : 6,
+			"inventoryIcon" : "vsaber_l6.png",
+			"animationParts" : {
+				"blade" : "vsaber_l6.png",
+				"handle" : "vsaber_l6_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^orange;Master Vanta Saber^reset;",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 12,
+				"fireTime" : 0.625,
+				"baseDps" : 12.5
+			},
+			"altAbilityType" : "torridedge",
+			"requiresAmmo" : false
+		},
+		{
+			"level" : 7,
+			"upgradeNum" : 7,
+			"inventoryIcon" : "vsaber_l6.png",
+			"animationParts" : {
+				"blade" : "vsaber_l6.png",
+				"handle" : "vsaber_l6_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^orange;Master Vanta Saber ^yellow;^reset;",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 12,
+				"fireTime" : 0.625,
+				"baseDps" : 12.5
+			},
+			"altAbilityType" : "torridedge",
+			"requiresAmmo" : false
+		},
+		{
+			"level" : 8,
+			"upgradeNum" : 8,
+			"inventoryIcon" : "vsaber_l6.png",
+			"animationParts" : {
+				"blade" : "vsaber_l6.png",
+				"handle" : "vsaber_l6_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^orange;Master Vanta Saber ^yellow;^reset;",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 12,
+				"fireTime" : 0.625,
+				"baseDps" : 12.5
+			},
+			"altAbilityType" : "torridedge",
+			"requiresAmmo" : false
+		},
+		{
+			"level" : 9,
+			"upgradeNum" : 9,
+			"inventoryIcon" : "vsaber_l6.png",
+			"animationParts" : {
+				"blade" : "vsaber_l6.png",
+				"handle" : "vsaber_l6_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^orange;Master Vanta Saber ^yellow;^reset;",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 12,
+				"fireTime" : 0.625,
+				"baseDps" : 12.5
+			},
+			"altAbilityType" : "torridedge",
+			"requiresAmmo" : false
+		},
+		{
+			"level" : 10,
+			"upgradeNum" : 10,
+			"inventoryIcon" : "vsaber_l6.png",
+			"animationParts" : {
+				"blade" : "vsaber_l6.png",
+				"handle" : "vsaber_l6_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^#7F00FF;Quantum Vanta Saber^reset;",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 12,
+				"fireTime" : 0.625,
+				"baseDps" : 12.5
+			},
+			"altAbilityType" : "torridedge",
+			"requiresAmmo" : false
+		}
+	]
+}

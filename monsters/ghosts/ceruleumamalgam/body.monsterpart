@@ -1,0 +1,10 @@
+{
+	"name" : "body",
+	"category" : "ceruleumamalgam",
+	"type" : "body",
+
+	"frames" : {
+		"body" : "ceruleumamalgamlit.png",
+		"bodyfullbright" : "ceruleumamalgam.png"
+	}
+}

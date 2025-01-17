@@ -56,10 +56,16 @@
     "value" : "/items/active/weapons/melee/abilities/gunblade/torridedge/torridedge.weaponability"
   },
 
-  {
+  /*{
     "op" : "add",
     "path" : "/banglechange",
     "value" : "/items/active/weapons/vanta/bangles/banglechange.weaponability"
+  },*/
+
+	{
+    "op" : "add",
+    "path" : "/elementshift",
+    "value" : "/items/active/weapons/vanta/bangles/abilities/elementshift.weaponability"
   },
 
 	{
@@ -102,5 +108,17 @@
     "op" : "add",
     "path" : "/ex_grapple",
     "value" : "/items/active/weapons/whip/abilities/ex_grapple.weaponability"
-  }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/banglefire",
+    "value" : "/items/active/weapons/vanta/bangles/banglefire.weaponability"
+  },
+
+	{
+		"op" : "add",
+		"path" : "/cerulemfang",
+		"value" : "/items/active/weapons/melee/abilities/broadsword/ceruleumfang/ceruleumfang.weaponability"
+	}
 ]

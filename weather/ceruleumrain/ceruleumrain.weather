@@ -75,9 +75,9 @@
     }
   ],
 
-  "statusEffects" : [ ],
+  "statusEffects" : ["wet"],
 
   "duration" : [50, 400],
-  "maximumWind" : 45.0,
-  "weatherNoises" : [ "/sfx/weather/rain_medium.ogg" ]
+  "maximumWind" : 60.0,
+  "weatherNoises" : [ "/sfx/weather/rain_heavy.ogg" ]
 }

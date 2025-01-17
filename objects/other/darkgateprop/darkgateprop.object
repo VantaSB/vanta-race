@@ -1,0 +1,38 @@
+{
+  "objectName" : "darkgateprop",
+  "colonyTags" : ["vanta","nightar","wired"],
+  "printable" : false,
+  "scannable" : false,
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 0,
+  "description" : "-todo-",
+  "shortdescription" : "Dark Gate",
+  "race" : "generic",
+  "lightColor" : [18, 204, 224],
+
+  "inventoryIcon" : "icon.png",
+
+	"apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+  "novakidDescription" : "-todo-",
+	"vantaDescription" : "T-todo-",
+
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "orb.png:<color>.<frame>", "fullbright" : true }
+      ],
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 0.25,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ]
+}

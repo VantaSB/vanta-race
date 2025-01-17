@@ -283,7 +283,7 @@ function hasUniform()
 end
 
 function hasGear()
-	return player.hasItem("vantaenvirosuitchest") and player.hasItem("vantaenvirosuitpants")
+	return player.hasItem("vantaintroenvirosuitchest") and player.hasItem("vantaintroenvirosuitpants")
 end
 
 function setPester(messageId, timeout)

@@ -15,11 +15,11 @@
   "tileproperties" : {
     "0" : {
       "//description" : "A portal leading to who knows where...",
-      "//name" : "darkgate",
+      "//name" : "darkgateprop",
       "//shortdescription" : "Dark Gate",
-      "imagePositionX" : "-8",
+      "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "darkgate",
+      "object" : "darkgateprop",
       "tilesetDirection" : "right"
     },
     "1" : {
@@ -753,12 +753,12 @@
         "parameters" : "{ \"animationParts\" : { \"base\" : \"basedark.png\",\n\"door\" : \"doorlighta.png\",\n\"banner\" : \"banner0.png\",\n\"bannerlit\" : \"banner0lit.png\" } }"
     },
     "82" : {
-      "//description" : "This blade is...!?",
-      "//name" : "brokennightarbladedisplay",
-      "//shortdescription" : "Broken Nightar Blade Display",
-      "imagePositionX" : "-8",
+      "//description" : "An altar build in the image of the legendary Noxcalibur.",
+      "//name" : "nightarbladealtar",
+      "//shortdescription" : "Blade Altar",
+      "imagePositionX" : "-16",
       "imagePositionY" : "0",
-      "object" : "brokennightarbladedisplay",
+      "object" : "nightarbladealtar",
       "tilesetDirection" : "right"
     },
     "83" : {
@@ -789,20 +789,40 @@
       "tilesetDirection" : "right"
     },
     "86" : {
-      "//name" : "ex_fluorescentlight2_orientation1",
-      "invalid" : "true"
+			"//description" : "This book is full of strange glyphs and illustrations.",
+      "//name" : "nightsteelcodex",
+      "//shortdescription" : "Nightsteel Codex",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "nightsteelcodex",
+      "tilesetDirection" : "right"
     },
     "87" : {
-      "//name" : "ex_fluorescentlight2_orientation2",
-      "invalid" : "true"
+			"//description" : "[Scripted] This book is full of strange glyphs and illustrations.",
+      "//name" : "nightsteelcodex2",
+      "//shortdescription" : "Nightsteel Codex",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "nightsteelcodex2",
+      "tilesetDirection" : "right"
     },
     "88" : {
-      "//name" : "ex_fluorescentlight2_orientation3",
-      "invalid" : "true"
+			"//description" : "...",
+      "//name" : "ex_smashinvispswitch",
+      "//shortdescription" : "Smashable Invisible Persistent Switch",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "ex_smashinvispswitch",
+      "tilesetDirection" : "right"
     },
     "89" : {
-      "//name" : "ex_fluorescentlight2_orientation4",
-      "invalid" : "true"
+			"//description" : "A door suitable for a spaceship.",
+      "//name" : "vantashipdoorblast",
+      "//shortdescription" : "vanta Ship Door",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "0",
+      "object" : "vantashipdoorblast",
+      "tilesetDirection" : "right"
     },
     "90" : {
       "//name" : "ex_fluorescentlight3_orientation0",
@@ -2337,7 +2357,7 @@
       "image" : "../../../tiled/vanta-custom/objects/vantabasedoor.png"
     },
     "82" : {
-      "image" : "../../../tiled/vanta-custom/objects/brokennightarbladedisplay.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarbladealtar.png"
     },
     "83" : {
       "image" : "../../../tiled/vanta-custom/objects/blueshiplight.png"
@@ -2349,16 +2369,16 @@
       "image" : "../../../tiled/vanta-custom/objects/ex_largefire.png"
     },
     "86" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelcodex.png"
     },
     "87" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelcodex.png"
     },
     "88" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/ex_smashinvispswitch.png"
     },
     "89" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantashipdoorblast.png"
     },
     "90" : {
       "image" : "../../../tiled/vanta-custom/invalid.png"
