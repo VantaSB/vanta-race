@@ -62,7 +62,6 @@
 				"blade" : "vsaber_l2.png",
 				"handle" : "vsaber_l2_lit.png"
 			},
-			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
 			"shortdescription" : "Vanta Saber ^yellow;ß^reset;",
 			"primaryAbility" : {
 				"comboSteps" : 3,
@@ -79,7 +78,6 @@
 				"blade" : "vsaber_l3.png",
 				"handle" : "vsaber_l3_lit.png"
 			},
-			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
 			"shortdescription" : "Vanta Saber ^yellow;Г^reset;",
 			"primaryAbility" : {
 				"comboSteps" : 3,
@@ -96,7 +94,6 @@
 				"blade" : "vsaber_l4.png",
 				"handle" : "vsaber_l4_lit.png"
 			},
-			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
 			"shortdescription" : "Vanta Saber ^yellow;Ø^reset;",
 			"elementalType" : "ceruleum",
 			"primaryAbility" : {
@@ -114,7 +111,6 @@
 				"blade" : "vsaber_l5.png",
 				"handle" : "vsaber_l5_lit.png"
 			},
-			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
 			"shortdescription" : "^cyan;Nova Vanta Saber",
 			"elementalType" : "ceruleum",
 			"primaryAbility" : {
@@ -132,7 +128,6 @@
 				"blade" : "vsaber_l6.png",
 				"handle" : "vsaber_l6_lit.png"
 			},
-			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
 			"shortdescription" : "^orange;Master Vanta Saber^reset;",
 			"elementalType" : "ceruleum",
 			"primaryAbility" : {
