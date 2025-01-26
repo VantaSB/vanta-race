@@ -64,16 +64,16 @@ function onInteraction(args)
 			end
 		end
 	else
-  	output(not storage.state)
-  	if self.persistent == true then
-    	object.setInteractive(false)
-  	end
-  	if self.useRadioMessages and not storage.messagesSent then
-    	for _, id in pairs(newPlayers) do
-      	if not string.find(oldPlayers, id) then
-        	for _, message in ipairs(self.radioMessages) do
-          	world.sendEntityMessage(id, "queueRadioMessage", message)
-          	storage.messagesSent = true
+		output(not storage.state)
+		if self.persistent == true then
+			object.setInteractive(false)
+		end
+		if self.useRadioMessages and not storage.messagesSent then
+			for _, id in pairs(newPlayers) do
+				if not string.find(oldPlayers, id) then
+					for _, message in ipairs(self.radioMessages) do
+						world.sendEntityMessage(id, "queueRadioMessage", message)
+						storage.messagesSent = true
 					end
         end
       end

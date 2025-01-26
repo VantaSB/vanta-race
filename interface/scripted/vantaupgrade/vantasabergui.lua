@@ -59,13 +59,11 @@ function populateItemList(forceRepop)
 end
 
 function showWeapon(item)
-	local enableButton = false
-
 	local config = root.itemConfig(item)
-	local upgradeLevel = self.nextUpgrade
+	-- local upgradeLevel = self.nextUpgrade
 
 	if item then
-		enableButton = self.nextUpgrade > (config.parameters.upgradeNum or config.config.upgradeNum)
+		local enableButton = self.nextUpgrade > (config.parameters.upgradeNum or config.config.upgradeNum)
 		widget.setText("nextItem", string.format("%s", config.config.upgrades[self.nextUpgrade].shortdescription))
 		widget.setButtonEnabled("btnUpgrade", enableButton)
 	end

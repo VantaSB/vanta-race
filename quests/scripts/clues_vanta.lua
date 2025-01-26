@@ -77,7 +77,7 @@ end
 
 function computeTotal()
   self.totalValue = 0
-  for objectName, value in pairs(storage.scannedObjects) do
+  for _, value in pairs(storage.scannedObjects) do
     self.totalValue = self.totalValue + value
   end
   self.totalValue = self.totalValue + (#storage.dialogClues * self.dialogClueValue)

@@ -3,8 +3,6 @@ require "/scripts/vec2.lua"
 require "/scripts/versioningutils.lua"
 require "/items/buildscripts/abilities.lua"
 
-local divider = ":"
-
 function build(directory, config, parameters, level, seed)
 	local configParameter = function(keyName, defaultValue)
     if parameters[keyName] ~= nil then
@@ -45,7 +43,7 @@ function build(directory, config, parameters, level, seed)
   if type(config.inventoryIcon) == "string" then
     config.inventoryIcon = config.inventoryIcon .. config.paletteSwaps
   else
-    for i, drawable in ipairs(config.inventoryIcon) do
+    for _, drawable in ipairs(config.inventoryIcon) do
       if drawable.image then drawable.image = drawable.image .. config.paletteSwaps end
     end
   end

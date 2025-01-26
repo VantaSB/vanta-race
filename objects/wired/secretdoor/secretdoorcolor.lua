@@ -78,7 +78,7 @@ function setupMaterialSpaces()
 
   local pos = entity.position()
   local materials = {}
-  for i, space in ipairs(spaces) do
+  for _, space in ipairs(spaces) do
     local mat = world.material(vec2.add(pos, space), "background")
     if not mat then
       mat = "metamaterial:empty"
@@ -90,7 +90,7 @@ function setupMaterialSpaces()
   local di = self.doorDirection == "vertical" and 2 or 1
   local min = 1000
   local max = -1000
-  for i, space in ipairs(spaces) do
+  for _, space in ipairs(spaces) do
     min = math.min(min, space[di])
     max = math.max(max, space[di])
   end
@@ -129,7 +129,7 @@ function closeDoor()
     local spaces2 = object.spaces()
     local pos2 = entity.pos()
     local colorVariant = world.materialColor(pos2, "background")
-    for i, space in ipairs(spaces2) do
+    for _, space in ipairs(spaces2) do
       world.setMaterialColor(vec2.add(pos2, space), "foreground", colorVariant)
     end
   end

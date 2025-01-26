@@ -388,7 +388,7 @@ function EX_Grapple:findAnchor()
     colDistance = world.magnitude(mcontroller.position(), col)
   end
 
-  for i, targetId in ipairs(world.entityLineQuery(mcontroller.position(), activeItem.ownerAimPosition(), {boundMode = "collisionarea", order = "nearest", includedTypes = self.targetTypes, withoutEntityId = activeItem.ownerEntityId()})) do
+  for _, targetId in ipairs(world.entityLineQuery(mcontroller.position(), activeItem.ownerAimPosition(), {boundMode = "collisionarea", order = "nearest", includedTypes = self.targetTypes, withoutEntityId = activeItem.ownerEntityId()})) do
     local entityPos = world.entityPosition(targetId)
     local entityDistance = world.magnitude(mcontroller.position(), entityPos)
     if col and colDistance < entityDistance then

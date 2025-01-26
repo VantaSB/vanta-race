@@ -418,7 +418,7 @@ end
 function populateSearchList()
 	widget.clearListItems("searchList.list")
 	local listTable = {researched = {}, available = {}, expensive = {}, unavailable = {}}
-	local listItem = ""
+	local listItem
 
 	if researchTree then
 		for research, tbl in pairs(researchTree) do
@@ -513,8 +513,8 @@ function populateTreeList()
 			end
 
 			if isAvailable and data.treeUnlocks[tree].research then
-				for tree, acronyms in pairs(data.treeUnlocks[tree].research) do
-					if not isResearched(tree, acronyms) then
+				for requiredOtherTree, acronyms in pairs(data.treeUnlocks[tree].research) do
+					if not isResearched(requiredOtherTree, acronyms) then
 						isAvailable = false
 						break
 					end
@@ -527,9 +527,8 @@ function populateTreeList()
 		end
 	end
 
-	local listItem = ""
 	if (#toSort == 0) then
-		listItem = "treeList.list."..widget.addListItem("treeList.list")
+		local listItem = "treeList.list."..widget.addListItem("treeList.list")
 		widget.setText(listItem..".title", '^red;No Trees Available')
 		widget.setButtonEnabled(listItem..".title", false)
 	else
@@ -596,9 +595,9 @@ function draw()
 	if drawLines then
 		local startPoint = {0,0}
 		local endPoint = {0,0}
-		local color = "#000000"
+		local color
 
-		for i, tbl in pairs(drawLines) do
+		for _, tbl in pairs(drawLines) do
 			if tbl.endPoints and #tbl.endPoints > 0 then
 				startPoint[1] = tbl.position[1] + dragOffset.x
 				startPoint[2] = tbl.position[2] + dragOffset.y
@@ -628,8 +627,8 @@ function draw()
 		local startPoint = {0,0}
 		local endPoint = {0,0}
 		local color = "#000000"
-		local state = ""
-		local scale = 1
+		--local state = ""
+		--local scale = 1
 
 		-- draw tree lines (old behavior)
 		--[[for research, tbl in pairs(researchTree) do
@@ -881,8 +880,8 @@ function canvasClickEvent(position, button, isButtonDown)
 end
 
 function leftClick(clickPos, isDouble)
-	local xRange = {}
-	local yRange = {}
+	local xRange
+	local yRange
 	local clicked = nil
 
 	if researchTree then
@@ -922,9 +921,9 @@ end
 
 -- Research tree functions
 function verifyAcronyms()
-	local found = false
+	local found
 	local missing = ""
-	local tree = ""
+	local tree
 
 	for t, tbl in pairs(data.researchTree) do
 		tree = t
@@ -963,7 +962,7 @@ end
 function stringToAcronyms(dataString)
 	local splitString = {}
 	local _, count = string.gsub(dataString, ",", "")
-	for i = 1, count do
+	for _ = 1, count do
 		splitpos = string.find(dataString, ",")
 		insertingString = string.sub(dataString, 1, splitpos)
 		dataString = string.gsub(dataString, insertingString, "")
