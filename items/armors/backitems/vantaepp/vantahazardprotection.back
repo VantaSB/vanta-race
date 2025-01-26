@@ -2,7 +2,7 @@
   "itemName" : "vantahazardprotectionback",
   "price" : 1000,
   "inventoryIcon" : "icon.png",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "baseaugment",
   "rarity" : "Essential",
   "pickupQuestTemplates" : [ ],
   "category" : "enviroProtectionPack",
@@ -18,9 +18,8 @@
 		{ "stat" : "biomeradiationImmunity", "amount" : 1.0 },
     { "stat" : "biomecoldImmunity", "amount" : 1.0 },
 		{ "stat" : "biomeheatImmunity", "amount" : 1.0 }
-
-
   ],
 
+	"acceptsAugmentType" : "back",
   "radioMessagesOnPickup" : [ "pickupepp" ]
 }

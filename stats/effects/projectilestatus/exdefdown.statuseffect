@@ -1,0 +1,16 @@
+{
+	"name" : "exdefdown",
+	"blockingStat" : "",
+	"effectConfig" : {
+		"defenseAmount" : -10,
+		"resistanceAmount" : -0.1
+	},
+	"defaultDuration" : 3,
+
+	"scripts" : [
+		"exdefdown.lua"
+	],
+	"animationConfig" : "exdefdown.animation",
+	"label" : "Defense Down",
+	"icon" : "/interface/statuses/exdefdown.png"
+}

@@ -31,11 +31,11 @@ function populateItemList(forceRepop)
 		for i, item in pairs(self.upgradeItem) do
 			local config = root.itemConfig(item)
 
-			if (config.parameters.upgradeNum or config.config.upgradeNum) < self.nextUpgrade then
+			if (config.parameters.upgradeNum or config.config.upgradeNum) == self.nextUpgrade - 1 then
 				showEmptyLabel = false
 
 				local listItem = string.format("%s.%s", self.itemList, widget.addListItem(self.itemList))
-				local name = config.config.shortdescription
+				local name = config.parameters.shortdescription or config.config.shortdescription
 				local upgradeNum = config.config.upgradeNum
 
 				widget.setText(string.format("%s.itemName", listItem), name)
@@ -100,6 +100,7 @@ function upgrade()
           end
         end
         player.giveItem(upgradedItem)
+				sb.logInfo("Upgraded item parameters: %s", upgradedItem)
       end
     end
     populateItemList(true)

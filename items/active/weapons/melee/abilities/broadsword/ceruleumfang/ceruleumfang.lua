@@ -1,14 +1,14 @@
 require "/scripts/util.lua"
 require "/items/active/weapons/weapon.lua"
 
-GiantBladeAttack = WeaponAbility:new()
+CeruleumFangAttack = WeaponAbility:new()
 
-function GiantBladeAttack:init()
+function CeruleumFangAttack:init()
   self.cooldownTimer = self.cooldownTime
   self:reset()
 end
 
-function GiantBladeAttack:update(dt, fireMode, shiftHeld)
+function CeruleumFangAttack:update(dt, fireMode, shiftHeld)
   WeaponAbility.update(self, dt, fireMode, shiftHeld)
 
   self.cooldownTimer = math.max(0, self.cooldownTimer - self.dt)
@@ -18,7 +18,7 @@ function GiantBladeAttack:update(dt, fireMode, shiftHeld)
   end
 end
 
-function GiantBladeAttack:windup()
+function CeruleumFangAttack:windup()
   self.weapon:setStance(self.stances.windup)
   self.weapon:updateAim()
 
@@ -50,7 +50,7 @@ function GiantBladeAttack:windup()
   end
 end
 
-function GiantBladeAttack:slash()
+function CeruleumFangAttack:slash()
   self.weapon:setStance(self.stances.slash)
   self.weapon:updateAim()
 
@@ -67,13 +67,13 @@ function GiantBladeAttack:slash()
   self.cooldownTimer = self.cooldownTime
 end
 
-function GiantBladeAttack:reset()
+function CeruleumFangAttack:reset()
   animator.setAnimationState("giantBlade", "idle")
   animator.setParticleEmitterActive(self.weapon.elementalType.."SwordCharge", false)
   animator.stopAllSounds(self.weapon.elementalType.."charge")
   animator.stopAllSounds(self.weapon.elementalType.."full")
 end
 
-function GiantBladeAttack:uninit()
+function CeruleumFangAttack:uninit()
   self:reset()
 end

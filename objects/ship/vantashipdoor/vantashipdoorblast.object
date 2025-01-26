@@ -18,7 +18,7 @@
   "novakidDescription" : "A door.",
 
 
-  "inventoryIcon" : "vantashipdooricon.png",
+  "inventoryIcon" : "vantashipdoorblasticon.png",
   "orientations" : [
     {
       "dualImage" : "vantashipdoorblast.png:default",

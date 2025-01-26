@@ -37,11 +37,11 @@
     "value" : "/items/active/weapons/melee/abilities/broadsword/iaijutsu/iaijutsu.weaponability"
   },
 
-  {
+  /*{
     "op" : "add",
     "path" : "/chaosstrike",
     "value" : "/items/active/weapons/melee/abilities/broadsword/chaosstrike/chaosstrike.weaponability"
-  },
+  },*/
   // ---------------------------------------------------------------------------
 
   {
@@ -118,7 +118,7 @@
 
 	{
 		"op" : "add",
-		"path" : "/cerulemfang",
+		"path" : "/ceruleumfang",
 		"value" : "/items/active/weapons/melee/abilities/broadsword/ceruleumfang/ceruleumfang.weaponability"
 	}
 ]

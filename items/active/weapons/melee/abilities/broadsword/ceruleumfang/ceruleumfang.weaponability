@@ -46,6 +46,7 @@
           "properties" : {
             "zLevel" : -1,
             "centered" : true,
+						"fullbright" : true,
             "image" : "<giantBlade>",
             "offset" : [0, 3.5],
             "transformationGroups" : ["weapon"],
@@ -128,7 +129,7 @@
     "name" : "Ceruleum Fang",
     "type" : "ceruleumfang",
     "scripts" : ["/items/active/weapons/melee/abilities/broadsword/ceruleumfang/ceruleumfang.lua"],
-    "class" : "GiantBladeAttack",
+    "class" : "CeruleumFangAttack",
 
     "energyUsage" : 120.0,
     "chargeTime" : 0.8,

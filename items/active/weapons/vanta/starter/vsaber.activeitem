@@ -7,10 +7,10 @@
   "rarity" : "Essential",
   "description" : "Your personal saber. It's seen better days, but it has a unique weapon core that allows it to evolve.",
   "shortdescription" : "Weathered Vanta Saber",
-  "tooltipKind" : "sword",
+  "tooltipKind" : "ex_sword",
   "category" : "broadsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword","nightar","vanta","vSaberUpgrade"],
+  "itemTags" : ["weapon","melee","vsaber","vanta","vSaberUpgrade"],
 
   "inventoryIcon" : "vsaber_l0.png",
 
@@ -21,7 +21,7 @@
   },
   "animationCustom" : { },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/vsabermelee.lua"],
 
   "elementalType" : "physical",
 
@@ -34,7 +34,12 @@
 
   "altAbilityType" : "spinslash",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+	"critChance" : 0.25,
+	"critBonus" : 1,
+
+	"masteryRange" : [5, 10],
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua",
 
 	"upgrades" : [
 		{
@@ -49,10 +54,12 @@
 			"shortdescription" : "Vanta Saber",
 			"primaryAbility" : {
 				"comboSteps" : 3,
-		    "fireTime" : 0.625,
-		    "baseDps" : 8.5
+		    "fireTime" : 0.83,
+		    "baseDps" : 11.5
 			},
-			"altAbilityType" : "spinslash"
+			"altAbilityType" : "spinslash",
+			"critChance" : 1,
+			"critBonus" : 1
 		},
 		{
 			"level" : 2,
@@ -65,10 +72,13 @@
 			"shortdescription" : "Vanta Saber ^yellow;ß^reset;",
 			"primaryAbility" : {
 				"comboSteps" : 3,
-				"fireTime" : 0.625,
-				"baseDps" : 9.5
+				"fireTime" : 0.9,
+				"baseDps" : 11.5
 			},
-			"altAbilityType" : "risingslash"
+			"altAbilityType" : "risingslash",
+			"critChance" : 1,
+			"critBonus" : 2,
+			"masteryRange" : [10, 15]
 		},
 		{
 			"level" : 3,
@@ -81,10 +91,12 @@
 			"shortdescription" : "Vanta Saber ^yellow;Г^reset;",
 			"primaryAbility" : {
 				"comboSteps" : 3,
-				"fireTime" : 0.625,
-				"baseDps" : 10.5
+				"fireTime" : 0.95,
+				"baseDps" : 11.5
 			},
-			"altAbilityType" : "bladecharge"
+			"altAbilityType" : "bladecharge",
+			"critChance" : 3,
+			"critBonus" : 5
 		},
 		{
 			"level" : 4,
@@ -95,13 +107,42 @@
 				"handle" : "vsaber_l4_lit.png"
 			},
 			"shortdescription" : "Vanta Saber ^yellow;Ø^reset;",
+			"animationCustom" : {
+				"animatedParts" : {
+					"parts" : {
+						"swoosh" : {
+							"properties" : {
+								"zLevel" : -1,
+			          "centered" : true,
+								"fullbright" : true,
+			          "transformationGroups" : ["swoosh"],
+			          "rotationCenter" : [0, 0]
+							}
+						}
+					}
+				},
+		    "sounds" : {
+		      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+		      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+		      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire4" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire5" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire6" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+				}
+			},
 			"elementalType" : "ceruleum",
 			"primaryAbility" : {
 				"comboSteps" : 6,
-				"fireTime" : 0.625,
-				"baseDps" : 11.5
+				"fireTime" : 0.83,
+				"baseDps" : 11.5,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
 			},
-			"altAbilityType" : "darkslice"
+			"altAbilityType" : "darkslice",
+			"critChance" : 3,
+			"critBonus" : 8,
+			"masteryRange" : [15, 25]
 		},
 		{
 			"level" : 5,
@@ -112,13 +153,44 @@
 				"handle" : "vsaber_l5_lit.png"
 			},
 			"shortdescription" : "^cyan;Nova Vanta Saber",
+			"animationCustom" : {
+				"animatedParts" : {
+					"parts" : {
+						"swoosh" : {
+							"properties" : {
+								"zLevel" : -1,
+			          "centered" : true,
+								"fullbright" : true,
+			          "transformationGroups" : ["swoosh"],
+			          "rotationCenter" : [0, 0]
+							}
+						}
+					}
+				},
+		    "sounds" : {
+		      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+		      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+		      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire4" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire5" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire6" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire7" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire8" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire9" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+		    }
+		  },
 			"elementalType" : "ceruleum",
 			"primaryAbility" : {
 				"comboSteps" : 9,
-				"fireTime" : 0.625,
-				"baseDps" : 11.5
+				"fireTime" : 0.9,
+				"baseDps" : 11.5,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
 			},
-			"altAbilityType" : "ceruleumfang"
+			"altAbilityType" : "traildash",
+			"critChance" : 3.5,
+			"critBonus" : 10
 		},
 		{
 			"level" : 6,
@@ -129,14 +201,47 @@
 				"handle" : "vsaber_l6_lit.png"
 			},
 			"shortdescription" : "^orange;Master Vanta Saber^reset;",
+			"animationCustom" : {
+				"animatedParts" : {
+					"parts" : {
+						"swoosh" : {
+							"properties" : {
+								"zLevel" : -1,
+			          "centered" : true,
+								"fullbright" : true,
+			          "transformationGroups" : ["swoosh"],
+			          "rotationCenter" : [0, 0]
+							}
+						}
+					}
+				},
+		    "sounds" : {
+		      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+		      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+		      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire4" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire5" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire6" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire7" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire8" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire9" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire10" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire11" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+					"fire12" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+		    }
+		  },
 			"elementalType" : "ceruleum",
 			"primaryAbility" : {
 				"comboSteps" : 12,
-				"fireTime" : 0.625,
-				"baseDps" : 12.5
+				"fireTime" : 0.9,
+				"baseDps" : 12.5,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
 			},
-			"altAbilityType" : "torridedge",
-			"requiresAmmo" : false
+			"altAbilityType" : "ceruleumfang",
+			"critChance" : 4,
+			"critBonus" : 12
 		},
 		{
 			"level" : 7,
@@ -151,11 +256,16 @@
 			"elementalType" : "ceruleum",
 			"primaryAbility" : {
 				"comboSteps" : 12,
-				"fireTime" : 0.625,
-				"baseDps" : 12.5
+				"fireTime" : 0.9,
+				"baseDps" : 15,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
 			},
-			"altAbilityType" : "torridedge",
-			"requiresAmmo" : false
+			"altAbilityType" : "ceruleumfang",
+			"critChance" : 10,
+			"critBonus" : 32,
+			"masteryRange" : [25, 45]
 		},
 		{
 			"level" : 8,
@@ -170,11 +280,15 @@
 			"elementalType" : "ceruleum",
 			"primaryAbility" : {
 				"comboSteps" : 12,
-				"fireTime" : 0.625,
-				"baseDps" : 12.5
+				"fireTime" : 0.9,
+				"baseDps" : 15,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
 			},
-			"altAbilityType" : "torridedge",
-			"requiresAmmo" : false
+			"altAbilityType" : "ceruleumfang",
+			"critChance" : 10,
+			"critBonus" : 32
 		},
 		{
 			"level" : 9,
@@ -189,11 +303,15 @@
 			"elementalType" : "ceruleum",
 			"primaryAbility" : {
 				"comboSteps" : 12,
-				"fireTime" : 0.625,
-				"baseDps" : 12.5
+				"fireTime" : 0.9,
+				"baseDps" : 15,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
 			},
-			"altAbilityType" : "torridedge",
-			"requiresAmmo" : false
+			"altAbilityType" : "ceruleumfang",
+			"critChance" : 10,
+			"critBonus" : 32
 		},
 		{
 			"level" : 10,
@@ -208,11 +326,15 @@
 			"elementalType" : "ceruleum",
 			"primaryAbility" : {
 				"comboSteps" : 12,
-				"fireTime" : 0.625,
-				"baseDps" : 12.5
+				"fireTime" : 0.9,
+				"baseDps" : 15,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
 			},
-			"altAbilityType" : "torridedge",
-			"requiresAmmo" : false
+			"altAbilityType" : "ceruleumfang",
+			"critChance" : 10,
+			"critBonus" : 32
 		}
 	]
 }
