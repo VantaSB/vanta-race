@@ -9,6 +9,8 @@
 
 -- luacheck: push ignore 231
 local print, warn, error, assertwarn, assert, tostring; -- Specify these as locals
+-- luacheck: pop
+
 require("/scripts/ex_utilities/hfcodex/LoggingOverride.lua") -- tl;dr I can use print, warn, error, assert, and assertwarn
 
 ---------------------------
@@ -158,8 +160,8 @@ end
 -- The last argument is the maximum string length from this function.
 local function GetNameAbbreviation(name, existingAbbreviations, startSub, maxLen)
 	-- Start out by getting default values.
-	local maxLen = maxLen or 4
-	local startSub = startSub or 1
+	maxLen = maxLen or 4
+	startSub = startSub or 1
 
 	-- Now we want to make sure our maximum length is also not going to be longer than the text since this will throw an error.
 	local newAvailableMax = math.min(maxLen, #name)
@@ -200,14 +202,6 @@ local function GetNameAbbreviation(name, existingAbbreviations, startSub, maxLen
 	end
 	-- And we'll make it here.
 	return abv
-end
-
--- Gets the first element in a dictionary-style table (where the keys are non-numeric)
-function GetFirstInTable(tbl)
-	-- Basically just run one iteration and immediately return the first value.
-	for _, value in pairs(tbl) do
-		return value
-	end
 end
 
 -------------------------------

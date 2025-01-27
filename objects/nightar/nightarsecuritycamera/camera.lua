@@ -43,7 +43,7 @@ function setAimAngle(basePosition, targetAimAngle)
   local aimVector = vec2.rotate(world.distance(tipPosition, basePosition), aimAngle * facingDirection)
 
   tipPosition = vec2.add(basePosition, aimVector)
-  tipOffset = world.distance(tipPosition, object.position())
+  --tipOffset = world.distance(tipPosition, object.position())
 
   aimVector = vec2.norm(aimVector)
   --monster.setFireDirection(tipOffset, aimVector)
@@ -118,7 +118,7 @@ function scanState.update(dt, stateData)
   end
 
   local basePosition = getBasePosition()
-  local aimAngle, laserOrigin, laserEndpoint = setAimAngle(basePosition, angle)
+  local laserOrigin, laserEndpoint = setAimAngle(basePosition, angle)
 
   local targetId = scanState.findTarget(laserOrigin, laserEndpoint)
   if targetId ~= 0 then
@@ -177,7 +177,7 @@ function alertState.update(dt, stateData)
   local rotationRange = vec2.mul(config.getParameter("rotationRange"), math.pi / 180)
   desiredAimAngle = util.clamp(desiredAimAngle, rotationRange[1], rotationRange[2])
 
-  local aimAngle, laserOrigin, laserEndpoint = setAimAngle(basePosition, desiredAimAngle)
+  local laserOrigin, laserEndpoint = setAimAngle(basePosition, desiredAimAngle)
 
   if not alertState.isVisible(laserOrigin, laserEndpoint, stateData.targetId) then
     animator.rotateGroup("camera", animator.currentRotationAngle("camera"))

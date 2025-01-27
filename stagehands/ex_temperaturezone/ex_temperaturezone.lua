@@ -27,9 +27,9 @@ end
 
 function update(dt)
 	if self.active then
-  	local playerList = world.entityQuery(rect.ll(self.broadcastArea), rect.ur(self.broadcastArea), {includedTypes = {"player"} })
-  	for _, id in pairs(playerList) do
-    	world.sendEntityMessage(id, "ex.temperaturezone", self.zoneType)
+		local playerList = world.entityQuery(rect.ll(self.broadcastArea), rect.ur(self.broadcastArea), {includedTypes = {"player"} })
+		for _, id in pairs(playerList) do
+			world.sendEntityMessage(id, "ex.temperaturezone", self.zoneType)
 		end
   end
 end

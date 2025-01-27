@@ -128,7 +128,7 @@ function findGate()
     coroutine.yield()
   end
 
-  self.state:set(self.stages[storage.stage])
+  self.state:set(self.stages[storage.stage]) -- luacheck: ignore 511
 end
 
 function gateFound()
@@ -214,7 +214,6 @@ function findEsther(dt)
   while true do
     if not storage.complete then
       local estherResult = trackEsther()
-      local species = player.species()
       questutil.pointCompassAt(estherResult)
       if estherResult then
         if not storage.bookmarked then
@@ -232,7 +231,7 @@ function findEsther(dt)
     end
     coroutine.yield()
   end
-  self.state:set(self.stages[storage.stage])
+  self.state:set(self.stages[storage.stage]) -- luacheck: ignore 511
 end
 
 function questComplete()

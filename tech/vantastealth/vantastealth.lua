@@ -121,7 +121,7 @@ end
 
 function decreaseTimers()
   local dt = script.updateDt()
-  for i,j in pairs(self.windupHeldTimers) do
+  for i, _ in pairs(self.windupHeldTimers) do
     self.windupHeldTimers[i] = self.windupHeldTimers[i] - dt
   end
   if self.sneakAttackWindow >= 0 then

@@ -55,7 +55,7 @@
 -- Preventing potential overrides
 exutil = exutil or {}
 
-function math.clamp(input, min, max)
+function math.clamp(input, min, max) -- luacheck: ignore 142
 	return math.max(min, math.min(input, max))
 end
 
@@ -64,7 +64,7 @@ function exutil.PrintTable(tbl)
 		local str = "\n{"
 		for k, v in pairs(tbl) do
 			local lenFix = ""
-			for i = 1, 30 - string.len(tostring(k)) do
+			for _ = 1, 30 - string.len(tostring(k)) do
 				lenFix = lenFix.." "
 			end
 
@@ -87,12 +87,12 @@ function exutil._DeepPrintTableHelper(toPrint, level)
 
 	if type(toPrint) == "table" then
 		for k, v in pairs(toPrint) do
-			for i = 0, level do
+			for _ = 0, level do
 				str = str.."	"
 			end
 
 			local lenFix = ""
-			for i = 1, 30 - string.len(tostring(k)) do
+			for _ = 1, 30 - string.len(tostring(k)) do
 				lenFix = lenFix.." "
 			end
 
@@ -113,7 +113,7 @@ function exutil._DeepPrintTableHelper(toPrint, level)
 end
 
 function exutil.RGBToHex(num)
-	num = math.clamp(math.floor(num + 0.5), 0, 255)
+	num = math.clamp(math.floor(num + 0.5), 0, 255) -- luacheck: ignore 143
 
 	local hexidecimal = "0123456789ABCDEF"
 	local units = num%16+1
@@ -122,7 +122,7 @@ function exutil.RGBToHex(num)
 end
 
 function exutil.ValToHex(num)
-	return exutil.RGBToHex(255 * math.clamp(num, 0, 1))
+	return exutil.RGBToHex(255 * math.clamp(num, 0, 1)) -- luacheck: ignore 143
 end
 
 function exutil.HexToRGB(hex)
@@ -161,7 +161,7 @@ end
 function exutil.RollDice(dice, sides, mod)
 	local sum = mod or 0
 
-	for i = 1, dice do
+	for _ = 1, dice do
 		sum = sum + math.random(1, sides)
 	end
 

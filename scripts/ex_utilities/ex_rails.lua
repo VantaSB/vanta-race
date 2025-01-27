@@ -357,7 +357,7 @@ function Rails.createRider(riderConfig)
   -- use maximally inclusive search to find any rail segment at the given position
   -- and then attach to it
   function Rider:findInitialNode(pos)
-    local pos = util.tileCenter(pos)
+    pos = util.tileCenter(pos)
 
     -- first, determine whether there is a rail material at the position we're checking
     local searchMaterial = self:checkTile(pos)

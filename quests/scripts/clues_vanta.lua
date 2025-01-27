@@ -116,7 +116,7 @@ function remainingObjects()
 
   if self.totalValue >= self.targetValue then return result end
 
-  for objectName, value in pairs(self.objectValues) do
+  for objectName, _ in pairs(self.objectValues) do
     if not storage.scannedObjects[objectName] then
       table.insert(result, objectName)
     end

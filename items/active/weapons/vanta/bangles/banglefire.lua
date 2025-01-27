@@ -28,10 +28,10 @@ function BangleFire:update(dt, fireMode, shiftHeld)
 		and not status.resourceLocked("energy") then
 
 		if not shiftHeld then
-    	if self.fireType == "auto" and status.overConsumeResource("energy", self:energyPerShot()) then
-      	self:setState(self.auto)
-    	elseif self.fireType == "burst" then
-      	self:setState(self.burst)
+			if self.fireType == "auto" and status.overConsumeResource("energy", self:energyPerShot()) then
+				self:setState(self.auto)
+			elseif self.fireType == "burst" then
+				self:setState(self.burst)
 			end
 		else
 			self:setState(self.charge)
@@ -150,7 +150,7 @@ function BangleFire:fireProjectile(projectileType, projectileParams, inaccuracy,
   end
 
   local projectileId = 0
-  for i = 1, (projectileCount or self.projectileCount) do
+  for _ = 1, (projectileCount or self.projectileCount) do
     if params.timeToLive then
       params.timeToLive = util.randomInRange(params.timeToLive)
     end
@@ -225,7 +225,7 @@ function BangleFire:fireChargeShot()
   local spreadAngle = util.toRadians(self.chargeLevel.spreadAngle or 0)
   local totalSpread = spreadAngle * (projectileCount - 1)
   local currentAngle = totalSpread * -0.5
-  for i = 1, projectileCount do
+  for _ = 1, projectileCount do
     if params.timeToLive then
       params.timeToLive = util.randomInRange(params.timeToLive)
     end

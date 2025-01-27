@@ -626,7 +626,7 @@ function draw()
 	if researchTree then
 		local startPoint = {0,0}
 		local endPoint = {0,0}
-		local color = "#000000"
+		--local color
 		--local state = ""
 		--local scale = 1
 
@@ -677,7 +677,7 @@ function draw()
 
 			if withinBounds(startPoint, endPoint) then
 				if tbl.state ~= "hidden" or (tbl.state == "hidden" and tbl.alwaysShow) then
-					color = "#696969"
+					local color = "#696969"
 
 					if not tbl.state or tbl.state == "unavailable" then
 						--color = "#FF5555"
