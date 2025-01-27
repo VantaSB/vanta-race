@@ -210,7 +210,7 @@ function findEsther(dt)
   quest.setObjectiveList({{self.descriptions.findEsther, false}})
 
   local trackEsther = util.uniqueEntityTracker(self.estherUid, self.compassUpdate)
-  local trackGate = util.uniqueEntityTracker(self.gateUid, self.compassUpdate)
+  local trackGate = util.uniqueEntityTracker(self.gateUid, self.compassUpdate) -- luacheck: ignore 211
   while true do
     if not storage.complete then
       local estherResult = trackEsther()

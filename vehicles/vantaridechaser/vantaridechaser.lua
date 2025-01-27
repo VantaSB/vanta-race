@@ -225,7 +225,7 @@ function updateDriveEffects(healthFactor, driverThisFrame)
   end
 
   local rearThrusterFrame = 0
-  local ventralThrusterFrame = 0
+  --local ventralThrusterFrame = 0
 
   -- is the engine sound playing ?
   --[[if (self.loopPlaying ~= nil) then
