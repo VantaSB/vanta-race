@@ -1,22 +1,22 @@
 {
-  "itemName" : "vantasaber",
+  "itemName" : "vantanpcsaber",
   "price" : 0,
   "level" : 4,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "An advanced blade, typically issued to elite Vanta personnel.",
+  "description" : "An advanced blade, typically issued to elite Vanta personnel. This does not have a weapon core like yours, however.",
   "shortdescription" : "Vanta Saber",
   "tooltipKind" : "sword",
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword","vanta"],
 
-  "inventoryIcon" : "vantasaber.png",
+  "inventoryIcon" : "vantanpcsaber.png",
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
-    "handle" : "vantasaber.png",
-    "handlefullbright" : "vantasaberlit.png",
+    "handle" : "vantanpcsaber.png",
+    "handlefullbright" : "vantanpcsaberlit.png",
     "blade" : ""
   },
   "animationCustom" : { },

@@ -1,7 +1,6 @@
 ExCrit = {}
 
 function ExCrit:setCritDamage(damage)
-	local masteryRange = config.getParameter("masteryRange", {5, 10})
 	local critChance = config.getParameter("critChance", 1) + status.stat("critChance")
 	local critBonus = config.getParameter("critBonus", 0) + status.stat("critBonus")
 	local critDamage = status.stat("critDamage")

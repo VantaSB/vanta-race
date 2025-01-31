@@ -5,12 +5,12 @@
 	"upgradeNum" : 0,
   "maxStack" : 1,
   "rarity" : "Essential",
-  "description" : "Your personal saber. It's seen better days, but it has a unique weapon core that allows it to evolve.",
+  "description" : "Your personal saber. It has a unique weapon core that allows it to evolve. It needs repairing...",
   "shortdescription" : "Vanta Saber",
   "tooltipKind" : "ex_sword",
   "category" : "broadsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","vsaber","vanta","vSaberUpgrade"],
+  "itemTags" : ["weapon","melee","vsaber","vanta","vantaUpgrade"],
 
   "inventoryIcon" : "vsaber_l0.png",
 
@@ -34,10 +34,8 @@
 
   "altAbilityType" : "spinslash",
 
-	"critChance" : 0.25,
+	"critChance" : 1,
 	"critBonus" : 1,
-
-	"masteryRange" : [5, 10],
 
   "builder" : "/items/buildscripts/buildvantaweapon.lua",
 
@@ -50,6 +48,7 @@
 				"blade" : "vsaber_l2.png",
 				"handle" : "vsaber_l2_lit.png"
 			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
 			"shortdescription" : "Vanta Saber ^yellow;ß^reset;",
 			"primaryAbility" : {
 				"comboSteps" : 3,
@@ -69,6 +68,7 @@
 				"blade" : "vsaber_l3.png",
 				"handle" : "vsaber_l3_lit.png"
 			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
 			"shortdescription" : "Vanta Saber ^yellow;Г^reset;",
 			"primaryAbility" : {
 				"comboSteps" : 3,
@@ -87,6 +87,7 @@
 				"blade" : "vsaber_l4.png",
 				"handle" : "vsaber_l4_lit.png"
 			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
 			"shortdescription" : "Vanta Saber ^yellow;Ø^reset;",
 			"animationCustom" : {
 				"animatedParts" : {
@@ -133,6 +134,7 @@
 				"blade" : "vsaber_l5.png",
 				"handle" : "vsaber_l5_lit.png"
 			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
 			"shortdescription" : "^cyan;Nova Vanta Saber",
 			"animationCustom" : {
 				"animatedParts" : {
@@ -181,6 +183,7 @@
 				"blade" : "vsaber_l6.png",
 				"handle" : "vsaber_l6_lit.png"
 			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
 			"shortdescription" : "^orange;Master Vanta Saber^reset;",
 			"animationCustom" : {
 				"animatedParts" : {

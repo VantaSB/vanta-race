@@ -16,7 +16,7 @@ function update(dt)
 end
 
 function populateItemList(forceRepop)
-	local upgradeableWeapon = player.itemsWithTag("vSaberUpgrade")
+	local upgradeableWeapon = player.itemsWithTag("vantaUpgrade")
 	for i = 1, #upgradeableWeapon do
 		upgradeableWeapon[i].count = 1
 	end

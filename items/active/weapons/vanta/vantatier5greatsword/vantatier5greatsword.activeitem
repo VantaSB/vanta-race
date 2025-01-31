@@ -1,24 +1,24 @@
 {
-  "itemName" : "vantagreatblade",
+  "itemName" : "vantatier5greatsword",
   "price" : 0,
-  "level" : 4,
+  "level" : 5,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
-  "description" : "An advanced Vanta weapon designed to tackle larger monsters.",
-  "shortdescription" : "Vanta Great Blade",
+  "rarity" : "Rare",
+  "description" : "A weapon whose initial purpose was for ceremonial purposes.",
+  "shortdescription" : "Vanta Executioner Blade",
   "tooltipKind" : "sword",
   "category" : "greatsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword","vanta"],
 
-  "inventoryIcon" : "vantagreatblade.png",
+  "inventoryIcon" : "vantatier5greatsword.png",
 
-  "animation" : "vantagreatblade.animation",
+  "animation" : "vantatier5greatsword.animation",
   "animationCustom" : { },
 
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
 
-  "elementalType" : "fire",
+  "elementalType" : "ceruleum",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {

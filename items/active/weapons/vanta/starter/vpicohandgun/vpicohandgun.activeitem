@@ -1,28 +1,28 @@
 {
-  "itemName" : "vantapicohandgun",
-  "level" : 1,
-  "price" : 250,
-  "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "A standard-issue sidearm. It's useful against smaller enemies.",
-  "shortdescription" : "Pico Handgun",
-  "tooltipKind" : "gun",
+  "itemName" : "vpicohandgun",
+  "price" : 0,
+	"level" : 1,
+	"upgradeNum" : 0,
+	"maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "Your personal handgun. It has a unique weapon core that allows it to evolve. It's seen better days...",
+  "shortdescription" : "Vanta Pistol",
+  "tooltipKind" : "base",
   "category" : "pistol",
   "twoHanded" : true,
-  "itemTags" : [ "pistol", "weapon", "ranged" ],
+	"itemTags" : ["pistol", "ranged", "melee", "vanta","vantaUpgrade"],
 
-  "inventoryIcon" : "vantapicohandgun.png",
+  "inventoryIcon" : "vgun_l0.png",
 
-  "animation" : "vantapicohandgun.animation",
+  "animation" : "vpicohandgun.animation",
   "animationParts" : {
-    "middle" : "vantapicohandgun.png",
+    "middle" : "vgun_l0.png",
     "middleFullbright" : "",
     "muzzleFlash" : "muzzleflash.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/plasma_pistol4.ogg"],
-      "altFire" : [ "/sfx/gun/plasma_shotgun1.ogg" ]
+      "fire" : ["/sfx/gun/plasma_pistol4.ogg"]
     }
   },
 
@@ -36,15 +36,17 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.42,
-    "baseDps" : 10,
-    "energyUsage" : 10,
+    "fireTime" : 0.32,
+    "baseDps" : 6,
+    "energyUsage" : 5,
     "projectileCount" : 1,
-    "inaccuracy" : 0.0125,
-		"fireType" : "auto",
+    "inaccuracy" : 0.02,
 
     "projectileType" : "plasmabullet",
-    "projectileParameters" : { },
+    "projectileParameters" : {
+			"power" : 5.0,
+			"speed" : 150
+		},
 
     "stances" : {
       "idle" : {
@@ -129,5 +131,23 @@
     }
 	},
 
-  "builder" : "/items/buildscripts/buildweapon.lua"
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua",
+
+	"upgrades" : [
+		{
+			"upgradeNum" : 1,
+			"level" : 2,
+			"inventoryIcon" : "",
+			"animationParts" : {
+				"middle" : "vgun_l0.png",
+		    "middleFullbright" : "",
+		    "muzzleFlash" : "muzzleflash.png"
+			},
+			"description" : "Your personal handgun. It has a unique weapon core that allows it to evolve.",
+		  "shortdescription" : "Vanta Pistol"
+		}
+	]
 }
