@@ -125,7 +125,7 @@
         "properties" : {
           "centered" : true,
           "fullbright" : true,
-          "zLevel" : 2,
+          "zLevel" : 5,
           "offset" : [7, 15]
         },
 

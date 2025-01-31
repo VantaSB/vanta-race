@@ -1,0 +1,43 @@
+{
+  "id" : "vanta_trial1",
+  "prerequisites" : [ "vanta_prep1" ],
+  "title" : "Dark Echoes - Part I",
+  "text" : "I have reveiewed your equipment, and it looks like you are now adequately prepared. The ^green;Temple of Awakening^reset; was used as a proving grounds to celebrate adolescent Nightars becoming new warriors. Additionally, there appears to be some sort of ^orange;artifact^reset; hidden there. I do not know what to expect, so tread carefully.",
+  "completionText" : "Beg pardon? You travelled through the ^orange;void^reset;!? Good grief... at least you're here in one piece. There's not much going on at the moment, but I'll have something for you as soon as I can. You may want to ^green;try seeing if anyone else out there needs your help for now^reset;.",
+  "moneyRange" : [100, 100],
+	"rewards" : [
+    [ ["rewardbag", 1] ]
+  ],
+
+  "questGiverIndicator" : "vanta_mainquestgiver",
+  "questReceiverIndicator" : "vanta_mainquestreceiver",
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/ex_artifact.lua",
+  "scriptConfig" : {
+    "portraits" : {
+			"questStarted" : "sail",
+      "questComplete" : "questReceiver"
+    },
+		"associatedMission" : "trialvanta1",
+		"missionUnlockedCinema" : "/cinematics/coordinates.cinematic",
+		"missionRadioMessage" : {
+			"messageId" : "vantatrial1unlocked",
+			"unique" : false,
+			"text" : "I have loaded the coordinates for the ^orange;Temple of Awakening^reset;. ^green;Use the ship's computer^reset; to access the location."
+  	},
+
+		"descriptions" : {
+			"artifact" : "Find the ^orange;artifact^reset; within the ^orange;Temple of Awakening^reset;",
+			"turnIn" : "Enter the ^orange;dark gate^reset; and explore"
+		},
+
+		"artifactUid" : "vantaartifactaltar",
+		"artifactInventory" : "darkgatekey",
+		"artifactMessage" : "vantaArtifactTaken",
+
+		"turnInUid" : "ranoutpost",
+
+		"artifactCinema" : "/cinematics/artifacts/tetrakey.cinematic"
+	}
+}

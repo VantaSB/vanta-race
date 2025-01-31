@@ -1,0 +1,36 @@
+{
+	"vantatrial1_1" : {
+		"type" : "mission",
+		"text" : "The temple is up ahead. I'm getting strange energy signatures from beneath the structure."
+	},
+
+	"vantatrial1_2" : {
+		"type" : "mission",
+		"text" : "Curious... some of the readings I'm getting are coming from that tome. I recommend you look at it - it may give us some insight in what to expect from this place."
+	},
+
+	"vantatrial1_3" : {
+		"type" : "mission",
+		"text" : "I'm detecting multiple life signatures in the chambers ahead. Use anything and everything at your disposal to proceed."
+	},
+
+	"vantatrial1_4" : {
+		"type" : "mission",
+		"text" : "This temple is very old. How these creatures have survived for this long without sustenance is bewildering. Perhaps there is ^orange;some other force at work^reset; here keeping them alive."
+	},
+
+	"vantatrial1_5" : {
+		"type" : "mission",
+		"text" : "You are progressing swimmingly and are nearing the ^orange;other energy signature^reset; present. I am still unable to determine what exactly the source is."
+	},
+
+	"vantatrial1_6" : {
+		"type" : "mission",
+		"text" : "There is a larger warp signature in the chamber ahead, but I cannot analyze it properly. The key you obtained appears to power it up - take caution before entering it."
+	},
+
+	"vantabladealtar" : {
+		"type" : "mission",
+		"text" : "This statue contains some of the same materials as your ^orange;Vanta Saber^reset;. If you have it with you, I recommend you try and interact with it - you may find a way to repair or even upgrade it."
+	}
+}

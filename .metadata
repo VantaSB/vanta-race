@@ -1,12 +1,12 @@
 {
+	"version" : "2.1.0",
+	"tags" : "Crafting and Building|Miscellaneous|Planets and Environments|Weapons|Species|Furniture and Objects|Armor and Clothes",
   "author" : "AbsoluteXeroEX",
   "description" : "When a desire to break away from the dogmatic traditions of the Nightars gained traction at an exponential rate, those who were exiled became the Vanta, a new generation of Nightars who realized the potential value of forming alliances and advancing themselves as a species. While dealings still remain rocky between themselves and other races, they are more willing than their predecessors to work with other races for mutual benefit.",
-  "friendlyName" : "Vanta Race",
-  "includes" : ["QuickbarMini"],
-  "link" : "https://github.com/AbsoluteXeroEX/vanta-race",
   "name" : "vanta-race",
   "priority" : -99,
+	"friendlyName" : "Vanta Race",
   "steamContentId" : "1325968658",
-  "tags" : "Crafting and Building|Miscellaneous|Planets and Environments|Weapons|Species|Furniture and Objects|Armor and Clothes",
-  "version" : "2.1.0"
+	"link" : "https://github.com/VantaSB/vanta-race",
+	"includes" : ["base", "QuickbarMini", "communityframework"]
 }

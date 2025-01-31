@@ -7,7 +7,6 @@ function init()
   self.networkedDoor = nil
   self.locked = true
   self.interval = config.getParameter("interval", 30)
-  self.warpDest = config.getParameter("warpDest", {0, 0})
   storage.timer = 0
 
   message.setHandler("openDoor", function()

@@ -5,18 +5,19 @@ function init()
   self.detectArea[1] = object.toAbsolutePosition(self.detectArea[1])
   self.detectArea[2] = object.toAbsolutePosition(self.detectArea[2])
   self.lightColor = config.getParameter("lightColor")
+	self.destination = config.getParameter("destination", "vantaoutpost")
 
   animator.setAnimationState("baseState", "off")
   animator.setAnimationState("orb", "off")
   animator.setAnimationState("portal", "closed")
   object.setLightColor({0, 0, 0})
-  sb.logInfo("Light color: %s", self.lightColor)
 
   storage.active = storage.active or config.getParameter("startActive", false)
 
   message.setHandler("activate", function()
     storage.active = true
     animator.setAnimationState("baseState", "on")
+		animator.setAnimationState("orb", "on")
     animator.playSound("activate")
     object.setLightColor(self.lightColor)
   end)
@@ -40,7 +41,8 @@ function onInteraction()
   if not storage.active then
     return {config.getParameter("inactiveInteractAction"), config.getParameter("inactiveInteractData")}
   else
-    return {config.getParameter("interactAction"), config.getParameter("interactData")}
+    --return {config.getParameter("interactAction"), config.getParameter("interactData")}
+		return {config.getParameter("interactAction", "OpenTeleportDialog"), "/interface/warping/" .. self.destination .. ".config"}
   end
 end
 

@@ -17,6 +17,24 @@
     }
   },
 
+	{
+		"op" : "add",
+		"path" : "/vanta_trialintro",
+		"value" : {
+			"primaryDungeon" : "vanta_trialintro",
+	    "threatLevel" : 2,
+	    "gravity" : 80,
+	    "worldSize" : [2000, 1000],
+	    "dungeonBaseHeight" : 975,
+			"dungeonSurfaceHeight" : 810,
+	    "ambientLightLevel" : [32, 32, 32],
+	    //"musicTrack" : "/music/pom-marine_relic.ogg",
+			"musicTrack" : "/music/crystal-exploration1.ogg",
+			"environmentStatusEffects" : [ "dontstarve" ],
+      "biome" : "proximamoon"
+		}
+	},
+
   {
     "op" : "add",
     "path" : "/nightfort",
@@ -44,18 +62,19 @@
     "value" : {
       "primaryDungeon" : "vantaoutpost",
       "weatherPool" : [
-        [ 1.0, "fog" ]
+        [ 0.5, "clear" ],
+				[ 0.5, "voidrain" ]
       ],
       "threatLevel" : 1,
       "gravity" : 80,
       "worldSize" : [2500, 2000],
-      "dungeonBaseHeight" : 975,
-      "dungeonSurfaceHeight" : 810,
+      "dungeonBaseHeight" : 1000,
+      "dungeonSurfaceHeight" : 900,
       "ambientLightLevel" : [32, 32, 32],
       "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
       "musicTrack" : "/music/doc_ffvii-underground_complex.ogg",
       "environmentStatusEffects" : ["dontstarve"],
-      "biome" : "proximamoon"
+      "biome" : "proximamooncity"
     }
   },
 
@@ -87,11 +106,11 @@
       "primaryDungeon" : "vantamission1",
       "threatLevel" : 6,
       "gravity" : 80,
-      "worldSize" : [2500, 1500],
-      "dungeonBaseHeight" : 1000,
-      "dungeonSurfaceHeight" : 810,
+      "worldSize" : [1500, 3000],
+      "dungeonBaseHeight" : 3000,
+      "dungeonSurfaceHeight" : 3000,
       "ambientLightLevel" : [32, 32, 32],
-      "musicTrack" : "/music/fpm-light_speed.ogg",
+      "musicTrack" : "/music/fpm-be_thrilled.ogg",
       "environmentStatusEffects" : ["dontstarve"],
 	    "worldEdgeForceRegions" : "TopAndBottom",
       "biome" : "space"
@@ -117,5 +136,23 @@
       "environmentStatusEffects" : ["dontstarve"],
       "biome" : "ex_void"
     }
-  }
+  },
+
+	{
+		"op" : "add",
+		"path" : "/void_barbatos",
+		"value" : {
+			"primaryDungeon" : "void_barbatos",
+	    "threatLevel" : 3,
+	    "gravity" : 75,
+	    "worldSize" : [2000, 1000],
+	    "dungeonBaseHeight" : 975,
+			"dungeonSurfaceHeight" : 810,
+	    "ambientLightLevel" : [64, 64, 64],
+	    //"musicTrack" : "/music/pom-marine_relic.ogg",
+			"musicTrack" : "/music/fpm-be_thrilled.ogg",
+			"environmentStatusEffects" : [ "dontstarve" ],
+      "biome" : "ex_void"
+		}
+	}
 ]

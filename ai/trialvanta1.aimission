@@ -1,0 +1,17 @@
+{
+  "missionName" : "trialvanta1",
+  "icon" : "vantamission.png",
+  "missionWorld" : "vanta_trialintro",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "^orange;Trial^reset;: Temple of Awakening",
+      "repeatButtonText" : "Revisit ^orange;Trial^reset;: Temple of Awakening",
+      "selectSpeech" : {
+        "animation" : "talk",
+        "text" : "A temple on the ancient Nightar homeworld. There appears to be a useful artifact here, along with other strange readings.",
+        "speedModifier" : 1.0
+      }
+    }
+  }
+}

@@ -35,10 +35,10 @@
 
 	{
 		"op" : "add",
-		"path" : "/vanta_awakeningtemple",
+		"path" : "/vanta_trialintro",
 		"value" : {
 			"type" : "FloatingDungeon",
-			"dungeonWorld" : "vanta_awakeningtemple",
+			"dungeonWorld" : "vanta_trialintro",
 			"seed" : 1234,
 			"spawningEnabled" : false,
 			"beamUpRule" : "Anywhere",
@@ -364,6 +364,43 @@
     "value" : {
       "type" : "FloatingDungeon",
       "dungeonWorld" : "ex_voiddungeontest",
+      "seed" : 1234,
+      "spawningEnabled" : false,
+      "beamUpRule" : "Anywhere",
+      "disableDeathDrops" : true,
+
+      "skyParameters" : {
+        "dayLength" : 10000,
+        "surfaceLevel" : 1000,
+        "spaceLevel" : 3000,
+        "seed" : -5288806180628666923,
+
+        "skyType" : "atmospheric",
+
+        "skyColoring" : {
+          "mainColor" : [100, 100, 100],
+
+          "morningColors" : [ [51, 102, 103], [51, 102, 103] ],
+          "dayColors" : [ [51, 102, 103], [51, 102, 103] ],
+          "eveningColors" : [ [51, 102, 103], [51, 102, 103] ],
+          "nightColors" : [ [51, 102, 103], [51, 102, 103] ],
+
+          "morningLightColor" : [51, 102, 103],
+          "dayLightColor" : [51, 102, 103],
+          "eveningLightColor" : [51, 102, 103],
+          "nightLightColor" : [51, 102, 103]
+        }
+      }
+    }
+  },
+
+	//Actual void dungeons
+  {
+    "op" : "add",
+    "path" : "/void_barbatos",
+    "value" : {
+      "type" : "FloatingDungeon",
+      "dungeonWorld" : "void_barbatos",
       "seed" : 1234,
       "spawningEnabled" : false,
       "beamUpRule" : "Anywhere",

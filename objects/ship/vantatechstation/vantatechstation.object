@@ -37,7 +37,8 @@
     }
   ],
 
-  "offeredQuests" : [ "gaterepair_vanta" ],
+  "offeredQuests" : [ "gaterepair_vanta", "vanta_prep1", "vanta_trial1" ],
+	"turnInQuests" : [ "vanta_prep1" ],
 
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [
@@ -56,7 +57,7 @@
       [ "Greetings, Captain. I am ^cyan;S.A.I.L.^reset;, your personal AI assistant.", "/ai/portraits/vantaportrait.png:talk.0"],
       [ "I help manage the status of your ship and and crew.", "/ai/portraits/vantaportrait.png:talk.0"],
       [ "I can also offer you information during your travels.", "/ai/portraits/vantaportrait.png:talk.0" ],
-      [ "Our escape was accompanied by a catastrophic system failure. Heavy damage was sustained just before transit.", "/ai/portraits/vantaportrait.png:talk.1" ],
+      [ "Our escape was accompanied by a system failure. The FTL drive was damaged just before transit.", "/ai/portraits/vantaportrait.png:talk.1" ],
       [ "We are currently holding orbit over an unknown planet. Its threat level is ^green;minimal^reset;.", "/ai/portraits/vantaportrait.png:talk.1" ],
       [ "I have restored power to the ^yellow;teleporter^reset;, I recommend you beam down and gather supplies.", "/ai/portraits/vantaportrait.png:talk.1" ],
       [ "Please don't hesitate to talk to me if you need further assistance.", "/ai/portraits/vantaportrait.png:talk.0" ]

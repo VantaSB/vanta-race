@@ -1,11 +1,11 @@
 {
   "metadata" : {
-    "name" : "vantamission1",
-    "species" : "vanta",
+    "name" : "vanta_trialintro",
+    "species" : "generic",
     "rules" : [],
 
-    "anchor" : [ "vantamission1" ],
-    "gravity" : 80,
+    "anchor" : [ "vanta_trialintro" ],
+
     "maxRadius" : 1000000,
     "maxParts" : 1,
     "protected" : true
@@ -13,11 +13,11 @@
 
   "parts" : [
     {
-      "name" : "vantamission1",
+      "name" : "vanta_trialintro",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "vantamission1.json" ]
+      "def" : [ "tmx", "vanta_trialintro.json" ]
     }
   ]
 }

@@ -22,22 +22,22 @@ function ExCrit:setCritDamage(damage)
 				if stunRoll > 99 and root.itemHasTag(heldItem, "dagger") then
 					params.speed = 14
 					world.spawnProjectile("excritdagger", mcontroller.position(), activeItem.ownerEntityId(), ExCrit.aimVectorSpecial(self), true, params)
-					world.spawnItem("skillpoint", world.entityPosition(player.id()), math.random(masteryRange[1], masteryRange[2]))
+					--world.spawnItem("skillpoint", world.entityPosition(player.id()), math.random(masteryRange[1], masteryRange[2]))
 				end
 				if stunRoll > 99 and root.itemHasTag(heldItem, "spear") then
 					params.speed = 55
 					world.spawnProjectile("excritspear", mcontroller.position(), activeItem.ownerEntityId(), ExCrit.aimVectorSpecial(self), false, params)
-					world.spawnItem("skillpoint", world.entityPosition(player.id()), math.random(masteryRange[1], masteryRange[2]))
+					--world.spawnItem("skillpoint", world.entityPosition(player.id()), math.random(masteryRange[1], masteryRange[2]))
 				end
 				if stunRoll > 99 and root.itemHasTag(heldItem, "shortsword") or root.itemHasTag(heldItem, "vsaber") then
 					params.speed = 30
 					world.spawnProjectile("excritshortsword", mcontroller.position(), activeItem.ownerEntityId(), ExCrit.aimVectorSpecial(self), false, params)
-					world.spawnItem("skillpoint", world.entityPosition(player.id()), math.random(masteryRange[1], masteryRange[2]))
+					--world.spawnItem("skillpoint", world.entityPosition(player.id()), math.random(masteryRange[1], masteryRange[2]))
 				end
 				if stunRoll > 99 and (root.itemHasTag(heldItem, "fist") or root.itemHasTag(heldItem, "hammer") or root.itemHasTag(heldItem, "axe") or root.itemHasTag(heldItem, "greatsword")) then
 					params.speed = 35
 					world.spawnProjectile("excritstun", mcontroller.position(), activeItem.ownerEntityId(), ExCrit.aimVectorSpecial(self), false, params)
-					world.spawnItem("skillpoint", world.entityPosition(player.id()), math.random(masteryRange[1], masteryRange[2]))
+					--world.spawnItem("skillpoint", world.entityPosition(player.id()), math.random(masteryRange[1], masteryRange[2]))
 				end
 			end
 		end

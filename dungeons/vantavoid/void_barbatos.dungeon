@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "void_barbatos",
+    "species" : "generic",
+    "rules" : [],
+
+    "anchor" : [ "void_barbatos" ],
+
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "void_barbatos",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "void_barbatos.json" ]
+    }
+  ]
+}

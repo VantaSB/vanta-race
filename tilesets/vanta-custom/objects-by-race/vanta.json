@@ -818,19 +818,29 @@
     "89" : {
 			"//description" : "A door suitable for a spaceship.",
       "//name" : "vantashipdoorblast",
-      "//shortdescription" : "vanta Ship Door",
+      "//shortdescription" : "Vanta Ship Door",
       "imagePositionX" : "-24",
       "imagePositionY" : "0",
       "object" : "vantashipdoorblast",
       "tilesetDirection" : "right"
     },
     "90" : {
-      "//name" : "ex_fluorescentlight3_orientation0",
-      "invalid" : "true"
+			"//description" : "It looks like it was made to hold something important.",
+      "//name" : "vantaartifactaltar",
+      "//shortdescription" : "Vanta Artifact Altar",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantaartifactaltar",
+      "tilesetDirection" : "right"
     },
     "91" : {
-      "//name" : "ex_fluorescentlight3_orientation1",
-      "invalid" : "true"
+			"//description" : "A type of switch seen only among the Nightar and Vanta.",
+      "//name" : "glyphswitchlarge",
+      "//shortdescription" : "Glyph Switch",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "glyphswitchlarge",
+      "tilesetDirection" : "right"
     },
     "92" : {
       "//name" : "ex_fluorescentlight3_orientation2",
@@ -2381,10 +2391,10 @@
       "image" : "../../../tiled/vanta-custom/objects/vantashipdoorblast.png"
     },
     "90" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantaartifactaltar.png"
     },
     "91" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/glyphswitchlarge.png"
     },
     "92" : {
       "image" : "../../../tiled/vanta-custom/invalid.png"
