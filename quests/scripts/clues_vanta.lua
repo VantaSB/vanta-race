@@ -77,7 +77,7 @@ end
 
 function computeTotal()
   self.totalValue = 0
-  for objectName, value in pairs(storage.scannedObjects) do
+  for _, value in pairs(storage.scannedObjects) do
     self.totalValue = self.totalValue + value
   end
   self.totalValue = self.totalValue + (#storage.dialogClues * self.dialogClueValue)
@@ -116,7 +116,7 @@ function remainingObjects()
 
   if self.totalValue >= self.targetValue then return result end
 
-  for objectName, value in pairs(self.objectValues) do
+  for objectName, _ in pairs(self.objectValues) do
     if not storage.scannedObjects[objectName] then
       table.insert(result, objectName)
     end

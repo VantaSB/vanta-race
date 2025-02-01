@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "exChestArmorAcc",
-  "description" : "A durable, lightweight coat to protect you from harsher environments.",
-  "shortdescription" : "Delver Coat",
+  "description" : "A lightweight and invigorating cuirass made of solarium to add resiliency.",
+  "shortdescription" : "Demagogue Armor",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

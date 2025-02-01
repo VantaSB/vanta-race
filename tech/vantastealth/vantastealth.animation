@@ -43,8 +43,8 @@
   },
 
   "sounds" : {
-    "activate" : [ "/sfx/tech/tech_blink1.ogg" ],
-    "deactivate" : [ "/sfx/tech/tech_blink2.ogg" ],
+    "activate" : [ "/sfx/tech/ex_cloak_on.ogg" ],
+    "deactivate" : [ "/sfx/tech/ex_cloak_off.ogg" ],
     "activationFail" : [ "/sfx/interface/nav_insufficient_fuel.ogg"],
     "breakStealth" : [ "/sfx/gun/lightningcoil3.ogg" ]
   },

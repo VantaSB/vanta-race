@@ -1,0 +1,154 @@
+{
+  "animatedParts" : {
+		"stateTypes" : {
+			"doorState" : {
+				"default" : "closed",
+				"states" : {
+					"opening" : {
+						"frames" : 2,
+						"cycle" : 0.15,
+						"mode" : "transition",
+						"transition" : "openLoop"
+					},
+					"lockOpen" : {
+						"frames" : 2,
+						"cycle" : 0.15
+					},
+					"openLoop" : {
+						"frames" : 6,
+						"cycle" : 0.65,
+						"mode" : "loop"
+					},
+					"closing" : {
+						"frames" : 2,
+						"cycle" : 0.15,
+						"mode" : "transition",
+						"transition" : "closed"
+					},
+					"closed" : { },
+					"locking" : {
+						"frames" : 2,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "locked"
+					},
+					"locked" : { }
+				}
+			}
+		},
+
+		"parts" : {
+			"bg" : {
+				"properties" : {
+					"centered" : false,
+					"fullbright" : true,
+					"zLevel" : -1
+				},
+				"partStates" : {
+					"doorState" : {
+						"opening" : {
+	             "properties" : {
+	               "image" : "<partImage>:opening.<frame>"
+	             }
+	           },
+
+            "closing" : {
+              "properties" : {
+                "image" : "<partImage>:close.<frame>"
+              }
+            },
+
+            "closed" : {
+              "properties" : {
+                "image" : "<partImage>:default"
+              }
+            },
+
+            "lockOpen" : {
+              "properties" : {
+                "image" : "<partImage>:lockOpen.<frame>"
+              }
+            },
+
+            "locking" : {
+              "properties" : {
+                "image" : "<partImage>:lockClose.<frame>"
+              }
+            },
+
+            "locked" : {
+              "properties" : {
+                "image" : "<partImage>:locked"
+              }
+            },
+
+						"openLoop" : {
+							"properties" : {
+								"image" : "<partImage>:openLoop.<frame>"
+							}
+						}
+					}
+				},
+
+				"fg" : {
+					"properties" : {
+						"centered" : false,
+						"fullbright" : false,
+						"zLevel" : 1
+					},
+					"partStates" : {
+						"doorState" : {
+							"opening" : {
+	              "properties" : {
+	                "image" : "<partImage>:opening.<frame>"
+	              }
+	            },
+
+	            "closing" : {
+	              "properties" : {
+	                "image" : "<partImage>:close.<frame>"
+	              }
+	            },
+
+	            "closed" : {
+	              "properties" : {
+	                "image" : "<partImage>:default"
+	              }
+	            },
+
+	            "lockOpen" : {
+	              "properties" : {
+	                "image" : "<partImage>:lockOpen.<frame>"
+	              }
+	            },
+
+	            "locking" : {
+	              "properties" : {
+	                "image" : "<partImage>:lockClose.<frame>"
+	              }
+	            },
+
+	            "locked" : {
+	              "properties" : {
+	                "image" : "<partImage>:locked"
+	              }
+	            },
+
+							"openLoop" : {
+								"properties" : {
+									"image" : "<partImage>:openLoop.<frame>"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+
+	"sounds" : {
+    "open" : [ ],
+    "close" : [ ],
+    "locked" : [ "/sfx/interface/clickon_error.ogg" ]
+  }
+}

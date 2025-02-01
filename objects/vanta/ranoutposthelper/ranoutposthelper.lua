@@ -10,7 +10,7 @@ function init()
 end
 
 function onInteraction(args)
-  local chatOptions = config.getParameter("chatOptions", {})
+  local chatOptions = config.getParameter("chatOptions", {}) -- luacheck: ignore 211
   local interactData = {
     config = "/interface/windowconfig/craftingmerchant.config",
     paneLayoutOverride = {

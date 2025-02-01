@@ -1,0 +1,9 @@
+{
+  "name" : "ceruleumwraithboss",
+  "category" : "ceruleumwraithboss",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "ceruleumwraithboss.png"
+  }
+}

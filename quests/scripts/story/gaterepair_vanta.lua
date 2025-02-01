@@ -106,7 +106,7 @@ function explore()
 
   storage.stage = 2
 
-  player.radioMessage("gaterepair-findGate")
+  player.radioMessage("v-gaterepair-findGate")
 
   util.wait(8)
 
@@ -128,15 +128,15 @@ function findGate()
     coroutine.yield()
   end
 
-  self.state:set(self.stages[storage.stage])
+  self.state:set(self.stages[storage.stage]) -- luacheck: ignore 511
 end
 
 function gateFound()
   quest.setProgress(nil)
   quest.setCompassDirection(nil)
-  player.radioMessage("gaterepair-gateFound1")
-  player.radioMessage("gaterepair-gateFound1b")
-  player.radioMessage("gaterepair-gateFound2")
+  player.radioMessage("v-gaterepair-gateFound1a")
+  player.radioMessage("v-gaterepair-gateFound1b")
+  player.radioMessage("v-gaterepair-gateFound1c")
   storage.stage = 3
 
   util.wait(14)
@@ -197,8 +197,8 @@ function gateRepaired()
 
   storage.stage = 5
 
-  player.radioMessage("gaterepair-gateOpened1")
-  player.radioMessage("gaterepair-gateOpened2")
+  player.radioMessage("v-gaterepair-gateOpened1")
+  player.radioMessage("v-gaterepair-gateOpened2")
 
   self.state:set(self.stages[storage.stage])
 end
@@ -210,11 +210,10 @@ function findEsther(dt)
   quest.setObjectiveList({{self.descriptions.findEsther, false}})
 
   local trackEsther = util.uniqueEntityTracker(self.estherUid, self.compassUpdate)
-  local trackGate = util.uniqueEntityTracker(self.gateUid, self.compassUpdate)
+  local trackGate = util.uniqueEntityTracker(self.gateUid, self.compassUpdate) -- luacheck: ignore 211
   while true do
     if not storage.complete then
       local estherResult = trackEsther()
-      local species = player.species()
       questutil.pointCompassAt(estherResult)
       if estherResult then
         if not storage.bookmarked then
@@ -232,7 +231,7 @@ function findEsther(dt)
     end
     coroutine.yield()
   end
-  self.state:set(self.stages[storage.stage])
+  self.state:set(self.stages[storage.stage]) -- luacheck: ignore 511
 end
 
 function questComplete()

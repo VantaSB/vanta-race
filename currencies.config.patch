@@ -14,7 +14,7 @@
 	{
 		"op" : "add",
 		"path" : "/money/sail_group_order",
-		"value" : [ "EX Research", "EX Tradegoods" ]
+		"value" : [ "Vanta Research" ]
 	},
 
 	{
@@ -35,7 +35,7 @@
 		"value" : {
 			"representativeItem" : "skillpoint",
 			"playerMax" : 9999,
-			"sail_group" : "EX Research"
+			"sail_group" : "Vanta Research"
 		}
 	}
 ]

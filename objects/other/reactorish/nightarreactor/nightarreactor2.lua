@@ -1,7 +1,7 @@
 function init()
   if storage.state == nil then storage.state = config.getParameter("defaultPowerState", true) end
 
-  self.interactive = config.getParameter("interactive", false),
+  self.interactive = config.getParameter("interactive", false)
   object.setInteractive(self.interactive)
 
   if config.getParameter("inputNodes") then

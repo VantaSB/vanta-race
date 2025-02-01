@@ -21,7 +21,7 @@
     {
       "kind" : "proximacity4",
       "baseCount" : 1,
-      "offset" : [0, 265],
+      "offset" : [0, 225],
       "noRandomOffset" : true,
       "parallax" : 3,
       "fadePercent" : 0.01,
@@ -30,20 +30,20 @@
     },
     {
       "kind" : "proximacity4unlit",
-      "offset" : [0, 265],
+      "offset" : [0, 225],
       "noRandomOffset" : true,
       "parallax" : 3,
       "fadePercent" : 0.02,
       "unlit" : true
       //"directives" : "?scale=0.85"
     },
-    /*{
+    {
       "kind" : "midnightbelow",
-      "offset" : [0, 310],
+      "offset" : [0, 195],
       "noRandomOffset" : true,
-      "parallax" : 3,
+      "parallax" : 12,
       "nohueshift" : true
-    },*/
+    },
 
     // Surface background
     {

@@ -1,0 +1,10 @@
+[
+	[
+		{ "op" : "test", "path" : "/offeredQuests" },
+		{ "op" : "add", "path" : "/offeredQuests/-", "value" : "penguin1_vanta" }
+	],
+	[
+		{ "op" : "test", "path" : "/turnInQuests" },
+		{ "op" : "add", "path" : "/turnInQuests/-", "value" : "penguin1_vanta" }
+	]
+]

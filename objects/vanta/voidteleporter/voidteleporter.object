@@ -1,0 +1,64 @@
+{
+  "objectName" : "voidteleporter",
+	"colonyTags" : ["light", "decorative"],
+	"rarity" : "common",
+	"description" : "A short-range teleporter that works only in the void.",
+	"shortdescription" : "Void Teleporter",
+	"race" : "generic",
+	"category" : "decorative",
+	"price" : 0,
+	"printable" : false,
+
+	"openLight" : [78, 130, 138],
+	"closedLight" : [0, 0, 0],
+
+	"apexDescription" : "A short-range teleporter. These appear to be anchor points within the void.",
+	"avianDescription" : "This is a teleporter designed to operate within the void.",
+	"floranDescription" : "Floran confused by thisss teleporter design.",
+	"glitchDescription" : "Intrigued. This teleporter's signals are strong enough to operate in the void.",
+	"humanDescription" : "This teleporter will let me traverse different parts of the void.",
+	"hylotlDescription" : "A teleportation device. It is similar to Vanta and Nightar designs, but I don't think it was created by them.",
+	"novakidDescription" : "This sure is a strange-lookin' teleporter.",
+	"vantaDescription" : "A short-range teleporter. Similar to our designs, but I don't think we made this.",
+
+	"inventoryIcon" : "icon.png",
+
+	"animation" : "/objects/vanta/voidteleporter/voidteleporter.animation",
+	"animationCustom" : {
+  	"sounds" : {
+    	"open" : {
+      	"pool" : [ "/sfx/tech/tech_blink1.ogg" ],
+				"rangeMultiplier" : 0.5
+			},
+			"close" : {
+				"pool" : [ "/sfx/tech/tech_blink2.ogg" ],
+				"rangeMultiplier" : 0.5
+			}
+		}
+	},
+	"animationParts" : {
+		"bg" : "voidteleporter.png",
+		"fg" : "voidteleporterlit.png"
+	},
+	"animationPosition" : [-8, 0],
+
+	"orientations" : [
+		{
+			"image" : "voidteleporter.png:default",
+			"direction" : "right",
+
+			"imagePosition" : [-8, 0],
+
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+
+	"scripts" : [ "/objects/vanta/voidteleporter/voidteleporter.lua" ],
+	"scriptDelta" : 5,
+
+	"interval" : 30,
+
+	"inputNodes" : [ [-1, 0] ],
+	"outputNodes" : [ [1, 0] ]
+}

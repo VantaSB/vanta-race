@@ -1,0 +1,295 @@
+{
+  "itemName" : "vsaber",
+  "price" : 0,
+  "level" : 1,
+	"upgradeNum" : 0,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "Your personal saber. It has a unique weapon core that allows it to evolve. It needs repairing...",
+  "shortdescription" : "Vanta Saber",
+  "tooltipKind" : "ex_sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "vanta", "vantaUpgrade"],
+
+  "inventoryIcon" : "vsaber_l1.png",
+
+  "animation" : "vsaber.animation",
+  "animationParts" : {
+    "blade" : "vsaber_l1.png",
+		"handle" : ""
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/vsabermelee.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "scatteredwindscombo",
+  "primaryAbility" : {
+		"comboSteps" : 3,
+    "fireTime" : 0.8,
+    "baseDps" : 7.5
+  },
+
+  "altAbilityType" : "spinslash",
+
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua",
+
+	"upgrades" : [
+		{
+			"level" : 2,
+			"upgradeNum" : 1,
+			"inventoryIcon" : "vsaber_l2.png",
+			"animationParts" : {
+				"blade" : "vsaber_l2.png",
+				"handle" : "vsaber_l2_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "Vanta Saber ^yellow;ß^reset;",
+			"primaryAbility" : {
+				"comboSteps" : 3,
+				"fireTime" : 0.9,
+				"baseDps" : 11.5
+			},
+			"altAbilityType" : "risingslash",
+			"critChance" : 1,
+			"critBonus" : 2
+		},
+		{
+			"level" : 3,
+			"upgradeNum" : 2,
+			"inventoryIcon" : "vsaber_l3.png",
+			"animationParts" : {
+				"blade" : "vsaber_l3.png",
+				"handle" : "vsaber_l3_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "Vanta Saber ^yellow;Г^reset;",
+			"primaryAbility" : {
+				"comboSteps" : 3,
+				"fireTime" : 0.95,
+				"baseDps" : 11.5
+			},
+			"altAbilityType" : "bladecharge",
+			"critChance" : 3,
+			"critBonus" : 5
+		},
+		{
+			"level" : 4,
+			"upgradeNum" : 3,
+			"inventoryIcon" : "vsaber_l4.png",
+			"animationParts" : {
+				"blade" : "vsaber_l4.png",
+				"handle" : "vsaber_l4_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "Vanta Saber ^yellow;Ø^reset;",
+			"primaryAbility" : {
+				"comboSteps" : 6,
+				"fireTime" : 0.83,
+				"baseDps" : 11.5
+			},
+			"altAbilityType" : "darkslice",
+			"critChance" : 3,
+			"critBonus" : 8
+		},
+		{
+			"level" : 5,
+			"upgradeNum" : 4,
+			"inventoryIcon" : "vsaber_l5.png",
+			"animationParts" : {
+				"blade" : "vsaber_l5.png",
+				"handle" : "vsaber_l5_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^cyan;Nova Vanta Saber",
+			"animationCustom" : {
+				"animatedParts" : {
+					"parts" : {
+						"swoosh" : {
+							"properties" : {
+								"zLevel" : -1,
+			          "centered" : true,
+								"fullbright" : true,
+			          "transformationGroups" : ["swoosh"],
+			          "rotationCenter" : [0, 0]
+							}
+						}
+					}
+				},
+		    "sounds" : {
+		      "fire" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+		      "fire2" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+		      "fire3" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire4" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire5" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire6" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire7" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire8" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire9" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ]
+		    }
+		  },
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 9,
+				"fireTime" : 0.9,
+				"baseDps" : 11.5,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
+			},
+			"altAbilityType" : "traildash",
+			"critChance" : 3.5,
+			"critBonus" : 10
+		},
+		{
+			"level" : 6,
+			"upgradeNum" : 5,
+			"inventoryIcon" : "vsaber_l6.png",
+			"animationParts" : {
+				"blade" : "vsaber_l6.png",
+				"handle" : "vsaber_l6_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^orange;Master Vanta Saber^reset;",
+			"animationCustom" : {
+				"animatedParts" : {
+					"parts" : {
+						"swoosh" : {
+							"properties" : {
+								"zLevel" : -1,
+			          "centered" : true,
+								"fullbright" : true,
+			          "transformationGroups" : ["swoosh"],
+			          "rotationCenter" : [0, 0]
+							}
+						}
+					}
+				},
+		    "sounds" : {
+		      "fire" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+		      "fire2" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+		      "fire3" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire4" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire5" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire6" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire7" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire8" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire9" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire10" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire11" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ],
+					"fire12" : [ "/sfx/melee/laser_weapon2_swing1.ogg", "/sfx/melee/laser_weapon2_swing2.ogg", "/sfx/melee/laser_weapon2_swing3.ogg" ]
+		    }
+		  },
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 12,
+				"fireTime" : 0.9,
+				"baseDps" : 12.5,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
+			},
+			"altAbilityType" : "ceruleumfang",
+			"critChance" : 4,
+			"critBonus" : 12
+		},
+		{
+			"level" : 7,
+			"upgradeNum" : 6,
+			"inventoryIcon" : "vsaber_l6.png",
+			"animationParts" : {
+				"blade" : "vsaber_l6.png",
+				"handle" : "vsaber_l6_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^orange;Master Vanta Saber ^yellow;^reset;",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 12,
+				"fireTime" : 0.9,
+				"baseDps" : 15,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
+			},
+			"altAbilityType" : "ceruleumfang",
+			"critChance" : 10,
+			"critBonus" : 32,
+			"masteryRange" : [25, 45]
+		},
+		{
+			"level" : 8,
+			"upgradeNum" : 7,
+			"inventoryIcon" : "vsaber_l6.png",
+			"animationParts" : {
+				"blade" : "vsaber_l6.png",
+				"handle" : "vsaber_l6_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^orange;Master Vanta Saber ^yellow;^reset;",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 12,
+				"fireTime" : 0.9,
+				"baseDps" : 15,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
+			},
+			"altAbilityType" : "ceruleumfang",
+			"critChance" : 10,
+			"critBonus" : 32
+		},
+		{
+			"level" : 9,
+			"upgradeNum" : 8,
+			"inventoryIcon" : "vsaber_l6.png",
+			"animationParts" : {
+				"blade" : "vsaber_l6.png",
+				"handle" : "vsaber_l6_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^orange;Master Vanta Saber ^yellow;^reset;",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 12,
+				"fireTime" : 0.9,
+				"baseDps" : 15,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
+			},
+			"altAbilityType" : "ceruleumfang",
+			"critChance" : 10,
+			"critBonus" : 32
+		},
+		{
+			"level" : 10,
+			"upgradeNum" : 9,
+			"inventoryIcon" : "vsaber_l6.png",
+			"animationParts" : {
+				"blade" : "vsaber_l6.png",
+				"handle" : "vsaber_l6_lit.png"
+			},
+			"description" : "Your personal saber. It has a unique weapon core that allows it to evolve.",
+			"shortdescription" : "^#7F00FF;Quantum Vanta Saber^reset;",
+			"elementalType" : "ceruleum",
+			"primaryAbility" : {
+				"comboSteps" : 12,
+				"fireTime" : 0.9,
+				"baseDps" : 15,
+				"damageConfig" : {
+					"damageSourceKind" : "<elementalType>broadsword"
+				}
+			},
+			"altAbilityType" : "ceruleumfang",
+			"critChance" : 10,
+			"critBonus" : 32
+		}
+	]
+}

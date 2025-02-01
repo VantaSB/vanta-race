@@ -1,7 +1,8 @@
 {
   "objectName" : "ex_smashinvispswitch",
-  "colonyTags" : ["wired"],
+  "colonyTags" : [ "wired" ],
   "printable" : false,
+	"scannable" : false,
   "rarity" : "Common",
   "category" : "wire",
   "price" : 0,

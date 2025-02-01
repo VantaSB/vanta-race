@@ -1,0 +1,28 @@
+{
+  "frameGrid" : {
+    "size" : [24, 32],
+    "dimensions" : [9, 1],
+    "names" : [
+      [ "closed", "halfOpen.1", "halfOpen.2", "open.1", "open.2", "open.3", "open.4", "open.5", "open.6" ]
+    ]
+  },
+
+  "aliases" : {
+    "default" : "closed",
+		"locked" : "closed",
+		"opening.1" : "halfOpen.1",
+		"opening.2" : "halfOpen.2",
+		"close.1" : "halfOpen.2",
+		"close.2" : "halfOpen.1",
+		"lockOpen.1" : "halfOpen.1",
+		"lockOpen.2" : "halfOpen.2",
+		"lockClose.1" : "halfOpen.2",
+		"lockClose.2" : "halfOpen.1",
+		"openLoop.1" : "open.1",
+		"openLoop.2" : "open.2",
+		"openLoop.3" : "open.3",
+		"openLoop.4" : "open.4",
+		"openLoop.5" : "open.5",
+		"openLoop.6" : "open.6"
+  }
+}

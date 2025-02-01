@@ -1,8 +1,8 @@
 {
   "id" : "human_mission1_vanta",
+	"prerequisites" : [ "gaterepair_vanta" ],
   "mainQuest" : true,
   "title" : "The Erchius Mining Facility",
-  "prerequisites" : [ "gaterepair_vanta" ],
   "text" : "I can repair that ship, but it's gonna take 20 ^orange;Erchius Crystals^reset;... You'd better ^green;get yerself over to the Erchius Mining Facility^reset;. I've sent the location coordinates to ^green;yer ship's SAIL^reset;.",
   "completionText" : "Perfect! These'll do the job; I'll go ahead and fix her up right now.",
   "completionCinema" : "/cinematics/repair/repair.cinematic",
@@ -14,7 +14,7 @@
 
   "questGiverIndicator" : "vanta_mainquestgiver",
   "questReceiverIndicator" : "vanta_mainquestreceiver",
-  
+
   "updateDelta" : 10,
   "script" : "/quests/scripts/story/human_mission1.lua",
   "scriptConfig" : {

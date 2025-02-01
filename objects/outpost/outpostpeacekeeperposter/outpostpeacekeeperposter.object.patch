@@ -1,3 +1,6 @@
 [
-  { "op" : "add", "path" : "/offeredQuests/-", "value" : "bountyassignment_vanta" }
+  [
+		{ "op" : "test", "path" : "/offeredQuests" },
+		{ "op" : "add", "path" : "/offeredQuests/-", "value" : "bountyassignment_vanta" }
+	]
 ]

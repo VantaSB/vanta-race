@@ -225,7 +225,7 @@ function updateDriveEffects(healthFactor, driverThisFrame)
   end
 
   local rearThrusterFrame = 0
-  local ventralThrusterFrame = 0
+  --local ventralThrusterFrame = 0
 
   -- is the engine sound playing ?
   --[[if (self.loopPlaying ~= nil) then
@@ -303,7 +303,7 @@ function updateDriveEffects(healthFactor, driverThisFrame)
   rearThrusterFrame = rearThrusterFrame + math.random(3)
   animator.setGlobalTag("rearThrusterFrame", rearThrusterFrame)
 
-  ventralThrusterFrame = ventralThrusterFrame + math.random(3)
+  --ventralThrusterFrame = ventralThrusterFrame + math.random(3)
   --animator.setGlobalTag("bottomThrusterFrame", ventralThrusterFrame)
 end
 
@@ -606,7 +606,7 @@ function updateDamage()
     end
   end
 
-  function appendTrackingVelocity(trackedVelocities, newVelocity)
+  function appendTrackingVelocity(trackedVelocities, newVelocity) -- luacheck: ignore 431
     table.insert(trackedVelocities, newVelocity)
     while #trackedVelocities > self.accelerationTrackingCount do
       table.remove(trackedVelocities, 1)

@@ -1,0 +1,181 @@
+{
+	"animationCustom" : {
+		"particleEmitters" : {
+			"beambolt" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Beam Bolt",
+							"size" : 0.55,
+							"color" : [127, 191, 0, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"firebolt" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Fire Bolt",
+							"size" : 0.55,
+							"color" : [191, 127, 0, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"icebolt" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Ice Bolt",
+							"size" : 0.55,
+							"color" : [0, 127, 191, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"thunderbolt" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Thunder Bolt",
+							"size" : 0.55,
+							"color" : [127, 127, 191, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			},
+			"biobolt" : {
+				"enabled" : true,
+				"emissionRate" : 1.0,
+				"particles" : [
+					{
+						"particle" : {
+							"type" : "text",
+							"text" : "Bio Bolt",
+							"size" : 0.55,
+							"color" : [0, 191, 127, 127],
+							"fade" : 0.5,
+							"destructionAction" : "shrink",
+							"destructionTime" : 0.8,
+							"position" : [0.0, 0.0],
+							"offsetRegion" : [0, 0, 0, 0],
+							"initialVelocity" : [0, 4],
+							"finalVelocity" : [0, 1],
+							"approach" : [0, 10],
+							"timeToLive" : 1.5,
+							"variance" : {}
+						}
+					}
+				]
+			}
+		},
+		"sounds" : {
+      "switch" : [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
+    }
+	},
+
+	"ability" : {
+		"type" : "elementshift",
+		"name" : "Elemental Shift",
+		"scripts" : [
+			"/items/active/weapons/vanta/bangles/abilities/elementshift.lua"
+		],
+		"class" : "ElementShift",
+
+		"adaptedAbilityIndex" : 1,
+
+		"shotTypes" : [
+			{
+				"projectileType" : "psiphysicalshot"
+			},
+			{
+				"projectileType" : "psifireshot"
+			},
+			{
+				"projectileType" : "psiiceshot"
+			},
+			{
+				"projectileType" : "psielectricshot"
+			},
+			{
+				"projectileType" : "psipoisonshot"
+			}
+		],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+		}
+	}
+}

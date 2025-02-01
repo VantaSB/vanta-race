@@ -18,7 +18,7 @@ function TorridEdge:update(dt, fireMode, shiftHeld)
 
   --if self.cooldownTimer == 0 and self.weapon.currentAbility == nil and self.fireMode == "alt" then
   if self.weapon.currentAbility == nil and fireMode == "alt" and self.cooldownTimer == 0 and mcontroller.onGround() and not status.statPositive("activeMovementAbilities") then
-    if player.hasItem(primaryAmmoType) then
+    if player.hasItem(primaryAmmoType) or self.weapon.requiresAmmo == false then
       self:setState(self.charge)
     else
       animator.playSound("activationFail")
@@ -63,7 +63,7 @@ end
 function TorridEdge:blink()
   status.setPersistentEffects("torridedgeability", { { stat = "invulnerable", amount = 1.0}, {stat = "activeMovementAbilities", amount = 1} })
   status.addEphemeralEffect("blink")
-  
+
   self.weapon:setStance(self.stances.slash)
 
   player.consumeItem(primaryAmmoType, true, false)

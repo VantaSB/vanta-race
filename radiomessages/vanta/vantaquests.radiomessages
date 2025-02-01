@@ -1,0 +1,44 @@
+{
+	// Gate Repair
+	"v-gaterepair-findGate" : {
+		"type" : "quest",
+		"text" : "Scans indicatet there is an ^orange;archaic energy source^reset; on this planet. I recommend you investigate it as soon as possible."
+	},
+
+	"v-gaterepair-gateFound1a" : {
+		"type" : "quest",
+		"text" : "I am detecting a transmission around this ^orange;archaic energy source^reset;. Patching it through to you now...",
+		"persistTime" : 3.0
+	},
+
+	"v-gaterepair-gateFound1b" : {
+		"type" : "quest",
+		"senderName" : "???",
+		"portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+		"text" : "If you are receiving this message, then there is hope. You stand at an ^orange;ancient gate^reset;, a relic of the univere's creation. Please use it to come find me. ^green;The gate can be re-energized with ^orange;core fragments^reset;.",
+		"portraitFrames" : 4,
+		"portraitSpeed" : 0.30
+	},
+
+	"v-gaterepair-gateFound1c" : {
+		"type" : "quest",
+		"text" : "I have scanned the planet for these ^orange;core framents^reset;. They appear naturally within this planet's geology. Numerous clusters can be found close to the planet's core. I recommend searching as much of the planet as you can - you might chance upon a deposit closer to the surface."
+	},
+
+	"v-gaterepair-gateOpened1" : {
+		"type" : "quest",
+		"text" : "The gate has been successfully activated. Another message appears to be coming through. Patching it through now...",
+		"persistTime" : 3.0
+	},
+
+	"v-gaterepair-gateOpened2" : {
+		"type" : "quest",
+		"senderName" : "???",
+		"portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+		"text" : "^green;Please come to me^reset;. The universe is in danger, and I need your help if you're willing. This ancient gateway is a direct route to what is known as ^orange;the Ark^reset;. You can find me just past ^orange;the outpost^reset; that is also situated here.",
+		"portraitFrames" : 4,
+		"portraitSpeed" : 0.30
+	}
+
+	// Temple of Mastery
+}

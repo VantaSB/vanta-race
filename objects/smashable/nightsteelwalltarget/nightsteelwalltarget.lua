@@ -18,7 +18,7 @@ function updateMaterialSpaces()
   if not self.inactiveMaterialSpaces then
     self.inactiveMaterialSpaces = {}
     local metamaterial = "metamaterial:lockedDoor"
-    for i, space in ipairs(object.spaces()) do
+    for _, space in ipairs(object.spaces()) do
       table.insert(self.inactiveMaterialSpaces, {space, metamaterial})
     end
   end

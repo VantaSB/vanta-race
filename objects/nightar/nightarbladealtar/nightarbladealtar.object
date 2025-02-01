@@ -1,37 +1,50 @@
 {
   "objectName" : "nightarbladealtar",
-  "colonyTags" : ["nightar"],
+  "colonyTags" : ["nightar","vanta"],
+	"rarity" : "Common",
   "printable" : false,
-  "price" : 6000,
-  "rarity" : "Common",
-  "description" : "An altar holding the legendary Noxcalibur... which looks broken.",
-  "shortdescription" : "Nightar Blade Altar",
-  "race" : "nightar",
+  "description" : "An altar built in the image of the legendary Noxcalibur.",
+  "shortdescription" : "Blade Altar",
+	"race" : "vanta",
+	"category" : "decorative",
+	"price" : 50,
 
-  "category" : "artifact",
+	"scripts" : [ "/objects/nightar/nightarbladealtar/nightarbladealtar.lua" ],
+
+	"interactAction" : "ScriptPane",
+	"interactData" : "/interface/scripted/vantaupgrade/vantaupgradegui.config",
 
   "inventoryIcon" : "nightarbladealtaricon.png",
+
+	"animationPosition" : [-9, 0],
   "orientations" : [
     {
-      "dualImage" : "nightarbladealtar.png:<color>.<frame>",
-	  "frames" : 12,
-	  "animationCycle" : 1,
-      "imagePosition" : [-16, 0],
+			"imageLayers" : [
+				{ "image" : "nightarbladealtar.png:<color>.<frame>", "fullbright" : true },
+				{ "image" : "nightarbladealtarlit.png:<color>.<frame>" }
+			],
+      "flipImages" : true,
+			"direction" : "left",
+	  	"frames" : 12,
+	  	"animationCycle" : 1,
+      "imagePosition" : [-9, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+		{
+			"imageLayers" : [
+				{ "image" : "nightarbladealtar.png:<color>.<frame>", "fullbright" : true },
+				{ "image" : "nightarbladealtarlit.png:<color>.<frame>" }
+			],
+			"direction" : "right",
+	  	"frames" : 12,
+	  	"animationCycle" : 1,
+      "imagePosition" : [-9, 0],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ],
-
-  "questIndicatorPosition" : [0, 8.0],
-
-  "scripts" : [ "/objects/nightar/nightarbladealtar/nightarbladealtar.lua" ],
-  "scriptDelta" : 0,
-
-  "breakDropOptions" : [
-    [ [ "brokennoxcalibur", 1, { } ] ]
-  ],
-
-  //"triggerUniverseFlag" : "",
-  "questMessage" : "nightarBladeTaken"
+  ]
 }

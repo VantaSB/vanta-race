@@ -12,6 +12,10 @@
 	"power" : 75,
 	"speed" : 75,
   "actionOnReap" : [
+		{
+			"action" : "config",
+			"file" : "/projectiles/explosions/burstexplosion/poisonburstexplosion.config"
+		},
     {
 			"action" : "sound",
       "options" : [ "/sfx/gun/impact_plasma.ogg" ]

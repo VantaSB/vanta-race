@@ -15,11 +15,14 @@ spBonus = 0
 dpsBonus = 1.0
 
 -- The ability names for the bangle are actually not used internally, this is more so for easier referencing when building the skill lines.
-banglePrimaryAbilities = { "beambolt1" }
+banglePrimaryAbilities = { "beambolt" }
 --bangleAltAbilities = { "offensive1" }
+
+vSaberSkills = { }
 
 function reinit() --when "forgottenmemories" is triggered, clear all stat bonuses
 	player.setProperty("banglePrimaryAbilities", banglePrimaryAbilities)
+	--player.setProperty("vSaberSkills", vSaberSkills)
 	--player.setProperty("bangleAltAbilities", bangleAltAbilities)
 
 	status.clearPersistentEffects("ex_fireResistance")
@@ -172,7 +175,7 @@ function addBangleAltAbility(params)
 	player.setProperty("bangleAltAbilities", bangleAltAbilities)
 end
 
-function listBanglePrimaryAbilities()
+function listBangleAbilities()
 	banglePrimaryAbilities = player.getProperty("banglePrimaryAbilities")
 	return banglePrimaryAbilities
 end

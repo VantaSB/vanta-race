@@ -1,7 +1,7 @@
 {
   "itemName" : "vantatether",
   "price" : 3000,
-  "inventoryIcon" : "glove.png",
+  "inventoryIcon" : "icon.png",
   "rarity" : "essential",
   "maxStack" : 1,
   "description" : "A high-tensile wire and quick retension makes this tool perfect for climbing.",

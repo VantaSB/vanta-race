@@ -7,7 +7,10 @@
 
 -- To reference any ScrollArea children widgets in Lua scripts (widget.* table) use the following format: <ScrollArea name>.<Children widget name>.
 
+-- luacheck: push ignore 231
 local print, warn, error, assertwarn, assert, tostring; -- Specify these as locals
+-- luacheck: pop
+
 require("/scripts/ex_utilities/hfcodex/LoggingOverride.lua") -- tl;dr I can use print, warn, error, assert, and assertwarn
 
 ---------------------------
@@ -26,7 +29,7 @@ local RACE_BUTTON_HOVER =  "/interface/scripted/hfcodex/racebuttonhover.png"
 local QUESTION_MARK = "/interface/scripted/hfcodex/question_mark.png"
 
 -- This is the text that displays on the "Ambiguous Race" button.
-local TEXT_AMBIGUOUS_BUTTON = "?"
+-- local TEXT_AMBIGUOUS_BUTTON = "?"
 
 -- A template for one of the buttons displayed in the list of codex entries.
 -- This template is no longer used. It was only used when name abbreviations were displayed in place of images.
@@ -157,8 +160,8 @@ end
 -- The last argument is the maximum string length from this function.
 local function GetNameAbbreviation(name, existingAbbreviations, startSub, maxLen)
 	-- Start out by getting default values.
-	local maxLen = maxLen or 4
-	local startSub = startSub or 1
+	maxLen = maxLen or 4
+	startSub = startSub or 1
 
 	-- Now we want to make sure our maximum length is also not going to be longer than the text since this will throw an error.
 	local newAvailableMax = math.min(maxLen, #name)
@@ -189,7 +192,7 @@ local function GetNameAbbreviation(name, existingAbbreviations, startSub, maxLen
 	-- If we have made it here, we have gotten an appropriate abbreviation for the name (e.g. "A" for "Apex")
 	-- Now we need to look at our other outputs from this function in the race button population cycle.
 	-- What if we also have an Avian codex? That starts with "A" too, and would result in the same abbreviation!
-	for index, abbreviation in ipairs(existingAbbreviations) do
+	for _, abbreviation in ipairs(existingAbbreviations) do
 		if abv == abbreviation then
 			-- So if we meet this condition, we see that "Oh, our result right now is something this function has already given!"
 			-- So we tell it to give the result of calling this function again, with one more added to startSub.
@@ -199,14 +202,6 @@ local function GetNameAbbreviation(name, existingAbbreviations, startSub, maxLen
 	end
 	-- And we'll make it here.
 	return abv
-end
-
--- Gets the first element in a dictionary-style table (where the keys are non-numeric)
-function GetFirstInTable(tbl)
-	-- Basically just run one iteration and immediately return the first value.
-	for _, value in pairs(tbl) do
-		return value
-	end
 end
 
 -------------------------------
@@ -308,7 +303,6 @@ local function PopulateCategories()
 	local knownCodexEntries = player.getProperty("xcodex.knownCodexEntries") or {}
 
 	-- I want to order the buttons alphabetically.
-	local buttonInfo = {}
 	local existingAbbreviations = {}
 
 	-- Create a new list element.
@@ -359,7 +353,7 @@ local function PopulateCategories()
 					if speciesDisplayData and speciesDisplayData.title and #speciesDisplayData.title >= 1 then
 						-- If this is true, the species' display name is adequately populated.
 						-- This is where we MAY need to edit displayName. First things first -- Do we have an available image?
-						local firstGender = GetFirstInTable(speciesData.genders)
+						local _, firstGender = next(speciesData.genders)
 						firstAvailableGenderImage = firstGender.characterImage or ""
 
 						-- Uh-oh! We don't. We'll have to fall back to using an abbreviation.

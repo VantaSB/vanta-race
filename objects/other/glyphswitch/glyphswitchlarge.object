@@ -1,0 +1,44 @@
+{
+  "objectName" : "glyphswitchlarge",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A glyph that reacts to scanners.",
+  "shortdescription" : "Glyph Switch",
+  "race" : "generic",
+
+  "apexDescription" : "Interesting; this glyph reacted to my scanner.",
+  "avianDescription" : "Ah! It lit up when I scanned it!",
+  "floranDescription" : "Bright glyph ssstartled Floran!",
+  "glitchDescription" : "Curious. This glyph reacted to my scanner for some reason.",
+  "humanDescription" : "This almost looks like something you'd find around Avians.",
+  "hylotlDescription" : "This glyph gives off a soft a soft glow now that I've scanned it.",
+  "novakidDescription" : "Pretty neat how this thing lit up when I scanned it!",
+  "vantaDescription" : "The glyph reacted to my scanner.",
+
+  "category" : "wire",
+  "price" : 0,
+
+  "inventoryIcon" : "glyphswitchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "glyph_a.png:<color>.off",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "glyphswitch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "glyphswitchlarge.animation",
+  "animationCustom" : {},
+  "animationParts" : {
+    "switch" : "glyph_a.png",
+    "switchlit" : "glyph_alit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ]
+}

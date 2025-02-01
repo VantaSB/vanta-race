@@ -149,7 +149,7 @@ function GrimoireProjectile:createProjectiles()
   pParams.power = self.baseDamageFactor * pParams.baseDamage * config.getParameter("damageLevelMultiplier") / pCount
   pParams.powerMultiplier = activeItem.ownerPowerMultiplier()
 
-  for i = 1, pCount do
+  for _ = 1, pCount do
     local projectileId = world.spawnProjectile(
         self.projectileType,
         vec2.add(basePos, pOffset),

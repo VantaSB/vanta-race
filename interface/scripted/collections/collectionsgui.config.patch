@@ -1,0 +1,18 @@
+[
+	[
+		{
+			"op" : "test",
+			"path" : "/tabs/codex"
+		},
+
+		{
+			"op" : "add",
+			"path" : "/tabs/codex/-",
+			"value" : {
+				"name" : "Vanta",
+				"data" : "vanta",
+				"icon" : "tab_vanta.png"
+			}
+		}
+	]
+]

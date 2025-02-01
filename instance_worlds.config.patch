@@ -33,6 +33,78 @@
     }
   },
 
+	{
+		"op" : "add",
+		"path" : "/vanta_trialintro",
+		"value" : {
+			"type" : "FloatingDungeon",
+			"dungeonWorld" : "vanta_trialintro",
+			"seed" : 1234,
+			"spawningEnabled" : false,
+			"beamUpRule" : "AnywhereWithWarning",
+			"disableDeathDrops" : true,
+
+			"skyParameters" : {
+				"dayLength" : 10000,
+	      "surfaceLevel" : 1000,
+	      "spaceLevel" : 3000,
+	      "seed" : -5288806180628666923,
+
+				"skyType" : "atmospheric",
+				"skyColoring" : {
+					"mainColor" : [25, 25, 25],
+
+          "morningColors" : [ [5, 25, 33], [5, 25, 33] ],
+          "dayColors" : [ [5, 25, 33], [5, 25, 33] ],
+          "eveningColors" : [ [5, 25, 33], [5, 25, 33] ],
+          "nightColors" : [ [5, 25, 33], [5, 25, 33] ],
+
+          "morningLightColor" : [5, 25, 33],
+          "dayLightColor" : [5, 25, 33],
+          "eveningLightColor" : [5, 25, 33],
+          "nightLightColor" : [5, 25, 33]
+	      },
+
+				"satellites" : [ {
+	        "pos" : [ 0.310561, 0.35497 ],
+	        "layers" : [ {
+	          "scale" : 0.055,
+	          "image" : "/celestial/system/terrestrial/liquids/water.png"
+	        }, {
+	          "scale" : 0.055,
+	          "image" : "/celestial/system/terrestrial/biomes/forest/maskie3.png?hueshift=-45?addmask=/celestial/system/terrestrial/dynamics/temperate/2.png"
+	        }, {
+	          "scale" : 0.055,
+	          "image" : "/celestial/system/terrestrial/biomes/forest/maskie2.png?hueshift=-45?addmask=/celestial/system/terrestrial/dynamics/temperate/20.png"
+	        }, {
+	          "scale" : 0.055,
+	          "image" : "/celestial/system/terrestrial/biomes/forest/maskie1.png?hueshift=-45?addmask=/celestial/system/terrestrial/dynamics/temperate/5.png"
+	        }, {
+	          "scale" : 0.055,
+	          "image" : "/celestial/system/terrestrial/shadows/9.png"
+	        } ]
+	      } ],
+	      "planet" : {
+	        "pos" : [ 0.00538729, 0.46961 ],
+	        "layers" : [ {
+	          "scale" : 0.15,
+	          "image" : "/celestial/system/gas_giant/gas_giant_base.png?hueshift=-80"
+	        }, {
+	          "scale" : 0.15,
+	          "image" : "/celestial/system/gas_giant/gas_giant_clouds_0.png?hueshift=-70?addmask=/celestial/system/gas_giant/gas_giant_dynamics/3.png+/celestial/system/gas_giant/gas_giant_dynamics/29.png"
+	        }, {
+	          "scale" : 0.15,
+	          "image" : "/celestial/system/gas_giant/gas_giant_clouds_1.png?hueshift=-77?addmask=/celestial/system/gas_giant/gas_giant_dynamics/28.png+/celestial/system/gas_giant/gas_giant_dynamics/29.png"
+	        }, {
+	          "scale" : 0.15,
+	          "image" : "/celestial/system/gas_giant/shadows/9.png"
+	        } ]
+	      },
+	      "horizonImages" : [ ]
+			}
+		}
+	},
+
   {
     "op" : "add",
     "path" : "/nightfort",
@@ -219,7 +291,7 @@
       "dungeonWorld" : "vantamission1",
       "seed" : 1234,
       "spawningEnabled" : false,
-      "beamUpRule" : "Nowhere",
+      "beamUpRule" : "AnywhereWithWarning",
       "disableDeathDrops" : true,
 
       "skyParameters" : {
@@ -295,6 +367,43 @@
       "seed" : 1234,
       "spawningEnabled" : false,
       "beamUpRule" : "Anywhere",
+      "disableDeathDrops" : true,
+
+      "skyParameters" : {
+        "dayLength" : 10000,
+        "surfaceLevel" : 1000,
+        "spaceLevel" : 3000,
+        "seed" : -5288806180628666923,
+
+        "skyType" : "atmospheric",
+
+        "skyColoring" : {
+          "mainColor" : [100, 100, 100],
+
+          "morningColors" : [ [51, 102, 103], [51, 102, 103] ],
+          "dayColors" : [ [51, 102, 103], [51, 102, 103] ],
+          "eveningColors" : [ [51, 102, 103], [51, 102, 103] ],
+          "nightColors" : [ [51, 102, 103], [51, 102, 103] ],
+
+          "morningLightColor" : [51, 102, 103],
+          "dayLightColor" : [51, 102, 103],
+          "eveningLightColor" : [51, 102, 103],
+          "nightLightColor" : [51, 102, 103]
+        }
+      }
+    }
+  },
+
+	//Actual void dungeons
+  {
+    "op" : "add",
+    "path" : "/void_barbatos",
+    "value" : {
+      "type" : "FloatingDungeon",
+      "dungeonWorld" : "void_barbatos",
+      "seed" : 1234,
+      "spawningEnabled" : false,
+      "beamUpRule" : "Nowhere",
       "disableDeathDrops" : true,
 
       "skyParameters" : {

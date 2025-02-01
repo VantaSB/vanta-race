@@ -1,0 +1,32 @@
+{
+  "itemName" : "vantatier5greatsword",
+  "price" : 0,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A weapon whose initial purpose was for ceremonial purposes.",
+  "shortdescription" : "Vanta Executioner Blade",
+  "tooltipKind" : "sword",
+  "category" : "greatsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword","vanta"],
+
+  "inventoryIcon" : "vantatier5greatsword.png",
+
+  "animation" : "vantatier5greatsword.animation",
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ceruleum",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5
+  },
+
+  "altAbilityType" : "travelingslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

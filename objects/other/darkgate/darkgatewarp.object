@@ -73,5 +73,7 @@
   "interactData" : "/interface/warping/darkgatewarp.config",
 
   "inactiveInteractAction" : "ScriptPane",
-  "inactiveInteractData" : "/interface/scripted/darkgateactivate/darkgateactivate.config"
+  "inactiveInteractData" : "/interface/scripted/darkgateactivate/darkgateactivate.config",
+
+	"destination" : null
 }

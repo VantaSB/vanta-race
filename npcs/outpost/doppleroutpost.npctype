@@ -2,20 +2,24 @@
   "type" : "doppleroutpost",
   "baseType" : "outpostcivilian",
 
+	/*"scripts" : [
+		"/npcs/bmain.lua"
+		"/npcs/doppleroutpost.lua"
+	],*/
+
   "npcName" : "Morrighan Doppler",
   "identity" : {
     "imagePath" : "vanta",
     "gender" : "female",
     "hairGroup" : "hair",
-    "hairType" : "fem26",
+    "hairType" : "fem10",
     "personalityIdle" : "idle.2",
     "personalityArmIdle" : "idle.1",
     "bodyDirectives" : "?replace=ffe2c5=c5ad98?replace=ffc181=a47a59?replace=d39c6c=865d40?replace=c7815b=66412e?replace=ed1c24=d36f00",
     "hairDirectives" : "?replace=d9c189=3b7f44?replace=a38d59=2e6a38?replace=735e3a=1d4b28"
   },
 
-  "damageTeamType" : "assistant",
-  "damageTeam" : 1,
+  "damageTeamType" : "ghostly",
 
   "persistent" : true,
 
@@ -29,7 +33,9 @@
         [1.0, { "personality" : "normal", "reactions" : {} }]
     ],
 
-    "behavior" : "tutorial",
+    "behavior" : "assistant",
+
+		"chatPortrait" : "/interface/chatbubbles/doppler.png:<frame>",
 
     "behaviorConfig" : {
       "greetingChance" : 0,
@@ -48,7 +54,13 @@
             "Are you familiar with the tech scientist, Elliott? He was kind enough to furnish us with our own tech lab. Needless to say, it's been a godsend.",
             "Feel free to stop by and manage your techs or peruse our library. Well, with what little information we have, anyways."
           ]
-        }
+        },
+				"vanta" : {
+					"default" : [
+						"Ah, <entityname>! Glad to see you're alive and well. I hope that manipulator has been useful in your travels.",
+						"Are you familiar with the tech scientist, Elliott? He was kind enough to provide funding for our own tech lab. Needless to say, it's been a godsend."
+					]
+				}
       }
     }
   },
@@ -58,8 +70,8 @@
       [0, [
           {
             "head" : [ { "name" : "vantacommandvisorhead" } ],
-            "chest" : [ { "name" : "didactchest" } ],
-            "legs" : [ { "name" : "didactpants" } ]
+            "chest" : [ { "name" : "vantatier5chest" } ],
+            "legs" : [ { "name" : "vantatier5pants" } ]
           }
         ]
       ]

@@ -1,0 +1,5 @@
+{
+  "name" : "ex_orbwarp",
+  "defaultDuration" : 0.1,
+  "scripts" : [ "ex_orbwarp.lua" ]
+}

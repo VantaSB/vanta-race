@@ -11,7 +11,7 @@
   "questReceiverIndicator" : "vanta_questreceiver",
 
   "updateDelta" : 10,
-  "script" : "/quests/scripts/ex_main.lua",
+  "script" : "/quests/scripts/main.lua",
   "scriptConfig" : {
     "portraits" : {
       "questStarted" : {

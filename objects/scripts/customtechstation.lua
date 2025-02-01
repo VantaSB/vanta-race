@@ -1,3 +1,5 @@
+require "/scripts/util.lua"
+
 local CSAILoldInit = init
 
 function init()

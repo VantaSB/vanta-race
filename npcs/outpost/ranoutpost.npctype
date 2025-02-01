@@ -14,13 +14,14 @@
     "hairDirectives" : "?replace=d9c189=3b7f44?replace=a38d59=2e6a38?replace=735e3a=1d4b28"
   },
 
-  "damageTeamType" : "assistant",
-  "damageTeam" : 1,
+  "damageTeamType" : "ghostly",
 
   "persistent" : true,
 
   "scriptConfig" : {
     "uniqueId" : "ranoutpost",
+
+		"chatPortrait" : "/interface/chatbubbles/ran.png:<frame>",
 
     "reactions" : {
       "spontaneous" : []
@@ -48,7 +49,10 @@
         "default" : {
           "default" : [
             "We have a long way to go before we can take the Conclave head-on, but we're glad to have your support in the meantime, <entityname>."
-          ]
+          ],
+					"vanta" : [
+						"I'm glad to know we can still count on you, <entityname>. Your loyalty and commitment will be remembered for generations to come."
+					]
         }
       }
     }

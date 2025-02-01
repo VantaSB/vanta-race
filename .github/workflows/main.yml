@@ -1,43 +1,56 @@
 name: Vanta Race - RePAK
 
 on: [push, pull_request, workflow_dispatch]
+
 jobs:
   json-lint:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v4
-      
       - name: Install Dependencies
         run: ( cd tests/json-syntax && npm install )
-        
+
       - name: Run NPM Test
         run: ( cd tests/json-syntax && npm test )
 
-  check-unoptimized-png:
-    if: ${{ github.base_ref || github.ref != 'refs/heads/master' }}
-    runs-on: ubuntu-latest
+      - name: Check PR Description
+        env:
+          PRDESC: ${{ github.event.pull_request.body }}
+        run: |
+          echo "$PRDESC" | grep -qvz '"' || ( echo "::error:: PR Description should not contain double quote symbols [\"], use single quote ['] instead."; false )
+
+  luacheck:
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: sudo apt-get install -y luarocks && sudo luarocks install luacheck
+      - name: RUN -- luacheck .
+        run: luacheck --no-color --quiet .
 
+  check-unoptimized-png:
+    if: ${{ github.base_ref || github.ref != 'refs/heads/master' }}
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
       - name: Install Dependencies
         run: sudo apt-get install -y optipng
       - run: .github/scripts/check-png-images.sh
 
   pack-for-dl:
     if: startsWith(github.ref, 'refs/tags/')
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v4
       - name: Remove unneeded paths & files in PAK file (i.e., ".git", ".disabled")
-        run: rm -rf .git .disabled
-
+        run: rm -rf .git .disabled tests .old bak
       - uses: edwardspec/github-action-pack-starbound-mod@v1
         with:
           outputFileName: vanta-race.pak
+      - run: ls -l vanta-race.pak
       - name: Add .pak file to release
         uses: softprops/action-gh-release@v1
         with:
           files: vanta-race.pak
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        

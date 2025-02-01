@@ -200,8 +200,6 @@ function controlGun(part, offset, projectileType, params, count, power, interval
 end
 
 function approachOrbit(distance, maxTangential)
-  local tangentialSpeed = 0
-  local dt = coroutine.yield()
   while true do
     local approachAngle = math.random() * math.pi * 2
 
