@@ -9835,7 +9835,7 @@
                         {
                          "name":"parameters",
                          "type":"string",
-                         "value":"{ \"initialItems\" : [ { \"name\" : \"vantaintroenvirosuitchest\", \"count\" : 1 }, { \"name\" : \"vantaintroenvirosuitpants\", \"count\" : 1 },  { \"name\" : \"vsaber\", \"count\" : 1 },  { \"name\" : \"weatheredpicohandgun\", \"count\" : 1 } ] }"
+                         "value":"{ \"initialItems\" : [ { \"name\" : \"vantaintroenvirosuitchest\", \"count\" : 1 }, { \"name\" : \"vantaintroenvirosuitpants\", \"count\" : 1 },  { \"name\" : \"vsaber\", \"count\" : 1 },  { \"name\" : \"vpicohandgun\", \"count\" : 1 } ] }"
                         }],
                  "rotation":0,
                  "visible":true,

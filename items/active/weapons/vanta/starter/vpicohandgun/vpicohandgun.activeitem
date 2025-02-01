@@ -7,40 +7,42 @@
   "rarity" : "Essential",
   "description" : "Your personal handgun. It has a unique weapon core that allows it to evolve. It's seen better days...",
   "shortdescription" : "Vanta Pistol",
-  "tooltipKind" : "base",
+  "tooltipKind" : "ex_sword",
   "category" : "pistol",
   "twoHanded" : true,
-	"itemTags" : ["pistol", "ranged", "melee", "vanta","vantaUpgrade"],
+	"itemTags" : ["weapon", "ranged", "vanta", "vantaUpgrade"],
 
-  "inventoryIcon" : "vgun_l0.png",
+  "inventoryIcon" : "vgun_l1.png",
 
   "animation" : "vpicohandgun.animation",
   "animationParts" : {
-    "middle" : "vgun_l0.png",
+    "middle" : "vgun_l1.png",
     "middleFullbright" : "",
-    "muzzleFlash" : "muzzleflash.png"
+    "muzzleFlash" : "redflash.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/plasma_pistol4.ogg"]
+      "fire" : ["/sfx/gun/plasma_pistol4.ogg"],
+			"altFire" : ["/sfx/gun/pulsecannon1.ogg"]
     }
   },
 
-  "muzzleOffset" : [1.5625, 0.375],
+  "muzzleOffset" : [1.2625, 0.375],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : ["/items/active/weapons/ranged/vantagun.lua"],
 
   "elementalType" : "physical",
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "scripts" : ["/items/active/weapons/ranged/vantagunfire.lua"],
     "class" : "GunFire",
 
     "fireTime" : 0.32,
     "baseDps" : 6,
-    "energyUsage" : 5,
+    "energyUsage" : 10,
     "projectileCount" : 1,
     "inaccuracy" : 0.02,
+		"fireType" : "auto",
 
     "projectileType" : "plasmabullet",
     "projectileParameters" : {
@@ -82,11 +84,10 @@
 
 	"altAbility" : {
 		"name" : "Stun Shot",
-		"scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+		"scripts" : ["/items/active/weapons/ranged/vantaaltfire.lua"],
     "class" : "AltFireAttack",
 
     "fireTime" : 0.42,
-    "baseDps" : 0,
     "energyUsage" : 10,
     "projectileCount" : 1,
     "inaccuracy" : 0.032,
@@ -140,14 +141,71 @@
 		{
 			"upgradeNum" : 1,
 			"level" : 2,
-			"inventoryIcon" : "",
+			"inventoryIcon" : "vgun_l2.png",
 			"animationParts" : {
-				"middle" : "vgun_l0.png",
-		    "middleFullbright" : "",
-		    "muzzleFlash" : "muzzleflash.png"
+				"middle" : "vgun_l2.png"
 			},
+			"animationCustom" : {
+		    "sounds" : {
+		      "fire" : ["/sfx/gun/plasma_pistol4.ogg"],
+					"altFire" : [],
+					"enterAimMode" : [ "/sfx/interface/sniper_mark_start2.ogg" ],
+		      "targetAcquired1" : [ "/sfx/interface/sniper_mark_pitch1.ogg" ],
+		      "targetAcquired2" : [ "/sfx/interface/sniper_mark_pitch2.ogg" ],
+		      "targetAcquired3" : [ "/sfx/interface/sniper_mark_pitch3.ogg" ],
+		      "targetAcquired4" : [ "/sfx/interface/sniper_mark_pitch4.ogg" ],
+		      "targetAcquired5" : [ "/sfx/interface/sniper_mark_pitch5.ogg" ],
+		      "targetAcquired6" : [ "/sfx/interface/sniper_mark_pitch6.ogg" ],
+		      "targetAcquired7" : [ "/sfx/interface/sniper_mark_pitch7.ogg" ],
+		      "targetAcquired8" : [ "/sfx/interface/sniper_mark_pitch8.ogg" ],
+		      "targetAcquired9" : [ "/sfx/interface/sniper_mark_pitch9.ogg" ],
+		      "targetAcquired10" : [ "/sfx/interface/sniper_mark_pitch10.ogg" ],
+		      "disengage" : [ "/sfx/interface/sniper_mark_stop2.ogg"]
+		    }
+		  },
 			"description" : "Your personal handgun. It has a unique weapon core that allows it to evolve.",
-		  "shortdescription" : "Vanta Pistol"
+		  "shortdescription" : "Vanta Pistol ^yellow;ß^reset;",
+
+			"primaryAbility" : {
+				"baseDps" : 9.5,
+				"energyUsage" : 15
+			},
+
+			"altAbilityType" : "markedshot",
+			"altAbility" : {
+				"name" : "Marked Shot",
+		    "type" : "markedshot",
+		    "scripts" : ["/items/active/weapons/ranged/abilities/markedshot/markedshot.lua"],
+		    "class" : "MarkedShot",
+
+		    "elementalConfig" : {
+		      "physical" : { "projectileType" : "chainbullet" },
+		      "fire" : { "projectileType" : "chainfireplasma" },
+		      "electric" : { "projectileType" : "chainelectricplasma" },
+		      "ice" : { "projectileType" : "chainiceplasma" },
+		      "poison" : { "projectileType" : "chainpoisonplasma" }
+		    },
+		    "projectileParameters" : {
+					"statusEffects" : [ ]
+				},
+		    "baseDamage" : 8,
+		    "energyUsage" : 37.5, // cost per target marked
+		    "cooldownTime" : 1.0,
+
+		    "maxTargets" : 10,
+		    "targetQueryDistance" : 2,
+
+		    "stances" : {
+		      "cooldown" : {
+		        "duration" : 0.6,
+		        "armRotation" : 5,
+		        "weaponRotation" : 5,
+		        "twoHanded" : true
+		      }
+		    }
+			},
+			"critChance" : 1,
+			"critBonus" : 2
 		}
 	]
 }

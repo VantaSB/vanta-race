@@ -4,7 +4,9 @@
   "printable" : false,
   "rarity" : "Common",
 
-  "interactAction" : "OpenAiInterface",
+  //"interactAction" : "OpenAiInterface",
+	"interactAction" : "ScriptPane",
+	"interactData" : "/interface/scripted/ex_sail/ex_sail.config",
 
   "category" : "decorative",
   "lightColor" : [102, 61, 61],
@@ -37,12 +39,13 @@
     }
   ],
 
-  "offeredQuests" : [ "gaterepair_vanta", "vanta_prep1", "vanta_trial1" ],
-	"turnInQuests" : [ "vanta_prep1" ],
+  "offeredQuests" : [ "gaterepair_vanta", "vanta_trial1" ],
+	"turnInQuests" : [ "vanta_trial1" ],
 
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [
-		"/objects/spawner/techstation.lua"
+		"/objects/spawner/techstation.lua",
+		"/objects/scripts/customtechstation.lua"
   ],
   "scriptDelta" : 20,
   "shipPetType" : "petocubit",

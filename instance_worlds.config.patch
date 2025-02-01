@@ -41,7 +41,7 @@
 			"dungeonWorld" : "vanta_trialintro",
 			"seed" : 1234,
 			"spawningEnabled" : false,
-			"beamUpRule" : "Anywhere",
+			"beamUpRule" : "AnywhereWithWarning",
 			"disableDeathDrops" : true,
 
 			"skyParameters" : {
@@ -291,7 +291,7 @@
       "dungeonWorld" : "vantamission1",
       "seed" : 1234,
       "spawningEnabled" : false,
-      "beamUpRule" : "Nowhere",
+      "beamUpRule" : "AnywhereWithWarning",
       "disableDeathDrops" : true,
 
       "skyParameters" : {
@@ -403,7 +403,7 @@
       "dungeonWorld" : "void_barbatos",
       "seed" : 1234,
       "spawningEnabled" : false,
-      "beamUpRule" : "Anywhere",
+      "beamUpRule" : "Nowhere",
       "disableDeathDrops" : true,
 
       "skyParameters" : {

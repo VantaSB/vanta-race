@@ -1,14 +1,15 @@
 {
   "id" : "vanta_trial1",
-  "prerequisites" : [ "vanta_prep1" ],
+	"mainQuest" : true,
+	"prerequisites" : [ "ship_repair_vanta" ],
   "title" : "Dark Echoes - Part I",
-  "text" : "I have reveiewed your equipment, and it looks like you are now adequately prepared. The ^green;Temple of Awakening^reset; was used as a proving grounds to celebrate adolescent Nightars becoming new warriors. Additionally, there appears to be some sort of ^orange;artifact^reset; hidden there. I do not know what to expect, so tread carefully.",
-  "completionText" : "Beg pardon? You travelled through the ^orange;void^reset;!? Good grief... at least you're here in one piece. There's not much going on at the moment, but I'll have something for you as soon as I can. You may want to ^green;try seeing if anyone else out there needs your help for now^reset;.",
+  "text" : "I have come across a curious set of coordinates buried within our historical data. The ^green;Temple of Awakening^reset; on our homeworld was used as a proving grounds to celebrate adolescent Nightars becoming new warriors. Additionally, there appears to be some sort of ^orange;artifact^reset; hidden there. I do not know what to expect, so tread carefully.",
+  "completionText" : "The key you picked up is giving off strange readings, as well. I'll continue background analysis, but in the meantime, ^green;you may want to help out at the ^orange;outpost^reset; for now.",
   "moneyRange" : [100, 100],
 	"rewards" : [
     [ ["rewardbag", 1] ]
   ],
-
+	"canBeAbandoned" : false,
   "questGiverIndicator" : "vanta_mainquestgiver",
   "questReceiverIndicator" : "vanta_mainquestreceiver",
 
@@ -17,7 +18,7 @@
   "scriptConfig" : {
     "portraits" : {
 			"questStarted" : "sail",
-      "questComplete" : "questReceiver"
+      "questComplete" : "sail"
     },
 		"associatedMission" : "trialvanta1",
 		"missionUnlockedCinema" : "/cinematics/coordinates.cinematic",
@@ -29,14 +30,14 @@
 
 		"descriptions" : {
 			"artifact" : "Find the ^orange;artifact^reset; within the ^orange;Temple of Awakening^reset;",
-			"turnIn" : "Enter the ^orange;dark gate^reset; and explore"
+			"turnIn" : "Return to your ship"
 		},
 
 		"artifactUid" : "vantaartifactaltar",
 		"artifactInventory" : "darkgatekey",
 		"artifactMessage" : "vantaArtifactTaken",
 
-		"turnInUid" : "ranoutpost",
+		"turnInUid" : "techstation",
 
 		"artifactCinema" : "/cinematics/artifacts/tetrakey.cinematic"
 	}

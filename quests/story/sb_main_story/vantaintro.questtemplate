@@ -16,7 +16,6 @@
     "portraits" : {
       "default" : "player"
     },
-		"introCinematic" : "/cinematics/intro/vanta_introstart.cinematic",
 		"startingMusicTime" : 11.5,
 		"startingMusicTracks" : ["/music/doc_ffvii-underground_complex.ogg"],
     "midpointMusicTime" : 11.75,
@@ -25,7 +24,7 @@
     "endpointCinematic" : "/cinematics/intro/vanta_introcomplete.cinematic",
     "confiscateItems" : [
       "vsaber",
-      "weatheredpicohandgun",
+      "vpicohandgun",
       "vantaflagofficerhead",
       "vantaflagofficerchest",
       "vantaflagofficerlegs",
@@ -41,7 +40,8 @@
       "vantaflagofficerchest",
       "vantaflagofficerlegs",
 			"vantaintroenvirosuitchest",
-      "vantaintroenvirosuitpants"
+      "vantaintroenvirosuitpants",
+			"vantapocsec01"
     ],
 
     "descriptions" : {

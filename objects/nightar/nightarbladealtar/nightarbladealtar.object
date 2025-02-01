@@ -12,7 +12,7 @@
 	"scripts" : [ "/objects/nightar/nightarbladealtar/nightarbladealtar.lua" ],
 
 	"interactAction" : "ScriptPane",
-	"interactData" : "/interface/scripted/vantaupgrade/vantasabergui.config",
+	"interactData" : "/interface/scripted/vantaupgrade/vantaupgradegui.config",
 
   "inventoryIcon" : "nightarbladealtaricon.png",
 

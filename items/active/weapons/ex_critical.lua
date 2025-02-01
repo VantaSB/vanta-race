@@ -36,7 +36,6 @@ function ExCrit:setCritDamage(damage)
 				if stunRoll > 99 and (root.itemHasTag(heldItem, "fist") or root.itemHasTag(heldItem, "hammer") or root.itemHasTag(heldItem, "axe") or root.itemHasTag(heldItem, "greatsword")) then
 					params.speed = 35
 					world.spawnProjectile("excritstun", mcontroller.position(), activeItem.ownerEntityId(), ExCrit.aimVectorSpecial(self), false, params)
-					--world.spawnItem("skillpoint", world.entityPosition(player.id()), math.random(masteryRange[1], masteryRange[2]))
 				end
 			end
 		end
