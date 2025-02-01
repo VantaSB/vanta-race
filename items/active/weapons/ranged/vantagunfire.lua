@@ -104,13 +104,13 @@ function GunFire:fireProjectile(projectileType, projectileParams, inaccuracy, fi
   if not projectileType then
     projectileType = self.projectileType
   end
-	
+
   if type(projectileType) == "table" then
     projectileType = projectileType[math.random(#projectileType)]
   end
 
   local projectileId = 0
-  for i = 1, (projectileCount or self.projectileCount) do
+  for _ = 1, (projectileCount or self.projectileCount) do
     if params.timeToLive then
       params.timeToLive = util.randomInRange(params.timeToLive)
     end

@@ -79,7 +79,7 @@ function text_typer.init(textData, str, sound)
 		if formatPause > 0 then
 			formatPause = formatPause - 1
 		else
-			local str = string.sub(textCopy, i, i)
+			str = string.sub(textCopy, i, i)
 			if str == "^" then
 				local formatEnd = string.find(textCopy, ";", i)
 				if formatEnd then
@@ -133,7 +133,7 @@ function text_typer.init(textData, str, sound)
 						amount = tonumber(string.sub(textCopy, i+11, bracketEnd-1))
 						table.insert(textData.scrambingLetters, #textData.toWrite + skippedChars..";"..#textData.toWrite + skippedChars + amount)
 
-						for j = 1, amount do
+						for _ = 1, amount do
 							table.insert(textData.toWrite, "#")
 						end
 
@@ -174,9 +174,8 @@ end
 function text_typer.splitTableString(str)
 	local split = {}
 	local copy = str
-	local temp = ""
+	local temp = nil
 	local dotPos = 0
-	local length = string.len(str)
 
 	while dotPos do
 		dotPos = string.find(copy, "%.", 1)
@@ -293,7 +292,7 @@ function text_typer.scrambling(textData)
 
 		if toScramble ~= "" then
 			local replacement = ""
-			for i = 1, string.len(toScramble) do
+			for _ = 1, string.len(toScramble) do
 				-- replacement = replacement..text_typer.allowedScrambleCharacters[math.random(1,#text_typer.allowedScrambleCharacters)]
 				local rnd = math.random(1, string.len(text_typer.allowedScrambleCharacters))
 				replacement = replacement..string.sub(text_typer.allowedScrambleCharacters, rnd, rnd)
