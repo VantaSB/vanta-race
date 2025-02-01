@@ -174,7 +174,7 @@ end
 function text_typer.splitTableString(str)
 	local split = {}
 	local copy = str
-	local temp = nil
+	local temp = nil --luacheck: ignore 311
 	local dotPos = 0
 
 	while dotPos do
