@@ -12,7 +12,7 @@ When reporting an issue, PLEASE make sure you provide some details as to what's 
 ### Contributing
 There are two ways to contribute.
 
-First: if you'd like to submit proposed changes, you can fork a copy of this repository to your own account on GitHub, make the changes that way, and then submit a **Pull Request** for review (be sure to review the [Contributing Guidelines](https://github.com/VantaSB/.github/CONTRIBUTING.md) before creating issues and PRs)
+First: if you'd like to submit proposed changes, you can fork a copy of this repository to your own account on GitHub, make the changes that way, and then submit a **Pull Request** for review (be sure to review the [Contributing Guidelines](https://github.com/VantaSB/vanta-race/blob/master/.github/CONTRIBUTING.md) before creating issues and PRs)
 
 Second: You can buy a cup of coffee using the Ko-fi link below! For the most part, I do all of the mod work on my own, so any little bit of motivation helps, even if it's just a small amount!
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A7IYGDP)
