@@ -5,18 +5,18 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "exChestArmorAcc",
-  "description" : "A lightweight and invigorating coat with threads interwoven with solarium to add resiliency.",
-  "shortdescription" : "Gloam Surcoat",
+  "description" : "A lightweight and invigorating cuirass made of solarium to add resiliency.",
+  "shortdescription" : "Demagogue Armor",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },

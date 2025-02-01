@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "exHeadArmorAcc",
-  "description" : "Despite its modest appearance, this cap is durable enough that it was rated safe for combat.",
-  "shortdescription" : "Gloam Cap",
+  "description" : "While undersized by most standards, this helmet is durable enough that it was rated safe for heavy combat.",
+  "shortdescription" : "Demagogue Helm",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
