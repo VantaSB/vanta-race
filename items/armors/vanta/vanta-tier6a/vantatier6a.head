@@ -7,7 +7,7 @@
   "category" : "exHeadArmorAcc",
   "description" : "While undersized by most standards, this helmet is durable enough that it was rated safe for heavy combat.",
   "shortdescription" : "Demagogue Helm",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exheadaugment",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -36,6 +36,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "focusgem",
 
   "colorOptions" : [
     // DEFAULT

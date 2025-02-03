@@ -2,7 +2,7 @@
   "itemName" : "temporaldrift",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "legenchant",
+  "tooltipKind" : "exlegenchant",
   "category" : "legEnchant",
   "inventoryIcon" : "drift.png",
   "description" : "Slows falling speed and increases jump strength.",

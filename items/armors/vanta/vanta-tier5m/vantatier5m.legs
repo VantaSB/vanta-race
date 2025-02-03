@@ -7,7 +7,7 @@
   "category" : "exLegArmorMan",
   "description" : "Ferozium-based boots designed to be stylish and practical.",
   "shortdescription" : "Noct Boots",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exlegaugment",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
@@ -35,6 +35,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "temporalshard",
 
   "colorOptions" : [
     // DEFAULT

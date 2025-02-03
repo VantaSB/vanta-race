@@ -2,7 +2,7 @@
   "itemName" : "poisonresistenchant2",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "armorenchant",
+  "tooltipKind" : "exarmorenchant",
   "category" : "armorEnchant",
   "inventoryIcon" : "poisonenchant.png",
   "description" : "Adds 50% ^green;poison^reset; resistance to your armor.",

@@ -4,9 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
 
-  //"interactAction" : "OpenAiInterface",
-	"interactAction" : "ScriptPane",
-	"interactData" : "/interface/scripted/ex_sail/ex_sail.config",
+  "interactAction" : "OpenAiInterface",
 
   "category" : "decorative",
   "lightColor" : [102, 61, 61],
@@ -44,8 +42,7 @@
 
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [
-		"/objects/spawner/techstation.lua",
-		"/objects/scripts/customtechstation.lua"
+		"/objects/spawner/techstation.lua"
   ],
   "scriptDelta" : 20,
   "shipPetType" : "petocubit",

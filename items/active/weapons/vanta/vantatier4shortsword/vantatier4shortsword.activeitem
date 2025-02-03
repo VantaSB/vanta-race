@@ -1,0 +1,56 @@
+{
+  "itemName" : "vantatier4shortsword",
+  "price" : 480,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A shortsword forged from durasteel.",
+  "shortdescription" : "Vanta Jian",
+  "tooltipKind" : "ex_sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "vantatier4shortsword.png",
+
+  "animation" : "/items/active/weapons/melee/vantamelee.animation",
+  "animationParts" : {
+    "blade" : "vantatier4shortsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5,
+		"stances" : {
+			"idle" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"windup1" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"fire1" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"wait1" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"windup2" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"fire2" : {
+				"weaponOffset" : [0, 0.25]
+			}
+		}
+  },
+
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua"
+}

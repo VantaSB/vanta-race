@@ -1,9 +1,0 @@
-{
-  "itemName" : "vskillkey1",
-  "price" : 0,
-  "rarity" : "Legendary",
-  "category" : "upgradeComponent",
-  "inventoryIcon" : "vantatechcard.png",
-  "description" : "A special type of tech card that's used for researching Vanta skills.",
-  "shortdescription" : "Vanta Skill Key"
-}

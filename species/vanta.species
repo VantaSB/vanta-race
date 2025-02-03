@@ -22,67 +22,68 @@
 //InventorsTable
       //{ "item" : "vantaanvil" },
 
+//Furnace
+			{ "item" : "darkcrystal" },
+			{ "item" : "nightsteelbar" },
+
 //Anvil1,
       { "item" : "vantatier1head" },
       { "item" : "vantatier1chest" },
       { "item" : "vantatier1pants" },
-
-      { "item" : "vantakatar" },
+			{ "item" : "vantatier1broadsword" },
+			{ "item" : "vantatier1shortsword" },
 
       { "item" : "vantatier2head" },
       { "item" : "vantatier2chest" },
       { "item" : "vantatier2pants" },
-
-      { "item" : "vantatier1shortsword" },
-      { "item" : "vantatier2broadsword" },
+      { "item" : "vantatier2greatsword" },
       { "item" : "vantathrowingknife" },
-      { "item" : "vantashield" },
-
-      { "item" : "darkcrystal" },
-      { "item" : "nightsteelbar" },
+			{ "item" : "vantatier2fist" },
+      { "item" : "vantatier2shield" },
 
 //Anvil2,
       { "item" : "vantatier3head" },
       { "item" : "vantatier3chest" },
       { "item" : "vantatier3pants" },
-
+			{ "item" : "vantatier3broadsword" },
 	    { "item" : "vantatier3shortsword" },
-      { "item" : "stealthdagger" },
-	    { "item" : "vantajamadhar" },
+			{ "item" : "vantatier3dagger" },
+			{ "item" : "vantatier3spear" },
 
 //Anvil3,
       { "item" : "vantatier4head" },
       { "item" : "vantatier4chest" },
       { "item" : "vantatier4pants" },
+			{ "item" : "vantatier4broadsword" },
+			{ "item" : "vantatier4shortsword" },
+			{ "item" : "vantatier4fist" },
+			{ "item" : "vantatier4shield" },
 
       { "item" : "vantatier5ahead" },
       { "item" : "vantatier5achest" },
       { "item" : "vantatier5apants" },
-
       { "item" : "vantatier5mhead" },
       { "item" : "vantatier5mchest" },
       { "item" : "vantatier5mpants" },
-
       { "item" : "vantatier5shead" },
       { "item" : "vantatier5schest" },
       { "item" : "vantatier5spants" },
+			{ "item" : "vantatier5broadsword" },
+			{ "item" : "vantatier5chakram" },
 
       { "item" : "vantatier6ahead" },
       { "item" : "vantatier6achest" },
       { "item" : "vantatier6apants" },
-
       { "item" : "vantatier6mhead" },
       { "item" : "vantatier6mchest" },
       { "item" : "vantatier6mpants" },
-
       { "item" : "vantatier6shead" },
       { "item" : "vantatier6schest" },
       { "item" : "vantatier6spants" },
-
-			{ "item" : "vantatier4greatsword" },
-			{ "item" : "vantabigshield" },
-      { "item" : "vantatier5broadsword" },
-      { "item" : "vantatier6sword" },
+      { "item" : "vantatier6broadsword" },
+			{ "item" : "vantatier6greatsword" },
+			{ "item" : "vantatier6fist" },
+			{ "item" : "vantatier6shield" },
 
 //FurnitureTable,
       { "item" : "nightarbed" },

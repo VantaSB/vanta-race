@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "vantatier3dagger", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 3 },
+    { "item" : "staticcell", "count" : 5 }
+  ],
+  "output" : { "item" : "vantatier4electricdagger", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

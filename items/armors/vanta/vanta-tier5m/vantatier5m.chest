@@ -7,7 +7,7 @@
   "category" : "exChestArmorMan",
   "description" : "A chestpiece intricately crafted with ferozium.",
   "shortdescription" : "Noct Mail",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exarmoraugment",
 
   "maleFrames" : {
     "body" : "chest.png",
@@ -44,6 +44,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "enchant",
 
   "colorOptions" : [
     // DEFAULT

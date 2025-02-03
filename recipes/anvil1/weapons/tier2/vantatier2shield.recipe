@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 2 },
+    { "item" : "hardenedcarapace", "count" : 1 }
+  ],
+  "output" : { "item" : "vantatier2shield", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

@@ -7,7 +7,7 @@
   "category" : "exChestArmorAcc",
   "description" : "A lightweight and invigorating cuirass made of solarium to add resiliency.",
   "shortdescription" : "Demagogue Armor",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exarmoraugment",
 
   "maleFrames" : {
     "body" : "chestm.png",
@@ -44,6 +44,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "enchant",
 
   "colorOptions" : [
     // DEFAULT

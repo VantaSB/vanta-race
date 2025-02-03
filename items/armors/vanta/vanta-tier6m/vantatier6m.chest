@@ -7,7 +7,7 @@
   "category" : "exChestArmorMan",
   "description" : "A mainstay of Nightar warriors of eld, this solarium-infused armor symbolizes unyielding strength.",
   "shortdescription" : "Kingslayer Breastplate",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exarmoraugment",
 
   "maleFrames" : {
     "body" : "chest.png",
@@ -44,6 +44,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "enchant",
 
   "colorOptions" : [
     // DEFAULT

@@ -7,7 +7,7 @@
   "category" : "exHeadArmorMan",
   "description" : "This helmet is a symbol of prestige among Vanta warriors.",
   "shortdescription" : "Noct Helm",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exheadaugment",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -36,6 +36,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "focusgem",
 
   "colorOptions" : [
     // DEFAULT

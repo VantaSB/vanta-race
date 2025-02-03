@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "darkcrystal", "count" : 1 },
+    { "item" : "vantatier2shield", "count" : 1 }
+  ],
+  "output" : { "item" : "vantatier4shield", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

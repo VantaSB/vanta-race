@@ -1,0 +1,36 @@
+{
+  "itemName" : "vantatier4icedagger",
+  "price" : 320,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A light, but durable dagger imbued with ^#0099ff;ice^reset;.",
+  "shortdescription" : "Vanta Frost Dagger",
+  "tooltipKind" : "ex_sword",
+  "category" : "dagger",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger"],
+
+	"inventoryIcon" : "ice.png",
+
+  "animation" : "/items/active/weapons/melee/vantamelee.animation",
+  "animationParts" : {
+    "blade" : "ice.png"
+  },
+	"animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+	"primaryAbilityType": "stealthdaggercombo",
+  "primaryAbility" : {
+    "fireTime" : 0.35,
+    "baseDps" : 9.0
+  },
+
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua"
+}

@@ -2,7 +2,7 @@
   "itemName" : "temporalequilibrium",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "legenchant",
+  "tooltipKind" : "exlegenchant",
   "category" : "legEnchant",
   "inventoryIcon" : "equilibrium.png",
   "description" : "Grants the effects of Temporal Adrenaline, Temporal Drift, and the maximum effect of Temporal Grace.",
@@ -14,7 +14,7 @@
     "displayName" : "Temporal Equilibrium",
     "displayIcon" : "/items/augments/temporalshards/equilibrium.png",
     "effects" : [
-      {"stat" : "fallDamageMultiplier", "amount" : 0},
+      {"stat" : "fallDamageMultiplier", "amount" : 0.1},
       "jumpboostaugment",
       "runboostaugment",
       "lowgravaugment",

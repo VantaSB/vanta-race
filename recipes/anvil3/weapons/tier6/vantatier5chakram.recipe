@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "vantathrowingknife", "count" : 4 },
+    { "item" : "refinedaegisalt", "count" : 2 },
+		{ "item" : "refinedferozium", "count" : 2 },
+		{ "item" : "refinedviolium", "count" : 2 }
+  ],
+  "output" : { "item" : "vantatier5chakram", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

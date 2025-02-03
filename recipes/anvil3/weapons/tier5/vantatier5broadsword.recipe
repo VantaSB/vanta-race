@@ -1,9 +1,8 @@
 {
   "input" : [
-    { "item" : "refinedviolium", "count" : 5 },
-    { "item" : "nightsteelbar", "count" : 5 }
+    { "item" : "refinedviolium", "count" : 6 },
+    { "item" : "silverbar", "count" : 6 }
   ],
-  "duration" : 5,
   "output" : { "item" : "vantatier5broadsword", "count" : 1 },
   "groups" : [ "craftinganvil3", "weapons", "all" ]
 }

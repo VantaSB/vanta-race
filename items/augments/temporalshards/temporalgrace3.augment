@@ -2,7 +2,7 @@
   "itemName" : "temporalgrace3",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "legenchant",
+  "tooltipKind" : "exlegenchant",
   "category" : "legEnchant",
   "inventoryIcon" : "grace.png",
   "description" : "Reduces falling damage by 75%.",

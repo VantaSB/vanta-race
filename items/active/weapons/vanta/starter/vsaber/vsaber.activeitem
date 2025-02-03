@@ -14,14 +14,14 @@
 
   "inventoryIcon" : "vsaber_l1.png",
 
-  "animation" : "vsaber.animation",
+  "animation" : "/items/active/weapons/melee/vantamelee.animation",
   "animationParts" : {
     "blade" : "vsaber_l1.png",
 		"handle" : ""
   },
   "animationCustom" : { },
 
-  "scripts" : ["/items/active/weapons/melee/vsabermelee.lua"],
+  "scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
 
   "elementalType" : "physical",
 

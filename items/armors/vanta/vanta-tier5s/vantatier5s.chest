@@ -7,7 +7,7 @@
   "category" : "exChestArmorSep",
   "description" : "Bladed shoulders give the phantoma armor a somewhat aerodynamic edge.",
   "shortdescription" : "Phantoma Chestplate",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exarmoraugment",
 
   "maleFrames" : {
     "body" : "chestm.png",
@@ -44,6 +44,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "enchant",
 
   "colorOptions" : [
     // DEFAULT

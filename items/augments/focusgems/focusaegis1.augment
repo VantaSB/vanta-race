@@ -2,7 +2,7 @@
   "itemName" : "focusaegis1",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "headenchant",
+  "tooltipKind" : "exheadenchant",
   "category" : "headEnchant",
   "inventoryIcon" : "aegis.png",
   "description" : "Slightly increases overall protection.",

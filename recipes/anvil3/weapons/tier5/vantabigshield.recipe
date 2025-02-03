@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "darkcrystal", "count" : 1 },
-    { "item" : "vantashield", "count" : 1 }
-  ],
-  "output" : { "item" : "vantabigshield", "count" : 1 },
-  "groups" : [ "craftinganvil3", "weapons", "all" ]
-}

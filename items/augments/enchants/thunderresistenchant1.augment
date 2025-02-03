@@ -2,7 +2,7 @@
   "itemName" : "thunderresistenchant1",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "armorenchant",
+  "tooltipKind" : "exarmorenchant",
   "category" : "armorEnchant",
   "inventoryIcon" : "thunderenchant.png",
   "description" : "Adds 25% ^#ff00ff;electric^reset; resistance to your armor.",

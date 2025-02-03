@@ -7,7 +7,7 @@
   "category" : "exChestArmorAcc",
   "description" : "While lacking in defense, this chestguard amplifies the energy of the wearer.",
   "shortdescription" : "Didact Coat",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exarmoraugment",
 
   "maleFrames" : {
     "body" : "chestm.png",
@@ -44,6 +44,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "enchant",
 
   "colorOptions" : [
     // DEFAULT

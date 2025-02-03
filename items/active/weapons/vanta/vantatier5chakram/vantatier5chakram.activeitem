@@ -1,0 +1,88 @@
+{
+  "itemName" : "vantatier5chakram",
+  "price" : 400,
+	"level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A chakram crackling with the destructive energy of ceruleum.",
+  "shortdescription" : "Vanta War Quoit",
+  "tooltipKind" : "ex_sword",
+	"category" : "chakram",
+  "twoHanded" : false,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "/items/active/weapons/chakram/chakram.animation",
+  "animationParts" : {
+    "chakram" : "vantatier5chakram.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "throw" : [ "/sfx/melee/swing_broadsword.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/boomerang/boomerang.lua"],
+  "fireOffset" : [1.25, 0.5],
+
+  "cooldownTime" : 0.6,
+
+	"elementalType" : "physical",
+
+  "projectileType" : "vantatier5chakram",
+  "projectileParameters" : {
+    "knockback" : 10,
+    "power" : 5,
+    "damageRepeatTimeout" : 0.5,
+
+    "returnOnHit" : false,
+    "pickupDistance" : 1.0,
+
+    "hoverMaxDistance" : 15,
+    "hoverTime" : 0.8
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transition" : "throw",
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "catch" : {
+      "duration" : 0.2,
+      "transition" : "idle",
+      "armRotation" : 60,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+	"critChance" : 1,
+	"critBonus" : 1,
+
+	"builder" : "/items/buildscripts/buildvantaboomerang.lua"
+}

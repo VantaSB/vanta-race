@@ -1,0 +1,58 @@
+{
+  "itemName" : "vantatier2greatsword",
+  "price" : 960,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A greatsword based on older Nightar specifications.",
+  "shortdescription" : "Vanta Greatsword",
+  "tooltipKind" : "ex_sword",
+  "category" : "greatsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","greatsword"],
+
+  "inventoryIcon" : "vantatier2greatsword.png",
+
+  "animation" : "/items/active/weapons/melee/vantamelee.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "vantatier2greatsword.png"
+  },
+  "animationCustom" : {
+		"sounds" : {
+			"fire" : [ "/sfx/melee/swing_hammer.ogg" ],
+			"groundImpact" : [ "/sfx/melee/hammer_hit_ground3.ogg", "/sfx/melee/hammer_hit_ground4.ogg" ]
+		}
+	},
+
+  "scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 1.2,
+    "baseDps" : 11.5,
+		"stances" : {
+			"idle" : {
+				"weaponOffset" : [-0.125, 0.25]
+			},
+			"windup" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"preslash" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"fire" : {
+				"weaponOffset" : [0, 0.25]
+			}
+		}
+  },
+
+  "altAbilityType" : "physicalshockwave",
+
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua"
+}

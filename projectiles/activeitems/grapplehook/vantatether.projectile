@@ -4,20 +4,23 @@
   "animationCycle" : 1.0,
   "frameNumber" : 1,
   "pointLight" : false,
+	"fullbright" : true,
   "flippable" : false,
   "actionOnReap" : [ ],
   "statusEffects" : [ ],
   "power" : 0.0,
   "speed" : 100,
   "damageKind" : "default",
-  "physics" : "grapplehook",
-  "bounces" : -1,
+  "physics" : "stickybullet",
+  "bounces" : 0,
   "piercing" : true,
   "timeToLive" : 5,
 
   "onlyHitTerrain" : true,
 
   "scripts" : [ "grapplehook.lua" ],
+
+	"breakOnSlipperyCollision" : true,
 
   "actionOnCollide" : [
     {

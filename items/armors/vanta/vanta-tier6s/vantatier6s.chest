@@ -7,7 +7,7 @@
   "category" : "exChestArmorSep",
   "description" : "Remain steadfast through the vastness of the cosmos in this powerful, solarium-infused armor.",
   "shortdescription" : "Queenbreaker Mail",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exarmoraugment",
 
   "maleFrames" : {
     "body" : "chest.png",
@@ -44,6 +44,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "enchant",
 
   "colorOptions" : [
     // DEFAULT

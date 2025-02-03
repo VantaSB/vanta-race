@@ -1,0 +1,58 @@
+{
+  "itemName" : "vantatier6greatsword",
+  "price" : 960,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A weapon whose initial purpose was for ceremonial purposes.",
+  "shortdescription" : "Vanta Katzbalger",
+  "tooltipKind" : "ex_sword",
+  "category" : "greatsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","greatsword"],
+
+  "inventoryIcon" : "vantatier6greatsword.png",
+
+  "animation" : "/items/active/weapons/melee/vantamelee.animation",
+	"animationParts" : {
+		"blade" : "vantatier6greatsword.png",
+		"handle" : "vantatier6greatswordlit.png"
+	},
+  "animationCustom" : {
+		"sounds" : {
+			"fire" : [ "/sfx/melee/swing_hammer.ogg" ],
+			"groundImpact" : [ "/sfx/melee/hammer_hit_ground3.ogg", "/sfx/melee/hammer_hit_ground4.ogg" ]
+		}
+	},
+
+  "scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 1.2,
+    "baseDps" : 11.5,
+		"stances" : {
+			"idle" : {
+				"weaponOffset" : [-0.125, 0.25]
+			},
+			"windup" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"preslash" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"fire" : {
+				"weaponOffset" : [0, 0.25]
+			}
+		}
+  },
+
+  "altAbilityType" : "uppercut",
+
+	"critChace" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua"
+}

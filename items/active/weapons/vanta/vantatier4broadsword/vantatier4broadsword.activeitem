@@ -1,0 +1,39 @@
+{
+  "itemName" : "vantatier4broadsword",
+  "price" : 960,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A sword based on a more oriental design.",
+  "shortdescription" : "Vanta Kilij",
+  "tooltipKind" : "ex_sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "vantatier4broadsword.png",
+
+  "animation" : "/items/active/weapons/melee/vantamelee.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "vantatier4broadsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.84,
+    "baseDps" : 14.3
+  },
+
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "altAbilityType" : "superspinslash",
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua"
+}

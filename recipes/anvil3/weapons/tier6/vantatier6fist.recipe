@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "vantatier4fist", "count" : 1 },
+		{ "item" : "solariumstar", "count" : 1 }
+  ],
+  "output" : { "item" : "vantatier6fist", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

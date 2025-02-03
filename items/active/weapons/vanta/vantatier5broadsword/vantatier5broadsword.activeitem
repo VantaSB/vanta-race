@@ -5,25 +5,24 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "A greatsword infused with violium.",
-  "shortdescription" : "Galatyn",
-  "tooltipKind" : "sword",
+  "shortdescription" : "Vanta Longsword",
+  "tooltipKind" : "ex_sword",
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","broadsword","vanta"],
 
   "inventoryIcon" : "vantatier5broadsword.png",
 
-  "animation" : "vantatier5broadsword.animation",
+  "animation" : "/items/active/weapons/melee/vantamelee.animation",
   "animationParts" : {
-    "handle" : "vantatier5broadsword.png",
-    "handleFullbright" : "vantatier5broadswordlit.png",
-    "blade" : ""
+    "blade" : "vantatier5broadsword.png",
+    "handle" : "vantatier5broadswordlit.png"
   },
   "animationCustom" : { },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
 
-  "elementalType" : "ice",
+  "elementalType" : "physical",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
@@ -31,7 +30,10 @@
     "baseDps" : 11.5
   },
 
-  "altAbilityType" : "giantsword",
+  "altAbilityType" : "darkslice",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua"
 }

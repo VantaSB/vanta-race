@@ -7,7 +7,7 @@
   "category" : "exLegArmorAcc",
   "description" : "An elegant robe that lacks durability, but allows for easier movement on the field.",
   "shortdescription" : "Didact Tassets",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exlegaugment",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
@@ -35,6 +35,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "temporalshard",
 
   "colorOptions" : [
     // DEFAULT

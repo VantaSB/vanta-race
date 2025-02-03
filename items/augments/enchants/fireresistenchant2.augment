@@ -2,7 +2,7 @@
   "itemName" : "fireresistenchant2",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "armorenchant",
+  "tooltipKind" : "exarmorenchant",
   "category" : "armorEnchant",
   "inventoryIcon" : "fireenchant.png",
   "description" : "Adds 50% ^orange;fire^reset; resistance to your armor.",

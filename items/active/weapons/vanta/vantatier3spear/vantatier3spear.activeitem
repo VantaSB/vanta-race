@@ -1,19 +1,19 @@
 {
   "itemName" : "vantatier3spear",
-  "price" : 0,
+  "price" : 960,
   "level" : 3,
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "A spear made for keeping enemies at bay.",
   "shortdescription" : "Vanta Spear",
-  "tooltipKind" : "sword",
+  "tooltipKind" : "ex_sword",
   "category" : "spear",
   "twoHanded" : true,
   "itemTags" : ["weapon","melee","spear"],
 
   "inventoryIcon" : "vantatier3spear.png",
 
-  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animation" : "/items/active/weapons/melee/vantamelee.animation",
   "animationParts" : {
     "blade" : "vantatier3spear.png"
   },
@@ -23,19 +23,22 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
 
-  "elementalType" : "ceruleum",
+  "elementalType" : "physical",
 
   "aimOffset" : -1.0,
 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "fireTime" : 0.95,
-    "baseDps" : 17.3
+    "baseDps" : 10.5
   },
 
   "altAbilityType" : "spearspin",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua"
 }

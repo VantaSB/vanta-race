@@ -2,7 +2,7 @@
   "itemName" : "fireresistenchant3",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "armorenchant",
+  "tooltipKind" : "exarmorenchant",
   "category" : "armorEnchant",
   "inventoryIcon" : "fireenchant.png",
   "description" : "Adds 75% ^orange;fire^reset; resistance to your armor and grants immunity from burning.",

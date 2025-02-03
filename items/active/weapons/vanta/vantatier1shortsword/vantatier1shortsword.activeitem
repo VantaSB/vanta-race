@@ -5,30 +5,53 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "It's a basic Vanta shortsword.",
-  "shortdescription" : "Vanta Iron Spatha",
-  "tooltipKind" : "sword",
+  "shortdescription" : "Vanta Spatha",
+  "tooltipKind" : "ex_sword",
   "category" : "shortsword",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","shortsword"],
 
   "inventoryIcon" : "vantatier1shortsword.png",
 
-  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animation" : "/items/active/weapons/melee/vantamelee.animation",
   "animationParts" : {
     "handle" : "vantatier1shortsword.png",
     "blade" : ""
   },
   "animationCustom" : { },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
 
   "elementalType" : "physical",
 
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.84,
-    "baseDps" : 11.6
+    "fireTime" : 0.625,
+    "baseDps" : 7.5,
+		"stances" : {
+			"idle" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"windup1" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"fire1" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"wait1" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"windup2" : {
+				"weaponOffset" : [0, 0.25]
+			},
+			"fire2" : {
+				"weaponOffset" : [0, 0.25]
+			}
+		}
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua"
 }

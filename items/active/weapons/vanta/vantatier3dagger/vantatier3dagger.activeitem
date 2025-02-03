@@ -1,0 +1,36 @@
+{
+  "itemName" : "vantatier3dagger",
+  "price" : 320,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A light, but durable dagger thoroughly put to use by the Vanta.",
+  "shortdescription" : "Vanta Stealth Dagger",
+  "tooltipKind" : "ex_sword",
+  "category" : "dagger",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger"],
+
+	"inventoryIcon" : "vantatier3dagger.png",
+
+	"animation" : "/items/active/weapons/melee/vantamelee.animation",
+  "animationParts" : {
+    "blade" : "vantatier3dagger.png"
+  },
+  "animationCustom" : { },
+
+	"scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+	"primaryAbilityType": "stealthdaggercombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 9.0
+  },
+
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua"
+}

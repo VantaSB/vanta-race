@@ -7,7 +7,7 @@
   "category" : "exHeadArmorMan",
   "description" : "Many warriors in the past donned this helmet and just as many kept their heads after endless, grueling battles.",
   "shortdescription" : "Kingslayer Helm",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exheadaugment",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -36,6 +36,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "focusgem",
 
   "colorOptions" : [
     // DEFAULT

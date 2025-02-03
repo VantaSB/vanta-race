@@ -7,7 +7,7 @@
   "category" : "exLegArmorSep",
   "description" : "Phantoma boots are designed to be stylish and practical.",
   "shortdescription" : "Phantoma Boots",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exlegaugment",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
@@ -35,6 +35,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "temporalshard",
 
   "colorOptions" : [
     // DEFAULT

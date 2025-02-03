@@ -1,0 +1,43 @@
+{
+  "itemName" : "vantatier6broadsword",
+  "price" : 960,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A sword fit for a skilled swordsman.",
+  "shortdescription" : "Vanta Bastard Sword",
+  "tooltipKind" : "ex_sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "vantatier6broadsword.png",
+
+  "animation" : "/items/active/weapons/melee/vantamelee.animation",
+	"animationParts" : {
+		"blade" : "vantatier6broadsword.png",
+		"handle" : "vantatier6broadswordlit.png"
+	},
+	"animationCustom" : {
+		"sounds" : {
+			"flipSlash" : [ "/sfx/melee/flip_slash.ogg" ]
+		}
+	},
+
+  "scripts" : ["/items/active/weapons/melee/vantameleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 10.5
+  },
+
+  "altAbilityType" : "flipslash",
+
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua"
+}

@@ -2,7 +2,7 @@
   "itemName" : "iceresistenchant1",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "armorenchant",
+  "tooltipKind" : "exarmorenchant",
   "category" : "armorEnchant",
   "inventoryIcon" : "iceenchant.png",
   "description" : "Adds 25% ^cyan;ice^reset; resistance to your armor.",

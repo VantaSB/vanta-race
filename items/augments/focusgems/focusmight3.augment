@@ -2,7 +2,7 @@
   "itemName" : "focusmight3",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "headenchant",
+  "tooltipKind" : "exheadenchant",
   "category" : "headEnchant",
   "inventoryIcon" : "might.png",
   "description" : "Slightly increases overall strength.",

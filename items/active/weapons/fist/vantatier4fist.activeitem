@@ -1,0 +1,110 @@
+{
+  "itemName" : "vantatier4fist",
+  "price" : 1000,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Katars reforged with durasteel.",
+  "shortdescription" : "Vanta Jamadhar",
+  "tooltipKind" : "ex_sword",
+  "category" : "katar",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "fistWeapon"],
+
+  "inventoryIcon" : "vantatier4fist.png:front",
+  "animation" : "/items/active/weapons/fist/fistweapon.animation",
+  "animationParts" : {
+    "weapon" : "vantatier4fist.png",
+    "swoosh" : "/items/active/weapons/fist/swoosh/physicalswoosh.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
+    }
+  },
+  "scripts" : [ "/items/active/weapons/fist/fistweapon.lua" ],
+
+  "needsEdgeTrigger" : true,
+  "edgeTriggerGrace" : 0.2,
+
+  "comboSteps" : 4,
+  "comboTiming" : [0.2, 0.5],
+  "comboCooldown" : 0.3,
+  "comboFinisherSource" : "/items/active/weapons/fist/combofinishers/dashslash.combofinisher",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/fist/punch.lua"],
+    "class" : "Punch",
+
+    "freezeTime" : 0.25,
+    "fireTime" : 0.2,
+    "baseDps" : 18.2,
+    "damageConfig" : {
+      "statusEffects" : [ ],
+      "damageSourceKind" : "fist",
+      "knockback" : [0, 15],
+      "timeoutGroup" : "primary",
+      "timeout" : 0.1
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 45,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [-0.25, -0.575],
+
+        "allowRotate" : false,
+        "allowFlip" : true,
+
+        "frontArmFrame" : "run.2",
+        "backArmFrame" : "jump.3"
+      },
+      "windup" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [-0.625, -0.125],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+
+        "frontArmFrame" : "swimIdle.1",
+        "backArmFrame" : "swim.1"
+      },
+      "windup2" : {
+        "duration" : 0.05,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [-0.75, -0.125],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+
+        "frontArmFrame" : "swimIdle.1",
+        "backArmFrame" : "swim.1",
+
+        "recoil" : true
+      },
+      "fire" : {
+        "duration" : 0.1,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponRotationCenter" : [-1.0, 0.0],
+        "weaponOffset" : [0.125, -0.25],
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+
+        "frontArmFrame" : "rotation",
+        "backArmFrame" : "rotation"
+      }
+    }
+  },
+
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantafist.lua"
+}

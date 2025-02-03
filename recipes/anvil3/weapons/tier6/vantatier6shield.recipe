@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 5 },
+		{ "item" : "diamond", "count" : 5 },
+    { "item" : "battery", "count" : 2 }
+  ],
+  "output" : { "item" : "vantatier6shield", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

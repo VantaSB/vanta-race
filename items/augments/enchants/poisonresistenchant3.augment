@@ -2,7 +2,7 @@
   "itemName" : "poisonresistenchant3",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "armorenchant",
+  "tooltipKind" : "exarmorenchant",
   "category" : "armorEnchant",
   "inventoryIcon" : "poisonenchant.png",
   "description" : "Adds 75% ^green;poison^reset; resistance to your armor and grants immunity from toxic infection.",

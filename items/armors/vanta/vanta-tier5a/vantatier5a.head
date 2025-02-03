@@ -7,7 +7,7 @@
   "category" : "exHeadArmorAcc",
   "description" : "A light-weight, high-tech visor reinforced with Nightsteel.",
   "shortdescription" : "Didact Visor",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "exheadaugment",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -36,6 +36,8 @@
       "amount" : 5
     }
   ],
+
+	"acceptsAugmentType" : "focusgem",
 
   "colorOptions" : [
     // DEFAULT

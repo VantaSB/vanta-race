@@ -2,7 +2,7 @@
   "itemName" : "temporaladrenaline",
   "price" : 0,
   "rarity" : "Legendary",
-  "tooltipKind" : "legenchant",
+  "tooltipKind" : "exlegenchant",
   "category" : "legEnchant",
   "inventoryIcon" : "adrenaline.png",
   "description" : "Increases ground movement and swimming speeds.",
