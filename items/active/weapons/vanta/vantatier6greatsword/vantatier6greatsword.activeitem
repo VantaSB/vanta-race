@@ -50,6 +50,14 @@
   },
 
   "altAbilityType" : "uppercut",
+	"altAbility" : {
+		"windup" : {
+			"weaponOffset" : [0, 0.25]
+		},
+		"fire" : {
+			"weaponOffset" : [0, 0.25]
+		}
+	},
 
 	"critChace" : 1,
 	"critBonus" : 1,
