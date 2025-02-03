@@ -190,7 +190,7 @@ function findBoardStage()
     self.state:set(self.stages[storage.stage])
   end
 
-  quest.setParameter("board", {type = "entity", uniqueId = self.boardUid, indicator = "/interface/quests/questreceiver.animation"})
+  quest.setParameter("board", {type = "entity", uniqueId = self.boardUid, indicator = "/interface/quests/vanta_questreceiver.animation"})
   quest.setIndicators({"board"})
 
   quest.setObjectiveList({{config.getParameter("descriptions.findBoard"), false}})

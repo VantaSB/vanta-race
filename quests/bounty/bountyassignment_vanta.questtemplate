@@ -14,7 +14,7 @@
   "questReceiverIndicator" : "vanta_questreceiver",
 
   "updateDelta" : 10,
-  "script" : "/quests/bounty/bountyassignment.lua",
+  "script" : "/quests/bounty/bountyassignment_vanta.lua",
   "scriptConfig" : {
     "portraits" : {
       "default" : "player"
@@ -64,7 +64,7 @@
     "finalAssignmentTitle" : "Going after the Occasus",
     "finalAssignmentText" : "Geez louise. We've received an assignment to take out this Occasus Cult. They seem like some real bad apples, partner! I hope you're up for this. We've set up a headquarters in the area where they operate.",
 
-    "arrivalCinematic" : "/cinematics/peacekeeper/peacekeeper.cinematic",
+    "arrivalCinematic" : "/cinematics/peacekeeper/peacekeeper_vanta.cinematic",
     "boardUid" : "bountyboard"
   }
 }
