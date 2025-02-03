@@ -1,5 +1,5 @@
 function activate(fireMode, shiftHeld)
---ZB Quest Pane
+--Tech Config GUI
   if fireMode == "primary" and not shiftHeld then
     activeItem.interact("ScriptPane", "/interface/scripted/techupgrade/techupgradegui.config")
   end
@@ -9,12 +9,12 @@ function activate(fireMode, shiftHeld)
     activeItem.interact("ScriptPane", "/interface/scripted/mechassembly/mechassemblygui.config")
   end
 
---Techs Window
+--Custom Codex
   if fireMode == "alt" and not shiftHeld then
     activeItem.interact("ScriptPane", "/interface/scripted/hfcodex/xcodexui.config")
   end
 
---Integrated codex
+--Vanta Research Tree
   if fireMode == "alt" and shiftHeld then
     activeItem.interact("scriptPane", "/interface/scripted/ex_research/researchTree.config")
   end

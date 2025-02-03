@@ -45,13 +45,15 @@ function performUpgrade(widgetName, widgetData)
     local upgrade = self.upgradeConfig[self.selectedUpgrade]
     if player.consumeItem({name = "manipulatormodule", count = upgrade.moduleCost}) then
       if upgrade.setItem then
+				if player.species() == "vanta" then
+					if upgrade.essentialSlot == "painttool" or upgrade.essentialSlot == "wiretool" then upgrade.setItem = "vanta"..upgrade.setItem end
+				end
         player.giveEssentialItem(upgrade.essentialSlot, upgrade.setItem)
       end
 
       if upgrade.setItemParameters then
         local item = player.essentialItem(upgrade.essentialSlot)
         util.mergeTable(item.parameters, upgrade.setItemParameters)
-				if player.species() == "vanta" then item = "vanta"..item end
         player.giveEssentialItem(upgrade.essentialSlot, item)
       end
 
@@ -60,6 +62,8 @@ function performUpgrade(widgetName, widgetData)
           status.setStatusProperty(k, v)
         end
       end
+
+			sb.logInfo("MM Upgraded: %s  |  %s", upgrade.essentialSlot, upgrade.setItem)
 
       local mm = player.essentialItem("beamaxe")
       mm.parameters.upgrades = mm.parameters.upgrades or {}
@@ -143,7 +147,11 @@ function addItemParameters(slot, parameters)
 end
 
 function resetTools()
-  player.giveEssentialItem("beamaxe", "beamaxe")
+	if player.species() == "vanta" then
+		player.giveEssentialItem("beamaxe", "vantamanipulator")
+	else
+  	player.giveEssentialItem("beamaxe", "beamaxe")
+	end
   player.removeEssentialItem("wiretool")
   player.removeEssentialItem("painttool")
   status.setStatusProperty("bonusBeamGunRadius", 0)
