@@ -150,7 +150,7 @@ function resetTools()
 	if player.species() == "vanta" then
 		player.giveEssentialItem("beamaxe", "vantamanipulator")
 	else
-  	player.giveEssentialItem("beamaxe", "beamaxe")
+		player.giveEssentialItem("beamaxe", "beamaxe")
 	end
   player.removeEssentialItem("wiretool")
   player.removeEssentialItem("painttool")
