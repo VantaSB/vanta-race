@@ -9,6 +9,8 @@
   "ephemeral" : true,
   "rewards" : [],
 
+	"questGiverIndicator" : "vanta_questgiver",
+
   "updateDelta" : 20,
   "script" : "/quests/scripts/outpost/vaultkey.lua",
   "scriptConfig" : {

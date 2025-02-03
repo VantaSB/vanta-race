@@ -34,15 +34,7 @@ function init()
   status.setPersistentEffects("vantaintroProtection", {
     --Need to have multiple stats here due to the different types of attacks from enemies; phyiscal resistance set to near-max since death in the intro mission will result in getting beamed back to the ship with no way to restart the mission.
     { stat = "breathProtection", amount = 1.0 },
-    { stat = "physicalResistance", amount = 0.9 },
-    { stat = "fireResistance", amount = 0.9 },
-    { stat = "iceResistance", amount = 0.9 },
-    { stat = "electricResistance", amount = 0.9 },
-    { stat = "poisonResistance", amount = 0.9 },
-    { stat = "fireStatusImmunity", amount = 1.0 },
-    { stat = "iceStatusImmunity", amount = 1.0 },
-    { stat = "electricStatusImmunity", amount = 1.0 },
-    { stat = "poisonStatusImmunity", amount = 1.0 },
+    { stat = "physicalResistance", amount = 0.5 },
     { stat = "fallDamageMultiplier", effectiveMultiplier = 0.0 }
   })
 end
@@ -130,11 +122,11 @@ function setStage(newStage)
   if newStage ~= self.missionStage then
     if newStage == 1 then
       self.hasLounged = false
-			player.radioMessage("vantaIntroExitBed", 1)
 			quest.setObjectiveList({{config.getParameter("descriptions.briefing"), false}})
 
 		elseif newStage == 2 then
 			quest.setIndicators({"uniformLocker"})
+			player.radioMessage("vantaIntroExitBed", 1)
 			player.radioMessage("vantaIntroBarracks", 1)
 
 		elseif newStage == 3 then
