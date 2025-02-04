@@ -3,8 +3,8 @@
 	"prerequisites" : [ "gaterepair_vanta" ],
   "mainQuest" : true,
   "title" : "The Erchius Mining Facility",
-  "text" : "I can repair that ship, but it's gonna take 20 ^orange;Erchius Crystals^reset;... You'd better ^green;get yerself over to the Erchius Mining Facility^reset;. I've sent the location coordinates to ^green;yer ship's SAIL^reset;.",
-  "completionText" : "Perfect! These'll do the job; I'll go ahead and fix her up right now.",
+	"text" : "Eh? Ye want me to repair a ^orange;Vanta ship^reset;!? I s'pose I could, aye, but I'm in a bit of a bind. The ^green;Erchius Mining Facility^reset;'s communications have gone dark. If you can go investigate and bring me back ^orange;20 Erchius Crystals^reset;, I'll get 'er fixed up for ye. I've sent the coordinates to yer ship's SAIL.",
+	"completionText" : "Mighty fine job, that was! I'll go ahead and fix 'er up for ye, just sit tight!",
   "completionCinema" : "/cinematics/repair/repair.cinematic",
   "moneyRange" : [50, 50],
   "rewards" : [
