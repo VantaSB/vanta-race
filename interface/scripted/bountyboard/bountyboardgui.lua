@@ -27,6 +27,12 @@ function init()
 
   self.otherAssignmentText = config.getParameter("otherAssignment")
 
+	if player.species() == "vanta" then
+		self.bountyAssignment = "bountyassignment_vanta"
+	else
+		self.bountyAssignment = "bountyassignment"
+	end
+
   loadBoard(false)
 end
 
@@ -81,15 +87,9 @@ function update(dt)
     saveBountyData()
   end
 
-	if player.species() == "vanta" then
-		if not widget.active("summaryOverlay") and self.lastAssignment ~= nil and not player.hasActiveQuest("bountyassignment_vanta") then
-			player.startQuest("bountyassignment_vanta")
-		end
-	else
-		if not widget.active("summaryOverlay") and self.lastAssignment ~= nil and not player.hasActiveQuest("bountyassignment") then
-			player.startQuest("bountyassignment")
-		end
-	end
+  if not widget.active("summaryOverlay") and self.lastAssignment ~= nil and not player.hasActiveQuest(self.bountyAssignment) then
+    player.startQuest(self.bountyAssignment)
+  end
 end
 
 function getPlayerRank()
@@ -191,7 +191,7 @@ function updatePosterStatus()
       p.accepted = posterQuestAccepted(p)
       if p.accepted then
         world.sendEntityMessage(pane.sourceEntity(), "registerQuest", p.arc.quests[1].questId, p.worlds)
-        for _, quest in ipairs(p.arc.quests) do
+        for i, quest in ipairs(p.arc.quests) do
           sb.logInfo("accepted %s", quest.questId)
           -- if #p.arc.quests < 10 or i ~= #p.arc.quests then
           --   world.sendEntityMessage(player.id(), quest.questId..".complete")
@@ -244,15 +244,15 @@ function getNewAssignment(finalAssignment)
 
   local newAssignment
   -- board doesn't have an assignment, make a new one
-  local lastAssignment, newSystem, newPosition, oldPosition
+  local lastAssignment, newSystem, newPosition
   if self.assignment and self.assignment.system and not self.assignment.tutorial then
     local assignmentType = finalAssignment and "final" or "standard"
     while newAssignment == nil do
       newAssignment = util.await(world.sendEntityMessage(pane.sourceEntity(), "nextAssignment", assignmentType)):result()
       if newAssignment == nil then
         -- assign to a new system some distance away from current system
-        oldPosition = systemPosition(self.assignment.system)
-        newPosition = vec2.add(oldPosition, vec2.withAngle(math.random() * math.pi * 2, util.randomInRange(self.newAssignmentDistance)))
+        local oldPosition = systemPosition(self.assignment.system)
+        local newPosition = vec2.add(oldPosition, vec2.withAngle(math.random() * math.pi * 2, util.randomInRange(self.newAssignmentDistance)))
         newSystem = findAssignmentArea(newPosition, rankInfo.systemTypes)
 
         local newBoardAssignment = newAssignmentAt(newSystem)
@@ -290,15 +290,15 @@ end
 
 function needFinalAssignment(rank)
 	if player.species() == "vanta" then
-		return player.hasCompletedQuest("destroyruin_vanta")
-		and (not self.assignment or not self.assignment.final)
-		and not player.hasCompletedMission("missioncultist1")
-		and rank == #self.bountyRanks
+  	return player.hasCompletedQuest("destroyruin_vanta")
+    and (not self.assignment or not self.assignment.final)
+    and not player.hasCompletedMission("missioncultist1")
+    and rank == #self.bountyRanks
 	else
 		return player.hasCompletedQuest("destroyruin")
-		and (not self.assignment or not self.assignment.final)
-		and not player.hasCompletedMission("missioncultist1")
-		and rank == #self.bountyRanks
+	  and (not self.assignment or not self.assignment.final)
+	  and not player.hasCompletedMission("missioncultist1")
+	  and rank == #self.bountyRanks
 	end
 end
 
@@ -844,7 +844,7 @@ function fillPosters()
       local bc = self.bountyTypes[bountyType]
       local newPoster = makePoster(bc, 1, slot, targetCategory)
 
-      worlds = worlds
+      local worlds = worlds
       if majorWorlds then
         if #minorWorldPool == 0 then
           -- put the bounties in the same systems as the major bounty visits, one in each system
@@ -924,7 +924,7 @@ end
 function shiftPosters()
   local rng = sb.makeRandomSource(posterSetSeed())
 
-  local c = vec2.floor(vec2.mul(self.boardSize, 0.5)) --luacheck: ignore 211
+  local c = vec2.floor(vec2.mul(self.boardSize, 0.5))
   for i, p1 in ipairs(self.posters) do
     local xShiftRight = rng:randb()
     local xLimit = xShiftRight and util.lerp(rng:randf(), p1.rect[3], self.boardSize[1]) or rng:randf() * p1.rect[1]

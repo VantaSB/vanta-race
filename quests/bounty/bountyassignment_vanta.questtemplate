@@ -10,11 +10,11 @@
   "showAcceptDialog" : true,
   "canBeAbandoned" : false,
 
-  "questGiverIndicator" : "vanta_questgiver",
-  "questReceiverIndicator" : "vanta_questreceiver",
+	"questGiverIndicator" : "questgiver",
+  "questReceiverIndicator" : "questreceiver",
 
   "updateDelta" : 10,
-  "script" : "/quests/bounty/bountyassignment_vanta.lua",
+  "script" : "/quests/bounty/bountyassignment.lua",
   "scriptConfig" : {
     "portraits" : {
       "default" : "player"

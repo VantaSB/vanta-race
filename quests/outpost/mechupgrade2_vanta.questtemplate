@@ -7,8 +7,8 @@
   "moneyRange" : [1000, 1000],
   "rewards" : [],
 
-  "questGiverIndicator" : "vanta_questgiver",
-  "questReceiverIndicator" : "vanta_questreceiver",
+	"questGiverIndicator" : "questgiver",
+  "questReceiverIndicator" : "questreceiver",
 
   "updateDelta" : 10,
   "script" : "/quests/scripts/ex_instance.lua",

@@ -10,8 +10,8 @@
     [ ["superrewardbag", 1] ]
   ],
   "canBeAbandoned" : false,
-  "questGiverIndicator" : "vanta_mainquestgiver",
-  "questReceiverIndicator" : "vanta_mainquestreceiver",
+  "questGiverIndicator" : "mainquestgiver",
+  "questReceiverIndicator" : "mainquestreceiver",
 
   "updateDelta" : 10,
   "script" : "/quests/scripts/story/destroyruin.lua",

@@ -13,8 +13,8 @@
     [ ]
   ],
 
-  "questGiverIndicator" : "vanta_mainquestgiver",
-  "questReceiverIndicator" : "vanta_mainquestreceiver",
+  "questGiverIndicator" : "mainquestgiver",
+  "questReceiverIndicator" : "mainquestreceiver",
   
   "canBeAbandoned" : false,
   "updateDelta" : 10,

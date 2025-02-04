@@ -15,8 +15,8 @@
 
   "animation" : "/items/active/weapons/melee/vantamelee.animation",
   "animationParts" : {
-    "handle" : "vantatier1shortsword.png",
-    "blade" : ""
+    "handle" : "",
+    "blade" : "vantatier1shortsword.png"
   },
   "animationCustom" : { },
 

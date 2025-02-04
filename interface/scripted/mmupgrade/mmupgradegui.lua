@@ -63,8 +63,6 @@ function performUpgrade(widgetName, widgetData)
         end
       end
 
-			sb.logInfo("MM Upgraded: %s  |  %s", upgrade.essentialSlot, upgrade.setItem)
-
       local mm = player.essentialItem("beamaxe")
       mm.parameters.upgrades = mm.parameters.upgrades or {}
       table.insert(mm.parameters.upgrades, self.selectedUpgrade)

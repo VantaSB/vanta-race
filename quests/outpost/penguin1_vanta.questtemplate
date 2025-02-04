@@ -9,8 +9,8 @@
     [ [ "rewardbag", 1 ] ]
   ],
 
-	"questGiverIndicator" : "vanta_questgiver",
-  "questReceiverIndicator" : "vanta_questreceiver",
+	"questGiverIndicator" : "questgiver",
+  "questReceiverIndicator" : "questreceiver",
 
   "updateDelta" : 10,
   "script" : "/quests/scripts/instance.lua",
