@@ -40,7 +40,7 @@ function init()
 	message.setHandler("ex.warp",function (_,_,...) player.warp(...) end)
 	message.setHandler("ex.playSound",function (_,_,...) localAnimator.playAudio(...) end)
 	message.setHandler("ex.temperaturezone",function (_, _, effectName) status.addEphemeralEffect(effectName) end)
-	message.setHandler("ex.giveskillpoints", function (_, _, ...) if player.species() == "vanta" then  world.spawnItem("skillpoint", entity.position())end end)
+	message.setHandler("ex.giveskillpoints", function (_, _, ...) if player.species() == "vanta" then  world.spawnItem("skillpoint", entity.position(), ...)end end)
 	message.setHandler("vantaArtifactTaken", function (_, _, ...) player.setProperty("darkGateKeyAcquired", true) end)
 end
 
