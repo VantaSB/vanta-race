@@ -136,7 +136,11 @@ function gateFound()
   quest.setCompassDirection(nil)
   player.radioMessage("v-gaterepair-gateFound1a")
   player.radioMessage("v-gaterepair-gateFound1b")
-  player.radioMessage("v-gaterepair-gateFound1c")
+	if player.hasItem("corefragmentore") then
+  	player.radioMessage("v-gaterepair-gateFound2b")
+	else
+		player.radioMessage("v-gaterepair-gateFound2a")
+	end
   storage.stage = 3
 
   util.wait(14)

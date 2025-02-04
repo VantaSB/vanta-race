@@ -20,7 +20,12 @@
 		"portraitSpeed" : 0.30
 	},
 
-	"v-gaterepair-gateFound1c" : {
+	"v-gaterepair-gateFound2a" : { // Player hasn't found any core fragments yet
+		"type" : "quest",
+		"text" : "I have scanned the planet for these ^orange;core framents^reset;. They appear naturally within this planet's geology. Numerous clusters can be found close to the planet's core. I recommend searching as much of the planet as you can - you might chance upon a deposit closer to the surface."
+	},
+
+	"v-gaterepair-gateFound2b" : { // Player has at least one core fragment in their inventory
 		"type" : "quest",
 		"text" : "I have scanned the planet for these ^orange;core framents^reset;. They appear naturally within this planet's geology. Numerous clusters can be found close to the planet's core. I recommend searching as much of the planet as you can - you might chance upon a deposit closer to the surface."
 	},
