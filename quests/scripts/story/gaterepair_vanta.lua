@@ -137,7 +137,7 @@ function gateFound()
   player.radioMessage("v-gaterepair-gateFound1a")
   player.radioMessage("v-gaterepair-gateFound1b")
 	if player.hasItem("corefragmentore") then
-  	player.radioMessage("v-gaterepair-gateFound2b")
+		player.radioMessage("v-gaterepair-gateFound2b")
 	else
 		player.radioMessage("v-gaterepair-gateFound2a")
 	end
