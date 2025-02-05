@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "vantamechrepairgun", "count" : 1 },
-  "groups" : [ "vantaanvil1", "vantatools", "all" ]
+  "groups" : [ "inventorstable2", "vantatools", "all" ]
 }

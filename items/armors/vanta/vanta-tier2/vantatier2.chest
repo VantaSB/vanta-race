@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "Tungsten-reinforced pauldrons provide extra protection on this tabard.",
-  "shortdescription" : "Corsair Tabard",
+  "description" : "Tungsten-reinforced pauldrons and bracers provide extra protection on this armor.",
+  "shortdescription" : "Corsair Cyclas",
   "tooltipKind" : "armor",
 
   "maleFrames" : {

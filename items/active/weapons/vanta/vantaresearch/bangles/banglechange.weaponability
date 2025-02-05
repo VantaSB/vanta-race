@@ -395,7 +395,7 @@
 		"type" : "banglechange",
 		"name" : "Bangle Adapt",
 		"scripts" : [
-			"/items/active/weapons/vanta/bangles/banglechange.lua"
+			"/items/active/weapons/vanta/vantaresearch/bangles/banglechange.lua"
 		],
 		"class" : "BangleChange",
 

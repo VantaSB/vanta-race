@@ -4,5 +4,5 @@
     { "item" : "darkessence", "count" : 2 }
   ],
   "output" : { "item" : "nightsteelbar", "count" : 1 },
-  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+  "groups" : [ "darkfragmentrefinery", "ingredients", "all" ]
 }

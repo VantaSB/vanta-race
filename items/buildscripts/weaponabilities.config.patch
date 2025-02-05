@@ -65,7 +65,7 @@
 	{
     "op" : "add",
     "path" : "/elementshift",
-    "value" : "/items/active/weapons/vanta/bangles/abilities/elementshift.weaponability"
+    "value" : "/items/active/weapons/vanta/vantaresearch/bangles/abilities/elementshift.weaponability"
   },
 
 	{
@@ -113,12 +113,12 @@
   {
     "op" : "add",
     "path" : "/banglefire",
-    "value" : "/items/active/weapons/vanta/bangles/banglefire.weaponability"
+    "value" : "/items/active/weapons/vanta/vantaresearch/bangles/banglefire.weaponability"
   },
 
 	{
 		"op" : "add",
-		"path" : "/ceruleumfang",
-		"value" : "/items/active/weapons/melee/abilities/broadsword/ceruleumfang/ceruleumfang.weaponability"
+		"path" : "/lunarblade",
+		"value" : "/items/active/weapons/melee/abilities/broadsword/lunarblade/lunarblade.weaponability"
 	}
 ]

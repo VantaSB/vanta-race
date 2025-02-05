@@ -131,7 +131,7 @@
 		"type" : "elementshift",
 		"name" : "Elemental Shift",
 		"scripts" : [
-			"/items/active/weapons/vanta/bangles/abilities/elementshift.lua"
+			"/items/active/weapons/vanta/vantaresearch/bangles/abilities/elementshift.lua"
 		],
 		"class" : "ElementShift",
 

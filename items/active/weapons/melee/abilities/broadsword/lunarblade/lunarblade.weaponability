@@ -67,12 +67,12 @@
               },
               "fullwindup" : {
                 "properties" : {
-                  "image" : "/items/active/weapons/melee/abilities/broadsword/ceruleumfang/ceruleumblade.png:charge.<frame>"
+                  "image" : "/items/active/weapons/melee/abilities/broadsword/lunarblade/ceruleumblade.png:charge.<frame>"
                 }
               },
               "full" : {
                 "properties" : {
-                  "image" : "/items/active/weapons/melee/abilities/broadsword/ceruleumfang/ceruleumblade.png:full.<frame>"
+                  "image" : "/items/active/weapons/melee/abilities/broadsword/lunarblade/ceruleumblade.png:full.<frame>"
                 }
               }
             }
@@ -96,7 +96,7 @@
               },
               "slash" : {
                 "properties" : {
-                  "image" : "/items/active/weapons/melee/abilities/broadsword/ceruleumfang/swoosh/ceruleumswoosh.png:<frame>",
+                  "image" : "/items/active/weapons/melee/abilities/broadsword/lunarblade/swoosh/ceruleumswoosh.png:<frame>",
                   "damageArea" : [[-7.5, 3], [-3.75, 4.5], [1.5, 4.5], [6, 2.625], [7.5, -0.375], [7.5, -3.375], [6, -4.5], [0, -3.25]]
                 }
               }
@@ -126,10 +126,10 @@
   },
 
   "ability" : {
-    "name" : "Ceruleum Fang",
-    "type" : "ceruleumfang",
-    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/ceruleumfang/ceruleumfang.lua"],
-    "class" : "CeruleumFangAttack",
+    "name" : "Lunar Blade",
+    "type" : "lunarblade",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/lunarblade/lunarblade.lua"],
+    "class" : "LunarBladeAttack",
 
     "energyUsage" : 120.0,
     "chargeTime" : 0.8,

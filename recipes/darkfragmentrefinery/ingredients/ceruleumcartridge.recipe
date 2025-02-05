@@ -4,5 +4,5 @@
     { "item" : "nightsteelbar", "count" : 2 }
   ],
   "output" : { "item" : "ceruleumcartridge", "count" : 5 },
-  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+  "groups" : [ "darkfragmentrefinery", "ingredients", "all" ]
 }

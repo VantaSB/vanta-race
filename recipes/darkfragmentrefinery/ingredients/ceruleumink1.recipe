@@ -5,6 +5,6 @@
     { "item" : "liquidwater", "count" : 2 },
     { "item" : "bottle", "count" : 1 }
   ],
-  "output" : { "item" : "ceruleumink", "count" : 1 },
-  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+  "output" : { "item" : "ceruleumink1", "count" : 1 },
+  "groups" : [ "darkfragmentrefinery", "ingredients", "all" ]
 }

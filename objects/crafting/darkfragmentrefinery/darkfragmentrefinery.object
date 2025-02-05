@@ -5,7 +5,7 @@
   "price" : 1250,
   "radioMessagesOnPickup" : [],
   "printable" : false,
-  "description" : "Used to transmute dark fragments.",
+  "description" : "A crafting table used to transmute dark fragments.",
   "shortdescription" : "^cyan;Dark Fragment Refinery^reset;",
   "race" : "vanta",
   "category" : "crafting",
@@ -25,18 +25,14 @@
     "filter" : [ "darkfragmentrefinery" ]
   },
 
-  /* --TODO--
-
-  "apexDescription" : "--todo--",
-  "avianDescription" : "--todo--",
-  "floranDescription" : "--todo--",
-  "glitchDescription" : "--todo--",
-  "humanDescription" : "--todo--",
-  "hylotlDescription" : "--todo--",
-  "novakidDescription" : "--todo--",
-  "vantaDescription" : "--todo--"
-
-  */
+  "apexDescription" : "A specialized refinery for working with dark fragments.",
+  "avianDescription" : "Dark fragments are still a mystery to most races, but the Vanta seem to have them figured out.",
+  "floranDescription" : "Floran wonderss if fancy machine will help with hunting.",
+  "glitchDescription" : "Intrigued. The Glitch have nothing that uses dark fragments, so this would be wasted on us.",
+  "humanDescription" : "Dark fragments are weird, but watching a Vanta work with them is fascinating.",
+  "hylotlDescription" : "Such an intricate device is beyond the means of use for a Hylotl.",
+  "novakidDescription" : "This is a pretty nifty table - don't reckon I'd be able to use dark fragments, though.",
+  "vantaDescription" : "Dark fragments and the Vanta have always been intricately linked for as long as we can remember.",
 
   "inventoryIcon" : "icon.png",
 

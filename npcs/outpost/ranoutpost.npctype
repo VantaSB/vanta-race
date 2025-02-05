@@ -51,7 +51,7 @@
             "We have a long way to go before we can take the Conclave head-on, but we're glad to have your support in the meantime, <entityname>."
           ],
 					"vanta" : [
-						"I'm glad to know we can still count on you, <entityname>. Your loyalty and commitment will be remembered for generations to come."
+						"I'm glad to know we can still count on you, <entityname>, your loyalty and commitment will be remembered for generations to come."
 					]
         }
       }
@@ -62,8 +62,9 @@
     "override" : [
       [0, [
           {
-            "chest" : [ { "name" : "vantatier6schest" } ],
-            "legs" : [ { "name" : "vantatier6spants" } ],
+						"head" : [ { "name" : "vantatier6achest" } ],
+            "chest" : [ { "name" : "vantatier6achest" } ],
+            "legs" : [ { "name" : "vantatier6apants" } ],
             "back" : [ { "name" : "vantacapeback" } ]
           }
         ] ]

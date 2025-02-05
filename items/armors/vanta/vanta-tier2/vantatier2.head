@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "headarmour",
-  "description" : "A hood that shades the face of the wearer.",
+  "description" : "A hood that shades the head of its wearer.",
   "shortdescription" : "Corsair Hood",
   "tooltipKind" : "armor",
 

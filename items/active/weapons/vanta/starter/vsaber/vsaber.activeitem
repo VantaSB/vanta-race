@@ -194,7 +194,7 @@
 					"damageSourceKind" : "<elementalType>broadsword"
 				}
 			},
-			"altAbilityType" : "ceruleumfang",
+			"altAbilityType" : "lunarblade",
 			"critChance" : 4,
 			"critBonus" : 12
 		},

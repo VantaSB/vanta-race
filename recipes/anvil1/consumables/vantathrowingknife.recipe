@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "nightsteelbar", "count" : 5 }
+    { "item" : "tungstenbar", "count" : 3 }
 
   ],
   "duration" : 5,
   "output" : { "item" : "vantathrowingknife", "count" : 10 },
-  "groups" : [ "vantaanvil1", "consumables", "all" ]
+  "groups" : [ "craftinganvil", "consumables", "all" ]
 }

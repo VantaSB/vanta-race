@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "An advanced blade, typically issued to elite Vanta personnel. This does not have a weapon core like yours, however.",
-  "shortdescription" : "Vanta Saber",
+  "shortdescription" : "Soldier's Saber",
   "tooltipKind" : "sword",
   "category" : "broadsword",
   "twoHanded" : true,
@@ -15,9 +15,8 @@
 
   "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
   "animationParts" : {
-    "handle" : "vantanpcsaber.png",
-    "handlefullbright" : "vantanpcsaberlit.png",
-    "blade" : ""
+    "blade" : "vantanpcsaber.png",
+    "handle" : "vantanpcsaberlit.png"
   },
   "animationCustom" : { },
 
@@ -28,7 +27,7 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.8,
-    "baseDps" : 10.82
+    "baseDps" : 10.5
   },
 
   "altAbilityType" : "parry",

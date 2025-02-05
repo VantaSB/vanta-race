@@ -3,5 +3,5 @@
     { "item" : "darkfragmentore", "count" : 2 }
   ],
   "output" : { "item" : "darkcrystal", "count" : 1 },
-  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+  "groups" : [ "darkfragmentrefinery", "ingredients", "all" ]
 }

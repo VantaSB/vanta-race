@@ -2,7 +2,7 @@
   "ability" : {
     "type" : "banglefire",
     "name" : "Psionic Bolt",
-    "scripts" : ["/items/active/weapons/vanta/bangles/banglefire.lua"],
+    "scripts" : ["/items/active/weapons/vanta/vantaresearch/bangles/banglefire.lua"],
     "class" : "BangleFire",
 
     "chargeLevels" : [

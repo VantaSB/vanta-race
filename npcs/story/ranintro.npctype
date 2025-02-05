@@ -53,19 +53,19 @@
 				"introduction" : {
 					"default" : {
 						"default" : [
-							"Ah, <entityname>. Glad to see you're wide awake! It's a big day today, so I hope you're prepared!",
-							"R&D recently completed reconstructing a ^orange;Matter Manipulator^reset;, courtesy of the Terrene Protectorate.",
-							"We were recently welcomed in as a recognized race, and offered to share their designs with us.",
-							"Today, you have the honor of claiming it as yours! I've let R&D know you'll be along shortly.",
-							"Additionally, you are hereby promoted to the rank of ^orange;Captain Commander^reset;.",
-							"We'll talk about your new assignment shorly. For now, head on down to R&D for the matter manipulator."
+							"Ah, <entityname>, glad to see you're wide awake! It's a big day today, so I hope you're prepared!",
+							"As you know, we were recently welcomed into the ^green;Terrene Protectorate^reset;.",
+							"With their designs, R&D recently completed constructing our very own ^orange;Matter Manipulator^reset;...",
+							"And today, you have the honor of claiming it as yours! I've let R&D know you'll be along shortly.",
+							"Additionally, you are hereby promoted to the rank of ^orange;Captain^reset;! Of course, the promotion comes with a new assignment.",
+							"But we can talk about that shortly. For now, ^orange;head on down to R&D for the matter manipulator^reset;."
 						]
 					}
 				},
 				"end" : {
 					"default" : {
 						"default" : [
-							"Once you have the matter manipulator, come back and see me for your next assignment."
+							"Once you've retrieved the ^orange;matter manipulator^reset;, come back and see me for your next assignment."
 						]
 					}
 				}
@@ -77,8 +77,8 @@
     "override" : [
       [0, [
           {
-            "chest" : [ { "name" : "vantatier6achest" } ],
-            "legs" : [ { "name" : "vantatier6apants" } ]
+            "chest" : [ { "name" : "vantatier5mchest" } ],
+            "legs" : [ { "name" : "vantatier5mpants" } ]
           }
         ] ]
     ]

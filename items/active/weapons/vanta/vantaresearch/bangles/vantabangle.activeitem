@@ -1,19 +1,20 @@
 {
   "itemName" : "vantabangle",
   "level" : 1,
+	"upgradeNum" : 0,
   "price" : 0,
   "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "A bangle that allows you to fire off elemental blasts. Use [^green;AltFire^reset;] to cycle through abilities.",
+  "rarity" : "Essential",
+  "description" : "A bangle that allows you to fire off elemental blasts.\n\n^green;Shift + Fire^reset;: Charged Shot\n[^orange;AltFire^reset;]: Elemental Shift",
   "shortdescription" : "Psionic Bangle",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "ex_sword",
   "category" : "uniqueWeapon",
   "twoHanded" : true,
-  "itemTags" : ["weapon","bangle"],
+  "itemTags" : ["weapon","bangle","vantaUpgrade"],
 
   "inventoryIcon" : "bangle.png",
 
-  "animation" : "/items/active/weapons/vanta/bangles/bangle.animation",
+  "animation" : "/items/active/weapons/vanta/vantaresearch/bangles/bangle.animation",
   "animationParts" : {
 		"gun" : "",
 		"gunfullbright" : "banglechargelit.png"
@@ -23,14 +24,14 @@
   "baseOffset" : [0, 0],
   "muzzleOffset" : [0, 0],
 
-  "scripts" : [ "/items/active/weapons/ranged/gun.lua" ],
+  "scripts" : [ "/items/active/weapons/ranged/vantagun.lua" ],
 
   "elementalType" : "physical",
 
 	"primaryAbilityType" : "banglefire",
   "primaryAbility" : {
-    "fireTime" : 0.25,
-    "baseDps" : 8,
+    "fireTime" : 0.42,
+    "baseDps" : 6,
     "energyUsage" : 15,
     "inaccuracy" : 0.008,
 
@@ -39,7 +40,7 @@
 
     "projectileType" : "psiphysicalshot",
     "projectileParameters" : {
-      "knockback" : 20
+      "knockback" : 5
     },
 
 		"chargeLevels" : [
@@ -51,7 +52,7 @@
 				"projectileCount" : 1,
 				"projectileParameters" : {},
 				"inaccuracy" : 0.008,
-				"baseDamage" : 10,
+				"baseDamage" : 6,
 				"fireSound" : "fire"
 			},
 			{
@@ -62,7 +63,7 @@
 				"projectileCount" : 1,
 				"projectileParameters" : {},
 				"inaccuracy" : 0.008,
-				"baseDamage" : 10,
+				"baseDamage" : 12,
 				"fireSound" : "fire2"
 			},
 			{
@@ -73,7 +74,7 @@
 				"projectileCount" : 1,
 				"projectileParameters" : {},
 				"inaccuracy" : 0.008,
-				"baseDamage" : 10,
+				"baseDamage" : 18,
 				"fireSound" : "fire3"
 			}
 		],
@@ -120,5 +121,54 @@
 
 	"altAbilityType" : "elementshift",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+	"critChance" : 1,
+	"critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildvantaweapon.lua",
+
+	"upgrades" : [
+		{
+			"upgradeNum" : 1,
+			"level" : 2,
+			"shortdescription" : "Psionic Bangle ^yellow;ß^reset;",
+			"primaryAbility" : {
+				"fireTime" : 0.38,
+				"chargeLevels" : [
+					{
+						"level" : 1,
+						"time" : 0,
+						"energyCost" : 15,
+						"cooldown" : 0.25,
+						"projectileCount" : 1,
+						"projectileParameters" : {},
+						"inaccuracy" : 0.008,
+						"baseDamage" : 6,
+						"fireSound" : "fire"
+					},
+					{
+						"level" : 2,
+						"time" : 0.45,
+						"energyCost" : 40,
+						"cooldown" : 0.25,
+						"projectileCount" : 1,
+						"projectileParameters" : {},
+						"inaccuracy" : 0.008,
+						"baseDamage" : 12,
+						"fireSound" : "fire2"
+					},
+					{
+						"level" : 3,
+						"time" : 0.9,
+						"energyCost" : 85,
+						"cooldown" : 0.25,
+						"projectileCount" : 1,
+						"projectileParameters" : {},
+						"inaccuracy" : 0.008,
+						"baseDamage" : 18,
+						"fireSound" : "fire3"
+					}
+				]
+			}
+		}
+	]
 }
