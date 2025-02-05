@@ -191,7 +191,7 @@ function updatePosterStatus()
       p.accepted = posterQuestAccepted(p)
       if p.accepted then
         world.sendEntityMessage(pane.sourceEntity(), "registerQuest", p.arc.quests[1].questId, p.worlds)
-        for i, quest in ipairs(p.arc.quests) do
+        for i, quest in ipairs(p.arc.quests) do --luacheck: ignore 213
           sb.logInfo("accepted %s", quest.questId)
           -- if #p.arc.quests < 10 or i ~= #p.arc.quests then
           --   world.sendEntityMessage(player.id(), quest.questId..".complete")
@@ -244,15 +244,15 @@ function getNewAssignment(finalAssignment)
 
   local newAssignment
   -- board doesn't have an assignment, make a new one
-  local lastAssignment, newSystem, newPosition
+  local lastAssignment, newSystem, newPosition, oldPosition
   if self.assignment and self.assignment.system and not self.assignment.tutorial then
     local assignmentType = finalAssignment and "final" or "standard"
     while newAssignment == nil do
       newAssignment = util.await(world.sendEntityMessage(pane.sourceEntity(), "nextAssignment", assignmentType)):result()
       if newAssignment == nil then
         -- assign to a new system some distance away from current system
-        local oldPosition = systemPosition(self.assignment.system)
-        local newPosition = vec2.add(oldPosition, vec2.withAngle(math.random() * math.pi * 2, util.randomInRange(self.newAssignmentDistance)))
+        oldPosition = systemPosition(self.assignment.system)
+        newPosition = vec2.add(oldPosition, vec2.withAngle(math.random() * math.pi * 2, util.randomInRange(self.newAssignmentDistance)))
         newSystem = findAssignmentArea(newPosition, rankInfo.systemTypes)
 
         local newBoardAssignment = newAssignmentAt(newSystem)
@@ -290,7 +290,7 @@ end
 
 function needFinalAssignment(rank)
 	if player.species() == "vanta" then
-  	return player.hasCompletedQuest("destroyruin_vanta")
+		return player.hasCompletedQuest("destroyruin_vanta")
     and (not self.assignment or not self.assignment.final)
     and not player.hasCompletedMission("missioncultist1")
     and rank == #self.bountyRanks
@@ -844,7 +844,8 @@ function fillPosters()
       local bc = self.bountyTypes[bountyType]
       local newPoster = makePoster(bc, 1, slot, targetCategory)
 
-      local worlds = worlds
+			-- Have the Lua checker ignore this; it needs to be left as-is or it breaks the entire script and resets back to the tutorial stage after erroring
+      local worlds = worlds --luacheck: ignore 421
       if majorWorlds then
         if #minorWorldPool == 0 then
           -- put the bounties in the same systems as the major bounty visits, one in each system
@@ -923,8 +924,7 @@ end
 
 function shiftPosters()
   local rng = sb.makeRandomSource(posterSetSeed())
-
-  local c = vec2.floor(vec2.mul(self.boardSize, 0.5))
+  local c = vec2.floor(vec2.mul(self.boardSize, 0.5)) --luacheck: ignore 211
   for i, p1 in ipairs(self.posters) do
     local xShiftRight = rng:randb()
     local xLimit = xShiftRight and util.lerp(rng:randf(), p1.rect[3], self.boardSize[1]) or rng:randf() * p1.rect[1]
