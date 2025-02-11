@@ -4,7 +4,7 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   json-lint:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: Install Dependencies
@@ -20,7 +20,7 @@ jobs:
           echo "$PRDESC" | grep -qvz '"' || ( echo "::error:: PR Description should not contain double quote symbols [\"], use single quote ['] instead."; false )
 
   luacheck:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: Install dependencies
@@ -30,7 +30,7 @@ jobs:
 
   check-unoptimized-png:
     if: ${{ github.base_ref || github.ref != 'refs/heads/master' }}
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: Install Dependencies
@@ -39,7 +39,7 @@ jobs:
 
   pack-for-dl:
     if: startsWith(github.ref, 'refs/tags/')
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - name: Remove unneeded paths & files in PAK file (i.e., ".git", ".disabled")
