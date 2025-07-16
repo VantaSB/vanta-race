@@ -5,22 +5,23 @@
       "emissionRate" : 20.0,
       "particles" : [
         {
-          "particle" : {
-            "type" : "ember",
-            "size" : 1.5,
-            "color" : [15, 99, 98, 230],
-            "fade" : 0.5,
-            "destructionAction" : "shrink",
-            "destructionTime" : 0.4,
-            "position" : [0, 0],
-            "offsetRegion" : [0, 0, 0, 0],
-            "initialVelocity" : [0, -1.0],
-            "finalVelocity" : [0, -0.3],
-            "approach" : [0, 0.3],
-            "timeToLive" : 0.4
-          }
+          "particle" : "ceruleumboltdark"
+        },
+				{
+          "particle" : "electricswoosh2"
         }
       ]
     }
+  },
+
+	"lights" : {
+		"glow" : {
+			"active" : true,
+			"position" : [0, 0],
+			"color" : [6, 65, 77]
+		}
+	},
+  "sounds" : {
+    "bolt" : [ "/sfx/projectiles/electric_barrier_shock_kill.ogg" ]
   }
 }

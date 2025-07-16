@@ -1,27 +1,35 @@
 {
+	"verticalOrigin" : 0,
+
   "layers" : [
     {
-      "kind" : "tile/smoothgreygap",
+      "kind" : "tile/lightlesscavern",
+			"offset" : [64, 277],
+			"noRandomOffset" : true,
       "nohueshift" : true,
       "lightMapped" : true,
-      "parallax" : 1.2,
+      "parallax" : [7, 6.999],
       "repeatY" : true
     },
     {
-      "kind" : "tile/proximaunderground01unlit",
-      "nohueshift" : true,
-      "lightMapped" : true,
-      "parallax" : 1.9999999,
+      "kind" : "tile/ceruleumcavernunlit",
+      "offset" : [64, 92],
+			"noRandomOffset" : true,
+      "parallax" : [7, 7],
       "repeatY" : true,
-      "unlit" : true
+			"nohueshift" : true,
+      "unlit" : true,
+			"fadePercent" : 0.42
     },
     {
-      "kind" : "tile/proximaunderground01",
-      "nohueshift" : true,
-      "lightMapped" : true,
-      "parallax" : 2,
+      "kind" : "tile/ceruleumcavern",
+			"offset" : [64, 92],
+			"noRandomOffset" : true,
+      "parallax" : [7, 7.001],
       "repeatY" : true,
-      "unlit" : false
+			"nohueshift" : true,
+      "lightMapped" : true,
+			"directives" : "?brightness=-50"
     }
   ]
 }

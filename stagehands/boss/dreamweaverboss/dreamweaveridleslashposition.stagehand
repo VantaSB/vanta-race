@@ -1,0 +1,8 @@
+{
+  "type" : "dreamweaveridleslashposition",
+
+  "scripts" : [
+  ],
+
+  "broadcastArea" : [-1, -1, 1, 1]
+}

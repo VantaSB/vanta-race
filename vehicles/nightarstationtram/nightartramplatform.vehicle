@@ -1,0 +1,56 @@
+{
+  "name" : "nightartramplatform",
+  "boundBox" : [-2.5, -0.25, 2.5, 3.75],
+  "slaveControlTimeout" : 2.0,
+  "slaveControlHeartbeat" : 1.0,
+  "canBeHit" : false,
+
+  "persistent" : true,
+
+  "script" : "/vehicles/nightarstationtram/tram.lua",
+  "animation" : "/vehicles/nightarstationtram/nightarstationtram.animation",
+
+  "animationPartTags" : {
+    "gate" : {
+      "partImage" : "/vehicles/nightarstationtram/nightartramplatform_gate.png"
+    },
+    "tram" : {
+      "partImage" : "/vehicles/nightarstationtram/nightartramplatform.png"
+    },
+    "tramfullbright" : {
+      "partImage" : "/vehicles/nightarstationtram/nightarstationtram_fullbright.png"
+    }
+    ,
+    "tramControls" : {
+      "partImage" : "/vehicles/nightarstationtram/nightartramplatform_arrows.png"
+    }
+  },
+
+  "movementSettings" : {
+    "collisionPoly" : [ [-2.5, 3.75], [2.5, 3.75], [2.5, 0.5], [1.5, -0.25], [-1.5, -0.25], [-2.5, 0.5] ],
+    "mass" : 2.0,
+    "ignorePlatformCollision" : true,
+    "physicsEffectCategories" : []
+  },
+
+  "loungePositions" : {
+    "seat" : {
+      "part" : "gate",
+      "partAnchor" : "standPosition",
+      "orientation" : "stand"
+    }
+  },
+
+  "physicsCollisions" : {
+    "platform" : {
+      "collision" : [ [-2.5, 0.5], [2.5, 0.5] ],
+      "collisionKind" : "platform"
+    }
+  },
+
+  "railConfig" : {
+    "speed" : 15
+  },
+
+  "popItem" : "nightarstationtram"
+}

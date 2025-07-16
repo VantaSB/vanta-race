@@ -3,6 +3,6 @@
     { "item" : "nightsteelbar", "count" : 2 },
     { "item" : "ceruleumsolution", "count" : 1 }
   ],
-  "output" : { "item" : "psibangle", "count" : 1 },
+  "output" : { "item" : "vantabangle", "count" : 1 },
   "groups" : [ "craftinganvil", "weapons", "all" ]
 }

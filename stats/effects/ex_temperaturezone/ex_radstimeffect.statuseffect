@@ -1,0 +1,12 @@
+{
+  "name" : "ex_radstimeffect",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "ex_radstim.lua"
+  ],
+
+  "label" : "Radiation Shielding",
+  "icon" : "/interface/statuses/ex_radstim.png"
+}

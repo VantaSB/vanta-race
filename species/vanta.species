@@ -40,6 +40,7 @@
       { "item" : "vantathrowingknife" },
 			{ "item" : "vantatier2fist" },
       { "item" : "vantatier2shield" },
+			{ "item" : "vantabreathprotection" },
 
 //Anvil2,
       { "item" : "vantatier3head" },
@@ -49,6 +50,7 @@
 	    { "item" : "vantatier3shortsword" },
 			{ "item" : "vantatier3dagger" },
 			{ "item" : "vantatier3spear" },
+			{ "item" : "vantaradiationprotection" },
 
 //Anvil3,
       { "item" : "vantatier4head" },
@@ -84,6 +86,8 @@
 			{ "item" : "vantatier6greatsword" },
 			{ "item" : "vantatier6fist" },
 			{ "item" : "vantatier6shield" },
+			{ "item" : "vantacoldprotection" },
+			{ "item" : "vantaheatprotection" },
 
 //FurnitureTable,
       { "item" : "nightarbed" },
@@ -137,7 +141,7 @@
 
 //WiringStation,
       { "item" : "nightartinywallswitch" },
-      { "item" : "nightarhandscanner" }
+      { "item" : "nightarhandscanner" } //104
     ]
   },
   "altOptionAsUndyColor" : true,
@@ -194,6 +198,7 @@
     { "ED1C24" : "004cd9" }, // Crystal Blue
 	  { "ED1C24" : "b8b8b8" }, // Silver
     { "ED1C24" : "4ece61" }, // Green
+		{ "ED1C24" : "ffbd00" }, // Gold
     { "ED1C24" : "be881d" }, // Honey
     { "ED1C24" : "702d01" }, // Brown
     { "ED1C24" : "3b1801" }, // Dark Brown

@@ -1,0 +1,12 @@
+{
+  "name" : "ex_coldstimeffect",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "ex_coldstim.lua"
+  ],
+
+  "label" : "Temporary Warming",
+  "icon" : "/interface/statuses/ex_coldstim.png"
+}

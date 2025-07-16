@@ -134,9 +134,9 @@
 
     "18" : {
       "//description" : "A curious material made of \"Hard Light\".",
-      "//name" : "nightarslopedpolygon",
-      "//shortdescription" : "Nightar Polygon Panel",
-      "material" : "nightarslopedpolygon"
+      "//name" : "nightarslopedpanel2",
+      "//shortdescription" : "Nightar Sloped Composite Panel",
+      "material" : "nightarslopedpanel2"
     },
 
     "19" : {
@@ -149,7 +149,7 @@
     "20" : {
       "//description" : "This reinforced material is perfect for fortified compounds, both on the ground and in space.",
       "//name" : "nightarslopedpanel",
-      "//shortdescription" : "Nightar Hull Panel",
+      "//shortdescription" : "Nightar Sloped Tech Hull",
       "material" : "nightarslopedpanel"
     },
 
@@ -248,7 +248,7 @@
     },
 
     "18" : {
-      "image" : "../../tiled/vanta-custom/materials/nightarslopedpolygon.png"
+      "image" : "../../tiled/vanta-custom/materials/nightarslopedpanel2.png"
     },
 
     "19" : {

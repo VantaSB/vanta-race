@@ -1,0 +1,12 @@
+{
+  "name" : "ex_heatstimeffect",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "ex_heatstim.lua"
+  ],
+
+  "label" : "Temporary Cooling",
+  "icon" : "/interface/statuses/ex_heatstim.png"
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 3222,
+  "materialName" : "nightarslopedpanel2",
+  "particleColor" : [123, 123, 123, 255],
+  "itemDrop" : "nightarslopedpanel2",
+  "shortdescription" : "Nightar Sloped Composite Panel",
+  "description" : "This reinforced material is perfect for fortified compounds, both on the ground and in space.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/ex_slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "nightarslopedpanel2.png",
+    "variants" : 6,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4989
+  }
+}

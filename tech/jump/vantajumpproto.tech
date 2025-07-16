@@ -1,0 +1,17 @@
+{
+  "name" : "vantajumpproto",
+  "type" : "legs",
+
+  "scripts" : ["multijump.lua"],
+  "animator" : "doublejump.animation",
+
+  "description" : "An additional jump that can be used while in the air!",
+  "shortDescription" : "Proto Double Jump",
+  "rarity" : "Uncommon",
+  "icon" : "/tech/vantajumpproto.png",
+
+  "chipCost" : 3,
+
+  "multiJumpCount" : 1,
+	"multiJumpModifier" : 0.65
+}

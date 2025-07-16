@@ -3,8 +3,6 @@
 
   "broadcastArea" : [-96, -54, 96, 54],
 
-  "scripts" : [ "/stagehands/mission/reactorroommanager.lua2" ],
-  "scriptDelta" : 5,
-
-  "reactorIds" : [ ]
+  "scripts" : [ "/stagehands/mission/reactorroommanager2.lua" ],
+  "scriptDelta" : 5
 }

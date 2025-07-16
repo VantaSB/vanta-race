@@ -21,23 +21,41 @@ function spawnDrops()
 
 	local spAmount
 	local spChanceThreshold
-	local eliteMonster = config.getParameter("elite", false)
+	local bossMonster = config.getParameter("baseParameters.monsterClass", nil)
 
-	if threatLevel <= 1 then
-		spAmount = math.random(1, 5)
-		spChanceThreshold = 90
+	if threatLevel == 1 then
+		if not bossMonster then
+			spAmount = math.random(1, 5)
+			spChanceThreshold = 90
+		else
+			spAmount = 30
+			spChance = 100
+		end
 	elseif threatLevel == 2 or threatLevel == 3 then
-		spAmount = math.random(5, 10)
-		spChanceThreshold = 80
+		if not bossMonster then
+			spAmount = math.random(5, 10)
+			spChanceThreshold = 80
+		else
+			spAmount = 40
+			spChance = 100
+		end
 	elseif threatLevel == 4 or threatLevel == 5 then
-		spAmount = math.random(10, 15)
-		spChanceThreshold = 75
+		if not bossmonster then
+			spAmount = math.random(10, 15)
+			spChanceThreshold = 75
+		else
+			spAmount = 50
+			spChance = 100
+		end
 	elseif threatLevel >= 6 then
-		spAmount = math.random(15, 25)
-		spChanceThreshold = 65
+		if not bossMonster then
+			spAmount = math.random(15, 25)
+			spChanceThreshold = 65
+		else
+			spAmount = 60
+			spChance = 100
+		end
 	end
-
-	if eliteMonster then spAmount = spAmount * 2 end
 
 	if spChance >= spChanceThreshold then
 		for _, id in pairs(playerList) do

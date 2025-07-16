@@ -1,0 +1,18 @@
+{
+  "particleEmitters" : {
+    "multiJumpParticles" : {
+			"emissionRate" : 60.0,
+      "particles" : [
+        { "particle" : "electricswoosh1" },
+        { "particle" : "electricswoosh2" },
+        { "particle" : "electricenergy" }
+      ]
+    }
+  },
+
+	"sounds" : {
+		"multiJumpSound" : [ "/sfx/tech/ex_razor_init.ogg" ],
+		"multiJumpLoopSound" : [ "/sfx/tech/ex_razor_loop.ogg" ],
+		"multiJumpStopSound" : [ "/sfx/tech/ex_razor_out.ogg" ]
+	}
+}

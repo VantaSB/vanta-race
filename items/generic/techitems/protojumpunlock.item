@@ -1,0 +1,12 @@
+{
+  "itemName" : "protojumpunlock",
+  "rarity" : "Rare",
+  "price" : 100,
+  "category" : "Tech",
+  "inventoryIcon" : "/tech/vantajumpproto.png",
+  "description" : "An additional jump that can be used while in the air!",
+  "shortdescription" : "^#5777d5;Proto Double Jump^reset;",
+  "consumeOnPickup" : true,
+  "itemTags" : [ "trophy" ],
+	"pickupQuestTemplates" : [ "ex_doublejump" ]
+}

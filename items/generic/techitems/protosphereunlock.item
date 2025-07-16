@@ -1,0 +1,12 @@
+{
+  "itemName" : "protosphereunlock",
+  "rarity" : "Rare",
+  "price" : 100,
+  "category" : "Tech",
+  "inventoryIcon" : "/tech/vantasphereproto.png",
+  "description" : "Turn into a sphere that can fit into smaller places! [^green;F^reset;]",
+  "shortdescription" : "^#5777d5;Proto Distortion Sphere^reset;",
+  "consumeOnPickup" : true,
+  "itemTags" : [ "trophy" ],
+	"pickupQuestTemplates" : [ "ex_distortionsphere" ]
+}

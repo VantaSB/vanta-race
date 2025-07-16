@@ -1,0 +1,46 @@
+{
+	"vantamission_geddon1" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "This is the shortest route to get you into the prison's processing center. I know you've spent time putting criminals away, but now we're doing a jailbreak. The ventilation system will block out radio signals, we'll reconvene once you're inside."
+	},
+
+	"vantamission_geddon2" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "Hope you didn't have too much trouble getting in. Keep going until you reach the processing center. A lot of their equipment here can be hacked by your ^orange;scan mode^reset;, so keep that in mind if you feel you're stuck."
+	},
+
+	"vantamission_geddon3a" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "This can't be right... Zero prisoners on the roster?",
+		"persistTime" : 3.0
+	},
+
+	"vantamission_geddon3b" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "I thought your intel was solid. Don't tell me we came all this way on a wild goose chase!",
+		"persistTime" : 3.0
+	},
+
+	"vantamission_geddon3c" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "It is. My scouts are as reliable as they come. The only reason they would have zero prisoners on record is if... oh no. Captain, comb through the entire facility as much as you can... they've turned the prison into an express line for execution.",
+		"persistTime" : 4.0
+	},
+
+	"vantamission_geddon3d" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "You heard him, Captain! We can't allow this facility to continue operating! If you find any prisoners still alive, use those transponders we gave you to get them out!"
+	}
+}

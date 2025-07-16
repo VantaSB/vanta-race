@@ -41,16 +41,16 @@
 		"persistTime" : 2.0
 	},
 
-	"vantaIntroLooting" : {
+	"vantaIntroLooting1" : {
 		"type" : "mission",
-    "text" : "While it may seem like a terrible practice, checking the bodies of fallen soldiers may yield clues that can help you progress through your journeys. Stand next to a fallen soldier and use [^orange;E^reset;] to search the body."
+    "text" : "While it may seem like a terrible practice, checking the bodies of fallen personnel may yield useful information that can help you progress through your journeys. ^green;Scan a body with [^orange;N^reset;] to gain insight into their untimely demise, and ^green;search their belongings by standing next to them and using [^orange;E^reset;]."
 	},
 
 	"vantaIntroAlertScene03a" : {
 		"type" : "mission",
 		"senderName" : "Doppler",
 		"portraitImage" : "/interface/chatbubbles/dopplerserious.png:<frame>",
-    "text" : "Admiral, our defense systems are still under maintenance! We have no means of fending off their warships, and there are more boarding parties on the way!",
+    "text" : "Admiral, our defense systems are offline! We can't fend off their warships, and there are more boarding parties on the way!",
 		"persistTime" : 1.75
 	},
 
@@ -82,7 +82,7 @@
 		"type" : "mission",
 		"senderName" : "Doppler",
 		"portraitImage" : "/interface/chatbubbles/dopplerserious.png:<frame>",
-    "text" : "... ... ... I'll do what I can to stabilize the gate. All data has been backed up, and the on-board systems have been wiped. We're ready to leave on your mark, Admiral!",
+    "text" : "... ... ... I'll do what I can to keep it stabilized. All data has been backed up, and the on-board systems have been wiped. We're ready to leave on your mark, Admiral!",
 		"persistTime" : 1.75
 	},
 
@@ -103,21 +103,21 @@
 	"vantaIntroStrangeComms01a" : {
 		"type" : "mission",
     "text" : "I've picked up some chatter from the enemy's communications.",
-		"persistTime" : 1.0
+		"persistTime" : 2.0
 	},
 
 	"vantaIntroStrangeComms01b" : {
 		"type" : "mission",
 		"senderName" : "???",
 		"portraitImage" : "/interface/chatbubbles/nightarelite.png:<frame>",
-    "text" : "All of the data has been purged - I have all remaining units on high alert for this ^orange;captain commander^reset; of theirs. They have little time left with the self-destruct active. Obliterate anything coming out of this station that's not ours.",
+    "text" : "They've purged all systems before the data could be retrieved. I have all remaining units on high alert for this ^orange;captain commander^reset; of theirs. They have little time left with the self-destruct active. Obliterate anything coming out of this station that's not ours.",
 		"persistTime" : 2.0
 	},
 
 	"vantaIntroStrangeComms01c" : {
 		"type" : "mission",
     "text" : "It appears there is a manhunt on for you now. We are close to the emergency launch bay - we can make it if you hurry.",
-		"persistTime" : 1.5
+		"persistTime" : 3.0
 	},
 
 	"vantaIntroScanTip" : {
@@ -128,13 +128,11 @@
 
 	"vantaIntroMedRoom" : {
 		"type" : "mission",
-    "text" : "We appear to be safe for the moment. If you need to replenish your health, enter the second door in this hallway to use a medical pod. If you want to keep going, use the ventilation gate at the end of this hall.",
-		"persistTime" : 3.0
+    "text" : "We appear to be safe for the moment. If you need to replenish your health, enter the medbay at the end of this hallway to use a medical pod. It also doubles as a reusable checkpoint. However, if you want to keep going, use the ventilation gate at the end of this hall."
 	},
 
 	"vantaIntroEmgLaunchBay" : {
 		"type" : "mission",
-    "text" : "Pre-flight checks have been bypassed, hurry aboard!",
-		"persistTime" : 3.0
+    "text" : "Pre-flight checks have been bypassed, hurry aboard!"
 	}
 }

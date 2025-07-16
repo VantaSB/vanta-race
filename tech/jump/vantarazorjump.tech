@@ -1,0 +1,14 @@
+{
+  "name" : "vantarazorjump",
+  "type" : "legs",
+
+  "scripts" : ["vantarazorjump.lua"],
+  "animator" : "vantarazorjump.animation",
+
+  "description" : "bash your enemies while somersaulting through the air!",
+  "shortDescription" : "Air Waltz",
+  "rarity" : "Legendary",
+  "icon" : "/tech/vantarazorjump.png",
+
+  "chipCost" : 0
+}

@@ -1,0 +1,5 @@
+{
+  "name" : "ex_propdoorwarpleft",
+  "defaultDuration" : 0.1,
+  "scripts" : [ "ex_propdoorwarpleft.lua" ]
+}

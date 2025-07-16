@@ -173,6 +173,14 @@
     }
   },
 
+	"lights" : {
+		"tramLight" : {
+			"active" : true,
+			"position" : [0, 0],
+			"color" : [148, 232, 186]
+		}
+	},
+
   "sounds" : {
     "activate" : [ "/sfx/objects/console_button3.ogg" ]
   }

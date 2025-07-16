@@ -1,0 +1,16 @@
+{
+	"particleEmitters" : {
+    "sparks" : {
+      "enabled" : true,
+      "emissionRate" : 0.75,
+      "particles" : [
+        {
+          "particle" : "electricswoosh1"
+        },
+        {
+          "particle" : "electricswoosh2"
+        }
+      ]
+    }
+  }
+}

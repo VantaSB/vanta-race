@@ -1,0 +1,142 @@
+{
+	"vantamission1_flightLevelWarning" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "Hey, hey! You heard what Artaxerxes said, don't fly so high up! You'll get blasted to kingdom come for sure!"
+	},
+
+	"vantamission1_1" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "This is as close as we could get the relay capsule to the platform without triggering their defenses. If you've got a mech, you can use it to make your way to the underhangar."
+	},
+
+	"vantamission1_2" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "It's best to go on foot from here, your mech will be a bit cumbersome the rest of the way. The garrison stationed here can put up a good fight - my Father makes sure that his facilities are well-staffed. Stay on your toes, and stay alive."
+	},
+
+	"vantamission1_3" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+		"text" : "Killing the power to those mega turrets is the number-one priority - what few ships we have will be shredded by them in no time."
+	},
+
+	"vantamission1_4a" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "Well done on the first sector. I did forget to mention the smaller turrets scattered around to deal with local vermin. They're relatively weak though, so I'm confident that you can deal with them easily.",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_4b" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "As much as I would love to see them go all-out, there are enough of those turrets that they would be overwhelmed. Don't go biting off more than you can chew.",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_4c" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "You're right, of course. Please do excercise caution as needed."
+	},
+
+	"vantamission1_5" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "Hmm... this sector appears to have multiple power junctions. You'll need to disable all of them to make sure that the defenses come down as expected."
+	},
+
+	"vantamission1_6a" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "That takes care of this sector. Take some time to recover if you need to before pressing on. Once the last sector is unpowered, we'll have a hole big enough to push through to the planet's surface unopposed.",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_6b" : {
+		"type" : "mission",
+		"senderName" : "Doppler",
+		"portraitImage" : "/interface/chatbubbles/doppler.png:<frame>",
+		"text" : "I had only heard tales of our homeworld growing up. To be able to lay my eyes on it personally... I never thought I'd see the day.",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_6c" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+		"text" : "We'll have plenty of time for sightseeing once the conflict is over. Our priority right now is punching through the empire's defenses and establishing a forward base on the planet's surface afterwards.",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_6d" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "Indeed. For now, let's focus on the task at hand."
+	},
+
+	"vantamission1_blockedTunnel" : {
+		"type" : "mission",
+		"text" : "This tunnel has a blockage. You may be able to clear it out if your distortion sphere has ^orange;bomb capabilities^reset;."
+	},
+
+	"vantamission1_preBoss1" : {
+		"type" : "mission",
+		"senderName" : "SYSTEM ANNOUNCEMENT",
+		"portraitImage" : "/interface/chatbubbles/nightarsoundonly.png:<frame>",
+		"text" : "^orange;> MAIN POWER SYSTEMS OFFLINE\n> PRIMARY FORCES NOT RESPONDING\n> DEPLOYING ARTILLERY DRONE FN-50 \"PERDITION\" TO INTERCEPT^reset;",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_preBoss2" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "They have a ^orange;Perdition Combat Drone^reset; here!?",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_preBoss3" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "Unexpected... Perdition Units are capable of blocking teleporter signals over a broad range, so we can't beam our allies out if one's active... you'll have to destroy it.",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_preBoss4" : {
+		"type" : "mission",
+		"senderName" : "Doppler",
+		"portraitImage" : "/interface/chatbubbles/doppler.png:<frame>",
+		"text" : "Well, I have faith in them. They've taken on way scarrier things before, so this should be a piece of cake!",
+		"persistTime" : 3.0
+	},
+
+	"vantamission1_preBoss5" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
+		"text" : "That's right - Captain, you've got this in the bag!",
+		"persistTime" : 2.0
+	},
+
+	"vantamission1_preBoss6" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "We'll have the teleporter ready once the drone is out of commission. I wish you the best."
+	}
+}

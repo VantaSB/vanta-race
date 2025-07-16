@@ -1,0 +1,9 @@
+{
+	"name" : "nightarstealth",
+	"effectConfig" : {},
+	"defaultDuration" : 1,
+
+	"scripts" : [ "nightarstealth.lua" ],
+
+	"animationConfig" : "nightarstealth.animation"
+}

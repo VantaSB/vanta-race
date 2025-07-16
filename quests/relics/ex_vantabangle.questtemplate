@@ -1,0 +1,24 @@
+{
+	"id" : "ex_vantabangle",
+	"prerequisites" : [ ],
+	"title" : "Vanta Bangle",
+	"text" : "I can feel my energy resonating with this bangle. I might be able to use it as a makeshift weapon!",
+	"completionText" : "I can feel my energy resonating with this bangle. I might be able to use it as a makeshift weapon!",
+	"moneyRange" : [200, 200],
+	"rewards" : [ ],
+
+	"canBeAbandoned" : false,
+	"showAcceptDialog" : false,
+	"updateDelta" : 10,
+	"script" : "/quests/scripts/main.lua",
+	"scriptConfig" : {
+		"portraits" : {
+			"questStarted" : "player",
+			"questComplete" : "player"
+		},
+
+		"requireTurnIn" : false,
+
+		"conditions" : [ ]
+	}
+}

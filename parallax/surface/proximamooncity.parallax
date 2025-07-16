@@ -19,74 +19,82 @@
       "parallax" : 1.2
     },
     {
-      "kind" : "proximacity4",
-      "baseCount" : 1,
-      "offset" : [0, 225],
-      "noRandomOffset" : true,
-      "parallax" : 3,
-      "fadePercent" : 0.01,
-      "nohueshift" : true
-      //"directives" : "?scale=0.85"
-    },
-    {
-      "kind" : "proximacity4unlit",
-      "offset" : [0, 225],
-      "noRandomOffset" : true,
-      "parallax" : 3,
-      "fadePercent" : 0.02,
-      "unlit" : true
-      //"directives" : "?scale=0.85"
-    },
-    {
       "kind" : "midnightbelow",
-      "offset" : [0, 195],
-      "noRandomOffset" : true,
+      "offset" : [0, 225],
+			"noRandomOffset" : true,
       "parallax" : 12,
       "nohueshift" : true
     },
 
     // Surface background
     {
-      "kind" : "proximacity3",
-      "offset" : [0, -25],
-      "parallax" : 11,
-      "fadePercent" : 0.13
+      "kind" : "proximacity4",
+      "baseCount" : 1,
+      "offset" : [0, 185],
+      "noRandomOffset" : true,
+      "parallax" : 4,
+      "fadePercent" : 0.01,
+      "nohueshift" : true,
+			"directives" : "?scalebicubic=0.85"
     },
     {
-      "kind" : "proximacity3unlit",
-      "offset" : [-433, -25],
-      "parallax" : 11,
-      "fadePercent" : 0.14,
-      "unlit" : true
+      "kind" : "proximacity4unlit",
+      "offset" : [0, 185],
+      "noRandomOffset" : true,
+      "parallax" : 4,
+      "fadePercent" : 0.02,
+      "unlit" : true,
+			"directives" : "?scalebicubic=0.85"
     },
-    {
-	     "kind" : "proximacity2",
-       "baseCount" : 1,
-       "offset" : [420, -15],
-       "parallax" : 10,
-       "fadePercent" : 0.11
-	  },
-    {
-	     "kind" : "proximacity2unlit",
-       "baseCount" : 1,
-       "offset" : [-13, -15],
-       "parallax" : 10,
-       "fadePercent" : 0.12,
-       "unlit" : true
-	  },
     {
       "kind" : "proximacity1",
       "baseCount" : 1,
-      "offset" : [0, -5],
-      "parallax" : 9,
+      "offset" : [0, -45],
+			"noRandomOffset" : true,
+      "parallax" : 5,
       "fadePercent" : 0.09
     },
     {
       "kind" : "proximacity1unlit",
       "baseCount" : 1,
-      "offset" : [-433, -5],
-      "parallax" : 9,
+      "offset" : [0, -45],
+			"noRandomOffset" : true,
+      "parallax" : 5,
       "fadePercent" : 0.1,
+      "unlit" : true
+    },
+    {
+	     "kind" : "proximacity2",
+       "baseCount" : 1,
+       "offset" : [0, -65],
+			 "noRandomOffset" : true,
+       "parallax" : 6,
+       "fadePercent" : 0.11
+	  },
+    {
+	     "kind" : "proximacity2unlit",
+       "baseCount" : 1,
+       "offset" : [0, -65],
+			 "noRandomOffset" : true,
+       "parallax" : 6,
+       "fadePercent" : 0.12,
+       "unlit" : true
+	  },
+    {
+      "kind" : "proximacity3",
+			"baseCount" : 1,
+      "offset" : [0, -85],
+      "noRandomOffset" : true,
+      "parallax" : 7,
+      "fadePercent" : 0.13
+    },
+    {
+      "kind" : "proximacity3unlit",
+			"baseCount" : 1,
+      "offset" : [0, -85],
+      "noRandomOffset" : true,
+      "parallax" : 7,
+      "fadePercent" : 0.14,
       "unlit" : true
     },
     {

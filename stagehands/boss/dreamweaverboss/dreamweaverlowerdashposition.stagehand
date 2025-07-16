@@ -1,0 +1,8 @@
+{
+  "type" : "dreamweaverlowerdashposition",
+
+  "scripts" : [
+  ],
+
+  "broadcastArea" : [-1, -1, 1, 1]
+}

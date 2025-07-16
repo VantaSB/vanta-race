@@ -5,6 +5,9 @@
         "default" : "off",
         "states" : {
           "off" : {
+						"frames" : 8,
+						"cycle" : 0.8,
+						"mode" : "loop",
             "properties" : {
               "immediateSound" : "/sfx/objects/steel_elevator_hit.ogg",
               "immediateSoundRangeMultiplier" : 0.5
@@ -98,7 +101,8 @@
           "centered" : true,
           "offset" : [0, 2.0],
           "zLevel" : 1,
-          "standPosition" : [0, 1.0]
+          "standPosition" : [0, 1.0],
+					"fullbright" : true
         },
 
         "partStates" : {
@@ -143,7 +147,7 @@
             },
             "off" : {
               "properties" : {
-                "image" : "<partImage>:offRail"
+                "image" : "<partImage>:onRail.<frame>"
               }
             }
           }
@@ -165,7 +169,7 @@
             },
             "off" : {
               "properties" : {
-                "image" : "<partImage>:offRail"
+                "image" : "<partImage>:onRail.<frame>"
               }
             }
           }
@@ -173,6 +177,14 @@
       }
     }
   },
+
+	"lights" : {
+		"tramLight" : {
+			"active" : true,
+			"position" : [0, 0],
+			"color" : [148, 232, 186]
+		}
+	},
 
   "sounds" : {
     "activate" : [ "/sfx/objects/console_button3.ogg" ]

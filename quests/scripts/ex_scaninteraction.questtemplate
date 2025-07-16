@@ -1,6 +1,6 @@
 {
   "id" : "ex_scaninteraction",
-  "title" : "^orange;[Vanta Race]^reset; Scan Interaction Handler",
+  "title" : "[^cyan;Vanta Race^reset;] Scan Interaction Handler",
   "text" : "This quest handles the scan interaction feature added by the mod. Just accept it, and forget about its existence. This was yoinked from Ztarbound, all credit goes to zimberzimber for its related functions.",
   "completionText" : "Congratulations, you just broke something. Beam down/up so the scan interaction handler re-adds itself. If it keeps happening, report it as a bug on the Github page.",
   "invisible" : true,

@@ -18,11 +18,11 @@
   "orientations" : [
     {
       "imageLayers" : [
-        { "image" : "bsltype04.png:<color>.<frame>" },
-        { "image" : "bsltype04lit.png:<color>.<frame>", "fullbright" : true }
+        { "image" : "bsltype04.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "bsltype04lit.png:<color>.<frame>" }
       ],
 
-      "imagePosition" : [-64, -32],
+      "imagePosition" : [-64, -40],
       "frames" : 4,
       "animationCycle" : 0.7,
 

@@ -5,7 +5,9 @@
   "printable" : false,
   "category" : "quest",
   "inventoryIcon" : "keycard1_2.png",
-  "description" : "A keycard for a keycard reader.",
-  "shortdescription" : "Keycard",
-  "itemTags" : [ ]
+	"description" : "A keycard granting security clearance through Nightar checkpoint systems.",
+  "shortdescription" : "Nightar ^green;L2^reset; Keycard",
+  "itemTags" : [ ],
+  "consumeOnPickup" : true,
+	"pickupQuestTemplates" : [ "ex_nightarkeycard2" ]
 }

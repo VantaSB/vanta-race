@@ -99,7 +99,7 @@
       "//name" : "bsltype04",
       "//shortdescription" : "Set Piece Background",
       "imagePositionX" : "-64",
-      "imagePositionY" : "-32",
+      "imagePositionY" : "-40",
       "object" : "bsltype04",
       "tilesetDirection" : "right"
     },
@@ -108,7 +108,7 @@
       "//name" : "bsltype04a",
       "//shortdescription" : "Set Piece Background",
       "imagePositionX" : "-88",
-      "imagePositionY" : "-56",
+      "imagePositionY" : "-64",
       "object" : "bsltype04a",
       "tilesetDirection" : "right"
     },

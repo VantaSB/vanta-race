@@ -1,0 +1,23 @@
+{
+  "itemName" : "vantaradiationprotection",
+  "price" : 750,
+  "inventoryIcon" : "icon.png",
+  "tooltipKind" : "baseaugment",
+  "rarity" : "Uncommon",
+  "pickupQuestTemplates" : [ ],
+  "category" : "enviroProtectionPack",
+  "description" : "This upgrade adds radiation neutralization to your EPP's capabilities. Use it for planets with ^red;high radiation levels^reset;.",
+  "shortdescription" : "Vanta Radiation Module",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+		{ "stat" : "breathProtection", "amount" : 1.0 },
+		{ "stat" : "biomeradiationImmunity", "amount" : 1.0 }
+  ],
+
+	"acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ]
+}

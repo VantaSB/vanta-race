@@ -564,11 +564,11 @@
     },
     "61" : {
       "//description" : "A command console used in Nightar complexes.",
-      "//name" : "nightardecorativeconsole",
+      "//name" : "nightarcommandconsole",
       "//shortdescription" : "Nightsteel Console",
       "imagePositionX" : "-32",
-      "imagePositionY" : "-8",
-      "object" : "nightardecorativeconsole",
+      "imagePositionY" : "-24",
+      "object" : "nightarcommandconsole",
       "tilesetDirection" : "right"
     },
     "62" : {
@@ -638,7 +638,7 @@
       "//description" : "",
       "//name" : "overlay01",
       "//shortdescription" : "Decorative Overlay",
-      "imagePositionX" : "-28",
+      "imagePositionX" : "-24",
       "imagePositionY" : "0",
       "object" : "overlay01",
       "tilesetDirection" : "right"
@@ -657,7 +657,7 @@
       "//name" : "vantadecorativeconsole",
       "//shortdescription" : "Nightsteel Console",
       "imagePositionX" : "-32",
-      "imagePositionY" : "-8",
+      "imagePositionY" : "0",
       "object" : "vantadecorativeconsole",
       "tilesetDirection" : "right"
     },
@@ -665,8 +665,8 @@
       "//description" : "A highly volatile container powering a nearby reactor.",
       "//name" : "ceruleumpowercell",
       "//shortdescription" : "Ceruleum Power Cell",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-24",
       "object" : "ceruleumpowercell",
       "tilesetDirection" : "right"
     },
@@ -744,19 +744,18 @@
     },
     "81" : {
       "//description" : "An auxiliary door that leads to another area.",
-      "//name" : "nightsteelwalldoor",
+      "//name" : "nightsteelbgdoor",
       "//shortdescription" : "Nightsteel Wall Door",
       "imagePositionX" : "-16",
-      "imagePositionY" : "0",
-      "object" : "nightsteelwalldoor",
-      "tilesetDirection" : "right",
-        "parameters" : "{ \"animationParts\" : { \"base\" : \"basedark.png\",\n\"door\" : \"doorlighta.png\",\n\"banner\" : \"banner0.png\",\n\"bannerlit\" : \"banner0lit.png\" } }"
+      "imagePositionY" : "-24",
+      "object" : "nightsteelbgdoor0",
+      "tilesetDirection" : "right"
     },
     "82" : {
       "//description" : "An altar build in the image of the legendary Noxcalibur.",
       "//name" : "nightarbladealtar",
       "//shortdescription" : "Blade Altar",
-      "imagePositionX" : "-16",
+      "imagePositionX" : "-9",
       "imagePositionY" : "0",
       "object" : "nightarbladealtar",
       "tilesetDirection" : "right"
@@ -843,219 +842,344 @@
       "tilesetDirection" : "right"
     },
     "92" : {
-      "//name" : "ex_fluorescentlight3_orientation2",
-      "invalid" : "true"
+			"//description" : "A door to a forgotten temple. Some unknown force keeps me from opening it.",
+      "//name" : "vantatempledoor",
+      "//shortdescription" : "Vanta Temple Door",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "-32",
+      "object" : "vantatempledoor",
+      "tilesetDirection" : "right"
     },
     "93" : {
-      "//name" : "ex_fluorescentlight3_orientation3",
-      "invalid" : "true"
+			"//description" : "A statue holding a Vanta relic.",
+      "//name" : "vantarelicstatue",
+      "//shortdescription" : "Vanta Relic Statue",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-16",
+      "object" : "vantarelicstatue",
+      "tilesetDirection" : "right"
     },
     "94" : {
-      "//name" : "ex_fluorescentlight3_orientation4",
-      "invalid" : "true"
+			"//description" : "A door suitable for a spaceship.",
+      "//name" : "vantashipdoorblast2",
+      "//shortdescription" : "Vanta Ship Door",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "0",
+      "object" : "vantashipdoorblast2",
+      "tilesetDirection" : "right"
     },
     "95" : {
-      "//name" : "ex_fluorescentlight4_orientation0",
-      "invalid" : "true"
+			"//description" : "A large ornate lamp that burns with a soft violet flame.",
+      "//name" : "vantafrozenfiretorch",
+      "//shortdescription" : "Vanta Ritual Torch",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "vantafrozenfiretorch",
+      "tilesetDirection" : "right"
     },
     "96" : {
-      "//name" : "ex_fluorescentlight4_orientation1",
-      "invalid" : "true"
+			"//description" : "A nightsteel torch bearing the Vanta emblem.",
+      "//name" : "nightsteelritualwalltorch",
+      "//shortdescription" : "Nightsteel Wall Torch",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "nightsteelritualwalltorch",
+      "tilesetDirection" : "right"
     },
     "97" : {
-      "//name" : "ex_fluorescentlight4_orientation2",
-      "invalid" : "true"
+			"//description" : "A cleverly concealed entrance.",
+      "//name" : "nightarthronesecret",
+      "//shortdescription" : "Nightar Throne",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-16",
+      "object" : "nightarthronesecret",
+      "tilesetDirection" : "right"
     },
     "98" : {
-      "//name" : "ex_fluorescentlight4_orientation3",
-      "invalid" : "true"
+			"//description" : "...",
+      "//name" : "nightsteelscanswitch",
+      "//shortdescription" : "Nightsteel Scan Switch",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-8",
+      "object" : "nightsteelscanswitch",
+      "tilesetDirection" : "right"
     },
     "99" : {
-      "//name" : "ex_fluorescentlight4_orientation4",
-      "invalid" : "true"
+			"//description" : "A combat drone constructed from nightsteel. It is currently not receiving instructions and is inert.",
+      "//name" : "nightsteelcombatdrone",
+      "//shortdescription" : "Nightsteel Combat Drone",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "-32",
+      "object" : "nightsteelcombatdrone",
+      "tilesetDirection" : "right"
     },
     "100" : {
-      "//name" : "ex_fluorescentlight5_orientation0",
-      "invalid" : "true"
+			"//description" : "A combat drone constructed from nightsteel. It is currently not receiving instructions and is inert.",
+      "//name" : "nightsteelcombatdrone_spawner",
+      "//shortdescription" : "Nightsteel Combat Drone",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "-32",
+      "object" : "nightsteelcombatdrone_spawner",
+      "tilesetDirection" : "right"
     },
     "101" : {
-      "//name" : "ex_fluorescentlight5_orientation1",
-      "invalid" : "true"
+			"//description" : "A strong and secure door.",
+      "//name" : "nightarcasteldoorlarge",
+      "//shortdescription" : "Nightar Large Castle Door",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "0",
+      "object" : "nightarcastledoorlarge",
+      "tilesetDirection" : "right"
     },
     "102" : {
-      "//name" : "ex_fluorescentlight5_orientation2",
-      "invalid" : "true"
+			"//description" : "A cleverly concealed ladder rung.",
+      "//name" : "hiddenladder2x1",
+      "//shortdescription" : "Hidden Ladder (2x1)",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "hiddenladder2x1",
+      "tilesetDirection" : "right"
     },
     "103" : {
-      "//name" : "ex_fluorescentlight5_orientation3",
-      "invalid" : "true"
+			"//description" : "A door suitable for a spaceship.",
+      "//name" : "vantashiphatchblast",
+      "//shortdescription" : "Vanta Ship Door",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-24",
+      "object" : "vantashiphatchblast",
+      "tilesetDirection" : "right"
     },
     "104" : {
-      "//name" : "ex_fluorescentlight5_orientation4",
-      "invalid" : "true"
+			"//description" : "A door suitable for a spaceship.",
+      "//name" : "vantashiphatchblast2",
+      "//shortdescription" : "Vanta Ship Door",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-24",
+      "object" : "vantashiphatchblast2",
+      "tilesetDirection" : "right"
     },
     "105" : {
-      "//name" : "ex_fluorescentlight6_orientation0",
-      "invalid" : "true"
+			"//description" : "A power generator.",
+      "//name" : "nightsteelgenerator",
+      "//shortdescription" : "Nightsteel Generator",
+      "imagePositionX" : "-80",
+      "imagePositionY" : "0",
+      "object" : "nightsteelgenerator",
+      "tilesetDirection" : "right"
     },
     "106" : {
-      "//name" : "ex_fluorescentlight6_orientation1",
-      "invalid" : "true"
+			"//description" : "A gunship flown by Nightar combat pilots.",
+      "//name" : "nightargunshipprop",
+      "//shortdescription" : "Nightar Gunship",
+      "imagePositionX" : "-112",
+      "imagePositionY" : "-48",
+      "object" : "nightargunshipprop",
+      "tilesetDirection" : "right"
     },
     "107" : {
-      "//name" : "ex_fluorescentlight6_orientation2",
-      "invalid" : "true"
+			"//description" : "A portable console used for logging Nightar field missions.",
+      "//name" : "nightarconsole",
+      "//shortdescription" : "Nightar Log Console",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "nightarconsole",
+      "tilesetDirection" : "right"
     },
     "108" : {
-      "//name" : "ex_fluorescentlight6_orientation3",
-      "invalid" : "true"
+			"//description" : "A powerful forcefield barring passage.",
+      "//name" : "nightarforcefield",
+      "//shortdescription" : "Nightar Forcefield",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightarforcefield",
+      "tilesetDirection" : "right"
     },
     "109" : {
-      "//name" : "ex_fluorescentlight6_orientation4",
-      "invalid" : "true"
+			"//description" : "A powerful forcefield barring passage.",
+      "//name" : "nightarforcefieldtall",
+      "//shortdescription" : "Nightar Forcefield",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightarforcefieldtall",
+      "tilesetDirection" : "right"
     },
     "110" : {
-      "//name" : "ex_fluorescentlight7_orientation0",
-      "invalid" : "true"
+			"//description" : "A powerful forcefield barring passage.",
+      "//name" : "nightarconsole2",
+      "//shortdescription" : "Nightar Research Console",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "nightarconsole2",
+      "tilesetDirection" : "right"
     },
     "111" : {
-      "//name" : "ex_fluorescentlight7_orientation1",
-      "invalid" : "true"
+			"//description" : "A strong, vertical hatch doorway.",
+      "//name" : "nightarindustrialhatch",
+      "//shortdescription" : "Nightar Industrial Hatch",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-8",
+      "object" : "nightarindustrialhatch",
+      "tilesetDirection" : "right"
     },
     "112" : {
-      "//name" : "ex_fluorescentlight7_orientation2",
-      "invalid" : "true"
+			"//description" : "A large, sturdy door.",
+      "//name" : "nightarbarricadedoor",
+      "//shortdescription" : "Nightar Barricade Door",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "-32",
+      "object" : "nightarbarricadedoor",
+      "tilesetDirection" : "right"
     },
     "113" : {
-      "//name" : "ex_fluorescentlight7_orientation3",
-      "invalid" : "true"
+			"//description" : "A large, sturdy door.",
+      "//name" : "nightarlampsmall",
+      "//shortdescription" : "Nightar Small Lamp",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "nightarlampsmall",
+      "tilesetDirection" : "right"
     },
     "114" : {
-      "//name" : "ex_fluorescentlight7_orientation4",
-      "invalid" : "true"
+			"//description" : "A red flashing light... That's usually not good.",
+      "//name" : "nightaralertlight",
+      "//shortdescription" : "Nightar Alert Light",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-8",
+      "object" : "nightaralertlight",
+      "tilesetDirection" : "right"
     },
     "115" : {
-      "//description" : "A sign that reads \"Cells\".",
-      "//name" : "vantabasesign_cells",
-      "//shortdescription" : "Cells Sign",
-      "imagePositionX" : "-16",
+			"//description" : "A round wall light.",
+      "//name" : "nightarstationlight",
+      "//shortdescription" : "Nightar Station Light",
+      "imagePositionX" : "-8",
       "imagePositionY" : "-8",
-      "object" : "vantabasesign_cells"
+      "object" : "nightarstationlight",
+      "tilesetDirection" : "right"
     },
     "116" : {
-      "//description" : "A sign that reads \"Command\".",
-      "//name" : "vantabasesign_command",
-      "//shortdescription" : "Command Sign",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "vantabasesign_command"
+			"//description" : "",
+      "//name" : "overlay03",
+      "//shortdescription" : "Decorative Overlay",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "0",
+      "object" : "overlay03",
+      "tilesetDirection" : "right"
     },
     "117" : {
-      "//description" : "A sign that reads \"Energy\".",
-      "//name" : "vantabasesign_energy",
-      "//shortdescription" : "Energy Sign",
-      "imagePositionX" : "-16",
+			"//description" : "",
+      "//name" : "overlay04",
+      "//shortdescription" : "Decorative Overlay",
+      "imagePositionX" : "-32",
       "imagePositionY" : "-8",
-      "object" : "vantabasesign_energy"
+      "object" : "overlay04",
+      "tilesetDirection" : "right"
     },
     "118" : {
-      "//description" : "A sign that reads \"Hall\".",
-      "//name" : "vantabasesign_hall",
-      "//shortdescription" : "Hallway Sign",
+			"//description" : "A small tank full of volatile liquid ceruleum.",
+      "//name" : "ceruleumtanksmall",
+      "//shortdescription" : "Small Ceruleum Tank",
       "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "vantabasesign_hall"
+      "imagePositionY" : "-24",
+      "object" : "ceruleumtanksmall",
+      "tilesetDirection" : "right"
     },
     "119" : {
-      "//description" : "A sign that reads \"Medical\".",
-      "//name" : "vantabasesign_medical",
-      "//shortdescription" : "Medical Sign",
+			"//description" : "A sealed tank full of volatile liquid ceruleum.",
+      "//name" : "ceruleumtanklarge",
+      "//shortdescription" : "Large Ceruleum Tank",
       "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "vantabasesign_medical"
+      "imagePositionY" : "-32",
+      "object" : "ceruleumtanklarge",
+      "tilesetDirection" : "right"
     },
     "120" : {
-      "//description" : "A sign that reads \"Room\".",
-      "//name" : "vantabasesign_room",
-      "//shortdescription" : "Room Sign",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "vantabasesign_room"
+			"//description" : "The ceruleum in this small fountain has a soft glow.",
+      "//name" : "ceruleumspout_orientation0",
+      "//shortdescription" : "Ceruleum Spout",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ceruleumspout",
+      "tilesetDirection" : "right"
     },
     "121" : {
-      "//description" : "A sign that reads \"Storage\".",
-      "//name" : "vantabasesign_storage",
-      "//shortdescription" : "Storage Sign",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "vantabasesign_storage"
+			"//description" : "The ceruleum in this small fountain has a soft glow.",
+      "//name" : "ceruleumspout_orientation1",
+      "//shortdescription" : "Ceruleum Spout",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ceruleumspout",
+      "tilesetDirection" : "right"
     },
     "122" : {
-      "//description" : "A sign that reads \"Tech\".",
-      "//name" : "vantabasesign_tech",
-      "//shortdescription" : "Tech Sign",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "vantabasesign_tech"
+			"//description" : "A sealed tank full of volatile liquid ceruleum.",
+      "//name" : "ceruleumspout_orientation2",
+      "//shortdescription" : "Ceruleum Spout",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ceruleumspout",
+      "tilesetDirection" : "right"
     },
     "123" : {
-      "//description" : "A sign that reads \"Transporter\".",
-      "//name" : "vantabasesign_transporter",
-      "//shortdescription" : "Transporter Sign",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "vantabasesign_transporter"
+			"//description" : "A sealed tank full of volatile liquid ceruleum.",
+      "//name" : "nightarmegaturret",
+      "//shortdescription" : "Nightar Mega Turret",
+      "imagePositionX" : "-48",
+      "imagePositionY" : "-48",
+      "object" : "nightarmegaturret",
+      "tilesetDirection" : "right"
     },
     "124" : {
-      "//description" : "A sign that reads \"Tunnel\".",
-      "//name" : "vantabasesign_tunnel",
-      "//shortdescription" : "Tunnel Sign",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "vantabasesign_tunnel"
+			"//description" : "...",
+      "//name" : "nightsteelwindowframe",
+      "//shortdescription" : "Nightsteel Window Frame",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "-24",
+      "object" : "nightsteelwindowframe",
+      "tilesetDirection" : "right"
     },
     "125" : {
       "//description" : "An auxiliary door.",
       "//name" : "vantabasedoor",
       "//shortdescription" : "Vanta Base Door",
       "imagePositionX" : "-16",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-24",
       "object" : "vantabasedoor",
       "tilesetDirection" : "right"
     },
     "126" : {
-      "//description" : "-todo-",
-      "//name" : "vantaresearchdisplay",
-      "//shortdescription" : "Vanta Research Display",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
-      "object" : "vantaresearchdisplay",
+			"//description" : "...",
+      "//name" : "nightsteelwindowframesmall",
+      "//shortdescription" : "Nightsteel Window Frame",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-8",
+      "object" : "nightsteelwindowframesmall",
       "tilesetDirection" : "right"
     },
     "127" : {
-      "//description" : "A Vanta devices used for researching their psionic abilities.",
-      "//name" : "vantaresearchcore",
-      "//shortdescription" : "Vanta Research Core",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
-      "object" : "vantaresearchcore",
+			"//description" : "...",
+      "//name" : "nightsteelwindowframesmall2",
+      "//shortdescription" : "Nightsteel Window Frame",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-8",
+      "object" : "nightsteelwindowframesmall2",
       "tilesetDirection" : "right"
     },
     "128" : {
-      "//description" : "A deactivated research node.",
-      "//name" : "vantaresearchcore_off",
-      "//shortdescription" : "Inactive Vanta Research Core",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
-      "object" : "vantaresearchcore_off",
+			"//description" : "...",
+      "//name" : "nightsteelwindowframesmall3",
+      "//shortdescription" : "Nightsteel Window Frame",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "-8",
+      "object" : "nightsteelwindowframesmall3",
       "tilesetDirection" : "right"
     },
     "129" : {
       "//description" : "A highly regulated container that acts as a fuel supply for power.",
       "//name" : "ceruleumpowercell2",
       "//shortdescription" : "Ceruleum Power Cell",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-24",
       "object" : "ceruleumpowercell2",
       "tilesetDirection" : "right"
     },
@@ -1285,337 +1409,163 @@
       "tilesetDirection" : "right"
     },
     "155" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC0orientation_0",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleC0",
+			"//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
+      "//name" : "nightsteelwindowframe3",
+      "//shortdescription" : "Nightsteel Window Frame",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "-24",
+      "object" : "nightsteelwindowframe3",
       "tilesetDirection" : "right"
     },
     "156" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC0orientation_1",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleC0",
+			"//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
+      "//name" : "baseexitdoor",
+      "//shortdescription" : "Base Exit Door",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-16",
+      "object" : "baseexitdoor",
       "tilesetDirection" : "right"
     },
     "157" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC0orientation_2",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleC0",
+			"//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
+      "//name" : "vantabasesign",
+      "//shortdescription" : "Base Exit Door",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantabasesign",
       "tilesetDirection" : "right"
     },
     "158" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC0orientation_3",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleC0",
+			"//description" : "A storage locker.",
+      "//name" : "nightarprisonlocker",
+      "//shortdescription" : "Nightar Prison Locker",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-16",
+      "object" : "nightarprisonlocker",
       "tilesetDirection" : "right"
     },
     "159" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC1orientation_0",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
+			"//description" : "A storage locker.",
+      "//name" : "nightarprisonlockerlarge",
+      "//shortdescription" : "Nightar Prison Locker",
+      "imagePositionX" : "-24",
       "imagePositionY" : "-16",
-      "object" : "nightsteelgreebleC1",
+      "object" : "nightarprisonlockerlarge",
       "tilesetDirection" : "right"
     },
     "160" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC1orientation_1",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-16",
-      "object" : "nightsteelgreebleC1",
+			"//description" : "A storage locker.",
+      "//name" : "nightardesk",
+      "//shortdescription" : "Nightar Prison Locker",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "nightardesk",
       "tilesetDirection" : "right"
     },
     "161" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC1orientation_2",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-16",
+			"//description" : "The sign says \"Solitary\".",
+      "//name" : "prisonsign3",
+      "//shortdescription" : "Solitary Confinement Sign",
+      "imagePositionX" : "-24",
       "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleC1",
+      "object" : "prisonsign3",
       "tilesetDirection" : "right"
     },
     "162" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC1orientation_3",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleC1",
+			"//description" : "The sign says \"Showers\".",
+      "//name" : "prisonsign4",
+      "//shortdescription" : "Showers Sign",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "-8",
+      "object" : "prisonsign4",
       "tilesetDirection" : "right"
     },
     "163" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC2orientation_0",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "-16",
-      "object" : "nightsteelgreebleC2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "164" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC2orientation_1",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-16",
-      "object" : "nightsteelgreebleC2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "165" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC2orientation_2",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleC2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "166" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleC12rientation_3",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleC2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "167" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL1orientation_0",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleL1",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "168" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL1orientation_1",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleL1",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "169" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL1orientation_2",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleL1",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "170" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL1orientation_3",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleL1",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "171" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL1orientation_4",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleL1",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "172" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleCL1rientation_5",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleL1",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "173" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL1orientation_6",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleL1",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "174" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL1orientation_7",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleL1",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "175" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL2orientation_0",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleL2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "176" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL2rientation_1",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleL2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "177" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL2orientation_2",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleL2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "178" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL2orientation_3",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleL2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "179" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL2orientation_4",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleL2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "180" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleCL2rientation_5",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleL2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "181" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL2orientation_6",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "-16",
-      "object" : "nightsteelgreebleL2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "182" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL2orientation_7",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-16",
-      "object" : "nightsteelgreebleL2",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "183" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL3orientation_0",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleL3",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "184" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL3rientation_1",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelgreebleL3",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "185" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL3orientation_2",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-16",
-      "object" : "nightsteelgreebleL3",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "186" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL23rientation_3",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "-16",
-      "object" : "nightsteelgreebleL3",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "187" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL3orientation_4",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleL3",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "188" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL3rientation_5",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-24",
-      "imagePositionY" : "0",
-      "object" : "nightsteelgreebleL3",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "189" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL3orientation_6",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "0",
-      "imagePositionY" : "-24",
-      "object" : "nightsteelgreebleL3",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "190" : {
-      "//description" : "An aesthetic nightsteel embellishment.",
-      "//name" : "nsgreebleL3orientation_7",
-      "//shortdescription" : "Nightsteel Greeble",
-      "imagePositionX" : "-24",
-      "imagePositionY" : "-24",
-      "object" : "nightsteelgreebleL3",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "191" : {
-      "//description" : "A large magnetic clamp used for impounding small ships.",
-      "//name" : "impoundclamp",
-      "//shortdescription" : "Impound Clamp",
-      "imagePositionX" : "-32",
-      "imagePositionY" : "-56",
-      "object" : "impoundclamp",
-      "tilesetDirection" : "right"
+      "invalid" : "true"
     },
     "192" : {
       "//description" : "A cleverly concealed entrance.",
@@ -1664,11 +1614,11 @@
     },
     "197" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelslidingdoortall",
+      "//name" : "nightsteelslidingdoortall_l0",
       "//shortdescription" : "Nightsteel Sliding Door",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightsteelslidingdoortall",
+      "object" : "nightsteelslidingdoortall_l0",
       "tilesetDirection" : "right"
     },
     "198" : {
@@ -1684,8 +1634,8 @@
       "//description" : "...",
       "//name" : "nightsteelsecuritymonitor",
       "//shortdescription" : "Nightsteel Security Monitor",
-      "imagePositionX" : "0",
-      "imagePositionY" : "0",
+      "imagePositionX" : "-40",
+      "imagePositionY" : "-16",
       "object" : "nightsteelsecuritymonitor",
       "tilesetDirection" : "right"
     },
@@ -1709,100 +1659,91 @@
     },
     "202" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelslidingdoor",
+      "//name" : "nightsteelslidingdoor_l0",
       "//shortdescription" : "Nightsteel Sliding Door",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightsteelslidingdoor",
-      "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv0.png\" } }"
+      "object" : "nightsteelslidingdoor_l0",
+      "tilesetDirection" : "right"
     },
     "203" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelslidingdoor",
+      "//name" : "nightsteelslidingdoor_l1",
       "//shortdescription" : "Nightsteel Sliding Door",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightsteelslidingdoor",
-      "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv1.png\" } }"
+      "object" : "nightsteelslidingdoor_l1",
+      "tilesetDirection" : "right"
     },
     "204" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelslidingdoor",
+      "//name" : "nightsteelslidingdoor_l2",
       "//shortdescription" : "Nightsteel Sliding Door",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightsteelslidingdoor",
-      "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv2.png\" } }"
+      "object" : "nightsteelslidingdoor_l2",
+      "tilesetDirection" : "right"
     },
     "205" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelslidingdoor",
+      "//name" : "nightsteelslidingdoor_l3",
       "//shortdescription" : "Nightsteel Sliding Door",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightsteelslidingdoor",
-      "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv3.png\" } }"
+      "object" : "nightsteelslidingdoor_l3",
+      "tilesetDirection" : "right"
     },
     "206" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelslidingdoor",
+      "//name" : "nightsteelslidingdoor_l4",
       "//shortdescription" : "Nightsteel Sliding Door",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightsteelslidingdoor",
-      "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv4.png\" } }"
+      "object" : "nightsteelslidingdoor_l4",
+      "tilesetDirection" : "right"
     },
     "207" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelslidingdoortall",
+      "//name" : "nightsteelslidingdoortall_l1",
       "//shortdescription" : "Nightsteel Sliding Door",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightsteelslidingdoortall",
-      "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv1.png\" } }"
+      "object" : "nightsteelslidingdoortall_l1",
+      "tilesetDirection" : "right"
     },
     "208" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelslidingdoortall",
+      "//name" : "nightsteelslidingdoortall_l2",
       "//shortdescription" : "Nightsteel Sliding Door",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightsteelslidingdoortall",
-      "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv2.png\" } }"
+      "object" : "nightsteelslidingdoortall_l2",
+      "tilesetDirection" : "right"
     },
     "209" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelslidingdoortall",
+      "//name" : "nightsteelslidingdoortall_l3",
       "//shortdescription" : "Nightsteel Sliding Door",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightsteelslidingdoortall",
-      "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv3.png\" } }"
+      "object" : "nightsteelslidingdoortall_l3",
+      "tilesetDirection" : "right"
     },
     "210" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelslidingdoortall",
+      "//name" : "nightsteelslidingdoortall_l4",
       "//shortdescription" : "Nightsteel Sliding Door",
       "imagePositionX" : "0",
       "imagePositionY" : "0",
-      "object" : "nightsteelslidingdoortall",
-      "tilesetDirection" : "right",
-      "parameters" : "{ \"animationParts\" : { \"door\" : \"lv4.png\" } }"
+      "object" : "nightsteelslidingdoortall_l4",
+      "tilesetDirection" : "right"
     },
     "211" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
       "//name" : "nightarshipdoorprop",
       "//shortdescription" : "Nightar Ship Door",
-      "imagePositionX" : "-16",
-      "imagePositionY" : "0",
+      "imagePositionX" : "0",
+      "imagePositionY" : "-16",
       "object" : "nightarshipdoorprop",
       "tilesetDirection" : "right"
     },
@@ -1826,11 +1767,11 @@
     },
     "214" : {
       "//description" : "This sliding door makes me feel like I'm in a sci-fi game...",
-      "//name" : "nightsteelwindowframe",
+      "//name" : "nightsteelwindowframe2",
       "//shortdescription" : "Nightsteel Window Frame",
-      "imagePositionX" : "-32",
-      "imagePositionY" : "-8",
-      "object" : "nightsteelwindowframe",
+      "imagePositionX" : "-56",
+      "imagePositionY" : "-24",
+      "object" : "nightsteelwindowframe2",
       "tilesetDirection" : "right"
     },
     "215" : {
@@ -2081,7 +2022,7 @@
       "//name" : "nightsteelwallhatch",
       "//shortdescription" : "Nightsteel Wall Hatch",
       "imagePositionX" : "-16",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-8",
       "object" : "nightsteelwallhatch",
       "tilesetDirection" : "right"
     },
@@ -2090,7 +2031,7 @@
       "//name" : "nightsteelbulkheadprop",
       "//shortdescription" : "Nightsteel Bulkhead Door",
       "imagePositionX" : "-32",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-24",
       "object" : "nightsteelbulkheadprop",
       "tilesetDirection" : "right"
     },
@@ -2106,8 +2047,8 @@
       "//description" : "A healing terminal.",
       "//name" : "healingstatusterminal",
       "//shortdescription" : "Healing Terminal",
-      "imagePositionX" : "-8",
-      "imagePositionY" : "-32",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-24",
       "object" : "healingstatusterminal"
     },
     "246" : {
@@ -2304,7 +2245,7 @@
       "image" : "../../../tiled/vanta-custom/objects/vantashiphatch.png"
     },
     "61" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightardecorativeconsole.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarcommandconsole.png"
     },
     "62" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarserver.png"
@@ -2364,7 +2305,7 @@
       "image" : "../../../tiled/vanta-custom/objects/keycardreader.png"
     },
     "81" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantabasedoor.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelbgdoor.png"
     },
     "82" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarbladealtar.png"
@@ -2397,115 +2338,115 @@
       "image" : "../../../tiled/vanta-custom/objects/glyphswitchlarge.png"
     },
     "92" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantatempledoor.png"
     },
     "93" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantarelicstatue.png"
     },
     "94" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantashipdoorblast2.png"
     },
     "95" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantafrozenfiretorch.png"
     },
     "96" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelritualwalltorch.png"
     },
     "97" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarthronesecret.png"
     },
     "98" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelscanswitch.png"
     },
     "99" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelcombatdrone.png"
     },
     "100" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelcombatdrone_spawner.png"
     },
     "101" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarcastledoorlarge.png"
     },
     "102" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/hiddenladder2x1.png"
     },
     "103" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantashiphatchblast.png"
     },
     "104" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantashiphatchblast2.png"
     },
     "105" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelgenerator.png"
     },
     "106" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightargunship.png"
     },
     "107" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarconsole.png"
     },
     "108" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarforcefield.png"
     },
     "109" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarforcefieldtall.png"
     },
     "110" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarconsole2.png"
     },
     "111" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarindustrialhatch.png"
     },
     "112" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarbarricadedoor.png"
     },
     "113" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarlampsmall.png"
     },
     "114" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightaralertlight.png"
     },
     "115" : {
-      "image" : "../../../tiled/vanta-custom/objects/cells.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarstationlight.png"
     },
     "116" : {
-      "image" : "../../../tiled/vanta-custom/objects/command.png"
+      "image" : "../../../tiled/vanta-custom/objects/overlay03.png"
     },
     "117" : {
-      "image" : "../../../tiled/vanta-custom/objects/energy.png"
+      "image" : "../../../tiled/vanta-custom/objects/overlay04.png"
     },
     "118" : {
-      "image" : "../../../tiled/vanta-custom/objects/hall.png"
+      "image" : "../../../tiled/vanta-custom/objects/ceruleumtanksmall.png"
     },
     "119" : {
-      "image" : "../../../tiled/vanta-custom/objects/medical.png"
+      "image" : "../../../tiled/vanta-custom/objects/ceruleumtanklarge.png"
     },
     "120" : {
-      "image" : "../../../tiled/vanta-custom/objects/room.png"
+      "image" : "../../../tiled/vanta-custom/objects/ceruleumspout.png"
     },
     "121" : {
-      "image" : "../../../tiled/vanta-custom/objects/storage.png"
+      "image" : "../../../tiled/vanta-custom/objects/ceruleumspoutright.png"
     },
     "122" : {
-      "image" : "../../../tiled/vanta-custom/objects/tech.png"
+      "image" : "../../../tiled/vanta-custom/objects/ceruleumspoutleft.png"
     },
     "123" : {
-      "image" : "../../../tiled/vanta-custom/objects/transporter.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarmegaturret.png"
     },
     "124" : {
-      "image" : "../../../tiled/vanta-custom/objects/tunnel.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelwindowframe.png"
     },
     "125" : {
       "image" : "../../../tiled/vanta-custom/objects/vantabasedoor.png"
     },
     "126" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantaresearchdisplay.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelwindowframesmall.png"
     },
     "127" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantaresearchcore_on.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelwindowframesmall2.png"
     },
     "128" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantaresearchcore_off.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelwindowframesmall3.png"
     },
     "129" : {
       "image" : "../../../tiled/vanta-custom/objects/ceruleumpowercell2.png"
@@ -2586,115 +2527,115 @@
       "image" : "../../../tiled/vanta-custom/objects/nightsteelairlockdoor.png"
     },
     "155" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC0_orientation0.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelwindowframe3.png"
     },
     "156" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC0_orientation1.png"
+      "image" : "../../../tiled/vanta-custom/objects/exitlight.png"
     },
     "157" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC0_orientation2.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantabasesign.png"
     },
     "158" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC0_orientation3.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarprisonlocker.png"
     },
     "159" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC1_orientation0.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarprisonlockerlarge.png"
     },
     "160" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC1_orientation1.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightardesk.png"
     },
     "161" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC1_orientation2.png"
+      "image" : "../../../tiled/vanta-custom/objects/prisonsign3.png"
     },
     "162" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC1_orientation3.png"
+      "image" : "../../../tiled/vanta-custom/objects/prisonsign4.png"
     },
     "163" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC2_orientation0.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "164" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC2_orientation1.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "165" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC2_orientation2.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "166" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleC2_orientation3.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "167" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL1_orientation0.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "168" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL1_orientation1.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "169" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL1_orientation2.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "170" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL1_orientation3.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "171" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL1_orientation4.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "172" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL1_orientation5.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "173" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL1_orientation6.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "174" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL1_orientation7.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "175" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL2_orientation0.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "176" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL2_orientation1.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "177" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL2_orientation2.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "178" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL2_orientation3.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "179" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL2_orientation4.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "180" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL2_orientation5.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "181" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL2_orientation6.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "182" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL2_orientation7.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "183" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL3_orientation0.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "184" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL3_orientation1.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "185" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL3_orientation2.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "186" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL3_orientation3.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "187" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL3_orientation4.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "188" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL3_orientation5.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "189" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL3_orientation6.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "190" : {
-      "image" : "../../../tiled/vanta-custom/objects/nsgreebleL3_orientation7.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "191" : {
-      "image" : "../../../tiled/vanta-custom/objects/impoundclamp.png"
+      "image" : "../../../tiled/vanta-custom/invalid.png"
     },
     "192" : {
       "image" : "../../../tiled/vanta-custom/objects/secretdoor1x2.png"
@@ -2763,7 +2704,7 @@
       "image" : "../../../tiled/vanta-custom/objects/nightarshiphatchbottomprop.png"
     },
     "214" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightsteelwindowframe.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightsteelwindowframe2.png"
     },
     "215" : {
       "image" : "../../../tiled/vanta-custom/objects/ex_invisibledlatch.png"

@@ -1,0 +1,22 @@
+{
+  "name" : "vantadashproto",
+  "type" : "body",
+
+  "scripts" : ["dash.lua"],
+  "animator" : "dash.animation",
+
+  "description" : "Double tap ^green;[A]^white; or ^green;[D] ^white;to quickly dash! Cooldown: 1.4s",
+  "shortDescription" : "Proto Dash",
+  "rarity" : "Uncommon",
+  "icon" : "/tech/vantadashproto.png",
+
+  "chipCost" : 2,
+
+  "maximumDoubleTapTime" : 0.25,
+  "dashControlForce" : 2000,
+  "dashSpeed" : 35,
+  "dashDuration" : 0.15,
+  "dashCooldown" : 1.4,
+  "stopAfterDash" : true,
+  "groundOnly" : true
+}

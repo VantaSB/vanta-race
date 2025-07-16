@@ -1,7 +1,11 @@
 {
-	"vantamission_consolelockedgeneric" : {
+	"vantamissionConsoleLocked" : {
 		"unique" : false,
-		"text" : "This console appears to be locked. You will need to figure out how to manually override it.",
-		"persistTime" : 3.0
+		"text" : "This console appears to be locked. You will need to figure out how to manually override it."
+	},
+
+	"vantamissionConsoleUnpowered" : {
+		"unique" : false,
+		"text" : "This console is not receiving power. It needs to be energized with a nearby power source."
 	}
 }

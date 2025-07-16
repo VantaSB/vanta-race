@@ -143,7 +143,7 @@
  "nextobjectid":688,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.11.2",
  "tileheight":8,
  "tilesets":[
         {
@@ -265,9 +265,13 @@
         {
          "firstgid":7794,
          "source":"..\/tilesets\/vanta-custom\/objects-by-race\/vanta.json"
+        }, 
+        {
+         "firstgid":8041,
+         "source":"..\/..\/..\/assets\/packed\/tilesets\/packed\/objects-by-colonytag\/outpost.json"
         }],
  "tilewidth":8,
  "type":"map",
- "version":"1.9",
+ "version":"1.11",
  "width":2000
 }

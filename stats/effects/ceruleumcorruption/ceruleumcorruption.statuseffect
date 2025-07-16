@@ -2,7 +2,12 @@
   "name" : "ceruleumcorruption",
   "blockingStat" : "ceruleumcorruptionImmunity",
 
-  "effectConfig" : {},
+  "effectConfig" : {
+		"boltInterval" : 0.5,
+		"jumpDistance" : 8,
+		"healthDamageFactor" : 0.75,
+		"damageClampRange" : [5, 20]
+	},
 
   "defaultDuration" : 5,
 

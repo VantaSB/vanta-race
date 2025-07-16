@@ -1,0 +1,22 @@
+{
+  "itemName" : "vantabreathprotection",
+  "price" : 500,
+  "inventoryIcon" : "icon.png",
+  "tooltipKind" : "baseaugment",
+  "rarity" : "Uncommon",
+  "pickupQuestTemplates" : [ ],
+  "category" : "enviroProtectionPack",
+  "description" : "Produces breathable air. Helpful in places with ^red;no breathable atmosphere^reset;.",
+  "shortdescription" : "Vanta Breathing Module",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+		{ "stat" : "breathProtection", "amount" : 1.0 }
+  ],
+
+	"acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ]
+}

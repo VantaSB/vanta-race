@@ -1,0 +1,25 @@
+{
+	"id" : "ex_doublejump",
+	"prerequisites" : [ ],
+	"title" : "Double Jump",
+	"text" : "I've discovered a device that gives me an extra jump while already airborne. With key timing, I can safely jump up to higher ledges.\n\n(Press [^green;Space^reset;] while in the air to get an extra jump!)",
+	"completionText" : "I've discovered a device that gives me an extra jump while already airborne. With key timing, I can safely jump up to higher ledges.\n\n(Press [^green;Space^reset;] while in the air to get an extra jump!)",
+	"moneyRange" : [200, 200],
+	"rewards" : [ ],
+
+	"canBeAbandoned" : false,
+	"showAcceptDialog" : false,
+	"updateDelta" : 10,
+	"script" : "/quests/scripts/main.lua",
+	"scriptConfig" : {
+		"portraits" : {
+			"questStarted" : "player",
+			"questComplete" : "player"
+		},
+
+		"requireTurnIn" : false,
+
+		"conditions" : [ ],
+		"equipTech" : [ "vantajumpproto" ]
+	}
+}

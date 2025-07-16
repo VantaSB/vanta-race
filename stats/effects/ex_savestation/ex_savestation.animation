@@ -1,0 +1,9 @@
+{
+  "lights" : {
+    "ex_savestation" : {
+      "active" : true,
+      "position" : [0, 0],
+      "color" : [49, 97, 49]
+    }
+  }
+}

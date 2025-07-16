@@ -1,0 +1,24 @@
+{
+	"id" : "ex_vantakeycard4",
+	"prerequisites" : [ ],
+	"title" : "Vanta Keycard L4",
+	"text" : "I found this keycard.. It looks like it provides ^red;extremely high^reset; security clearance to some doors. I should hold onto this for later.",
+	"completionText" : "I found this keycard.. It looks like it provides ^red;extremely high^reset; security clearance to some doors. I should hold onto this for later.",
+	"moneyRange" : [50, 50],
+	"rewards" : [ ],
+
+	"canBeAbandoned" : false,
+	"showAcceptDialog" : false,
+	"updateDelta" : 10,
+	"script" : "/quests/scripts/ex_main.lua",
+	"scriptConfig" : {
+		"portraits" : {
+			"questStarted" : "player",
+			"questComplete" : "player"
+		},
+
+		"requireTurnIn" : false,
+
+		"conditions" : [ ]
+	}
+}

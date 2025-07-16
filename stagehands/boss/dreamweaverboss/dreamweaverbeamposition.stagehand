@@ -1,0 +1,8 @@
+{
+  "type" : "dreamweaverbeamposition",
+
+  "scripts" : [
+  ],
+
+  "broadcastArea" : [-1, -1, 1, 1]
+}

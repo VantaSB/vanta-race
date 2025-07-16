@@ -1,0 +1,25 @@
+{
+	"id" : "ex_dash",
+	"prerequisites" : [ ],
+	"title" : "Dash",
+	"text" : "I've discovered a device that allows me to quickly dash across the ground. This can allow me to quickly evade close-quarters attacks if timed correctly.\n\n(Double-tap [^green;A^reset;] or ^green;[D]^reset; to activate!)",
+	"completionText" : "I've discovered a device that allows me to quickly dash across the ground. This can allow me to quickly evade close-quarters attacks if timed correctly.\n\n(Double-tap [^green;A^reset;] or ^green;[D]^reset; to activate!)",
+	"moneyRange" : [200, 200],
+	"rewards" : [ ],
+
+	"canBeAbandoned" : false,
+	"showAcceptDialog" : false,
+	"updateDelta" : 10,
+	"script" : "/quests/scripts/main.lua",
+	"scriptConfig" : {
+		"portraits" : {
+			"questStarted" : "player",
+			"questComplete" : "player"
+		},
+
+		"requireTurnIn" : false,
+
+		"conditions" : [ ],
+		"equipTech" : [ "vantadashproto" ]
+	}
+}

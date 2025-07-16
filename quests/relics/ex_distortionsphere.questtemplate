@@ -1,0 +1,25 @@
+{
+	"id" : "ex_distortionsphere",
+	"prerequisites" : [ ],
+	"title" : "Distortion Sphere",
+	"text" : "I've discovered a device that allows me to morph into a small sphere. I can access narrow spaces I wouldn't be able to otherwise.\n\n(Press [^green;F^reset;] to activate!)",
+	"completionText" : "I've discovered a device that allows me to morph into a small sphere. I can access narrow spaces I wouldn't be able to otherwise.\n\n(Press [^green;F^reset;] to activate!)",
+	"moneyRange" : [200, 200],
+	"rewards" : [ ],
+
+	"canBeAbandoned" : false,
+	"showAcceptDialog" : false,
+	"updateDelta" : 10,
+	"script" : "/quests/scripts/main.lua",
+	"scriptConfig" : {
+		"portraits" : {
+			"questStarted" : "player",
+			"questComplete" : "player"
+		},
+
+		"requireTurnIn" : false,
+
+		"conditions" : [ ],
+		"equipTech" : [ "vantasphereproto" ]
+	}
+}

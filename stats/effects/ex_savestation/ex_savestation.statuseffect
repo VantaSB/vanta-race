@@ -1,0 +1,16 @@
+{
+	"name" : "ex_savestation",
+	"effectConfig" : {
+		"healAmount" : 9999
+	},
+	"defaultDuration" : 1,
+
+	"scripts" : [
+		"ex_savestation.lua"
+	],
+
+	"animationConfig" : "ex_savestation.animation",
+
+	"label" : "Full Health Restore",
+	"icon" : "/interface/statuses/heal.png"
+}

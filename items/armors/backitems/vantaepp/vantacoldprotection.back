@@ -1,0 +1,24 @@
+{
+  "itemName" : "vantacoldprotection",
+  "price" : 1000,
+  "inventoryIcon" : "icon.png",
+  "tooltipKind" : "baseaugment",
+  "rarity" : "Rare",
+  "pickupQuestTemplates" : [ ],
+  "category" : "enviroProtectionPack",
+  "description" : "This upgrade adds heat generation to your EPP's capabilities. Useful on ^red;dangerously cold^reset; planets.",
+  "shortdescription" : "Vanta Heating Module",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+		{ "stat" : "breathProtection", "amount" : 1.0 },
+		{ "stat" : "biomeradiationImmunity", "amount" : 1.0 },
+    { "stat" : "biomecoldImmunity", "amount" : 1.0 }
+  ],
+
+	"acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ]
+}
