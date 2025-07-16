@@ -165,28 +165,28 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 200
+          "baseValue" : 48
         },
         "protection" : {
           "baseValue" : 0.0
         },
         "healthRegen" : {
-          "baseValue" : 0.375
+          "baseValue" : 0.0
         },
         "powerMultiplier" : {
-          "baseValue" : 2.225
+          "baseValue" : 1.250
         },
         "physicalResistance" : {
-          "baseValue" : 0.625
+          "baseValue" : 0.375
         },
         "fireResistance" : {
-          "baseValue" : 0.625
+          "baseValue" : -0.25
         },
         "fireStatusImmunity" : {
-          "baseValue" : 1.0
+          "baseValue" : 0.0
         },
         "iceResistance" : {
-          "baseValue" : 0.625
+          "baseValue" : 0.375
         },
         "iceStatusImmunity" : {
           "baseValue" : 1.0

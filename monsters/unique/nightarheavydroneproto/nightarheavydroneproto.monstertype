@@ -18,9 +18,6 @@
       "/monsters/unique/nightarheavydroneproto/nightarheavydroneproto.lua"
     ],
 
-    "skillCount" : 5,
-    "skills" : [ "droneBlueFlameAttack", "droneDarkGravityBallAttack", "droneOrbOfZotsAttack", "dronePlasmaTorpedoAttack", "droneStaticDischargeAttack" ],
-
     "approachPadding" : 8,
     "tangentialSpeed" : 10,
     "switchAngleTime" : 4.0,
@@ -88,7 +85,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 1500
+          "baseValue" : 500
         },
         "protection" : {
           "baseValue" : 1.0

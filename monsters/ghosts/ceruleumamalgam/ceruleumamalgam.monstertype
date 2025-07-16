@@ -28,10 +28,10 @@
     "behaviorConfig" : {
       "damageOnTouch" : true,
 
-      "targetQueryRange" : 25,
+      "targetQueryRange" : 35,
       "targetOnDamage" : true,
       "keepTargetInSight" : true,
-      "keepTargetInRange" : 15,
+      "keepTargetInRange" : 35,
       "targetOutOfSightTime" : 999999.999999,
 
       "hurtTime" : 0.0,
@@ -64,7 +64,7 @@
             "windupTime" : 1.0,
             "projectileInterval" : 0.001,
             "projectileCount" : 10,
-            "projectileType" : "blueflamethrower",
+            "projectileType" : "ceruleumecto",
             "projectileParameters" : {
               "power" : 30,
               "speed" : 50
@@ -72,7 +72,8 @@
             "fireOffset" : [0, 0],
             "onGround" : false,
             "fireState" : "",
-            "fireSound" : "",
+						"fireDelay" : 0.0,
+            "fireSound" : "fire",
             "winddownStopForce" : 0,
             "winddownState" : "",
             "winddownTime" : 1.0
@@ -132,9 +133,9 @@
       "runSpeed" : 12,
       "gravityEnabled" : false,
 
-      "airFriction" : 1.0,
+      "airFriction" : 0.5,
       "airForce" : 10,
-      "flySpeed" : 4
+      "flySpeed" : 6
     },
 
     "bodyMaterialKind" : "organic",
@@ -168,7 +169,7 @@
           "baseValue" : 18
         },
         "maxHealth" : {
-          "baseValue" : 300
+          "baseValue" : 120
         },
         "protection" : {
           "baseValue" : 0.0

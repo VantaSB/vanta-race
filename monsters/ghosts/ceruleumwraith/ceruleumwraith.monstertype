@@ -16,6 +16,7 @@
     ],
 
     "behavior" : "monster",
+		//"deathBehavior" : "",
 
     // This line determines whether or not the entity can 'detect' stealthed characters. It is safe to leave out if not a detector-type.
     "detector" : true,
@@ -25,10 +26,10 @@
     "behaviorConfig" : {
       "damageOnTouch" : true,
 
-      "targetQueryRange" : 999,
+      "targetQueryRange" : 35,
       "targetOnDamage" : true,
       "keepTargetInSight" : true,
-      "keepTargetInRange" : 999,
+      "keepTargetInRange" : 35,
       "targetOutOfSightTime" : 999999.999999,
 
       "hurtTime" : 0.0,
@@ -171,7 +172,7 @@
           "baseValue" : 18
         },
         "maxHealth" : {
-          "baseValue" : 1000
+          "baseValue" : 150
         },
         "protection" : {
           "baseValue" : 0.0

@@ -125,7 +125,7 @@
       ],
 
       "deathActions" : [
-        
+
       ]
     },
 
@@ -198,7 +198,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 125
+          "baseValue" : 120
         },
         "protection" : {
           "baseValue" : 0.0

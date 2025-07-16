@@ -180,7 +180,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 1000
+          "baseValue" : 48
         },
         "protection" : {
           "baseValue" : 0.0
@@ -189,31 +189,31 @@
           "baseValue" : 0.0
         },
         "powerMultiplier" : {
-          "baseValue" : 1.0
+          "baseValue" : 1.250
         },
         "physicalResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.375
         },
         "fireResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.375
         },
         "fireStatusImmunity" : {
           "baseValue" : 1.0
         },
         "iceResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.375
         },
         "iceStatusImmunity" : {
           "baseValue" : 1.0
         },
         "electricResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.375
         },
         "electricStatusImmunity" : {
           "baseValue" : 1.0
         },
         "poisonResistance" : {
-          "baseValue" : 0.0
+          "baseValue" : 0.375
         },
         "poisonStatusImmunity" : {
           "baseValue" : 1.0

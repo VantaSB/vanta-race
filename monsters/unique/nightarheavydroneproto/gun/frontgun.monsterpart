@@ -8,13 +8,13 @@
       "offset" : [2.75, 0.0],
       "projectileType" : "twigunbullet",
       "projectileParameters" : {
-        "speed" : 40
+        "speed" : 50
       },
       "count" : 5,
-      "power" : 20,
+      "power" : 10,
       "fireInterval" : 0.05,
-      "fireCooldown" : 2.0,
-      "range" : 25
+      "fireCooldown" : 3.25,
+      "range" : 30
     }
   },
 

@@ -1,0 +1,10 @@
+{
+  "name" : "nightsteelcombatdrone",
+  "category" : "nightsteelcombatdrone",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "nightsteelcombatdrone.png",
+		"bodylit" : "nightsteelcombatdronelit.png"
+  }
+}

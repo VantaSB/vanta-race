@@ -100,8 +100,7 @@
     "glow" : {
       "active" : true,
       "position" : [0, 0],
-      "color" : [36, 180, 220],
-      "pointLight" : true
+      "color" : [36, 180, 220]
     }
   },
 
@@ -192,6 +191,6 @@
 
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
-    "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ]
+    "deathPuff" : [ "/sfx/npc/monsters/wraith-death.ogg" ]
   }
 }

@@ -1,0 +1,32 @@
+{
+  "frameGrid" : {
+    "size" : [80, 64],
+    "dimensions" : [8, 4],
+
+    "names" : [
+      [ "idle.1" ],
+      [ "walk.1", "walk.2", "walk.3", "walk.4", "walk.5", "walk.6", "walk.7", "walk.8" ],
+      [ "jump.1", "jump.2", "jump.3" ],
+      [ "windup.1", "charge.1", "charge.2", "charge.3" ]
+    ]
+  },
+  "aliases" : {
+  	"idle.2" : "idle.1",
+  	"idle.3" : "idle.1",
+  	"idle.4" : "idle.1",
+  	"idle.5" : "idle.1",
+  	"idle.6" : "idle.1",
+  	"idle.7" : "idle.1",
+  	"idle.8" :  "idle.1",
+		"idle.9" :  "idle.1",
+		"idle.10" :  "idle.1",
+		"idle.11" :  "idle.1",
+		"idle.12" :  "idle.1",
+		"idle.13" :  "idle.1",
+    "hurt.1" : "jump.1",
+		"winddown.1" : "charge.2",
+		"winddown.2" : "charge.1",
+		"winddown.3" : "windup.1",
+		"fall.1" : "jump.3"
+  }
+}
