@@ -10,6 +10,7 @@ canvasSize = nil
 verified = false
 canvas = nil
 data = nil
+enableCheats=false
 
 -- variables
 searchListRepopulationCooldown = 0
@@ -26,7 +27,6 @@ panningTo = nil
 readOnly = false
 selected = nil
 noCost = false
-drawLines = nil
 
 -- Basic GUI functions
 function init()
@@ -42,7 +42,7 @@ function init()
 	canvas = widget.bindCanvas("canvas")
 	canvasSize = widget.getSize("canvas")
 
-	verified = verifyAcronyms()
+	verified = verifyAcronims()
 	if not verified then return end
 
 	for _, file in ipairs(data.externalScripts) do
@@ -54,7 +54,7 @@ function init()
 	dragOffset.y = math.floor(canvasSize[2] * 0.5)
 
 	-- Research things that should be initially researched
-	local researchedTable = status.statusProperty("vanta_researchtree_researched", {}) or {}
+	local researchedTable = status.statusProperty("ex_researchtree_researched", {}) or {}
 	for tree, tbl in pairs(data.initiallyResearched) do
 		if not researchedTable[tree] then researchedTable[tree] = "" end
 
@@ -79,7 +79,7 @@ function init()
 		end
 	end
 
-	-- Check if the tree was updated, and reaquire blueprints for already learned research
+	-- Check if the tree was updated, and reacquire blueprints for already learned research
 	for tree, dataString in pairs(researchedTable) do
 		if data.versions[tree] then
 			local oldVersion = ""
@@ -102,7 +102,6 @@ function init()
 					-- Check whether there's data for the acronym, and then if it has tree data.
 					if acronymTest and data.researchTree[tree][acronymTest] then
 						unlockType = type(data.researchTree[tree][acronymTest].unlocks)
-						itemType = type(data.researchTree[tree][acronymTest].items)
 					end
 
 					-- Remove acronyms that don't have a linked research
@@ -121,46 +120,17 @@ function init()
 						player.giveBlueprint(data.researchTree[tree][data.acronyms[tree][acr]].unlocks)
 					end
 
-					if not itemType then
-						if i == 1 then
-							dataString = string.gsub(dataString, acr..",", "")
-						else
-							dataString = string.gsub(dataString, ","..acr..",", ",")
-						end
-					elseif itemType == "table" then
-						for _, item in ipairs(data.researchTree[tree][data.acronyms[tree][acr]].items) do
-							player.giveItem(item)
-						end
-					elseif itemType == "string" then
-						player.giveItem(data.researchTree[tree][data.acronyms[tree][acr]].items)
-					end
-
 				end
 				researchedTable[tree] = data.versions[tree]..data.versionSplitString..dataString
 			end
 		end
 	end
 
-	status.setStatusProperty("vanta_researchtree_researched", researchedTable)
+	status.setStatusProperty("ex_researchtree_researched", researchedTable)
 
-	draw()
 	treePickButton()
+	draw()
 	updateInfoPanel()
-	--if player.species == "vanta" and player.hasCompletedQuest("") then
-	--[[else
-		canvas:drawText("NOT AUTHORIZED FOR RESEARCH", {position = {canvasSize[1]*0.5, canvasSize[2]*0.5}, horizontalAnchor = "mid", verticalAnchor = "mid"}, 20, "#FF5E66F0")
-		widget.setVisible("researchButton", false)
-		widget.setVisible("treePickButton", false)
-		widget.setVisible("centerButton", false)
-		widget.setVisible("searchButton", false)
-		widget.setVisible("qualityButton", false)
-		widget.setVisible("infoList", false)
-		widget.setVisible("treeList", false)
-		widget.setVisible("searchList", false)
-		for i = 1, 9 do
-			widget.setVisible("priceItem"..i, false)
-		end
-	end]]
 end
 
 function update(dt)
@@ -239,13 +209,13 @@ function researchButton()
 			_ENV[researchTree[selected].func](researchTree[selected].params)
 		end
 
-		local researchedTable = status.statusProperty("vanta_researchtree_researched", {}) or {}
+		local researchedTable = status.statusProperty("ex_researchtree_researched", {}) or {}
 		if not researchedTable[selectedTree] then researchedTable[selectedTree] = "" end
 
 		for acr, research in pairs(data.acronyms[selectedTree]) do
 			if research == selected then
 				researchedTable[selectedTree] = researchedTable[selectedTree]..acr..","
-				status.setStatusProperty("vanta_researchtree_researched", researchedTable)
+				status.setStatusProperty("ex_researchtree_researched", researchedTable)
 				break
 			end
 		end
@@ -316,13 +286,13 @@ function treePickButton()
 		local consumptionRules = getTreeConsumptionRules(selectedTree)
 
 		if consumptionRules.currency then
-			consumeText = '^yellow; Will consume currency'
+			consumeText = '^red; Will consume currency'
 		else
 			consumeText = '^green; Will not consume currency'
 		end
 
 		if consumptionRules.items then
-			consumeText = consumeText..'\n^yellow; Will consume items'
+			consumeText = consumeText..'\n^red; Will consume items'
 		else
 			consumeText = consumeText..'\n^green; Will not consume items'
 		end
@@ -513,8 +483,8 @@ function populateTreeList()
 			end
 
 			if isAvailable and data.treeUnlocks[tree].research then
-				for requiredOtherTree, acronyms in pairs(data.treeUnlocks[tree].research) do
-					if not isResearched(requiredOtherTree, acronyms) then
+				for requiredAnotherTree, acronyms in pairs(data.treeUnlocks[tree].research) do
+					if not isResearched(requiredAnotherTree, acronyms) then
 						isAvailable = false
 						break
 					end
@@ -535,7 +505,7 @@ function populateTreeList()
 		table.sort(toSort, function(a, b) return a.name:upper() < b.name:upper() end)
 
 		for _, d in ipairs(toSort) do
-			listItem = "treeList.list."..widget.addListItem("treeList.list")
+			local listItem = "treeList.list."..widget.addListItem("treeList.list")
 			widget.setData(listItem, d.tree)
 			widget.setText(listItem..".title", d.name)
 
@@ -587,63 +557,32 @@ function draw()
 	local gridOffset = {dragOffset.x % gridTileSize[1], dragOffset.y % gridTileSize[2]}
 	canvas:drawTiledImage(gridTileImage, gridOffset, {0, 0, canvasSize[1] + gridTileSize[1], canvasSize[2] + gridTileSize[2]})
 
-	-- Draw "READ ONLY"
 	if player.species() == "vanta" then
+		-- Draw "READ ONLY"
 		if readOnly then
 			canvas:drawText("READ ONLY!", {position = {57, canvasSize[2]-2}}, 7, "#FF5E66F0")
-		end
-
-		if drawLines then
-			local startPoint = {0,0}
-			local endPoint = {0,0}
-			local color
-
-			for _, tbl in pairs(drawLines) do
-				if tbl.endPoints and #tbl.endPoints > 0 then
-					startPoint[1] = tbl.position[1] + dragOffset.x
-					startPoint[2] = tbl.position[2] + dragOffset.y
-
-					for _, ending in ipairs(tbl.endPoints) do
-						endPoint[1] = drawLines[ending].position[1] + dragOffset.x
-						endPoint[2] = drawLines[ending].position[2] + dragOffset.y
-
-						if drawLines[ending].position[2] < 0 then
-							color = "#4070ff"
-						elseif drawLines[ending].position[2] > 0 then
-							color = "#ff40af"
-						else
-							color = "#af40ff"
-						end
-
-						if withinBounds(startPoint, endPoint) then
-							canvas:drawLine(startPoint, endPoint, color, 2)
-						end
-					end
-				end
-			end
 		end
 
 		-- Draw research nodes
 		if researchTree then
 			local startPoint = {0,0}
 			local endPoint = {0,0}
-			--local color
-			--local state = ""
-			--local scale = 1
 
-			-- draw tree lines (old behavior)
-			--[[for research, tbl in pairs(researchTree) do
+			-- draw tree lines
+			for nodeId, tbl in pairs(researchTree) do
 				if tbl.state ~= "hidden" then
 					if tbl.children and #tbl.children > 0 then
 						startPoint[1] = tbl.position[1] + dragOffset.x
 						startPoint[2] = tbl.position[2] + dragOffset.y
+
+						local color = "#000000"
 
 						for _, child in ipairs(tbl.children) do
 							endPoint[1] = researchTree[child].position[1] + dragOffset.x
 							endPoint[2] = researchTree[child].position[2] + dragOffset.y
 
 							if withinBounds(startPoint, endPoint) then
-								state = researchTree[child].state
+								local state = researchTree[child].state
 
 								if state ~= "hidden" then
 									if not state or state == "unavailable" then
@@ -657,89 +596,99 @@ function draw()
 											color = "#df7126"
 										end
 									end
-									canvas:drawLine(startPoint, endPoint, color, 2)
+
+									--revert everything to straight lines by commenting everything after the next comment and uncommenting the next comment
+									--canvas:drawLine(startPoint, endPoint, color, 2)
+									local p0 = {x = startPoint[1], y = startPoint[2]}
+									local p1 = {x = endPoint[1], y = endPoint[2]}
+
+									--check if this connection involves a cluster center
+									local isClusterConnection = false
+									local centerPos = {x = researchTree["start"].position[1] + dragOffset.x, y = researchTree["start"].position[2] + dragOffset.y, nodeId = "start"}
+									local swapPoints = false
+
+									local sameCluster = not tbl.clusterGroup or not researchTree[child].clusterGroup or tbl.clusterGroup == researchTree[child].clusterGroup
+
+									-- Cluster center connections: straight line
+									if sameCluster and researchTree[child].clusterCenter and researchTree[child].clusterCenter == child and researchTree[child].parents and researchTree[child].parents[1] == nodeId then
+										canvas:drawLine(startPoint, endPoint, color, 2)
+									elseif sameCluster and tbl.clusterCenter and tbl.clusterCenter == nodeId and researchTree[child].parents and researchTree[child].parents[1] == nodeId then
+										canvas:drawLine(startPoint, endPoint, color, 2)
+									-- Cluster connections: arc centered on clusterCenter
+									elseif sameCluster and tbl.clusterGroup and researchTree[child].clusterGroup and tbl.clusterCenter and researchTree[child].clusterCenter and tbl.clusterCenter == researchTree[child].clusterCenter and researchTree[tbl.clusterCenter] then
+										isClusterConnection = true
+										centerPos = {x = researchTree[tbl.clusterCenter].position[1] + dragOffset.x, y = researchTree[tbl.clusterCenter].position[2] + dragOffset.y, nodeId = tbl.clusterCenter}
+										if researchTree[child].parents and researchTree[child].parents[1] and researchTree[researchTree[child].parents[1]] and researchTree[researchTree[child].parents[1]].clusterCenter == child then
+											swapPoints = true
+										end
+									-- All other connections: straight line
+									else
+										canvas:drawLine(startPoint, endPoint, color, 2)
+									end
+
+									if isClusterConnection then
+										if swapPoints then
+											drawCircularArc(canvas, p1, p0, centerPos, color, 2, 20)
+										else
+											drawCircularArc(canvas, p0, p1, centerPos, color, 2, 20)
+										end
+									end
 								end
 							end
 						end
 					end
 				end
-			end]]
+			end
 
 			-- draw icons
 			for research, tbl in pairs(researchTree) do
-				local txtPos = {0,0}
 				startPoint[1] = tbl.position[1] + dragOffset.x - (data.iconSizes * 0.5)
 				startPoint[2] = tbl.position[2] + dragOffset.y - (data.iconSizes * 0.5)
 				endPoint[1] = startPoint[1] + data.iconSizes
 				endPoint[2] = startPoint[2] + data.iconSizes
 
-				txtPos[1] = tbl.position[1] + dragOffset.x
-				txtPos[2] = tbl.position[2] + dragOffset.y - 25
-
 				if withinBounds(startPoint, endPoint) then
-					if tbl.state ~= "hidden" or (tbl.state == "hidden" and tbl.alwaysShow) then
-						local color = "#696969"
-
+					if tbl.state ~= "hidden" then
+						local color = "#000000"
 						if not tbl.state or tbl.state == "unavailable" then
-							--color = "#FF5555"
-							color = "#696969"
+							color = "#FF5555"
 						elseif tbl.state == "researched" then
 							color = "#37db42"
 						elseif tbl.state == "available" then
 							if canAfford(research) then
-								color = "#55ffff"
+								color = "#55FFFF"
 							else
 								color = "#dfb326"
 							end
 						end
 
-						-- draw text over icons if applicable
-						if tbl.displayText ~= nil then
-							canvas:drawText(tbl.displayText, {position = {txtPos[1], txtPos[2]}, horizontalAnchor = "mid", verticalAnchor = "mid"}, 8, "#b6e9f2f0")
-						end
-
-						-- begin old draw behavior
-						--[[if research == selected then
-							canvas:drawImage("/interface/scripted/ex_research/iconBackground.png:selected", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color, false)
-						else
-							canvas:drawImage("/interface/scripted/ex_research/iconBackground.png:default", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color, false)
-						end
-
-						if tbl.state == "researched" then
-							canvas:drawImage(tbl.icon, {startPoint[1]+0.5, startPoint[2]+0.5}, 1, "#FFFFFF", false)
-						else
-							canvas:drawImage(tbl.icon, {startPoint[1]+0.5, startPoint[2]+0.5}, 1, color, false)
-						end]]
-						-- end old draw behavior
-
-
-						-- begin new draw behavior
-						if tbl.isRoot then
+						if not tbl.questLock then
 							if research == selected then
-								canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX.png:selected", {startPoint[1]-11.5, startPoint[2]-1.5}, 1, "#ffffff", false)
+								canvas:drawImage("/interface/scripted/ex_research/iconBGEx.png:selected", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
 							else
-								canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX.png:default", {startPoint[1]-11.5, startPoint[2]-1.5}, 1, "#ffffff", false)
+								canvas:drawImage("/interface/scripted/ex_research/iconBGEx.png:default", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
 							end
 
 							if tbl.state == "researched" then
-								canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, "#ffffff", false)
+								canvas:drawImage(tbl.icon, startPoint, 1, "#FFFFFF", false)
 							else
-								canvas:drawImage("/interface/scripted/ex_research/icons/psi.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color, false)
+								canvas:drawImage(tbl.icon, startPoint, 1, color, false)
 							end
 						else
-							if research == selected then
-								canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX2.png:selected", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color, false)
+							if tbl.state ~= "researched" then
+								if research == selected then
+									canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:selectedLocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+								else
+									canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:defaultLocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+								end
 							else
-								canvas:drawImage("/interface/scripted/ex_research/iconBackgroundEX2.png:default", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, color, false)
-							end
-
-							if tbl.state == "researched" then
-								canvas:drawImage("/interface/scripted/ex_research/subnode.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, "#ffffff", false)
-							else
-								canvas:drawImage("/interface/scripted/ex_research/subnode.png", {startPoint[1]-1.5, startPoint[2]-1.5}, 1, "#696969", false)
+								if research == selected then
+									canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:selectedUnlocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+								else
+									canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:defaultUnlocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+								end
 							end
 						end
-						-- end new draw behavior
 					end
 				end
 			end
@@ -751,6 +700,7 @@ function draw()
 		local mousePosition = canvas:mousePosition()
 		for i, tbl in ipairs(data.currencies) do
 			if not tbl[5] or player.currency(tbl[1]) > 0 then
+				--startPoint = {3, canvasSize[2] - i * 11}
 				startPoint = {3, canvasSize[2] - ((i - 1) * (8 + 3) + 8 + 16 + 5)}
 
 				canvas:drawImage(tbl[4], startPoint, 1, "#FFFFFF", false)
@@ -779,6 +729,70 @@ function draw()
 		widget.setVisible("infoList", false)
 		widget.setVisible("treeList", false)
 		widget.setVisible("searchList", false)
+	end
+end
+
+function math.atan2(y, x)
+	if x == 0 then
+		if y > 0 then return math.pi / 2 end
+		if y < 0 then return -math.pi / 2 end
+		return 0
+	end
+	local angle = math.atan(y / x)
+	if x < 0 then
+		if y >= 0 then
+			angle = angle + math.pi
+		else
+			angle = angle - math.pi
+		end
+	end
+	return angle
+end
+
+function drawCircularArc(canvas, p0, p1, center, color, width, segments)
+	segments = segments or 20
+	local step = 1 / segments
+	local radius = math.sqrt((p1.x - center.x)^2 + (p1.y - center.y)^2)
+
+	local theta0 = math.atan2(p0.y - center.y, p0.x - center.x)
+  local theta1 = math.atan2(p1.y - center.y, p1.x - center.x)
+
+	if theta0 < 0 then theta0 = theta0 + 2 * math.pi end
+	if theta1 < 0 then theta1 = theta1 + 2 * math.pi end
+
+	local delta = theta1 - theta0
+	local isClusterArc = researchTree[center.nodeId] and (center.x ~= researchTree["start"].position[1] + dragOffset.x or center.y ~= researchTree["start"].position[2] + dragOffset.y)
+	if isClusterArc and center.y < p0.y and center.y < p1.y then
+		if delta > 0 and delta < math.pi then
+			theta1 = theta1 - 2 * math.pi
+		elseif delta < 0 and delta > math.pi then
+			theta1 = theta1 + 2 * math.pi
+		end
+	else
+		if math.abs(delta) > math.pi then
+			if delta > 0 then
+				theta1 = theta1 - 2 * math.pi
+			else
+				theta1 = theta1 + 2 * math.pi
+			end
+		end
+	end
+
+	local prevPoint = p0
+	for i = 1, segments do
+		local t = i * step
+		local theta = theta0 + (theta1 - theta0) * t
+		local point = {
+			x = center.x + radius * math.cos(theta),
+			y = center.y + radius * math.sin(theta)
+		}
+		canvas:drawLine(
+			{prevPoint.x, prevPoint.y},
+			{point.x, point.y},
+			color,
+			width
+		)
+		prevPoint = point
 	end
 end
 
@@ -891,16 +905,14 @@ function canvasClickEvent(position, button, isButtonDown)
 end
 
 function leftClick(clickPos, isDouble)
-	local xRange
-	local yRange
 	local clicked = nil
 
 	if researchTree then
 		for research, tbl in pairs(researchTree) do
-			xRange = {tbl.position[1] + dragOffset.x - (data.iconSizes * 0.5) - 1, tbl.position[1] + dragOffset.x + (data.iconSizes * 0.5) + 1}
+			local xRange = {tbl.position[1] + dragOffset.x - (data.iconSizes * 0.5) - 1, tbl.position[1] + dragOffset.x + (data.iconSizes * 0.5) + 1}
 			if clickPos[1] > xRange[1] and clickPos[1] < xRange[2] then
 
-				yRange = {tbl.position[2] + dragOffset.y - (data.iconSizes * 0.5) - 1, tbl.position[2] + dragOffset.y + (data.iconSizes * 0.5) + 1}
+				local yRange = {tbl.position[2] + dragOffset.y - (data.iconSizes * 0.5) - 1, tbl.position[2] + dragOffset.y + (data.iconSizes * 0.5) + 1}
 				if clickPos[2] > yRange[1] and clickPos[2] < yRange[2] then
 					if tbl.state ~= "hidden" then
 						clicked = research
@@ -931,15 +943,13 @@ end
 
 
 -- Research tree functions
-function verifyAcronyms()
-	local found
+function verifyAcronims()
 	local missing = ""
-	local tree
 
 	for t, tbl in pairs(data.researchTree) do
-		tree = t
+		local tree = t
 		for res1, _ in pairs(tbl) do
-			found = false
+			local found = false
 			for _, res2 in pairs(data.acronyms[tree]) do
 				if res1 == res2 then
 					found = true
@@ -974,8 +984,8 @@ function stringToAcronyms(dataString)
 	local splitString = {}
 	local _, count = string.gsub(dataString, ",", "")
 	for _ = 1, count do
-		splitpos = string.find(dataString, ",")
-		insertingString = string.sub(dataString, 1, splitpos)
+		local splitpos = string.find(dataString, ",")
+		local insertingString = string.sub(dataString, 1, splitpos)
 		dataString = string.gsub(dataString, insertingString, "")
 
 		insertingString = string.gsub(insertingString, ",", "")
@@ -994,9 +1004,16 @@ function buildStates(tree)
 	end
 
 	researchTree = copy(data.researchTree[selectedTree])
-	drawLines = copy(data.drawLines)
 
-	local researchedTable = status.statusProperty("vanta_researchtree_researched", {}) or {}
+	-- Increase/decrease costs of all nodes if a required item (including currencies) has a configured multiplier.
+	-- Third-party mods can set the multipliers by patching "data.config".
+	for _, node in pairs(researchTree) do
+		for _, tbl in ipairs(node.price) do
+			tbl[2] = math.floor(tbl[2] * math.max(0, data.priceMultiplier[tbl[1]] or 1))
+		end
+	end
+
+	local researchedTable = status.statusProperty("ex_researchtree_researched", {}) or {}
 	local dataString = researchedTable[selectedTree] or ""
 
 	local versionEndPos = string.find(dataString, data.versionSplitString)
@@ -1048,15 +1065,11 @@ end
 
 function hideResearchBranch(research)
 	if not researchTree[research].state then
-		if not researchTree[research].alwaysShow then
-			researchTree[research].state = "hidden"
-		end
+		researchTree[research].state = "hidden"
 
 		if researchTree[research].children then
-			if not researchTree[research].alwaysShow then
-				for _, child in ipairs(researchTree[research].children) do
-					hideResearchBranch(child)
-				end
+			for _, child in ipairs(researchTree[research].children) do
+				hideResearchBranch(child)
 			end
 		end
 	end
@@ -1075,6 +1088,14 @@ function canAfford(research, consume)
 				if player.hasCountOfItem(tbl[1]) < tbl[2] then
 					return false
 				end
+			end
+		end
+	end
+
+	if researchTree[research].quests then
+		for i, tbl in ipairs(researchTree[research].quests) do
+			if not player.hasCompletedQuest(tbl) then
+				return false
 			end
 		end
 	end
@@ -1099,7 +1120,7 @@ function canAfford(research, consume)
 end
 
 function isResearched(tree, acronym)
-	local researched = status.statusProperty("vanta_researchtree_researched", {}) or {}
+	local researched = status.statusProperty("ex_researchtree_researched", {}) or {}
 
 	if researched and researched[tree] then
 		if type(acronym) == 'string' then
@@ -1169,12 +1190,12 @@ cheats = {
 			end
 		end
 
-		status.setStatusProperty("vanta_researchtree_researched", researchTable)
+		status.setStatusProperty("ex_researchtree_researched", researchTable)
 		buildStates()
 	end,
 
 	forgottenmemories = function()
-		status.setStatusProperty("vanta_researchtree_researched", nil)
+		status.setStatusProperty("ex_researchtree_researched", nil)
 		pane.dismiss()
 		player.interact("ScriptPane", "/interface/scripted/ex_research/researchTree.config")
 	end,
@@ -1201,7 +1222,7 @@ cheats = {
 		if text and selectedTree then
 			text = string.gsub(text, "kotlgiffmana ", "")
 			if data.acronyms[selectedTree][text] then
-				local researchedTable = status.statusProperty("vanta_researchtree_researched", {}) or {}
+				local researchedTable = status.statusProperty("ex_researchtree_researched", {}) or {}
 				if not researchedTable[selectedTree] then researchedTable[selectedTree] = "" end
 
 				if data.researchTree[selectedTree] then
@@ -1221,7 +1242,7 @@ cheats = {
 				end
 
 				researchedTable[selectedTree] = researchedTable[selectedTree]..text..","
-				status.setStatusProperty("vanta_researchtree_researched", researchedTable)
+				status.setStatusProperty("ex_researchtree_researched", researchedTable)
 				buildStates()
 			end
 		end

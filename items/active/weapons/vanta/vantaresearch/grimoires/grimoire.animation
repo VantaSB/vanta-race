@@ -45,27 +45,27 @@
           "charge" : {
             "idle" : {
               "properties" : {
-                "image" : "/items/active/weapons/vanta/grimoire/book/<partImage>:default.1"
+                "image" : "<partImage>:default.1"
               }
             },
             "charge" : {
               "properties" : {
-                "image" : "/items/active/weapons/vanta/grimoire/book/<partImage>:default.2"
+                "image" : "<partImage>:default.2"
               }
             },
             "spark" : {
               "properties" : {
-                "image" : "/items/active/weapons/vanta/grimoire/book/<partImage>:default.2"
+                "image" : "<partImage>:default.2"
               }
             },
             "charged" : {
               "properties" : {
-                "image" : "/items/active/weapons/vanta/grimoire/book/<partImage>:default.2"
+                "image" : "<partImage>:default.2"
               }
             },
             "discharge" : {
               "properties" : {
-                "image" : "/items/active/weapons/vanta/grimoire/book/<partImage>:default.1"
+                "image" : "<partImage>:default.1"
               }
             }
           }

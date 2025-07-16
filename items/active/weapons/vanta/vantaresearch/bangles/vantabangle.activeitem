@@ -5,12 +5,13 @@
   "price" : 0,
   "maxStack" : 1,
   "rarity" : "Essential",
-  "description" : "A bangle that allows you to fire off elemental blasts.\n\n^green;Shift + Fire^reset;: Charged Shot\n[^orange;AltFire^reset;]: Elemental Shift",
+  "description" : "A bangle that allows you to fire off energy blasts.\n\n^green;Shift + Fire^reset;: Charged Shot\n[^orange;AltFire^reset;]: Elemental Shift",
   "shortdescription" : "Psionic Bangle",
   "tooltipKind" : "ex_sword",
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : ["weapon","bangle","vantaUpgrade"],
+	"pickupQuestTemplates" : [ "ex_vantabangle" ],
 
   "inventoryIcon" : "bangle.png",
 
@@ -33,9 +34,8 @@
     "fireTime" : 0.42,
     "baseDps" : 6,
     "energyUsage" : 15,
-    "inaccuracy" : 0.008,
-
     "projectileCount" : 1,
+		"inaccuracy" : 0.008,
     "fireType" : "auto",
 
     "projectileType" : "psiphysicalshot",
@@ -47,34 +47,42 @@
 			{
 				"level" : 1,
 				"time" : 0,
+				"baseDamage" : 6,
 				"energyCost" : 15,
 				"cooldown" : 0.25,
 				"projectileCount" : 1,
-				"projectileParameters" : {},
+				"projectileParameters" : {
+					"knockback" : 5
+				},
 				"inaccuracy" : 0.008,
-				"baseDamage" : 6,
 				"fireSound" : "fire"
 			},
 			{
 				"level" : 2,
 				"time" : 0.5,
+				"baseDamage" : 6,
 				"energyCost" : 40,
 				"cooldown" : 0.25,
-				"projectileCount" : 1,
-				"projectileParameters" : {},
+				"projectileCount" : 3,
+				"spreadAngle" : 5,
+				"projectileParameters" : {
+					"knockback" : 10
+				},
 				"inaccuracy" : 0.008,
-				"baseDamage" : 12,
 				"fireSound" : "fire2"
 			},
 			{
 				"level" : 3,
 				"time" : 1,
+				"baseDamage" : 6,
 				"energyCost" : 85,
 				"cooldown" : 0.25,
-				"projectileCount" : 1,
-				"projectileParameters" : {},
+				"projectileCount" : 5,
+				"spreadAngle" : 10,
+				"projectileParameters" : {
+					"knockback" : 15
+				},
 				"inaccuracy" : 0.008,
-				"baseDamage" : 18,
 				"fireSound" : "fire3"
 			}
 		],
@@ -132,42 +140,39 @@
 			"level" : 2,
 			"shortdescription" : "Psionic Bangle ^yellow;ß^reset;",
 			"primaryAbility" : {
-				"fireTime" : 0.38,
-				"chargeLevels" : [
-					{
-						"level" : 1,
-						"time" : 0,
-						"energyCost" : 15,
-						"cooldown" : 0.25,
-						"projectileCount" : 1,
-						"projectileParameters" : {},
-						"inaccuracy" : 0.008,
-						"baseDamage" : 6,
-						"fireSound" : "fire"
-					},
-					{
-						"level" : 2,
-						"time" : 0.45,
-						"energyCost" : 40,
-						"cooldown" : 0.25,
-						"projectileCount" : 1,
-						"projectileParameters" : {},
-						"inaccuracy" : 0.008,
-						"baseDamage" : 12,
-						"fireSound" : "fire2"
-					},
-					{
-						"level" : 3,
-						"time" : 0.9,
-						"energyCost" : 85,
-						"cooldown" : 0.25,
-						"projectileCount" : 1,
-						"projectileParameters" : {},
-						"inaccuracy" : 0.008,
-						"baseDamage" : 18,
-						"fireSound" : "fire3"
-					}
-				]
+				"fireTime" : 0.38
+			}
+		},
+		{
+			"upgradeNum" : 2,
+			"level" : 3,
+			"shortdescription" : "Psionic Bangle ^yellow;Г^reset;",
+			"primaryAbility" : {
+				"fireTime" : 0.34
+			}
+		},
+		{
+			"upgradeNum" : 3,
+			"level" : 4,
+			"shortdescription" : "Psionic Bangle ^yellow;Ø^reset;",
+			"primaryAbility" : {
+				"fireTime" : 0.30
+			}
+		},
+		{
+			"upgradeNum" : 4,
+			"level" : 5,
+			"shortdescription" : "Psionic Bangle ^yellow;Ø^reset;",
+			"primaryAbility" : {
+				"fireTime" : 0.25
+			}
+		},
+		{
+			"upgradeNum" : 5,
+			"level" : 6,
+			"shortdescription" : "Psionic Bangle ^yellow;Ø^reset;",
+			"primaryAbility" : {
+				"fireTime" : 0.20
 			}
 		}
 	]

@@ -11,15 +11,15 @@
   "tooltipKind" : "base",
   "level" : 4,
 
-  "inventoryIcon" : "/items/active/weapons/vanta/grimoire/book/ice2.png:default.1",
+  "inventoryIcon" : "book/ice2.png:default.1",
 
-  "animation" : "/items/active/weapons/vanta/grimoire/grimoire.animation",
+  "animation" : "grimoire.animation",
 
   "animationParts" : {
-    "book" : "ice2.png"
+    "book" : "book/ice2.png"
   },
 
-  "scripts" : [ "/items/active/weapons/vanta/grimoire/grimoire.lua" ],
+  "scripts" : [ "/items/active/weapons/vanta/vantaresearch/grimoires/grimoire.lua" ],
 
   "elementalType" : "ice",
 

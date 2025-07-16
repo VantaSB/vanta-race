@@ -2,28 +2,28 @@
   "itemName" : "nightarlauncher",
   "price" : 1440,
   "maxStack" : 1,
-  "rarity" : "Rare",
-  "inventoryIcon" : "nightarlauncher.png",
+  "rarity" : "Common",
   "description" : "Heavy-duty launcher issued to demolitions experts in the Nightar infantry.",
   "shortdescription" : "Nightar Launcher",
   "tooltipKind" : "gun",
   "category" : "rocketLauncher",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","rocketlauncher","nightar"],
-  "level" : 5,
+
+	"inventoryIcon" : "nightarlauncher.png",
 
   "animation" : "nightarlauncher.animation",
   "animationParts" : {
     "middle" : "nightarlauncher.png",
-    "middleFullbright" : "nightarlauncherfullbright.png"
+    "middleFullbright" : "nightarlauncherfullbright.png",
+		"muzzleFlash" : ""
   },
   "animationCustom" : {
     "particleEmitters" : {
       "muzzleFlash" : {
+				"burstCount" : 3,
         "particles" : [
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+          { "particle" : "rocketbarrelpuff" }
         ]
       }
     },
@@ -34,7 +34,7 @@
   "baseOffset" : [-1.0, 0.375],
   "muzzleOffset" : [1.75, 0.125],
 
-  "element" : "physical",
+  "elementalType" : "physical",
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -47,8 +47,8 @@
     "energyUsage" : 38,
     "inaccuracy" : 0.0,
 
-    "projectileCount" : 1,
-    "fireType" : "auto",
+		"projectileCount" : 1,
+		"fireType" : "auto",
 
     "projectileType" : "rocketshell",
     "projectileParameters" : {
@@ -87,6 +87,8 @@
       }
     }
   },
+
+	"altAbilityType" : "rocketburst",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

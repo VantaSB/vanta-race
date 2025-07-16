@@ -2,8 +2,8 @@
   "itemName" : "vantapocsec02",
   "rarity" : "Essential",
   "inventoryIcon" : "icon2.png",
-  "description" : "A small datapad containing communications logs.",
-  "shortdescription" : "Vanta Datapad",
+  "description" : "Data from a Vanta Trooper's armor computer.",
+  "shortdescription" : "Trooper Log UGS-088",
   "radioMessagesOnPickup" : [ "pocsecPickup" ],
 	"category" : "quest",
 
@@ -12,5 +12,6 @@
   "theme" : "vanta",
 
   "consumeOnUse" : false,
-  "noteText" : "TO: VG-419\nFROM: N. JARA\n\nGreetings.\n\nThe maintenance team has finished work on Docking Bay 04. You are hereby assigned to this post. Your personal code to get to the docking bay commons is enclosed below. Please do not share this code with any other personnel.\n\nThank you for your service.\n\nCODE: 3642"
+  "noteText" : "TROOPER LOG UGS-088\nThey came out of nowhere. Nightar troopers suddenly swarming the base. Despite my security clearance getting messed up, I was able to get out. I killed power to the sector, so that should keep them held in. Those doors are sturdy as hell. I'm not going to make it, though... my wounds are too severe. Whoever finds this, know that we didn't go down without a fight.",
+	"codeImg" : ""
 }

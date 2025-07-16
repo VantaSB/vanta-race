@@ -1,30 +1,32 @@
 {
-  "itemName" : "nightarstandardrifle",
-  "price" : 1000,
-  "inventoryIcon" : "nightarstandardrifle.png",
+  "itemName" : "nightarsniperrifle_intro",
+  "price" : 0,
+  "inventoryIcon" : "nightarsniperrifle.png",
   "maxStack" : 1,
+  "level" : 1,
   "rarity" : "Common",
-  "description" : "These rifles are standard among the typical Nightar infantry.",
-  "shortdescription" : "Nightar Standard Rifle",
-  "tooltipKind" : "gun",
+  "description" : "A powerful rifle enhanced with ceruleum.",
+  "shortdescription" : "Nightar Sniper Rifle",
   "category" : "sniperRifle",
-  "itemTags" : ["weapon","ranged","rifle","nightar"],
+  "tooltipKind" : "gun",
   "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rifle"],
 
-  "animation" : "nightarstandardrifle.animation",
+  "animation" : "nightarsniperrifle.animation",
   "animationParts" : {
-    "middle" : "nightarstandardrifle.png",
-    "middleFullbright" : "nightarstandardriflelit.png",
+    "middle" : "nightarsniperrifle.png",
+    "middleFullbright" : "nightarsniperriflelit.png",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
+
   "animationCustom" : {
     "sounds" : {
       "fire" : [ "/sfx/gun/plasma_pistol4.ogg" ]
     }
   },
 
-  "baseOffset" : [0.375, 0.0],
-  "muzzleOffset" : [1.875, 0.125],
+  "baseOffset" : [0.9, 0],
+  "muzzleOffset" : [0, 0],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -34,16 +36,13 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.42,
-    "baseDps" : 16.2,
+    "fireTime" : 1.0,
+    "baseDps" : 8,
     "energyUsage" : 24,
     "inaccuracy" : 0.008,
 
-		"burstTime" : 0.075,
-    "burstCount" : 3,
-    "fireType" : "burst",
-
-		"projectileCount" : 1,
+    "projectileCount" : 1,
+    "fireType" : "auto",
 
     "projectileType" : "plasmabullet",
     "projectileParameters" : {
@@ -78,6 +77,8 @@
       }
     }
   },
+
+  "altAbilityType" : "piercingshot",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

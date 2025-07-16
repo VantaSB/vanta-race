@@ -3,7 +3,7 @@
     "op" : "add",
     "path" : "/ceruleum",
     "value" : {
-      "resistanceStat" : "ceruleumCorruptionResistance",
+      "resistanceStat" : "ceruleumResistance",
       "damageNumberParticles" : {
         "hit" : "ceruleumdamagenumber",
         "stronghit" : "ceruleumdamagenumberstrong",

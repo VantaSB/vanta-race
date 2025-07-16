@@ -1,9 +1,8 @@
 {
   "itemName" : "nightarheavyblade",
   "price" : 1000,
-  "level" : 6,
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "Common",
   "description" : "Issued to Nightar elite troopers.",
   "shortdescription" : "Nightar Heavy Blade",
   "tooltipKind" : "sword",

@@ -40,10 +40,13 @@
     "energyUsage" : 24,
     "inaccuracy" : 0.012,
 
-    "projectileCount" : 1,
-    "fireType" : "auto",
+		"burstTime" : 0.075,
+    "burstCount" : 3,
+    "fireType" : "burst",
 
-    "projectileType" : "blueplasmabullet",
+		"projectileCount" : 1,
+
+    "projectileType" : "plasmabullet",
     "projectileParameters" : {
       "knockback" : 20
     },

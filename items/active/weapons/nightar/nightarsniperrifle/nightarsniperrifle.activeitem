@@ -3,8 +3,7 @@
   "price" : 1000,
   "inventoryIcon" : "nightarsniperrifle.png",
   "maxStack" : 1,
-  "level" : 5,
-  "rarity" : "Rare",
+  "rarity" : "Common",
   "description" : "A powerful rifle enhanced with ceruleum.",
   "shortdescription" : "Nightar Sniper Rifle",
   "category" : "sniperRifle",
@@ -44,7 +43,7 @@
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "standardbullet",
+    "projectileType" : "plasmabullet",
     "projectileParameters" : {
       "knockback" : 20
     },
@@ -77,8 +76,6 @@
       }
     }
   },
-
-  "altAbilityType" : "piercingshot",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

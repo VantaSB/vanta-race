@@ -17,24 +17,6 @@
     }
   },
 
-	{
-		"op" : "add",
-		"path" : "/vanta_trialintro",
-		"value" : {
-			"primaryDungeon" : "vanta_trialintro",
-	    "threatLevel" : 2,
-	    "gravity" : 80,
-	    "worldSize" : [2000, 1000],
-	    "dungeonBaseHeight" : 975,
-			"dungeonSurfaceHeight" : 810,
-	    "ambientLightLevel" : [32, 32, 32],
-	    //"musicTrack" : "/music/pom-marine_relic.ogg",
-			"musicTrack" : "/music/crystal-exploration1.ogg",
-			"environmentStatusEffects" : [ "dontstarve" ],
-      "biome" : "proximamoon"
-		}
-	},
-
   {
     "op" : "add",
     "path" : "/nightfort",
@@ -53,28 +35,6 @@
       "musicTrack" : "/music/crystal-battle1-loop.ogg",
       "environmentStatusEffects" : [ "dontstarve" ],
       "biome" : "snow"
-    }
-  },
-
-  {
-    "op" : "add",
-    "path" : "/vantaoutpost",
-    "value" : {
-      "primaryDungeon" : "vantaoutpost",
-      "weatherPool" : [
-        [ 0.5, "clear" ],
-				[ 0.5, "voidrain" ]
-      ],
-      "threatLevel" : 1,
-      "gravity" : 80,
-      "worldSize" : [2500, 2000],
-      "dungeonBaseHeight" : 1000,
-      "dungeonSurfaceHeight" : 900,
-      "ambientLightLevel" : [32, 32, 32],
-      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
-      "musicTrack" : "/music/doc_ffvii-underground_complex.ogg",
-      "environmentStatusEffects" : ["dontstarve"],
-      "biome" : "proximamooncity"
     }
   },
 
@@ -100,24 +60,60 @@
   },
 
 	{
+		"op" : "add",
+		"path" : "/vantaoutpost",
+		"value" : {
+			"primaryDungeon" : "vantaoutpost",
+			"threatLevel" : 1,
+			"gravity" : 80,
+			"worldSize" : [2000, 1000],
+			"dungeonBaseHeight" : 1000,
+			"dungeonSurfaceHeight" : 890,
+			"ambientLightLevel" : [128, 128, 128],
+			"ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+			"musicTrack" : "/music/doc_ffvii-underground_complex.ogg",
+			"environmentStatusEffects" : ["dontstarve"],
+			"biome" : "proximamoon"
+		}
+	},
+
+	{
     "op" : "add",
-    "path" : "/vantamission1",
+    "path" : "/vantamission_lobos",
     "value" : {
-      "primaryDungeon" : "vantamission1",
+      "primaryDungeon" : "vantamission_lobos",
       "threatLevel" : 6,
       "gravity" : 80,
-      "worldSize" : [1500, 3000],
-      "dungeonBaseHeight" : 3000,
-      "dungeonSurfaceHeight" : 3000,
+      "worldSize" : [2000, 500],
+      "dungeonBaseHeight" : 500,
+      "dungeonSurfaceHeight" : 500,
       "ambientLightLevel" : [32, 32, 32],
-      "musicTrack" : "/music/fpm-be_thrilled.ogg",
+			"biome" : "space",
+      "musicTrack" : "/music/fpm-techno_bone.ogg",
       "environmentStatusEffects" : ["dontstarve"],
-	    "worldEdgeForceRegions" : "TopAndBottom",
-      "biome" : "space"
+	    "worldEdgeForceRegions" : "TopAndBottom"
     }
   },
 
-  {
+	{
+		"op" : "add",
+		"path" : "/vantamission_geddon",
+		"value" : {
+			"primaryDungeon" : "vantamission_geddon",
+			"threatLevel" : 6,
+			"gravity" : 80,
+			"worldSize" : [1000, 1000],
+			"dungeonBaseHeight" : 1000,
+			"dungeonSurfaceHeight" : 920,
+			"ambientLightLevel" : [128, 128, 128],
+			"ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+			"musicTrack" : "/music/plph-fusion_6noc.ogg",
+			"environmentStatusEffects" : ["dontstarve"],
+			"biome" : "proximamoon"
+		}
+	},
+
+  /*{
     "op" : "add",
     "path" : "/ex_voiddungeontest",
     "value" : {
@@ -138,6 +134,24 @@
     }
   },
 
+	/*{
+    "op" : "add",
+    "path" : "/vantaundergroundruins",
+    "value" : {
+      "primaryDungeon" : "vantaundergroundruins",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [1000, 1000],
+      "dungeonBaseHeight" : 1000,
+      "dungeonSurfaceHeight" : 850,
+			"ambientLightLevel" : [36, 83, 102],
+      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+			"musicTrack" : "",
+      "environmentStatusEffects" : ["dontstarve"],
+      "biome" : "proximamoonunderground"
+    }
+  },*/
+
 	{
 		"op" : "add",
 		"path" : "/void_barbatos",
@@ -149,7 +163,6 @@
 	    "dungeonBaseHeight" : 975,
 			"dungeonSurfaceHeight" : 810,
 	    "ambientLightLevel" : [64, 64, 64],
-	    //"musicTrack" : "/music/pom-marine_relic.ogg",
 			"musicTrack" : "/music/fpm-be_thrilled.ogg",
 			"environmentStatusEffects" : [ "dontstarve" ],
       "biome" : "ex_void"

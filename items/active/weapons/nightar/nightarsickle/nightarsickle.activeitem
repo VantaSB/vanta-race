@@ -1,0 +1,69 @@
+{
+  "itemName" : "nightarsickle",
+  "price" : 1000,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A smaller weapon wielded by stealth troopers.",
+  "shortdescription" : "Nightar Sickle",
+  "tooltipKind" : "sword",
+  "category" : "dagger",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "dagger", "nightar"],
+
+  "inventoryIcon" : "nightarsickle.png",
+
+  "animation" : "nightarsickle.animation",
+	"animationParts" : {
+		"weapon" : "nightarsickle.png",
+		"weaponfullbright" : "nightarsicklelit.png"
+	},
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+	"primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "fireTime" : 0.27,
+    "baseDps" : 9.0,
+    "damageConfig" : {
+      "damageSourceKind" : "<elementalType>dagger",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockbackRange" : [10, 15],
+      "timeoutGroup" : "primary"
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "weaponOffset" : [0.25, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "windup" : {
+        "duration" : 0.05,
+        "armRotation" : -20,
+        "weaponRotation" : -20,
+        "weaponOffset" : [0.25, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : -135,
+        "weaponRotation" : 40,
+        "weaponOffset" : [0.25, 2.25],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

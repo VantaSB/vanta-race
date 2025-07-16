@@ -14,7 +14,6 @@ epRePercentRate = 0
 spBonus = 0
 dpsBonus = 1.0
 
--- The ability names for the bangle are actually not used internally, this is more so for easier referencing when building the skill lines.
 banglePrimaryAbilities = { "beambolt" }
 --bangleAltAbilities = { "offensive1" }
 
@@ -22,6 +21,7 @@ vSaberSkills = { }
 
 function reinit() --when "forgottenmemories" is triggered, clear all stat bonuses
 	player.setProperty("banglePrimaryAbilities", banglePrimaryAbilities)
+	sb.logInfo("Script re-initialized - current bangle abilities: %s", banglePrimaryAbilities)
 	--player.setProperty("vSaberSkills", vSaberSkills)
 	--player.setProperty("bangleAltAbilities", bangleAltAbilities)
 
@@ -158,12 +158,13 @@ function dpsPlus(params)
 end
 
 function addBanglePrimaryAbility(params)
-	local index = tonumber(params[1])
-	local newAbility = tostring(params[2])
-
-	banglePrimaryAbilities[index] = newAbility
-
-	player.setProperty("banglePrimaryAbilities", banglePrimaryAbilities)
+	if params then
+		table.insert(banglePrimaryAbilities, params)
+		player.setProperty("banglePrimaryAbilities", banglePrimaryAbilities)
+		sb.logInfo("Unlocked bangle shot type: %s", params)
+	else
+		sb.logError("Invalid shot type for addBanglePrimaryAbility: %s", params)
+	end
 end
 
 function addBangleAltAbility(params)
@@ -177,7 +178,32 @@ end
 
 function listBangleAbilities()
 	banglePrimaryAbilities = player.getProperty("banglePrimaryAbilities")
-	return banglePrimaryAbilities
+	--sb.logInfo("Player bangle abilities: %s", banglePrimaryAbilities)
+
+	--Define fixed order matching ElementalShift shotTypes
+	local shotOrder = {
+		{ ability = "beambolt", shot = "psiphysicalshot", emitter = "beambolt" },
+		{ ability = "firebolt", shot = "psifireshot", emitter = "firebolt" },
+		{ ability = "icebolt", shot = "psiiceshot", emitter = "icebolt" },
+		{ ability = "thunderbolt", shot = "psielectricshot", emitter = "thunderbolt" },
+		{ ability = "biobolt", shot = "psipoisonshot", emitter = "biobolt" }
+	}
+
+	--Filter unlocked shotTypes
+	local abilities = {}
+	for k, entry in ipairs(shotOrder) do
+		--sb.logInfo("Entry Query: %s : %s", k, entry)
+		local mappedAbility = entry.ability
+		for _, unlocked in ipairs(banglePrimaryAbilities) do
+			if unlocked == entry.shot or unlocked == mappedAbility then
+				--sb.logInfo("Adding ability: ability=%s, shot=%s, emitter=%s", mappedAbility, entry.shot, entry.emitter)
+				table.insert(abilities, { shotType = entry.shot, emitter = entry.emitter })
+				break
+			end
+		end
+	end
+	--sb.logInfo("Abilities output: %s", abilities)
+	return abilities
 end
 
 function listBangleAltAbilities()

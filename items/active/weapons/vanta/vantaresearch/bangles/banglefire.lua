@@ -174,7 +174,7 @@ function BangleFire:fireChargeShot()
   params.power = (self.chargeLevel.baseDamage * config.getParameter("damageLevelMultiplier")) / projectileCount
   params.powerMultiplier = activeItem.ownerPowerMultiplier()
 
-	if self.projectileType == "psiphysicalshot" then
+	--[[if self.projectileType == "psiphysicalshot" then
 		if self.chargeLevel.level == 1 then
 			self.chargeProjectile = "psiphysicalshot"
 		elseif self.chargeLevel.level == 2 then
@@ -214,7 +214,9 @@ function BangleFire:fireChargeShot()
 		elseif self.chargeLevel.level == 3 then
 			self.chargeProjectile = "psipoisonshot3"
 		end
-	end
+	end]]
+
+	self.chargeProjectile = self.projectileType
 
 	if self.chargeLevel.level == 3 then
 		animator.setAnimationState("firing", self.chargeLevel.fireAnimationState or "fullchargefire")

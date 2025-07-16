@@ -1,9 +1,8 @@
 {
   "itemName" : "nightarstandardblade",
   "price" : 960,
-  "level" : 5,
   "maxStack" : 1,
-  "rarity" : "Rare",
+  "rarity" : "Common",
   "description" : "A replica version of a legendary blade.",
   "shortdescription" : "Nightar Standard Blade",
   "tooltipKind" : "sword",

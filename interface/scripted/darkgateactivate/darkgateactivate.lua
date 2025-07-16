@@ -6,7 +6,7 @@ function init()
 end
 
 function update(dt)
-  local current = player.getProperty("darkGateKeyAcquired")
+  local current = player.getProperty("ex_keyItem_darkgatekey")
 	if not current then
 		widget.setText("costLabel", "NOT ACQUIRED")
 		widget.setFontColor("costLabel", {255, 0, 0})

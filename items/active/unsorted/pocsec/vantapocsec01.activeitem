@@ -2,8 +2,8 @@
   "itemName" : "vantapocsec01",
   "rarity" : "Essential",
   "inventoryIcon" : "icon2.png",
-  "description" : "A small datapad containing communications logs.",
-  "shortdescription" : "Vanta Datapad",
+  "description" : "Data from a Vanta Trooper's armor computer.",
+  "shortdescription" : "Trooper Log VG-419",
   "radioMessagesOnPickup" : [ "pocsecPickup" ],
 	"category" : "quest",
 
@@ -12,6 +12,6 @@
   "theme" : "vanta",
 
   "consumeOnUse" : false,
-  "noteText" : "TO: VG-419\nFROM: N. JARA\n\nYou are hereby assigned to monitor Xenoresearch I. Your personal code to get to the Xenoresearch auxiliary access hall is enclosed below. Please do not share this code with any other personnel.\n\nThank you.",
+  "noteText" : "TROOPER LOG VG-419\nAdmiral Ran assigned me to Xenoresearch. Not a terrible gig for my first assignment, I even have my own code to get through the door! I was a bit nervous, thinking I would have to guard something major, like that weird gate they've been wor--(an explosion is heard briefly before the recording ends)",
 	"codeImg" : "intro1"
 }
