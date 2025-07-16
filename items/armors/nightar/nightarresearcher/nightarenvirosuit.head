@@ -1,12 +1,12 @@
 {
-  "itemName" : "nightaroperativehead",
-  "price" : 1000,
+  "itemName" : "nightarenvirosuithead",
+  "price" : 100,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
-  "category" : "headarmour",
-  "description" : "...",
-  "shortdescription" : "N. Operative's Helmet",
+  "category" : "headwear",
+  "description" : "",
+  "shortdescription" : "Envirosuit Helmet",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",

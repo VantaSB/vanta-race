@@ -1,12 +1,12 @@
 {
-  "itemName" : "nightarrangerchest",
-  "price" : 1000,
+  "itemName" : "nightarpilotchest",
+  "price" : 800,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "...",
-  "shortdescription" : "N. Ranger's Top",
+  "description" : "Part of a military-grade suit that helps monitor the vitals of a pilot during flight.",
+  "shortdescription" : "Nightar Pilot Chest",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -15,7 +15,7 @@
     "frontSleeve" : "fsleeve.png"
   },
 
-  "femaleFrames" : {
+	"femaleFrames" : {
     "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"

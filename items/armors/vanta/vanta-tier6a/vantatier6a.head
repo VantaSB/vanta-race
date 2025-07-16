@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "category" : "exHeadArmorAcc",
   "description" : "While considered flimsy by most standards, this cap is durable enough that it was rated safe for heavy combat.",
-  "shortdescription" : "Demagogue Cap",
+  "shortdescription" : "Demagogue Visor",
   "tooltipKind" : "exheadaugment",
 
   "maleFrames" : "head.png",
@@ -18,22 +18,22 @@
     {
       "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.25
+      "baseMultiplier" : 1.15
     },
     {
       "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.5
+      "amount" : 0.3
     },
     {
       "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 5
+      "amount" : 3
     },
     {
       "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 3
     }
   ],
 

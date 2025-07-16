@@ -1,23 +1,27 @@
 {
-  "itemName" : "nightarcommandochest",
+  "itemName" : "nightarrangerstealthchest",
   "price" : 1000,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "chestarmour",
   "description" : "...",
-  "shortdescription" : "N. Commando's Top",
+  "shortdescription" : "N. Ranger's Top",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
-  }
+  },
+
+  "statusEffects" : [
+		"nightarstealth"
+	]
 }

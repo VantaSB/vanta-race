@@ -1,22 +1,22 @@
 {
-  "itemName" : "nightarcommandochest",
-  "price" : 1000,
+  "itemName" : "nightarenvirosuitchest",
+  "price" : 0,
   "inventoryIcon" : "icons.png:chest",
   "maxStack" : 1,
-  "rarity" : "Legendary",
+  "rarity" : "Common",
   "category" : "chestarmour",
-  "description" : "...",
-  "shortdescription" : "N. Commando's Top",
+  "description" : "",
+  "shortdescription" : "Envirosuit Armor",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestm.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "chest.png",
+    "body" : "chestf.png",
     "backSleeve" : "bsleeve.png",
     "frontSleeve" : "fsleeve.png"
   }
