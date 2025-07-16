@@ -1,0 +1,67 @@
+{
+  "objectName" : "baseexitdoor",
+  "colonyTags" : ["decorative", "vanta"],
+  "rarity" : "Legendary",
+  "description" : "An auxiliary door that leads to another area.",
+  "shortdescription" : "Vanta Base Door",
+  "race" : "vanta",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "openLight" : [174, 223, 232],
+  "closedLight" : [0, 0, 0],
+
+  "inventoryIcon" : "exitlight.png:default",
+
+  "animation" : "/objects/wired/door/fullbrightdoor2.animation",
+	"animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/ddooropen.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/ddoorclose.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "bg" : "exitlight.png",
+		"fg" : "exitlightcover.png"
+  },
+  "animationPosition" : [0, -16],
+
+  "orientations" : [
+		{
+      "image" : "exitlight.png:default",
+			"fullbright" : true,
+      "direction" : "left",
+			"flipImages" : true,
+
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom", "right" ]
+    },
+    {
+      "image" : "exitlight.png:default",
+			"fullbright" : true,
+      "direction" : "right",
+
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom", "left" ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/ex_utilities/ex_autodoorwarp.lua" ],
+  "scriptDelta" : 5,
+
+  "interval" : 30,
+
+  "inputNodes" : [ [0, 2], [1, 2] ],
+  "outputNodes" : [ [0, -2] ]
+}

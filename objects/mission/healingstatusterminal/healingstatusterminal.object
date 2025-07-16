@@ -19,16 +19,16 @@
         { "image" : "healingstatusterminallit.png:expire.3"}
       ],
       "flipImages" : true,
-      "imagePosition" : [-8, -32],
+      "imagePosition" : [-16, -24],
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "solid",
-      "collisionSpaces" : [ [-1, -4], [0, -4], [1, -4], [2, -4] ]
+      "collisionSpaces" : [ [-2, -3], [-1, -3], [0, -3], [1, -3] ]
     }
   ],
 
-  "scripts" : [ "/objects/mission/healingstatusterminal/statusProjectile.lua" ],
+  "scripts" : [ "healingstatusterminal.lua" ],
   "scriptDelta" : 10,
   "activationTime" : 5,
   "animation" : "healingstatusterminal.animation",
@@ -36,7 +36,11 @@
     "bg" : "healingstatusterminal.png",
     "fg" : "healingstatusterminallit.png"
   },
-  "animationPosition" : [-8, -32],
+  "animationPosition" : [-16, -24],
+
+	"inputNodes" : [
+		[0, -3]
+	],
 
   "projectileOptions" : [
     {

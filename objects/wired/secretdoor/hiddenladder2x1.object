@@ -1,0 +1,68 @@
+{
+  "objectName" : "hiddenladder2x1",
+  "colonyTags" : ["door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 200,
+  "printable" : false,
+  "description" : "A cleverly concealed ladder rung.",
+  "shortdescription" : "Hidden Ladder (2x1)",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "There's something odd about this wall...",
+  "avianDescription" : "There's something odd about this wall...",
+  "floranDescription" : "Wall is ssstrange...",
+  "glitchDescription" : "Suspicious. This wall does not appear natural...",
+  "humanDescription" : "There's something odd about this wall...",
+  "hylotlDescription" : "There is something odd about this wall...",
+  "novakidDescription" : "Somethin ain't right about this wall...",
+
+  "inventoryIcon" : "secrettrapdooricon.png",
+
+  "animation" : "secretdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/bunkerslidingdoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/bunkerslidingdoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "hiddenladder2x1.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "orientations" : [
+    {
+      "image" : "hiddenladder2x1preview.png",
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [
+        [-1, 0],
+        [0, 0]
+      ],
+
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "inputNodes" : [ [-1, 0] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "scripts" : [ "hiddenladder.lua" ],
+  "scriptDelta" : 3,
+
+	"ladderMaterial" : "vantaladder",
+
+  "doorDirection" : "vertical",
+  "doorRate" : 0.05
+}

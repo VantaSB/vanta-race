@@ -1,0 +1,18 @@
+{
+	// Default: "Room"
+  "frameGrid" : {
+    "size" : [40, 16],
+    "dimensions" : [4, 5],
+    "names" : [
+      [ "armory", "cmd", "cells", "hall" ],
+			[ "medical", "power", "room", "tech" ],
+			[ "warp", null, null, null ],
+			[ "3a", "3b", "3c", "3d" ],
+			[ "2a", "2b", "2c", "2d" ]
+    ]
+  },
+
+	"aliases" : {
+		"default" : "room"
+	}
+}

@@ -1,0 +1,86 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "relicStatue" : {
+        "default" : "unclaimed",
+        "states" : {
+          "unclaimed" : {
+            "frames" : 4,
+            "cycle" : 0.8,
+            "mode" : "loop"
+          },
+          "claiming" : {
+            "frames" : 4,
+						"cycle" : 0.8,
+						"mode" : "transition",
+						"transition" : "claimed"
+          },
+					"claimed" : { }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false,
+					"fullbright" : true
+        },
+
+        "partStates" : {
+          "relicStatue" : {
+            "unclaimed" : {
+              "properties" : {
+                "image" : "<partImage>:unclaimed.<frame>"
+              }
+            },
+
+						"claiming" : {
+              "properties" : {
+                "image" : "<partImage>:claiming.<frame>"
+              }
+            },
+
+            "claimed" : {
+              "properties" : {
+                "image" : "<partImage>:claiming.claimed"
+              }
+            }
+          }
+        }
+      },
+			"fg" : {
+        "properties" : {
+          "centered" : false,
+					"zLevel" : 1
+        },
+
+        "partStates" : {
+					"relicStatue" : {
+            "unclaimed" : {
+              "properties" : {
+                "image" : "<partImage>:unclaimed.<frame>"
+              }
+            },
+
+						"claiming" : {
+              "properties" : {
+                "image" : "<partImage>:claiming.<frame>"
+              }
+            },
+
+            "claimed" : {
+              "properties" : {
+                "image" : "<partImage>:claiming.claimed"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+	"sounds" : {
+    "obtained" : []
+  }
+}

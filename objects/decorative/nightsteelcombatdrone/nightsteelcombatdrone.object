@@ -1,0 +1,38 @@
+{
+  "objectName" : "nightsteelcombatdrone",
+	"colonyTags" : ["nightar","vanta"],
+	"printable" : false,
+  "rarity" : "Common",
+	"category" : "spawner",
+	"price" : 3600,
+  "description" : "A combat drone constructed from nightsteel. It is currently not receiving instructions and is inert.",
+  "shortdescription" : "Nightsteel Combat Drone",
+  "race" : "generic",
+
+  "apexDescription" : "A formiddable combat drone. The Miniknog thankfully do not have such mecha.",
+  "avianDescription" : "It feels like it could come alive at any moment.",
+  "floranDescription" : "Big moving armor!",
+  "glitchDescription" : "Cautious. This combat drone is still receiving power...",
+  "humanDescription" : "I wonder how it would fare against a custom mech?",
+  "hylotlDescription" : "This drone is in pristine condition. I hope it does not suddenly decide to activate.",
+  "novakidDescription" : "That sure is a big combat drone...",
+	"vantaDescription" : "An outdated combat drone. It's still pretty resilient, though.",
+
+  "inventoryIcon" : "icon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [
+				{ "image" : "nightsteelcombatdrone.png", "fullbright" : true },
+				{ "image" : "nightsteelcombatdronelit.png" }
+			],
+
+      "imagePosition" : [-24, -32],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

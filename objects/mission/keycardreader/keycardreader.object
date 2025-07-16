@@ -3,11 +3,11 @@
   "colonyTags" : ["electronic","wired","vanta","nightar"],
   "printable" : false,
   "rarity" : "Common",
-  "description" : "A numeric security keypad that requires a specific combination.",
-  "shortdescription" : "Vanta Keypad",
+  "description" : "A simple keycard reader.",
+  "shortdescription" : "Keycard Reader",
   "race" : "vanta",
 
-  "inventoryIcon" : "keycardreader.png:default.on",
+  "inventoryIcon" : "keycardreader.png:default.off",
   "animation" : "keycardreader.animation",
   "animationParts" : {
     "bg" : "keycardreader.png",
@@ -42,6 +42,5 @@
     "baseConfig" : "/interface/scripted/keycardreader/keycardreadergui.config"
   },
 
-  "keycardType" : null,
-  "requiredLevel" : 0
+  "keycardType" : null
 }

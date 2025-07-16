@@ -1,0 +1,68 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "alarmState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "on" : {
+            "frames" : 8,
+            "cycle" : 1.02,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false,
+					"fullbright" : true
+        },
+
+        "partStates" : {
+          "alarmState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            }
+          }
+        }
+      },
+			"fg" : {
+        "properties" : {
+          "centered" : false,
+					"zLevel" : 1
+        },
+
+        "partStates" : {
+          "alarmState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:default.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    //"alarm" : ["/sfx/objects/redalert.ogg"]
+  }
+}

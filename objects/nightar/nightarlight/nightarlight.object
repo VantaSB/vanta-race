@@ -3,7 +3,7 @@
   "colonyTags" : ["light","nightar"],
   "rarity" : "Common",
   "category" : "light",
-  "lightColor" : [148, 232, 186],
+  "lightColor" : [174, 232, 200],
   "price" : 75,
   "description" : "A Nightar wall light",
   "shortdescription" : "Nightar Light",

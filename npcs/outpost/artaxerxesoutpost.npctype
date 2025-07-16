@@ -1,0 +1,72 @@
+{
+  "type" : "artaxerxesoutpost",
+  "baseType" : "villager",
+
+  "npcname" : "Artaxerxes Carucenus VI",
+  "identity" : {
+    "imagePath" : "vanta",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "male65",
+    "personalityIdle" : "idle.4",
+    "personalityArmIdle" : "idle.4",
+    "bodyDirectives" : "?replace=ffe2c5=fff2e5?replace=ffc181=ffe0bf?replace=d39c6c=d3b398?replace=c7815b=c79b83?replace=ed1c24=ffbd00",
+    "hairDirectives" : "?replace=d9c189=eaeaea?replace=a38d59=b8b8b8?replace=735e3a=828282"
+  },
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "uniqueId" : "artaxerxesoutpost",
+
+		"chatPortrait" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+
+    "reactions" : {
+      "spontaneous" : []
+    },
+    "personalities" : [
+      [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "behaviorConfig" : {
+      "greetingChance" : 0,
+      "play" : false,
+      "chat" : false
+    },
+
+    "offeredQuests" : [
+      //"gunblade"
+    ],
+
+    "turnInQuests" : [
+      //"gunblade"
+    ],
+
+		"dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+						"Ah greetings, <entityname>. I apologize for not being more sociable - the Empire doesn't sleep, and so I can't afford to, either.",
+						"I'm currently planning out future engagements that will give us strategic advantages. Once I have more information from my scouts, I'll brief you and the Admiral on the intel."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+						"head" : [ { "name" : "nightarcrownhead" } ],
+						"chest" : [ { "name" : "vantatier6mchest" } ],
+            "legs" : [ { "name" : "vantatier6mpants" } ],
+            "back" : [ { "name" : "vantacapeback" } ]
+          }
+        ] ]
+    ]
+  }
+}

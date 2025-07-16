@@ -3,43 +3,72 @@ require "/scripts/stagehandutil.lua"
 function init()
   self.containsPlayers = {}
   self.useRadioMessages = config.getParameter("useRadioMessages", false)
+	self.itemSpawn = config.getParameter("itemSpawn")
   self.persistent = config.getParameter("persistent", false)
-  self.interactive = config.getParameter("interactive", true)
-  object.setInteractive(self.interactive)
+
+	if config.getParameter("radioMessages") then
+		self.radioMessages = config.getParameter("radioMessages") or config.getParameter({"radioMessage"})
+		self.useRadioMessages = true
+	end
+
+	if config.getParameter("lockedRadioMessages") then
+		self.lockedRadioMessage = config.getParameter("lockedRadioMessages")
+		self.useRadioMessages = true
+	end
+
+	object.setInteractive(config.getParameter("interactive", true))
   storage.messagesSent = nil
 	storage.lockedMessagesSent = nil
-  if storage.state == nil then
+
+	if storage.state == nil then
     output(config.getParameter("defaultSwitchState", false))
-  else
-    output(storage.state)
-  end
-  if self.useRadioMessages then
-    self.radioMessages = config.getParameter("radioMessages") or {config.getParameter("radioMessage")}
-		self.lockedRadioMessages = config.getParameter("lockedRadioMessages")
-    storage.messagesSent = false
-		storage.lockedMessagesSent = false
   end
 
-	if storage.locked == nil then
-		storage.locked = false
-	end
-end
+  storage.messagesSent = false
+	storage.lockedMessagesSent = false
 
-function update(dt)
 	if object.isInputNodeConnected(0) then
-		if object.getInputNodeLevel(0) and storage.locked then
+		if not object.getInputNodeLevel(0) then
+			storage.locked = true
+			animator.setAnimationState("switchState", "locked")
+		else
 			storage.locked = false
 			if storage.state then
 				animator.setAnimationState("switchState", "on")
 			else
 				animator.setAnimationState("switchState", "off")
 			end
-		else--if not storage.locked and not object.getInputNodeLevel(0) then
-			storage.locked = true
-			animator.setAnimationState("switchState", "locked")
 		end
 	else
-		storage.locked = false
+		if storage.state then
+			animator.setAnimationState("switchState", "on")
+		else
+			animator.setAnimationState("switchState", "off")
+		end
+	end
+end
+
+function onNodeConnectionChange(args)
+  if object.isInputNodeConnected(0) then
+		if not object.getInputNodeLevel(0) then
+			storage.locked = true
+			animator.setAnimationState("switchState", "locked")
+		else
+			storage.locked = false
+			animator.setAnimationState("switchState", "off")
+		end
+	end
+end
+
+function onInputNodeChange(args)
+	if object.isInputNodeConnected(0) then
+		if not object.getInputNodeLevel(0) then
+			storage.locked = true
+			animator.setAnimationState("switchState", "locked")
+		else
+			storage.locked = false
+			animator.setAnimationState("switchState", "off")
+		end
 	end
 end
 
@@ -48,19 +77,11 @@ function state()
 end
 
 function onInteraction(args)
-	local newPlayers = broadcastAreaQuery({includedTypes = {"player"}})
-	local oldPlayers = table.concat(self.containsPlayers, ",")
 	if storage.locked then
 		animator.playSound("error")
-		for _, id in pairs(newPlayers) do
-			if not string.find(oldPlayers, id) then
-				world.sendEntityMessage(id, "queueRadioMessage", "vantamissions_consolelockedgeneric")
-				if self.useRadioMessages and not storage.lockedMessagesSent then
-					for _, message in ipairs(self.lockedRadioMessages) do
-						world.sendEntityMessage(id, "queueRadioMessage", message)
-						storage.lockedMessagesSent = true
-					end
-				end
+		if self.useRadioMessages then
+			if self.lockedRadioMessage then
+				world.sendEntityMessage(args.sourceId, "queueRadioMessage", self.lockedRadioMessage)
 			end
 		end
 	else
@@ -69,15 +90,14 @@ function onInteraction(args)
 			object.setInteractive(false)
 		end
 		if self.useRadioMessages and not storage.messagesSent then
-			for _, id in pairs(newPlayers) do
-				if not string.find(oldPlayers, id) then
-					for _, message in ipairs(self.radioMessages) do
-						world.sendEntityMessage(id, "queueRadioMessage", message)
-						storage.messagesSent = true
-					end
-        end
-      end
+			for _, message in pairs(self.radioMessages) do
+				world.sendEntityMessage(args.sourceId, "queueRadioMessage", message)
+			end
+			storage.messagesSent = true
     end
+		if self.itemSpawn ~= nil then
+			world.spawnItem(self.itemSpawn, object.position())
+		end
   end
 end
 

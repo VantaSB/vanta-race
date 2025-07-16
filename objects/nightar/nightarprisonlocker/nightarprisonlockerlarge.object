@@ -1,0 +1,41 @@
+{
+	"objectName" : "nightarprisonlockerlarge",
+	"colonyTags" : ["nightar","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 160,
+  "description" : "A storage locker.",
+  "shortdescription" : "Nightar Prison Locker",
+  "race" : "nightar",
+  "health" : 1.5,
+
+  "apexDescription" : "A locker. I wonder what's inside.",
+  "avianDescription" : "A locker. Possibly filled with prisoner belongings.",
+  "floranDescription" : "Ssstealing from thieves and robbers! Floran doesn't even feel bad.",
+  "glitchDescription" : "Thoughtful. Is it a crime to steal stolen goods?",
+  "humanDescription" : "I've always wanted to raid a prison locker, and now my dreams can come true!",
+  "hylotlDescription" : "The prisoners are long-gone. It's fair to take what's inside.",
+  "novakidDescription" : "A locker for criminals.",
+	"vantaDescription" : "A locker. Possibly filled with prisoner belongings.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "nightarprisonlockerlarge.png",
+      "imagePosition" : [-24, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ],
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

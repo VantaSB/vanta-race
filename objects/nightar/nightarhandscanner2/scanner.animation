@@ -1,0 +1,73 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "switchState" : {
+        "default" : "on",
+        "states" : {
+					"on" : {
+						"frames" : 4,
+						"cycle" : 0.5,
+						"mode" : "loop"
+					},
+          "off" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false,
+					"fullbright" : true
+        },
+
+        "partStates" : {
+          "switchState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:off.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "switchState" : {
+						"on" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:off.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "interact" : [ "/sfx/objects/apexconsole1off.ogg" ],
+		"error" : [ "/sfx/interface/clickon_error.ogg" ]
+  }
+}

@@ -33,5 +33,8 @@
       "spaceScan" : 0.1,
       "anchors" : [ ]
     }
-  ]
+  ],
+
+	"scripts" : [ "darkgatereturn.lua" ],
+	"scriptDelta" : 20
 }

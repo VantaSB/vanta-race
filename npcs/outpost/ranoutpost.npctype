@@ -44,14 +44,17 @@
       //"gunblade"
     ],
 
+		"dialogMode" : "sequence",
     "dialog" : {
       "converse" : {
         "default" : {
           "default" : [
-            "We have a long way to go before we can take the Conclave head-on, but we're glad to have your support in the meantime, <entityname>."
+            "We have a long way to go before we can take the Empire head-on, but we're glad to have your support in the meantime, <entityname>.",
+						"If you're looking for the Prince, he's in the briefing room. You can get there by accessing the door on the right of the room and going to the end of the hall."
           ],
 					"vanta" : [
-						"I'm glad to know we can still count on you, <entityname>, your loyalty and commitment will be remembered for generations to come."
+						"I'm glad to know we can still count on you, <entityname> - your loyalty and commitment will be remembered for generations to come.",
+						"If you're looking for the Prince, he's in the briefing room. You can get there by accessing the door on the right of the room and going to the end of the hall."
 					]
         }
       }
@@ -62,9 +65,8 @@
     "override" : [
       [0, [
           {
-						"head" : [ { "name" : "vantatier6achest" } ],
-            "chest" : [ { "name" : "vantatier6achest" } ],
-            "legs" : [ { "name" : "vantatier6apants" } ],
+						"chest" : [ { "name" : "vantatier5mchest" } ],
+            "legs" : [ { "name" : "vantatier5mpants" } ],
             "back" : [ { "name" : "vantacapeback" } ]
           }
         ] ]

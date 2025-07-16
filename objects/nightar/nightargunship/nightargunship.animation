@@ -1,0 +1,68 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "gunship" : {
+        "hover" : "hover",
+        "states" : {
+          "hover" : {
+            "mode" : "loop",
+            "frames" : 4,
+            "cycle" : 1.5
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false,
+					"fullbright" : true
+        },
+
+        "partStates" : {
+          "gunship" : {
+            "hover" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+				"partStates" : {
+          "gunship" : {
+            "hover" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+	"lights" : {
+		"light1" : {
+			"active" : true,
+			"position" : [-8, 0],
+			"color" : [63, 115, 102]
+		},
+		"light2" : {
+			"active" : true,
+			"position" : [8, 0],
+			"color" : [63, 115, 102]
+		}
+	},
+
+  "sounds" : {
+    "hoverSound" : [ "/sfx/objects/shipengine.ogg" ]
+  }
+}

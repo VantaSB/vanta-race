@@ -6,10 +6,17 @@
   "shortdescription" : "Simple Wall Light",
   "race" : "vanta",
 
+	"apexDescription" : "A functional wall light.",
+  "avianDescription" : "It's a wall light.",
+  "floranDescription" : "Shiny light!",
+  "glitchDescription" : "Impressed. This wall mounted light is effective.",
+  "humanDescription" : "A pretty standard wall light.",
+  "hylotlDescription" : "A wall light. It is functional but unpleasant.",
+  "novakidDescription" : "This light's okay, but it ain't as bright as me!",
+	"vantaDescription" : "Lights like these provide ample lighting in small clusters",
+
   "category" : "light",
-  "price" : 0,
-  "scannable" : false,
-  "printable" : false,
+  "price" : 45,
   "lightColor" : [174, 223, 232],
 
   "inventoryIcon" : "icon.png",
@@ -34,10 +41,6 @@
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
-
-  "pointLight" : true,
-  "pointBeam" : 0,
-  "pointAngle" : 0,
 
   "interactive" : false,
 

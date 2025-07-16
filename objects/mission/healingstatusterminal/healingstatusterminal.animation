@@ -63,8 +63,35 @@
     }
   },
 
+	"particleEmitters" : {
+		"saveText" : {
+			"particles" : [
+				{
+					"emissionRate" : 1.0,
+					"particle" : {
+						"type" : "text",
+						"text" : "Checkpoint Saved",
+						"size" : 0.70,
+						"color" : [49, 97, 49, 191],
+						"fade" : 0.5,
+						"destructionAction" : "shrink",
+						"destructionTime" : 1.5,
+						"position" : [2.0, 3.0],
+						"offsetRegion" : [0, 0, 0, 0],
+						"initialVelocity" : [0, 2],
+						"finalVelocity" : [0, 2],
+						"approach" : [0, 10],
+						"timeToLive" : 2.0,
+						"variance" : {}
+					}
+				}
+			]
+		}
+	},
+
   "sounds" : {
     "use" : [ "/sfx/objects/bardoor_open.ogg" ],
+		"use2" : [ "/sfx/tech/ex_savestation.ogg" ],
 		"ready" : [ "/sfx/interface/scan.ogg" ]
   }
 }

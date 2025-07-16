@@ -1,0 +1,63 @@
+{
+	"objectName" : "nightarbarricadedoorspawn",
+	"rarity" : "Rare",
+	"price" : 0,
+	"description" : "A large, sturdy door.",
+	"shortdescription" : "Nightar Barricade Door",
+	"colonyTags" : ["wired", "door", "nightar"],
+	"race" : "nightar",
+	"category" : "spawner",
+
+	"apexDescription" : "A barricade. I can't bypass its security.",
+	"avianDescription" : "I don't think I'll be able to go through this door at all.",
+	"floranDescription" : "Floran want in... LET FLORAN IN!",
+	"glitchDescription" : "Sullen. This doow will not open for me.",
+	"humanDescription" : "I can't get around its security.",
+	"hylotlDescription" : "Somber is the warrior who falters before the impassible...",
+	"novakidDescription" : "Ain't no way I'm gettin' through that door.",
+	"vantaDescription" : "I can't bypass it's local security system...",
+
+	"inventoryIcon" : "icon.png",
+
+	"orientations" : [
+		{
+			"imageLayers" : [
+				{ "image" : "nightarbarricadedoor.png:closed", "fullbright" : true },
+				{ "image" : "nightarbarricadedoorlit.png:closed" }
+			],
+
+			"imagePosition" : [-24, -32],
+			"direction" : "right",
+
+			"spaceScan" : 0.1,
+
+			"anchors" : [ "background" ]
+		}
+	],
+
+	"scripts" : [ "spawner.lua" ],
+	"scriptDelta" : 10,
+
+	"animation" : "nightarbarricadedoor.animation",
+	"animationParts" : {
+		"bg" : "nightarbarricadedoor.png",
+		"fg" : "nightarbarricadedoorlit.png"
+	},
+	"animationPosition" : [-24, -32],
+
+	"inputNodes" : [ [0, -1] ],
+	"spawner" : {
+		"species" : "nightar",
+		"typeName" : "nightarsoldier_intro",
+		"level" : [1, 10],
+		"parameterOptions" : {
+			"dropPools" : [ ]
+		},
+		"position" : [0, -1],
+		"positionVariance" : [0, 0],
+		"frequency" : [5.0, 5.0],
+		"stock" : 5,
+		"trigger" : null,
+		"outOfSight" : false
+	}
+}

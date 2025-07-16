@@ -9,8 +9,7 @@ function init()
   animator.setAnimationState("movement", "idle")
   object.setInteractive(false)
   object.setAllOutputNodes(false)
-  self.ignoreStealth = config.getParameter("ignoreStealth")
-  if not self.ignoreStealth then
+  if not config.getParameter("detector") then
     performStealthFunctionOverrides()
   end
 end

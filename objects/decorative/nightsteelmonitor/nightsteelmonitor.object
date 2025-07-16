@@ -9,15 +9,12 @@
   "category" : "decorative",
   "price" : 140,
   "lightColor" : [18, 204, 224],
-  "flickerDistance" : 0.2,
-  "flickerStrength" : 0.05,
-  "flickerTiming" : 4,
 
   "inventoryIcon" : "base.png:default.1",
   "orientations" : [
     {
       "dualImage" : "base.png:default.<frame>",
-      "imagePosition" : [-16, -16],
+      "imagePosition" : [-16, -8],
 
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
@@ -31,7 +28,7 @@
     "bg" : "base.png",
     "fg" : "lit.png"
   },
-  "animationPosition" : [-16, -16],
+  "animationPosition" : [-16, -8],
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,

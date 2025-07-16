@@ -2,21 +2,24 @@
   "type" : "asamioutpost",
   "baseType" : "outpostcivilian",
 
+	"npcname" : "Asami",
   "identity" : {
     "imagePath" : "vanta",
     "gender" : "female",
     "hairGroup" : "hair",
-    "hairType" : "fem8",
+    "hairType" : "fem22",
     "personalityIdle" : "idle.4",
     "personalityArmIdle" : "idle.5",
-    "bodyDirectives" : "?replace=ffe2c5=fff2e5?replace=ffc181=ffe0bf?replace=d39c6c=d3b398?replace=c7815b=c79b83?replace=ed1c24=004cd9",
+    "bodyDirectives" : "?replace=ffe2c5=635b5b?replace=ffc181=484141?replace=d39c6c=332e2e?replace=c7815b=1d1a1a?replace=ed1c24=ff7fff",
     "hairDirectives" : "?replace=d9c189=eaeaea?replace=a38d59=b8b8b8?replace=735e3a=828282"
   },
+
+	"persistent" : true,
 
   "scriptConfig" : {
     "uniqueId" : "asamioutpost",
 
-    "reactions" : {
+    /*"reactions" : {
       "spontaneous" : []
     },
     "personalities" : [
@@ -27,17 +30,35 @@
       "greetingChance" : 0,
       "play" : false,
       "chat" : false
-    },
+    },*/
 
-    "offeredQuests" : [ ],
-    "turnInQuests" : [ ],
+		"behavior" : "simple",
+		"behaviorConfig" : {
+			"alwaysRun" : false,
+      "wanderWaitTime" : [6.0, 10.0],
+      "wanderTime" : [0.2, 0.3],
+      "wanderDistance" : 7
+		},
 
+    "offeredQuests" : [
+			//
+		],
+    "turnInQuests" : [
+			//
+		],
+
+		"dialogMode" : "sequence",
     "dialog" : {
       "converse" : {
         "default" : {
           "default" : [
-            "I oversee the medical operations here. Thankfully, we haven't had to utilize the medical ward as much as we thought we would, going up against the Conclave and all."
-          ]
+            "I oversee the medical operations here. Thankfully, we haven't had to utilize the medical ward as much as we thought we would, going up against the Empire and all.",
+						"As you can probably tell, I'm actually a Nightar. I never agreed with the Empire's goals and methods, and because of that and my lack of combat capabilities, I was exiled."
+          ],
+					"vanta" : [
+						"Oh, hello <entityname>! I'm overseeing medical operations here. Thankfully, we haven't had to utilize the medical ward as much as we thought we would.",
+						"I owe my life to Admiral Ran for giving me a second chance at life. Nightars like myself who lack combat capabilities are usually 'disposed of' by the Empire."
+					]
         }
       }
     }

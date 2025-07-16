@@ -1,0 +1,42 @@
+{
+  "objectName" : "nightsteelscanswitch",
+  "rarity" : "Common",
+	"price" : 0,
+  "description" : "A switch designed to react to your scan mode.",
+  "shortdescription" : "Nightsteel Scan Switch",
+  "race" : "generic",
+  "category" : "wire",
+	"printable" : false,
+
+  "apexDescription" : "A scanner-based switch.",
+  "avianDescription" : "This switch reacted to my scan mode.",
+  "floranDescription" : "Ssswitch reacted to Floran's ssscan mode.",
+  "glitchDescription" : "Curious. I wonder what other things can react to my scan mode?",
+  "humanDescription" : "Whoa, this thing reacts to my scan mode!",
+  "hylotlDescription" : "There is beauty in both simplicity and complexity. This switch is an example of the latter.",
+  "novakidDescription" : "That there's a pretty nifty type of switch.",
+  "vantaDescription" : "Having some of our switches react to scanners is actually part of our security measures.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "nightsteelscanswitch.png:off.1",
+      "imagePosition" : [0, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "scanswitch.animation",
+	"animationParts" : {
+    "bg" : "nightsteelscanswitch.png",
+		"fg" : "nightsteelscanswitchlit.png"
+  },
+	"animationPosition" : [0, -8],
+
+  "scripts" : [ "/objects/wired/switch/scanswitch.lua" ],
+  "scriptDelta" : 5,
+
+	"inputNodes" : [ [0, 1] ],
+  "outputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,25 @@
+{
+  "frameGrid" : {
+    "size" : [48, 64],
+    "dimensions" : [6, 1],
+    "names" : [
+      [ "closed", "transition.1", "transition.2", "transition.3", "transition.4", "open" ]
+    ]
+  },
+
+  "aliases" : {
+    "default.default" : "closed",
+
+		"close.1" : "transition.4",
+		"close.2" : "transition.2",
+		"close.3" : "transition.2",
+    "close.4" : "transition.1",
+		"close.5" : "closed",
+
+		"open.1" : "transition.1",
+		"open.2" : "transition.2",
+		"open.3" : "transition.3",
+    "open.4" : "transition.4",
+		"open.5" : "open"
+  }
+}

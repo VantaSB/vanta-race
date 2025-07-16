@@ -1,7 +1,10 @@
+require "/scripts/util.lua"
+require "/scripts/messageutil.lua"
+
 function init()
   setDirection(storage.doorDirection or object.direction())
 
-  --storage.locked = config.getParameter("locked", false)
+  storage.locked = config.getParameter("locked", false) or (object.isInputNodeConnected(1) and object.getInputNodeLevel(1))
 
   self.uniqueId = config.getParameter("uniqueId")
   if self.uniqueId then
@@ -43,8 +46,6 @@ function init()
     end
   end
 
-  storage.locked = config.getParameter("locked")
-
   if storage.locked == nil or false then
     if storage.locked then animator.setAnimationState("doorState", "locked") end
   end
@@ -70,6 +71,33 @@ function init()
 end
 
 function update(dt)
+	if config.getParameter("requiresCompletedQuest") ~= nil then
+		promises:update()
+
+		local players = world.playerQuery(object.position(), config.getParameter("queryRange", 8))
+		if #players > 0 then
+			for _, playerId in pairs (players) do
+				promises:add(
+					world.sendEntityMessage(playerId, "player.hasCompletedQuest", config.getParameter("requiresCompletedQuest")),
+					function(canBeOpened)
+						if canBeOpened and not storage.locked then
+							object.setInteractive(true)
+						else
+							object.setInteractive(false)
+						end
+				end)
+			end
+		else
+			if not storage.locked then
+				object.setInteractive(true)
+			else
+				object.setInteractive(false)
+			end
+		end
+	end
+
+
+
   if self.sensorConfig then
     self.sensorConfig.detectTimer = math.max(0, self.sensorConfig.detectTimer - dt)
 
@@ -99,14 +127,30 @@ function onNodeConnectionChange(args)
   if object.isInputNodeConnected(0) then
     onInputNodeChange({ level = object.getInputNodeLevel(0) })
   end
+
+	if object.isInputNodeConnected(1) then
+		updateInteractive()
+	end
 end
 
 function onInputNodeChange(args)
-  if args.level then
-    openDoor(storage.doorDirection)
-  else
-    closeDoor()
+  if object.isInputNodeConnected(0) then
+		if args.level then
+    	openDoor(storage.doorDirection)
+  	else
+    	closeDoor()
+		end
   end
+
+	if object.isInputNodeConnected(1) then
+		if args.level then
+			unlockDoor()
+			updateInteractive()
+		else
+			lockDoor()
+			updateInteractive()
+		end
+	end
 end
 
 function onInteraction(args)
@@ -130,7 +174,21 @@ function updateLight()
 end
 
 function updateInteractive()
-  object.setInteractive(config.getParameter("interactive", true) and not self.sensorConfig and not object.isInputNodeConnected(0) and not storage.locked)
+	if object.isInputNodeConnected(0) and not object.isInputNodeConnected(1) then
+  	object.setInteractive(false)
+	else
+		object.setInteractive(true)
+	end
+
+	if object.isInputNodeConnected(1) and not object.isInputNodeConnected(0) then
+		if object.getInputNodeLevel(1) then
+			object.setInteractive(true)
+			unlockDoor()
+		else
+			object.setInteractive(false)
+			lockDoor()
+		end
+	end
 end
 
 function updateCollisionAndWires()
@@ -188,7 +246,7 @@ end
 function lockDoor()
   if not storage.locked then
     storage.locked = true
-    updateInteractive()
+    --updateInteractive()
     if storage.state then
       -- close door before locking
       storage.state = false
@@ -205,12 +263,8 @@ end
 function unlockDoor()
   if storage.locked then
     storage.locked = false
-    updateInteractive()
+    --updateInteractive()
     animator.setAnimationState("doorState", "closed")
-    for parameter,value in pairs(config.getParameter("animationParts")) do
-      object.setConfigParameter(parameter, value)
-    end
-    return true
   end
 end
 

@@ -2,7 +2,7 @@ require "/scripts/util.lua"
 require "/scripts/vec2.lua"
 
 function init()
-  message.setHandler("railRiderPresent", function()
+	message.setHandler("railRiderPresent", function()
       stopWaiting()
     end)
 

@@ -1,0 +1,86 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "doorState" : {
+        "default" : "closed",
+        "states" : {
+          "open" : {
+            "frames" : 5,
+            "cycle" : 0.65
+          },
+          "closing" : {
+            "frames" : 5,
+            "cycle" : 0.65,
+            "mode" : "transition",
+            "transition" : "closed"
+          },
+          "closed" : { }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false,
+					"fullbright" : true
+        },
+
+        "partStates" : {
+          "doorState" : {
+            "open" : {
+              "properties" : {
+                "image" : "<partImage>:open.<frame>"
+              }
+            },
+
+            "closing" : {
+              "properties" : {
+                "image" : "<partImage>:close.<frame>"
+              }
+            },
+
+            "closed" : {
+              "properties" : {
+                "image" : "<partImage>:closed"
+              }
+            }
+          }
+        }
+      },
+
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "doorState" : {
+						"open" : {
+              "properties" : {
+                "image" : "<partImage>:open.<frame>"
+              }
+            },
+
+            "closing" : {
+              "properties" : {
+                "image" : "<partImage>:close.<frame>"
+              }
+            },
+
+            "closed" : {
+              "properties" : {
+                "image" : "<partImage>:closed"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "alarm" : [ "/sfx/objects/redalert2.ogg" ]
+  }
+}

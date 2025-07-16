@@ -12,14 +12,35 @@
   },
 
   "scriptConfig" : {
+		/*"reactions" : {
+      "spontaneous" : []
+    },
+    "personalities" : [
+      [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+		"behaviorConfig" : {
+      "greetingChance" : 0,
+      "play" : false,
+      "chat" : false
+    },*/
+
     "offeredQuests" : [ ],
     "turnInQuests" : [ ],
+
+		"behavior" : "simple",
+		"behaviorConfig" : {
+			"alwaysRun" : false,
+      "wanderWaitTime" : [6.0, 10.0],
+      "wanderTime" : [0.2, 0.3],
+      "wanderDistance" : 7
+		},
 
     "dialog" : {
       "converse" : {
         "default" : {
           "default" : [
-            "My job is to ensure the new recruits are properly trained. Going against even the standard rank-and-file of the Conclave can prove to be someone's demise if they aren't careful."
+            "My job is to ensure the new recruits are properly trained. Going against even the standard rank-and-file of the Empire can prove to be someone's demise if they aren't careful."
           ]
         }
       }

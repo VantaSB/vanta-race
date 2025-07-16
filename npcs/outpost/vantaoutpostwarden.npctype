@@ -14,7 +14,7 @@
   },
 
   "scriptConfig" : {
-    "offeredQuests" : [ ],
+    /*"offeredQuests" : [ ],
     "turnInQuests" : [ ],
 
     "reactions" : {
@@ -28,14 +28,32 @@
       "greetingChance" : 0,
       "play" : false,
       "chat" : false
-    },
+    },*/
+
+		"behavior" : "simple",
+		"behaviorConfig" : {
+			"alwaysRun" : false,
+      "wanderWaitTime" : [6.0, 10.0],
+      "wanderTime" : [0.2, 0.3],
+      "wanderDistance" : 7
+		},
+
+    "offeredQuests" : [
+			//
+		],
+    "turnInQuests" : [
+			//
+		],
 
     "dialog" : {
       "converse" : {
         "default" : {
           "default" : [
-            "If you've come to chit-chat with a prisoner, keep your visit brief."
-          ]
+            "... ... ... Oh, my apologies. I'm currently assessing whether or not we should keep this as a prison section or convert it to something else."
+          ],
+					"vanta" : [
+						"... ... ... Oh, sorry for the space-out, <entityname>. There's a lot about this base that we're trying to figure out, including this prison area. I'm wondering if it's really necessary to keep it as-is or convert it to something else...?"
+					]
         }
       }
     }

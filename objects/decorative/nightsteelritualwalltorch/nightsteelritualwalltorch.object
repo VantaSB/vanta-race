@@ -1,0 +1,78 @@
+{
+  "objectName" : "nightsteelritualwalltorch",
+  "colonyTags" : ["nightar","vanta","light"],
+  "rarity" : "Uncommon",
+  "description" : "A nightsteel torch bearing the Vanta emblem.",
+  "shortdescription" : "Nightsteel Wall Torch",
+  "race" : "vanta",
+  "category" : "light",
+  "price" : 90,
+  "printable" : false,
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "This torch provides warmth as well as light.",
+  "avianDescription" : "A rather lovely torch, if I might say!",
+  "floranDescription" : "Burning emblem!",
+  "glitchDescription" : "Comfortable. This torch is a testament to the craftsmanship of the Vanta!",
+  "humanDescription" : "A neat looking torch!",
+  "hylotlDescription" : "There is elegance in simplicity, but this flame is oddly-colored.",
+  "novakidDescription" : "That's a pretty nifty torch there!",
+
+  "lightColor" : [237, 198, 255],
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.85,
+  "flickerMaxIntensity" : 0.9,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
+
+  "statusEffects" : [ ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "nightsteelritualwalltorch.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [0,2] ],
+      "anchors" : [ "background" ],
+      "animationPosition" : [-8, -8]
+    },
+  {
+      "image" : "nightsteelritualwalltorch.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+
+      "direction" : "right",
+
+      "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [0,2] ],
+      "anchors" : [ "background" ],
+      "animationPosition" : [-8, -8]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "animation" : "nightsteelritualwalltorch.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "nightsteelritualwalltorch.png",
+    "fg" : "nightsteelritualwalltorchlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, -1] ]
+
+  // "interactive" : false
+}

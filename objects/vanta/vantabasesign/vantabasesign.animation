@@ -1,0 +1,126 @@
+{
+	"animatedParts" : {
+		"stateTypes" : {
+			"signState" : {
+				"default" : "room",
+				"states" : {
+					"armory" : { "frames" : 1 },
+					"command" : { "frames" : 1 },
+					"cells" : { "frames" : 1 },
+					"hall" : { "frames" : 1 },
+					"medical" : { "frames" : 1 },
+					"power" : { "frames" : 1 },
+					"room" : { "frames" : 1 },
+					"tech" : { "frames" : 1 },
+					"warp" : { "frames" : 1 },
+					"3a" : { "frames" : 1 },
+					"3b" : { "frames" : 1 },
+					"3c" : { "frames" : 1 },
+					"3d" : { "frames" : 1 },
+					"2a" : { "frames" : 1 },
+					"2b" : { "frames" : 1 },
+					"2c" : { "frames" : 1 },
+					"2d" : { "frames" : 1 }
+				}
+			}
+		},
+
+		"parts" : {
+			"signage" : {
+				"properties" : {
+					"centered" : false
+				},
+
+				"partStates" : {
+					"signState" : {
+						"armory" : {
+							"properties" : {
+								"image" : "<partImage>:armory"
+							}
+						},
+						"command" : {
+							"properties" : {
+								"image" : "<partImage>:cmd"
+							}
+						},
+						"cells" : {
+							"properties" : {
+								"image" : "<partImage>:cells"
+							}
+						},
+						"hall" : {
+							"properties" : {
+								"image" : "<partImage>:hall"
+							}
+						},
+						"medical" : {
+							"properties" : {
+								"image" : "<partImage>:medical"
+							}
+						},
+						"power" : {
+							"properties" : {
+								"image" : "<partImage>:power"
+							}
+						},
+						"room" : {
+							"properties" : {
+								"image" : "<partImage>:room"
+							}
+						},
+						"tech" : {
+							"properties" : {
+								"image" : "<partImage>:tech"
+							}
+						},
+						"warp" : {
+							"properties" : {
+								"image" : "<partImage>:warp"
+							}
+						},
+						"3a" : {
+							"properties" : {
+								"image" : "<partImage>:3a"
+							}
+						},
+						"3b" : {
+							"properties" : {
+								"image" : "<partImage>:3b"
+							}
+						},
+						"3c" : {
+							"properties" : {
+								"image" : "<partImage>:3c"
+							}
+						},
+						"3d" : {
+							"properties" : {
+								"image" : "<partImage>:3d"
+							}
+						},
+						"2a" : {
+							"properties" : {
+								"image" : "<partImage>:2a"
+							}
+						},
+						"2b" : {
+							"properties" : {
+								"image" : "<partImage>:2b"
+							}
+						},
+						"2c" : {
+							"properties" : {
+								"image" : "<partImage>:2c"
+							}
+						},
+						"2d" : {
+							"properties" : {
+								"image" : "<partImage>:2d"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

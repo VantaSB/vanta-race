@@ -27,5 +27,7 @@
   ],
 
   "animation" : "nightarincap3.animation",
-  "animationPosition" : [-8, 0]
+  "animationPosition" : [-8, 0],
+
+	"scripts" : [ "scanInteraction.lua" ]
 }

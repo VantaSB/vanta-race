@@ -1,0 +1,101 @@
+{
+  "objectName" : "ceruleumspout",
+  "colonyTags" : ["nightar","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 115,
+  "printable" : false,
+  "description" : "The ceruleum in this small fountain has a soft glow.",
+  "shortdescription" : "Ceruleum Spout",
+  "race" : "generic",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "This ceruleum glows brightly, and is recycled through the fixture.",
+  "avianDescription" : "Well, I suppose it's a semi-natural light source?",
+  "floranDescription" : "Dark water glowss brightly!",
+  "glitchDescription" : "Confused. What purpose does a ceruleum fountain serve?",
+  "humanDescription" : "This ceruleum glows so brightly.",
+  "hylotlDescription" : "Ceruleum is a reminder of the power of nature of other worlds.",
+  "novakidDescription" : "That ceruleum will cause some serious delerium if I touch it bare-handed.",
+	"vantaDescription" : "Even though it's processed, touching ceruleum directly can cause major health problems.",
+
+  "lightColor" : [18, 204, 224],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+				{ "image" : "ceruleumspout.png:<color>.<frame>", "fullbright" : true },
+				{ "image" : "ceruleumspoutlit.png:<color>.<frame>" }
+			],
+      "imagePosition" : [-8, 0],
+
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "animationPosition" : [-9, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "left"
+    },
+    {
+			"imageLayers" : [
+				{ "image" : "ceruleumspout.png:<color>.<frame>", "fullbright" : true },
+				{ "image" : "ceruleumspoutlit.png:<color>.<frame>" }
+			],
+      "imagePosition" : [-9, 0],
+
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    },
+    {
+			"imageLayers" : [
+				{ "image" : "ceruleumspoutright.png:<color>.<frame>", "fullbright" : true },
+				{ "image" : "ceruleumspoutrightlit.png:<color>.<frame>" }
+			],
+      "imagePosition" : [0, 0],
+
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      "animationPosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+
+      "direction" : "left",
+			"flipImages" : true
+    },
+    {
+			"imageLayers" : [
+				{ "image" : "ceruleumspoutright.png:<color>.<frame>", "fullbright" : true },
+				{ "image" : "ceruleumspoutrightlit.png:<color>.<frame>" }
+			],
+      "imagePosition" : [-8, 0],
+
+			"frames" : 4,
+			"animationCycle" : 0.5,
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/foundrylight.ogg"
+}

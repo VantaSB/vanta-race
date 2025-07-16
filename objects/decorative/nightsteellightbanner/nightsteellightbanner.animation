@@ -9,7 +9,7 @@
           },
           "on" : {
             "frames" : 3,
-            "cycle" : 0.85,
+            "cycle" : 0.5,
             "mode" : "loop"
           }
         }

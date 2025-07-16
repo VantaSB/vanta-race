@@ -1,0 +1,111 @@
+{
+  "objectName" : "ceruleumtanklarge",
+  "colonyTags" : ["foundry","mechanical"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 420,
+  "description" : "A large tank full of volatile liquid ceruleum.",
+  "shortdescription" : "Large Ceruleum Tank",
+  "race" : "nightar",
+
+  "apexDescription" : "Strange vapors surround this tank.",
+  "avianDescription" : "This tank holds a strange liquid.",
+  "floranDescription" : "Tank keepss strange liquid contained.",
+  "glitchDescription" : "Overwhelmed. The scale of this tank is intimidating.",
+  "humanDescription" : "This giant tank contains strange liquid inside.",
+  "hylotlDescription" : "The fumes from this tank are toxic.",
+  "novakidDescription" : "Big ol' tank spewin' clouds of smoke.",
+	"vantaDescription" : "It's a tank full of ceruleum.",
+
+  "lightColor" : [125, 179, 197],
+
+  "flickerPeriod" : 1.0,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+				{ "image" : "ceruleumtanklarge.png", "fullbright" : true },
+				{ "image" : "ceruleumtanklargelit.png" }
+			],
+      "imagePosition" : [-16, -32],
+
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [1, 4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+			"imageLayers" : [
+				{ "image" : "ceruleumtanklarge.png", "fullbright" : true },
+				{ "image" : "ceruleumtanklargelit.png" }
+			],
+      "imagePosition" : [-16, -32],
+
+      "direction" : "right",
+      "lightPosition" : [-1,4],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "particleEmitters" : [
+    // SMOKE
+    {
+      "emissionRate" : 0.5,
+      "emissionVariance" : 0.05,
+      "pixelOrigin" : [0, 0],
+
+    "particle" : {
+      "type" : "textured",
+      "image" : "/animations/volcanopoof/volcanopoof.png",
+      "size" : 1.0,
+      "color" : [12, 142, 144, 255],
+      "destructionAction" : "fade",
+      "destructionTime" : 3,
+      "initialVelocity" : [0, 0],
+      "timeToLive" : 15,
+      "layer" : "front",
+      "position" : [0, 5],
+      "collidesForeground" : false
+    },
+    "particleVariance" : {
+      "initialVelocity" : [3.0, 0.0],
+      "rotation" : 90,
+      "size" : 0.5
+      }
+    }/*,
+
+    // SMALL POOF
+    {
+      "emissionRate" : 1,
+      "emissionVariance" : 0.5,
+      "pixelOrigin" : [0, 21],
+
+      "particle" : {
+          "type" : "animated",
+          "image" : "/animations/smallpoof/smallpoof.animation",
+          "size" : 1.0,
+          "opacity":0.1,
+          "color" : [12, 142, 144, 255],
+          "destructionAction" : "fade",
+          "destructionTime" : 4,
+          "initialVelocity" : [0, 2],
+          "timeToLive" : 5,
+          "layer" : "front",
+          "position" : [1, 12],
+          "collidesForeground" : false
+      },
+      "particleVariance" : {
+        "position" : [0.9, 0],
+          "finalVelocity" : [0, 0]
+      }
+    }*/
+  ]
+}

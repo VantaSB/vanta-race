@@ -1,0 +1,66 @@
+{
+  "objectName" : "nightarconsole",
+  "rarity" : "Common",
+	"price" : 0,
+  "description" : "A portable console used for logging Nightar field missions.",
+  "shortdescription" : "Nightar Log Console",
+	"race" : "nightar",
+	"category" : "wire",
+	"printable" : false,
+
+  "lightColor" : [38, 128, 128],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "apexDescription" : "This console offers log data via scanning.",
+  "avianDescription" : "A console with a large, holographic interface.",
+  "floranDescription" : "Floran ssscan screen. Make thingsss happen!",
+  "glitchDescription" : "Impressed. This tiny console can hold a significant amount of data.",
+  "humanDescription" : "A field log console. Let's take a peek!",
+  "hylotlDescription" : "This control console has a sleek and stylish design.",
+  "novakidDescription" : "This console sure is somethin'.",
+	"vantaDescription" : "As powerful as these consoles are, they lack in security to scanning equipment.",
+
+  "inventoryIcon" : "icon.png",
+	"animation" : "nightarconsole.animation",
+  "animationParts" : {
+    "bg" : "nightarconsole.png",
+		"fg" : "nightarconsolelit.png"
+  },
+  "animationPosition" : [-8, 0],
+  "orientations" : [
+    {
+      "imageLayers" : [
+				{ "image" : "nightarconsole.png:default.<frame>", "fullbright" : true },
+				{ "image" : "nightarconsolelit.png:default.<frame>" }
+			],
+
+			"direction" : "left",
+			"flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+1",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+		{
+      "imageLayers" : [
+				{ "image" : "nightarconsole.png:default.<frame>", "fullbright" : true },
+				{ "image" : "nightarconsolelit.png:default.<frame>" }
+			],
+
+			"direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+1",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/ex_scanfunctions.lua" ],
+  "scriptDelta" : 5
+}

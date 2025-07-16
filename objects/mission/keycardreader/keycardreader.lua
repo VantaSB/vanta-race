@@ -1,11 +1,9 @@
 function init()
+	storage.active = storage.active or false
   self.interactData = config.getParameter("interactData")
-  self.keycardType = config.getParameter("keycardType", "nightar")
-  self.requiredLevel = config.getParameter("requiredLevel", 0)
+  self.keycardType = config.getParameter("keycardType")
   animator.setAnimationState("switchState", "off")
   object.setAllOutputNodes(false)
-  self.interval = 60
-  storage.timer = 0
 
   message.setHandler("activate", function()
     activate()
@@ -21,19 +19,17 @@ function onInteraction(args)
 end
 
 function update(dt)
-  if storage.timer > 0 then
-    storage.timer = storage.timer - 1
-    if storage.timer == 0 then
-      object.setInteractive(true)
-      animator.setAnimationState("switchState", "off")
-      object.setAllOutputNodes(false)
-    end
+  if not storage.active then
+		object.setAllOutputNodes(false)
+	  object.setInteractive(true)
+		animator.setAnimationState("switchState", "off")
+	else
+		object.setAllOutputNodes(true)
+	  object.setInteractive(false)
+		animator.setAnimationState("switchState", "on")
   end
 end
 
 function activate()
-  storage.timer = self.interval
-  object.setAllOutputNodes(true)
-  object.setInteractive(false)
-  animator.setAnimationState("switchState", "on")
+  storage.active = true
 end

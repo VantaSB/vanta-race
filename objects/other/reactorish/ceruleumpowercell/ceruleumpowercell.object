@@ -4,18 +4,20 @@
   "printable" : false,
   "rarity" : "Common",
   "price" : 0,
-  "description" : "A highly volatile container powering a nearby reactor.",
-  "shortdescription" : "Ceruleum Fuel Cell",
+  "description" : "A highly volatile power storage device.",
+  "shortdescription" : "Volatile Fuel Cell",
   "race" : "nightar",
 
-  // "apexDescription" : "-todo-",
-  // "avianDescription" : "-todo-",
-  // "floranDescription" : "-todo-",
-  // "glitchDescription" : "-todo-",
-  // "humanxDescription" : "-todo-",
-  // "hylotlDescription" : "-todo-",
-  // "novakidDescription" : "-todo-",
-  // "vantaDescription" : "-todo-",
+	"lightColor" : [5, 64, 44],
+
+	"apexDescription" : "This power cell is energized with ceruleum, but it appears unstable...",
+  "avianDescription" : "It's a ceruleum power cell. I should be careful around it...",
+  "floranDescription" : "Floran ssshould be careful...",
+  "glitchDescription" : "Cautious. This power cell appears unstable...",
+  "humanDescription" : "No way this would ever pass a proper inspection...!",
+  "hylotlDescription" : "A volatile power storage device...",
+  "novakidDescription" : "That power cell looks pretty shoddy. I oughta be careful around it...",
+  "vantaDescription" : "Ceruleum is useful for power, despite its volatility.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -24,13 +26,13 @@
         { "image" : "ceruleumpowercell.png", "fullbright" : true },
         { "image" : "ceruleumpowercelllit.png" }
       ],
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-16, -24],
       "spaceScan" : 0.1,
       "anchors" : []
     }
   ],
 
-  "outputNodes" : [ [0, 3] ],
+  "outputNodes" : [ [0, 0] ],
 
   "smashable" : true,
   "smashSounds" : [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ],

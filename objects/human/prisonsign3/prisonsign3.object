@@ -1,0 +1,33 @@
+{
+  "objectName" : "prisonsign3",
+  "colonyTags" : ["human","humanprison"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+
+  "description" : "The sign says \"Solitary\".",
+  "shortdescription" : "Solitary Confinement Sign",
+  "race" : "human",
+
+  "apexDescription" : "A sign reading \"Solitary\".",
+  "avianDescription" : "This points to a solitary confinement block.",
+  "floranDescription" : "A boring sssign.",
+  "glitchDescription" : "Neutral. \"Solitary\".",
+  "humanDescription" : "I've always wanted to visit a cell block! Wait, no, I'm thinking of the zoo.",
+  "hylotlDescription" : "A sign for people incapable of looking at their surroundings.",
+  "novakidDescription" : "The sign says \"Solitary\".",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "prisonsign3.png",
+      "imagePosition" : [-24, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

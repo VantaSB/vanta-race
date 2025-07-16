@@ -1,0 +1,48 @@
+{
+  "type" : "nightarpilot",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : "/dialog/nightarsoldiers.config:attack",
+			"reattack" : "/dialog/nightarsoldiers.config:reattack",
+			"killedTarget" : "/dialog/nightarsoldiers.config:killedTarget",
+			"lostTarget" : "/dialog/nightarsoldiers.config:lostTarget",
+			"cheerOn" : "/dialog/nightarsoldiers.config:cheerOn"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "nightarpilothead" } ],
+          "chest" : [ { "name" : "nightarpilotchest" } ],
+          "legs" : [ { "name" : "nightarpilotpants" } ],
+          "primary" : [ "nightarsidearm_intro" ]
+        }
+      ] ]
+    ]
+  }/*,
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.10
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }*/
+}

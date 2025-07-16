@@ -14,7 +14,7 @@
   "orientations" : [
     {
       "image" : "nightsteelsecuritymonitor.png:<color>.<frame>",
-      "imagePosition" : [ 0, 0 ],
+      "imagePosition" : [ -40, -16 ],
 
       "direction" : "right",
 
@@ -29,10 +29,12 @@
     "fg" : "nightsteelsecuritymonitorlit.png"
   },
 
+	"animationPosition" : [ -40, -16 ],
+
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
   "interactive" : false,
 
-  "inputeNodes" : [ [5, 2] ]
+  "inputNodes" : [ [0, 0] ]
 }

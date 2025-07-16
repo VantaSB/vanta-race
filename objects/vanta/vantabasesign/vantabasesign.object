@@ -1,0 +1,39 @@
+{
+  "objectName" : "vantabasesign",
+  "colonyTags" : ["vanta", "outpost"],
+  "rarity" : "Common",
+  "category" : "decorative",
+	"printable" : false,
+  "price" : 60,
+
+  "description" : "A simple plaque.",
+  "shortdescription" : "Vanta Base Sign",
+  "race" : "vanta",
+
+  "apexDescription" : "A simple plaque.",
+  "avianDescription" : "A simple plaque.",
+  "floranDescription" : "Dark sssign.",
+  "glitchDescription" : "Indifferent. A standardized plaque.",
+  "humanDescription" : "It's a simple plaque.",
+  "hylotlDescription" : "It is but a simple plaque.",
+  "novakidDescription" : "Just another sign.",
+
+  "inventoryIcon" : "icon.png",
+	"animation" : "vantabasesign.animation",
+	"animationPosition" : [-16, 0],
+	"animationParts" : {
+		"signage" : "sign.png"
+	},
+  "orientations" : [
+    {
+      "image" : "sign.png:<color>",
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+	"scripts" : [ "sign.lua" ],
+
+	"sign" : "room"
+}

@@ -1,0 +1,84 @@
+{
+  "objectName" : "vantarelicstatue",
+	"price" : 500,
+  "rarity" : "Common",
+  "description" : "A statue. It's holding something.",
+  "shortdescription" : "Vanta Relic",
+	"category" : "decorative",
+	"printable" : false,
+	"colonyTags" : ["vanta"],
+  "race" : "vanta",
+
+  "apexDescription" : "A statue. It appears to be holding something.",
+	"avianDescription" : "The statue's light gives off a soft glow.",
+	"floranDescription" : "Fancy ssstatue can move!",
+	"glitchDescription" : "Impressed. This statue is capable of moving to some degree.",
+	"humanDescription" : "I hope it doesn't try to grab me!",
+	"hylotlDescription" : "This statue stands and glows with the pride of the Vanta.",
+	"novakidDescription" : "There's some pretty fancy clockwork hiding inside this statue!",
+	"vantaDescription" : "In our culture, these statues are said to act as silent sentinels.",
+
+	"pickedUpParameters" : {
+    "description" : "A statue that was holding something until recently.",
+    "apexDescription" : "This statue looks like it was holding something recently.",
+    "avianDescription" : "It's a moving statue, but there's no power going to it right now.",
+    "floranDescription" : "Floran wondersss if statue will move again.",
+    "glitchDescription" : "Dejected. This statue has several mechanical and electronic components in it, but it doesn't look like it will move now...",
+    "humanDescription" : "I don't think this statue will hold anything again anytime soon.",
+    "hylotlDescription" : "The light has faded from this statue, but it still stands resolute.",
+    "novakidDescription" : "It ain't movin' anymore...",
+		"vantaDescription" : "The silent sentinel sleeps."
+  },
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "vantarelicstatue.animation",
+  "animationParts" : {
+    "bg" : "vantarelicstatue.png",
+    "fg" : "vantarelicstatuelit.png"
+  },
+  "animationPosition" : [-8, -16],
+
+  "orientations" : [
+    {
+	  	"imageLayers" : [
+				{ "image" : "vantarelicstatue.png:claiming.claimed", "fullbright" : true },
+				{ "image" : "vantarelicstatuelit.png:claiming.claimed" }
+			],
+			"direction" : "left",
+			"flipImages" : true,
+
+      "imagePosition" : [-8, -16],
+      "frames" : 4,
+      "animationCycle" : 0.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+	  "imageLayers" : [
+			{ "image" : "vantarelicstatue.png:claiming.claimed", "fullbright" : true },
+			{ "image" : "vantarelicstatuelit.png:claiming.claimed" }
+		],
+		"direction" : "right",
+
+		"imagePosition" : [-8, -16],
+		"frames" : 4,
+		"animationCycle" : 0.8,
+
+		"spaceScan" : 0.1,
+		"anchors" : [ "bottom" ]
+    }
+  ],
+
+	"outputNodes" : [
+		[0, 1]
+	],
+
+  "scripts" : [ "/objects/other/vantarelicstatue/vantarelicstatue.lua" ],
+  "scriptDelta" : 5,
+
+	// This can be configured in tiled for flexibility
+	"relicItem" : null,
+	"uniqueId" : null
+}

@@ -17,16 +17,19 @@
     "offeredQuests" : [ ],
     "turnInQuests" : [ ],
 
+		"behavior" : "simple",
+		"behaviorConfig" : {
+			"alwaysRun" : false,
+      "wanderWaitTime" : [6.0, 10.0],
+      "wanderTime" : [0.2, 0.3],
+      "wanderDistance" : 7
+		},
+
     "dialog" : {
       "converse" : {
         "default" : {
           "default" : [
-            "Liquid ceruleum has a variety of uses, most notably enhancing our weapons. But we also found more peaceful applications for it, such as fuel for starships and power reactors for settlements."
-          ]
-        },
-        "vanta" : {
-          "default" : [
-            "Liquid ceruleum has a variety of uses, most notably enhancing our weapons. But we also found more peaceful applications for it, such as fuel for starships and power reactors for settlements."
+            "Liquid ceruleum has a variety of uses, most notably enhancing our weapons. But we also found more peaceful applications for it, such as fuel for starships and power generators for lesser-developed  settlements."
           ]
         }
       }

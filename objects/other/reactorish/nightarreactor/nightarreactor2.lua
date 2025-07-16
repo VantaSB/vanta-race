@@ -1,14 +1,11 @@
 function init()
-  if storage.state == nil then storage.state = config.getParameter("defaultPowerState", true) end
-
-  self.interactive = config.getParameter("interactive", false)
-  object.setInteractive(self.interactive)
+  storage.state = storage.state or false
 
   if config.getParameter("inputNodes") then
     processWireInput()
   end
 
-  --setPowerState(storage.state)
+  setPowerState(storage.state)
 end
 
 function onNodeConnectionChange(args)
@@ -19,21 +16,15 @@ function onInputNodeChange(args)
   processWireInput()
 end
 
-function onInteraction(args)
-  if not config.getParameter("inputNodes") or not object.isInputNodeConnected(0) then
-    storage.state = not storage.state
-    setPowerState(storage.state)
-  end
-end
-
 function processWireInput()
   if object.isInputNodeConnected(0) then
-    object.setInteractive(false)
-    storage.state = object.getInputNodeLevel(0)
-    setPowerState(storage.state)
-  elseif self.interactive then
-    object.setInteractive(true)
-  end
+		if object.getInputNodeLevel(0) then
+    	storage.state = true
+		else
+			storage.state = false
+		end
+	end
+	setPowerState(storage.state)
 end
 
 function setPowerState(newState)
@@ -45,7 +36,7 @@ function setPowerState(newState)
     if animator.hasSound("on") then
       animator.playSound("on");
     end
-    world.sendEntityMessage("reactorroommanager", "reactorOn")
+    --world.sendEntityMessage("reactorroommanager", "reactorOn")
   else
     object.setAllOutputNodes(false)
     animator.setAnimationState("base", "inactive")

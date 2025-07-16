@@ -1,0 +1,57 @@
+{
+  "objectName" : "nightsteelconsolepowered",
+  "colonyTags" : ["nightar","vanta","electronic"],
+  "rarity" : "Common",
+  "description" : "An intuitive command console.",
+  "shortdescription" : "Nightsteel Console",
+  "race" : "nightar",
+  "category" : "decorative",
+  "price" : 100,
+
+  "lightColor" : [0, 0, 0, 0],
+
+  "apexDescription" : "A console. Its design is similar to some common models.",
+  "avianDescription" : "A console. Though, this looks rather basic.",
+  "floranDescription" : "Dark consssole not shiny enough for Floran.",
+  "glitchDescription" : "Curious. This console's design seems familiar...",
+  "humanDescription" : "This console always stays on.",
+  "hylotlDescription" : "This console appears to be a secure terminal connected to a larger system.",
+  "novakidDescription" : "I can't figure out all the tiny glyphs on the screen.",
+  "vantaDescription" : "The glyphs on these keys are from an older Nightar dialect.",
+
+  "inventoryIcon" : "/objects/outpost/outpostsecurityconsole/icon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "nightsteelconsolepowered.png:<color>.<frame>", "fullbright" : true },
+        { "image" : "nightsteelconsolepoweredlit.png:<color>.<frame>" }
+      ],
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/decorative/nightsteelconsole/nightsteelconsole.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "nightsteelconsole.animation",
+  "animationParts" : {
+    "bg" : "nightsteelconsolepowered.png",
+    "fg" : "nightsteelconsolepoweredlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+	"inputNodes" : [
+		[5, 1]
+	],
+  "outputNodes" : [
+    [5, 0]
+  ],
+
+  "broadcastArea" : [-5, -5, 5, 5]
+  // "radioMessages" : []
+	// "lockedRadioMessages" : []
+}

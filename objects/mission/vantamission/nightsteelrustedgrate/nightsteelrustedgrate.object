@@ -1,0 +1,41 @@
+{
+  "objectName" : "nightsteelrustedgrate",
+  "colonyTags" : ["vanta","nightar"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 0,
+  "description" : "A rusty grate. It looks like it could fall apart any moment.",
+  "shortdescription" : "Rusty Nightsteel Grating",
+  "race" : "generic",
+
+	"health" : 20,
+
+	"apexDescription" : "A rusty grate. I could easily smash it.",
+	"avianDescription" : "This grate looks rusty. I might be able to break through it with a weapon.",
+	"floranDescription" : "Flimsssy metal no match for Floran!",
+	"glitchDescription" : "Confident. The integrity of this grate is compromised - I could break it with ease!",
+	"humanDescription" : "What a flimsy-looking metal grate. I'm surprised it hasn't rusted out of existence yet.",
+	"hylotlDescription" : "",
+	"novakidDescription" : "Big ol' piece a' junk.",
+	"vantaDescription" : "Nightsteel usually doesn't rust this bad.",
+
+  "inventoryIcon" : "nightsteelrustedgrate.png",
+  "orientations" : [
+    {
+      "image" : "nightsteelrustedgrate.png",
+      "imagePosition" : [0, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ ],
+      "direction" : "right"
+    }
+  ],
+
+	"scripts" : [ "physics.lua" ],
+
+  "smashable" : true,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/metalbarrel_break2.ogg" ],
+  "smashDropPool" : "empty"
+}

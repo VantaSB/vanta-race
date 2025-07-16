@@ -48,12 +48,11 @@
   },
   "animationParts" : {
     "bg" : "nightarshipdoor.png",
-    "fg" : "nightarshipdoorlit.png",
-    "door" : "nightarshipdoor.png"
+    "fg" : "nightarshipdoorlit.png"
   },
   "animationPosition" : [-20, 0],
 
-  "inputNodes" : [ [-1, 4] ],
+  "inputNodes" : [ [-1, 4], [0, 4] ],
   "outputNodes" : [ [0, 0] ],
 
   "uniqueId" : null

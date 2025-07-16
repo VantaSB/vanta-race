@@ -12,6 +12,9 @@
   "flickerDistance" : 0.05,
   "flickerStrength" : 0.05,
 
+	"scripts" : ["/objects/wired/ex_scanfunctions.lua"],
+	"scriptDelta" : 5,
+
   "inventoryIcon" : "vantahologramsmlicon.png",
   "orientations" : [
     {
@@ -19,7 +22,7 @@
 
       "imagePosition" : [0, 0],
       "frames" : 2,
-      "animationCycle" : 1.0,
+      "animationCycle" : 0.5,
 
       "spaceScan" : 0.1
 

@@ -1,0 +1,56 @@
+{
+  "objectName" : "nightarshipchair2",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+  "price" : 300,
+  "description" : "A chair made specifically for a ship.",
+  "shortdescription" : "Nightar Ship Chair",
+  "race" : "nightar",
+  "category" : "furniture",
+
+  "apexDescription" : "This chair was designed for space flight in mind.",
+  "avianDescription" : "This is a very comfortable chair, despite its appearance.",
+  "floranDescription" : "Floran sstill comfortable sssitting in chair.",
+  "glitchDescription" : "Observant. This chair was designed to be used in ships.",
+  "humanDescription" : "Pretty comfortable for something that doesn't look like it!",
+  "hylotlDescription" : "This chair is just as comfortable as any other.",
+  "novakidDescription" : "That's a nice-lookin' chair.",
+  "vantaDescription" : "We use this design specifically for ships.",
+
+
+  "inventoryIcon" : "nightarshipchairicon.png",
+  "orientations" : [
+    {
+			"imageLayers" : [
+				{ "image" : "nightarshipchair2.png", "fullbright" : true },
+				{ "image" : "nightarshipchair2lit.png" }
+			],
+      "imagePosition" : [ -12, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [ 1.6, 22.5 ]
+	},
+	{
+		"imageLayers" : [
+			{ "image" : "nightarshipchair2.png", "fullbright" : true },
+			{ "image" : "nightarshipchair2lit.png" }
+		],
+      "imagePosition" : [ -12, 0 ],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [ 1.6, 22.5 ]
+	}
+  ],
+
+  "sitFlipDirection": false
+}

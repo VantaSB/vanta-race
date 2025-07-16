@@ -17,7 +17,7 @@
   "humanDescription" : "This console always stays on.",
   "hylotlDescription" : "This console appears to be a secure terminal connected to a larger system.",
   "novakidDescription" : "I can't figure out all the tiny glyphs on the screen.",
-  "vantaDescription" : "These symbols are from an older Vanta dialect.",
+  "vantaDescription" : "The glyphs on these keys are from an older Nightar dialect.",
 
   "inventoryIcon" : "/objects/outpost/outpostsecurityconsole/icon.png",
 
@@ -45,15 +45,13 @@
   "animationPosition" : [0, 0],
 
 	"inputNodes" : [
-		[4, 0]
+		[5, 1]
 	],
   "outputNodes" : [
     [5, 0]
   ],
 
-  "broadcastArea" : [-5, -5, 5, 5],
-  "useRadioMessages" : false,
-  "radioMessage" : null,
-  "radioMessages" : [],
-	"lockedRadioMessages" : []
+  "broadcastArea" : [-5, -5, 5, 5]
+  // "radioMessages" : []
+	// "lockedRadioMessages" : []
 }

@@ -1,0 +1,27 @@
+{
+  "objectName" : "nightsteelwindowframesmall",
+  "colonyTags" : ["vanta","nightar","decorative"],
+  "rarity" : "Common",
+  "description" : "...",
+  "shortdescription" : "Nightsteel Window Frame",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  "scannable" : false,
+
+	//"lightColor" : [130, 217, 232],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "nightsteelwindowframesmall.png",
+
+			//"lightPosition" : [0, 0],
+
+      "imagePosition" : [-32, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

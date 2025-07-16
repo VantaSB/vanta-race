@@ -10,7 +10,7 @@
   "shortdescription" : "Nightar Heat-Sensing Camera",
   "race" : "nightar",
 
-  "ignoreStealth" : true,
+  "detector" : true,
 
   "apexDescription" : "This camera has heat sensors, I should take extra caution.",
   "avianDescription" : "A heat-sensing camera!? This is bad...",

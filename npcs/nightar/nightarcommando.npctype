@@ -8,18 +8,11 @@
 
   "scriptConfig" : {
     "dialog" : {
-      "attack" : {
-        "default" : {
-          "default" : [
-            "!"
-          ]
-        },
-        "nightar" : {
-          "default" : [
-            "!"
-          ]
-        }
-      }
+			"attack" : "/dialog/nightarsoldiers.config:attack",
+			"reattack" : "/dialog/nightarsoldiers.config:reattack",
+			"killedTarget" : "/dialog/nightarsoldiers.config:killedTarget",
+			"lostTarget" : "/dialog/nightarsoldiers.config:lostTarget",
+			"cheerOn" : "/dialog/nightarsoldiers.config:cheerOn"
     }
   },
 
@@ -30,11 +23,11 @@
           "head" : [ { "name" : "nightarcommandohead" } ],
           "chest" : [ { "name" : "nightarcommandochest" } ],
           "legs" : [ { "name" : "nightarcommandopants" } ],
-          "primary" : [ "nightarmachinegun" ]
+          "primary" : [ "nightarmachinepistol" ]
         }
       ] ]
     ]
-  },
+  }/*,
 
   "statusControllerSettings" : {
     "stats" : {
@@ -48,5 +41,5 @@
         "baseValue" : 1.1
       }
     }
-  }
+  }*/
 }

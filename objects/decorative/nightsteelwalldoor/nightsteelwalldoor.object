@@ -8,6 +8,7 @@
   "category" : "door",
   "price" : 0,
   "printable" : false,
+	"keepAlive" : true,
 
   "openLight" : [0, 0, 0],
   "closedLight" : [0, 0, 0],

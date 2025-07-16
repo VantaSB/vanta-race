@@ -1,0 +1,85 @@
+{
+  "objectName" : "nightsteelgenerator",
+  "colonyTags" : ["vanta","electronic"],
+  "rarity" : "Common",
+  "description" : "A power generator",
+  "shortdescription" : "Nightsteel Generator",
+  "race" : "vanta",
+  "price" : 1000,
+  "lightColor" : [78, 111, 128],
+  "category" : "wire",
+  "printable" : false,
+
+  "apexDescription" : "A power generator.",
+  "avianDescription" : "This generates power.",
+  "floranDescription" : "Power!",
+  "glitchDescription" : "Comforted. A power generator.",
+  "humanDescription" : "This'll keep the lights on!",
+  "hylotlDescription" : "A crude electrical device.",
+  "novakidDescription" : "Who needs lights anyhow?",
+	"vantaDescription" : "A generator repurposed for power distribution.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "nightsteelgenerator.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "lightPosition" : [-2, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "nightsteelgenerator.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "lightPosition" : [1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "nightsteelgenerator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/apexconsole2switch.ogg" ],
+      "off" : [ "/sfx/objects/apexconsole2switch.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "nightsteelgenerator.png",
+    "fg" : "nightsteelgeneratorlit.png"
+  },
+
+  "animationPosition" : [-80, 0],
+
+  //"smashable" : true,
+  //"smashSounds" : [ "/sfx/melee/kill_robotic1.ogg" ],
+  //"health" : 250,
+  "interactive" : false,
+
+  //"smashParticles" : [ { "count" : 50, "particle" : "generatorshard" }, { "count" : 50, "particle" : "generatorredshard" }, { "count" : 10, "particle" : "generatorglassshard" } ],
+  //"smashDropPool" : "empty",
+  //"breakDropPool" : "empty",
+
+  "scripts" : [ "nullgenerator.lua" ],
+  "scriptDelta" : 5,
+
+	"inputNodes" : [ [0, 2] ],
+  "outputNodes" : [ [0, 0] ]
+
+  //"explodeOnSmash" : true,
+  //"explosionProjectile" : "explosivegenerator",
+  //"explosionOffset" : [1, 2]
+}

@@ -1,0 +1,71 @@
+{
+  "objectName" : "nightsteelairlockdoor_lv3",
+  "colonyTags" : ["nightsteel","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 175,
+  "description" : "A sturdy airlock door.",
+  "shortdescription" : "Nightsteel Airlock Door",
+  "race" : "vanta",
+
+  "apexDescription" : "A great big airlock door. Sturdy.",
+  "avianDescription" : "An intimidatingly large metal door.",
+  "floranDescription" : "Darkman build big sturdy doors! Not bad, Darkman... Not bad...",
+  "glitchDescription" : "Curious. Where is the doorknob?",
+  "humanDescription" : "This is similar to the Hylotl's more mechanical aesthetic.",
+  "hylotlDescription" : "This airlock door provides top-notch security.",
+  "novakidDescription" : "A tough lookin' door.",
+  "vantaDescription" : "We like our security as much as the next person.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "nightsteelairlockdoorlv3.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "image" : "nightsteelairlockdoorlv3.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/ex_door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/fullbrightdoor2.animation",
+	"animationParts" : {
+		"bg" : "nightsteelairlockdoorlv3.png",
+		"fg" : "nightsteelairlockdoorlv3lit.png",
+		"door" : "nightsteelairlockdoorlv3.png"
+	},
+	"animationPosition" : [-8, 0],
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+
+  "inputNodes" : [ [-1, 7], [0, 7] ],
+  "outputNodes" : [ [1, 0] ],
+
+	"requiresCompletedQuest" : "ex_nightarkeycard3"
+}

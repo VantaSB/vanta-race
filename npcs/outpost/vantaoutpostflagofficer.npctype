@@ -1,0 +1,52 @@
+{
+	"type" : "vantaoutpostflagofficer",
+	"baseType" : "outpostcivilian",
+
+	"identity" : {
+		"imagePath" : "vanta",
+    "gender" : "male",
+    "hairType" : "male52",
+		"personalityIdle" : "idle.2",
+    "personalityArmIdle" : "idle.2",
+		"bodyDirectives" : "?replace=ffe2c5=8a6145?replace=ffc181=6b462a?replace=d39c6c=523520?replace=c7815b=402816?replace=ed1c24=ed1c24",
+    "hairDirectives" : "?replace=d9c189=89a1d9?replace=a38d59=596fa3?replace=735e3a=3a4b73"
+  },
+
+	"scriptConfig" : {
+		"offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+
+		"behavior" : "simple",
+		"behaviorConfig" : {
+			"alwaysRun" : false,
+      "wanderWaitTime" : [6.0, 10.0],
+      "wanderTime" : [0.2, 0.3],
+      "wanderDistance" : 7
+		},
+
+		"dialog" : {
+			"converse" : {
+				"default" : {
+					"default" : [
+						"You have the admiral's approval? That's good enough for me. Welcome to our base of operations, my friend. If there's anything you need help with, just let any of us know."
+					],
+					"vanta" : [
+						"It's hard to believe we're here on ^blue;our homeworld^reset;, isn't it, <entityname>? A lot of us could only dream of seeing it with our own eyes. Even in its current state, it's still a sight to behold."
+					]
+				}
+			}
+		}
+	},
+
+	"matchColorIndices" : true,
+	"items" : {
+		"override" : [
+			[0, [
+					{
+						"chest" : [ { "name" : "vantaflagofficerchest" } ],
+						"legs" : [ { "name" : "vantaflagofficerlegs" } ]
+					}
+				] ]
+		]
+	}
+}

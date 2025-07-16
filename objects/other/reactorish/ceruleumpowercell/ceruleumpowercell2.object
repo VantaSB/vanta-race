@@ -8,14 +8,16 @@
   "shortdescription" : "Ceruleum Power Cell",
   "race" : "vanta",
 
-  // "apexDescription" : "-todo-",
-  // "avianDescription" : "-todo-",
-  // "floranDescription" : "-todo-",
-  // "glitchDescription" : "-todo-",
-  // "humanxDescription" : "-todo-",
-  // "hylotlDescription" : "-todo-",
-  // "novakidDescription" : "-todo-",
-  // "vantaDescription" : "-todo-",
+	"lightColor" : [5, 64, 64],
+
+  "apexDescription" : "This power cell is energized with ceruleum.",
+  "avianDescription" : "It's a ceruleum power cell.",
+  "floranDescription" : "Floran hasss no need for big battery.",
+  "glitchDescription" : "Intrigued. This power cell stores energy derived from refined ceruleum.",
+  "humanDescription" : "I wonder if the Protectorate had similar designs?",
+  "hylotlDescription" : "A crude type of power storage.",
+  "novakidDescription" : "That sure is a big power cell.",
+  "vantaDescription" : "Ceruleum is useful for power, despite its volatility.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -24,7 +26,7 @@
         { "image" : "ceruleumpowercell2.png", "fullbright" : true },
         { "image" : "ceruleumpowercell2lit.png" }
       ],
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-16, -24],
       "spaceScan" : 0.1,
       "anchors" : []
     }

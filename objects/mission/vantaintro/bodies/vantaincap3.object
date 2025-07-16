@@ -26,5 +26,7 @@
 
       "spaceScan" : 0.1
     }
-  ]
+  ],
+
+	"scripts" : [ "scanInteraction.lua" ]
 }

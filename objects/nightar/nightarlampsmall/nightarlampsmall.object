@@ -1,0 +1,37 @@
+{
+  "objectName" : "nightarlampsmall",
+  "rarity" : "Common",
+	"price" : 0,
+	"colonyTags" : ["nightar","light"],
+  "category" : "decorative",
+  "shortdescription" : "Nightar Small Lamp",
+  "description" : "The lamp emits a low, ambient green light.",
+  "race" : "nightar",
+	"printable" : false,
+
+	"lightColor" : [110, 195, 160],
+
+  "apexDescription" : "A small lamp. This design appears to be more of a waymarker than anything.",
+  "avianDescription" : "I wonder what sort of crystal could give off a green light?",
+  "floranDescription" : "A green light.",
+  "glitchDescription" : "Uninterested. It's a green light.",
+  "humanDescription" : "An ambient light to set the mood. Which mood? Not sure.",
+  "hylotlDescription" : "Just an ambient green light.",
+  "novakidDescription" : "A green light. Kinda sets a mood.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [
+				{ "image" : "nightarlampsmall.png:<color>", "fullbright" : true },
+				{ "image" : "nightarlampsmalllit.png:<color>" }
+			],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -10,14 +10,6 @@
   "race" : "generic",
   "category" : "decorative",
 
-  "lightColor" : [62, 89, 89],
-
-  "flickerPeriod" : 0.5,
-  "flickerMinIntensity" : 0.9,
-  "flickerMaxIntensity" : 1,
-  "flickerPeriodVariance" : 0.0,
-  "flickerIntensityVariance" : 0,
-
   "inventoryIcon" : "nanobenchicon.png",
 
   "orientations" : [

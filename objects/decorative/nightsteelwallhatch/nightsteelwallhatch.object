@@ -30,14 +30,14 @@
     "bg" : "base.png",
     "fg" : "lit.png"
   },
-  "animationPosition" : [-16, 0],
+  "animationPosition" : [-16, -8],
 
   "orientations" : [
     {
       "image" : "base.png:default",
       "direction" : "right",
 
-      "imagePosition" : [-16, 0],
+      "imagePosition" : [-16, -8],
 
       "spaceScan" : 0.1,
       "anchors" : [ ]
@@ -49,6 +49,6 @@
 
   "interval" : 30,
 
-  "inputNodes" : [ [1, 3], [-2, 3] ],
-  "outputNodes" : [ [1, 0] ]
+  "inputNodes" : [ [1, 2], [-2, 2] ],
+  "outputNodes" : [ [1, -1] ]
 }

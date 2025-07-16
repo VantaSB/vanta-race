@@ -1,6 +1,6 @@
 {
   "objectName" : "nightarthrone",
-  "tags" : ["misc","nightar","king"],
+  "colonyTags" : ["misc","nightar","king"],
   "printable" : false,
   "rarity" : "Legendary",
   "description" : "A Nightar throne.",
@@ -18,7 +18,7 @@
   "novakidDescription" : "Now THAT is a throne fit for a king!",
   "vantaDescription" : "A trophy you can sit on.",
 
-  "inventoryIcon" : "nightarthroneicon.png",
+  "inventoryIcon" : "icon.png",
   "orientations" : [
     {
 	  "imageLayers" : [ { "image" : "nightarthrone.png:<color>.<frame>", "fullbright" : true }, { "image" : "nightarthronelit.png:<color>.<frame>"} ],

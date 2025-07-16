@@ -19,46 +19,50 @@
     "hairDirectives" : "?replace=d9c189=3b7f44?replace=a38d59=2e6a38?replace=735e3a=1d4b28"
   },
 
-  "damageTeamType" : "ghostly",
-
   "persistent" : true,
 
   "scriptConfig" : {
     "uniqueId" : "doppleroutpost",
 
-    "reactions" : {
+    /*"reactions" : {
       "spontaneous" : []
     },
     "personalities" : [
         [1.0, { "personality" : "normal", "reactions" : {} }]
     ],
 
-    "behavior" : "assistant",
-
 		"chatPortrait" : "/interface/chatbubbles/doppler.png:<frame>",
 
     "behaviorConfig" : {
-      "greetingChance" : 0,
+			"greetingChance" : 0,
       "play" : false,
       "chat" : false
-    },
+    },*/
+
+		"behavior" : "simple",
+		"behaviorConfig" : {
+			"alwaysRun" : false,
+      "wanderWaitTime" : [6.0, 10.0],
+      "wanderTime" : [0.2, 0.3],
+      "wanderDistance" : 7
+		},
 
     "offeredQuests" : [ ],
     "turnInQuests" : [ ],
 
+		"dialogMode" : "sequence",
     "dialog" : {
       "converse" : {
         "default" : {
           "default" : [
             "I oversee the R&D operations here. If you come across any strange weapons or artifacts, bring them here and we'll work out what details we can.",
-            "Are you familiar with the tech scientist, Elliott? He was kind enough to furnish us with our own tech lab. Needless to say, it's been a godsend.",
-            "Feel free to stop by and manage your techs or peruse our library. Well, with what little information we have, anyways."
-          ]
-        },
-				"vanta" : {
-					"default" : [
+            "Are you familiar with the Outpost tech scientist, Elliott? He was kind enough to furnish us with our own tech lab. Needless to say, it's been a godsend.",
+            "Feel free to stop by and manage your techs and research at any time!"
+          ],
+					"vanta" : [
 						"Ah, <entityname>! Glad to see you're alive and well. I hope that manipulator has been useful in your travels.",
-						"Are you familiar with the tech scientist, Elliott? He was kind enough to provide funding for our own tech lab. Needless to say, it's been a godsend."
+						"Are you familiar with the Outpost tech scientist, Elliott? He was kind enough to provide funding for our own tech lab. Needless to say, it's been a godsend.",
+            "Feel free to stop by and manage your techs and research at any time!"
 					]
 				}
       }
@@ -69,9 +73,9 @@
     "override" : [
       [0, [
           {
-            "head" : [ { "name" : "vantacommandvisorhead" } ],
-            "chest" : [ { "name" : "vantatier5chest" } ],
-            "legs" : [ { "name" : "vantatier5pants" } ]
+            //"head" : [ { "name" : "vantacommandvisorhead" } ],
+            "chest" : [ { "name" : "vantatier5achest" } ],
+            "legs" : [ { "name" : "vantatier5apants" } ]
           }
         ]
       ]

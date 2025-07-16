@@ -18,7 +18,7 @@
   "novakidDescription" : "A tough lookin' door.",
   "vantaDescription" : "We like our security as much as the next person.",
 
-  "inventoryIcon" : "nightsteelairlockdooricon.png",
+  "inventoryIcon" : "icon.png",
   "orientations" : [
     {
       "image" : "nightsteelairlockdoor.png:default",
@@ -44,7 +44,8 @@
 
       "animationParts" : {
         "bg" : "nightsteelairlockdoor.png",
-        "fg" : "nightsteelairlockdoorlit.png"
+        "fg" : "nightsteelairlockdoorlit.png",
+				"door" : "nightsteelairlockdoor.png"
       },
       "animationPosition" : [-8, 0],
 
@@ -53,10 +54,10 @@
     }
   ],
 
-  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scripts" : [ "/objects/wired/door/ex_door.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "/objects/wired/door/lockingdoorfullbright.animation",
+  "animation" : "/objects/wired/door/door.animation",
 
   "animationCustom" : {
     "sounds" : {
@@ -75,6 +76,6 @@
     "door" : "nightsteelairlockdoor.png"
   },
 
-  "inputNodes" : [ [-1, 7] ],
+  "inputNodes" : [ [-1, 7], [0, 7] ],
   "outputNodes" : [ [1, 0] ]
 }

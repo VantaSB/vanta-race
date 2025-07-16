@@ -1,0 +1,71 @@
+{
+  "objectName" : "nightarconsole2",
+  "rarity" : "Common",
+	"price" : 0,
+  "description" : "A large console used for logging Nightar research data.",
+  "shortdescription" : "Nightar Research Console",
+	"race" : "nightar",
+	"category" : "wire",
+	"printable" : false,
+
+  "lightColor" : [38, 128, 128],
+
+  "apexDescription" : "This console offers log data via scanning.",
+  "avianDescription" : "A console with a large interface.",
+  "floranDescription" : "Floran ssscan screen. Make thingsss happen!",
+  "glitchDescription" : "Impressed. This console holds a significant amount of data.",
+  "humanDescription" : "A research console. Let's take a peek!",
+  "hylotlDescription" : "This console has a sleek and stylish design.",
+  "novakidDescription" : "This console sure is somethin'.",
+	"vantaDescription" : "As powerful as these consoles are, they lack in security to scanning equipment.",
+
+  "inventoryIcon" : "icon.png",
+	"animation" : "nightarconsole2.animation",
+  "animationParts" : {
+    "bg" : "nightarconsole2.png",
+		"fg" : "nightarconsole2lit.png"
+  },
+  "animationPosition" : [-16, -8],
+  "orientations" : [
+    {
+      "imageLayers" : [
+				{ "image" : "nightarconsole2.png:default.<frame>", "fullbright" : true },
+				{ "image" : "nightarconsole2lit.png:default.<frame>" }
+			],
+
+			"direction" : "left",
+			"flipImages" : true,
+
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+1",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+		{
+      "imageLayers" : [
+				{ "image" : "nightarconsole2.png:default.<frame>", "fullbright" : true },
+				{ "image" : "nightarconsole2lit.png:default.<frame>" }
+			],
+
+			"direction" : "right",
+
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+1",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/ex_scanfunctions.lua" ],
+  "scriptDelta" : 5,
+
+	"inputNodes" : [
+		[0, 1]
+	],
+
+	"outputNodes" : [
+		[0, 0]
+	]
+}

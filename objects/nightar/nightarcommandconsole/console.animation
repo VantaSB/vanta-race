@@ -1,0 +1,91 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "switchState" : {
+        "default" : "off",
+        "states" : {
+          "on" : {
+            "mode" : "loop",
+            "frames" : 4,
+            "cycle" : 1.0
+          },
+          "off" : {
+						"mode" : "loop",
+            "frames" : 4,
+            "cycle" : 1.0
+					},
+          "locked" : {
+            "mode" : "loop",
+            "frames" : 4,
+            "cycle" : 1.0
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false,
+					"fullbright" : true
+        },
+
+        "partStates" : {
+          "switchState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:off.<frame>"
+              }
+            },
+
+            "locked" : {
+              "properties" : {
+                "image" : "<partImage>:locked.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "switchState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:off.<frame>"
+              }
+            },
+
+            "locked" : {
+              "properties" : {
+                "image" : "<partImage>:locked.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "on" : [ "/sfx/objects/apexconsole1on.ogg" ],
+    "off" : [ "/sfx/objects/apexconsole1off.ogg" ],
+		"error" : [ "/sfx/interface/clickon_error.ogg" ]
+  }
+}

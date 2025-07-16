@@ -1,0 +1,47 @@
+{
+  "type" : "nightarheavytrooper2",
+  "baseType" : "hostile",
+
+  "persistent" : true,
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+			"attack" : "/dialog/nightarsoldiers.config:attack",
+			"reattack" : "/dialog/nightarsoldiers.config:reattack",
+			"killedTarget" : "/dialog/nightarsoldiers.config:killedTarget",
+			"lostTarget" : "/dialog/nightarsoldiers.config:lostTarget",
+			"cheerOn" : "/dialog/nightarsoldiers.config:cheerOn"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "nightarheavyhead" } ],
+          "chest" : [ { "name" : "nightarheavychest" } ],
+          "legs" : [ { "name" : "nightarheavypants" } ],
+          "primary" : [ "nightarmachinepistol" ],
+					"alt" : [ "nightarmachinepistol" ],
+          "sheathedprimary" : [ "nightarlauncher" ]
+        }
+      ] ]
+    ]
+  }/*,
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 300
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.5
+      },
+      "protection" : {
+        "baseValue" : 1.1
+      }
+    }
+  }*/
+}

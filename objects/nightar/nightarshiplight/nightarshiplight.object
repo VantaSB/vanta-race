@@ -3,7 +3,7 @@
   "colonyTags" : ["light","nightar"],
   "rarity" : "legendary",
   "category" : "light",
-  "lightColor" : [148, 232, 186],
+  "lightColor" : [174, 232, 200],
   "price" : 60,
   "description" : "A small green light",
   "shortdescription" : "Nightar Ship Light",

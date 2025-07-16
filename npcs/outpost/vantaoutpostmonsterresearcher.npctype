@@ -17,17 +17,24 @@
     "offeredQuests" : [ ],
     "turnInQuests" : [ ],
 
-    "behavior" : "tutorial",
+		"behavior" : "simple",
+		"behaviorConfig" : {
+			"alwaysRun" : false,
+      "wanderWaitTime" : [6.0, 10.0],
+      "wanderTime" : [0.2, 0.3],
+      "wanderDistance" : 7
+		},
 
+		//"dialogMode" : "sequence",
     "dialog" : {
       "converse" : {
         "default" : {
           "default" : [
-            "We have in our possession some monsters that have adapted to the local environment. They're exhibiting some interesting qualities.",
-            "I wonder if more variants like these exist for other types of monsters?",
-            "If you find any more variants, be sure to let me know with as much detail as you can!",
-            "Nothing excites me more than studying elusive creatures!"
-          ]
+            "Oh, hello! I'm a researcher that studies various alien monsters. This planet is home to some unique variants of monsters you see elsewhere - they've all been changed by the ambient ceruleum in the air. It's been a fascinating learning experience!"
+          ],
+					"vanta" : [
+						"Ah, you must be <entityname>! I've heard a lot about your exploits from the Admiral and Ms. Doppler! I'm working as a monster researcher here to study this planet's monster variants. They've all been changed by the ambient ceruleum in the air! It's been a fascinating learning experience!"
+					]
         }
       }
     }
@@ -37,8 +44,8 @@
     "override" : [
       [0, [
         {
-          "chest" : [ { "name" : "vantaenvirosuitchest" } ],
-          "legs" : [ { "name" : "vantaenvirosuitpants" } ]
+          "chest" : [ { "name" : "vantatier5achest" } ],
+          "legs" : [ { "name" : "vantatier5apants" } ]
         }
       ] ]
     ]

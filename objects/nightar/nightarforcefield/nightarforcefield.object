@@ -1,0 +1,82 @@
+{
+	"objectName" : "nightarforcefield",
+	"rarity" : "Common",
+	"price" : 0,
+	"description" : "A powerful forcefield barring passage.",
+	"shortdescription" : "Nightar Forcefield",
+	"category" : "door",
+	"race" : "nightar",
+
+	"apexDescription" : "A powerful forcefield. There doesn't seem to be any means of bypassing it.",
+	"avianDescription" : "It's a forcefield. It won't hurt to touch, but I can't get past it.",
+	"floranDescription" : "Let Floran in!",
+	"glitchDescription" : "Observant. This forcefield is nigh impenetrable.",
+	"humanDescription" : "Can't seem to find a way to get around it.",
+	"hylotlDescription" : "This forcefield keeps many things, no matter their size, from passing through them when they are active.",
+	"novakidDescription" : "This here forcefield keeps things from getting in. AND out.",
+	"vantaDescrtipion" : "A forcefield. I can't pass through it while it's active.",
+
+	"closedParameters" : {
+		"description" : "A powerful forcefield barring passage.",
+		"apexDescription" : "A powerful forcefield. There doesn't seem to be any means of bypassing it.",
+		"avianDescription" : "It's a forcefield. It won't hurt to touch, but I can't get past it.",
+		"floranDescription" : "Let Floran in!",
+		"glitchDescription" : "Observant. This forcefield is nigh impenetrable.",
+		"humanDescription" : "Can't seem to find a way to get around it.",
+		"hylotlDescription" : "This forcefield keeps many things, no matter their size, from passing through them when they are active.",
+		"novakidDescription" : "This here forcefield keeps things from getting in. AND out.",
+		"vantaDescrtipion" : "A forcefield. I can't pass through it while it's active."
+	},
+
+	"openParameters" : {
+		"description" : "An inactive forcefield generator.",
+		"apexDescription" : "The forcefield is powered down. I should be able to slip through.",
+		"avianDescription" : "I can move through it now!",
+		"floranDescription" : "Floran coming through!",
+		"glitchDescription" : "Relieved. I am able to pass through now!",
+		"humanDescription" : "Nice, time to move forward!",
+		"hylotlDescription" : "Even a mighty forcefield such as this can be brought down with enough ingenuity.",
+		"novakidDescription" : "Alright, time to get on through!",
+		"vantaDescrtipion" : "The forcefield is offline, so I should be able to move through it now."
+	},
+
+	"closedLight" : [186, 31, 0],
+	"openLight" : [0, 0, 0],
+
+	"inventoryIcon" : "icon.png",
+
+	"animation" : "nightarforcefield.animation",
+	"animationPosition" : [0, 0],
+	"animationParts" : {
+		"bg" : "nightarforcefield.png",
+		"fg" : "nightarforcefieldlit.png"
+	},
+	"animationCustom" : {},
+
+	"orientations" : [
+		{
+			"imageLayers" : [
+				{ "image" : "nightarforcefield.png:<color>.<frame>", "fullbright" : true },
+				{ "image" : "nightarforcefieldlit.png:<color>.<frame>" }
+			],
+
+			"imagePosition" : [0, 0],
+			"renderLayer" : "Object+5",
+
+			"lightPosition" : [0, 2],
+
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom", "top" ]
+		}
+	],
+
+	"scripts" : [ "forcefield.lua" ],
+	"scriptDelta" : 5,
+
+	"inputNodes" : [
+		[0, 4]
+	],
+	"outputNodes" : [
+		[0, 0]
+	]
+}

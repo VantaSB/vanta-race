@@ -1,6 +1,6 @@
 {
   "type" : "vantaoutpostboundaryguard",
-  "baseType" : "guard",
+  "baseType" : "villager",
 
   "identity" : {
     "imagePath" : "vanta",
@@ -13,8 +13,7 @@
     "hairDirectives" : "?replace=d9c189=89a1d9?replace=a38d59=596fa3?replace=735e3a=3a4b73"
   },
 
-  "damageTeamType" : "assistant",
-  "damageTeam" : 1,
+  "damageTeamType" : "ghostly",
 
   "persistent" : true,
 
@@ -33,72 +32,18 @@
       "chat" : false
     },
 
-    "questGenerator" : { "pools" : [], "enableParticipation" : false },
-
-    "chatSounds" : {
-      "avian" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "apex" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "floran" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "glitch" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "human" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "hylotl" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      },
-      "default" : {
-        "male" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ],
-        "female" : [
-          "/sfx/humanoid/human_chatter_male2.ogg"
-        ]
-      }
-    },
+		"offeredQuests" : [
+			//
+		],
+    "turnInQuests" : [
+			//
+		],
 
     "dialog" : {
       "converse" : {
         "default" : {
           "default" : [
-            "The outskirts have been deemed off-limits for the time being, so I can't let you pass, sorry."
+            "There's no activity to report from beyond the walls. We can enjoy some peace for now."
           ]
         }
       }

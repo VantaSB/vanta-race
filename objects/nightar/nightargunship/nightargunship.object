@@ -1,0 +1,58 @@
+{
+	"objectName" : "nightargunshipprop",
+	"rarity" : "Legendary",
+	"price" : 0,
+	"description" : "A gunship flown by Nightar combat pilots.",
+	"shortdescription" : "Nightar Gunship",
+	"race" : "nightar",
+	"category" : "wire",
+	"printable" : false,
+
+	"apexDescription" : "A very sophisticated gunship.",
+  "avianDescription" : "A gunship. It kind of looks bird-like!",
+  "floranDescription" : "Floran like bigger ssships.",
+  "glitchDescription" : "Apprehensive. I hope no one is currently in the cockpit!",
+  "humanDescription" : "The Protectorate employs mechs in place of gunships like this one.",
+  "hylotlDescription" : "One could soar on its wings, literally and figuratively.",
+  "novakidDescription" : "What a piece'a junk!",
+  "vantaDescription" : "I think we have a shortage of these, actually...",
+
+	"inventoryIcon" : "",
+
+	"animation" : "nightargunship.animation",
+	"animationPosition" : [-112, -48],
+	"animationParts" : {
+		"bg" : "nightargunship.png",
+		"fg" : "nightargunshiplit.png"
+	},
+
+	"orientations" : [
+		{
+			"imageLayers" : [
+				{ "image" : "nightargunship.png:default.<frame>", "fullbright" : true },
+				{ "image" : "nightargunshiplit.png:default.<frame>" }
+			],
+
+			"direction" : "left",
+			"flipImages" : true,
+
+			"imagePosition" : [-112, -48],
+
+			"spaceScan" : 0.1,
+			"anchors" : []
+		},
+		{
+			"imageLayers" : [
+				{ "image" : "nightargunship.png:default.<frame>", "fullbright" : true },
+				{ "image" : "nightargunshiplit.png:default.<frame>" }
+			],
+
+			"direction" : "right",
+
+			"imagePosition" : [-112, -48],
+
+			"spaceScan" : 0.1,
+			"anchors" : []
+		}
+	]
+}

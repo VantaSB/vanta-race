@@ -17,14 +17,19 @@
     "offeredQuests" : [ ],
     "turnInQuests" : [ ],
 
-    "behavior" : "tutorial",
+		"behavior" : "simple",
+		"behaviorConfig" : {
+			"alwaysRun" : false,
+      "wanderWaitTime" : [6.0, 10.0],
+      "wanderTime" : [0.2, 0.3],
+      "wanderDistance" : 7
+		},
 
     "dialog" : {
       "converse" : {
         "default" : {
           "default" : [
-            "Sorry, I don't have much time to spare for talking. I need to stay focused or Benzene will yell at me again.",
-            "If you need something from out of here, talk to Benzene over by the corner."
+            "Sorry, I don't have much time to spare for talking - I need to stay focused or Benzene will yell at me again...!"
           ]
         }
       }

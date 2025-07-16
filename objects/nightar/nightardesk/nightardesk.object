@@ -1,0 +1,50 @@
+{
+  "objectName" : "nightardesk",
+  "colonyTags" : ["nightar","furniture"],
+  "rarity" : "Common",
+  "tooltipKind" : "object",
+  "description" : "A simple Nightar dresser.",
+  "shortdescription" : "Nightar Desk",
+  "race" : "nightar",
+  "category" : "furniture",
+  "price" : 150,
+
+  "apexDescription" : "A simple dresser, though I doubt the clothes inside are anything but.",
+  "avianDescription" : "A storage unit and table in one.",
+  "floranDescription" : "Floran ssniff furniture. Floran get nosse full of dusst.",
+  "glitchDescription" : "Satisfied. A dresser for storing clothing and armor.",
+  "humanDescription" : "An advanced dresser that can even hold armor sets!",
+  "hylotlDescription" : "A dresser of elegant design, typical of the Nightars.",
+  "novakidDescription" : "A chest of drawers, probably for clothes.",
+  "vantaDescription" : "We keep these dressers clean of foreign debris so as not to attract wear and tear.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "nightardeskleft.png", "fullbright" : true }, { "image" : "nightardeskleftlit.png" } ],
+      "direction" : "left",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "nightardeskright.png", "fullbright" : true }, { "image" : "nightardeskrightlit.png" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bunkercabinet_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bunkercabinet_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
