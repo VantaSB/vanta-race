@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "nightarslopedpanelicon.png",
   "description" : "This reinforced material is perfect for fortified compounds, both on the ground and in space.",
-  "shortdescription" : "Nightar Hull Panel",
+  "shortdescription" : "Nightar Sloped Tech Hull",
 
   "materialId" : 3225
 }

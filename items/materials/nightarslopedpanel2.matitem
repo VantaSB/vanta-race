@@ -1,0 +1,10 @@
+{
+  "itemName" : "nightarslopedpanel2",
+  "price" : 5,
+  "category" : "block",
+  "rarity" : "Common",
+	"description" : "This reinforced material is perfect for fortified compounds, both on the ground and in space.",
+	"shortdescription" : "Nightar Sloped Composite Panel",
+
+  "materialId" : 3222
+}
