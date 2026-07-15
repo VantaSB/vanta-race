@@ -1,0 +1,277 @@
+{
+	// Vanta Tutorial Quests
+	"vantaTutorial1_1a" : {
+		"type" : "quest",
+		"text" : "I jest, but this was actually one of the tasks I was preparing for you. Your proactive approach to surviving the wilds is commendable. Try hunting the various monsters on the planet and cooking any meat obtained from them."
+	},
+
+	"vantaTutorial1_1b" : {
+		"type" : "quest",
+		"text" : "I've been preparing some tasks for you while you explore. It would be wise to get a jump-start on ensuring your survival while we try to re-establish contact with the Coalition. Let's begin with getting a campfire and cooking some food."
+	},
+
+	"vantaTutorial1_1c" : {
+		"type" : "quest",
+		"text" : "Check your hand-craftable menu with [^green;C^reset;] and hover your mouse over the ^orange;Campfire^reset; - you'll see a list of the materials you need to craft it, all of which can be obtained while you're on this planet."
+	},
+
+	"vantaTutorial1_2" : {
+		"type" : "quest",
+		"text" : "In all seriousness though, it's good that you have this. It goes without saying that food is essential to your wellbeing. Try hunting the various monsters on the planet and cooking any meat obtained from them."
+	},
+
+	"vantaTutorial1_3a" : {
+		"type" : "quest",
+		"text" : "While you may be tempted to just go ahead and chow down on that meat you've collected, you'll suffer from food poisoning if it's eaten raw, hence why I tasked you with getting a campfire made. Vegetables and fruits, on the other hand, can typically be eaten as soon as you pick them.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial1_3b" : {
+		"type" : "quest",
+		"text" : "It should also be noted that natural food items like this and others will expire rather quickly if not consumed in a timely manner, unlike your rations. Keep this in mind when you're foraging for food supplies."
+	},
+
+	//------------------------
+
+	"vantaTutorial2_1a" : {
+		"type" : "quest",
+		"text" : "Being able to craft a variety of items will be essential to your survival. Your current tasks involve creating ^green;four^reset; different crafting stations, staring with an ^orange;inventor's table^reset;. I have forwarded you the materials you'll need in order to construct it."
+	},
+
+	"vantaTutorial2_1b" : {
+		"type" : "quest",
+		"text" : "The ^orange;inventor's table^reset; serves as a crucial starting point for crafting. While you can make basic items with your barehands or a campfire, having a station dedicated to certain types of crafting will greatly expand your potential.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial2_2a" : {
+		"type" : "quest",
+		"text" : "As I previously mentioned, many of your other crafting stations will be made here. There are ^orange;three additional crafting stations^reset; you will want to have available soon: a ^orange;primitive furnace^reset;, a ^orange;spinning wheel^reset;, and an ^orange;anvil^reset;.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial2_2b" : {
+		"type" : "quest",
+		"text" : "I've sent you a list of additional materials to collect for the ^orange;stone furnace^reset;, which is used to refine ores. Once you've made the furnace, I'll update you on your next task.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial2_2c" : {
+		"type" : "quest",
+		"text" : "For the campfire, you can choose to pick up the one you made earlier, or create a new one - your discretion, just make sure you are eating regularly."
+	},
+
+	"vantaTutorial2_3" : {
+		"type" : "quest",
+		"text" : "You have another list of materials to go over for a ^orange;spinning wheel^reset;. This will allow you to work with various types of fabrics and dyes, as well as creating new clothing items."
+	},
+
+	"vantaTutorial2_4a" : {
+		"type" : "quest",
+		"text" : "While the ^orange;spinning wheel^reset; can offer various options in the way of clothing, unfortunately clothes crafted here offer nothing in the way of additional protection or better weaponry.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial2_4b" : {
+		"type" : "quest",
+		"text" : "This is where the ^orange;crafting anvil^reset; will come into play. This crafting station will allow you to create armor and weapons using refined ores and additional materials that help bolster your capabilities.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial2_4c" : {
+		"type" : "quest",
+		"text" : "I'm confident you'll understand what I mean when you finally see what's available to you after setting it up. For now, though, you'll need to gather another set of materials to actually build it. The ^orange;primitive furnace^reset; will be needed to help create this."
+	},
+
+	//------------------------
+
+	"vantaTutorial3_1a" : {
+		"type" : "quest",
+		"text" : "You're now ready to begin crafting weapons and gear. As you may have noticed, the weapons you left the station with currently leave quite a bit to be desired when it comes to their damage output.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial3_1b" : {
+		"type" : "quest",
+		"text" : "It is unfortunate that Dr. Doppler wasn't able to complete repairs on your ^orange;saber and pistol^reset; before you got thrown into chaos aboard the station. While they're not as powerful, I highly recommend that you ^orange;keep them with you at all times^reset; as backup.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial3_1c" : {
+		"type" : "quest",
+		"text" : "Now then, for your current task: create a set of ^orange;Vagabond armor^reset; and a ^orange;broadsword^reset; at the ^green;anvil^reset; you created earlier. You can learn what materials you need if you hover your mouse over the items in the crafting window."
+	},
+
+	//------------------------
+
+	"vantaTutorial4_1a" : {
+		"type" : "quest",
+		"text" : "There's another crafting station I want you to create that focuses on healing items. Yes, foods both cooked and uncooked will allow you to heal over time, there's a limit to how much food you can eat in one sitting.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial4_1b" : {
+		"type" : "quest",
+		"text" : "With an ^orange;apothecary^reset; table, you can create a variety of healing items, some of which you may have already encountered on the planet. Having some healing items on-hand like ^orange;red stims^reset;, ^orange;bandages^reset;, and ^orange;antidotes^reset; will come in handy.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial4_1c" : {
+		"type" : "quest",
+		"text" : "I'll make this task a bit easier on you than last time - I've given you the list of materials needed to construct the table. When you've got the table ready, I'll tell you what medical supplies you'll need and how many, but you will need to find the materials for those yourself."
+	},
+
+	"vantaTutorial4_2" : {
+		"type" : "quest",
+		"text" : "That ^orange;apothecary^reset; table will do nicely. After you've placed it down, create 5 ^orange;red stims, bandages, and antidotes^reset; each. I'll have a surprise for you ready afterwards.",
+		"persistTime" : 3.0
+	},
+
+	//------------------------
+
+	"vantaTutorial5a" : {
+		"type" : "quest",
+		"text" : "The ^orange;research console^reset; is one of the most powerful tools you'll have as a Vanta. It provides access to multiple interfaces, including a ^green;high-fidelity codex^reset;, an ^green;advanced quest tracker^reset;, and the ^green;skill grid^reset;.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial5b" : {
+		"type" : "quest",
+		"text" : "The ^green;V. Codex^reset; is your high-fidelity codex. You may come across data files that the normal codex reader cannot read correctly for whatever reason - this codex reader solves many issues in those regards.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial5c" : {
+		"type" : "quest",
+		"text" : "The ^green;V. Jounral^reset; is an advanced quest tracker that separates questlines by specific arcs, which makes for easier organization than the standard quest journal. You can also get an idea of what conditions need to be met before beginning a specific quest.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial5d" : {
+		"type" : "quest",
+		"text" : "The ^green;V. Skill Grid^reset; is going to be your proverbial bread and butter. This research interface has been tailored to suit the needs of the Vanta above all else, and allows you to push past normal people's limitations by learning new skills and aquiring compounding traits.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial5e" : {
+		"type" : "quest",
+		"text" : "You may have noticed during your outings that when you were slaying monsters, you were occasionally acquiring something called ^green;skill points^reset;. These skill points are something that only you, as a Vanta, have use for, and is what allows you to research the skills on the skill grid.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial5f" : {
+		"type" : "quest",
+		"text" : "It is ^green;highly recommended^reset; that you ^orange;regularly keep up with researching the the skill grid^reset;, as this will be crucial to your adventures later on. To that end, I will give you a device that allows you to access these options at any time.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorial5g" : {
+		"type" : "quest",
+		"text" : "That concludes what I wanted to show you. Talk to me again when you're ready to continue your adventure. Or, if you need to, take a break for however long you need to and come back when you're ready."
+	},
+
+	//------------------------
+
+	"vantaTutorialEnd_1a" : {
+		"type" : "quest",
+		"text" : "I actually called you back to the ship for two reasons. The first was to get you acquainted with your research console. The second was because of something I found while scanning the planet.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorialEnd_1b" : {
+		"type" : "quest",
+		"text" : "I've discovered two sources of archaic energy. One is a type of energy I've never encountered before. The other, the one I currently want you to investigate, is a psionic signature of Nightar origin. Why it's on this planet is unclear, as we have no record of this system in our databanks.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorialEnd_1c" : {
+		"type" : "quest",
+		"text" : "Up intil now, it wasn't registering on the scanners, but then suddenly it started registering. I think it may be reacting to our presence. Or more specifically, ^green;your^reset; presence. Head back down to the planet and I'll send you the coordinates.",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorialEnd_1d" : {
+		"type" : "quest",
+		"text" : "Do be careful - I can tell it's of Nightar origin, but beyond that, everything else is obscured. We won't know what we're dealing with until you get up close enough to it."
+	},
+
+	"vantaTutorialEnd_2a" : { // Not triggered if "firstGate" = true
+		"type" : "quest",
+		"text" : "How curious... That structure is small, but there's an overwhelming amount of energy flowing from it. It doesn't appear to be an· typ· ·· domicile...",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorialEnd_2b" : { // Not triggered if "firstGate" = true
+		"type" : "quest",
+		"text" : "Som····ng is wr··g, I ··n't m····ain t·· signal... ···tain, ··· ··sing ·ou... ··· ···· ·· come back ··········· ··· ··· ·afe...!",
+		"chatterSound" : "/sfx/interface/aichatter2_loop.ogg",
+		"persistTime" : 3.0
+	},
+
+	"vantaTutorialEnd_2c" : { // Not triggered if "firstGate" = true
+		"senderName" : " ",
+		"portraitImage" : "/interface/chatbubbles/exvoideye.png:<frame>",
+		"text" : "^green;CHILD WROUGHT OF SHADOWS^reset;... YOU STAND BEFORE A DOORWAY TO A REALM HELD SACRED BY YOUR ANCESTORS... ENTER, AND AWAKEN TO YOUR TRUE HERITAGE...",
+		"chatterSound" : "/sfx/interface/aichatter3_loop.ogg"
+	},
+
+	"vantaTutorialEnd_3a" : { // Not triggered if "firstGate" = true
+		"senderName" : " ",
+		"portraitImage" : "/interface/chatbubbles/exvoideye.png:<frame>",
+		"text" : "",
+		"chatterSound" : "/sfx/interface/aichatter3_loop.ogg"
+	},
+
+
+
+	// Vanta's Gate Repair Quest
+	"v-gaterepair-findGate" : {
+		"type" : "quest",
+		"text" : "Scans indicate there is an ^orange;archaic energy source^reset; on this planet. I recommend you investigate it as soon as possible."
+	},
+
+	"v-gaterepair-gateFound1" : {
+		"type" : "quest",
+		"text" : "I am detecting a transmission around this ^orange;archaic energy source^reset;. Patching it through to you now...",
+		"persistTime" : 3.0
+	},
+
+	"v-gaterepair-gateFound2" : {
+		"type" : "quest",
+		"senderName" : "???",
+		"portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+		"text" : "If you are receiving this message, then there is hope. You stand at an ^orange;ancient gate^reset;, a relic of the univere's creation. Please use it to come find me. ^green;The gate can be re-energized with ^orange;core fragments^reset;.",
+		"portraitFrames" : 4,
+		"portraitSpeed" : 0.30
+	},
+
+	"v-gaterepair-gateFound3a" : { // Player hasn't found any core fragments yet
+		"type" : "quest",
+		"text" : "I have scanned the planet for these ^orange;core framents^reset;. They appear naturally within this planet's geology. Numerous clusters can be found close to the planet's core. I recommend searching as much of the planet as you can - you might chance upon a deposit closer to the surface."
+	},
+
+	"v-gaterepair-gateFound3b" : { // Player has at least one core fragment in their inventory
+		"type" : "quest",
+		"text" : "It looks like you've already collected some ^orange;core framents^reset; in your possession. However, as I said before, you'll need to collect a total of 20."
+	},
+
+	"v-gaterepair-gateFound3c" : { // Player has at least one core fragment in their inventory
+		"type" : "quest",
+		"text" : "It seems you already have enough ^orange;core framents^reset;. You should be able to go ahead and energize the gateway."
+	},
+
+	"v-gaterepair-gateOpened1" : {
+		"type" : "quest",
+		"text" : "The gate has been successfully activated. Another message appears to be coming through. Patching it through now...",
+		"persistTime" : 3.0
+	},
+
+	"v-gaterepair-gateOpened2" : {
+		"type" : "quest",
+		"senderName" : "???",
+		"portraitImage" : "/interface/chatbubbles/static.png:<frame>",
+		"text" : "^green;Please come to me^reset;. The universe is in danger, and I need your help if you're willing. This ancient gateway is a direct route to what is known as ^orange;the Ark^reset;. You can find me just past ^orange;the outpost^reset; that is also situated here.",
+		"portraitFrames" : 4,
+		"portraitSpeed" : 0.30
+	}
+}

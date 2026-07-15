@@ -1,33 +1,34 @@
 {
-	"vantamission1_flightLevelWarning" : {
+	// Lobos Planetary Defense Platform
+	"vantamission_lobosFlightLevelWarning" : {
 		"type" : "mission",
 		"senderName" : "Ran",
 		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
 		"text" : "Hey, hey! You heard what Artaxerxes said, don't fly so high up! You'll get blasted to kingdom come for sure!"
 	},
 
-	"vantamission1_1" : {
+	"vantamission_lobos1" : {
 		"type" : "mission",
 		"senderName" : "Artaxerxes",
 		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
 		"text" : "This is as close as we could get the relay capsule to the platform without triggering their defenses. If you've got a mech, you can use it to make your way to the underhangar."
 	},
 
-	"vantamission1_2" : {
+	"vantamission_lobos2" : {
 		"type" : "mission",
 		"senderName" : "Artaxerxes",
 		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
 		"text" : "It's best to go on foot from here, your mech will be a bit cumbersome the rest of the way. The garrison stationed here can put up a good fight - my Father makes sure that his facilities are well-staffed. Stay on your toes, and stay alive."
 	},
 
-	"vantamission1_3" : {
+	"vantamission_lobos3" : {
 		"type" : "mission",
 		"senderName" : "Ran",
 		"portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
 		"text" : "Killing the power to those mega turrets is the number-one priority - what few ships we have will be shredded by them in no time."
 	},
 
-	"vantamission1_4a" : {
+	"vantamission_lobos4a" : {
 		"type" : "mission",
 		"senderName" : "Artaxerxes",
 		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
@@ -35,7 +36,7 @@
 		"persistTime" : 3.0
 	},
 
-	"vantamission1_4b" : {
+	"vantamission_lobos4b" : {
 		"type" : "mission",
 		"senderName" : "Ran",
 		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
@@ -43,21 +44,21 @@
 		"persistTime" : 3.0
 	},
 
-	"vantamission1_4c" : {
+	"vantamission_lobos4c" : {
 		"type" : "mission",
 		"senderName" : "Artaxerxes",
 		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
 		"text" : "You're right, of course. Please do excercise caution as needed."
 	},
 
-	"vantamission1_5" : {
+	"vantamission_lobos5" : {
 		"type" : "mission",
 		"senderName" : "Artaxerxes",
 		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
 		"text" : "Hmm... this sector appears to have multiple power junctions. You'll need to disable all of them to make sure that the defenses come down as expected."
 	},
 
-	"vantamission1_6a" : {
+	"vantamission_lobos6a" : {
 		"type" : "mission",
 		"senderName" : "Artaxerxes",
 		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
@@ -65,7 +66,7 @@
 		"persistTime" : 3.0
 	},
 
-	"vantamission1_6b" : {
+	"vantamission_lobos6b" : {
 		"type" : "mission",
 		"senderName" : "Doppler",
 		"portraitImage" : "/interface/chatbubbles/doppler.png:<frame>",
@@ -73,7 +74,7 @@
 		"persistTime" : 3.0
 	},
 
-	"vantamission1_6c" : {
+	"vantamission_lobos6c" : {
 		"type" : "mission",
 		"senderName" : "Ran",
 		"portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
@@ -81,19 +82,19 @@
 		"persistTime" : 3.0
 	},
 
-	"vantamission1_6d" : {
+	"vantamission_lobos6d" : {
 		"type" : "mission",
 		"senderName" : "Artaxerxes",
 		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
 		"text" : "Indeed. For now, let's focus on the task at hand."
 	},
 
-	"vantamission1_blockedTunnel" : {
+	"vantamission_lobosBlockedTunnel" : {
 		"type" : "mission",
 		"text" : "This tunnel has a blockage. You may be able to clear it out if your distortion sphere has ^orange;bomb capabilities^reset;."
 	},
 
-	"vantamission1_preBoss1" : {
+	"vantamission_lobosPreBoss1" : {
 		"type" : "mission",
 		"senderName" : "SYSTEM ANNOUNCEMENT",
 		"portraitImage" : "/interface/chatbubbles/nightarsoundonly.png:<frame>",
@@ -101,7 +102,7 @@
 		"persistTime" : 3.0
 	},
 
-	"vantamission1_preBoss2" : {
+	"vantamission_lobosPreBoss2" : {
 		"type" : "mission",
 		"senderName" : "Ran",
 		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
@@ -109,7 +110,7 @@
 		"persistTime" : 3.0
 	},
 
-	"vantamission1_preBoss3" : {
+	"vantamission_lobosPreBoss3" : {
 		"type" : "mission",
 		"senderName" : "Artaxerxes",
 		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
@@ -117,7 +118,7 @@
 		"persistTime" : 3.0
 	},
 
-	"vantamission1_preBoss4" : {
+	"vantamission_lobosPreBoss4" : {
 		"type" : "mission",
 		"senderName" : "Doppler",
 		"portraitImage" : "/interface/chatbubbles/doppler.png:<frame>",
@@ -125,7 +126,7 @@
 		"persistTime" : 3.0
 	},
 
-	"vantamission1_preBoss5" : {
+	"vantamission_lobosPreBoss5" : {
 		"type" : "mission",
 		"senderName" : "Ran",
 		"portraitImage" : "/interface/chatbubbles/ran.png:<frame>",
@@ -133,10 +134,58 @@
 		"persistTime" : 2.0
 	},
 
-	"vantamission1_preBoss6" : {
+	"vantamission_lobosPreBoss6" : {
 		"type" : "mission",
 		"senderName" : "Artaxerxes",
 		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
 		"text" : "We'll have the teleporter ready once the drone is out of commission. I wish you the best."
+	},
+
+
+
+	// Geddon Underground Prison
+	"vantamission_geddon1" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "This is the shortest route to get you into the prison's processing center. I know you've spent time putting criminals away, but now we're doing a jailbreak. The ventilation system will block out radio signals, we'll reconvene once you're inside."
+	},
+
+	"vantamission_geddon2" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "Hope you didn't have too much trouble getting in. Keep going until you reach the processing center. A lot of their equipment here can be hacked by your ^orange;scan mode^reset;, so keep that in mind if you feel you're stuck."
+	},
+
+	"vantamission_geddon3a" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "This can't be right... Zero prisoners on the roster?",
+		"persistTime" : 3.0
+	},
+
+	"vantamission_geddon3b" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "I thought your intel was solid. Don't tell me we came all this way on a wild goose chase!",
+		"persistTime" : 3.0
+	},
+
+	"vantamission_geddon3c" : {
+		"type" : "mission",
+		"senderName" : "Artaxerxes",
+		"portraitImage" : "/interface/chatbubbles/artaxerxes.png:<frame>",
+		"text" : "It is. My scouts are as reliable as they come. The only reason they would have zero prisoners on record is if... oh no. Captain, comb through the entire facility as much as you can... they've turned the prison into an express line for execution.",
+		"persistTime" : 4.0
+	},
+
+	"vantamission_geddon3d" : {
+		"type" : "mission",
+		"senderName" : "Ran",
+		"portraitImage" : "/interface/chatbubbles/ranserious.png:<frame>",
+		"text" : "You heard him, Captain! We can't allow this facility to continue operating! If you find any prisoners still alive, use those transponders we gave you to get them out!"
 	}
 }

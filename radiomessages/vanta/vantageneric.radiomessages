@@ -1,0 +1,110 @@
+{
+	"vantamissionConsoleLocked" : {
+		"unique" : false,
+		"text" : "This console appears to be locked. You will need to figure out how to manually override it."
+	},
+
+	"vantamissionConsoleUnpowered" : {
+		"unique" : false,
+		"text" : "This console is not receiving power. It needs to be energized with a nearby power source."
+	},
+
+	"vantaPlayerNameTest" : {
+		"unique" : false,
+		"text" : "Well, here's to hoping we can actually get this working, <player>!"
+	},
+
+
+
+	// Vanta Trial Gates - Generic Messages
+	"vantaGateNotVanta" : {
+		"senderName" : " ",
+		"portraitImage" : "/interface/chatbubbles/exvoideye.png:<frame>",
+		"text" : "YOU ARE NOT ^orange;WROUGHT OF SHADOWS^reset;... PASSAGE THROUGH THIS GATE IS NOT POSSIBLE FOR YOU...",
+    "unique" : false,
+		"chatterSound" : "/sfx/interface/aichatter3_loop.ogg"
+	},
+
+	"vantaGateNotReady" : {
+		"senderName" : " ",
+		"portraitImage" : "/interface/chatbubbles/exvoideye.png:<frame>",
+		"text" : "^green;CHILD WROUGHT OF SHADOWS^reset;... THE TIME HAS NOT YET COME FOR YOU TO PASS THROUGH THIS GATE... RETURN AT THE APPOINTED HOUR...",
+    "unique" : false,
+		"chatterSound" : "/sfx/interface/aichatter3_loop.ogg"
+	},
+
+	"vantaGateReady" : { // Not triggered if "firstGate" = true
+		"senderName" : " ",
+		"portraitImage" : "/interface/chatbubbles/exvoideye.png:<frame>",
+		"text" : "^green;CHILD WROUGHT OF SHADOWS^reset;... YOUR PRESENCE HAS AWAKENED THE GATE... YOU MAY ENTER...",
+    "unique" : false,
+		"chatterSound" : "/sfx/interface/aichatter3_loop.ogg"
+	},
+
+	"vantaGateCompleted" : {
+		"senderName" : " ",
+		"portraitImage" : "/interface/chatbubbles/exvoideye.png:<frame>",
+		"text" : "YOU HAVE OVERCOME THE TRIAL AND HAVE GAINED A NEW POWER... ^green;CHILD WROUGHT OF SHADOWS^reset;, HEED THE WORDS OF YOUR ANCESTORS... YOU MUST CONTINUE TO WALK IN BOTH THE LIGHT AND THE DARK... MAINTAIN THE BALANCE, ALWAYS...^reset;",
+    "unique" : false,
+		"chatterSound" : "/sfx/interface/aichatter3_loop.ogg"
+	},
+
+
+
+	// Environmental Hazards
+	"airlesszone" : {
+		"unique" : false,
+		"text" : "WARNING! THIS ZONE CURRENTLY HAS NO OXYGEN FOR LIFE SUPPORT!\nFURTHER EXPLORATION IS NOT RECOMMENDED WITHOUT THE PROPER GEAR!",
+		"portraitImage" : "yell.<frame>",
+		"textSpeed" : 70
+	},
+
+	"airlesszone_over" : {
+		"unique" : false,
+		"text" : "WARNING! THIS ZONE CURRENTLY HAS NO OXYGEN FOR LIFE SUPPORT!\nFURTHER EXPLORATION IS NOT RECOMMENDED DUE TO GEAR DAMPENING!",
+		"portraitImage" : "yell.<frame>",
+		"textSpeed" : 70
+	},
+
+	"radioactivezone" : {
+		"unique" : false,
+		"text" : "WARNING! THIS ZONE IS SATURATED WITH HIGH LEVELS OF RADIATION!\nFURTHER EXPLORATION IS NOT RECOMMENDED WITHOUT THE PROPER GEAR!",
+		"portraitImage" : "yell.<frame>",
+		"textSpeed" : 70
+	},
+
+	"radioactivezone_over" : {
+		"unique" : false,
+		"text" : "WARNING! THIS ZONE IS SATURATED WITH HIGH LEVELS OF RADIATION!\nFURTHER EXPLORATION IS NOT RECOMMENDED DUE TO GEAR DAMPENING!",
+		"portraitImage" : "yell.<frame>",
+		"textSpeed" : 70
+	},
+
+	"coldzone" : {
+		"unique" : false,
+		"text" : "WARNING! THE TEMPERATURE IN THIS ZONE IS DANGEROUSLY LOW!\nFURTHER EXPLORATION IS NOT RECOMMENDED WITHOUT THE PROPER GEAR!",
+		"portraitImage" : "yell.<frame>",
+		"textSpeed" : 70
+	},
+
+	"coldzone_over" : {
+		"unique" : false,
+		"text" : "WARNING! THE TEMPERATURE IN THIS ZONE IS DANGEROUSLY LOW!\nFURTHER EXPLORATION IS NOT RECOMMENDED DUE TO GEAR DAMPENING!",
+		"portraitImage" : "yell.<frame>",
+		"textSpeed" : 70
+	},
+
+	"hotzone" : {
+		"unique" : false,
+		"text" : "WARNING! THE TEMPERATURE IN THIS ZONE IS DANGEROUSLY HIGH!\nFURTHER EXPLORATION IS NOT RECOMMENDED WITHOUT THE PROPER GEAR!",
+		"portraitImage" : "yell.<frame>",
+		"textSpeed" : 70
+	},
+
+	"hotzone_over" : {
+		"unique" : false,
+		"text" : "WARNING! THE TEMPERATURE IN THIS ZONE IS DANGEROUSLY HIGH!\nFURTHER EXPLORATION IS NOT RECOMMENDED DUE TO GEAR DAMPENING!",
+		"portraitImage" : "yell.<frame>",
+		"textSpeed" : 70
+	}
+}
