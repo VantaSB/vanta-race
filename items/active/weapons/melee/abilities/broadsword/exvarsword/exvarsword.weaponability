@@ -1,0 +1,77 @@
+{
+	"animationParts" : {},
+	"animationCustom" : {
+
+	},
+	"ability" : {
+		"name" : "V-Saber Arts",
+		"type" : "exvarsword",
+		"scripts" : [ "/items/active/weapons/melee/abilities/broadsword/exvarsword/exvarsword.lua" ],
+		"class" : "ExVarSword",
+
+    "projectileOffset" : [0, 0],
+    "elementalConfig" : {
+      "physical" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "fire" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "ice" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "poison" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "electric" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      },
+      "ceruleum" : {
+        "projectileType" : "vantaphysicaltravelingswoosh"
+      }
+    },
+
+    "baseDamage" : 7,
+    "energyUsage" : 120,
+    "cooldownTime" : 1.5,
+
+    "stances" : {
+      "tenretsujinWindup" : {
+        "duration" : 0.25,
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+			"kougenjinWindup" : {
+        "duration" : 0.25,
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+			"rakuretsuzanWindup" : {
+        "duration" : 0.25,
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+	}
+}

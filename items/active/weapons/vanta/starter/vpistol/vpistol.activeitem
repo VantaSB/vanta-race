@@ -1,5 +1,5 @@
 {
-  "itemName" : "vpicohandgun",
+  "itemName" : "vpistol",
   "price" : 0,
 	"level" : 1,
 	"upgradeNum" : 0,
@@ -12,22 +12,17 @@
   "twoHanded" : true,
 	"itemTags" : ["weapon", "ranged", "vanta", "vantaUpgrade"],
 
-  "inventoryIcon" : "vgun_l1.png",
+  "inventoryIcon" : "vgun_l1.png:empty",
 
-  "animation" : "vpicohandgun.animation",
+  "animation" : "vpistol.animation",
   "animationParts" : {
-    "middle" : "vgun_l1.png",
-    "middleFullbright" : "",
-    "muzzleFlash" : "redflash.png"
+    "gun" : "vgun_l1.png",
+    "gunfullbright" : "",
+    "muzzleFlash" : "blueflash.png"
   },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : ["/sfx/gun/plasma_pistol4.ogg"],
-			"altFire" : ["/sfx/gun/pulsecannon1.ogg"]
-    }
-  },
+  "animationCustom" : {},
 
-  "muzzleOffset" : [1.2625, 0.375],
+  "muzzleOffset" : [1.0625, 0.375],
 
   "scripts" : ["/items/active/weapons/ranged/vantagun.lua"],
 
@@ -44,7 +39,7 @@
     "inaccuracy" : 0.02,
 		"fireType" : "auto",
 
-    "projectileType" : "plasmabullet",
+    "projectileType" : "<elementalType>psishot",
     "projectileParameters" : {
 			"power" : 5.0,
 			"speed" : 150
@@ -52,6 +47,15 @@
 
     "stances" : {
       "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+
+			"charge" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : false,
@@ -141,69 +145,77 @@
 		{
 			"upgradeNum" : 1,
 			"level" : 2,
-			"inventoryIcon" : "vgun_l2.png",
+			"inventoryIcon" : "vgun_l2.png:empty",
 			"animationParts" : {
-				"middle" : "vgun_l2.png"
+				"gun" : "vgun_l2.png"
 			},
-			"animationCustom" : {
-		    "sounds" : {
-		      "fire" : ["/sfx/gun/plasma_pistol4.ogg"],
-					"altFire" : [],
-					"enterAimMode" : [ "/sfx/interface/sniper_mark_start2.ogg" ],
-		      "targetAcquired1" : [ "/sfx/interface/sniper_mark_pitch1.ogg" ],
-		      "targetAcquired2" : [ "/sfx/interface/sniper_mark_pitch2.ogg" ],
-		      "targetAcquired3" : [ "/sfx/interface/sniper_mark_pitch3.ogg" ],
-		      "targetAcquired4" : [ "/sfx/interface/sniper_mark_pitch4.ogg" ],
-		      "targetAcquired5" : [ "/sfx/interface/sniper_mark_pitch5.ogg" ],
-		      "targetAcquired6" : [ "/sfx/interface/sniper_mark_pitch6.ogg" ],
-		      "targetAcquired7" : [ "/sfx/interface/sniper_mark_pitch7.ogg" ],
-		      "targetAcquired8" : [ "/sfx/interface/sniper_mark_pitch8.ogg" ],
-		      "targetAcquired9" : [ "/sfx/interface/sniper_mark_pitch9.ogg" ],
-		      "targetAcquired10" : [ "/sfx/interface/sniper_mark_pitch10.ogg" ],
-		      "disengage" : [ "/sfx/interface/sniper_mark_stop2.ogg"]
-		    }
-		  },
+
 			"description" : "Your personal handgun. It has a unique weapon core that allows it to evolve.",
 		  "shortdescription" : "Vanta Pistol ^yellow;ß^reset;",
 
 			"primaryAbility" : {
 				"baseDps" : 9.5,
-				"energyUsage" : 15
-			},
+				"energyUsage" : 15,
 
-			"altAbilityType" : "markedshot",
-			"altAbility" : {
-				"name" : "Marked Shot",
-		    "type" : "markedshot",
-		    "scripts" : ["/items/active/weapons/ranged/abilities/markedshot/markedshot.lua"],
-		    "class" : "MarkedShot",
-
-		    "elementalConfig" : {
-		      "physical" : { "projectileType" : "chainbullet" },
-		      "fire" : { "projectileType" : "chainfireplasma" },
-		      "electric" : { "projectileType" : "chainelectricplasma" },
-		      "ice" : { "projectileType" : "chainiceplasma" },
-		      "poison" : { "projectileType" : "chainpoisonplasma" }
-		    },
+				"projectileType" : "<elementalType>psishot",
 		    "projectileParameters" : {
-					"statusEffects" : [ ]
+					"power" : 5.0,
+					"speed" : 150,
+					"knockback" : 5
 				},
-		    "baseDamage" : 8,
-		    "energyUsage" : 37.5, // cost per target marked
-		    "cooldownTime" : 1.0,
 
-		    "maxTargets" : 10,
-		    "targetQueryDistance" : 2,
-
-		    "stances" : {
-		      "cooldown" : {
-		        "duration" : 0.6,
-		        "armRotation" : 5,
-		        "weaponRotation" : 5,
-		        "twoHanded" : true
-		      }
-		    }
+				"chargeLevels" : [
+					{
+						"level" : 1,
+						"time" : 0,
+						"baseDamage" : 6,
+						"energyCost" : 15,
+						"cooldown" : 0.25,
+						"projectileCount" : 1,
+						"projectileType" : "<elementalType>psishot",
+						"projectileParameters" : {
+							"power" : 5.0,
+							"speed" : 150,
+							"knockback" : 5
+						},
+						"inaccuracy" : 0.008,
+						"fireSound" : "fire"
+					},
+					{
+						"level" : 2,
+						"time" : 0.5,
+						"baseDamage" : 6,
+						"energyCost" : 40,
+						"cooldown" : 0.25,
+						"projectileCount" : 1,
+						"projectileType" : "<elementalType>psishot2",
+						"projectileParameters" : {
+							"power" : 5.0,
+							"speed" : 150,
+							"knockback" : 10
+						},
+						"inaccuracy" : 0.008,
+						"fireSound" : "fire2"
+					},
+					{
+						"level" : 3,
+						"time" : 1,
+						"baseDamage" : 6,
+						"energyCost" : 85,
+						"cooldown" : 0.25,
+						"projectileCount" : 1,
+						"projectileType" : "<elementalType>psishot3",
+						"projectileParameters" : {
+							"power" : 5.0,
+							"speed" : 150,
+							"knockback" : 15
+						},
+						"inaccuracy" : 0.008,
+						"fireSound" : "fire3"
+					}
+				]
 			},
+
 			"critChance" : 1,
 			"critBonus" : 2
 		}

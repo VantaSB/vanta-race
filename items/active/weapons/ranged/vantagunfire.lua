@@ -7,8 +7,12 @@ GunFire = WeaponAbility:new()
 
 function GunFire:init()
   self.weapon:setStance(self.stances.idle)
+	self.projectileType = config.getParameter("primaryAbility.projectileType")
 
-  self.cooldownTimer = self.fireTime
+	self.elementalType = self.elementalType or self.weapon.elementalType
+
+	self.cooldownTimer = 0
+	self.chargeTimer = 0
 
   self.weapon.onLeaveAbility = function()
     self.weapon:setStance(self.stances.idle)
@@ -30,11 +34,97 @@ function GunFire:update(dt, fireMode, shiftHeld)
     and not status.resourceLocked("energy")
     and not world.lineTileCollision(mcontroller.position(), self:firePosition()) then
 
-    if self.fireType == "auto" and status.overConsumeResource("energy", self:energyPerShot()) then
-      self:setState(self.auto)
-    elseif self.fireType == "burst" then
-      self:setState(self.burst)
+		if not shiftHeld or shiftHeld and not self.chargeLevels then
+			if self.fireType == "auto" and status.overConsumeResource("energy", self:energyPerShot()) then
+      	self:setState(self.auto)
+    	elseif self.fireType == "burst" then
+      	self:setState(self.burst)
+			end
+    elseif shiftHeld and self.chargeLevels ~= nil then
+			self:setState(self.charge)
+		end
+  end
+end
+
+function GunFire:charge()
+	self.weapon:setStance(self.stances.charge)
+
+	self.chargeTimer = 0
+
+	animator.setAnimationState("firing", "charge")
+	animator.playSound("charge", 0)
+	animator.playSound("chargeloop", -1)
+
+	while self.fireMode == (self.activatingFireMode or self.abilitySlot) do
+		self.chargeTimer = self.chargeTimer + self.dt
+		coroutine.yield()
+	end
+
+	self.chargeLevel = self:currentChargeLevel()
+	local energyCost = (self.chargeLevel and self.chargeLevel.energyCost) or 0
+
+	if self.chargeLevel and (energyCost == 0 or status.overConsumeResource("energy", energyCost)) then
+		self:setState(self.chargeFire)
+	end
+end
+
+function GunFire:chargeFire()
+	if world.lineTileCollision(mcontroller.position(), self:firePosition()) then
+		animator.setAnimationState("firing", "off")
+		self.cooldownTimer = self.chargeLevel.cooldown or 0
+		self:setState(self.cooldown, self.cooldownTimer)
+		return
+	end
+
+	self.weapon:setStance(self.stances.fire)
+
+	--animator.setAnimationState("firing", self.chargeLevel.fireAnimationState or "fire")
+	animator.stopAllSounds("charge")
+	animator.stopAllSounds("chargeloop")
+	animator.playSound(self.chargeLevel.fireSound or "fire")
+
+	self:fireChargeShot()
+
+	if self.stances.fire.duration then
+		util.wait(self.stances.fire.duration)
+	end
+
+	self.cooldownTimer = self.chargeLevel.cooldown or 0
+
+  self:setState(self.cooldown, self.cooldownTimer)
+end
+
+function GunFire:fireChargeShot()
+  local projectileCount = self.chargeLevel.projectileCount or 1
+
+  local params = copy(self.chargeLevel.projectileParameters or {})
+  params.power = (self.chargeLevel.baseDamage * config.getParameter("damageLevelMultiplier")) / projectileCount
+  params.powerMultiplier = activeItem.ownerPowerMultiplier()
+
+	if self.chargeLevel.level == 3 then
+		animator.setAnimationState("firing", self.chargeLevel.fireAnimationState or "fullchargefire")
+	else
+		animator.setAnimationState("firing", self.chargeLevel.fireAnimationState or "chargefire")
+	end
+
+  local spreadAngle = util.toRadians(self.chargeLevel.spreadAngle or 0)
+  local totalSpread = spreadAngle * (projectileCount - 1)
+  local currentAngle = totalSpread * -0.5
+  for _ = 1, projectileCount do
+    if params.timeToLive then
+      params.timeToLive = util.randomInRange(params.timeToLive)
     end
+
+    world.spawnProjectile(
+				self.chargeLevel.projectileType,
+        self:firePosition(),
+        activeItem.ownerEntityId(),
+        self:aimVector(currentAngle, self.chargeLevel.inaccuracy or 0),
+        false,
+        params
+      )
+
+    currentAngle = currentAngle + spreadAngle
   end
 end
 
@@ -143,6 +233,18 @@ end
 
 function GunFire:damagePerShot()
   return ExCrit.setCritDamage(self, self.baseDamage or self.baseDps * self.fireTime * (self.baseDamageMultiplier or 1.0) * config.getParameter("damageLevelMultiplier") / self.projectileCount)
+end
+
+function GunFire:currentChargeLevel()
+  local bestChargeTime = 0
+  local bestChargeLevel
+  for _, chargeLevel in pairs(self.chargeLevels) do
+    if self.chargeTimer >= chargeLevel.time and self.chargeTimer >= bestChargeTime then
+      bestChargeTime = chargeLevel.time
+      bestChargeLevel = chargeLevel
+    end
+  end
+  return bestChargeLevel
 end
 
 function GunFire:uninit()

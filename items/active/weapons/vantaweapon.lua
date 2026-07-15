@@ -1,9 +1,24 @@
 require "/scripts/util.lua"
 require "/items/active/weapons/ex_critical.lua"
+require "/interface/scripted/ex_research/scripts/vantaSkills.lua"
 
 Weapon = {}
 
 function Weapon:new(weaponConfig)
+	--Get elemental damage bonuses from research
+	if getElementalBonuses() ~= nil then
+		self.elementalBonuses = getElementalBonuses()
+	else
+		self.elementalBonuses = {
+			physical = 0,
+			fire = 0,
+			ice = 0,
+			electric = 0,
+			poison = 0,
+			ceruleum = 0
+		}
+	end
+
 	local newWeapon = weaponConfig or {}
 	newWeapon.damageLevelMultiplier = config.getParameter("damageLevelMultiplier", root.evalFunction("weaponDamageLevelMultiplier", config.getParameter("level", 1)))
 	newWeapon.elementalType = config.getParameter("elementalType")
@@ -238,6 +253,21 @@ function Weapon:damageSource(damageConfig, damageArea, damageTimeout)
 			knockback = knockbackMomentum(damageConfig.knockback, damageConfig.knockbackMode, self.aimAngle, self.aimDirection)
 		end
 		local damage = damageConfig.baseDamage * self.damageLevelMultiplier * activeItem.ownerPowerMultiplier()
+		--local elementalBonus =
+
+		--[[if self.elementalType == "physical" then
+			damage = damage + phBonus
+		elseif self.elementalType == "fire" then
+			damage = damage + frBonus
+		elseif self.elementalType == "ice" then
+			damage = damage + icBonus
+		elseif self.elementalType == "electric" then
+			damage = damage + elBonus
+		elseif self.elementalType == "poison" then
+			damage = damage + psBonus
+		elseif self.elementalType == "ceruleum" then
+			damage = damage + clBonus
+		end]]
 
 		local damageLine, damagePoly
 		if #damageArea == 2 then

@@ -16,7 +16,7 @@
   "animation" : "launcher.animation",
   "animationParts" : {
     "middle" : "launcher.png",
-    "middleFullbright" : "launcherfullbright.png",
+    "middleFullbright" : "launcherlit.png",
 		"muzzleFlash" : ""
   },
   "animationCustom" : {
