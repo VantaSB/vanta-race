@@ -4,7 +4,7 @@
   "price" : 100,
   "category" : "Tech",
   "inventoryIcon" : "/tech/vantadashproto.png",
-  "description" : "Double tap ^green;[A]^white; or ^green;[D] ^white;to quickly dash!\nCooldown: 1.5s",
+  "description" : "Double tap ^green;[A]^reset; or ^green;[D] ^reset;to quickly dash!\nCooldown: 1.5s",
   "shortdescription" : "^#5777d5;Proto Dash^reset;",
   "consumeOnPickup" : true,
   "itemTags" : [ "trophy" ],

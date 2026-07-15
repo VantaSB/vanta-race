@@ -5,7 +5,7 @@
   "scripts" : ["distortionsphere.lua"],
   "animator" : "distortionsphere.animation",
 
-  "description" : "Turn into a sphere that can fit into smaller places! ^green;[F]",
+  "description" : "Turn into a sphere that can fit into smaller places! ^green;[F]^reset;",
   "shortDescription" : "Proto Distortion Sphere",
   "rarity" : "Uncommon",
   "icon" : "/tech/vantasphereproto.png",

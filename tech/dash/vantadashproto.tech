@@ -5,7 +5,7 @@
   "scripts" : ["dash.lua"],
   "animator" : "dash.animation",
 
-  "description" : "Double tap ^green;[A]^white; or ^green;[D] ^white;to quickly dash! Cooldown: 1.4s",
+  "description" : "Double tap ^green;[A]^reset; or ^green;[D] ^reset;to quickly dash! Cooldown: 1.4s",
   "shortDescription" : "Proto Dash",
   "rarity" : "Uncommon",
   "icon" : "/tech/vantadashproto.png",

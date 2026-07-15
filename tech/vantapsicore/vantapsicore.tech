@@ -1,0 +1,64 @@
+{
+	"name" : "vantapsicore",
+	"type" : "body",
+
+	"scripts" : ["vantapsicore.lua"],
+	"animator" : "vantapsicore.animation",
+
+	"description" : "Your psionic abilities are grown and nurtured here.",
+	"shortDescription" : "^cyan;Psionic Core^reset;",
+	"rarity" : "Essential",
+	"icon" : "/tech/vantapsicore/icon.png",
+
+	"chipCost" : 8,
+
+	// Global dash/sprint values
+	"maxDoubleTapTime" : 0.25,
+	"stopAfterDash" : true,
+	"groundOnly" : true,
+	"dashControlForce" : 2000,
+	"dashSpeed" : 50,
+	"sprintSpeedModifier" : 1.6,
+	"dashDuration" : 0.15,
+	"dashCooldown" : 0.8,
+	"blinkInTime" : 0.15,
+	"blinkOutTime" : 0.15,
+	"blinkDistance" : 13,
+	"blinkCooldown" : 2.0,
+	"sprintEnergyCostPerSecond" : 15,
+
+	// Stealth values
+	"forceWalk" : true,
+	"stealthDrainRate" : 20,
+	"stealthDrainFraction" : 0.04,
+	"stealthBaseCooldown" : 6,
+	"sneakAttackMult" : 2,
+	"sneakAttackWindow" : 0.5,
+	"stealthBreakCooldowns" : {
+		"pistol" : 3,
+	  "chakram" : 3,
+	  "boomerang" : 3,
+	  "fist" : 1.5,
+	  "thrownitem" : 3,
+	  "gun" : 4,
+	  "bow" : 4,
+	  "crossbow" : 5,
+	  "revolver" : 5,
+	  "shotgun" : 6,
+	  "assault" : 6,
+	  "staff" : 7,
+	  "Launcher" : 8,
+	  "flamethrower" : 7,
+	  "sniper" : 8,
+	  "dagger" : 1.5,
+	  "shortsword" : 3,
+	  "broadsword" : 4,
+		"greatsword" : 5,
+		"scythe" : 4,
+	  "spear" : 4,
+	  "axe" : 4,
+	  "hammer" : 5,
+	  "activeitem" : 5
+	},
+	"broadCastArea" : [-100, -100, 100, 100]
+}

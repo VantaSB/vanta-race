@@ -6,12 +6,12 @@
 	"printable" : false,
   "price" : 60,
 
-  "description" : "A simple plaque.",
+  "description" : "A plaque used in Vanta complexes.",
   "shortdescription" : "Vanta Base Sign",
   "race" : "vanta",
 
   "apexDescription" : "A simple plaque.",
-  "avianDescription" : "A simple plaque.",
+  "avianDescription" : "Just a small plaque.",
   "floranDescription" : "Dark sssign.",
   "glitchDescription" : "Indifferent. A standardized plaque.",
   "humanDescription" : "It's a simple plaque.",

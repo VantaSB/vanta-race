@@ -6,10 +6,10 @@
         "states" : {
           "off" : {},
           "on" : {
-              "properties" : {
-                "persistentSound" : "/sfx/tech/tech_sprint_loop2.ogg",
-                "immediateSound" : "/sfx/tech/tech_dash.ogg"
-              }
+            "properties" : {
+              "persistentSound" : "/sfx/tech/tech_sprint_loop2.ogg",
+              "immediateSound" : "/sfx/tech/tech_dash.ogg"
+            }
           }
         }
       },
