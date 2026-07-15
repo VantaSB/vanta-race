@@ -1,7 +1,8 @@
 {
   "id" : "vantaweapons",
   "title" : "Vanta Weaponry - A Primer",
-  "species" : "vanta",
+	"species" : "other",
+	"species2" : "vanta",
   "description" : "Details of weaponry carried through Nightar & Vanta society",
   "icon" : "vantadocfile.png",
   "contentPages" : [
