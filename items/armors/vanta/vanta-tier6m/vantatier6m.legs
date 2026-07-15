@@ -7,7 +7,7 @@
   "category" : "exLegArmorMan",
   "description" : "The footfalls heard from those wearing this flanchard instills a certain fear into those who recognize them.",
   "shortdescription" : "Kingslayer Flanchard",
-  "tooltipKind" : "exlegaugment",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
@@ -35,8 +35,6 @@
       "amount" : 2
     }
   ],
-
-	"acceptsAugmentType" : "temporalshard",
 
   "colorOptions" : [
     // DEFAULT

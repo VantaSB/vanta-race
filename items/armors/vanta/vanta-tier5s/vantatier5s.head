@@ -7,7 +7,7 @@
   "category" : "exHeadArmorSep",
   "description" : "This helmet is a symbol of prestige among Vanta warriors.",
   "shortdescription" : "Phantoma Helm",
-  "tooltipKind" : "exheadaugment",
+  "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
@@ -36,8 +36,6 @@
       "amount" : 3
     }
   ],
-
-	"acceptsAugmentType" : "focusgem",
 
   "colorOptions" : [
     // DEFAULT
