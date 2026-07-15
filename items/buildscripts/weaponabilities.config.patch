@@ -120,5 +120,11 @@
 		"op" : "add",
 		"path" : "/lunarblade",
 		"value" : "/items/active/weapons/melee/abilities/broadsword/lunarblade/lunarblade.weaponability"
+	},
+
+	{
+		"op" : "add",
+		"path" : "/exvarsword",
+		"value" : "/items/active/weapons/melee/abilities/broadsword/exvarsword/exvarsword.weaponability"
 	}
 ]

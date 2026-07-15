@@ -1,4 +1,5 @@
 function activate(fireMode, shiftHeld)
+--[[
 --Tech Config GUI
   if fireMode == "primary" and not shiftHeld then
     activeItem.interact("ScriptPane", "/interface/scripted/techupgrade/techupgradegui.config")
@@ -18,6 +19,11 @@ function activate(fireMode, shiftHeld)
   if fireMode == "alt" and shiftHeld then
     activeItem.interact("scriptPane", "/interface/scripted/ex_research/researchTree.config")
   end
+]]
+
+	if fireMode == "primary" then
+		activeItem.interact("ScriptPane", "/interface/scripted/ex_taskmanager/ex_taskmanager.config")
+	end
 end
 
 function update()
