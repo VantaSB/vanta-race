@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "focusaegis2", "count" : 3 }
-  ],
-  "output" : { "item" : "focusaegis3", "count" : 1 },
-  "groups" : [ "darkfragmentrefinery", "focusgems", "all" ]
-}
