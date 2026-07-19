@@ -42,7 +42,7 @@ function init()
 	canvas = widget.bindCanvas("canvas")
 	canvasSize = widget.getSize("canvas")
 
-	verified = verifyAcronims()
+	verified = verifyAcronyms()
 	if not verified then return end
 
 	for _, file in ipairs(data.externalScripts) do
@@ -286,13 +286,13 @@ function treePickButton()
 		local consumptionRules = getTreeConsumptionRules(selectedTree)
 
 		if consumptionRules.currency then
-			consumeText = '^red; Will consume currency'
+			consumeText = '^orange; Will consume currency'
 		else
 			consumeText = '^green; Will not consume currency'
 		end
 
 		if consumptionRules.items then
-			consumeText = consumeText..'\n^red; Will consume items'
+			consumeText = consumeText..'\n^orange; Will consume items'
 		else
 			consumeText = consumeText..'\n^green; Will not consume items'
 		end
@@ -341,7 +341,12 @@ function updateInfoPanel()
 		if selected then
 			if data.strings.research[selected] then
 				widget.setText("title", data.strings.research[selected][1])
-				widget.setText("infoList.text", data.strings.research[selected][2])
+				-- New processor for masking quest names if they aren't in the player's journal
+				local rawDescription = data.strings.research[selected][2]
+				local processedDescription = processResearchDescription(rawDescription, researchTree[selected].requiredQuests or {})
+				widget.setText("infoList.text", processedDescription)
+				-- Old behavior
+				-- widget.setText("infoList.text", data.strings.research[selected][2])
 			else
 				widget.setText("title", selected)
 				widget.setText("infoList.text", "ERROR - Missing text data for selected research")
@@ -383,6 +388,25 @@ function updateInfoPanel()
 			widget.setText("infoList.text", data.strings.info[2])
 		end
 	end
+end
+
+function processResearchDescription(raw, quests)
+	if not string.find(raw, "<questname>") then
+		return raw
+	end
+
+	if #quests == 0 then
+		return raw:gsub("<questname>", "???")
+	end
+
+	for _, questId in ipairs(quests) do
+		if player.hasQuest(questId) or player.hasCompletedQuest(questId) then
+			local questTitle = root.questData(questId).title
+			return raw:gsub("<questname>", questTitle)
+		end
+	end
+
+	return raw:gsub("<questname>", "???")
 end
 
 function populateSearchList()
@@ -471,10 +495,12 @@ function populateTreeList()
 	local toSort = {}
 	for tree, _ in pairs(data.researchTree) do
 		local isAvailable = true
+		local questTitle
 
 		if data.treeUnlocks[tree] then
-			if data.treeUnlocks[tree].quests then
-				for _, questId in ipairs(data.treeUnlocks[tree].quests) do
+			if data.treeUnlocks[tree].requiredQuests then
+				for _, questId in ipairs(data.treeUnlocks[tree].requiredQuests) do
+					sb.logInfo("Quest ID: ")
 					if not player.hasCompletedQuest(questId) then
 						isAvailable = false
 						break
@@ -563,74 +589,86 @@ function draw()
 			canvas:drawText("READ ONLY!", {position = {57, canvasSize[2]-2}}, 7, "#FF5E66F0")
 		end
 
-		-- Draw research nodes
-		if researchTree then
-			local startPoint = {0,0}
-			local endPoint = {0,0}
+		if not player.hasCompletedQuest("vantaintro") then
+			canvas:drawText("NOT AUTHORIZED FOR RESEARCH", {position = {canvasSize[1]*0.5, canvasSize[2]*0.5}, horizontalAnchor = "mid", verticalAnchor = "mid"}, 20, "#FF5E66F0")
+			widget.setVisible("researchButton", false)
+			widget.setVisible("treePickButton", false)
+			widget.setVisible("centerButton", false)
+			widget.setVisible("searchButton", false)
+			widget.setVisible("qualityButton", false)
+			widget.setVisible("infoList", false)
+			widget.setVisible("treeList", false)
+			widget.setVisible("searchList", false)
+		else
+			-- Draw research nodes
+			if researchTree then
+				local startPoint = {0,0}
+				local endPoint = {0,0}
 
-			-- draw tree lines
-			for nodeId, tbl in pairs(researchTree) do
-				if tbl.state ~= "hidden" then
-					if tbl.children and #tbl.children > 0 then
-						startPoint[1] = tbl.position[1] + dragOffset.x
-						startPoint[2] = tbl.position[2] + dragOffset.y
+				-- draw tree lines
+				for nodeId, tbl in pairs(researchTree) do
+					if tbl.state ~= "hidden" then
+						if tbl.children and #tbl.children > 0 then
+							startPoint[1] = tbl.position[1] + dragOffset.x
+							startPoint[2] = tbl.position[2] + dragOffset.y
 
-						local color = "#000000"
+							local color = "#000000"
 
-						for _, child in ipairs(tbl.children) do
-							endPoint[1] = researchTree[child].position[1] + dragOffset.x
-							endPoint[2] = researchTree[child].position[2] + dragOffset.y
+							for _, child in ipairs(tbl.children) do
+								endPoint[1] = researchTree[child].position[1] + dragOffset.x
+								endPoint[2] = researchTree[child].position[2] + dragOffset.y
 
-							if withinBounds(startPoint, endPoint) then
-								local state = researchTree[child].state
+								if withinBounds(startPoint, endPoint) then
+									local state = researchTree[child].state
 
-								if state ~= "hidden" then
-									if not state or state == "unavailable" then
-										color = "#FF0000"
-									elseif state == "researched" then
-										color = "#00FF00"
-									elseif state == "available" then
-										if canAfford(child) then
-											color = "#00FFFF"
-										else
-											color = "#df7126"
+									if state ~= "hidden" then
+										if not state or state == "unavailable" then
+											color = "#FF0000"
+										elseif state == "researched" then
+											color = "#00FF00"
+										elseif state == "available" then
+											if canAfford(child) then
+												color = "#00FFFF"
+											else
+												color = "#df7126"
+											end
 										end
-									end
 
-									--revert everything to straight lines by commenting everything after the next comment and uncommenting the next comment
-									--canvas:drawLine(startPoint, endPoint, color, 2)
-									local p0 = {x = startPoint[1], y = startPoint[2]}
-									local p1 = {x = endPoint[1], y = endPoint[2]}
+										--revert everything to straight lines by commenting everything after the next comment and uncommenting the next comment
+										--canvas:drawLine(startPoint, endPoint, color, 2)
+										local p0 = {x = startPoint[1], y = startPoint[2]}
+										local p1 = {x = endPoint[1], y = endPoint[2]}
 
-									--check if this connection involves a cluster center
-									local isClusterConnection = false
-									local centerPos = {x = researchTree["start"].position[1] + dragOffset.x, y = researchTree["start"].position[2] + dragOffset.y, nodeId = "start"}
-									local swapPoints = false
+										--check if this connection involves a cluster center
+										local isClusterConnection = false
+										local centerPos = {x = researchTree["start"].position[1] + dragOffset.x, y = researchTree["start"].position[2] + dragOffset.y, nodeId = "start"}
+										local swapPoints = false
 
-									local sameCluster = not tbl.clusterGroup or not researchTree[child].clusterGroup or tbl.clusterGroup == researchTree[child].clusterGroup
+										local sameCluster = not tbl.clusterGroup or not researchTree[child].clusterGroup or tbl.clusterGroup == researchTree[child].clusterGroup
 
-									-- Cluster center connections: straight line
-									if sameCluster and researchTree[child].clusterCenter and researchTree[child].clusterCenter == child and researchTree[child].parents and researchTree[child].parents[1] == nodeId then
+										-- Cluster center connections: straight line
+										if sameCluster and researchTree[child].clusterCenter and researchTree[child].clusterCenter == child and researchTree[child].parents and researchTree[child].parents[1] == nodeId then
 										canvas:drawLine(startPoint, endPoint, color, 2)
-									elseif sameCluster and tbl.clusterCenter and tbl.clusterCenter == nodeId and researchTree[child].parents and researchTree[child].parents[1] == nodeId then
+										elseif sameCluster and tbl.clusterCenter and tbl.clusterCenter == nodeId and researchTree[child].parents and researchTree[child].parents[1] == nodeId then
 										canvas:drawLine(startPoint, endPoint, color, 2)
-									-- Cluster connections: arc centered on clusterCenter
-									elseif sameCluster and tbl.clusterGroup and researchTree[child].clusterGroup and tbl.clusterCenter and researchTree[child].clusterCenter and tbl.clusterCenter == researchTree[child].clusterCenter and researchTree[tbl.clusterCenter] then
+										-- Cluster connections: arc centered on clusterCenter
+										elseif sameCluster and tbl.clusterGroup and researchTree[child].clusterGroup and tbl.clusterCenter and researchTree[child].clusterCenter and tbl.clusterCenter == researchTree[child].clusterCenter and researchTree[tbl.clusterCenter] then
 										isClusterConnection = true
 										centerPos = {x = researchTree[tbl.clusterCenter].position[1] + dragOffset.x, y = researchTree[tbl.clusterCenter].position[2] + dragOffset.y, nodeId = tbl.clusterCenter}
 										if researchTree[child].parents and researchTree[child].parents[1] and researchTree[researchTree[child].parents[1]] and researchTree[researchTree[child].parents[1]].clusterCenter == child then
 											swapPoints = true
 										end
-									-- All other connections: straight line
-									else
-										canvas:drawLine(startPoint, endPoint, color, 2)
-									end
-
-									if isClusterConnection then
-										if swapPoints then
-											drawCircularArc(canvas, p1, p0, centerPos, color, 2, 20)
+										-- All other connections: straight line
 										else
-											drawCircularArc(canvas, p0, p1, centerPos, color, 2, 20)
+											canvas:drawLine(startPoint, endPoint, color, 2)
+										end
+
+										if isClusterConnection then
+											if swapPoints then
+												drawCircularArc(canvas, p1, p0, centerPos, color, 2, 20)
+											else
+												drawCircularArc(canvas, p0, p1, centerPos, color, 2, 20)
+											end
 										end
 									end
 								end
@@ -638,84 +676,84 @@ function draw()
 						end
 					end
 				end
-			end
 
-			-- draw icons
-			for research, tbl in pairs(researchTree) do
-				startPoint[1] = tbl.position[1] + dragOffset.x - (data.iconSizes * 0.5)
-				startPoint[2] = tbl.position[2] + dragOffset.y - (data.iconSizes * 0.5)
-				endPoint[1] = startPoint[1] + data.iconSizes
-				endPoint[2] = startPoint[2] + data.iconSizes
+				-- draw icons
+				for research, tbl in pairs(researchTree) do
+					startPoint[1] = tbl.position[1] + dragOffset.x - (data.iconSizes * 0.5)
+					startPoint[2] = tbl.position[2] + dragOffset.y - (data.iconSizes * 0.5)
+					endPoint[1] = startPoint[1] + data.iconSizes
+					endPoint[2] = startPoint[2] + data.iconSizes
 
-				if withinBounds(startPoint, endPoint) then
-					if tbl.state ~= "hidden" then
-						local color = "#000000"
-						if not tbl.state or tbl.state == "unavailable" then
-							color = "#FF5555"
-						elseif tbl.state == "researched" then
-							color = "#37db42"
-						elseif tbl.state == "available" then
-							if canAfford(research) then
-								color = "#55FFFF"
-							else
-								color = "#dfb326"
-							end
-						end
-
-						if not tbl.questLock then
-							if research == selected then
-								canvas:drawImage("/interface/scripted/ex_research/iconBGEx.png:selected", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
-							else
-								canvas:drawImage("/interface/scripted/ex_research/iconBGEx.png:default", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
-							end
-
-							if tbl.state == "researched" then
-								canvas:drawImage(tbl.icon, startPoint, 1, "#FFFFFF", false)
-							else
-								canvas:drawImage(tbl.icon, startPoint, 1, color, false)
-							end
-						else
-							if tbl.state ~= "researched" then
-								if research == selected then
-									canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:selectedLocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+					if withinBounds(startPoint, endPoint) then
+						if tbl.state ~= "hidden" then
+							local color = "#000000"
+							if not tbl.state or tbl.state == "unavailable" then
+								color = "#FF5555"
+							elseif tbl.state == "researched" then
+								color = "#37db42"
+							elseif tbl.state == "available" then
+								if canAfford(research) then
+									color = "#55FFFF"
 								else
-									canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:defaultLocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+									color = "#dfb326"
+								end
+							end
+
+							if not tbl.questLock then
+								if research == selected then
+									canvas:drawImage("/interface/scripted/ex_research/iconBGEx.png:selected", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+								else
+									canvas:drawImage("/interface/scripted/ex_research/iconBGEx.png:default", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+								end
+
+								if tbl.state == "researched" then
+									canvas:drawImage(tbl.icon, startPoint, 1, "#FFFFFF", false)
+								else
+									canvas:drawImage(tbl.icon, startPoint, 1, color, false)
 								end
 							else
-								if research == selected then
-									canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:selectedUnlocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+								if tbl.state ~= "researched" then
+									if research == selected then
+										canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:selectedLocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+									else
+										canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:defaultLocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+									end
 								else
-									canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:defaultUnlocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+									if research == selected then
+										canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:selectedUnlocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+									else
+										canvas:drawImage("/interface/scripted/ex_research/iconBGQuestLockEx.png:defaultUnlocked", {startPoint[1]-4, startPoint[2]-4}, 1, color, false)
+									end
 								end
 							end
 						end
 					end
 				end
+			else
+				canvas:drawText("NO RESEARCH TREE SELECTED", {position = {canvasSize[1]*0.5, canvasSize[2]*0.5}, horizontalAnchor = "mid", verticalAnchor = "mid"}, 20, "#FF5E66F0")
 			end
-		else
-			canvas:drawText("NO RESEARCH TREE SELECTED", {position = {canvasSize[1]*0.5, canvasSize[2]*0.5}, horizontalAnchor = "mid", verticalAnchor = "mid"}, 20, "#FF5E66F0")
-		end
 
-		-- Draw currencies
-		local mousePosition = canvas:mousePosition()
-		for i, tbl in ipairs(data.currencies) do
-			if not tbl[5] or player.currency(tbl[1]) > 0 then
-				--startPoint = {3, canvasSize[2] - i * 11}
-				startPoint = {3, canvasSize[2] - ((i - 1) * (8 + 3) + 8 + 16 + 5)}
+			-- Draw currencies
+			local mousePosition = canvas:mousePosition()
+			for i, tbl in ipairs(data.currencies) do
+				if not tbl[5] or player.currency(tbl[1]) > 0 then
+					--startPoint = {3, canvasSize[2] - i * 11}
+					startPoint = {3, canvasSize[2] - ((i - 1) * (8 + 3) + 8 + 16 + 5)}
 
-				canvas:drawImage(tbl[4], startPoint, 1, "#FFFFFF", false)
+					canvas:drawImage(tbl[4], startPoint, 1, "#FFFFFF", false)
 
-				if mousePosition[1] >= startPoint[1]-1 and mousePosition[1] <= startPoint[1] + 8
-				and mousePosition[2] >= startPoint[2]-1 and mousePosition[2] <= startPoint[2] + 8 then
-					if tbl[1] == "essence" then
-						canvas:drawText("Essence", {position = {startPoint[1] + 8 + 3, startPoint[2]}, verticalAnchor = "bottom"}, 7, tbl[2])
-					elseif tbl[1] == "money" then
-						canvas:drawText("Pixels", {position = {startPoint[1] + 8 + 3, startPoint[2]}, verticalAnchor = "bottom"}, 7, tbl[2])
+					if mousePosition[1] >= startPoint[1]-1 and mousePosition[1] <= startPoint[1] + 8
+					and mousePosition[2] >= startPoint[2]-1 and mousePosition[2] <= startPoint[2] + 8 then
+						if tbl[1] == "essence" then
+							canvas:drawText("Essence", {position = {startPoint[1] + 8 + 3, startPoint[2]}, verticalAnchor = "bottom"}, 7, tbl[2])
+						elseif tbl[1] == "money" then
+							canvas:drawText("Pixels", {position = {startPoint[1] + 8 + 3, startPoint[2]}, verticalAnchor = "bottom"}, 7, tbl[2])
+						else
+							canvas:drawText(data.strings.currencies[tbl[1]] or tbl[1], {position = {startPoint[1] + 8 + 3, startPoint[2]}, verticalAnchor = "bottom"}, 7, tbl[2])
+						end
 					else
-						canvas:drawText(data.strings.currencies[tbl[1]] or tbl[1], {position = {startPoint[1] + 8 + 3, startPoint[2]}, verticalAnchor = "bottom"}, 7, tbl[2])
+						canvas:drawText(player.currency(tbl[1]), {position = {startPoint[1] + 8 + 3, startPoint[2]}, verticalAnchor = "bottom"}, 7, tbl[2])
 					end
-				else
-					canvas:drawText(player.currency(tbl[1]), {position = {startPoint[1] + 8 + 3, startPoint[2]}, verticalAnchor = "bottom"}, 7, tbl[2])
 				end
 			end
 		end
@@ -943,7 +981,7 @@ end
 
 
 -- Research tree functions
-function verifyAcronims()
+function verifyAcronyms()
 	local missing = ""
 
 	for t, tbl in pairs(data.researchTree) do
@@ -1092,8 +1130,8 @@ function canAfford(research, consume)
 		end
 	end
 
-	if researchTree[research].quests then
-		for i, tbl in ipairs(researchTree[research].quests) do
+	if researchTree[research].requiredQuests then
+		for i, tbl in ipairs(researchTree[research].requiredQuests) do
 			if not player.hasCompletedQuest(tbl) then
 				return false
 			end

@@ -1,179 +1,155 @@
-resistFire = 0
-resistIce = 0
-resistElec = 0
-resistPoison = 0
+vSaberSkills = {
+	seishoujin = false,
+	zaneiretsu = false,
+	yamigetsuga = false,
+	kokuugetsujin = false
+}
 
-immuneFire = 0
-immuneIce = 0
-immuneElec = 0
-immunePoison = 0
+vGunSkills = {
+	--TBD
+}
 
-hpBonus = 0
-epBonus = 0
-epRePercentRate = 0
-spBonus = 0
-dpsBonus = 1.0
+vElements = {
+	physical = true,
+	fire = false,
+	ice = false,
+	electric = false,
+	poison = false,
+	cerlueum = false
+}
 
-banglePrimaryAbilities = { "beambolt" }
---bangleAltAbilities = { "offensive1" }
+vElementalDamageBonuses = {
+	physical = 0,
+	fire = 0,
+	ice = 0,
+	electric = 0,
+	poison = 0,
+	ceruleum = 0
+}
 
-vSaberSkills = { }
+vStatBonuses = {
+	maxHealth = 0,
+	maxEnergy = 0,
+	energyRegenPercentageRate = 0,
+	energyRegenBlockTime = 0,
+	powerMultiplier = 0,
+	protection = 0
+}
 
 function reinit() --when "forgottenmemories" is triggered, clear all stat bonuses
-	player.setProperty("banglePrimaryAbilities", banglePrimaryAbilities)
-	sb.logInfo("Script re-initialized - current bangle abilities: %s", banglePrimaryAbilities)
-	--player.setProperty("vSaberSkills", vSaberSkills)
-	--player.setProperty("bangleAltAbilities", bangleAltAbilities)
+	player.setProperty("vSaberSkills", vSaberSkills)
+	player.setProperty("vGunSkills", vGunSkills)
+	player.setProperty("vElements", vElements)
+	player.setProperty("vElementalDamageBonuses", vElementalDamageBonuses)
+	status.clearPersistentEffects("vStatBonuses")
 
-	status.clearPersistentEffects("ex_fireResistance")
-	status.clearPersistentEffects("ex_iceResistance")
-	status.clearPersistentEffects("ex_electricResistance")
-	status.clearPersistentEffects("ex_poisonResistance")
-	status.clearPersistentEffects("ex_maxHealth")
-	status.clearPersistentEffects("ex_protection")
-	status.clearPersistentEffects("ex_maxEnergy")
-	status.clearPersistentEffects("ex_energyRegenPercentageRate")
-	status.clearPersistentEffects("ex_powerMultiplier")
+	player.unequipTech("vantapsicore")
+	player.unequipTech("vantastealth1")
+	player.unequipTech("vantastealth2")
+	player.unequipTech("vantarazorjump")
+	player.unequipTech("vantasphere")
+	player.unequipTech("vantananosphere1")
+	player.unequipTech("vantananosphere2")
+	player.unequipTech("enhancedwalljump")
+	player.unequipTech("stopwalljump")
+
+	player.makeTechUnavailable("vantapsicore")
+	player.makeTechUnavailable("vantastealth1")
+	player.makeTechUnavailable("vantastealth2")
+	player.makeTechUnavailable("vantarazorjump")
+	player.makeTechUnavailable("vantasphere")
+	player.makeTechUnavailable("vantananosphere1")
+	player.makeTechUnavailable("vantananosphere2")
+	player.makeTechUnavailable("enhancedwalljump")
+	player.makeTechUnavailable("stopwalljump")
 end
 
-function playCinematic(cinematic)
-	self.cinematic = config.getParameter("cinematic")
-	player.playCinematic(self.cinematic)
-end
-
-function elrPlus(params)
-	if params[1] == "fire" then
-		resistFire = resistFire + params[2] or 0
-		immuneFire = immuneFire + params[3] or 0
-
-		status.setPersistentEffects("ex_fireResistance", {
-			{stat = "fireResistance", amount = resistFire},
-			{stat = "fireStatusImmunity", amount = immuneFire}
-		})
-	end
-
-	if params[1] == "ice" then
-		resistIce = resistIce + params[2] or 0
-		immuneIce = immuneIce + params[3] or 0
-
-		status.setPersistentEffects("ex_iceResistance", {
-			{stat = "iceResistance", amount = resistIce},
-			{stat = "iceStatusImmunity", amount = immuneIce}
-		})
-	end
-
-	if params[1] == "elec" then
-		resistElec = resistElec + params[2] or 0
-		immuneElec = immuneElec + params[3] or 0
-
-		status.setPersistentEffects("ex_electricResistance", {
-			{stat = "electricResistance", amount = resistElec},
-			{stat = "electricStatusImmunity", amount = immuneElec}
-		})
-	end
-
-	if params[1] == "poison" then
-		resistPoison = resistPoison + params[2] or 0
-		immunePoison = immunePoison + params[3] or 0
-
-		status.setPersistentEffects("ex_poisonResistance", {
-			{stat = "poisonResistance", amount = resistPoison},
-			{stat = "poisonStatusImmunity", amount = immunePoison}
-		})
-	end
-end
-
-function statPlus(params)
-	if params[1] == "hpPlus" then
-		hpBonus = hpBonus + tonumber(params[2])
-
-		status.setPersistentEffects("ex_maxHealth", {
-			{stat = "maxHealth", amount = hpBonus}
-		})
-	elseif params[1] == "epPlus" then
-		epBonus = epBonus + tonumber(params[2])
-
-		status.setPersistentEffects("ex_maxEnergy", {
-			{stat = "maxEnergy", amount = epBonus}
-		})
-	elseif params[1] == "epRePlus" then
-		epRePercentRate = epRePercentRate + tonumber(params[2])
-
-		status.setPersistentEffects("ex_energyRegenBonus", {
-			{stat = "energyRegenPercentageRate", amount = epRePercentRate}
-		})
-	elseif params[1] == "spPlus" then
-		spBonus = spBonus + tonumber(params[2])
-
-		status.setPersistentEffects("ex_protection", {
-			{stat = "protection", amount = spBonus}
-		})
-	elseif params[1] == "dpsPlus" then
-		dpsBonus = dpsBonus + tonumber(params[2])
-
-		status.setPersistentEffects("ex_powerMultiplier", {
-			{stat = "powerMultiplier", effectiveMultiplier = dpsBonus}
-		})
-	end
-end
-
-function hpPlus(params)
-	hpBonus = hpBonus + tonumber(params[1])
-
-	status.setPersistentEffects("ex_maxHealth", {
-		{stat = "maxHealth", amount = hpBonus}
-	})
-end
-
-function epPlus(params)
-	epBonus = epBonus + tonumber(params[1])
-
-	status.setPersistentEffects("ex_maxEnergy", {
-		{stat = "maxEnergy", amount = epBonus}
-	})
-end
-
-function epRePlus(params)
-	epRePercentRate = epRePercentRate + tonumber(params[1])
-
-	status.setPersistentEffects("ex_energyRegenBonus", {
-		{stat = "energyRegenPercentageRate", amount = epRePercentRate}
-	})
-end
-
-function spPlus(params)
-	spBonus = spBonus + tonumber(params[1])
-
-	status.setPersistentEffects("ex_protection", {
-		{stat = "protection", amount = spBonus}
-	})
-end
-
-function dpsPlus(params)
-	dpsBonus = dpsBonus + tonumber(params[1])
-
-	status.setPersistentEffects("ex_powerMultiplier", {
-		{stat = "powerMultiplier", effectiveMultiplier = dpsBonus}
-	})
-end
-
-function addBanglePrimaryAbility(params)
-	if params then
-		table.insert(banglePrimaryAbilities, params)
-		player.setProperty("banglePrimaryAbilities", banglePrimaryAbilities)
-		sb.logInfo("Unlocked bangle shot type: %s", params)
+function addSaberSkill(params)
+	if type(params) ~= "table" or params == nil then
+		sb.logError("Invalid params for addSaberSkill(): table expected, but got %s", params)
 	else
-		sb.logError("Invalid shot type for addBanglePrimaryAbility: %s", params)
+		if type(params[1]) == "string" and vSaberSkills[params[1]] ~= nil then
+			if type(params[2]) == "boolean" then
+				vSaberSkills[params[1]] = params[2]
+				player.setProperty("vSaberSkills", vSaberSkills)
+			else
+				sb.logWarn("Invalid value for addSaberSkill(): \"%s\" must be a boolean (true or false)", params[2])
+			end
+		else
+			sb.logWarn("Invalid skill name for addSaberSkill(): \"%s\" is not found in the array", params[1])
+		end
 	end
 end
 
-function addBangleAltAbility(params)
-	local index = tonumber(params[1])
-	local newAbility = tostring(params[2])
+function addGunSkill(params)
+	--
+end
 
-	bangleAltAbilities[index] = newAbility
+function addWeaponElement(params)
+	if type(params) ~= "table" or params == nil then
+		sb.logError("Invalid params for addWeaponElement(): table expected, but got %s", params)
+	else
+		if type(params[1]) == "string" and vElements[params[1]] ~= nil then
+			if type(params[2]) == "boolean" then
+				vElements[params[1]] = params[2]
+				player.setProperty("vElements", vElements)
+			else
+				sb.logWarn("Invalid value for addWeaponElement(): \"%s\" must be a boolean (true or false)", params[2])
+			end
+		else
+			sb.logWarn("Invalid element name for addWeaponElement(): \"%s\" is not found in the array", params[1])
+		end
+	end
+end
 
-	player.setProperty("bangleAltAbilities", bangleAltAbilities)
+function addElementalBonus(params)
+	if type(params) ~= "table" or params == nil then
+		sb.logError("Invalid params for addElementalBonus(): table expected, but got %s", params)
+	else
+		if type(params[1]) == "string" and vElementalDamageBonuses[params[1]] ~= nil then
+			if type(params[2]) == "number" then
+				vElementalDamageBonuses[params[1]] = vElementalDamageBonuses[params[1]] + params[2]
+				player.setProperty("vElementalDamageBonuses", vElementalDamageBonuses)
+			else
+				sb.logWarn("Invalid value for addElementalBonus(): \"%s\" must be a number", params[2])
+			end
+		else
+			sb.logWarn("Invalid element name for addElementalBonus(): \"%s\" is not found in the array", params[1])
+		end
+	end
+end
+
+function addCoreStatBonus(params)
+	local oldStats
+	if status.getPersistentEffects("vStatBonuses") ~= nil then
+		oldStats = status.getPersistentEffects("vStatBonuses")
+		for _, effect in pairs(oldStats) do
+			if effect.stat and vStatBonuses[effect.stat] ~= nil then
+				vStatBonuses[effect.stat] = effect.amount
+			end
+		end
+	end
+
+	if type(params) ~= "table" or params == nil then
+		sb.logError("Invalid params for addcoreStatBonus(): table expected, but got %s", params)
+	else
+		if type(params[1]) == "string" and vStatBonuses[param[1]] ~= nil then
+			if type(params[2]) == "number" then
+				vStatBonuses[params[1]] = vStatBonuses[params[1]] + params[2]
+				local newStats = {}
+				for statKey, amt in pairs(vStatBonuses) do
+					if amt ~= 0 then
+						table.insert(newStats, {stat = statKey, amount = amt})
+					end
+					status.setPersistentEffects("vStatBonuses", newStats)
+				end
+			else
+				sb.logWarn("Invalid value for addCoreStatBonus(): \"%s\" must be a number", params[2])
+			end
+		else
+			sb.logWarn("Invalid stat name for addCoreStatBonus(): \"%s\" is not found in the array", params[1])
+		end
+	end
 end
 
 function listBangleAbilities()
@@ -206,9 +182,33 @@ function listBangleAbilities()
 	return abilities
 end
 
+function getSaberSkills()
+	local skills = player.getProperty("vSaberSkills")
+	return skills
+end
+
+function getGunSkills()
+	--
+end
+
+function getElementalBonuses()
+	local bonuses = player.getProperty("vElementalDamageBonuses")
+	return bonuses
+end
+
 function listBangleAltAbilities()
 	bangleAltAbilities = player.getProperty("bangleAltAbilities")
 	return bangleAltAbilities
+end
+
+function getPlayerTechs()
+	local techs = player.enabledTechs()
+	return techs
+end
+
+function getTechInput()
+	local techInput = player.getProperty("vTechInput")
+	return techInput
 end
 
 function modifyTech(params)
