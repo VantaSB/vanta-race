@@ -1,11 +1,14 @@
 THRESHOLD=5
 OPTIPNG_CMD="optipng -o1"
 
+UPSTREAM_GIT_URL="https://github.com/VantaSB/vanta-race.git"
+
 fails=0
 IFS=$'\n'
 
 # Only run if images were added or modified
-git fetch --depth=1 origin master
+git remote add upstream "$UPSTREAM_GIT_URL"
+git fetch --depth=1 upstream master
 FILES=$(git diff origin/master --name-only --no-renames --diff-filter=AMC | grep -E '\.png$' | sort)
 
 if [ "x$FILES" == "x" ]; then
