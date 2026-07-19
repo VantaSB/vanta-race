@@ -76,7 +76,7 @@ end
 function setupMaterialSpaces()
   local spaces = object.spaces()
   local materials = {}
-  for k, v in ipairs(spaces) do
+  for _, _ in ipairs(spaces) do
     local mat = config.getParameter("ladderMaterial")
     if not mat then
       mat = "metamaterial:empty"
