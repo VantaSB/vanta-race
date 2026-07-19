@@ -36,9 +36,9 @@ function GunFire:update(dt, fireMode, shiftHeld)
 
 		if not shiftHeld or shiftHeld and not self.chargeLevels then
 			if self.fireType == "auto" and status.overConsumeResource("energy", self:energyPerShot()) then
-      	self:setState(self.auto)
-    	elseif self.fireType == "burst" then
-      	self:setState(self.burst)
+				self:setState(self.auto)
+			elseif self.fireType == "burst" then
+				self:setState(self.burst)
 			end
     elseif shiftHeld and self.chargeLevels ~= nil then
 			self:setState(self.charge)

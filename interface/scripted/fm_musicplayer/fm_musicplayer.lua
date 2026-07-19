@@ -26,7 +26,7 @@ end
 
 function populateMusicList()
 	widget.clearListItems("scrollArea.list")
-	local listItem = ""
+	local listItem
 	local searching = widget.getText("search")
 
 	if viewing == "##albums##" then
@@ -46,7 +46,7 @@ function populateMusicList()
 					widget.setText(listItem..".name", album)
 					widget.setData(listItem..".name", album)
 
-					local img = musicList["##album_icons##"][album] or "/interface/scripted/fm_musicplayer/icon_unsorted.png"
+					img = musicList["##album_icons##"][album] or "/interface/scripted/fm_musicplayer/icon_unsorted.png"
 					widget.setButtonImages(listItem..".button", { base = img, hover = img, pressed = img, disabled = img })
 					widget.setButtonEnabled(listItem..".button", false)
 				end

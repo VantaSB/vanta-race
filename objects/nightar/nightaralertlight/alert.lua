@@ -13,12 +13,12 @@ function update(dt)
     object.setLightColor({lightWave * self.lightColor[1], lightWave * self.lightColor[2], lightWave * self.lightColor[3]})
 
 		if animator.hasSound("alarm") then
-    	if self.alarmSoundTimer <= 0 then
-      	animator.playSound("alarm")
-      	self.alarmSoundTimer = self.alarmSoundDuration
-    	else
-      	self.alarmSoundTimer = self.alarmSoundTimer - dt
-    	end
+			if self.alarmSoundTimer <= 0 then
+				animator.playSound("alarm")
+				self.alarmSoundTimer = self.alarmSoundDuration
+			else
+				self.alarmSoundTimer = self.alarmSoundTimer - dt
+			end
 		end
 	else
 		self.alarmSoundTimer = 0

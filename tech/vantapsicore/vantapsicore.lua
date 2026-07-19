@@ -76,9 +76,9 @@ function init()
 	world.setProperty("entity["..tostring(entity.id()).."]Stealthed", nil)
 
 	message.setHandler("ex.enabledTechsResponse", function(_, _, enabledTechs)
-  	for _, tech in pairs(enabledTechs) do
-    	if tech == "dash" or tech == "sprint" or tech == "blinkdash" then
-      	table.insert(self.dashTechs, tech)
+		for _, tech in pairs(enabledTechs) do
+			if tech == "dash" or tech == "sprint" or tech == "blinkdash" then
+				table.insert(self.dashTechs, tech)
 				if self.dashMode == "none" then self.dashMode = "dash" else self.dashMode = self.dashMode end
 			elseif tech == "airdash" then
 				self.airDashing = true
@@ -89,8 +89,8 @@ function init()
 			elseif tech == "vantastealth2" then
 				self.stealthAvailable = true
 				self.forceWalk = false
-    	end
-  	end
+			end
+		end
 	end)
 
 	world.sendEntityMessage(entity.id(), "ex.enabledTechs")
@@ -111,7 +111,7 @@ function init()
       and not mcontroller.crouching()
       and not status.statPositive("activeMovementAbilities") then
         self.targetPosition = findTargetPosition(dashKey == "left" and -1 or 1, self.blinkDistance)
-      	if self.targetPosition then self.blinkMode = "start" end
+				if self.targetPosition then self.blinkMode = "start" end
       end
 		elseif self.dashMode == "sprint" then
 			local direction = dashKey == "left" and -1 or 1
@@ -170,7 +170,7 @@ function update(args)
       self.rechargeEffectTimer = self.rechargeEffectTime
       tech.setParentDirectives(self.rechargeDirectives)
 			if self.dashMode == "dash" then
-      	animator.playSound("dashRecharge")
+				animator.playSound("dashRecharge")
 			elseif self.dashMode == "blinkdash" then
 				animator.playSound("blinkRecharge")
 			end

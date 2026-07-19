@@ -3,7 +3,7 @@ require "/scripts/vec2.lua"
 function init()
 	self.materialSpaces = {}
 	local metamaterial = "metamaterial:door"
-	for i, space in ipairs(object.spaces()) do
+	for _, space in ipairs(object.spaces()) do
 		table.insert(self.materialSpaces, {space, metamaterial})
 	end
 	object.setMaterialSpaces(self.materialSpaces)

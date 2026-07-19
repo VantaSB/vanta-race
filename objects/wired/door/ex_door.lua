@@ -136,9 +136,9 @@ end
 function onInputNodeChange(args)
   if object.isInputNodeConnected(0) then
 		if args.level then
-    	openDoor(storage.doorDirection)
-  	else
-    	closeDoor()
+			openDoor(storage.doorDirection)
+		else
+			closeDoor()
 		end
   end
 
@@ -175,7 +175,7 @@ end
 
 function updateInteractive()
 	if object.isInputNodeConnected(0) and not object.isInputNodeConnected(1) then
-  	object.setInteractive(false)
+		object.setInteractive(false)
 	else
 		object.setInteractive(true)
 	end

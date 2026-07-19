@@ -19,7 +19,7 @@ end
 function processWireInput()
   if object.isInputNodeConnected(0) then
 		if object.getInputNodeLevel(0) then
-    	storage.state = true
+			storage.state = true
 		else
 			storage.state = false
 		end

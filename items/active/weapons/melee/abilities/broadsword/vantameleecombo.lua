@@ -63,7 +63,7 @@ function VantaBladeArts:update(dt, fireMode, shiftHeld)
 
   if not self.weapon.currentAbility and self:shouldActivate() then
 		if moves == "none" then
-    	self:setState(self.basicWindup)
+			self:setState(self.basicWindup)
 		end
   end
 end

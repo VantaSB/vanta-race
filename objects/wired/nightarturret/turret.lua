@@ -72,10 +72,10 @@ function update(dt)
   local animationState = "full"
 
 	if storage.active then
-  	if ratio <= 0.75 then animationState = "high" end
-  	if ratio <= 0.5 then animationState = "medium" end
-  	if ratio <= 0.25 then animationState = "low" end
-  	if ratio <= 0 then animationState = "none" end
+		if ratio <= 0.75 then animationState = "high" end
+		if ratio <= 0.5 then animationState = "medium" end
+		if ratio <= 0.25 then animationState = "low" end
+		if ratio <= 0 then animationState = "none" end
 		animator.setAnimationState("energy", animationState)
 	elseif storage.active ~= true or storage.active == nil then
 		animator.setAnimationState("energy", "none")

@@ -32,14 +32,6 @@ function update(dt)
   end
 end
 
-function die()
-  if self.trigger == "break" then
-    for i = 1, storage.stock do
-      spawn()
-    end
-  end
-end
-
 function spawn()
   local attempts = 10
   while attempts > 0 do

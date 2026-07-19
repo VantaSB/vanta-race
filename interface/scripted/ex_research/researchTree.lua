@@ -495,7 +495,6 @@ function populateTreeList()
 	local toSort = {}
 	for tree, _ in pairs(data.researchTree) do
 		local isAvailable = true
-		local questTitle
 
 		if data.treeUnlocks[tree] then
 			if data.treeUnlocks[tree].requiredQuests then
@@ -770,7 +769,7 @@ function draw()
 	end
 end
 
-function math.atan2(y, x)
+function atan2(y, x)
 	if x == 0 then
 		if y > 0 then return math.pi / 2 end
 		if y < 0 then return -math.pi / 2 end
@@ -792,8 +791,8 @@ function drawCircularArc(canvas, p0, p1, center, color, width, segments)
 	local step = 1 / segments
 	local radius = math.sqrt((p1.x - center.x)^2 + (p1.y - center.y)^2)
 
-	local theta0 = math.atan2(p0.y - center.y, p0.x - center.x)
-  local theta1 = math.atan2(p1.y - center.y, p1.x - center.x)
+	local theta0 = atan2(p0.y - center.y, p0.x - center.x)
+  local theta1 = atan2(p1.y - center.y, p1.x - center.x)
 
 	if theta0 < 0 then theta0 = theta0 + 2 * math.pi end
 	if theta1 < 0 then theta1 = theta1 + 2 * math.pi end
@@ -1131,7 +1130,7 @@ function canAfford(research, consume)
 	end
 
 	if researchTree[research].requiredQuests then
-		for i, tbl in ipairs(researchTree[research].requiredQuests) do
+		for _, tbl in ipairs(researchTree[research].requiredQuests) do
 			if not player.hasCompletedQuest(tbl) then
 				return false
 			end

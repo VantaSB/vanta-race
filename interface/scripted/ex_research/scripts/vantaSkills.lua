@@ -167,7 +167,7 @@ function listBangleAbilities()
 
 	--Filter unlocked shotTypes
 	local abilities = {}
-	for k, entry in ipairs(shotOrder) do
+	for _, entry in ipairs(shotOrder) do
 		--sb.logInfo("Entry Query: %s : %s", k, entry)
 		local mappedAbility = entry.ability
 		for _, unlocked in ipairs(banglePrimaryAbilities) do

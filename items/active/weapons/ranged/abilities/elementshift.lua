@@ -49,7 +49,7 @@ end
 function ElementShift:adaptPrimaryAbility()
 	if self.bangleShotTypes[self.shotIndex] then
 		local projectileType = self.bangleShotTypes[self.shotIndex].shotType
-		for i, shotType in ipairs(self.shotTypes) do
+		for _, shotType in ipairs(self.shotTypes) do
 			if shotType.projectileType == projectileType then
 				local ability = self.weapon.abilities[self.adaptedAbilityIndex]
 				util.mergeTable(ability, shotType)

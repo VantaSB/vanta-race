@@ -44,7 +44,7 @@ function update(dt)
 
 		shuffle(targetIds)
 
-		for i, id in ipairs(targetIds) do
+		for _, id in ipairs(targetIds) do
 			local sourceId = effect.sourceEntity() or entity.id()
 			if world.entityCanDamage(sourceId, id) and not world.lineTileCollision(mcontroller.position(), world.entityPosition(id)) then
 				local sourceTeam = world.entityDamageTeam(sourceId)
