@@ -5,7 +5,12 @@
         "default" : "off",
         "states" : {
           "off" : {},
-					"fire" : {},
+					"fire" : {
+						"frames" : 2,
+						"cycle" : 0.07,
+						"mode" : "transition",
+						"transition" : "off"
+					},
           "charge" : {
             "frames" : 16,
             "cycle" : 1,
@@ -135,32 +140,32 @@
 					"firing" : {
 						"off" : {
 							"properties" : {
-								"image" : "charge.png:empty"
+								"image" : "/items/active/weapons/vanta/starter/vpistol/gun/charge.png:empty"
 							}
 						},
 						"fire" : {
 							"properties" : {
-								"image" : "<partImage>:empty"
+								"image" : "/items/active/weapons/vanta/starter/vpistol/gun/charge.png:empty"
 							}
 						},
           	"charge" : {
               "properties" : {
-              	"image" : "charge.png:charge.<frame>"
+              	"image" : "/items/active/weapons/vanta/starter/vpistol/gun/charge.png:charge.<frame>"
               }
             },
           	"fullcharge" : {
             	"properties" : {
-              	"image" : "charge.png:fullcharge.<frame>"
+              	"image" : "/items/active/weapons/vanta/starter/vpistol/gun/charge.png:fullcharge.<frame>"
 							}
             },
           	"chargefire" : {
             	"properties" : {
-              	"image" : "charge.png:chargefire.<frame>"
+              	"image" : "/items/active/weapons/vanta/starter/vpistol/gun/charge.png:chargefire.<frame>"
 							}
             },
           	"fullchargefire" : {
             	"properties" : {
-              	"image" : "charge.png:fullchargefire.<frame>"
+              	"image" : "/items/active/weapons/vanta/starter/vpistol/gun/charge.png:fullchargefire.<frame>"
 							}
             }
           }
@@ -171,7 +176,7 @@
         "properties" : {
           "zLevel" : -1,
           "centered" : true,
-          "offset" : [-0.75, 0],
+          "offset" : [0.75, 0],
           "fullbright" : true,
           "transformationGroups" : ["muzzle"]
         },
@@ -180,13 +185,18 @@
           "firing" : {
             "fire" : {
               "properties" : {
-                "image" : "<elementalType>flash:<variant>.<frame>"
+                "image" : "<partImage>:<variant>.<frame>"
               }
             }
           }
         }
       }
     }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {},
+    "muzzle" : {}
   },
 
 	"particleEmitters" : {
@@ -204,11 +214,6 @@
 			"color" : [0, 0, 0]
 		}
 	},
-
-  "transformationGroups" : {
-    "weapon" : {},
-    "muzzle" : {}
-  },
 
 	"sounds" : {
 		"charge" : [ "/sfx/melee/charge_up11.ogg" ],

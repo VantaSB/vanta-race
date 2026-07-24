@@ -10,6 +10,7 @@
     ]
   },
   "aliases" : {
+		"default" : "empty",
 		"charge.5" : "charge.1",
 		"charge.6" : "charge.2",
 		"charge.7" : "charge.3",

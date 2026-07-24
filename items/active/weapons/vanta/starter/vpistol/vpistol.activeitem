@@ -12,13 +12,13 @@
   "twoHanded" : true,
 	"itemTags" : ["weapon", "ranged", "vanta", "vantaUpgrade"],
 
-  "inventoryIcon" : "vgun_l1.png:empty",
+  "inventoryIcon" : "gun/vgun_l1.png:empty",
 
   "animation" : "vpistol.animation",
   "animationParts" : {
-    "gun" : "vgun_l1.png",
+    "gun" : "gun/vgun_l1.png",
     "gunfullbright" : "",
-    "muzzleFlash" : "blueflash.png"
+    "muzzleFlash" : "muzzleflash/<elementalType>flash.png"
   },
   "animationCustom" : {},
 
@@ -145,9 +145,9 @@
 		{
 			"upgradeNum" : 1,
 			"level" : 2,
-			"inventoryIcon" : "vgun_l2.png:empty",
+			"inventoryIcon" : "gun/vgun_l2.png:empty",
 			"animationParts" : {
-				"gun" : "vgun_l2.png"
+				"gun" : "gun/vgun_l2.png"
 			},
 
 			"description" : "Your personal handgun. It has a unique weapon core that allows it to evolve.",
