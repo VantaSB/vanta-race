@@ -39,18 +39,18 @@
     }
   ],
 
-  "mainBlock" : "lightlessrock",
-  "subBlocks" : [ "obsidian", "lightlessdirt" ],
+  "mainBlock" : "lightlessdirt",
+  "subBlocks" : [ "lightlessrock", "obsidian" ],
   "ores" : "none",
 
   "parallax" : "/parallax/surface/ex_void.parallax",
 
   "ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/tundra_day.ogg" ]
+      "tracks" : [ "/sfx/environmental/volcanic_underground.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/tundra_night.ogg" ]
+      "tracks" : [ "/sfx/environmental/volcanic_underground.ogg" ]
     }
   },
 

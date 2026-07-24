@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "name" : "vantamission_geddon",
+    "species" : "vanta",
+    "rules" : [],
+
+    "anchor" : [ "vantamission_geddon" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true,
+		"breathable" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "vantamission_geddon",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "vantamission_geddon.json" ]
+    }
+  ]
+}

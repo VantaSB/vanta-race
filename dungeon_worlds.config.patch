@@ -113,57 +113,35 @@
 		}
 	},
 
-  /*{
-    "op" : "add",
-    "path" : "/ex_voiddungeontest",
-    "value" : {
-      "primaryDungeon" : "ex_voiddungeontest",
-      "weatherPool" : [
-        [ 1.0, "voidrain" ]
-      ],
-      "threatLevel" : 1,
-      "gravity" : 80,
-      "worldSize" : [500, 500],
-      "dungeonBaseHeight" : 500,
-      "dungeonSurfaceHeight" : 200,
-      "ambientLightLevel" : [128, 128, 128],
-      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
-      "musicTrack" : "",
-      "environmentStatusEffects" : ["dontstarve"],
-      "biome" : "ex_void"
-    }
-  },
-
-	/*{
-    "op" : "add",
-    "path" : "/vantaundergroundruins",
-    "value" : {
-      "primaryDungeon" : "vantaundergroundruins",
-      "threatLevel" : 1,
-      "gravity" : 80,
-      "worldSize" : [1000, 1000],
-      "dungeonBaseHeight" : 1000,
-      "dungeonSurfaceHeight" : 850,
-			"ambientLightLevel" : [36, 83, 102],
-      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
-			"musicTrack" : "",
-      "environmentStatusEffects" : ["dontstarve"],
-      "biome" : "proximamoonunderground"
-    }
-  },*/
-
 	{
 		"op" : "add",
-		"path" : "/void_barbatos",
+		"path" : "/void_ipos",
 		"value" : {
-			"primaryDungeon" : "void_barbatos",
-	    "threatLevel" : 3,
+			"primaryDungeon" : "void_ipos",
+	    "threatLevel" : 2,
 	    "gravity" : 75,
 	    "worldSize" : [2000, 1000],
 	    "dungeonBaseHeight" : 975,
 			"dungeonSurfaceHeight" : 810,
-	    "ambientLightLevel" : [64, 64, 64],
-			"musicTrack" : "/music/fpm-be_thrilled.ogg",
+	    "ambientLightLevel" : [62, 87, 93],
+			"musicTrack" : "/music/pom-remains.ogg",
+			"environmentStatusEffects" : [ "dontstarve" ],
+      "biome" : "ex_void"
+		}
+	},
+
+	{
+		"op" : "add",
+		"path" : "/ex_voiddungeontest",
+		"value" : {
+			"primaryDungeon" : "ex_voiddungeontest",
+	    "threatLevel" : 2,
+	    "gravity" : 75,
+	    "worldSize" : [2000, 1000],
+	    "dungeonBaseHeight" : 975,
+			"dungeonSurfaceHeight" : 810,
+	    "ambientLightLevel" : [62, 87, 93],
+			"musicTrack" : "",
 			"environmentStatusEffects" : [ "dontstarve" ],
       "biome" : "ex_void"
 		}

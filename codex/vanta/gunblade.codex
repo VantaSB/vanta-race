@@ -1,8 +1,7 @@
 {
   "id" : "gunblade",
   "title" : "Of Guns and Blades",
-	"species" : "other",
-	"species2" : "vanta",
+	"species" : "vanta",
   "description" : "A historical tome of Vanta Gunblades",
   "icon" : "vantadocfile.png",
   "contentPages" : [

@@ -1,8 +1,7 @@
 {
   "id" : "nightarmemoir",
   "title" : "Memoir of an Outcast",
-	"species" : "other",
-	"species2" : "vanta",
+	"species" : "vanta",
   "description" : "Written by an exiled Nightar.",
   "icon" : "vantadocfile.png",
   "contentPages" : [

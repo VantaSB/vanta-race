@@ -1,8 +1,7 @@
 {
   "id" : "vantahistory01",
   "title" : "Knights of the Night",
-  "species" : "other",
-	"species2" : "vanta",
+  "species" : "vanta",
   "description" : "A well-preserved manuscript detailing the history of the Vanta.",
   "icon" : "vantabook.png",
   "contentPages" : [

@@ -1,8 +1,7 @@
 {
   "id" : "vantahistory03",
   "title" : "The Evolution of Our Ways",
-	"species" : "other",
-	"species2" : "vanta",
+	"species" : "vanta",
   "description" : "A well-preserved manuscript detailing the culture of the Vanta.",
   "icon" : "vantabook.png",
   "contentPages" : [

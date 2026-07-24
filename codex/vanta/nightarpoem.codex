@@ -1,8 +1,7 @@
 {
   "id" : "nightarpoem",
   "title" : "The Night King's Men",
-	"species" : "other",
-	"species2" : "vanta",
+	"species" : "vanta",
   "description" : "A poem written by a soldier from the first Imperial Era.",
   "icon" : "nightarpoem.png",
   "contentPages" : [

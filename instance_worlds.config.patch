@@ -287,10 +287,10 @@
 	//Actual void dungeons
   {
     "op" : "add",
-    "path" : "/void_barbatos",
+    "path" : "/void_ipos",
     "value" : {
       "type" : "FloatingDungeon",
-      "dungeonWorld" : "void_barbatos",
+      "dungeonWorld" : "void_ipos",
       "seed" : 1234,
       "spawningEnabled" : false,
       "beamUpRule" : "Nowhere",
@@ -303,6 +303,42 @@
         "seed" : -5288806180628666923,
 
         "skyType" : "atmospheric",
+
+        "skyColoring" : {
+          "mainColor" : [100, 100, 100],
+
+          "morningColors" : [ [62, 87, 93], [62, 87, 93] ],
+          "dayColors" : [ [62, 87, 93], [62, 87, 93] ],
+          "eveningColors" : [ [62, 87, 93], [62, 87, 93] ],
+          "nightColors" : [ [62, 87, 93], [62, 87, 93] ],
+
+          "morningLightColor" : [62, 87, 93],
+          "dayLightColor" : [62, 87, 93],
+          "eveningLightColor" : [62, 87, 93],
+          "nightLightColor" : [62, 87, 93]
+        }
+      }
+    }
+  },
+
+	{
+    "op" : "add",
+    "path" : "/ex_voiddungeontest",
+    "value" : {
+      "type" : "FloatingDungeon",
+      "dungeonWorld" : "ex_voiddungeontest",
+      "seed" : 1234,
+      "spawningEnabled" : false,
+      "beamUpRule" : "Nowhere",
+      "disableDeathDrops" : true,
+
+      "skyParameters" : {
+        "dayLength" : 10000,
+        "surfaceLevel" : 1000,
+        "spaceLevel" : 3000,
+        "seed" : -5288806180628666923,
+
+        "skyType" : "barren",
 
         "skyColoring" : {
           "mainColor" : [100, 100, 100],
