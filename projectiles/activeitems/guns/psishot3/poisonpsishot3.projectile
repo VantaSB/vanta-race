@@ -1,20 +1,20 @@
 {
-  "projectileName" : "psiphysicalshot3",
+  "projectileName" : "poisonpsishot3",
 	"physics" : "laser",
 	"bounces" : 0,
-  "image" : "psiphysicalshot3.png",
+  "image" : "poisonpsishot3.png",
 	"flippable" : true,
 	"fullbright" : true,
   "animationCycle" : 0.2,
 	"animationLoops" : true,
   "frameNumber" : 2,
-  "lightColor" : [255, 211, 186],
+  "lightColor" : [205, 238, 211],
 	"power" : 100,
 	"speed" : 75,
   "actionOnReap" : [
 		{
 			"action" : "config",
-			"file" : "/projectiles/explosions/burstexplosion/physicalburstexplosion.config"
+			"file" : "/projectiles/explosions/burstexplosion/poisonburstexplosion.config"
 		},
     {
 			"action" : "sound",
@@ -23,5 +23,5 @@
   ],
   "emitters" : [ ],
   "damageKind" : "plasmabullet",
-	"statusEffects" : [ ]
+	"statusEffects" : [ "weakpoison" ]
 }

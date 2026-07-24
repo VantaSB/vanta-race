@@ -1,27 +1,27 @@
 {
-  "projectileName" : "psipoisonshot3",
+  "projectileName" : "ceruleumpsishot2",
 	"physics" : "laser",
 	"bounces" : 0,
-  "image" : "psipoisonshot3.png",
+  "image" : "ceruleumpsishot2.png",
 	"flippable" : true,
 	"fullbright" : true,
   "animationCycle" : 0.2,
 	"animationLoops" : true,
-  "frameNumber" : 2,
-  "lightColor" : [205, 238, 211],
-	"power" : 100,
+  "frameNumber" : 4,
+  "lightColor" : [12, 142, 144],
+	"power" : 75,
 	"speed" : 75,
   "actionOnReap" : [
 		{
 			"action" : "config",
-			"file" : "/projectiles/explosions/burstexplosion/poisonburstexplosion.config"
+			"file" : "/projectiles/explosions/burstexplosion/electricburstexplosion.config"
 		},
-    {
-			"action" : "sound",
+		{
+      "action" : "sound",
       "options" : [ "/sfx/gun/impact_plasma.ogg" ]
     }
   ],
   "emitters" : [ ],
   "damageKind" : "plasmabullet",
-	"statusEffects" : [ "weakpoison" ]
+	"statusEffects" : [  ]
 }

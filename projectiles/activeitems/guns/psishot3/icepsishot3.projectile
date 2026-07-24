@@ -1,27 +1,27 @@
 {
-  "projectileName" : "psielectricshot2",
+  "projectileName" : "icepsishot3",
 	"physics" : "laser",
 	"bounces" : 0,
-  "image" : "psielectricshot2.png",
+  "image" : "icepsishot3.png",
 	"flippable" : true,
 	"fullbright" : true,
   "animationCycle" : 0.2,
 	"animationLoops" : true,
-  "frameNumber" : 4,
-  "lightColor" : [242, 211, 255],
-	"power" : 75,
+  "frameNumber" : 2,
+  "lightColor" : [210, 224, 240],
+	"power" : 100,
 	"speed" : 75,
   "actionOnReap" : [
 		{
 			"action" : "config",
-			"file" : "/projectiles/explosions/burstexplosion/electricburstexplosion.config"
+			"file" : "/projectiles/explosions/burstexplosion/iceburstexplosion.config"
 		},
-		{
-      "action" : "sound",
+    {
+			"action" : "sound",
       "options" : [ "/sfx/gun/impact_plasma.ogg" ]
     }
   ],
   "emitters" : [ ],
   "damageKind" : "plasmabullet",
-	"statusEffects" : [ "electrified" ]
+	"statusEffects" : [ "frostslow" ]
 }

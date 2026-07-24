@@ -1,14 +1,14 @@
 {
-  "projectileName" : "psiphysicalshot",
+  "projectileName" : "firepsishot",
   "physics" : "laser",
   "bounces" : 0,
-  "image" : "psiphysicalshot.png",
+  "image" : "firepsishot.png",
   "flippable" : false,
   "fullbright" : true,
   "animationCycle" : 0.3,
   "animationLoops" : true,
   "frameNumber" : 5,
-  "lightColor" : [255, 238, 186],
+  "lightColor" : [255, 211, 168],
   "power" : 50,
   "speed" : 75,
   "actionOnReap" : [

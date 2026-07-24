@@ -1,0 +1,27 @@
+{
+  "projectileName" : "poisonpsishot2",
+	"physics" : "laser",
+	"bounces" : 0,
+  "image" : "poisonpsishot2.png",
+	"flippable" : true,
+	"fullbright" : true,
+  "animationCycle" : 0.2,
+	"animationLoops" : true,
+  "frameNumber" : 4,
+  "lightColor" : [205, 238, 211],
+	"power" : 75,
+	"speed" : 75,
+  "actionOnReap" : [
+		{
+			"action" : "config",
+			"file" : "/projectiles/explosions/burstexplosion/poisonburstexplosion.config"
+		},
+    {
+			"action" : "sound",
+      "options" : [ "/sfx/gun/impact_plasma.ogg" ]
+    }
+  ],
+  "emitters" : [ ],
+  "damageKind" : "plasmabullet",
+	"statusEffects" : [ "weakpoison" ]
+}

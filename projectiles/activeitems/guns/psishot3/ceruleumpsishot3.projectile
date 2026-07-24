@@ -1,14 +1,14 @@
 {
-  "projectileName" : "psielectricshot3",
+  "projectileName" : "ceruleumpsishot3",
 	"physics" : "laser",
 	"bounces" : 0,
-  "image" : "psielectricshot3.png",
+  "image" : "ceruleumpsishot3.png",
 	"flippable" : true,
 	"fullbright" : true,
   "animationCycle" : 0.2,
 	"animationLoops" : true,
   "frameNumber" : 2,
-  "lightColor" : [242, 211, 255],
+  "lightColor" : [12, 142, 144],
 	"power" : 100,
 	"speed" : 75,
   "actionOnReap" : [
@@ -23,5 +23,5 @@
   ],
   "emitters" : [ ],
   "damageKind" : "plasmabullet",
-	"statusEffects" : [ "electrified" ]
+	"statusEffects" : [  ]
 }

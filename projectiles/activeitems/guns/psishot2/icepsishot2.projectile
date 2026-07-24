@@ -1,15 +1,15 @@
 {
-  "projectileName" : "psiiceshot3",
+  "projectileName" : "icepsishot2",
 	"physics" : "laser",
 	"bounces" : 0,
-  "image" : "psiiceshot3.png",
+  "image" : "icepsishot2.png",
 	"flippable" : true,
 	"fullbright" : true,
   "animationCycle" : 0.2,
 	"animationLoops" : true,
-  "frameNumber" : 2,
+  "frameNumber" : 4,
   "lightColor" : [210, 224, 240],
-	"power" : 100,
+	"power" : 75,
 	"speed" : 75,
   "actionOnReap" : [
 		{
