@@ -5,7 +5,7 @@
   "itemDrop" : "vantaplatform",
   "shortdescription" : "Vanta Platform",
   "description" : "A platform made using an advanced alloy.",
-  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "category" : "Supports",
 
   "renderTemplate" : "/tiles/platformtemplate.config",

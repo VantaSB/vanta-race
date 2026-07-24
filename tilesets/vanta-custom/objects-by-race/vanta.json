@@ -54,7 +54,7 @@
       "//name" : "bladedisplay1",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-16",
       "object" : "bladedisplay1",
       "tilesetDirection" : "right"
     },
@@ -63,7 +63,7 @@
       "//name" : "bladedisplay2",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-16",
       "object" : "bladedisplay2",
       "tilesetDirection" : "right"
     },
@@ -72,7 +72,7 @@
       "//name" : "bladedisplay3",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-16",
       "object" : "bladedisplay3",
       "tilesetDirection" : "right"
     },
@@ -81,7 +81,7 @@
       "//name" : "bladedisplay4",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-16",
       "object" : "bladedisplay4",
       "tilesetDirection" : "right"
     },
@@ -90,7 +90,7 @@
       "//name" : "bladedisplay5",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-16",
       "object" : "bladedisplay5",
       "tilesetDirection" : "right"
     },
@@ -99,7 +99,7 @@
       "//name" : "bladedisplay6",
       "//shortdescription" : "Nightar Blade Display",
       "imagePositionX" : "-8",
-      "imagePositionY" : "0",
+      "imagePositionY" : "-16",
       "object" : "bladedisplay6",
       "tilesetDirection" : "right"
     },
@@ -870,20 +870,20 @@
     },
     "95" : {
 			"//description" : "A large ornate lamp that burns with a soft violet flame.",
-      "//name" : "vantafrozenfiretorch",
-      "//shortdescription" : "Vanta Ritual Torch",
+			"//name" : "nightsteeltrialtorch",
+			"//shortdescription" : "Nightsteel Trial Torch",
       "imagePositionX" : "-8",
       "imagePositionY" : "-8",
-      "object" : "vantafrozenfiretorch",
+			"object" : "nightsteeltrialtorch",
       "tilesetDirection" : "right"
     },
     "96" : {
 			"//description" : "A nightsteel torch bearing the Vanta emblem.",
-      "//name" : "nightsteelritualwalltorch",
-      "//shortdescription" : "Nightsteel Wall Torch",
+			"//name" : "nightsteeltrialwalltorch",
+			"//shortdescription" : "Nightsteel Trial Wall Torch",
       "imagePositionX" : "-8",
       "imagePositionY" : "-8",
-      "object" : "nightsteelritualwalltorch",
+			"object" : "nightsteeltrialwalltorch",
       "tilesetDirection" : "right"
     },
     "97" : {
@@ -1481,25 +1481,67 @@
       "tilesetDirection" : "right"
     },
     "163" : {
-      "invalid" : "true"
+			"//description" : "A polished bar top, complete with three stools.",
+      "//name" : "vantabar",
+      "//shortdescription" : "Vanta Bar",
+      "imagePositionX" : "-40",
+      "imagePositionY" : "0",
+      "object" : "vantabar",
+      "tilesetDirection" : "right"
     },
     "164" : {
-      "invalid" : "true"
+			"//description" : "A small, elegant table for dining.",
+      "//name" : "vantasmalltable",
+      "//shortdescription" : "Vanta Small Table",
+      "imagePositionX" : "-24",
+      "imagePositionY" : "0",
+      "object" : "vantasmalltable",
+      "tilesetDirection" : "right"
     },
     "165" : {
-      "invalid" : "true"
+			"//description" : "A drinks cabinet, stocked with glassware and odd-shaped bottles.",
+      "//name" : "vantabarcabinet",
+      "//shortdescription" : "Vanta Bar Cabinet",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantabarcabinet",
+      "tilesetDirection" : "right"
     },
     "166" : {
-      "invalid" : "true"
+			"//description" : "A wall shelf for displaying trinkets. Or a booze collection.",
+      "//name" : "vantabarshelf",
+      "//shortdescription" : "Vanta Bar Shelf",
+      "imagePositionX" : "-32",
+      "imagePositionY" : "0",
+      "object" : "vantabarshelf",
+      "tilesetDirection" : "right"
     },
     "167" : {
-      "invalid" : "true"
+			"//description" : "A lounging chair with very comfortable cushioning.",
+      "//name" : "vantaloungechair",
+      "//shortdescription" : "Vanta Lounge Chair",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "0",
+      "object" : "vantaloungechair",
+      "tilesetDirection" : "right"
     },
     "168" : {
-      "invalid" : "true"
+			"//description" : "A Nightar chandelier. A good way to light a large room.",
+      "//name" : "nightarchandelier2",
+      "//shortdescription" : "Nightar Chandelier",
+      "imagePositionX" : "-16",
+      "imagePositionY" : "-16",
+      "object" : "nightarchandelier2",
+      "tilesetDirection" : "right"
     },
     "169" : {
-      "invalid" : "true"
+			"//description" : "A short-range teleporter that works only in the void.",
+      "//name" : "voidteleporter",
+      "//shortdescription" : "Void Teleporter",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "voidteleporter",
+      "tilesetDirection" : "right"
     },
     "170" : {
       "invalid" : "true"
@@ -1653,7 +1695,7 @@
       "//name" : "nightarpropdoor",
       "//shortdescription" : "Vanta Base Door",
       "imagePositionX" : "-16",
-      "imagePositionY" : "0",
+			"imagePositionY" : "-24",
       "object" : "nightarpropdoor",
       "tilesetDirection" : "right"
     },
@@ -2347,10 +2389,10 @@
       "image" : "../../../tiled/vanta-custom/objects/vantashipdoorblast2.png"
     },
     "95" : {
-      "image" : "../../../tiled/vanta-custom/objects/vantafrozenfiretorch.png"
+			"image" : "../../../tiled/vanta-custom/objects/nightsteeltrialtorch.png"
     },
     "96" : {
-      "image" : "../../../tiled/vanta-custom/objects/nightsteelritualwalltorch.png"
+			"image" : "../../../tiled/vanta-custom/objects/nightsteeltrialwalltorch.png"
     },
     "97" : {
       "image" : "../../../tiled/vanta-custom/objects/nightarthronesecret.png"
@@ -2551,25 +2593,25 @@
       "image" : "../../../tiled/vanta-custom/objects/prisonsign4.png"
     },
     "163" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantabar.png"
     },
     "164" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantasmalltable.png"
     },
     "165" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantabarcabinet.png"
     },
     "166" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantabarshelf.png"
     },
     "167" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/vantaloungechair.png"
     },
     "168" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/nightarchandelier2.png"
     },
     "169" : {
-      "image" : "../../../tiled/vanta-custom/invalid.png"
+      "image" : "../../../tiled/vanta-custom/objects/voidteleporter.png"
     },
     "170" : {
       "image" : "../../../tiled/vanta-custom/invalid.png"

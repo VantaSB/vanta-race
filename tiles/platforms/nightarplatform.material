@@ -5,7 +5,7 @@
   "itemDrop" : "nightarplatform",
   "shortdescription" : "Nightar Platform",
   "description" : "A strong platform made of unknown materials.",
-  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "category" : "Supports",
 
   "renderTemplate" : "/tiles/platformtemplate.config",
